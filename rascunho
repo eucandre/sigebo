@@ -1,0 +1,304 @@
+var entrada = document.getElementById("entrada");
+var saida = document.getElementById("saida");
+
+function efetuaCalculo(){
+  //Cálculo simples de potência só pra ilustrar
+  saida.innerHTML = Math.pow(entrada.value, 2);
+}
+
+entrada.addEventListener("keyup", efetuaCalculo);
+
+
+
+
+
+
+<div>
+  <label>Entrada: </label>
+  <input type="number" name="entrada" id="entrada" />
+</div>
+
+<div>
+  <label>Saída: </label>
+  <span id="saida"></span>
+</div>
+
+
+
+
+<table border="2">
+                    <tr>
+                        <td align="center">Reposição/ano</td>
+                        <td width="10%">1º ano</td>
+                        <td width="10%">2º ano</td>
+                        <td width="10%">3º ano</td>
+                        <td width="10%">4º ano</td>
+                        <td width="10%">5º ano</td>
+                        <td width="10%">6º ano</td>
+                        <td width="10%">7º ano</td>
+                        <td width="10%">8º ano</td>
+                        <td width="10%">9º ano</td>
+                    </tr>
+                    <tr>
+                        <td width="10%">Touros</td>
+                        <td width="10%"><input id="id_tourosR"/></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                    </tr>
+                    <tr>
+                        <td width="10%">Matrizes</td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                    </tr>
+                    <tr>
+                        <td width="10%">Descarte</td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                    </tr><tr>
+                        <td width="10%">0-1 ano</td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                    </tr><tr>
+                        <td width="10%">1-2 anos</td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                    </tr><tr>
+                        <td width="10%">2-3 anos</td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                    </tr><tr>
+                        <td width="10%">Compras fêmeas reprodução</td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                    </tr><tr>
+                        <td width="10%">Animais 2-3 para reprodução</td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                    </tr><tr>
+                        <td width="10%">Vendas de vacas (descarte/ano)</td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                    </tr><tr>
+                        <td width="10%">Venda de novilh(o|a)s por ano</td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                    </tr><tr>
+                        <td width="10%">Venda de novilh(o|a)s por ano @</td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                    </tr><tr>
+                        <td width="10%">Venda de vacas por ano @</td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                        <td width="10%"></td>
+                    </tr>
+                </table>
+
+
+
+
+<form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Nome da Fazenda <span class="required">*</span>
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input type="text" id="id_nome_fazenda" required="required" class="form-control col-md-7 col-xs-12">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Proprietário da fazenda <span class="required">*</span>
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input type="text" id="id_proprietario" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
+                                            </div>
+                                        </div>
+
+                                        <h4 style="left: 20%;position: relative;">Endereço</h4>
+
+                                        <div class="form-group">
+                                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12"> Município <span class="required">*  </span></label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input id="id_cidade" class="form-control col-md-7 col-xs-12" type="text" name="middle-name" required="required" type="text">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="form-group"  >
+                                            <label for = "id_uf_municipio" class="control-label col-md-3 col-sm-3 col-xs-12">Unidade federativa<span class="required">* </span></label>
+                                            <div class="col-md-9 col-sm-9 col-xs-12">
+                                                <select name= "uf_municipio" id = "id_uf_municipio" class="form-control" style="width: 25%;" >
+                                                    <option value="" selected="selected">---------</option>
+<option value="Acre">Acre</option>
+<option value="Alagoas">Alagoas</option>
+<option value="Amapa">Amapá</option>
+<option value="Amazonas">Amazonas</option>
+<option value="Bahia">Bahia</option>
+<option value="Ceara">Ceará</option>
+<option value="Distrito Federal">Distrito federal</option>
+<option value="Espirito Santo">Esírito santo</option>
+<option value="Goias">Goias</option>
+<option value="Maranhao">Maranhão</option>
+<option value="Mato Grosso">Mato grosso</option>
+<option value="Mato Grosso do Sul">Mato grosso do sul</option>
+<option value="Minas Gerais">Minas gerais</option>
+<option value="Para">Pará</option>
+<option value="Paraiba">Paraíba</option>
+<option value="Parana">Paraná</option>
+<option value="Pernambuco">Pernambuco</option>
+<option value="Piaui">Piauí</option>
+<option value="Rio de janeiro">Rio de janeiro</option>
+<option value="Rio Grande do Sul">Rio grande do sul</option>
+<option value="Rio Grande do Norte">Rio grande do Norte</option>
+<option value="Rondonia">Rondônia</option>
+<option value="Roraima">Roraima</option>
+<option value="Santa Catarina">Santa catarina</option>
+<option value="Sao paulo">São paulo</option>
+<option value="Sergipe">Sergipe</option>
+<option value="Tocantins">Tocantins</option>
+</select></p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="form-group" style="width: 20%; top:-54px; left: 55%;position: relative;">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-3">CEP</label>
+                                            <div class="col-md-9 col-sm-9 col-xs-9">
+                                                <input  id="id_cep" type="text" class="form-control" data-inputmask ="'mask': '99999-999'">
+                                                <span class="fa fa-user form-control-feedback right" aria-hidden="true"></span>
+                                            </div>
+                                        </div>
+                                        <div style="top:-54px;position: relative;">
+                                        <div class="form-group" >
+                                            <label for="id_rua" class="control-label col-md-3 col-sm-3 col-xs-12"> Rua <span class="required">*  </span></label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input id="id_rua"  style="width: 60%;" class="form-control col-md-7 col-xs-12" type="text" name="middle-name" required="required" type="text">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group"  style="top:-45px; left: 43%;position: relative;">
+                                            <label for="id_numero" class="control-label col-md-3 col-sm-3 col-xs-12"> Número <span class="required">*  </span></label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input id="id_numero"  style="width: 11%;" class="form-control col-md-7 col-xs-12" type="text" name="middle-name" required="required" type="text">
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div style="top:-97px;position: relative;">
+                                        <h4 style="left: 20%;position: relative;">Contato</h4>
+
+                                        <div class="form-group"  >
+                                            <label for="id_telefone" class="control-label col-md-3 col-sm-3 col-xs-12"> Telefone <span class="required">*  </span></label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input id="id_telefone"  style="width: 40%;" data-inputmask ="'mask': '9999-9999'" class="form-control col-md-7 col-xs-12" type="text" name="middle-name" required="required" type="text">
+                                            </div>
+                                        </div>
+
+                                            <div class="form-group" style=" top:-43px; left: 29%;position: relative;"  >
+                                            <label for="id_email" class="control-label col-md-3 col-sm-3 col-xs-12"> e-mail <span class="required">*  </span></label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input id="id_email"  style="width: 40%;" data-inputmask ="'mask': '9999-9999'" class="form-control col-md-7 col-xs-12" type="text" name="middle-name" required="required" type="text">
+                                            </div>
+                                        </div>
+                                            </div>
+
+                                        <!--<div class="ln_solid"></div>
+                                        <div class="form-group">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+                                                <button type="submit" class="btn btn-primary">Cancelar</button>
+                                                <button type="submit" class="btn btn-success" value="/">Salvar</button>
+                                            </div>
+                                        </div>-->

@@ -1,0 +1,188 @@
+{% extends "index.html" %}
+{% block um %}
+    <span style="font-size: 25px;">Venda por categoria</span>
+    <hr size="50">
+    <span style="">Rebanho/ano</span>
+    <span style="top:25%;left: 19%;position: absolute;">Vendas vacas descarte/ano</span>
+    <span style="top:25%;left: 35%;position: absolute;">{{ form.descarte_vacas }}</span>
+    <span style="top:25%;left: 40%;position: absolute;">{{ form.descarte_vacas2 }}</span>
+    <span style="top:25%;left: 45%;position: absolute;">{{ form.descarte_vacas3 }}</span>
+    <span style="top:25%;left: 50%;position: absolute;">{{ form.descarte_vacas4 }}</span>
+    <span style="top:25%;left: 55%;position: absolute;">{{ form.descarte_vacas5 }}</span>
+    <span style="top:25%;left: 60%;position: absolute;">{{ form.descarte_vacas6 }}</span>
+    <span style="top:25%;left: 65%;position: absolute;">{{ form.descarte_vacas7 }}</span>
+    <span style="top:25%;left: 70%;position: absolute;">{{ form.descarte_vacas8 }}</span>
+    <span style="top:25%;left: 75%;position: absolute;">{{ form.descarte_vacas9 }}</span>
+
+    <span style="top:30%;left: 19%;position: absolute;">Vendas novilho(as) por ano</span>
+    <span style="top:30%;left: 35%;position: absolute;">{{ form.descarte_novilhos_as }}</span>
+    <span style="top:30%;left: 40%;position: absolute;">{{ form.descarte_novilhos_as2 }}</span>
+    <span style="top:30%;left: 45%;position: absolute;">{{ form.descarte_novilhos_as3 }}</span>
+    <span style="top:30%;left: 50%;position: absolute;">{{ form.descarte_novilhos_as4}}</span>
+    <span style="top:30%;left: 55%;position: absolute;">{{ form.descarte_novilhos_as5 }}</span>
+    <span style="top:30%;left: 60%;position: absolute;">{{ form.descarte_novilhos_as6 }}</span>
+    <span style="top:30%;left: 65%;position: absolute;">{{ form.descarte_novilhos_as7 }}</span>
+    <span style="top:30%;left: 70%;position: absolute;">{{ form.descarte_novilhos_as8 }}</span>
+    <span style="top:30%;left: 75%;position: absolute;">{{ form.descarte_novilhos_as9 }}</span>
+
+    <span style="top:35%;left: 19%;position: absolute;">Bezerras desmamadas</span>
+    <span style="top:35%;left: 35%;position: absolute;">{{ form.Bezerras_desmamadas }}</span>
+    <span style="top:35%;left: 40%;position: absolute;">{{ form.Bezerras_desmamadas2 }}</span>
+    <span style="top:35%;left: 45%;position: absolute;">{{ form.Bezerras_desmamadas3 }}</span>
+    <span style="top:35%;left: 50%;position: absolute;">{{ form.Bezerras_desmamadas4 }}</span>
+    <span style="top:35%;left: 55%;position: absolute;">{{ form.Bezerras_desmamadas5 }}</span>
+    <span style="top:35%;left: 60%;position: absolute;">{{ form.Bezerras_desmamadas6 }}</span>
+    <span style="top:35%;left: 65%;position: absolute;">{{ form.Bezerras_desmamadas7 }}</span>
+    <span style="top:35%;left: 70%;position: absolute;">{{ form.Bezerras_desmamadas8 }}</span>
+    <span style="top:35%;left: 75%;position: absolute;">{{ form.Bezerras_desmamadas9 }}</span>
+
+    <span style="top:40%;left: 19%;position: absolute;">Bezerros desmamados</span>
+    <span style="top:40%;left: 35%;position: absolute;">{{ form.Bezerros_desmamados }}</span>
+    <span style="top:40%;left: 40%;position: absolute;">{{ form.Bezerros_desmamados2 }}</span>
+    <span style="top:40%;left: 45%;position: absolute;">{{ form.Bezerros_desmamados3 }}</span>
+    <span style="top:40%;left: 50%;position: absolute;">{{ form.Bezerros_desmamados4 }}</span>
+    <span style="top:40%;left: 55%;position: absolute;">{{ form.Bezerros_desmamados5 }}</span>
+    <span style="top:40%;left: 60%;position: absolute;">{{ form.Bezerros_desmamados6 }}</span>
+    <span style="top:40%;left: 65%;position: absolute;">{{ form.Bezerros_desmamados7 }}</span>
+    <span style="top:40%;left: 70%;position: absolute;">{{ form.Bezerros_desmamados8 }}</span>
+    <span style="top:40%;left: 75%;position: absolute;">{{ form.Bezerros_desmamados9 }}</span>
+
+    <span style="top:45%;left: 19%;position: absolute;">Machos 1-2 anos</span>
+    <span style="top:45%;left: 35%;position: absolute;">{{ form.Machos_1_2 }}</span>
+    <span style="top:45%;left: 40%;position: absolute;">{{ form.Machos_1_2_2 }}</span>
+    <span style="top:45%;left: 45%;position: absolute;">{{ form.Machos_1_2_3 }}</span>
+    <span style="top:45%;left: 50%;position: absolute;">{{ form.Machos_1_2_4 }}</span>
+    <span style="top:45%;left: 55%;position: absolute;">{{ form.Machos_1_2_5 }}</span>
+    <span style="top:45%;left: 60%;position: absolute;">{{ form.Machos_1_2_6 }}</span>
+    <span style="top:45%;left: 65%;position: absolute;">{{ form.Machos_1_2_7 }}</span>
+    <span style="top:45%;left: 70%;position: absolute;">{{ form.Machos_1_2_8 }}</span>
+    <span style="top:45%;left: 75%;position: absolute;">{{ form.Machos_1_2_9 }}</span>
+
+    <span style="top:50%;left: 19%;position: absolute;">Machos 2-3 anos</span>
+    <span style="top:50%;left: 35%;position: absolute;">{{ form.Machos_2_3 }}</span>
+    <span style="top:50%;left: 40%;position: absolute;">{{ form.Machos_2_3_2 }}</span>
+    <span style="top:50%;left: 45%;position: absolute;">{{ form.Machos_2_3_3 }}</span>
+    <span style="top:50%;left: 50%;position: absolute;">{{ form.Machos_2_3_4 }}</span>
+    <span style="top:50%;left: 55%;position: absolute;">{{ form.Machos_2_3_5 }}</span>
+    <span style="top:50%;left: 60%;position: absolute;">{{ form.Machos_2_3_6 }}</span>
+    <span style="top:50%;left: 65%;position: absolute;">{{ form.Machos_2_3_7 }}</span>
+    <span style="top:50%;left: 70%;position: absolute;">{{ form.Machos_2_3_8 }}</span>
+    <span style="top:50%;left: 75%;position: absolute;">{{ form.Machos_2_3_9 }}</span>
+
+    <span style="top:55%;left: 19%;position: absolute;">Machos 3-4 anos (gordos)</span>
+    <span style="top:55%;left: 35%;position: absolute;">{{ form.Machos_3_4 }}</span>
+    <span style="top:55%;left: 40%;position: absolute;">{{ form.Machos_3_4_2 }}</span>
+    <span style="top:55%;left: 45%;position: absolute;">{{ form.Machos_3_4_3 }}</span>
+    <span style="top:55%;left: 50%;position: absolute;">{{ form.Machos_3_4_4 }}</span>
+    <span style="top:55%;left: 55%;position: absolute;">{{ form.Machos_3_4_5 }}</span>
+    <span style="top:55%;left: 60%;position: absolute;">{{ form.Machos_3_4_6 }}</span>
+    <span style="top:55%;left: 65%;position: absolute;">{{ form.Machos_3_4_7 }}</span>
+    <span style="top:55%;left: 70%;position: absolute;">{{ form.Machos_3_4_8 }}</span>
+    <span style="top:55%;left: 75%;position: absolute;">{{ form.Machos_3_4_9 }}</span>
+
+    <span style="top:60%;left: 19%;position: absolute;">Machos +4anos (gordos)</span>
+    <span style="top:60%;left: 35%;position: absolute;">{{ form.Machos_4_mais }}</span>
+    <span style="top:60%;left: 40%;position: absolute;">{{ form.Machos_4_mais_2 }}</span>
+    <span style="top:60%;left: 45%;position: absolute;">{{ form.Machos_4_mais_3 }}</span>
+    <span style="top:60%;left: 50%;position: absolute;">{{ form.Machos_4_mais_4 }}</span>
+    <span style="top:60%;left: 55%;position: absolute;">{{ form.Machos_4_mais_5 }}</span>
+    <span style="top:60%;left: 60%;position: absolute;">{{ form.Machos_4_mais_6 }}</span>
+    <span style="top:60%;left: 65%;position: absolute;">{{ form.Machos_4_mais_7 }}</span>
+    <span style="top:60%;left: 70%;position: absolute;">{{ form.Machos_4_mais_8 }}</span>
+    <span style="top:60%;left: 75%;position: absolute;">{{ form.Machos_4_mais_9 }}</span>
+
+    <span style="top:65%;left: 19%;position: absolute;">Total</span>
+    <span style="top:65%;left: 35%;position: absolute;">{{ form.total }}</span>
+    <span style="top:65%;left: 40%;position: absolute;">{{ form.total2 }}</span>
+    <span style="top:65%;left: 45%;position: absolute;">{{ form.total3 }}</span>
+    <span style="top:65%;left: 50%;position: absolute;">{{ form.total4 }}</span>
+    <span style="top:65%;left: 55%;position: absolute;">{{ form.total5 }}</span>
+    <span style="top:65%;left: 60%;position: absolute;">{{ form.total6 }}</span>
+    <span style="top:65%;left: 65%;position: absolute;">{{ form.total7 }}</span>
+    <span style="top:65%;left: 70%;position: absolute;">{{ form.total8 }}</span>
+    <span style="top:65%;left: 75%;position: absolute;">{{ form.total9 }}</span>
+
+    <span style="left: 35%;position: absolute;">1º ano</span>
+    <span style="left: 40%;position: absolute;">2º ano</span>
+    <span style="left: 45%;position: absolute;">3º ano</span>
+    <span style="left: 50%;position: absolute;">4º ano</span>
+    <span style="left: 55%;position: absolute;">5º ano</span>
+    <span style="left: 60%;position: absolute;">6º ano</span>
+    <span style="left: 65%;position: absolute;">7º ano</span>
+    <span style="left: 70%;position: absolute;">8º ano</span>
+    <span style="left: 75%;position: absolute;">9º ano</span>
+{% endblock %}
+
+{% block dois %}
+    <span style="font-size: 25px;top:70%;left: 19%;position: absolute;">Compra de bovinos (cab.)</span>
+    <span style="top:78%;left: 38%;position: absolute;">Anos</span>
+    <!--numeros-->
+    <span style="top:80%;left: 28%;position: absolute;">1</span>
+    <span style="top:80%;left: 32%;position: absolute;">2</span>
+    <span style="top:80%;left: 36%;position: absolute;">3</span>
+    <span style="top:80%;left: 40%;position: absolute;">4</span>
+    <span style="top:80%;left: 44%;position: absolute;">5</span>
+    <span style="top:80%;left: 48%;position: absolute;">6</span>
+    <span style="top:80%;left: 52%;position: absolute;">7</span>
+    <span style="top:80%;left: 56%;position: absolute;">8</span>
+    <span style="top:80%;left: 60%;position: absolute;">9</span>
+
+
+    <span style="top:83%;left: 19%;position: absolute;">V. paridas</span>
+    <span style="top:83%;left: 27%;position: absolute;">{{ form.Vacas_paridas_compra }}</span>
+    <span style="top:83%;left: 31%;position: absolute;">{{ form.Vacas_paridas_compra2 }}</span>
+    <span style="top:83%;left: 35%;position: absolute;">{{ form.Vacas_paridas_compra3 }}</span>
+    <span style="top:83%;left: 39%;position: absolute;">{{ form.Vacas_paridas_compra4 }}</span>
+    <span style="top:83%;left: 43%;position: absolute;">{{ form.Vacas_paridas_compra5 }}</span>
+    <span style="top:83%;left: 47%;position: absolute;">{{ form.Vacas_paridas_compra6 }}</span>
+    <span style="top:83%;left: 51%;position: absolute;">{{ form.Vacas_paridas_compra7 }}</span>
+    <span style="top:83%;left: 55%;position: absolute;">{{ form.Vacas_paridas_compra8 }}</span>
+    <span style="top:83%;left: 59%;position: absolute;">{{ form.Vacas_paridas_compra9 }}</span>
+
+    <span style="top:87%;left: 19%;position: absolute;">V. solteiras</span>
+    <span style="top:87%;left: 27%;position: absolute;">{{ form.Vacas_solteiras_compra }}</span>
+    <span style="top:87%;left: 31%;position: absolute;">{{ form.Vacas_solteiras_compra2 }}</span>
+    <span style="top:87%;left: 35%;position: absolute;">{{ form.Vacas_solteiras_compra3 }}</span>
+    <span style="top:87%;left: 39%;position: absolute;">{{ form.Vacas_solteiras_compra4 }}</span>
+    <span style="top:87%;left: 43%;position: absolute;">{{ form.Vacas_solteiras_compra5 }}</span>
+    <span style="top:87%;left: 47%;position: absolute;">{{ form.Vacas_solteiras_compra6 }}</span>
+    <span style="top:87%;left: 51%;position: absolute;">{{ form.Vacas_solteiras_compra7 }}</span>
+    <span style="top:87%;left: 55%;position: absolute;">{{ form.Vacas_solteiras_compra8 }}</span>
+    <span style="top:87%;left: 59%;position: absolute;">{{ form.Vacas_solteiras_compra9 }}</span>
+
+
+    <span style="top:91%;left: 19%;position: absolute;">Novilha 3-4</span>
+    <span style="top:91%;left: 27%;position: absolute;">{{ form.Novilhas_34_Compra }}</span>
+    <span style="top:91%;left: 31%;position: absolute;">{{ form.Novilhas_34_Compra2 }}</span>
+    <span style="top:91%;left: 35%;position: absolute;">{{ form.Novilhas_34_Compra3 }}</span>
+    <span style="top:91%;left: 39%;position: absolute;">{{ form.Novilhas_34_Compra4 }}</span>
+    <span style="top:91%;left: 43%;position: absolute;">{{ form.Novilhas_34_Compra5 }}</span>
+    <span style="top:91%;left: 47%;position: absolute;">{{ form.Novilhas_34_Compra6 }}</span>
+    <span style="top:91%;left: 51%;position: absolute;">{{ form.Novilhas_34_Compra7 }}</span>
+    <span style="top:91%;left: 55%;position: absolute;">{{ form.Novilhas_34_Compra8 }}</span>
+    <span style="top:91%;left: 59%;position: absolute;">{{ form.Novilhas_34_Compra9 }}</span>
+
+
+    <span style="top:95%;left: 19%;position: absolute;">Novilha 2-3</span>
+    <span style="top:95%;left: 27%;position: absolute;">{{ form.Novilhas_32_Compra }}</span>
+    <span style="top:95%;left: 31%;position: absolute;">{{ form.Novilhas_32_Compra2 }}</span>
+    <span style="top:95%;left: 35%;position: absolute;">{{ form.Novilhas_32_Compra3 }}</span>
+    <span style="top:95%;left: 39%;position: absolute;">{{ form.Novilhas_32_Compra4 }}</span>
+    <span style="top:95%;left: 43%;position: absolute;">{{ form.Novilhas_32_Compra5 }}</span>
+    <span style="top:95%;left: 47%;position: absolute;">{{ form.Novilhas_32_Compra6 }}</span>
+    <span style="top:95%;left: 51%;position: absolute;">{{ form.Novilhas_32_Compra7 }}</span>
+    <span style="top:95%;left: 55%;position: absolute;">{{ form.Novilhas_32_Compra8 }}</span>
+    <span style="top:95%;left: 59%;position: absolute;">{{ form.Novilhas_32_Compra9 }}</span>
+
+    <span style="top:99%;left: 19%;position: absolute;">Novilha 1-2</span>
+    <span style="top:103%;left: 19%;position: absolute;">Bezerras 0-1</span>
+    <span style="top:107%;left: 19%;position: absolute;">Bezerros 0-1</span>
+    <span style="top:111%;left: 19%;position: absolute;">Machos 1-2</span>
+    <span style="top:115%;left: 19%;position: absolute;">Machos 2-3</span>
+    <span style="top:119%;left: 19%;position: absolute;">Machos 3-4</span>
+    <span style="top:123%;left: 19%;position: absolute;">Machos > 4</span>
+    <span style="top:127%;left: 19%;position: absolute;">Total</span>
+
+
+
+{% endblock %}

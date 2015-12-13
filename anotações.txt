@@ -1,0 +1,15 @@
+n_piquetes_categoria(linha 245):
+	(tempo_descanso/tempo_pastejo)+1
+	
+
+razao_area_piquete_categoria_piquete_machos (linha 246) :
+	area_piquetes_machos_hectare/n_piquetes_categoria
+razao_area_piquete_categoria_piquete_femeas (linha 248):
+	area_piquetes_femeas_hectare/n_piquetes_categoria
+razao_area_piquete_categoria_piquete_animais6_12 (linha 249):
+	area_piquetes_animais6_12/n_piquetes_categoria
+razao_area_piquete_categoria_piquete_animais12_21( linha 250):
+	area_piquetes_animais12_21/n_piquetes_categoria
+
+
+Essas fórmulas devem retornar o valor na hora do preenchimento, eu fiz umas fórmulas que retornam os valores na mesma hora se precisar eu mando.
