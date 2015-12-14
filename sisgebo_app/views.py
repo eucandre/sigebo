@@ -214,7 +214,7 @@ def inventario_atividade(request):
             item.save()
     else:
         form = FormMaoObra()
-    return render_to_response("gastos_veterinarios.html", {"form":form}, context_instance = RequestContext(request))
+    return render_to_response("orcamentos/inventario_atividade.html", {"form":form}, context_instance = RequestContext(request))
 
 
 
