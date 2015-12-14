@@ -141,17 +141,17 @@ def rendimento_carca(request):
                 Creep_feeding=dados['Creep_feeding'],outros_alimentos=dados['outros_alimentos'])
             item.save()
     else:
-        form = FormMaoObra()
+        form = FormRendimentoCarcaca()
     return render_to_response("gastos_veterinarios.html", {"form":form}, context_instance = RequestContext(request))
 
 #para os relatorios financeiros
 
 def inventario_atividade(request):
     if request.method=='post':
-        form = FormRendimentoCarcaca(request.POST, request.FILES)
+        form = FormInventarioatividade(request.POST, request.FILES)
         if form.is_valid():
             dados = form.cleaned_data
-            item  = Rendiemnto_carcaca(fazenda = dados['fazenda'], Insumos_valor_inicial_mercado= dados['Insumos_valor_inicial_mercado'], Insumos_capital_medio = dados['Insumos_capital_medio'],
+            item  = Inventario_ligado_atividade(fazenda = dados['fazenda'], Insumos_valor_inicial_mercado= dados['Insumos_valor_inicial_mercado'], Insumos_capital_medio = dados['Insumos_capital_medio'],
                 Insumos_valor_final_ou_sucata =dados['Insumos_valor_final_ou_sucata '],Insumos_porcentagem_patrimonio=dados['Insumos_porcentagem_patrimonio'], 
                 maquinas_implementos_valor_inicial_de_mercado =dados['maquinas_implementos_valor_inicial_de_mercado '],
                 maquinas_implementos_capital_medio =dados['maquinas_implementos_capital_medio '],maquinas_implementos_valor_final_ou_sucata =dados['maquinas_implementos_valor_final_ou_sucata'],
@@ -213,12 +213,158 @@ def inventario_atividade(request):
 )
             item.save()
     else:
-        form = FormMaoObra()
+        form = FormInventarioatividade()
     return render_to_response("orcamentos/inventario_atividade.html", {"form":form}, context_instance = RequestContext(request))
 
+def depreciacao(request):
+    if request.method=='post':
+        form = Formdepreciacao(request.POST, request.FILES)
+        if form.is_valid():
+            dados = form.cleaned_data
+            item = depreciacao(
+                    maquina_implemento_valor_inicial = dados['maquina_implemento_valor_inicial'],
+                    maquina_implemento_capital_medio = dados['maquina_implemento_capital_medio'],
+                    maquina_implemento_valor_final_ou_sucata = dados['maquina_implemento_valor_final_ou_sucata'],
+                    maquina_implemento_depreciacao_anual = dados['maquina_implemento_depreciacao_anual'],
+                    maquina_implemento_remuneracao_capital = dados['maquina_implemento_remuneracao_capital'],
+                    maquina_implemento_custo_fixo = dados['maquina_implemento_custo_fixo'],
+                    maquina_implemento_porcetagem_custo_fixo = dados['maquina_implemento_porcetagem_custo_fixo'],
+
+                    tratores_valor_inicial = dados['tratores_valor_inicial'],
+                    tratores_capital_medio = dados['tratores_capital_medio'],
+                    tratores_valor_final_ou_sucata = dados['tratores_valor_final_ou_sucata'],
+                    tratores_depreciacao_anual = dados['tratores_depreciacao_anual'],
+                    tratores_remuneracao_capital = dados['tratores_remuneracao_capital'],
+                    tratores_custo_fixo = dados['tratores_custo_fixo'],
+                    tratores_porcetagem_custo_fixo = dados['tratores_porcetagem_custo_fixo'],
+
+                    veiculos_valor_inicial         = dados['veiculos_valor_inicial'],
+                    veiculos_capital_medio         = dados['veiculos_capital_medio'],
+                    veiculos_valor_final_ou_sucata = dados['veiculos_valor_final_ou_sucata'],
+                    veiculos_depreciacao_anual     = dados['veiculos_depreciacao_anual'],
+                    veiculos_remuneracao_capital   = dados['veiculos_remuneracao_capital'],
+                    veiculos_custo_fixo            = dados['veiculos_custo_fixo'],
+                    veiculos_porcetagem_custo_fixo = dados['veiculos_porcetagem_custo_fixo'],
+
+                    equipamentos_manuais_valor_inicial          = dados['equipamentos_manuais_valor_inicial'],
+                    equipamentos_manuais_capital_medio          = dados['equipamentos_manuais_capital_medio'],
+                    equipamentos_manuais_valor_final_ou_sucata  = dados['equipamentos_manuais_valor_final_ou_sucata'],
+                    equipamentos_manuais_depreciacao_anual      = dados['equipamentos_manuais_depreciacao_anual'],
+                    equipamentos_manuais_remuneracao_capital    = dados['equipamentos_manuais_remuneracao_capital  '],
+                    equipamentos_manuais_custo_fixo             = dados['equipamentos_manuais_custo_fixo'],
+                    equipamentos_manuais_porcetagem_custo_fixo  = dados['equipamentos_manuais_porcetagem_custo_fixo'],
+
+                    reprodutores_machos_valor_inicial           = dados[''],
+                    reprodutores_machos_capital_medio           = dados[''],
+                    reprodutores_machos_valor_final_ou_sucata   = dados[''],
+                    reprodutores_machos_depreciacao_anual       = dados[''],
+                    reprodutores_machos_remuneracao_capital     = dados[''],
+                    reprodutores_machos_custo_fixo              = dados[''],
+                    reprodutores_machos_porcetagem_custo_fixo   = dados[''],
+
+                    reprodutores_femeas_valor_inicial           = dados[''],
+                    reprodutores_femeas_capital_medio           = dados[''],
+                    reprodutores_femeas_valor_final_ou_sucata   = dados[''],
+                    reprodutores_femeas_depreciacao_anual       = dados[''],
+                    reprodutores_femeas_remuneracao_capital     = dados[''],
+                    reprodutores_femeas_custo_fixo              = dados[''],
+                    reprodutores_femeas_porcetagem_custo_fixo   = dados[''],
+
+                    animais_trabalho_valor_inicial = dados[''],
+                    animais_trabalho_capital_medio = dados[''],
+                    animais_trabalho_valor_final_ou_sucata = dados[''],
+                    animais_trabalho_depreciacao_anual = dados[''],
+                    animais_trabalho_remuneracao_capital = dados[''],
+                    animais_trabalho_custo_fixo = dados[''],
+                    animais_trabalho_porcetagem_custo_fixo = dados[''],
+
+                    canavial_ou_volumoso_valor_inicial = dados[''],
+                    canavial_ou_volumoso_capital_medio = dados[''],
+                    canavial_ou_volumoso_valor_final_ou_sucata = dados[''],
+                    canavial_ou_volumoso_depreciacao_anual = dados[''],
+                    canavial_ou_volumoso_remuneracao_capital = dados[''],
+                    canavial_ou_volumoso_custo_fixo = dados[''],
+                    canavial_ou_volumoso_porcetagem_custo_fixo = dados[''],
+
+                    benfeitorias_valor_inicial = dados[''],
+                    benfeitorias_capital_medio = dados[''],
+                    benfeitorias_valor_final_ou_sucata = dados[''],
+                    benfeitorias_depreciacao_anual = dados[''],
+                    benfeitorias_remuneracao_capital = dados[''],
+                    benfeitorias_custo_fixo = dados[''],
+                    benfeitorias_porcetagem_custo_fixo = dados[''],
+
+                    cercas_valor_inicial = dados[''],
+                    cercas_capital_medio = dados[''],
+                    cercas_valor_final_ou_sucata = dados[''],
+                    cercas_depreciacao_anual = dados[''],
+                    cercas_remuneracao_capital = dados[''],
+                    cercas_custo_fixo = dados[''],
+                    cercas_porcetagem_custo_fixo = dados[''],
+
+                    edificacoes_valor_inicial = dados[''],
+                    edificacoes_capital_medio = dados[''],
+                    edificacoes_valor_final_ou_sucata = dados[''],
+                    edificacoes_depreciacao_anual = dados[''],
+                    edificacoes_remuneracao_capital = dados[''],
+                    edificacoes_custo_fixo = dados[''],
+                    edificacoes_porcetagem_custo_fixo = dados[''],
+
+                    pastagem_valor_inicial = dados[''],
+                    pastagem_capital_medio = dados[''],
+                    pastagem_valor_final_ou_sucata = dados[''],
+                    pastagem_depreciacao_anual = dados[''],
+                    pastagem_remuneracao_capital = dados[''],
+                    pastagem_custo_fixo = dados[''],
+                    pastagem_porcetagem_custo_fixo = dados[''],
+
+                    total_valor_inicial = dados[''],
+                    total_capital_medio = dados[''],
+                    total_valor_final_ou_sucata = dados[''],
+                    total_depreciacao_anual = dados[''],
+                    total_remuneracao_capital = dados[''],
+                    total_custo_fixo = dados[''],
+                    total_porcetagem_custo_fixo = dados[''],
+
+                    Depreciacao_mensal = dados[''],#
+                    jurus_remuneracao_ano = dados[''],#10
+
+                    #informacoes para os calculos
+
+                    maquina_implemento_calculo_depreciacao_anual = dados[''],
+                    maquina_implemento_calculo_amortizacao_ano = dados[''],
+
+                    tratores_calculo_depreciacao_anual = dados[''],
+                    tratores_calculo_amortizacao_ano = dados[''],
+
+                    veiculos_calculo_depreciacao_anual = dados[''],
+                    veiculos_calculo_amortizacao_ano = dados[''],
+
+                    equipamentos_manuais_calculo_depreciacao_anual = dados[''],
+                    equipamentos_manuais_calculo_amortizacao_ano = dados[''],
+
+                    reprodutores_machos_calculo_depreciacao_anual = dados[''],
+                    reprodutores_femeas_calculo_amortizacao_ano = dados[''],
+
+                    animais_de_trabalho_calculo_depreciacao_anual = dados[''],
+                    animais_de_trabalho_calculo_amortizacao_ano = dados[''],
+
+                    canavial_volumoso_calculo_depreciacao_anual = dados[''],
+                    canavial_volumoso_calculo_amortizacao_ano = dados[''],
+
+                    benfeitorias_calculo_depreciacao_anual = dados[''],
+                    benfeitorias_calculo_amortizacao_ano = dados[''],
+
+                    cercas_calculo_depreciacao_anual = dados[''],
+                    cercas_calculo_amortizacao_ano = dados[''],
+
+                    edificacoes_calculo_depreciacao_anual = dados[''],
+                    edificacoes_calculo_amortizacao_ano = dados[''],
+
+                    pastagem_calculo_depreciacao_anual = dados[''],
+                    pastagem_calculo_amortizacao_ano = dados[''],
 
 
-
-
+            )
 
 

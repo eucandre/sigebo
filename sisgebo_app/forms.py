@@ -635,7 +635,7 @@ class FormInventarioatividade(forms.Form):
     terra_valor_final_ou_sucata = forms.IntegerField(initial=50,widget=forms.TextInput(attrs={"style":"width:20%;"}))
     terra_porcentagem_patrimonio = forms.IntegerField(initial=50,widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-class Formdepreciacao(models.Model):
+class Formdepreciacao(forms.Form):
 
     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
     maquina_implemento_valor_inicial =forms.IntegerField(initial=50,widget=forms.TextInput(attrs={"style":"width:20%;"}))
