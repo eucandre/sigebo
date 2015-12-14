@@ -557,7 +557,7 @@ class FormRendimentoCarcaca(forms.Form):
 
 class FormInventarioatividade(forms.Form):
     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
-    Insumos_valor_inicial_mercado= forms.DateField(label='Ano',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    Insumos_valor_inicial_mercado= forms.IntegerField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Insumos_capital_medio= forms.IntegerField(label='Vaca gorda kg',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Insumos_valor_final_ou_sucata= forms.IntegerField(label='Novilha gorda kg',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Insumos_porcentagem_patrimonio= forms.IntegerField(label='Boi gordo kg',widget=forms.TextInput(attrs={"style":"width:20%;"}))
