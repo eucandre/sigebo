@@ -10,7 +10,7 @@ UF =((u'Acre','Acre'),(u'Alagoas','Alagoas'),(u'Amapa','Amapá'),(u'Amazonas','A
 (u'Sergipe','Sergipe'),(u'Tocantins','Tocantins'),)
 
 CARGO=((u'Peao','Peao'),(u'Capataz','Capataz'),(u'Gerente','Gerente'),(u'Tratorista','Tratorista'),(u'Outros','Outros'))
-
+TIPO = ((u'Aberto','Abreto'),(u'Fechado','Fechado'))
 
 
 
