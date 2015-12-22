@@ -505,7 +505,7 @@ class FormDimensionamentoSiloFechado(forms.Form):
     #pcgf = ConfinamentEmGalpaoFechado.objects.get(pk=(len(ConfinamentEmGalpaoFechado.objects.all())))
     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
     Duracao_confinamento=forms.IntegerField(label='Duracao do confinamento',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Comsumo_silagem=forms.IntegerField(label='Consumo de Silagem',initial=pcgf.Consumo_ms,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    Comsumo_silagem=forms.IntegerField(label='Consumo de Silagem',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Densidade=forms.IntegerField(label='Densidade',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Altura_Silo=forms.IntegerField(label='Altura do Silo',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Base_menor_silo=forms.IntegerField(label='Base menor do Silo',widget=forms.TextInput(attrs={"style":"width:20%;"}))
