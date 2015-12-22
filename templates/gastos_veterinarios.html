@@ -2,7 +2,12 @@
 {% block um %}
     <form action="" method="post">
     {% csrf_token %}
-        {{ form.as_p }}
+        <h3> gastos atuais</h3>
+        {{ form.vacinas }}<hr>
+        {{ form.vacinas_ru_ano }}<hr>
+        {{ form.sal_mineral }}<hr>
+        {{ form.sal_mineral_ru_ano }}<hr>
+        {{ form.outros_alimentos }}<hr>
     <button type="submit" value="/">ENVIAR</button>
     </form>
 {% endblock %}

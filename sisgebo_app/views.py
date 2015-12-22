@@ -26,7 +26,35 @@ def definicao_rebanho_inicial(request):
         form = FormDefinicao_rebanho_inicial(request.POST, request.FILES)
         touroR = ''
         if form.is_valid():
-            form.save()
+            dados = form.cleaned_data
+            item  = Definicao_sistema_e_rebanho_inicial(fazenda = dados["fazenda"],
+                    vacas = dados["vacas"],
+                    novilhas34 =dados["novilhas34"],
+                    novilhas23 =dados["novilhas23"],
+                    novilhas12 =dados["novilhas12"],
+                    bezerras01 =dados["bezerras01"],
+                    bezerros01 =dados["bezerros01"],
+                    machos12                    =dados["machos12"],
+                    machos23                    =dados["machos23"],
+                    machos34                    =dados["machos34 "],
+                    machos_maior_que_4          =dados["machos_maior_que_4"],
+                    touros      =dados["touros"],
+                    tourunos    =dados["tourunos"],
+                    vacas_descarte =dados["vacas_descarte"],
+                    total =dados["total"],
+                    fertilidade = dados["fertilidade"],
+                    mortalidade01 = dados["mortalidade01"],
+                    mortalidade12 = dados["mortalidade12"],
+                    reposicao = dados["reposicao"],
+                    numero_vacas_touro = dados["numero_vacas_touro"],
+                    peso_medio_arrouba_novilho      = dados["peso_medio_arrouba_novilho"],
+                    peso_medio_arrouba_vacas        = dados["peso_medio_arrouba_vacas"],
+                    intervalo_entre_partos = dados["intervalo_entre_partos"],
+                    idade_primeira_cria = dados["idade_primeira_cria"],
+                    peso_a_desmama = dados["peso_a_desmama"],
+                    peso_a_nascer  = dados["peso_a_nascer"],
+                    preco_arrouba = dados["preco_arrouba"],)
+            item.save()
         return render_to_response("salvo.html")
     else:
         form = FormDefinicao_rebanho_inicial()
@@ -55,8 +83,21 @@ def vendas_compras(request):
     if request.method=='post':
         form = FormVenda_Compra(request.POST, request.FILES)
         if form.is_valid():
+            try:
+                d = Definicao_sistema_e_rebanho_inicial.objects.get(pk=Definicao_sistema_e_rebanho_inicial.objects.all())
+            except Definicao_sistema_e_rebanho_inicial.DoesNotExist:
+                raise Http404()
             dados = form.cleaned_data
-            item  = Compra_e_venda(fazenda = dados['fazenda'], descarte_vacas= dados['descarte_vacas'])
+            item  = Compra_e_venda(fazenda = dados['fazenda'], ano = dados['ano'],descarte_vacas= dados['descarte_vacas'],
+    descarte_novilhos_as = dados['descarte_novilhos_as'],
+    Bezerras_desmamadas =dados['Bezerras_desmamadas'],
+    Bezerros_desmamados =dados['Bezerros_desmamados'],
+    Machos_1_2 =dados['Machos_1_2'],
+    Machos_2_3 =dados['Machos_2_3'],
+    Machos_3_4 =dados['Machos_3_4'],
+    Machos_4_mais =dados['Machos_4_mais'],
+)
+
             item.save()
     else:
         form = FormVenda_Compra()
@@ -116,15 +157,16 @@ def mao_obra(request):
             item.save()
     else:
         form = FormMaoObra()
-    return render_to_response("dimensionamento_fechado.html", {"form":form}, context_instance = RequestContext(request))
+    return render_to_response("mao_obra.html", {"form":form}, context_instance = RequestContext(request))
 
 def gastos_veterinarios(request):
     if request.method=='post':
         form = FormGastos_veterinarios(request.POST, request.FILES)
         if form.is_valid():
             dados = form.cleaned_data
-            item  = Gastos_Produtos_veterinarios(fazenda = dados['fazenda'], ano= dados['ano'], vacinas = dados['vacinas'],
-                Outros_medicamentos=dados['Outros_medicamentos'],sal_mineral=dados['sal_mineral'], sal_proteico=dados['sal_proteico'],racao_concentrada=dados['racao_concentrada'],
+            item  = Gastos_Produtos_veterinarios(fazenda = dados['fazenda'], ano= dados['ano'], vacinas = dados['vacinas'],vacinas_ru_ano = dados['vacinas_ru_ano'],
+                Outros_medicamentos=dados['Outros_medicamentos'],Outros_medicamentos_ru_ano=dados['Outros_medicamentos_ru_ano'],sal_mineral=dados['sal_mineral'],
+                sal_mineral_ru_ano=dados['sal_mineral_ru_ano'], sal_proteico=dados['sal_proteico'],racao_concentrada=dados['racao_concentrada'],
                 Creep_feeding=dados['Creep_feeding'],outros_alimentos=dados['outros_alimentos'])
             item.save()
     else:
@@ -142,7 +184,29 @@ def rendimento_carca(request):
             item.save()
     else:
         form = FormRendimentoCarcaca()
-    return render_to_response("gastos_veterinarios.html", {"form":form}, context_instance = RequestContext(request))
+    return render_to_response("rendimento_carcaca.html", {"form":form}, context_instance = RequestContext(request))
+
+def pggRc(request):
+    if request.method=="POST":
+        form = FormPGGRC(request.POST, request.FILES)
+        if form.is_valid():
+            dados = form.cleaned_data
+            item=pgg_rc(fazenda=dados["fazenda"],vaca_gorda=dados["vaca_gorda"],
+    novilha_gorda= dados["novilha_gorda"],
+    boi_gordo=dados["boi_gordo"],
+    Novilho_precoce = dados["Novilho_precoce"],
+    Touruno = dados["Touruno"],
+    vaca_gorda_arrouba=dados['vaca_gorda_arrouba'],
+    novilha_gorda_arrouba= dados['novilha_gorda_arrouba'],
+    boi_gordo_arrouba=dados['boi_gordo_arrouba'],
+    Novilho_precoce_arrouba = dados['Novilho_precoce_arrouba'],
+    Touruno_arrouba = dados['Touruno_arrouba'],)
+
+            item.save()
+    else:
+        form = FormPGGRC()
+    return render_to_response("pgg_rc.html", {"form":form}, context_instance = RequestContext(request))
+
 
 #para os relatorios financeiros
 
@@ -167,10 +231,7 @@ def inventario_atividade(request):
                 ,reprodutores_femea_valor_inicial_de_mercado=dados['reprodutores_femea_valor_inicial_de_mercado'],reprodutores_femea_capital_medio=dados['reprodutores_femea_capital_medio'],
                 reprodutores_femea_valor_final_ou_sucata=dados['reprodutores_femea_valor_final_ou_sucata'],reprodutores_femea_porcentagem_patrimonio=dados['reprodutores_femea_porcentagem_patrimonio']
                 ,animais_engorda_valor_inicial_de_mercado=dados['animais_engorda_valor_inicial_de_mercado'],
-                animais_engorda_valor_final_ou_sucata=dados['animais_engorda_valor_final_ou_sucata'],animais_engorda_porcentagem_patrimonio=dados['animais_engorda_porcentagem_patrimonio'],animais_engorda_capital_medio=dados['animais_engorda_capital_medio']
-            ,animais_engorda_capital_medio=dados['animais_engorda_capital_medio'],animais_engorda_capital_medio=dados['animais_engorda_capital_medio'],animais_engorda_capital_medio=dados['animais_engorda_capital_medio'],animais_engorda_capital_medio=dados['animais_engorda_capital_medio'],
-            animais_engorda_capital_medio=dados['animais_engorda_capital_medio'],animais_engorda_capital_medio=dados['animais_engorda_capital_medio'],
-
+                animais_engorda_valor_final_ou_sucata=dados['animais_engorda_valor_final_ou_sucata'],animais_engorda_porcentagem_patrimonio=dados['animais_engorda_porcentagem_patrimonio'],animais_engorda_capital_medio=dados['animais_engorda_capital_medio'],
     animais_trabalho_valor_inicial_de_mercado=dados['animais_trabalho_valor_inicial_de_mercado'],
     animais_trabalho_capital_medio=dados['animais_trabalho_capital_medio'],
     animais_trabalho_valor_final_ou_sucata=dados['animais_trabalho_valor_final_ou_sucata'],
@@ -364,7 +425,20 @@ def depreciacao(request):
                     pastagem_calculo_depreciacao_anual              = dados['pastagem_calculo_depreciacao_anual'],
                     pastagem_calculo_amortizacao_ano                = dados['pastagem_calculo_amortizacao_ano'],
 
+            )
+            item.save()
+    else:
+        form = Formdepreciacao()
+    return render_to_response("orcamentos/depreciacao.html", {"form":form}, context_instance = RequestContext(request))
+
+def evolucao_rebanho(request):
+    if request.method=="POST":
+        form = FormEvolucaoRebanho(request.POST, request.FILES)
+        if form.is_valid():
+            dados = form.cleaned_data
+            item = evolucao_rebanho(
+
+
+
 
             )
-
-

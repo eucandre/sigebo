@@ -35,7 +35,7 @@ class FormFazenda(forms.Form):
     email = forms.EmailField(widget=forms.TextInput(attrs={"class":"form-control col-md-7 col-xs-12","style":"width:40%;" }))
 
 
-class FormDefinicao_rebanho_inicial(forms.ModelForm):
+class FormDefinicao_rebanho_inicial(forms.Form):
     '''
             passar os forms a partir daqui para forms.Form, tirar o ModelForm.
             fazenda =forms.ModelChoiceField(queryset=Cadastro_Fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"class":"form-field","placeholder":"Fazenda" }))
@@ -198,13 +198,7 @@ class FormDefinicao_rebanho_inicial(forms.ModelForm):
     de12anos9= forms.CharField(initial=0, widget=forms.TextInput(attrs={"class":"control-label col-md-3 col-sm-3 col-xs-12",}))
     animais_23_reposicao9= forms.CharField(initial=0, widget=forms.TextInput(attrs={"class":"control-label col-md-3 col-sm-3 col-xs-12",}))
 
-    class Meta:
-        model = Definicao_sistema_e_rebanho_inicial
-        fields = ['fazenda', 'vacas','novilhas34','novilhas23','novilhas12','bezerras01','bezerros01',
-                  'machos12','machos23','machos34','machos_maior_que_4','touros',
-                  'tourunos','vacas_descarte','total','fertilidade','mortalidade01','mortalidade12',
-                  'reposicao','numero_vacas_touro','peso_medio_arrouba_novilho','peso_medio_arrouba_vacas'
-            ,'intervalo_entre_partos','idade_primeira_cria','peso_a_desmama','peso_a_nascer','preco_arrouba',]
+
 
 
 
@@ -471,7 +465,7 @@ class FormVenda_Compra(forms.Form):
     Machos_4mais_Compra8=forms.CharField(max_length=150, initial=pega_valor_di_vacas_discarte(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Machos_4mais_Compra9=forms.CharField(max_length=150, initial=pega_valor_di_vacas_discarte(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-class FormConfinamento(forms.ModelForm):
+class FormConfinamento(forms.Form):
 
     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;"}))
     N_animais_confinados = forms.IntegerField(label='Numero de animais confinados',widget=forms.TextInput(attrs={"style":"width:20%;"}))
@@ -487,6 +481,22 @@ class FormConfinamento(forms.ModelForm):
     #alimento = forms.ModelChoiceField(queryset=Alimentos.objects.all(), widget=forms.Select(attrs={"class":"form-field","placeholder":"alimentos"}))
     #pms_ha=forms.ModelChoiceField(queryset=pms_regisitros.objects.all(), widget=forms.Select(attrs={"class":"form-field","placeholder":"pms por ha"}))
     #pms_ha=forms.IntegerField(label='',initial=obj_alimento.pms_do_alimento_ha,widget=forms.TextInput(attrs={"class":"form-field", "placeholder":"pms por hectare"}))
+
+class FormPGGRC(forms.Form):
+    fazenda =forms.ModelChoiceField(initial=0,queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;"}))
+    vaca_gorda=forms.FloatField(initial=0,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    novilha_gorda= forms.FloatField(initial=0,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    boi_gordo=forms.FloatField(initial=0,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    Novilho_precoce = forms.FloatField(initial=0,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    Touruno = forms.FloatField(initial=0,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    vaca_gorda_arrouba=forms.FloatField(initial=50,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    novilha_gorda_arrouba= forms.FloatField(initial=50,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    boi_gordo_arrouba=forms.FloatField(initial=58,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    Novilho_precoce_arrouba = forms.FloatField(initial=50,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    Touruno_arrouba = forms.FloatField(initial=50,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    
+
 
 class FormDimensionamentoSiloCeuAberto(forms.Form):
     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;"}))
@@ -505,7 +515,7 @@ class FormDimensionamentoSiloFechado(forms.Form):
     #pcgf = ConfinamentEmGalpaoFechado.objects.get(pk=(len(ConfinamentEmGalpaoFechado.objects.all())))
     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
     Duracao_confinamento=forms.IntegerField(label='Duracao do confinamento',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Comsumo_silagem=forms.IntegerField(label='Consumo de Silagem',initial=pcgf.Consumo_ms,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    Comsumo_silagem=forms.IntegerField(label='Consumo de Silagem',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Densidade=forms.IntegerField(label='Densidade',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Altura_Silo=forms.IntegerField(label='Altura do Silo',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Base_menor_silo=forms.IntegerField(label='Base menor do Silo',widget=forms.TextInput(attrs={"style":"width:20%;"}))
@@ -517,7 +527,8 @@ class FormDimensionamentoSiloFechado(forms.Form):
 
 class FormMaoObra(forms.Form):
     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;"}))
-    mes= forms.DateField(label='',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mes= forms.DateField(label='Ano',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    encargos= forms.IntegerField(initial=30,label='Encargos %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     getente= forms.IntegerField(label='Numero de gerentes',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     capataz= forms.IntegerField(label='Numero de capatazes',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     peao= forms.IntegerField(label='Numero de peoes',widget=forms.TextInput(attrs={"style":"width:20%;"}))
@@ -532,9 +543,12 @@ class FormMaoObra(forms.Form):
 class FormGastos_veterinarios(forms.Form):
     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
     ano  = forms.DateField(label='Ano ',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    vacinas=forms.IntegerField(label='Vacinas',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Outros_medicamentos = forms.IntegerField(label='Outros medicamentos',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    sal_mineral=forms.IntegerField(label='Sal mineral',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacinas=forms.IntegerField(initial=500,label='Vacinas',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacinas_ru_ano=forms.IntegerField(initial=5.83,label='Vacinas',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    Outros_medicamentos = forms.IntegerField(initial=1500,label='Outros medicamentos',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    Outros_medicamentos_ru_ano = forms.IntegerField(initial=17.48,label='Outros medicamentos',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    sal_mineral=forms.IntegerField(initial=2500,label='Sal mineral',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    sal_mineral=forms.IntegerField(initial=9.32,label='Sal mineral',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     sal_proteico=forms.IntegerField(label='Sal proteico',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     racao_concentrada=forms.IntegerField(label='Racao concentrada',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Creep_feeding=forms.IntegerField(label='Creep feeding',widget=forms.TextInput(attrs={"style":"width:20%;"}))
@@ -1397,7 +1411,7 @@ class FormCustovariavel(forms.Form):
     total_custo_variavel_p_especificacao_total = forms.IntegerField(initial=50,widget=forms.TextInput(attrs={"style":"width:20%;"}))
     total_custo_variavel_p_especificacao_custo_variavel = forms.IntegerField(initial=50,widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-class despesas_administrativas(forms.For):
+class despesas_administrativas(forms.Form):
     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
     funcionario_add_janeiro = forms.IntegerField(initial=50,widget=forms.TextInput(attrs={"style":"width:20%;"}))
     funcionario_add_fevereiro = forms.IntegerField(initial=50,widget=forms.TextInput(attrs={"style":"width:20%;"}))
@@ -2013,3 +2027,7 @@ class pe(forms.Form):
     Ponto_de_equilibrio_anual = forms.IntegerField(initial=50,widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Ponto_de_equilibrio_mensal = forms.IntegerField(initial=50,widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Ponto_de_equilibrio_diario = forms.IntegerField(initial=50,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+class encargos(forms.Form):
+    fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
+    ano = forms.DateField(widget=forms.DateField())

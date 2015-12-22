@@ -302,3 +302,12 @@ entrada.addEventListener("keyup", efetuaCalculo);
                                                 <button type="submit" class="btn btn-success" value="/">Salvar</button>
                                             </div>
                                         </div>-->
+
+
+
+
+
+
+
+
+<span style="top:70%;left: 50%;position: absolute;" id="id_n_piquetes_categoria"></span>
