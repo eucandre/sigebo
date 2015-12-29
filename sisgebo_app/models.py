@@ -167,7 +167,8 @@ class Compra_e_venda(models.Model):
     Machos_34_Compra = models.IntegerField()
     Machos_4mais_Compra = models.IntegerField()
 
-
+    def __unicode__(self):
+        return self.fazenda
 
 
     class Meta:
@@ -192,6 +193,9 @@ class Confinamento(models.Model):
     #alimento = models.ForeignKey(Alimentos)# a materia do alimento para que seja feito o calculo da area para plantar
     #pms_ha = models.FloatField()#default=obj_alimento.pms_do_alimento_ha)#ForeignKey(pms_regisitros)#esse eh relacionado a materia de alimento
 
+    def __unicode__(self):
+        return self.fazenda
+
 
 class pgg_rc(models.Model):
     fazenda = models.ForeignKey(fazenda)
@@ -200,6 +204,10 @@ class pgg_rc(models.Model):
     boi_gordo=models.FloatField()
     Novilho_precoce = models.FloatField()
     Touruno = models.FloatField()
+
+    def __unicode__(self):
+        return self.fazenda
+
 
     class Meta:
         verbose_name_plural= u"PGG e RC"
@@ -219,6 +227,10 @@ class Dimensionamento_Silo_ceu_aberto(models.Model):
 
     Fatia_diaria = models.FloatField()
 
+    def __unicode__(self):
+        return self.fazenda
+
+
     class Meta:
         verbose_name_plural = u"Dimensionamento ceu aberto"
 
@@ -234,6 +246,10 @@ class Dimensionamento_Silo_galpao_fechado(models.Model):
     Consumo_diario = models.FloatField()
     tempo_confinamento = models.IntegerField()
     Fatia_diaria = models.FloatField()
+
+    def __unicode__(self):
+        return self.fazenda
+
 
     class Meta:
         verbose_name_plural = u"Dimensionamento galpao fechado"
@@ -254,6 +270,10 @@ class Mao_Obra(models.Model):
     tratorista_valor_fixado = models.FloatField()
     outro_valor_fixado = models.FloatField()
 
+    def __unicode__(self):
+        return self.fazenda
+
+
     class Meta:
         verbose_name_plural = u"Mao de obra"
 
@@ -271,6 +291,10 @@ class Gastos_Produtos_veterinarios(models.Model):
     racao_concentrada = models.FloatField()
     Creep_feeding = models.FloatField()
     outros_alimentos = models.FloatField()
+
+    def __unicode__(self):
+        return self.fazenda
+
 
     class Meta:
         verbose_name_plural = u"Gastos com produtos veterinarios"
@@ -290,6 +314,10 @@ class Rendiemnto_carcaca(models.Model):
     boi_gordo_cento= models.IntegerField()
     novilho_gordo_cento =  models.IntegerField()
     touro_cento = models.IntegerField()
+
+    def __unicode__(self):
+        return self.fazenda
+
 
     class Meta:
         verbose_name_plural = u"Rendimento de carcaca"
@@ -377,6 +405,9 @@ class Inventario_ligado_atividade(models.Model):
     terra_capital_medio = models.FloatField()
     terra_valor_final_ou_sucata = models.FloatField()
     terra_porcentagem_patrimonio = models.FloatField()
+
+    def __unicode__(self):
+        return self.fazenda
 
 
     class Meta:
@@ -526,6 +557,10 @@ class depreciacao(models.Model):
     pastagem_calculo_depreciacao_anual = models.FloatField()
     pastagem_calculo_amortizacao_ano = models.FloatField()
 
+
+    def __unicode__(self):
+        return self.fazenda
+
     class Meta:
         verbose_name_plural = u"Depreciacao"
 
@@ -585,6 +620,10 @@ class evolucao_rebanho(models.Model):
     nr_novilhos_peso_medio_novembro = models.FloatField()
     nr_novilhos_dezembro = models.FloatField()
     nr_novilhos_peso_medio_dezembro = models.FloatField()
+
+    def __unicode__(self):
+        return self.fazenda
+
 
     class Meta:
         verbose_name_plural = u"Evolucao do rebanho"
@@ -684,6 +723,10 @@ class custo_fixo(models.Model):
     itens_animais_trabalho_outubro = models.FloatField()
     itens_animais_trabalho_novembro = models.FloatField()
     itens_animais_trabalho_dezembro = models.FloatField()
+
+    def __unicode__(self):
+        return self.fazenda
+
 
     class Meta:
         verbose_name_plural = u"Custo fixo"
@@ -1156,11 +1199,17 @@ class custo_variavel(models.Model):
     total_custo_variavel_p_especificacao_total = models.FloatField()
     total_custo_variavel_p_especificacao_custo_variavel = models.FloatField()
 
+
+    def __unicode__(self):
+        return self.fazenda
+
+
     class Meta:
         verbose_name_plural = u"Custo fixo"
 
 
 class despesas_administrativas(models.Model):
+    fazenda = models.ForeignKey(fazenda)
     funcionario_add_janeiro = models.FloatField()
     funcionario_add_fevereiro = models.FloatField()
     funcionario_add_marco = models.FloatField()
@@ -1356,11 +1405,16 @@ class despesas_administrativas(models.Model):
     total_despesas_percentual_novembro = models.FloatField()
     total_despesas_percentual_dezembro = models.FloatField()
 
+    def __unicode__(self):
+        return self.fazenda
+
+
     class Meta:
         verbose_name_plural = u"Despesas administrativas"
 
 
 class investimento(models.Model):
+    fazenda = models.ForeignKey(fazenda)
     herbicida_investimento_janeiro = models.FloatField()
     herbicida_investimento_fevereiro = models.FloatField()
     herbicida_investimento_marco = models.FloatField()
@@ -1616,11 +1670,16 @@ class investimento(models.Model):
     total_investimento_total = models.FloatField()
     total_investimento_percentual_investimento = models.FloatField()
 
+    def __unicode__(self):
+        return self.fazenda
+
+
     class Meta:
         verbose_name_plural = u"Investimento"
 
 
 class custo_operacional(models.Model):
+    fazenda = models.ForeignKey(fazenda)
     fixo_custo_total_atividade = models.FloatField()
     variavel_custo_total_atividade = models.FloatField()
     administrativo_custo_total_atividade = models.FloatField()
@@ -1629,12 +1688,17 @@ class custo_operacional(models.Model):
     custo_operacional_arrouba_sem_reposicao_custo_total_atividade = models.FloatField()
     custo_operacional_arrouba_com_reposicao_custo_total_atividade = models.FloatField()
 
+    def __unicode__(self):
+        return self.fazenda
+
+
     class Meta:
         verbose_name_plural = u"Custo operacional"
 
 
 class custo_oportunidade(models.Model):
     #indices produtivos
+    fazenda = models.ForeignKey(fazenda)
     rebanho_cabeca = models.IntegerField()
     peso_medio_kg = models.FloatField()
     area_reserva_app_ha = models.FloatField()
@@ -1680,11 +1744,16 @@ class custo_oportunidade(models.Model):
     somatoria_dos_custos_de_oportunidade = models.FloatField()
     remuneracao_real_do_custo_total = models.FloatField()
 
+    def __unicode__(self):
+        return self.fazenda
+
+
     class Meta:
         verbose_name_plural = u"Custo oportunidade"
 
 
 class custo_total(models.Model):
+    fazenda = models.ForeignKey(fazenda)
     Fixo = models.FloatField()
     Variavel = models.FloatField()
     D_administrativas = models.FloatField()
@@ -1692,11 +1761,16 @@ class custo_total(models.Model):
     Total = models.FloatField()
     Ct_cabeca_c_reposicao = models.FloatField()
 
+    def __unicode__(self):
+        return self.fazenda
+
+
     class Meta:
         verbose_name_plural = u"Custo total"
 
 
 class receitas(models.Model):
+    fazenda = models.ForeignKey(fazenda)
     Venda_de_boi_gordo = models.FloatField()
     Tourinhos = models.FloatField()
     Abate = models.FloatField()
@@ -1705,6 +1779,10 @@ class receitas(models.Model):
     Outros1 = models.FloatField()
     Receita_total = models.FloatField()
 
+    def __unicode__(self):
+        return self.fazenda
+
+
     class Meta:
         verbose_name_plural = u"Receita"
 
@@ -1712,6 +1790,7 @@ class receitas(models.Model):
 class balanco_patrimonial(models.Model):
     #contas
     #1-circulante
+    fazenda = models.ForeignKey(fazenda)
     Dinheiro_em_caixa = models.FloatField()
     Titulos_e_contas_a_receber_a_curto_prazo = models.FloatField()
     Adiantamentos_e_emprestimos_a_curto_prazo = models.FloatField()
@@ -1758,11 +1837,16 @@ class balanco_patrimonial(models.Model):
     Passivos_totais4_5_6 = models.FloatField()
     Valorizacao_do_patrimonio = models.FloatField()
 
+    def __unicode__(self):
+        return self.fazenda
+
+
     class Meta:
         verbose_name_plural = u"Balanco patrimonial"
 
 
 class analise(models.Model):
+    fazenda = models.ForeignKey(fazenda)
     Receita_total = models.FloatField()
     Resultado_caixa = models.FloatField()
     Lucro_operacional = models.FloatField()
@@ -1774,11 +1858,16 @@ class analise(models.Model):
     Tir = models.FloatField()
     Relacao_beneficio_custo = models.FloatField()
 
+    def __unicode__(self):
+        return self.fazenda
+
+
     class Meta:
         verbose_name_plural = u"Analise"
 
 
 class vpl(models.Model):
+    fazenda = models.ForeignKey(fazenda)
     Numero_animais = models.FloatField()
     Peso_animais_arrouba = models.FloatField()
     Valor_inicial = models.FloatField()
@@ -1788,12 +1877,16 @@ class vpl(models.Model):
     Vpl = models.FloatField()
     Custo_animal = models.FloatField()
 
+    def __unicode__(self):
+        return self.fazenda
+
     class Meta:
         verbose_name_plural = u"VPL"
 
 
 
 class pe(models.Model):
+    fazenda = models.ForeignKey(fazenda)
     Custo_fixo_total = models.FloatField()
     Custo_variavel_unitario = models.FloatField()
     Preco_medio_de_venda = models.FloatField()
@@ -1801,6 +1894,10 @@ class pe(models.Model):
     Ponto_de_equilibrio_anual = models.FloatField()
     Ponto_de_equilibrio_mensal = models.FloatField()
     Ponto_de_equilibrio_diario = models.FloatField()
+
+    def __unicode__(self):
+        return self.fazenda
+
 
     class Meta:
         verbose_name_plural = u"PE"
