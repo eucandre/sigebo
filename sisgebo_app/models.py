@@ -197,22 +197,6 @@ class Confinamento(models.Model):
         return self.fazenda
 
 
-class pgg_rc(models.Model):
-    fazenda = models.ForeignKey(fazenda)
-    vaca_gorda=models.FloatField()
-    novilha_gorda= models.FloatField()
-    boi_gordo=models.FloatField()
-    Novilho_precoce = models.FloatField()
-    Touruno = models.FloatField()
-
-    def __unicode__(self):
-        return self.fazenda
-
-
-    class Meta:
-        verbose_name_plural= u"PGG e RC"
-
-
 class Dimensionamento_Silo_ceu_aberto(models.Model):
     fazenda = models.ForeignKey(fazenda)
     Duracao_confinamento = models.IntegerField()

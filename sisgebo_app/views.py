@@ -186,28 +186,6 @@ def rendimento_carca(request):
         form = FormRendimentoCarcaca()
     return render_to_response("rendimento_carcaca.html", {"form":form}, context_instance = RequestContext(request))
 
-def pggRc(request):
-    if request.method=="POST":
-        form = FormPGGRC(request.POST, request.FILES)
-        if form.is_valid():
-            dados = form.cleaned_data
-            item=pgg_rc(fazenda=dados["fazenda"],vaca_gorda=dados["vaca_gorda"],
-    novilha_gorda= dados["novilha_gorda"],
-    boi_gordo=dados["boi_gordo"],
-    Novilho_precoce = dados["Novilho_precoce"],
-    Touruno = dados["Touruno"],
-    vaca_gorda_arrouba=dados['vaca_gorda_arrouba'],
-    novilha_gorda_arrouba= dados['novilha_gorda_arrouba'],
-    boi_gordo_arrouba=dados['boi_gordo_arrouba'],
-    Novilho_precoce_arrouba = dados['Novilho_precoce_arrouba'],
-    Touruno_arrouba = dados['Touruno_arrouba'],)
-
-            item.save()
-    else:
-        form = FormPGGRC()
-    return render_to_response("pgg_rc.html", {"form":form}, context_instance = RequestContext(request))
-
-
 #para os relatorios financeiros
 
 def inventario_atividade(request):
