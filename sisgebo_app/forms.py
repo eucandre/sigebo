@@ -570,3 +570,6 @@ class FormInventarioatividade(forms.Form):
     tratores_capital_medio= forms.IntegerField(initial=50,label='Novilho gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     tratores_valor_final_ou_sucata= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     tratores_porcentagem_patrimonio= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+
+
