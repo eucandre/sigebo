@@ -2,7 +2,23 @@
 {% block um %}
     <form action="" method="post">
     {% csrf_token %}
-    {{ form.as_p }}
+        <span style="top:100px;left: 900px;position: absolute;">Forrageira para produção de volumoso</span>
+
+    {{ form.fazenda.label_tag }}
+    {{ form.fazenda }}<hr>
+
+        <span>Especificações</span><hr>
+    {{ form.N_animais_confinados.label_tag }}
+    {{ form.N_animais_confinados }}<hr>
+        {{ form.Peso_inicial.label_tag }}<hr>
+    <input id="id_Peso_inicial" style="width:5%;left:500px;position:absolute; top:270px;" type="text" class="form-control" value="380" name="Peso_inicial" /><hr>
+        {{ form.Peso_Final.label_tag }}<hr>
+    <input id="id_Peso_Final" style="width:5%;left:500px;position:absolute;top:350px;"  type="text" class="form-control" value="480" name="Peso_Final" /><hr>
+        {{ form.tempo_confinamento.label_tag }}
+    <input id="id_tempo_confinamento" style="width:5%;left:500px;position:absolute;top:440px;" type="text" class="form-control" value="90" name="tempo_confinamento" /><hr>
+    {{ form.ganho_diario.label_tag }}
+        <span id="id_ganho_diario" style="left:500px;position: absolute;color: #ff0000;"></span><hr>
+
     <button type="submit" value="/">ENVIAR</button>
     </form>
 {% endblock %}
