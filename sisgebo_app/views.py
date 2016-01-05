@@ -1,7 +1,7 @@
 from django.template import RequestContext
 from forms import *
 from django.shortcuts import HttpResponse, render_to_response
-
+from datetime import *
 
 def inicio(request):
     if request.method =="POST":
@@ -186,7 +186,13 @@ def rendimento_carca(request):
         form = FormRendimentoCarcaca()
     return render_to_response("rendimento_carcaca.html", {"form":form}, context_instance = RequestContext(request))
 
-#para os relatorios financeiros
+
+def relatorio_criacao_bovinos(request):
+    data_hoje = datetime.now()
+    return render_to_response("relatorios/relatorio_criacao_bovinos.html",{"data":data_hoje})
+
+
+#para os relatorios do inventario
 
 def inventario_atividade(request):
     if request.method=='post':

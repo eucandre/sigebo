@@ -18,6 +18,7 @@ urlpatterns = patterns('',
     url(r'^gastos_veterinarios/$','sisgebo_app.views.gastos_veterinarios'),
     url(r'^rendimento_carcaca/$','sisgebo_app.views.rendimento_carca'),
     url(r'^mao_obra/$','sisgebo_app.views.mao_obra'),
+    url(r'^relatorio_criacao_bovinos/$','sisgebo_app.views.relatorio_criacao_bovinos'),
 
 
 
