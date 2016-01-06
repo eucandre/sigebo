@@ -191,6 +191,9 @@ def relatorio_criacao_bovinos(request):
     data_hoje = datetime.now()
     return render_to_response("relatorios/relatorio_criacao_bovinos.html",{"data":data_hoje})
 
+def relatorio_instalacao(request):
+    data_hoje = datetime.now()
+    return render_to_response("relatorios/relatorio_instalacao.html",{"data":data_hoje})
 
 #para os relatorios do inventario
 
