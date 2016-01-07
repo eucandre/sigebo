@@ -203,62 +203,61 @@ def inventario_atividade(request):
         if form.is_valid():
             dados = form.cleaned_data
             item  = Inventario_ligado_atividade(fazenda = dados['fazenda'], Insumos_valor_inicial_mercado= dados['Insumos_valor_inicial_mercado'], Insumos_capital_medio = dados['Insumos_capital_medio'],
-                Insumos_valor_final_ou_sucata =dados['Insumos_valor_final_ou_sucata '],Insumos_porcentagem_patrimonio=dados['Insumos_porcentagem_patrimonio'], 
-                maquinas_implementos_valor_inicial_de_mercado =dados['maquinas_implementos_valor_inicial_de_mercado '],
-                maquinas_implementos_capital_medio =dados['maquinas_implementos_capital_medio '],maquinas_implementos_valor_final_ou_sucata =dados['maquinas_implementos_valor_final_ou_sucata'],
-                maquinas_implementos_porcentagem_patrimonio=dados['maquinas_implementos_porcentagem_patrimonio']
-                ,tratores_valor_inicial_de_mercado =dados['tratores_valor_inicial_de_mercado '],tratores_capital_medio=dados['tratores_capital_medio'],
-                tratores_valor_final_ou_sucata =dados['tratores_valor_final_ou_sucata'],tratores_porcentagem_patrimonio=dados['tratores_porcentagem_patrimonio']
-                ,veiculos_valor_inicial_de_mercado=dados['veiculos_valor_inicial_de_mercado'],veiculos_capital_medio=dados['veiculos_capital_medio'],veiculos_valor_final_ou_sucata=dados['veiculos_valor_final_ou_sucata']
-                ,veiculos_porcentagem_patrimonio=dados['veiculos_porcentagem_patrimonio'],equipamentos_manuais_valor_inicial_de_mercado=dados['equipamentos_manuais_valor_inicial_de_mercado'],outros_alimentos=dados['outros_alimentos'],
-                equipamentos_manuais_capital_medio=dados['equipamentos_manuais_capital_medio'],equipamentos_manuais_valor_final_ou_sucata=dados['equipamentos_manuais_valor_final_ou_sucata']
-                ,equipamentos_manuais_porcentagem_patrimonio=dados['equipamentos_manuais_porcentagem_patrimonio'],reprodutores_macho_valor_inicial_de_mercado=dados['reprodutores_macho_valor_inicial_de_mercado'],
-                reprodutores_macho_capital_medio=dados['reprodutores_macho_capital_medio'],reprodutores_macho_valor_final_ou_sucata=dados['reprodutores_macho_valor_final_ou_sucata'],
-                reprodutores_macho_porcentagem_patrimonio=dados['reprodutores_macho_porcentagem_patrimonio']
-                ,reprodutores_femea_valor_inicial_de_mercado=dados['reprodutores_femea_valor_inicial_de_mercado'],reprodutores_femea_capital_medio=dados['reprodutores_femea_capital_medio'],
-                reprodutores_femea_valor_final_ou_sucata=dados['reprodutores_femea_valor_final_ou_sucata'],reprodutores_femea_porcentagem_patrimonio=dados['reprodutores_femea_porcentagem_patrimonio']
-                ,animais_engorda_valor_inicial_de_mercado=dados['animais_engorda_valor_inicial_de_mercado'],
-                animais_engorda_valor_final_ou_sucata=dados['animais_engorda_valor_final_ou_sucata'],animais_engorda_porcentagem_patrimonio=dados['animais_engorda_porcentagem_patrimonio'],animais_engorda_capital_medio=dados['animais_engorda_capital_medio'],
-    animais_trabalho_valor_inicial_de_mercado=dados['animais_trabalho_valor_inicial_de_mercado'],
-    animais_trabalho_capital_medio=dados['animais_trabalho_capital_medio'],
-    animais_trabalho_valor_final_ou_sucata=dados['animais_trabalho_valor_final_ou_sucata'],
-    animais_trabalho_porcentagem_patrimonio=dados['animais_trabalho_porcentagem_patrimonio'],
+                    Insumos_valor_final_ou_sucata =dados['Insumos_valor_final_ou_sucata '],Insumos_porcentagem_patrimonio=dados['Insumos_porcentagem_patrimonio'],
+                    maquinas_implementos_valor_inicial_de_mercado =dados['maquinas_implementos_valor_inicial_de_mercado '],
+                    maquinas_implementos_capital_medio =dados['maquinas_implementos_capital_medio '],maquinas_implementos_valor_final_ou_sucata =dados['maquinas_implementos_valor_final_ou_sucata'],
+                    maquinas_implementos_porcentagem_patrimonio=dados['maquinas_implementos_porcentagem_patrimonio']
+                    ,tratores_valor_inicial_de_mercado =dados['tratores_valor_inicial_de_mercado '],tratores_capital_medio=dados['tratores_capital_medio'],
+                    tratores_valor_final_ou_sucata =dados['tratores_valor_final_ou_sucata'],tratores_porcentagem_patrimonio=dados['tratores_porcentagem_patrimonio']
+                    ,veiculos_valor_inicial_de_mercado=dados['veiculos_valor_inicial_de_mercado'],veiculos_capital_medio=dados['veiculos_capital_medio'],veiculos_valor_final_ou_sucata=dados['veiculos_valor_final_ou_sucata']
+                    ,veiculos_porcentagem_patrimonio=dados['veiculos_porcentagem_patrimonio'],equipamentos_manuais_valor_inicial_de_mercado=dados['equipamentos_manuais_valor_inicial_de_mercado'],outros_alimentos=dados['outros_alimentos'],
+                    equipamentos_manuais_capital_medio=dados['equipamentos_manuais_capital_medio'],equipamentos_manuais_valor_final_ou_sucata=dados['equipamentos_manuais_valor_final_ou_sucata']
+                    ,equipamentos_manuais_porcentagem_patrimonio=dados['equipamentos_manuais_porcentagem_patrimonio'],reprodutores_macho_valor_inicial_de_mercado=dados['reprodutores_macho_valor_inicial_de_mercado'],
+                    reprodutores_macho_capital_medio=dados['reprodutores_macho_capital_medio'],reprodutores_macho_valor_final_ou_sucata=dados['reprodutores_macho_valor_final_ou_sucata'],
+                    reprodutores_macho_porcentagem_patrimonio=dados['reprodutores_macho_porcentagem_patrimonio']
+                    ,reprodutores_femea_valor_inicial_de_mercado=dados['reprodutores_femea_valor_inicial_de_mercado'],reprodutores_femea_capital_medio=dados['reprodutores_femea_capital_medio'],
+                    reprodutores_femea_valor_final_ou_sucata=dados['reprodutores_femea_valor_final_ou_sucata'],reprodutores_femea_porcentagem_patrimonio=dados['reprodutores_femea_porcentagem_patrimonio']
+                    ,animais_engorda_valor_inicial_de_mercado=dados['animais_engorda_valor_inicial_de_mercado'],
+                    animais_engorda_valor_final_ou_sucata=dados['animais_engorda_valor_final_ou_sucata'],animais_engorda_porcentagem_patrimonio=dados['animais_engorda_porcentagem_patrimonio'],animais_engorda_capital_medio=dados['animais_engorda_capital_medio'],
+                    animais_trabalho_valor_inicial_de_mercado=dados['animais_trabalho_valor_inicial_de_mercado'],
+                    animais_trabalho_capital_medio=dados['animais_trabalho_capital_medio'],
+                    animais_trabalho_valor_final_ou_sucata=dados['animais_trabalho_valor_final_ou_sucata'],
+                    animais_trabalho_porcentagem_patrimonio=dados['animais_trabalho_porcentagem_patrimonio'],
 
-    canavial_ou_volumoso_valor_inicial_de_mercado=dados['canavial_ou_volumoso_valor_inicial_de_mercado'],
-    canavial_ou_volumoso_capital_medio=dados['canavial_ou_volumoso_capital_medio'] ,
-    canavial_ou_volumoso_valor_final_ou_sucata=dados['canavial_ou_volumoso_valor_final_ou_sucata'],
-    canavial_ou_volumoso_porcentagem_patrimonio=dados['canavial_ou_volumoso_porcentagem_patrimonio'],
+                    canavial_ou_volumoso_valor_inicial_de_mercado=dados['canavial_ou_volumoso_valor_inicial_de_mercado'],
+                    canavial_ou_volumoso_capital_medio=dados['canavial_ou_volumoso_capital_medio'] ,
+                    canavial_ou_volumoso_valor_final_ou_sucata=dados['canavial_ou_volumoso_valor_final_ou_sucata'],
+                    canavial_ou_volumoso_porcentagem_patrimonio=dados['canavial_ou_volumoso_porcentagem_patrimonio'],
 
-    benfeitorias_valor_inicial_de_mercado=dados['benfeitorias_valor_inicial_de_mercado'],
-    benfeitorias_capital_medio=dados['benfeitorias_capital_medio'],
-    benfeitorias_valor_final_ou_sucata=dados['benfeitorias_valor_final_ou_sucata'],
-    benfeitorias_porcentagem_patrimonio=dados['benfeitorias_porcentagem_patrimonio'],
+                    benfeitorias_valor_inicial_de_mercado=dados['benfeitorias_valor_inicial_de_mercado'],
+                    benfeitorias_capital_medio=dados['benfeitorias_capital_medio'],
+                    benfeitorias_valor_final_ou_sucata=dados['benfeitorias_valor_final_ou_sucata'],
+                    benfeitorias_porcentagem_patrimonio=dados['benfeitorias_porcentagem_patrimonio'],
 
-    cercas_valor_inicial_de_mercado=dados['cercas_valor_inicial_de_mercado'],
-    cercas_capital_medio=dados['cercas_capital_medio'],
-    cercas_valor_final_ou_sucata=dados['cercas_valor_final_ou_sucata'],
-    cercas_porcentagem_patrimonio=dados['cercas_porcentagem_patrimonio'],
+                    cercas_valor_inicial_de_mercado=dados['cercas_valor_inicial_de_mercado'],
+                    cercas_capital_medio=dados['cercas_capital_medio'],
+                    cercas_valor_final_ou_sucata=dados['cercas_valor_final_ou_sucata'],
+                    cercas_porcentagem_patrimonio=dados['cercas_porcentagem_patrimonio'],
 
-    edificacoes_valor_inicial_de_mercado=dados['edificacoes_valor_inicial_de_mercado'],
-    edificacoes_capital_medio=dados['edificacoes_capital_medio'],
-    edificacoes_valor_final_ou_sucata=dados['edificacoes_valor_final_ou_sucata'],
-    edificacoes_porcentagem_patrimonio=dados['edificacoes_porcentagem_patrimonio'],
+                    edificacoes_valor_inicial_de_mercado=dados['edificacoes_valor_inicial_de_mercado'],
+                    edificacoes_capital_medio=dados['edificacoes_capital_medio'],
+                    edificacoes_valor_final_ou_sucata=dados['edificacoes_valor_final_ou_sucata'],
+                    edificacoes_porcentagem_patrimonio=dados['edificacoes_porcentagem_patrimonio'],
 
-    pastagem_valor_inicial_de_mercado=dados['pastagem_valor_inicial_de_mercado'],
-    pastagem_capital_medio=dados['pastagem_capital_medio'],
-    pastagem_valor_final_ou_sucata=dados['pastagem_valor_final_ou_sucata'],
-    pastagem_porcentagem_patrimonio=dados['pastagem_porcentagem_patrimonio'],
+                    pastagem_valor_inicial_de_mercado=dados['pastagem_valor_inicial_de_mercado'],
+                    pastagem_capital_medio=dados['pastagem_capital_medio'],
+                    pastagem_valor_final_ou_sucata=dados['pastagem_valor_final_ou_sucata'],
+                    pastagem_porcentagem_patrimonio=dados['pastagem_porcentagem_patrimonio'],
 
-    semem_valor_inicial_de_mercado=dados['semem_valor_inicial_de_mercado'],
-    semem_capital_medio=dados['semem_capital_medio'],
-    semem_valor_final_ou_sucata=dados['semem_valor_final_ou_sucata'],
-    semem_porcentagem_patrimonio=dados['semem_porcentagem_patrimonio'],
+                    semem_valor_inicial_de_mercado=dados['semem_valor_inicial_de_mercado'],
+                    semem_capital_medio=dados['semem_capital_medio'],
+                    semem_valor_final_ou_sucata=dados['semem_valor_final_ou_sucata'],
+                    semem_porcentagem_patrimonio=dados['semem_porcentagem_patrimonio'],
 
-    terra_valor_inicial_de_mercado=dados['terra_valor_inicial_de_mercado'],
-    terra_capital_medio=dados['terra_capital_medio'],
-    terra_valor_final_ou_sucata=dados['terra_valor_final_ou_sucata'],
-    terra_porcentagem_patrimonio=dados['terra_porcentagem_patrimonio'],
-)
+                    terra_valor_inicial_de_mercado=dados['terra_valor_inicial_de_mercado'],
+                    terra_capital_medio=dados['terra_capital_medio'],
+                    terra_valor_final_ou_sucata=dados['terra_valor_final_ou_sucata'],
+                    terra_porcentagem_patrimonio=dados['terra_porcentagem_patrimonio'],)
             item.save()
     else:
         form = FormInventarioatividade()
