@@ -262,7 +262,7 @@ def inventario_atividade(request):
             item.save()
     else:
         form = FormInventarioatividade()
-    return render_to_response("orcamentos/inventario_atividade.html", {"form":form}, context_instance = RequestContext(request))
+    return render_to_response("custos/inventario_atividade.html", {"form":form}, context_instance = RequestContext(request))
 
 def depreciacao(request):
     if request.method=='post':
@@ -416,7 +416,7 @@ def depreciacao(request):
             item.save()
     else:
         form = Formdepreciacao()
-    return render_to_response("orcamentos/depreciacao.html", {"form":form}, context_instance = RequestContext(request))
+    return render_to_response("custos/depreciacao.html", {"form":form}, context_instance = RequestContext(request))
 
 def evolucao_rebanho(request):
     if request.method=="POST":
