@@ -265,7 +265,7 @@ def inventario_atividade(request):
 
 def depreciacao(request):
     if request.method=='post':
-        form = Formdepreciacao(request.POST, request.FILES)
+        form = FormDepreciacao(request.POST, request.FILES)
         if form.is_valid():
             dados = form.cleaned_data
             item = depreciacao(
@@ -414,7 +414,7 @@ def depreciacao(request):
             )
             item.save()
     else:
-        form = Formdepreciacao()
+        form = FormDepreciacao()
     return render_to_response("custos/depreciacao.html", {"form":form}, context_instance = RequestContext(request))
 
 def evolucao_rebanho(request):
