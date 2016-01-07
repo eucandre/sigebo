@@ -1,4 +1,5 @@
 # sigebo
-O projeto está sendo acabado, a parte de inventários é a que mais falta para ser completada, pronto o banco de dados e está sendo feita a parte de leyout.
-
-Até aqui está sendo feitas as marcações de onde as variáveis irão mostrar os resultados.
+Introdução 
+  O sistema destina-se ao gerenciamento para criação de bovinocultura, feito em python e django framework.
+  Este documento contará com a instalação, configuração e a manipulação do sistema.
+##Instalação
