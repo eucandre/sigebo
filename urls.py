@@ -25,6 +25,7 @@ urlpatterns = patterns('',
     url(r'^depreciacao/$','sisgebo_app.views.depreciacao'),
     url(r'^evolucao_rebanho/$','sisgebo_app.views.evolucao_rebanho'),
     url(r'^custo_fixo/$','sisgebo_app.views.custo_Fixos'),
+    url(r'^custo_variavel/$','sisgebo_app.views.custo_variaveis'),
 
 
 

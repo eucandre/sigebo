@@ -434,3 +434,12 @@ def custo_Fixos(request):
     else:
         form = FormCustoFixo()
     return render_to_response("custos/custo_fixo.html",{"form":form}, context_instance = RequestContext(request))
+
+def custo_variaveis(request):
+    if request.method=="POST":
+        form = FormCustoVariavel(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+    else:
+        form = FormCustoVariavel()
+    return render_to_response("custos/custo_variavel.html",{"form":form}, context_instance = RequestContext(request))

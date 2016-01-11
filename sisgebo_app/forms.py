@@ -1722,3 +1722,6 @@ class FormCustoVariavel(forms.ModelForm):
     total_custo_variavel_p_especificacao_dezembro = forms.FloatField()
     total_custo_variavel_p_especificacao_total = forms.FloatField()
     total_custo_variavel_p_especificacao_custo_variavel = forms.FloatField()
+
+    class Meta:
+        model = custo_variavel
