@@ -426,3 +426,11 @@ def evolucao_rebanho(request):
         form = FormEvolucaoRebanho()
     return render_to_response("custos/evolucao_rebanho.html",{"form":form}, context_instance = RequestContext(request))
 
+def custo_Fixos(request):
+    if request.method=="POST":
+        form = FormCustoFixo(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+    else:
+        form = FormCustoFixo()
+    return render_to_response("custos/custo_fixo.html",{"form":form}, context_instance = RequestContext(request))
