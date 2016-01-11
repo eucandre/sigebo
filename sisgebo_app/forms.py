@@ -1251,5 +1251,6 @@ class FormCustoFixo(forms.ModelForm):
     calculo_custo_fixo_por_cabeca_outrubro  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     calculo_custo_fixo_por_cabeca_novembro  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     calculo_custo_fixo_por_cabeca_dezembro  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
     class Meta:
         model = custo_fixo
