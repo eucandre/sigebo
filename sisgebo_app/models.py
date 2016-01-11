@@ -1306,7 +1306,7 @@ class custo_variavel(models.Model):
 
 
     class Meta:
-        verbose_name_plural = u"Custo fixo"
+        verbose_name_plural = u"Custo variavel"
 
 
 class despesas_administrativas(models.Model):
