@@ -23,7 +23,7 @@ urlpatterns = patterns('',
     #---#
     url(r'^inventario_ligado_atividade/$','sisgebo_app.views.inventario_atividade'),
     url(r'^depreciacao/$','sisgebo_app.views.depreciacao'),
-
+    url(r'^evolucao_rebanho/$','sisgebo_app.views.evolucao_rebanho'),
 
 
 

@@ -715,7 +715,8 @@ class FormDepreciacao(forms.Form):
                     pastagem_calculo_depreciacao_anual              = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     pastagem_calculo_amortizacao_ano                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-class FormEvolucaoRebanho(forms.Form):
+class FormEvolucaoRebanho(forms.ModelForm):
+
     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
     nr_matriz_janeiro              = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     matriz_janeiro_peso_medio      =forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
@@ -1037,6 +1038,9 @@ class FormEvolucaoRebanho(forms.Form):
     area_util_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     area_util_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     area_util_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    class Meta:
+        model = evolucao_rebanho
 
 class FormCustoFixo(forms.Form):
     itens_custo_maquina_implementos_janeiro =  forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
