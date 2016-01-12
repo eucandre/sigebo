@@ -461,3 +461,12 @@ def Investi(request):
     else:
         form = FormCustoVariavel()
     return render_to_response("custos/investimento.html",{"form":form}, context_instance = RequestContext(request))
+
+def custo_opera(request):
+    if request.method=="POST":
+        form = FormCustoOperacional(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+    else:
+        form = FormCustoOperacional()
+    return render_to_response("custos/investimento.html",{"form":form}, context_instance = RequestContext(request))

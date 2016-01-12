@@ -2279,3 +2279,6 @@ class FormCustoOperacional(forms.ModelForm):
     custo_operacional_arrouba_com_reposicao_custo_total_atividade__outubro   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     custo_operacional_arrouba_com_reposicao_custo_total_atividade__novembro  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     custo_operacional_arrouba_com_reposicao_custo_total_atividade__dezembro  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    class Meta:
+        model = custo_operacional
