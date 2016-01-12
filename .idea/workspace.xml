@@ -367,8 +367,8 @@
       <file leaf-file-name="forms.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sisgebo_app/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7308707" vertical-offset="21109" max-vertical-offset="38828">
-              <caret line="1260" column="48" selection-start-line="1260" selection-start-column="48" selection-end-line="1260" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.5514512" vertical-offset="32584" max-vertical-offset="38828">
+              <caret line="1931" column="44" selection-start-line="1931" selection-start-column="37" selection-end-line="1931" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -1666,8 +1666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sisgebo_app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7308707" vertical-offset="21109" max-vertical-offset="38828">
-          <caret line="1260" column="48" selection-start-line="1260" selection-start-column="48" selection-end-line="1260" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.5514512" vertical-offset="32584" max-vertical-offset="38828">
+          <caret line="1931" column="44" selection-start-line="1931" selection-start-column="37" selection-end-line="1931" selection-end-column="44" />
           <folding />
         </state>
       </provider>
