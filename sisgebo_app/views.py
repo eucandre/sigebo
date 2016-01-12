@@ -452,3 +452,12 @@ def despesas_adminstrativa(request):
     else:
         form = FormCustoVariavel()
     return render_to_response("custos/despesas_administrativas.html",{"form":form}, context_instance = RequestContext(request))
+
+def Investi(request):
+    if request.method=="POST":
+        form = FormInvestimento(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+    else:
+        form = FormCustoVariavel()
+    return render_to_response("custos/investimento.html",{"form":form}, context_instance = RequestContext(request))
