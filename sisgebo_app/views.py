@@ -469,4 +469,4 @@ def custo_opera(request):
             form.save()
     else:
         form = FormCustoOperacional()
-    return render_to_response("custos/investimento.html",{"form":form}, context_instance = RequestContext(request))
+    return render_to_response("custos/custo_operacional.html",{"form":form}, context_instance = RequestContext(request))
