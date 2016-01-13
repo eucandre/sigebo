@@ -252,12 +252,209 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sisgebo_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48576513" vertical-offset="32333" max-vertical-offset="35615">
-              <caret line="1918" column="43" selection-start-line="1918" selection-start-column="43" selection-end-line="1918" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="32333" max-vertical-offset="35615">
+              <caret line="1919" column="47" selection-start-line="1919" selection-start-column="47" selection-end-line="1919" selection-end-column="47" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sisgebo_sql.sql" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sisgebo_sql.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.3448277" vertical-offset="28016" max-vertical-offset="30209">
+              <caret line="1652" column="1" selection-start-line="1652" selection-start-column="1" selection-end-line="1652" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DjangoModelDependency/#sigebo" pinned="false" current="true" current-in-tab="true">
+        <entry file="uml://DjangoModelDependency/#sigebo">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DjangoModelDependency</ID>
+              <OriginalElement>#sigebo</OriginalElement>
+              <nodes>
+                <node x="2899.5" y="0.0">sisgebo_app.models.fazenda</node>
+                <node x="0.0" y="179.0">sisgebo_app.models.Compra_e_venda</node>
+                <node x="5905.0" y="179.0">sisgebo_app.models.custo_fixo</node>
+                <node x="5679.0" y="179.0">sisgebo_app.models.depreciacao</node>
+                <node x="4050.0" y="179.0">sisgebo_app.models.balanco_patrimonial</node>
+                <node x="1962.0" y="179.0">sisgebo_app.models.Definicao_sistema_e_rebanho_inicial</node>
+                <node x="3782.0" y="179.0">sisgebo_app.models.custo_oportunidade</node>
+                <node x="3218.0" y="179.0">sisgebo_app.models.Mao_Obra</node>
+                <node x="4540.0" y="179.0">sisgebo_app.models.Dimensionamento_Silo_galpao_fechado</node>
+                <node x="5127.0" y="179.0">sisgebo_app.models.custo_variavel</node>
+                <node x="5363.0" y="179.0">sisgebo_app.models.Gastos_Produtos_veterinarios</node>
+                <node x="690.0" y="179.0">sisgebo_app.models.Inventario_ligado_atividade</node>
+                <node x="2315.0" y="179.0">sisgebo_app.models.Confinamento</node>
+                <node x="1198.0" y="179.0">sisgebo_app.models.Rendiemnto_carcaca</node>
+                <node x="4913.0" y="179.0">sisgebo_app.models.pastagem</node>
+                <node x="3435.0" y="179.0">sisgebo_app.models.Dimensionamento_Silo_ceu_aberto</node>
+                <node x="4320.0" y="179.0">sisgebo_app.models.custo_total</node>
+                <node x="2987.0" y="179.0">sisgebo_app.models.investimento</node>
+                <node x="2554.0" y="179.0">sisgebo_app.models.custo_operacional</node>
+                <node x="1470.0" y="179.0">sisgebo_app.models.despesas_administrativas</node>
+                <node x="2812.0" y="179.0">sisgebo_app.models.pe</node>
+                <node x="431.0" y="179.0">sisgebo_app.models.evolucao_rebanho</node>
+                <node x="996.0" y="179.0">sisgebo_app.models.receitas</node>
+                <node x="253.0" y="179.0">sisgebo_app.models.vpl</node>
+                <node x="1764.0" y="179.0">sisgebo_app.models.analise</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="sisgebo_app.models.pastagem" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="5010.0" y="89.0" />
+                  <point x="3048.1875" y="89.0" />
+                  <point x="57.1875" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.pe" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="2889.5" y="159.0" />
+                  <point x="2987.1875" y="159.0" />
+                  <point x="-3.8125" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.Inventario_ligado_atividade" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="833.0" y="79.0" />
+                  <point x="2926.1875" y="79.0" />
+                  <point x="-64.8125" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.custo_fixo" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="6002.5" y="49.0" />
+                  <point x="3078.6875" y="49.0" />
+                  <point x="87.6875" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.Dimensionamento_Silo_galpao_fechado" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="4716.5" y="99.0" />
+                  <point x="3040.5625" y="99.0" />
+                  <point x="49.5625" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.receitas" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="1087.0" y="89.0" />
+                  <point x="2933.8125" y="89.0" />
+                  <point x="-57.1875" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.custo_variavel" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="5235.0" y="79.0" />
+                  <point x="3055.8125" y="79.0" />
+                  <point x="64.8125" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.Mao_Obra" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="3316.5" y="149.0" />
+                  <point x="3002.4375" y="149.0" />
+                  <point x="11.4375" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.analise" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="1853.0" y="119.0" />
+                  <point x="2956.6875" y="119.0" />
+                  <point x="-34.3125" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.Dimensionamento_Silo_ceu_aberto" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="3598.5" y="139.0" />
+                  <point x="3010.0625" y="139.0" />
+                  <point x="19.0625" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.Gastos_Produtos_veterinarios" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="5511.0" y="69.0" />
+                  <point x="3063.4375" y="69.0" />
+                  <point x="72.4375" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.Compra_e_venda" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="116.5" y="49.0" />
+                  <point x="2903.3125" y="49.0" />
+                  <point x="-87.6875" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.vpl" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="332.0" y="59.0" />
+                  <point x="2910.9375" y="59.0" />
+                  <point x="-80.0625" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.Confinamento" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="2424.5" y="139.0" />
+                  <point x="2971.9375" y="139.0" />
+                  <point x="-19.0625" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.evolucao_rebanho" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="550.5" y="69.0" />
+                  <point x="2918.5625" y="69.0" />
+                  <point x="-72.4375" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.balanco_patrimonial" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="4175.0" y="119.0" />
+                  <point x="3025.3125" y="119.0" />
+                  <point x="34.3125" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.despesas_administrativas" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="1607.0" y="109.0" />
+                  <point x="2949.0625" y="109.0" />
+                  <point x="-41.9375" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.Definicao_sistema_e_rebanho_inicial" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="2128.5" y="129.0" />
+                  <point x="2964.3125" y="129.0" />
+                  <point x="-26.6875" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.investimento" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="3092.5" y="159.0" />
+                  <point x="2994.8125" y="159.0" />
+                  <point x="3.8125" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.Rendiemnto_carcaca" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="1324.0" y="99.0" />
+                  <point x="2941.4375" y="99.0" />
+                  <point x="-49.5625" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.custo_total" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="4420.0" y="109.0" />
+                  <point x="3032.9375" y="109.0" />
+                  <point x="41.9375" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.custo_operacional" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="2673.0" y="149.0" />
+                  <point x="2979.5625" y="149.0" />
+                  <point x="-11.4375" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.depreciacao" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="5782.0" y="59.0" />
+                  <point x="3071.0625" y="59.0" />
+                  <point x="80.0625" y="14.5" />
+                </edge>
+                <edge source="sisgebo_app.models.custo_oportunidade" target="sisgebo_app.models.fazenda">
+                  <point x="0.0" y="-14.5" />
+                  <point x="3906.0" y="129.0" />
+                  <point x="3017.6875" y="129.0" />
+                  <point x="26.6875" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="3050.0000000000005" y="104.00000000000011" />
+              <SelectedNodes />
+              <Categories />
             </state>
           </provider>
         </entry>
@@ -302,16 +499,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="relatorio_criacao_bovinos.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/relatorios/relatorio_criacao_bovinos.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4085" max-vertical-offset="11747">
-              <caret line="253" column="22" selection-start-line="253" selection-start-column="22" selection-end-line="253" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -346,7 +533,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/media/js/zzzzzvendasvacasanoarrouba/venda_vacas_ano_@9.js" />
         <option value="E:/sisgebo/app/models.py" />
         <option value="$PROJECT_DIR$/templates/dimensionamento_fechado.html" />
         <option value="$PROJECT_DIR$/templates/dimensionamento_aberto.html" />
@@ -397,6 +583,7 @@
         <option value="$PROJECT_DIR$/sisgebo_app/views.py" />
         <option value="$PROJECT_DIR$/urls.py" />
         <option value="$PROJECT_DIR$/templates/custos/custo_oportunidade.html" />
+        <option value="$PROJECT_DIR$/sisgebo_sql.sql" />
       </list>
     </option>
   </component>
@@ -447,38 +634,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sigebo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigebo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigebo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigebo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigebo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -879,7 +1034,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27732465" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27732465" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -924,20 +1079,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="403">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="403">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="403">
@@ -1482,41 +1623,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://DjangoModelDependency/#sigebo">
+    <entry file="uml://Python/sisgebo_app.models.custo_oportunidade">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <ID>DjangoModelDependency</ID>
-          <OriginalElement>#sigebo</OriginalElement>
+          <ID>Python</ID>
+          <OriginalElement>sisgebo_app.models.custo_oportunidade</OriginalElement>
           <nodes>
-            <node x="" y="">sisgebo_app.models.fazenda</node>
-            <node x="" y="">sisgebo_app.models.Compra_e_venda</node>
-            <node x="" y="">sisgebo_app.models.custo_fixo</node>
-            <node x="" y="">sisgebo_app.models.depreciacao</node>
-            <node x="" y="">sisgebo_app.models.balanco_patrimonial</node>
-            <node x="" y="">sisgebo_app.models.Definicao_sistema_e_rebanho_inicial</node>
             <node x="" y="">sisgebo_app.models.custo_oportunidade</node>
-            <node x="" y="">sisgebo_app.models.Mao_Obra</node>
-            <node x="" y="">sisgebo_app.models.Dimensionamento_Silo_galpao_fechado</node>
-            <node x="" y="">sisgebo_app.models.custo_variavel</node>
-            <node x="" y="">sisgebo_app.models.Gastos_Produtos_veterinarios</node>
-            <node x="" y="">sisgebo_app.models.Inventario_ligado_atividade</node>
-            <node x="" y="">sisgebo_app.models.Confinamento</node>
-            <node x="" y="">sisgebo_app.models.Rendiemnto_carcaca</node>
-            <node x="" y="">sisgebo_app.models.pastagem</node>
-            <node x="" y="">sisgebo_app.models.Dimensionamento_Silo_ceu_aberto</node>
-            <node x="" y="">sisgebo_app.models.custo_total</node>
-            <node x="" y="">sisgebo_app.models.investimento</node>
-            <node x="" y="">sisgebo_app.models.custo_operacional</node>
-            <node x="" y="">sisgebo_app.models.despesas_administrativas</node>
-            <node x="" y="">sisgebo_app.models.pe</node>
-            <node x="" y="">sisgebo_app.models.evolucao_rebanho</node>
-            <node x="" y="">sisgebo_app.models.receitas</node>
-            <node x="" y="">sisgebo_app.models.vpl</node>
-            <node x="" y="">sisgebo_app.models.analise</node>
+            <node x="" y="">django.db.models.base.Model</node>
+            <node x="" y="">object</node>
+            <node x="" y="">django.db.models.base.ModelBase</node>
+            <node x="" y="">_abcoll.Hashable</node>
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.7834967320261437" x="2721.6590198123045" y="-10.581856100104233" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="169.0" y="119.5" />
           <SelectedNodes />
           <Categories />
         </state>
@@ -1524,9 +1645,202 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sisgebo_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48576513" vertical-offset="32333" max-vertical-offset="35615">
-          <caret line="1918" column="43" selection-start-line="1918" selection-start-column="43" selection-end-line="1918" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="32333" max-vertical-offset="35615">
+          <caret line="1919" column="47" selection-start-line="1919" selection-start-column="47" selection-end-line="1919" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sisgebo_sql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3448277" vertical-offset="28016" max-vertical-offset="30209">
+          <caret line="1652" column="1" selection-start-line="1652" selection-start-column="1" selection-end-line="1652" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DjangoModelDependency/#sigebo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DjangoModelDependency</ID>
+          <OriginalElement>#sigebo</OriginalElement>
+          <nodes>
+            <node x="2899.5" y="0.0">sisgebo_app.models.fazenda</node>
+            <node x="0.0" y="179.0">sisgebo_app.models.Compra_e_venda</node>
+            <node x="5905.0" y="179.0">sisgebo_app.models.custo_fixo</node>
+            <node x="5679.0" y="179.0">sisgebo_app.models.depreciacao</node>
+            <node x="4050.0" y="179.0">sisgebo_app.models.balanco_patrimonial</node>
+            <node x="1962.0" y="179.0">sisgebo_app.models.Definicao_sistema_e_rebanho_inicial</node>
+            <node x="3782.0" y="179.0">sisgebo_app.models.custo_oportunidade</node>
+            <node x="3218.0" y="179.0">sisgebo_app.models.Mao_Obra</node>
+            <node x="4540.0" y="179.0">sisgebo_app.models.Dimensionamento_Silo_galpao_fechado</node>
+            <node x="5127.0" y="179.0">sisgebo_app.models.custo_variavel</node>
+            <node x="5363.0" y="179.0">sisgebo_app.models.Gastos_Produtos_veterinarios</node>
+            <node x="690.0" y="179.0">sisgebo_app.models.Inventario_ligado_atividade</node>
+            <node x="2315.0" y="179.0">sisgebo_app.models.Confinamento</node>
+            <node x="1198.0" y="179.0">sisgebo_app.models.Rendiemnto_carcaca</node>
+            <node x="4913.0" y="179.0">sisgebo_app.models.pastagem</node>
+            <node x="3435.0" y="179.0">sisgebo_app.models.Dimensionamento_Silo_ceu_aberto</node>
+            <node x="4320.0" y="179.0">sisgebo_app.models.custo_total</node>
+            <node x="2987.0" y="179.0">sisgebo_app.models.investimento</node>
+            <node x="2554.0" y="179.0">sisgebo_app.models.custo_operacional</node>
+            <node x="1470.0" y="179.0">sisgebo_app.models.despesas_administrativas</node>
+            <node x="2812.0" y="179.0">sisgebo_app.models.pe</node>
+            <node x="431.0" y="179.0">sisgebo_app.models.evolucao_rebanho</node>
+            <node x="996.0" y="179.0">sisgebo_app.models.receitas</node>
+            <node x="253.0" y="179.0">sisgebo_app.models.vpl</node>
+            <node x="1764.0" y="179.0">sisgebo_app.models.analise</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="sisgebo_app.models.pastagem" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="5010.0" y="89.0" />
+              <point x="3048.1875" y="89.0" />
+              <point x="57.1875" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.pe" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="2889.5" y="159.0" />
+              <point x="2987.1875" y="159.0" />
+              <point x="-3.8125" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.custo_fixo" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="6002.5" y="49.0" />
+              <point x="3078.6875" y="49.0" />
+              <point x="87.6875" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.Inventario_ligado_atividade" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="833.0" y="79.0" />
+              <point x="2926.1875" y="79.0" />
+              <point x="-64.8125" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.Dimensionamento_Silo_galpao_fechado" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="4716.5" y="99.0" />
+              <point x="3040.5625" y="99.0" />
+              <point x="49.5625" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.custo_variavel" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="5235.0" y="79.0" />
+              <point x="3055.8125" y="79.0" />
+              <point x="64.8125" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.receitas" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="1087.0" y="89.0" />
+              <point x="2933.8125" y="89.0" />
+              <point x="-57.1875" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.Mao_Obra" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="3316.5" y="149.0" />
+              <point x="3002.4375" y="149.0" />
+              <point x="11.4375" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.analise" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="1853.0" y="119.0" />
+              <point x="2956.6875" y="119.0" />
+              <point x="-34.3125" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.Dimensionamento_Silo_ceu_aberto" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="3598.5" y="139.0" />
+              <point x="3010.0625" y="139.0" />
+              <point x="19.0625" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.Gastos_Produtos_veterinarios" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="5511.0" y="69.0" />
+              <point x="3063.4375" y="69.0" />
+              <point x="72.4375" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.Compra_e_venda" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="116.5" y="49.0" />
+              <point x="2903.3125" y="49.0" />
+              <point x="-87.6875" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.vpl" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="332.0" y="59.0" />
+              <point x="2910.9375" y="59.0" />
+              <point x="-80.0625" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.Confinamento" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="2424.5" y="139.0" />
+              <point x="2971.9375" y="139.0" />
+              <point x="-19.0625" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.evolucao_rebanho" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="550.5" y="69.0" />
+              <point x="2918.5625" y="69.0" />
+              <point x="-72.4375" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.balanco_patrimonial" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="4175.0" y="119.0" />
+              <point x="3025.3125" y="119.0" />
+              <point x="34.3125" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.despesas_administrativas" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="1607.0" y="109.0" />
+              <point x="2949.0625" y="109.0" />
+              <point x="-41.9375" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.Definicao_sistema_e_rebanho_inicial" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="2128.5" y="129.0" />
+              <point x="2964.3125" y="129.0" />
+              <point x="-26.6875" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.investimento" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="3092.5" y="159.0" />
+              <point x="2994.8125" y="159.0" />
+              <point x="3.8125" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.Rendiemnto_carcaca" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="1324.0" y="99.0" />
+              <point x="2941.4375" y="99.0" />
+              <point x="-49.5625" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.custo_total" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="4420.0" y="109.0" />
+              <point x="3032.9375" y="109.0" />
+              <point x="41.9375" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.custo_operacional" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="2673.0" y="149.0" />
+              <point x="2979.5625" y="149.0" />
+              <point x="-11.4375" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.depreciacao" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="5782.0" y="59.0" />
+              <point x="3071.0625" y="59.0" />
+              <point x="80.0625" y="14.5" />
+            </edge>
+            <edge source="sisgebo_app.models.custo_oportunidade" target="sisgebo_app.models.fazenda">
+              <point x="0.0" y="-14.5" />
+              <point x="3906.0" y="129.0" />
+              <point x="3017.6875" y="129.0" />
+              <point x="26.6875" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="3050.0000000000005" y="104.00000000000011" />
+          <SelectedNodes />
+          <Categories />
         </state>
       </provider>
     </entry>
