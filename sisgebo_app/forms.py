@@ -2282,3 +2282,54 @@ class FormCustoOperacional(forms.ModelForm):
 
     class Meta:
         model = custo_operacional
+
+class FormCustoOPortunidade(forms.ModelForm):
+    
+    fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
+    rebanho_cabeca = forms.IntegerField()
+    peso_medio_kg = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_reserva_app_ha = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_ha = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    ganho_arrouba_cabeca_ano = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    litacao_cabeca_ha = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    produtividade_arrouba_ha = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_arrouba_produzida = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #indices economicos
+    imobilizado_em_terra_reais = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    imobilizado_em_animais_reais = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    imobilizado_desembolso_reais = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    imobilizado_total_reais = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #calculos de oportunidades custos
+    
+    aluguel_cab_mes_terra = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tempo_aluguel_terra=  forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    cab_ha_terra = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    receita_ha_ano_terra = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    valor_terra_ha_terra = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    receita_area_util_terra = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #imobilidade
+    custo_oportunidade = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    taxa_SELIC_imobilidade = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    imposto_bancario = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    inflacao = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    no_imobilizado_rais = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    arrendamento_ha_ano = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    valor_da_terra_ha = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_de_oportunidade = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    receita_na_area_util = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    custo_oportunidade_operacional = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    taxa_selic = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    imposto_bancario_operacional = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    inflacao_operacional = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_de_oportunidade_de_custeio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    somatoria_dos_custos_de_oportunidade = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    remuneracao_real_do_custo_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    class Meta:
+        model = custo_oportunidade

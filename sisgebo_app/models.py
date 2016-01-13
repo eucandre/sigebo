@@ -1871,8 +1871,6 @@ class custo_operacional(models.Model):
     custo_operacional_arrouba_com_reposicao_custo_total_atividade__outubro         = models.FloatField()
     custo_operacional_arrouba_com_reposicao_custo_total_atividade__novembro        = models.FloatField()
     custo_operacional_arrouba_com_reposicao_custo_total_atividade__dezembro        = models.FloatField()
-    
-
         
 
     def __unicode__(self):

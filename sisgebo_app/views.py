@@ -470,3 +470,12 @@ def custo_opera(request):
     else:
         form = FormCustoOperacional()
     return render_to_response("custos/custo_operacional.html",{"form":form}, context_instance = RequestContext(request))
+
+def custo_oportunidade(request):
+    if request.method=="POST":
+        form = FormCustoOPortunidade(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+    else:
+        form = FormCustoOPortunidade()
+    return render_to_response("custos/custo_oportunidade.html",{"form":form}, context_instance = RequestContext(request))
