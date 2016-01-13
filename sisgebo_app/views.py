@@ -479,3 +479,21 @@ def custo_oportunidade(request):
     else:
         form = FormCustoOPortunidade()
     return render_to_response("custos/custo_oportunidade.html",{"form":form}, context_instance = RequestContext(request))
+
+def custo_total(request):
+    if request.method=="POST":
+        form = FormCustoTotal(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+    else:
+        form = FormCustoTotal()
+    return render_to_response("custos/custo_total.html",{"form":form}, context_instance = RequestContext(request))
+
+def receitass(request):
+    if request.method=="POST":
+        form = FormReceitas(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+    else:
+        form = FormReceitas()
+    return render_to_response("custos/receitas.html",{"form":form}, context_instance = RequestContext(request))
