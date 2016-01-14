@@ -32,6 +32,8 @@ urlpatterns = patterns('',
     url(r'^custo_oportunidade/$','sisgebo_app.views.custo_oportunidade'),
     url(r'^custo_total/$','sisgebo_app.views.custo_total'),
     url(r'^receita/$','sisgebo_app.views.receitass'),
+    url(r'^balanco_patrimonial/$','sisgebo_app.views.balanco_patrimonial'),
+    url(r'^analise_resultado/$','sisgebo_app.views.analise_resultado'),
 
 
 

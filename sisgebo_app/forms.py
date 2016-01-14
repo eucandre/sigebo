@@ -2573,4 +2573,69 @@ class FormReceitas(forms.ModelForm):
 
         class Meta:
             model = receitas
-            
+
+class FormBalancoPatrimonial(forms.ModelForm):
+        fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
+        Dinheiro_em_caixa                          = forms.FloatField()
+        Titulos_e_contas_a_receber_a_curto_prazo   = forms.FloatField()
+        Adiantamentos_e_emprestimos_a_curto_prazo  = forms.FloatField()
+        Aplicacoes_finaceiras_a_curto_prazo        = forms.FloatField()
+        Despesas_antecipadas_a_curto_prazo         = forms.FloatField()
+        Colheitas_pendentes                        = forms.FloatField()
+        Estoques_de_provisoes                      = forms.FloatField()
+        Estoques_de_insumos                        = forms.FloatField()
+        Animais_de_producao_de_trabalho_e_criacoes = forms.FloatField()
+        Outros                                     = forms.FloatField()
+        Total                                      = forms.FloatField()
+
+        #2 realizavel ao longo prazo
+        Titulos_e_contas_a_receber_a_longo_prazo   = forms.FloatField()
+        Adiantamentos_e_emprestimos_a_longo_prazo  = forms.FloatField()
+        Aplicacoes_financeiras_a_longo_prazo       = forms.FloatField()
+        Despesas_antecipadas_a_longo_prazo         = forms.FloatField()
+        Outros_creditos_a_longo_prazo              = forms.FloatField()
+
+        #permanente
+        Investimentos                              = forms.FloatField()
+        Terras_nuas                                = forms.FloatField()
+        Culturas_perenes                           = forms.FloatField()
+        Benfeitorias_e_melhoramentos               = forms.FloatField()
+        Maquinaria_e_equipamentos                  = forms.FloatField()
+        Total_permanente                           = forms.FloatField()
+
+        #circulante
+        Titulos_e_contas_a_pagar_a_curto_prazo     = forms.FloatField()
+        Impostos_a_pagar                           = forms.FloatField()
+        Emprestios_a_pagar                         = forms.FloatField()
+        Salarios_a_pagar                           = forms.FloatField()
+        Encargos_sociais_a_curto_prazo             = forms.FloatField()
+        Total_circulante                           = forms.FloatField()
+
+        #exigivel longo prazo
+        Financiamentos                             = forms.FloatField()
+        Titulos_e_contas_a_pagar_a_longo_prazo     = forms.FloatField()
+        Outras_obrigacoes_a_longo_prazo            = forms.FloatField()
+        Total_longo_prazo                          = forms.FloatField()
+
+        #patrimonio liquido
+        patrimonio_liquido_1_2_3_4_5_6             = forms.FloatField()
+        Passivos_totais4_5_6                       = forms.FloatField()
+        Valorizacao_do_patrimonio                  = forms.FloatField()
+
+        class Meta:
+            model = balanco_patrimonial
+
+class FormAnalise(forms.ModelForm):
+        Receita_total           = forms.FloatField()
+        Resultado_caixa         = forms.FloatField()
+        Lucro_operacional       = forms.FloatField()
+        Lucro_economico         = forms.FloatField()
+        Lucro_operacional_ha    = forms.FloatField()
+        Lucratividade           = forms.FloatField()
+        Rentabilidade           = forms.FloatField()
+        Pay_back                = forms.FloatField()
+        Tir                     = forms.FloatField()
+        Relacao_beneficio_custo = forms.FloatField()
+
+        class Meta:
+            model = analise

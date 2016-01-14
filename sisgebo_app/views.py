@@ -497,3 +497,21 @@ def receitass(request):
     else:
         form = FormReceitas()
     return render_to_response("custos/receitas.html",{"form":form}, context_instance = RequestContext(request))
+
+def balanco_patrimonial(request):
+    if request.method=="POST":
+        form = FormBalancoPatrimonial(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+    else:
+        form = FormBalancoPatrimonial()
+    return render_to_response("custos/balanco_patrimonial.html",{"form":form}, context_instance = RequestContext(request))
+
+def analise_resultado(request):
+    if request.method=="POST":
+        form = FormAnalise(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+    else:
+        form = FormAnalise()
+    return render_to_response("custos/analise.html",{"form":form}, context_instance = RequestContext(request))
