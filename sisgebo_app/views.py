@@ -525,3 +525,12 @@ def fluxo_caixa(request):
     else:
         form = FormFluxoCaixa()
     return render_to_response("custos/fluxo_em_caixa.html",{"form":form}, context_instance = RequestContext(request))
+
+def vpl(request):
+    if request.method=="POST":
+        form = FormFluxoCaixa(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+    else:
+        form = FormFluxoCaixa()
+    return render_to_response("custos/fluxo_em_caixa.html",{"form":form}, context_instance = RequestContext(request))
