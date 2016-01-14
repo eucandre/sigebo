@@ -2626,6 +2626,7 @@ class FormBalancoPatrimonial(forms.ModelForm):
             model = balanco_patrimonial
 
 class FormAnalise(forms.ModelForm):
+        fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
         Receita_total           = forms.FloatField()
         Resultado_caixa         = forms.FloatField()
         Lucro_operacional       = forms.FloatField()
@@ -2639,3 +2640,22 @@ class FormAnalise(forms.ModelForm):
 
         class Meta:
             model = analise
+
+class FormFluxoCaixa(forms.ModelForm):
+        fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
+        variaveis_janeiro =     forms.FloatField()
+        variaveis_fevereiro =   forms.FloatField()
+        variaveis_marco =       forms.FloatField()
+        variaveis_abril =       forms.FloatField()
+        variaveis_maio =        forms.FloatField()
+        variaveis_junho =       forms.FloatField()
+        variaveis_julho =       forms.FloatField()
+        variaveis_agosto =      forms.FloatField()
+        variaveis_setembro =    forms.FloatField()
+        variaveis_outubro =     forms.FloatField()
+        variaveis_novembro =    forms.FloatField()
+        variaveis_dezembro =    forms.FloatField()
+        variaveis_total=        forms.FloatField()
+        class Meta:
+             model = fluxo_caixa
+          

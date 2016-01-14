@@ -2134,6 +2134,22 @@ class analise(models.Model):
         verbose_name_plural = u"Analise"
 
 
+class fluxo_caixa(models.Model):
+    fazenda = models.ForeignKey(fazenda)
+    variaveis_janeiro = models.FloatField()
+    variaveis_fevereiro = models.FloatField()
+    variaveis_marco = models.FloatField()
+    variaveis_abril = models.FloatField()
+    variaveis_maio = models.FloatField()
+    variaveis_junho = models.FloatField()
+    variaveis_julho = models.FloatField()
+    variaveis_agosto = models.FloatField()
+    variaveis_setembro = models.FloatField()
+    variaveis_outubro = models.FloatField()
+    variaveis_novembro = models.FloatField()
+    variaveis_dezembro = models.FloatField()
+    variaveis_total= models.FloatField()
+
 class vpl(models.Model):
     fazenda = models.ForeignKey(fazenda)
     Numero_animais = models.FloatField()

@@ -61,11 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sisgebo_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="8421" max-vertical-offset="8840">
-              <caret line="516" column="50" selection-start-line="516" selection-start-column="50" selection-end-line="516" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.85470086" vertical-offset="8591" max-vertical-offset="9010">
+              <caret line="526" column="57" selection-start-line="526" selection-start-column="57" selection-end-line="526" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -228,10 +228,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="analise.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="analise.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/custos/analise.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7907692" vertical-offset="4333" max-vertical-offset="10132">
+            <state vertical-scroll-proportion="-9.884615" vertical-offset="4333" max-vertical-offset="10132">
               <caret line="270" column="44" selection-start-line="270" selection-start-column="44" selection-end-line="270" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -280,6 +280,20 @@
                 <element signature="n#style#0;n#span#17;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#18;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#17;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fluxo_em_caixa.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/custos/fluxo_em_caixa.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1452730385613" expanded="true" signature="21:117" placeholder="..." />
+                <marker date="1452730385613" expanded="true" signature="38:93" placeholder="..." />
+                <marker date="1452730385613" expanded="true" signature="100:109" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -531,21 +545,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custo_operacional.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/custos/custo_operacional.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.6923075" vertical-offset="5359" max-vertical-offset="11050">
-              <caret line="327" column="0" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sisgebo_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="35887" max-vertical-offset="37026">
-              <caret line="2127" column="0" selection-start-line="2117" selection-start-column="4" selection-end-line="2127" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="36240" max-vertical-offset="37298">
+              <caret line="2151" column="0" selection-start-line="2137" selection-start-column="4" selection-end-line="2151" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -554,8 +558,8 @@
       <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sisgebo_app/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="44546" max-vertical-offset="44965">
-              <caret line="2641" column="0" selection-start-line="2641" selection-start-column="0" selection-end-line="2641" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="44869" max-vertical-offset="45288">
+              <caret line="2660" column="10" selection-start-line="2660" selection-start-column="10" selection-end-line="2660" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -605,7 +609,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/orcamentos/depreciacao.html" />
         <option value="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_1.js" />
         <option value="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_2.js" />
         <option value="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_3.js" />
@@ -648,14 +651,15 @@
         <option value="$PROJECT_DIR$/templates/custos/custo_operacional.html" />
         <option value="$PROJECT_DIR$/sisgebo_sql.sql" />
         <option value="$PROJECT_DIR$/templates/custos/custo_oportunidade.html" />
-        <option value="$PROJECT_DIR$/sisgebo_app/models.py" />
         <option value="$PROJECT_DIR$/templates/custos/custo_total.html" />
         <option value="$PROJECT_DIR$/templates/custos/receitas.html" />
         <option value="$PROJECT_DIR$/templates/custos/balanco_patrimonial.html" />
-        <option value="$PROJECT_DIR$/sisgebo_app/forms.py" />
-        <option value="$PROJECT_DIR$/sisgebo_app/views.py" />
         <option value="$PROJECT_DIR$/urls.py" />
         <option value="$PROJECT_DIR$/templates/custos/analise.html" />
+        <option value="$PROJECT_DIR$/templates/custos/fluxo_em_caixa.html" />
+        <option value="$PROJECT_DIR$/sisgebo_app/models.py" />
+        <option value="$PROJECT_DIR$/sisgebo_app/forms.py" />
+        <option value="$PROJECT_DIR$/sisgebo_app/views.py" />
       </list>
     </option>
   </component>
@@ -1169,13 +1173,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rascunho">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4948" max-vertical-offset="5406">
-          <caret line="312" column="88" selection-start-line="312" selection-start-column="88" selection-end-line="312" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/js/zzzzzzzzzzzzzzpastaegem/numero_piquete_categoria.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
@@ -1794,30 +1791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sisgebo_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="35887" max-vertical-offset="37026">
-          <caret line="2127" column="0" selection-start-line="2117" selection-start-column="4" selection-end-line="2127" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sisgebo_app/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="44546" max-vertical-offset="44965">
-          <caret line="2641" column="0" selection-start-line="2641" selection-start-column="0" selection-end-line="2641" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sisgebo_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8421" max-vertical-offset="8840">
-          <caret line="516" column="50" selection-start-line="516" selection-start-column="50" selection-end-line="516" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="935">
@@ -1981,7 +1954,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/custos/analise.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7907692" vertical-offset="4333" max-vertical-offset="10132">
+        <state vertical-scroll-proportion="-9.884615" vertical-offset="4333" max-vertical-offset="10132">
           <caret line="270" column="44" selection-start-line="270" selection-start-column="44" selection-end-line="270" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -2031,6 +2004,42 @@
             <element signature="n#style#0;n#span#18;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#17;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/custos/fluxo_em_caixa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="364">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1452730385613" expanded="true" signature="21:117" placeholder="..." />
+            <marker date="1452730385613" expanded="true" signature="38:93" placeholder="..." />
+            <marker date="1452730385613" expanded="true" signature="100:109" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sisgebo_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="36240" max-vertical-offset="37298">
+          <caret line="2151" column="0" selection-start-line="2137" selection-start-column="4" selection-end-line="2151" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sisgebo_app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="44869" max-vertical-offset="45288">
+          <caret line="2660" column="10" selection-start-line="2660" selection-start-column="10" selection-end-line="2660" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sisgebo_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85470086" vertical-offset="8591" max-vertical-offset="9010">
+          <caret line="526" column="57" selection-start-line="526" selection-start-column="57" selection-end-line="526" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
