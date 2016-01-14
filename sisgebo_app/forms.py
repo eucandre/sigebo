@@ -1,12 +1,10 @@
 # coding=utf-8
-
 from Metodos_Auxiliares import *
 from Metodos_Auxiliares2 import *
 from sisgebo_app.models import *
 
-__author__ = 'Carlos'
 from django import forms
-from django.forms import ModelForm
+
 
 UF =((u'Acre','Acre'),(u'Alagoas','Alagoas'),(u'Amapa','Amapá'),(u'Amazonas','Amazonas'),(u'Bahia','Bahia'),
 (u'Ceara','Ceará'),(u'Distrito Federal','Distrito federal'),(u'Espirito Santo','Espirito Santo'),(u'Goias','Goias'),
@@ -17,8 +15,6 @@ UF =((u'Acre','Acre'),(u'Alagoas','Alagoas'),(u'Amapa','Amapá'),(u'Amazonas','A
 (u'Sergipe','Sergipe'),(u'Tocantins','Tocantins'),)
 
 CARGO=((u'Peao','Peao'),(u'Capataz','Capataz'),(u'Gerente','Gerente'),(u'Tratorista','Tratorista'),(u'Outros','Outros'))
-
-
 
 
 class FormFazenda(forms.Form):
@@ -240,6 +236,16 @@ class FormPastagem(forms.Form):
     areas_formar11 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     cap_suporte = forms.FloatField(initial=1.5, widget=forms.TextInput(attrs={"style":"width:20%;"}))
     aluguel = forms.FloatField(initial=0.0, widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aluguel2 = forms.FloatField(initial=0.0, widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aluguel3 = forms.FloatField(initial=0.0, widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aluguel4 = forms.FloatField(initial=0.0, widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aluguel5 = forms.FloatField(initial=0.0, widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aluguel6 = forms.FloatField(initial=0.0, widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aluguel7 = forms.FloatField(initial=0.0, widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aluguel8 = forms.FloatField(initial=0.0, widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aluguel9 = forms.FloatField(initial=0.0, widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aluguel10 = forms.FloatField(initial=0.0, widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aluguel11 = forms.FloatField(initial=0.0, widget=forms.TextInput(attrs={"style":"width:20%;"}))
     cap_suporte2 = forms.FloatField(initial=1.5, widget=forms.TextInput(attrs={"style":"width:20%;"}))
     cap_suporte3 = forms.FloatField(initial=1.5, widget=forms.TextInput(attrs={"style":"width:20%;"}))
     cap_suporte4 = forms.FloatField(initial=1.5, widget=forms.TextInput(attrs={"style":"width:20%;"}))
@@ -2827,3 +2833,15 @@ class FormVpl(forms.ModelForm):
 
         class Meta:
             model = vpl
+
+class FormPE(forms.ModelForm):
+        Custo_fixo_total =          forms.FloatField()
+        Custo_variavel_unitario =   forms.FloatField()
+        Preco_medio_de_venda =      forms.FloatField()
+
+        Ponto_de_equilibrio_anual = forms.FloatField()
+        Ponto_de_equilibrio_mensal= forms.FloatField()
+        Ponto_de_equilibrio_diario= forms.FloatField()
+
+        class Meta:
+            model = pe

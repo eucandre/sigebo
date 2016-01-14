@@ -28,7 +28,7 @@
     <script>
         NProgress.start();
     </script>
-    
+
     <!--[if lt IE 9]>
         <script src="../assets/js/ie8-responsive-file-warning.js"></script>
         <![endif]-->
@@ -82,8 +82,6 @@
                                         <li><a href="/pastagem/">Pastagem</a>
                                         </li>
                                         <li><a href="/venda_compra/">Compra e venda</a>
-                                        </li>
-                                        <li><a href="/pgg_rc/">Boi gordo e rendimento de carcaca</a>
                                         </li>
                                         <li><a href="/confinamento/">Confinamento</a>
                                         </li>
@@ -212,290 +210,93 @@
                 </div>
 
             </div>
-
             <!-- /top navigation -->
 
 
-
             <!-- page content -->
-
             <div class="right_col" role="main">
-                <a class="bg-danger" href="/definicao/">Anterior</a>
-                <a class="bg-danger" href="/venda_compra/">Próximo</a>
+
                 <!-- top tiles -->
-                    <h3>Pastagens</h3>
+                    <a class="bg-danger" href="/#/">Anterior</a>
+                    <a class="bg-danger" href="/#/">Próximo</a>
+}
                 <!-- /top tiles -->
             <br>
-
-            <span style="top:15%;left: 50%; position: relative;"> anos </span>
             <br>
-               <form action="." method="post">
-               {% csrf_token %}
-            <div class="text-center">
-                <span style="padding-right: 3%;">1</span>
-                <span style="padding-right: 3%;">2</span>
-                <span style="padding-right: 3%;">3</span>
-                <span style="padding-right: 3%;">4</span>
-                <span style="padding-right: 3%;">5</span>
-                <span style="padding-right: 3%;">6</span>
-                <span style="padding-right: 3%;">7</span>
-                <span style="padding-right: 3%;">8</span>
-                <span style="padding-right: 3%;">9</span>
-                <span style="padding-right: 3%;">10</span>
-                <span style="padding-right: 3%;">11</span>
-            </div>
-            <div class="aero left_col">
-            <span style="top: 30%; left: 23%;position: absolute; ">Área do pasto (ha)</span>
 
-                <div style="top: 30%; left: 40%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="area_pasto" value="368" id="id_area_pasto" />
-                </div>
-            <span style="top: 35%; left: 23%;position: absolute; ">Áreas a comprar (ha)</span>
-                <div style="top: 35%; left: 40%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="area_a_comprar" id="id_area_a_comprar" />
-                </div>
-                <div style="top: 35%; left: 43%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="area_a_comprar2" id="id_area_a_comprar2" />
-                </div>
-                <div style="top: 35%; left: 46%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="area_a_comprar3" id="id_area_a_comprar3" />
-                </div>
-                <div style="top: 35%; left: 49%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="area_a_comprar4" id="id_area_a_comprar4" />
-                </div>
-                <div style="top: 35%; left: 53%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="area_a_comprar4" id="id_area_a_comprar5" />
-                </div>
-                <div style="top: 35%; left: 56%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="area_a_comprar4" id="id_area_a_comprar6" />
-                </div>
-                <div style="top: 35%; left: 59%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="area_a_comprar4" id="id_area_a_comprar7" />
-                </div>
-                <div style="top: 35%; left: 62%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="area_a_comprar4" id="id_area_a_comprar8" />
-                </div>
-                <div style="top: 35%; left: 65%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="area_a_comprar4" id="id_area_a_comprar9" />
-                </div>
-                <div style="top: 35%; left: 69%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="area_a_comprar4" id="id_area_a_comprar10" />
-                </div>
-                <div style="top: 35%; left: 73%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="area_a_comprar4" id="id_area_a_comprar11" />
-                </div>
-
-            <span style="top: 40%; left: 23%;position: absolute; ">Áreas a formar (ha)</span>
-                <div style="top: 40%; left: 40%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="areas_formar" id="id_areas_formar" />
-                </div>
-                <div style="top: 40%; left: 43%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="areas_formar2" id="id_areas_formar2" />
-                </div>
-                <div style="top: 40%; left: 46%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="areas_formar2" id="id_areas_formar3" />
-                </div>
-                <div style="top: 40%; left: 49%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="areas_formar2" id="id_areas_formar4" />
-                </div>
-                <div style="top: 40%; left: 53%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="areas_formar2" id="id_areas_formar5" />
-                </div>
-                <div style="top: 40%; left: 56%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="areas_formar2" id="id_areas_formar6" />
-                </div>
-                <div style="top: 40%; left: 59%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="areas_formar2" id="id_areas_formar7" />
-                </div>
-                <div style="top: 40%; left: 62%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="areas_formar2" id="id_areas_formar8" />
-                </div>
-                <div style="top: 40%; left: 65%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="areas_formar2" id="id_areas_formar9" />
-                </div>
-                <div style="top: 40%; left: 69%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="areas_formar2" id="id_areas_formar10" />
-                </div>
-                <div style="top: 40%; left: 73%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="areas_formar2" id="id_areas_formar11" />
-                </div>
-
-            <span style="top: 45%; left: 23%;position: absolute; ">Capacidade suporte (R$/Cab/mes)</span>
-                <div style="top: 45%; left: 40%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="cap_suporte" value="1.5" id="id_cap_suporte" />
-                </div>
-                <div style="top: 45%; left: 43%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="cap_suporte2" value="1.5" id="id_cap_suporte2" />
-                </div>
-                <div style="top: 45%; left: 46%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="cap_suporte2" value="1.5" id="id_cap_suporte3" />
-                </div>
-                <div style="top: 45%; left: 49%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="cap_suporte2" value="1.5" id="id_cap_suporte4" />
-                </div>
-                <div style="top: 45%; left: 53%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="cap_suporte2" value="1.5" id="id_cap_suporte5" />
-                </div>
-                <div style="top: 45%; left: 56%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="cap_suporte2" value="1.5" id="id_cap_suporte6" />
-                </div>
-                <div style="top: 45%; left: 59%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="cap_suporte2" value="1.5" id="id_cap_suporte7" />
-                </div>
-                <div style="top: 45%; left: 62%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="cap_suporte2" value="1.5" id="id_cap_suporte8" />
-                </div>
-                <div style="top: 45%; left: 65%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="cap_suporte2" value="1.5" id="id_cap_suporte9" />
-                </div>
-                <div style="top: 45%; left: 69%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="cap_suporte2" value="1.5" id="id_cap_suporte10" />
-                </div>
-                <div style="top: 45%; left: 73%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="cap_suporte2" value="1.5" id="id_cap_suporte11" />
-                </div>
-
-            <span style="top: 50%; left: 23%;position: absolute; ">Aluguel (R$)</span>
-                <div style="top: 50%; left: 40%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="aluguel" value="0.0" id="id_aluguel" />
-                </div>
-                <div style="top: 50%; left: 43%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="aluguel" value="0.0" id="id_aluguel2" />
-                </div>
-                <div style="top: 50%; left: 46%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="aluguel" value="0.0" id="id_aluguel3" />
-                </div>
-                <div style="top: 50%; left: 49%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="aluguel" value="0.0" id="id_aluguel4" />
-                </div>
-                <div style="top: 50%; left: 53%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="aluguel" value="0.0" id="id_aluguel5" />
-                </div>
-                <div style="top: 50%; left: 56%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="aluguel" value="0.0" id="id_aluguel6" />
-                </div>
-                <div style="top: 50%; left: 59%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="aluguel" value="0.0" id="id_aluguel7" />
-                </div>
-                <div style="top: 50%; left: 62%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="aluguel" value="0.0" id="id_aluguel8" />
-                </div>
-                <div style="top: 50%; left: 65%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="aluguel" value="0.0" id="id_aluguel9" />
-                </div>
-                <div style="top: 50%; left: 69%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="aluguel" value="0.0" id="id_aluguel10" />
-                </div>
-                <div style="top: 50%; left: 73%;position: absolute; ">
-                    <input style="width:20%;" type="text" name="aluguel" value="0.0" id="id_aluguel11" />
-                </div>
-
-                <div style="top: 55%; left: 40%;position: absolute;width: 28%; "> <span class="alert-dark">*Para o cálculo do valor do aluguel da pastagem, 1 cab. = 1 UA. De maneira geral, o valor do aluguel/cab./mês varia entre 10 e 15% do preço da arroba do boi gordo.</span></div>
-            </div>
-            <br>
-                <br />
+                <h3> Ponto de equilibrio</h3>
+                <span>Custo fixo total</span>
+                    <div style="top: 23%;left:40%;position: absolute;">aqui</div>
+                <span style="top: 25%;left: 18%;position: absolute;">Custo variável unitário</span>
+                    <div style="top: 25%;left: 40%;position: absolute;">aqui</div>
+                <span style="top: 30%;left:18%;position: absolute;">Preço média de venda</span>
+                    <div style="top: 30%;left: 40%;position: absolute;">aqui</div>
+                <span style="top: 35%; position: absolute;font-weight: bolder">Item</span>
+                <span style="top: 35%;left: 30%;position: absolute;">PE</span>
+                <span style="top: 35%;left: 35%;position: absolute;">PA</span>
+                <span style="top: 35%;left: 40%;position: absolute;">Balanço</span>
+                <span style="top: 35%;left: 45%;position: absolute;">Unidade</span>
+                <span style="top: 40%;position: absolute;">Item</span>
+                    <div style="top: 40%;left:30%;position: absolute;">aqui</div>
+                    <div style="top: 40%;left:35%;position: absolute;">aqui</div>
+                    <div style="top: 40%;left:40%;position: absolute;">aqui</div>
+                    <div style="top: 40%;left:45%;position: absolute;">aqui</div>
+                <span style="top: 45%;position: absolute;">Item</span>
+                    <div style="top: 45%;left:30%;position: absolute;">aqui</div>
+                    <div style="top: 45%;left:35%;position: absolute;">aqui</div>
+                    <div style="top: 45%;left:40%;position: absolute;">aqui</div>
+                    <div style="top: 45%;left:45%;position: absolute;">aqui</div>
+                <span style="top: 50%;position: absolute;">Item</span>
+                    <div style="top: 50%;left:30%;position: absolute;">aqui</div>
+                    <div style="top: 50%;left:35%;position: absolute;">aqui</div>
+                    <div style="top: 50%;left:40%;position: absolute;">aqui</div>
+                    <div style="top: 50%;left:45%;position: absolute;">aqui</div>
                 <div class="row">
+
+
+                    {% block tres %}{% endblock %}
+
                     </div>
-                    <h3 style="position: absolute;top: 70%;">Especificações do Planejamento</h3>
+                                                {% block quatro %}{% endblock %}
 
-                        <span style="top: 75%; left: 43%;position: absolute; ">KG</span>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
 
-                       <span style="top: 80%; left: 23%;position: absolute; ">Número de machos</span>
-                            <div style="top: 80%; left: 40%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="n_machos" id="id_n_machos" />
-                            </div>
-                            <div style="top: 80%; left: 43%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="peso_machos_kg" id="id_peso_machos_kg" />
-                            </div>
-                       <span style="top: 85%; left: 23%;position: absolute; ">Número de fêmeas</span>
-                             <div style="top: 85%; left: 40%;position: absolute; ">
-                                 <input style="width:20%;" type="text" name="n_femeas" id="id_n_femeas" />
-                             </div>
-                             <div style="top: 85%; left: 43%;position: absolute; ">
-                                 <input style="width:20%;" type="text" name="peso_femeas_kg" id="id_peso_femeas_kg" />
-                             </div>
-                       <span style="top: 90%; left: 23%;position: absolute; ">Tempo de descanso</span>
-                             <div style="top: 90%; left: 40%;position: absolute; ">
-                                 <input style="width:20%;" type="text" name="tempo_descanso" value="30" id="id_tempo_descanso" />
-                             </div>
-                             <div style="top: 90%; left: 43%;position: absolute; ">-</div>
-                       <span style="top: 95%; left: 23%;position: absolute; ">Tempo de pastejo</span>
-                             <div style="top: 95%; left: 40%;position: absolute; ">
-                                 <input style="width:20%;" type="text" name="tempo_pastejo" value="10" id="id_tempo_pastejo" />
-                             </div>
-                             <div style="top: 95%; left: 43%;position: absolute; ">-</div>
-                       <span style="top: 100%; left: 23%;position: absolute; ">Animais 6-12 meses</span>
-                             <div style="top: 100%; left: 40%;position: absolute; ">
-                                 <input style="width:20%;" type="text" name="animais6_12" id="id_animais6_12" />
-                             </div>
-                             <div style="top: 100%; left: 43%;position: absolute; ">
-                                 <input style="width:20%;" type="text" name="peso_animais6_12_kg" id="id_peso_animais6_12_kg" />
-                             </div>
-                       <span style="top: 105%; left: 23%;position: absolute; ">Animais 12-21 meses</span>
-                                 <div style="top: 105%; left: 40%;position: absolute; ">
-                                     <input style="width:20%;" type="text" name="animais12_21" id="id_animais12_21" />
-                                 </div>
-                                 <div style="top: 105%; left: 43%;position: absolute; ">
-                                     <input style="width:20%;" type="text" name="peso_animais12_21_kg" id="id_peso_animais12_21_kg" />
-                                 </div>
-
-                    <h3 style="position: absolute;top: 70%; left: 70%;">Planejamento das Pastagens</h3>
-                    <span style="position: absolute;top: 75%; left: 84%;">Área de cada piquete</span>
-                    <span style="top: 80%; left: 65%;position: absolute;">Nº piquetes por categoria</span>
-                            <div style="top: 80%; left: 80%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="n_piquetes_categoria" id="id_n_piquetes_categoria" />
-                            </div>
-                    <span style="top: 85%; left: 65%;position: absolute;">Área piquetes machos</span>
-                            <div style="top: 85%; left: 80%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="area_piquetes_machos_hectare" id="id_area_piquetes_machos_hectare" />
-                            </div>
-                            <div style="top: 85%; left: 84%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="razao_area_piquete_categoria_piquete_machos" id="id_razao_area_piquete_categoria_piquete_machos" />
-                            </div>
-                    <span style="top: 90%; left: 65%;position: absolute;">Área piquetes fêmeas</span>
-                            <div style="top: 90%; left: 80%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="area_piquetes_femeas_hectare" id="id_area_piquetes_femeas_hectare" />
-                            </div>
-                            <div style="top: 90%; left: 84%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="razao_area_piquete_categoria_piquete_femeas" id="id_razao_area_piquete_categoria_piquete_femeas" />
-                            </div>
-                    <span style="top: 95%; left: 65%;position: absolute;">Área piquetes animais 6-12m</span>
-                            <div style="top: 95%; left: 80%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="area_piquetes_animais6_12" id="id_area_piquetes_animais6_12" />
-                            </div>
-                            <div style="top: 95%; left: 84%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="razao_area_piquete_categoria_piquete_animais6_12" id="id_razao_area_piquete_categoria_piquete_animais6_12" />
-                            </div>
-                    <span style="top: 100%; left: 65%;position: absolute;">Área piquetes animais 12-21m</span>
-                            <div style="top: 100%; left: 80%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="area_piquetes_animais12_21" id="id_area_piquetes_animais12_21" />
-                            </div>
-                            <div style="top: 100%; left: 84%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="razao_area_piquete_categoria_piquete_animais12_21" id="id_razao_area_piquete_categoria_piquete_animais12_21" />
-                            </div>
-                    <span style="top: 105%; left: 65%;position: absolute;">Área total para piquetes(ha)</span>
-                            <div style="top: 105%; left: 80%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="area_piquetes_total_hectare" value="0" id="id_area_piquetes_total_hectare" />
-                            </div>
-                    <span style="top: 110%; left: 65%;position: absolute;">Área a comprar(ha)</span>
-                            <div style="top: 110%; left: 80%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="area_comprar_hectare" value="0" id="id_area_comprar_hectare" />
-                            </div>
-                    <div style="top: 120%;position: absolute;left: 50%;">
-                        <button value="/" type="submit">ENVIAR</button>
                     </div>
-                </form>
+
                 </div>
+
 
                 <div class="row">
+
 
                     <div class="col-md-8 col-sm-8 col-xs-12">
+
+
+
+
                         <div class="row">
+
+
+                            <!-- Start to do list -->
+
+                            <!-- End to do list -->
+
+
+                            <!-- start of weather widget -->
                             <div class="col-md-6 col-sm-6 col-xs-12">
+
+
                             </div>
-                         </div>
+                            <!-- end of weather widget -->
+                        </div>
+
+
                     </div>
+
                 </div>
+
+                <!-- footer content -->
+
                 <footer>
                     <div class="">
                         <p class="pull-right">Sistema de gerenciamento de gado de corte <a>SISGEBO</a>. |
@@ -509,7 +310,9 @@
             <!-- /page content -->
 
         </div>
+
     </div>
+
     <div id="custom_notifications" class="custom-notifications dsp_none">
         <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">
         </ul>
