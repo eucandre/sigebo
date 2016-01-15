@@ -457,17 +457,21 @@
                             </div>
                     <span style="top: 90%; left: 65%;position: absolute;">Área piquetes fêmeas</span>
                             <div style="top: 90%; left: 80%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="area_piquetes_femeas_hectare" id="id_area_piquetes_femeas_hectare" />
+                                <!--<input style="width:20%;" type="text" name="area_piquetes_femeas_hectare" id="id_area_piquetes_femeas_hectare" />-->
+                                <span id="id_area_piquetes_femeas_hectare"></span>
                             </div>
-                            <div style="top: 90%; left: 84%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="razao_area_piquete_categoria_piquete_femeas" id="id_razao_area_piquete_categoria_piquete_femeas" />
+                            <div style="top: 90%; left: 94%;position: absolute; ">
+                                <!--<input style="width:20%;" type="text" name="razao_area_piquete_categoria_piquete_femeas" id="id_razao_area_piquete_categoria_piquete_femeas" />-->
+                                <span id="id_razao_area_piquete_categoria_piquete_femeas"></span>
                             </div>
                     <span style="top: 95%; left: 65%;position: absolute;">Área piquetes animais 6-12m</span>
                             <div style="top: 95%; left: 80%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="area_piquetes_animais6_12" id="id_area_piquetes_animais6_12" />
+                                <!--<input style="width:20%;" type="text" name="area_piquetes_animais6_12" id="id_area_piquetes_animais6_12" />-->
+                                <span id="id_area_piquetes_animais6_12"></span>
                             </div>
-                            <div style="top: 95%; left: 84%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="razao_area_piquete_categoria_piquete_animais6_12" id="id_razao_area_piquete_categoria_piquete_animais6_12" />
+                            <div style="top: 95%; left: 94%;position: absolute; ">
+                                <!--<input style="width:20%;" type="text" name="razao_area_piquete_categoria_piquete_animais6_12" id="id_razao_area_piquete_categoria_piquete_animais6_12" />-->
+                                <span id="id_razao_area_piquete_categoria_piquete_animais6_12"></span>
                             </div>
                     <span style="top: 100%; left: 65%;position: absolute;">Área piquetes animais 12-21m</span>
                             <div style="top: 100%; left: 80%;position: absolute; ">
@@ -524,6 +528,9 @@
     <script src="/media/js/areaPiquetesMachos.js"></script>
     <script src="/media/js/numero_piquete_categoria.js"></script>
     <script src="/media/js/razao_piquetes_machos.js"></script>
+    <script src="/media/js/area_piquetes_femeas.js"></script>
+    <script src="/media/js/razao_piquetes_femeas.js"></script>
+    <script src="/media/js/area_aniamais_6_12.js"></script>
     <script src="/media/js/progressbar/bootstrap-progressbar.min.js"></script>
 
 
@@ -588,6 +595,93 @@ capacidade_suporte.addEventListener("keyup", efetuaCalculo);
 
 </script>
 
+<script>
+    //area piquetes femeas
+var area_piquete_femeas_hectare = document.getElementById("id_area_piquetes_femeas_hectare");
+var n_femeas = document.getElementById("id_n_femeas");
+var peso_femea = document.getElementById("id_peso_femeas_kg");
+var cap_sup = document.getElementById("id_cap_suporte");
+
+function efetuaCalculo(){
+  //Cálculo simples de potência só pra ilustrar
+  area_piquete_femeas_hectare.innerHTML = ((parseInt(n_femeas.value)*parseInt(peso_femea.value))/450)/(1.5);
+
+}
+
+peso_femea.addEventListener("keyup", efetuaCalculo);
+n_femea.addEventListener("keyup", efetuaCalculo);
+cap_sup.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+    //razao piquetes femeas
+var razao_area_piquete_categoria_piquete_femeas = document.getElementById("id_razao_area_piquete_categoria_piquete_femeas");
+var n_femeas = document.getElementById("id_n_femeas");
+var peso_femea = document.getElementById("id_peso_femeas_kg");
+var cap_sup = document.getElementById("id_cap_suporte");
+
+
+var tempo_pastejo= document.getElementById("id_tempo_pastejo");
+var tempo_descanso= document.getElementById("id_tempo_descanso");
+
+
+function efetuaCalculo(){
+  //Cálculo simples de potência só pra ilustrar
+  razao_area_piquete_categoria_piquete_femeas.innerHTML = (((parseInt(n_femeas.value)*parseInt(peso_femea.value))/450)/((1.5)))/
+      (parseInt(tempo_descanso.value)/parseInt(tempo_pastejo.value))+1;
+
+}
+
+tempo_descanso.addEventListener("keyup", efetuaCalculo);
+tempo_pastejo.addEventListener("keyup", efetuaCalculo);
+n_femeas.addEventListener("keyup", efetuaCalculo);
+peso_femea.addEventListener("keyup", efetuaCalculo);
+cap_sup.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+
+<script>
+// area animais 6-12 anos
+var area_animais_6_12 = document.getElementById("id_area_piquetes_animais6_12");
+var animais_6_12 = document.getElementById("id_animais6_12");
+var peso_animais_6_12 = document.getElementById("id_peso_animais6_12_kg");
+
+
+function efetuaCalculo(){
+  //Cálculo simples de potência só pra ilustrar
+  area_animais_6_12.innerHTML = ((parseInt(animais_6_12.value)*(parseInt(peso_animais_6_12.value)))/450)/1.5;
+}
+
+
+animais_6_12.addEventListener("keyup", efetuaCalculo);
+peso_animais_6_12.addEventListener("keyup", efetuaCalculo);
+
+</script>
+<script>
+    //razao area animais 6-12
+
+var razao_animais_6_12 = document.getElementById("id_razao_area_piquete_categoria_piquete_animais6_12");
+var animais_6_12 = document.getElementById("id_animais6_12");
+var peso_animais_6_12 = document.getElementById("id_peso_animais6_12_kg");
+
+var tempo_pastejo= document.getElementById("id_tempo_pastejo");
+var tempo_descanso= document.getElementById("id_tempo_descanso");
+
+
+function efetuaCalculo(){
+  //Cálculo simples de potência só pra ilustrar
+  razao_animais_6_12.innerHTML = (((parseInt(animais_6_12.value)*(parseInt(peso_animais_6_12.value)))/450)/parseFloat(cap_sup.value)/(parseInt(tempo_descanso.value)/parseInt(tempo_pastejo.value))+1);
+}
+
+animais_6_12.addEventListener("keyup", efetuaCalculo);
+peso_animais_6_12.addEventListener("keyup", efetuaCalculo);
+tempo_descanso.addEventListener("keyup", efetuaCalculo);
+tempo_pastejo.addEventListener("keyup", efetuaCalculo);
+
+
+</script>
 
     <!-- icheck -->
 

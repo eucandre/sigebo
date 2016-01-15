@@ -4,42 +4,40 @@
     <list id="faf2b82e-2164-4e1d-a3f3-1f6533ae5410" name="Default" comment="Merge branch 'master' of https://github.com/eucandre/sigebo&#10;&#10;Conflicts:&#10;&#9;sisgebo_app/forms.py&#10;" />
     <list default="true" id="e7dd6d88-7531-4f6c-904d-8a42dd6d6c89" name="Failed commit: Default" comment="Editando posicoes relatorio criacao bovinos&#10;">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_1.js" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\numero_piquete_categoria.js" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_piquetes_femeas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/custos/depreciacao.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_7.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_2.js" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_total_piquetes.js" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_animais_12_21.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_9.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_6.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/mao_obra.html" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\templates\pgg_rc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_8.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_3.js" />
       <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_piquetes_machos.js" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_piquetes_femeas.js" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_animais_12_21.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_7.js" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\templates\pgg_rc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/custos/depreciacao.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_8.js" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_total_piquetes.js" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\numero_piquete_categoria.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_9.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sisgebo.db" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pastagem.html" afterPath="$PROJECT_DIR$/templates/pastagem.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urls.py" afterPath="$PROJECT_DIR$/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sisgebo_app/forms.py" afterPath="$PROJECT_DIR$/sisgebo_app/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rascunho" afterPath="$PROJECT_DIR$/rascunho" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gastos_veterinarios.html" afterPath="$PROJECT_DIR$/templates/gastos_veterinarios.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sisgebo_app/forms.py" afterPath="$PROJECT_DIR$/sisgebo_app/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sisgebo_app/models.py" afterPath="$PROJECT_DIR$/sisgebo_app/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sisgebo_app/views.py" afterPath="$PROJECT_DIR$/sisgebo_app/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urls.py" afterPath="$PROJECT_DIR$/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/definicao_rebanho_inicial.html" afterPath="$PROJECT_DIR$/templates/definicao_rebanho_inicial.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sisgebo_app/models.py" afterPath="$PROJECT_DIR$/sisgebo_app/models.py" />
     </list>
     <list id="bb93888b-4d16-4f15-90f1-e27391030ae7" name="Failed commit: Failed commit: Default" comment="Merge branch 'master' of https://github.com/eucandre/sigebo&#10;&#10;Conflicts:&#10;&#9;sisgebo_app/forms.py&#10;">
       <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_aniamais_6_12.js" />
     </list>
     <list id="10abe201-80a4-4f7b-8540-33d5bdcbbee5" name="Failed commit: Failed commit: Failed commit: Default" comment="Merge branch 'master' of https://github.com/eucandre/sigebo&#10;&#10;Conflicts:&#10;&#9;sisgebo_app/forms.py&#10;" />
-    <list id="e9370801-be81-44ef-aee3-ff038197be37" name="Merge branch 'master' of https://github.com/eucandre/sigebo  Conflicts: &#9;sisgebo_app/forms.py (cherry picked from commit f34a450)" comment="Merge branch 'master' of https://github.com/eucandre/sigebo&#10;&#10;Conflicts:&#10;&#9;sisgebo_app/forms.py&#10;(cherry picked from commit f34a450)">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pastagem.html" afterPath="$PROJECT_DIR$/templates/pastagem.html" />
-    </list>
+    <list id="e9370801-be81-44ef-aee3-ff038197be37" name="Merge branch 'master' of https://github.com/eucandre/sigebo  Conflicts: &#9;sisgebo_app/forms.py (cherry picked from commit f34a450)" comment="Merge branch 'master' of https://github.com/eucandre/sigebo&#10;&#10;Conflicts:&#10;&#9;sisgebo_app/forms.py&#10;(cherry picked from commit f34a450)" />
     <ignored path="sigebo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/templates/pastagem.html" ignored="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,21 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sisgebo_app/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4222" max-vertical-offset="48501">
-              <caret line="260" column="13" selection-start-line="260" selection-start-column="13" selection-end-line="260" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pastagem.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/pastagem.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5779037" vertical-offset="8942" max-vertical-offset="13600">
-              <caret line="538" column="48" selection-start-line="538" selection-start-column="48" selection-end-line="538" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.85552406" vertical-offset="11156" max-vertical-offset="15181">
+              <caret line="674" column="125" selection-start-line="674" selection-start-column="125" selection-end-line="674" selection-end-column="125" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -243,14 +231,10 @@
                 <element signature="n#style#0;n#div#17;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#10;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#18;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#18;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#19;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#19;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#11;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#20;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#20;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#21;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#21;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#12;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#22;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#22;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -268,11 +252,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="razao_piquetes_machos.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/media/js/razao_piquetes_machos.js">
+      <file leaf-file-name="razao_animais_6_12.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/js/razao_animais_6_12.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-              <caret line="17" column="87" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="87" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <caret line="21" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -280,31 +264,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="area_aniamais_6_12.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/js/area_aniamais_6_12.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+              <caret line="16" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="razao_piquetes_femeas.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/js/razao_piquetes_femeas.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="595">
+              <caret line="27" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="razao_piquetes_machos.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/js/razao_piquetes_machos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="561">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="numero_piquete_categoria.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/media/js/numero_piquete_categoria.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="374">
               <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="99" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="986">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2652">
-              <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -313,7 +307,7 @@
       <file leaf-file-name="areaPiquetesMachos.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/media/js/areaPiquetesMachos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+            <state vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="425">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
@@ -374,8 +368,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_6.js" />
-        <option value="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_7.js" />
         <option value="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_8.js" />
         <option value="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_9.js" />
         <option value="$PROJECT_DIR$/rascunho" />
@@ -424,6 +416,8 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/media/js/areaPiquetesMachos.js" />
         <option value="$PROJECT_DIR$/media/js/razao_piquetes_machos.js" />
+        <option value="$PROJECT_DIR$/media/js/razao_piquetes_femeas.js" />
+        <option value="$PROJECT_DIR$/media/js/razao_animais_6_12.js" />
         <option value="$PROJECT_DIR$/templates/pastagem.html" />
       </list>
     </option>
@@ -460,53 +454,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="sigebo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="sigebo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="media">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="sigebo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="media">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="js">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -555,6 +502,53 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sigebo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sigebo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="media">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sigebo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="media">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="js">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -707,27 +701,7 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="sigebo" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -753,7 +727,27 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sigebo" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
@@ -962,12 +956,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32463294" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31968504" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1003,56 +997,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5134" max-vertical-offset="9282">
-          <caret line="303" column="0" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://Python/sisgebo_app.models.pgg_rc">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>sisgebo_app.models.pgg_rc</OriginalElement>
-          <nodes>
-            <node x="" y="">sisgebo_app.models.pgg_rc</node>
-            <node x="" y="">object</node>
-            <node x="" y="">django.db.models.base.Model</node>
-            <node x="" y="">django.db.models.base.ModelBase</node>
-            <node x="" y="">_abcoll.Hashable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="180.0" y="120.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://Python/sisgebo_app.models.Compra_e_venda">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>sisgebo_app.models.Compra_e_venda</OriginalElement>
-          <nodes>
-            <node x="" y="">sisgebo_app.models.Compra_e_venda</node>
-            <node x="" y="">object</node>
-            <node x="" y="">django.db.models.base.Model</node>
-            <node x="" y="">django.db.models.base.ModelBase</node>
-            <node x="" y="">_abcoll.Hashable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="187.0" y="120.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://Python/sisgebo_app.models.Compra_e_venda.Meta">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1210,8 +1154,8 @@
           <OriginalElement>sisgebo_app.models.custo_oportunidade</OriginalElement>
           <nodes>
             <node x="" y="">sisgebo_app.models.custo_oportunidade</node>
-            <node x="" y="">object</node>
             <node x="" y="">django.db.models.base.Model</node>
+            <node x="" y="">object</node>
             <node x="" y="">django.db.models.base.ModelBase</node>
             <node x="" y="">_abcoll.Hashable</node>
           </nodes>
@@ -1251,8 +1195,8 @@
             <node x="" y="">sisgebo_app.models.custo_operacional</node>
             <node x="" y="">sisgebo_app.models.despesas_administrativas</node>
             <node x="" y="">sisgebo_app.models.pe</node>
-            <node x="" y="">sisgebo_app.models.receitas</node>
             <node x="" y="">sisgebo_app.models.evolucao_rebanho</node>
+            <node x="" y="">sisgebo_app.models.receitas</node>
             <node x="" y="">sisgebo_app.models.vpl</node>
             <node x="" y="">sisgebo_app.models.analise</node>
           </nodes>
@@ -1365,13 +1309,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/anotações.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.777778" vertical-offset="12619" max-vertical-offset="13039">
           <caret line="761" column="0" selection-start-line="758" selection-start-column="0" selection-end-line="761" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/urls.py">
@@ -1420,10 +1364,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/js/descarte6.js">
+    <entry file="file://$PROJECT_DIR$/media/js/numero_piquete_categoria.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="99" />
           <folding />
         </state>
       </provider>
@@ -1431,10 +1375,16 @@
     <entry file="file://$PROJECT_DIR$/media/js/razao_piquetes_machos.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <caret line="17" column="87" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="87" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/js/area_animais_12_21.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="392">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1446,18 +1396,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/js/numero_piquete_categoria.js">
+    <entry file="file://$PROJECT_DIR$/media/js/area_aniamais_6_12.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="99" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="16" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/js/razao_piquetes_femeas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="595">
+          <caret line="27" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/js/razao_animais_6_12.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="21" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pastagem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5779037" vertical-offset="8942" max-vertical-offset="13600">
-          <caret line="538" column="48" selection-start-line="538" selection-start-column="48" selection-end-line="538" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.85552406" vertical-offset="11156" max-vertical-offset="15181">
+          <caret line="674" column="125" selection-start-line="674" selection-start-column="125" selection-end-line="674" selection-end-column="125" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1614,14 +1582,10 @@
             <element signature="n#style#0;n#div#17;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#10;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#18;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#18;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#19;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#19;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#11;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#20;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#20;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#21;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#21;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#12;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#22;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#22;n#form#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
