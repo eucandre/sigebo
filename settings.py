@@ -49,6 +49,9 @@ USE_L10N = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 MEDIA_ROOT = 'C:/Users/Carlos/Desktop/sisgebo/media'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a

@@ -28,7 +28,7 @@
     <script>
         NProgress.start();
     </script>
-    
+
     <!--[if lt IE 9]>
         <script src="../assets/js/ie8-responsive-file-warning.js"></script>
         <![endif]-->
@@ -416,12 +416,12 @@
                              </div>
                        <span style="top: 90%; left: 23%;position: absolute; ">Tempo de descanso</span>
                              <div style="top: 90%; left: 40%;position: absolute; ">
-                                 <input style="width:20%;" type="text" name="tempo_descanso" value="30" id="id_tempo_descanso" />
+                                 <input style="width:20%;" type="text" name="id_tempo_descanso" value="30" id="id_tempo_descanso" />
                              </div>
                              <div style="top: 90%; left: 43%;position: absolute; ">-</div>
                        <span style="top: 95%; left: 23%;position: absolute; ">Tempo de pastejo</span>
                              <div style="top: 95%; left: 40%;position: absolute; ">
-                                 <input style="width:20%;" type="text" name="tempo_pastejo" value="10" id="id_tempo_pastejo" />
+                                 <input style="width:20%;" type="text" name="id_tempo_pastejo" value="10" id="id_tempo_pastejo" />
                              </div>
                              <div style="top: 95%; left: 43%;position: absolute; ">-</div>
                        <span style="top: 100%; left: 23%;position: absolute; ">Animais 6-12 meses</span>
@@ -443,14 +443,17 @@
                     <span style="position: absolute;top: 75%; left: 84%;">Área de cada piquete</span>
                     <span style="top: 80%; left: 65%;position: absolute;">Nº piquetes por categoria</span>
                             <div style="top: 80%; left: 80%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="n_piquetes_categoria" id="id_n_piquetes_categoria" />
+
+                                <span id="id_n_piquetes_categoria"></span>
                             </div>
                     <span style="top: 85%; left: 65%;position: absolute;">Área piquetes machos</span>
                             <div style="top: 85%; left: 80%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="area_piquetes_machos_hectare" id="id_area_piquetes_machos_hectare" />
+                                <!--<input style="width:20%;" type="text" name="area_piquetes_machos_hectare" id="id_area_piquetes_machos_hectare" />-->
+                                <span id="id_area_piquetes_machos_hectare"></span>
                             </div>
-                            <div style="top: 85%; left: 84%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="razao_area_piquete_categoria_piquete_machos" id="id_razao_area_piquete_categoria_piquete_machos" />
+                            <div style="top: 85%; left: 94%;position: absolute; ">
+                                <!--<input style="width:20%;" type="text" name="razao_area_piquete_categoria_piquete_machos" id="id_razao_area_piquete_categoria_piquete_machos" />-->
+                                <span id="id_razao_area_piquete_categoria_piquete_machos"></span>
                             </div>
                     <span style="top: 90%; left: 65%;position: absolute;">Área piquetes fêmeas</span>
                             <div style="top: 90%; left: 80%;position: absolute; ">
@@ -509,7 +512,7 @@
             <!-- /page content -->
 
         </div>
-    </div>
+
     <div id="custom_notifications" class="custom-notifications dsp_none">
         <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">
         </ul>
@@ -517,42 +520,88 @@
         <div id="notif-group" class="tabbed_notifications"></div>
     </div>
 
-    <script src="/media/js/bootstrap.min.js"></script>
 
-    <!-- gauge js -->
-    <script src="/media/js/zzzzzzzzzzzzzzpastaegem/numero_piquete_categoria.js"></script>
-    <script src="/media/js/zzzzzzzzzzzzzzpastaegem/area_piquetes_machos.js"></script>
-    <script src="/media/js/zzzzzzzzzzzzzzpastaegem/area_piquetes_femeas.js"></script>
-    <script src="/media/js/zzzzzzzzzzzzzzpastaegem/area_aniamais_6_12.js"></script>
-    <script src="/media/js/zzzzzzzzzzzzzzpastaegem/area_animais_12_21.js"></script>
-    <script src="/media/js/zzzzzzzzzzzzzzpastaegem/area_total_piquetes.js"></script>
-    <script src="/media/js/zzzzzzzzzzzzzzzzzzzzzconfinamentos/ganho_diario.js"></script>
-    <script type="text/javascript" src="/media/js/gauge/gauge.min.js"></script>
-    <script type="text/javascript" src="/media/js/gauge/gauge_demo.js"></script>
-    <!-- chart js -->
-    <script src="/media/js/chartjs/chart.min.js"></script>
-    <!-- bootstrap progress js -->
+    <script src="/media/js/areaPiquetesMachos.js"></script>
+    <script src="/media/js/numero_piquete_categoria.js"></script>
+    <script src="/media/js/razao_piquetes_machos.js"></script>
     <script src="/media/js/progressbar/bootstrap-progressbar.min.js"></script>
-    <script src="/media/js/nicescroll/jquery.nicescroll.min.js"></script>
+
+
+<script>
+        //area piquetes machos
+        var area_piquete_machos_hectare = document.getElementById("id_area_piquetes_machos_hectare");
+        var numero_machos = document.getElementById("id_n_machos");
+        var peso_machos_kg = document.getElementById("id_peso_machos_kg");
+        var capacidade_suporte = document.getElementById("id_cap_suporte");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        area_piquete_machos_hectare.innerHTML = ((parseInt(peso_machos_kg.value)*parseInt(numero_machos.value))/450)/parseFloat(capacidade_suporte.value); //parseInt(capacidade_suporte.value);
+
+}
+        numero_machos.addEventListener("keyup", efetuaCalculo);
+        peso_machos_kg.addEventListener("keyup", efetuaCalculo);
+        capacidade_suporte.addEventListener("keyup", efetuaCalculo);
+    </script>
+
+<script>
+        //<!--piquetes categotia-->
+        var n_piquetes_categoria= document.getElementById("id_n_piquetes_categoria");
+        var tempo_pastejo= document.getElementById("id_tempo_pastejo");
+        var tempo_descanso= document.getElementById("id_tempo_descanso");
+
+        function efetuaCalculo(){
+          //Cálculo simples de potência só pra ilustrar
+          n_piquetes_categoria.innerHTML = (parseInt(tempo_descanso.value)/parseInt(tempo_pastejo.value))+1;
+
+}
+
+        tempo_descanso.addEventListener("keyup", efetuaCalculo);
+        tempo_pastejo.addEventListener("keyup", efetuaCalculo);
+</script>
+
+<script>
+    //razão piquetes machos
+var razao_area_piquete_categoria_piquete_machos = document.getElementById("id_razao_area_piquete_categoria_piquete_machos");
+var numero_machos = document.getElementById("id_n_machos");
+var peso_machos_kg = document.getElementById("id_peso_machos_kg");
+var capacidade_suporte = document.getElementById("id_cap_suporte");
+
+
+var tempo_pastejo= document.getElementById("id_tempo_pastejo");
+var tempo_descanso= document.getElementById("id_tempo_descanso");
+
+
+function efetuaCalculo(){
+  //Cálculo simples de potência só pra ilustrar
+  razao_area_piquete_categoria_piquete_machos.innerHTML = parseFloat(((parseInt(peso_machos_kg.value)*parseInt(numero_machos.value))/4500)/parseInt(capacidade_suporte.value)/
+  (parseInt(tempo_descanso.value)/parseInt(tempo_pastejo.value))+1);
+
+}
+
+tempo_descanso.addEventListener("keyup", efetuaCalculo);
+tempo_pastejo.addEventListener("keyup", efetuaCalculo);
+numero_machos.addEventListener("keyup", efetuaCalculo);
+peso_machos_kg.addEventListener("keyup", efetuaCalculo);
+capacidade_suporte.addEventListener("keyup", efetuaCalculo);
+
+
+</script>
+
+
     <!-- icheck -->
-    <script src="/media/js/icheck/icheck.min.js"></script>
+
     <!-- daterangepicker -->
     <script type="text/javascript" src="/media/js/moment.min.js"></script>
-    <script type="text/javascript" src="/media/js/datepicker/daterangepicker.js"></script>
+
 
     <script src="/media/js/custom.js"></script>
 
     <!-- flot js -->
     <!--[if lte IE 8]><script type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
-    <script type="text/javascript" src="/media/js/flot/jquery.flot.js"></script>
-    <script type="text/javascript" src="/media/js/flot/jquery.flot.pie.js"></script>
-    <script type="text/javascript" src="/media/js/flot/jquery.flot.orderBars.js"></script>
-    <script type="text/javascript" src="/media/js/flot/jquery.flot.time.min.js"></script>
-    <script type="text/javascript" src="/media/js/flot/date.js"></script>
-    <script type="text/javascript" src="/media/js/flot/jquery.flot.spline.js"></script>
-    <script type="text/javascript" src="/media/js/flot/jquery.flot.stack.js"></script>
-    <script type="text/javascript" src="/media/js/flot/curvedLines.js"></script>
-    <script type="text/javascript" src="/media/js/flot/jquery.flot.resize.js"></script>
+
+
+
     <script>
         $(document).ready(function () {
             // [17, 74, 6, 39, 20, 85, 7]
@@ -614,30 +663,7 @@
         });
     </script>
 
-    <!-- worldmap -->
-    <script type="text/javascript" src="/media/js/maps/jquery-jvectormap-2.0.1.min.js"></script>
-    <script type="text/javascript" src="/media/js/maps/gdp-data.js"></script>
-    <script type="text/javascript" src="/media/js/maps/jquery-jvectormap-world-mill-en.js"></script>
-    <script type="text/javascript" src="/media/js/maps/jquery-jvectormap-us-aea-en.js"></script>
-    <script>
-        $(function () {
-            $('#world-map-gdp').vectorMap({
-                map: 'world_mill_en',
-                backgroundColor: 'transparent',
-                zoomOnScroll: false,
-                series: {
-                    regions: [{
-                        values: gdpData,
-                        scale: ['#E6F2F0', '#149B7E'],
-                        normalizeFunction: 'polynomial'
-                    }]
-                },
-                onRegionTipShow: function (e, el, code) {
-                    el.html(el.html() + ' (GDP - ' + gdpData[code] + ')');
-                }
-            });
-        });
-    </script>
+
     <!-- skycons -->
     <script src="/media/js/skycons/skycons.js"></script>
     <script>
