@@ -475,14 +475,17 @@
                             </div>
                     <span style="top: 100%; left: 65%;position: absolute;">Área piquetes animais 12-21m</span>
                             <div style="top: 100%; left: 80%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="area_piquetes_animais12_21" id="id_area_piquetes_animais12_21" />
+                                <!--<input style="width:20%;" type="text" name="area_piquetes_animais12_21" id="id_area_piquetes_animais12_21" />-->
+                                <span id="id_area_piquetes_animais12_21"></span>
                             </div>
-                            <div style="top: 100%; left: 84%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="razao_area_piquete_categoria_piquete_animais12_21" id="id_razao_area_piquete_categoria_piquete_animais12_21" />
+                            <div style="top: 100%; left: 94%;position: absolute; ">
+                                <!--<input style="width:20%;" type="text" name="razao_area_piquete_categoria_piquete_animais12_21" id="id_razao_area_piquete_categoria_piquete_animais12_21" />-->
+                                <span id="id_razao_area_piquete_categoria_piquete_animais12_21"></span>
                             </div>
                     <span style="top: 105%; left: 65%;position: absolute;">Área total para piquetes(ha)</span>
                             <div style="top: 105%; left: 80%;position: absolute; ">
-                                <input style="width:20%;" type="text" name="area_piquetes_total_hectare" value="0" id="id_area_piquetes_total_hectare" />
+                                <!--<input style="width:20%;" type="text" name="area_piquetes_total_hectare" value="0" id="id_area_piquetes_total_hectare" />-->
+                                <span id="id_area_piquetes_total_hectare"></span>
                             </div>
                     <span style="top: 110%; left: 65%;position: absolute;">Área a comprar(ha)</span>
                             <div style="top: 110%; left: 80%;position: absolute; ">
@@ -659,6 +662,7 @@ animais_6_12.addEventListener("keyup", efetuaCalculo);
 peso_animais_6_12.addEventListener("keyup", efetuaCalculo);
 
 </script>
+
 <script>
     //razao area animais 6-12
 
@@ -682,6 +686,91 @@ tempo_pastejo.addEventListener("keyup", efetuaCalculo);
 
 
 </script>
+<script>
+    //area animais 12-21
+
+var area_animais_12_21 = document.getElementById("id_area_piquetes_animais12_21");
+var animais_12_21 = document.getElementById("id_animais12_21");
+var peso_animais_12_21 = document.getElementById("id_peso_animais12_21_kg");
+
+function efetuaCalculo(){
+  //Cálculo simples de potência só pra ilustrar
+  area_animais_12_21.innerHTML = ((parseInt(animais_12_21.value)*(parseInt(peso_animais_12_21.value)))/450)/1.5;
+}
+
+animais_12_21.addEventListener("keyup", efetuaCalculo);
+peso_animais_12_21.addEventListener("keyup", efetuaCalculo);
+
+
+</script>
+
+<script>
+    //razap 12 -21
+
+var razao_area_animais_12_21 = document.getElementById("id_razao_area_piquete_categoria_piquete_animais12_21");
+var animais_12_21 = document.getElementById("id_animais12_21");
+var peso_animais_12_21 = document.getElementById("id_peso_animais12_21_kg");
+var tempo_pastejo= document.getElementById("id_tempo_pastejo");
+var tempo_descanso= document.getElementById("id_tempo_descanso");
+
+
+function efetuaCalculo(){
+  //Cálculo simples de potência só pra ilustrar
+  razao_area_animais_12_21.innerHTML = (((parseInt(animais_12_21.value)*(parseInt(peso_animais_12_21.value)))/450)/parseFloat(cap_sup.value)/(parseInt(tempo_descanso.value)/parseInt(tempo_pastejo.value))+1);
+}
+
+animais_12_21.addEventListener("keyup", efetuaCalculo);
+peso_animais_12_21.addEventListener("keyup", efetuaCalculo);
+tempo_descanso.addEventListener("keyup", efetuaCalculo);
+tempo_pastejo.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+
+<script>
+    //area total piquetes
+
+var total_piquete = document.getElementById("id_area_piquetes_total_hectare");
+
+var numero_machos = document.getElementById("id_n_machos");
+var peso_machos_kg = document.getElementById("id_peso_machos_kg");
+var capacidade_suporte = document.getElementById("id_cap_suporte");
+
+var n_femeas = document.getElementById("id_n_femeas");
+var peso_femea = document.getElementById("id_peso_femeas_kg");
+var cap_sup = document.getElementById("id_cap_suporte");
+
+var animais_12_21 = document.getElementById("id_animais12_21");
+var peso_animais_12_21 = document.getElementById("id_peso_animais12_21_kg");
+
+var animais_6_12 = document.getElementById("id_animais6_12");
+var peso_animais_6_12 = document.getElementById("id_peso_animais6_12_kg");
+
+
+function efetuaCalculo(){
+  //Cálculo simples de potência só pra ilustrar
+  total_piquete.innerHTML = (((parseInt(peso_machos_kg.value)*parseInt(numero_machos.value))/450)/parseInt(capacidade_suporte.value))+(((parseInt(n_femeas.value)*parseInt(peso_femea.value))/450)/((1.5)))+(((parseInt(animais_6_12.value)*(parseInt(peso_animais_6_12.value)))/450)/1.5);
+
+
+}
+
+numero_machos.addEventListener("keyup", efetuaCalculo);
+peso_machos_kg.addEventListener("keyup", efetuaCalculo);
+capacidade_suporte.addEventListener("keyup", efetuaCalculo);
+peso_femea.addEventListener("keyup", efetuaCalculo);
+n_femea.addEventListener("keyup", efetuaCalculo);
+cap_sup.addEventListener("keyup", efetuaCalculo);
+animais_12_21.addEventListener("keyup", efetuaCalculo);
+peso_animais_12_21.addEventListener("keyup", efetuaCalculo);
+animais_6_12.addEventListener("keyup", efetuaCalculo);
+peso_animais_6_12.addEventListener("keyup", efetuaCalculo);
+
+
+</script>
+
+
+
+
 
     <!-- icheck -->
 
