@@ -1,0 +1,668 @@
+﻿Tarefa : substituir os nomes de vaca_gorda por novilha_gorda
+         substituir os nomes de vaca_gorda por novilho_gordo
+         substituir os nomes de vaca_gorda por boi_gordo
+         substituir os nomes de vaca_gorda por touro
+
+         cada um terá uma sequência desses códigos que mandei a cima que estão com vaca_gorda, note que varia até 8 então
+     é fazer o mesmo com cada um dos nomes que substituirão.
+===========================================================================================================================
+
+
+<script>
+        // vaca gorda PV
+        var vaca_gorda_1 = document.getElementById("id_vaca_gorda_PV");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_1.innerHTML = parseInt(vaca_gorda_kg.value);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_2 = document.getElementById("id_vaca_gorda_PT");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_2.innerHTML = parseInt(vaca_gorda_kg.value)*parseFloat(0.06);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_3 = document.getElementById("id_vaca_gorda_PLF");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_3.innerHTML = parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_4 = document.getElementById("id_vaca_gorda_RC_quente");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_4.innerHTML = (parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_5 = document.getElementById("id_vaca_gorda_RC_frio");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_5.innerHTML = ((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_6 = document.getElementById("id_vaca_gorda_RC_frio");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_6.innerHTML = (((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98));
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_7 = document.getElementById("id_vaca_gorda_CRT");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_7.innerHTML = (((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.48);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_8 = document.getElementById("id_vaca_gorda_CRD");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_8.innerHTML = (((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.38);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_9 = document.getElementById("id_vaca_gorda_CRPA");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_9.innerHTML = (((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.14);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+
+=================================================================================================================================================================================
+
+*********************************************************************************************************************************************************************************
+
+=================================================================================================================================================================================
+
+<script>
+        // novilha gorda PV
+        var novilha_gorda_1 = document.getElementById("id_novilha_gorda_PV");
+        var novilha_gorda_kg = document.getElementById("id_novilha_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilha_gorda_1.innerHTML = parseInt(novilha_gorda_kg.value);
+
+}
+  novilha_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // novilha gorda PT
+        var novilha_gorda_2 = document.getElementById("id_novilha_gorda_PT");
+        var novilha_gorda_kg = document.getElementById("id_novilha_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilha_gorda_2.innerHTML = parseInt(novilha_gorda_kg.value)*parseFloat(0.06);
+
+}
+  novilha_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // novilha gorda PT
+        var novilha_gorda_3 = document.getElementById("id_novilha_gorda_PLF");
+        var novilha_gorda_kg = document.getElementById("id_novilha_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilha_gorda_3.innerHTML = parseInt(novilha_gorda_kg.value)-parseInt(novilha_gorda_kg.value)*parseFloat(0.06);
+
+}
+  novilha_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+
+<script>
+        // novilha gorda PT
+        var novilha_gorda_4 = document.getElementById("id_novilha_gorda_RC_quente");
+        var novilha_gorda_kg = document.getElementById("id_novilha_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilha_gorda_4.innerHTML = (parseInt(novilha_gorda_kg.value)-parseInt(novilha_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5);
+
+}
+  novilha_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // novilha gorda PT
+        var novilha_gorda_5 = document.getElementById("id_novilha_gorda_RC_frio");
+        var novilha_gorda_kg = document.getElementById("id_novilha_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilha_gorda_5.innerHTML = ((parseInt(novilha_gorda_kg.value)-parseInt(novilha_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98);
+
+}
+  novilha_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // novilha gorda PT
+        var novilha_gorda_6 = document.getElementById("id_novilha_gorda_RC_frio");
+        var novilha_gorda_kg = document.getElementById("id_novilha_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilha_gorda_6.innerHTML = (((parseInt(novilha_gorda_kg.value)-parseInt(novilha_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98));
+
+}
+  novilha_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // novilha gorda PT
+        var novilha_gorda_7 = document.getElementById("id_novilha_gorda_CRT");
+        var novilha_gorda_kg = document.getElementById("id_novilha_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilha_gorda_7.innerHTML = (((parseInt(novilha_gorda_kg.value)-parseInt(novilha_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.48);
+
+}
+  novilha_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // novilha gorda PT
+        var novilha_gorda_8 = document.getElementById("id_novilha_gorda_CRD");
+        var novilha_gorda_kg = document.getElementById("id_novilha_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilha_gorda_8.innerHTML = (((parseInt(novilha_gorda_kg.value)-parseInt(novilha_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.38);
+
+}
+  novilha_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // novilha gorda PT
+        var novilha_gorda_9 = document.getElementById("id_novilha_gorda_CRPA");
+        var novilha_gorda_kg = document.getElementById("id_novilha_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilha_gorda_9.innerHTML = (((parseInt(novilha_gorda_kg.value)-parseInt(novilha_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.14);
+
+}
+  novilha_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+=================================================================================================================================================================================
+
+*********************************************************************************************************************************************************************************
+
+=================================================================================================================================================================================
+
+<script>
+        // novilho gordo PV
+        var novilho_gordo_1 = document.getElementById("id_novilho_gordo_PV");
+        var novilho_gordo_kg = document.getElementById("id_novilho_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_1.innerHTML = parseInt(novilho_gordo_kg.value);
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // novilho gordo PT
+        var novilho_gordo_2 = document.getElementById("id_novilho_gordo_PT");
+        var novilho_gordo_kg = document.getElementById("id_novilho_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_2.innerHTML = parseInt(novilho_gordo_kg.value)*parseFloat(0.06);
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // novilho gordo PT
+        var novilho_gordo_3 = document.getElementById("id_novilho_gordo_PLF");
+        var novilho_gordo_kg = document.getElementById("id_novilho_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_3.innerHTML = parseInt(novilho_gordo_kg.value)-parseInt(novilho_gordo_kg.value)*parseFloat(0.06);
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+
+<script>
+        // novilho gordo PT
+        var novilho_gordo_4 = document.getElementById("id_novilho_gordo_RC_quente");
+        var novilho_gordo_kg = document.getElementById("id_novilho_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_4.innerHTML = (parseInt(novilho_gordo_kg.value)-parseInt(novilho_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5);
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // novilho gordo PT
+        var novilho_gordo_5 = document.getElementById("id_novilho_gordo_RC_frio");
+        var novilho_gordo_kg = document.getElementById("id_novilho_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_5.innerHTML = ((parseInt(novilho_gordo_kg.value)-parseInt(novilho_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98);
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // novilho gordo PT
+        var novilho_gordo_6 = document.getElementById("id_novilho_gordo_RC_frio");
+        var novilho_gordo_kg = document.getElementById("id_novilho_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_6.innerHTML = (((parseInt(novilho_gordo_kg.value)-parseInt(novilho_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98));
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // novilho gordo PT
+        var novilho_gordo_7 = document.getElementById("id_novilho_gordo_CRT");
+        var novilho_gordo_kg = document.getElementById("id_novilho_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_7.innerHTML = (((parseInt(novilho_gordo_kg.value)-parseInt(novilho_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.48);
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // novilho gordo PT
+        var novilho_gordo_8 = document.getElementById("id_novilho_gordo_CRD");
+        var novilho_gordo_kg = document.getElementById("id_novilho_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_8.innerHTML = (((parseInt(novilho_gordo_kg.value)-parseInt(novilho_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.38);
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // novilho gordo PT
+        var novilho_gordo_9 = document.getElementById("id_novilho_gordo_CRPA");
+        var novilho_gordo_kg = document.getElementById("id_novilho_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_9.innerHTML = (((parseInt(novilho_gordo_kg.value)-parseInt(novilho_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.14);
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+=================================================================================================================================================================================
+
+*********************************************************************************************************************************************************************************
+
+=================================================================================================================================================================================
+
+<script>
+        // boi gordo PV
+        var boi_gordo_1 = document.getElementById("id_boi_gordo_PV");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_1.innerHTML = parseInt(boi_gordo_kg.value);
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>boi_gordo
+
+<script>
+        // boi gordo PT
+        var boi_gordo_2 = document.getElementById("id_boi_gordo_PT");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_2.innerHTML = parseInt(boi_gordo_kg.value)*parseFloat(0.06);
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);boi_gordoboi_gordo
+    </script>boi_gordo
+
+<script>
+        // boi gordo PT
+        var boi_gordo_3 = document.getElementById("id_boi_gordo_PLF");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_3.innerHTML = parseInt(boi_gordo_kg.value)-parseInt(boi_gordo_kg.value)*parseFloat(0.06);boi_gordo
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+
+<script>
+        // boi gordo PT
+        var boi_gordo_4 = document.getElementById("id_boi_gordo_RC_quente");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_4.innerHTML = (parseInt(boi_gordo_kg.value)-parseInt(boi_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5);
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // boi gordo PT
+        var boi_gordo_5 = document.getElementById("id_boi_gordo_RC_frio");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_5.innerHTML = ((parseInt(boi_gordo_kg.value)-parseInt(boi_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98);
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);boi_gordo
+
+    </script>
+
+<script>
+        // boi gordo PT
+        var boi_gordo_6 = document.getElementById("id_boi_gordo_RC_frio");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_6.innerHTML = (((parseInt(boi_gordo_kg.value)-parseInt(boi_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98));
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // boi gordo PT
+        var boi_gordo_7 = document.getElementById("id_boi_gordo_CRT");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_7.innerHTML = (((parseInt(boi_gordo_kg.value)-parseInt(boi_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.48);
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // boi gordo PT
+        var boi_gordo_8 = document.getElementById("id_boi_gordo_CRD");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_8.innerHTML = (((parseInt(boi_gordo_kg.value)-parseInt(boi_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.38);
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // boi gordo PT
+        var boi_gordo_9 = document.getElementById("id_boi_gordo_CRPA");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_9.innerHTML = (((parseInt(boi_gordo_kg.value)-parseInt(boi_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.14);
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+=================================================================================================================================================================================
+
+*********************************************************************************************************************************************************************************
+
+=================================================================================================================================================================================
+
+<script>
+        // touro PV
+        var touro_1 = document.getElementById("id_touro_PV");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_1.innerHTML = parseInt(touro_kg.value);
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // touro PT
+        var touro_2 = document.getElementById("id_touro_PT");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_2.innerHTML = parseInt(touro_kg.value)*parseFloat(0.06);
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // touro PT
+        var touro_3 = document.getElementById("id_touro_PLF");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_3.innerHTML = parseInt(touro_kg.value)-parseInt(touro_kg.value)*parseFloat(0.06);
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+
+<script>
+        // touro PT
+        var touro_4 = document.getElementById("id_touro_RC_quente");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_4.innerHTML = (parseInt(touro_kg.value)-parseInt(touro_kg.value)*parseFloat(0.06))*parseFloat(0.5);
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // touro PT
+        var touro_5 = document.getElementById("id_touro_RC_frio");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_5.innerHTML = ((parseInt(touro_kg.value)-parseInt(touro_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98);
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // touro PT
+        var touro_6 = document.getElementById("id_touro_RC_frio");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_6.innerHTML = (((parseInt(touro_kg.value)-parseInt(touro_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98));
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // touro PT
+        var touro_7 = document.getElementById("id_touro_CRT");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_7.innerHTML = (((parseInt(touro_kg.value)-parseInt(touro_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.48);
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // touro PT
+        var touro_8 = document.getElementById("id_touro_CRD");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_8.innerHTML = (((parseInt(touro_kg.value)-parseInt(touro_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.38);
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // touro PT
+        var touro_9 = document.getElementById("id_touro_CRPA");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_9.innerHTML = (((parseInt(touro_kg.value)-parseInt(touro_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.14);
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>

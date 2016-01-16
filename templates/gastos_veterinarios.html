@@ -232,14 +232,17 @@
 
                     </div><hr>
                     <span style="top: 30%; left: 18%;position: absolute; ">Vacinas, vermi. e med.</span>
-                        <div style="top: 30%; left: 30%;position: absolute;">aqui</div>
-                        <div style="top: 30%; left: 36%;position: absolute;">aqui</div>
+                <form action="." method="post">
+                        <div style="top: 30%; left: 30%;position: absolute;"><input style="width:20%;" type="text" name="vaca_gorda_kg" id="id_vacina" /></div>
+                        <div style="top: 30%; left: 36%;position: absolute;">
+                            <input style="width:20%;" type="text" name="vaca_gorda_kg" id="rs" />
+                        </div>
                     <span style="top: 35%; left: 18%;position: absolute; ">Sal mineral</span>
-                        <div style="top: 35%; left: 30%;position: absolute;">aqui</div>
-                        <div style="top: 35%; left: 36%;position: absolute;">aqui</div>
+                        <div style="top: 35%; left: 30%;position: absolute;"><input style="width:20%;" type="text" name="vaca_gorda_kg" id="id_sal_mineral" /></div>
+                        <div style="top: 35%; left: 36%;position: absolute;"><input style="width:20%;" type="text" name="vaca_gorda_kg" id="rs" /></div>
                     <span style="top: 40%; left: 18%;position: absolute; ">Outros¹</span>
-                        <div style="top: 40%; left: 30%;position: absolute;">aqui</div>
-                        <div style="top: 40%; left: 36%;position: absolute;">aqui</div>
+                        <div style="top: 40%; left: 30%;position: absolute;">{{ form.outro }}</div>
+                        <div style="top: 40%; left: 36%;position: absolute;"><input style="width:20%;" type="text" name="vaca_gorda_kg" id="id_vaca_gorda_kg" /></div>
                     <span style="top: 45%; position: absolute; color: orangered;font-size: 10px;">¹ Outros gastos proporcionais ao tamanho do rebanho</span>
                 <div class="row">
                     <h3 style="top: 50%;position: absolute;">Gastos com suplementação alimentar (R$/ano)</h3>
@@ -256,69 +259,71 @@
                         <span style="padding-right: 6%;">9º</span>
                      </div>
                     <span style="top:68%;position: absolute;">Sal proteico</span>
-                        <div style="top: 68%; left: 30%;position: absolute;">aqui</div>
-                        <div style="top: 68%; left: 34%;position: absolute;">aqui</div>
-                        <div style="top: 68%; left: 38%;position: absolute;">aqui</div>
-                        <div style="top: 68%; left: 42%;position: absolute;">aqui</div>
-                        <div style="top: 68%; left: 46%;position: absolute;">aqui</div>
-                        <div style="top: 68%; left: 50%;position: absolute;">aqui</div>
-                        <div style="top: 68%; left: 55%;position: absolute;">aqui</div>
-                        <div style="top: 68%; left: 59%;position: absolute;">aqui</div>
-                        <div style="top: 68%; left: 63%;position: absolute;">aqui</div>
+                        <div style="top: 68%; left: 30%;position: absolute;"><input style="width:20%;" type="text" name="vaca_gorda_kg" id="id_sal_proteico_1" /></div>
+                        <div style="top: 68%; left: 34%;position: absolute;"><input style="width:20%;" type="text" name="vaca_gorda_kg" id="id_sal_proteico_2" /></div>
+                        <div style="top: 68%; left: 38%;position: absolute;"><input style="width:20%;" type="text" name="vaca_gorda_kg" id="id_sal_proteico_3" /></div>
+                        <div style="top: 68%; left: 42%;position: absolute;"><input style="width:20%;" type="text" name="vaca_gorda_kg" id="id_sal_proteico_4" /></div>
+                        <div style="top: 68%; left: 46%;position: absolute;"><input style="width:20%;" type="text" name="vaca_gorda_kg" id="id_sal_proteico_5" /></div>
+                        <div style="top: 68%; left: 50%;position: absolute;"><input style="width:20%;" type="text" name="vaca_gorda_kg" id="id_sal_proteico_6" /></div>
+                        <div style="top: 68%; left: 55%;position: absolute;"><input style="width:20%;" type="text" name="vaca_gorda_kg" id="id_sal_proteico_7" /></div>
+                        <div style="top: 68%; left: 59%;position: absolute;"><input style="width:20%;" type="text" name="vaca_gorda_kg" id="id_sal_proteico_8" /></div>
+                        <div style="top: 68%; left: 63%;position: absolute;"><input style="width:20%;" type="text" name="vaca_gorda_kg" id="id_sal_proteico_9" /></div>
 
                     <span style="top:73%;position: absolute;">Ração concentrada</span>
-                        <div style="top: 73%; left: 30%;position: absolute;">aqui</div>
-                        <div style="top: 73%; left: 34%;position: absolute;">aqui</div>
-                        <div style="top: 73%; left: 38%;position: absolute;">aqui</div>
-                        <div style="top: 73%; left: 42%;position: absolute;">aqui</div>
-                        <div style="top: 73%; left: 46%;position: absolute;">aqui</div>
-                        <div style="top: 73%; left: 50%;position: absolute;">aqui</div>
-                        <div style="top: 73%; left: 55%;position: absolute;">aqui</div>
-                        <div style="top: 73%; left: 59%;position: absolute;">aqui</div>
-                        <div style="top: 73%; left: 63%;position: absolute;">aqui</div>
+                        <div style="top: 73%; left: 30%;position: absolute;"><input style="width:20%;" type="text" name="racao_concentrada_1" id="id_racao_concentrada_1" /></div>
+                        <div style="top: 73%; left: 34%;position: absolute;"><input style="width:20%;" type="text" name="racao_concentrada_2" id="id_racao_concentrada_2" /></div>
+                        <div style="top: 73%; left: 38%;position: absolute;"><input style="width:20%;" type="text" name="racao_concentrada_3" id="id_racao_concentrada_3" /></div>
+                        <div style="top: 73%; left: 42%;position: absolute;"><input style="width:20%;" type="text" name="racao_concentrada_4" id="id_racao_concentrada_4" /></div>
+                        <div style="top: 73%; left: 46%;position: absolute;"><input style="width:20%;" type="text" name="racao_concentrada_5" id="id_racao_concentrada_5" /></div>
+                        <div style="top: 73%; left: 50%;position: absolute;"><input style="width:20%;" type="text" name="racao_concentrada_6" id="id_racao_concentrada_6" /></div>
+                        <div style="top: 73%; left: 55%;position: absolute;"><input style="width:20%;" type="text" name="racao_concentrada_7" id="id_racao_concentrada_7" /></div>
+                        <div style="top: 73%; left: 59%;position: absolute;"><input style="width:20%;" type="text" name="racao_concentrada_8" id="id_racao_concentrada_8" /></div>
+                        <div style="top: 73%; left: 63%;position: absolute;"><input style="width:20%;" type="text" name="racao_concentrada_9" id="id_racao_concentrada_9" /></div>
 
                     <span style="top:78%;position: absolute;">Creep feeding</span>
-                        <div style="top: 78%; left: 30%;position: absolute;">aqui</div>
-                        <div style="top: 78%; left: 34%;position: absolute;">aqui</div>
-                        <div style="top: 78%; left: 38%;position: absolute;">aqui</div>
-                        <div style="top: 78%; left: 42%;position: absolute;">aqui</div>
-                        <div style="top: 78%; left: 46%;position: absolute;">aqui</div>
-                        <div style="top: 78%; left: 50%;position: absolute;">aqui</div>
-                        <div style="top: 78%; left: 55%;position: absolute;">aqui</div>
-                        <div style="top: 78%; left: 59%;position: absolute;">aqui</div>
-                        <div style="top: 78%; left: 63%;position: absolute;">aqui</div>
+                        <div style="top: 78%; left: 30%;position: absolute;"><input style="width:20%;" type="text" name="creep_feeding_1" id="id_creep_feeding_1" /></div>
+                        <div style="top: 78%; left: 34%;position: absolute;"><input style="width:20%;" type="text" name="Creep_feeding_1" id="id_creep_feeding_2" /></div>
+                        <div style="top: 78%; left: 38%;position: absolute;"><input style="width:20%;" type="text" name="Creep_feeding_1" id="id_creep_feeding_3" /></div>
+                        <div style="top: 78%; left: 42%;position: absolute;"><input style="width:20%;" type="text" name="Creep_feeding_1" id="id_creep_feeding_4" /></div>
+                        <div style="top: 78%; left: 46%;position: absolute;"><input style="width:20%;" type="text" name="Creep_feeding_1" id="id_creep_feeding_5" /></div>
+                        <div style="top: 78%; left: 50%;position: absolute;"><input style="width:20%;" type="text" name="Creep_feeding_1" id="id_creep_feeding_6" /></div>
+                        <div style="top: 78%; left: 55%;position: absolute;"><input style="width:20%;" type="text" name="Creep_feeding_1" id="id_creep_feeding_7" /></div>
+                        <div style="top: 78%; left: 59%;position: absolute;"><input style="width:20%;" type="text" name="Creep_feeding_1" id="id_creep_feeding_8" /></div>
+                        <div style="top: 78%; left: 63%;position: absolute;"><input style="width:20%;" type="text" name="Creep_feeding_1" id="id_creep_feeding_9" /></div>
 
                     <span style="top:83%;position: absolute;">Outros alimentos</span>
-                        <div style="top: 83%; left: 30%;position: absolute;">aqui</div>
-                        <div style="top: 83%; left: 34%;position: absolute;">aqui</div>
-                        <div style="top: 83%; left: 38%;position: absolute;">aqui</div>
-                        <div style="top: 83%; left: 42%;position: absolute;">aqui</div>
-                        <div style="top: 83%; left: 46%;position: absolute;">aqui</div>
-                        <div style="top: 83%; left: 50%;position: absolute;">aqui</div>
-                        <div style="top: 83%; left: 55%;position: absolute;">aqui</div>
-                        <div style="top: 83%; left: 59%;position: absolute;">aqui</div>
-                        <div style="top: 83%; left: 63%;position: absolute;">aqui</div>
+                        <div style="top: 83%; left: 30%;position: absolute;"><input style="width:20%;" type="text" name="outros_alimentos_1" id="id_outros_alimentos_1" /></div>
+                        <div style="top: 83%; left: 34%;position: absolute;"><input style="width:20%;" type="text" name="outros_alimentos_2" id="id_outros_alimentos_2" /></div>
+                        <div style="top: 83%; left: 38%;position: absolute;"><input style="width:20%;" type="text" name="outros_alimentos_3" id="id_outros_alimentos_3" /></div>
+                        <div style="top: 83%; left: 42%;position: absolute;"><input style="width:20%;" type="text" name="outros_alimentos_4" id="id_outros_alimentos_4" /></div>
+                        <div style="top: 83%; left: 46%;position: absolute;"><input style="width:20%;" type="text" name="outros_alimentos_5" id="id_outros_alimentos_5" /></div>
+                        <div style="top: 83%; left: 50%;position: absolute;"><input style="width:20%;" type="text" name="outros_alimentos_6" id="id_outros_alimentos_6" /></div>
+                        <div style="top: 83%; left: 55%;position: absolute;"><input style="width:20%;" type="text" name="outros_alimentos_7" id="id_outros_alimentos_7" /></div>
+                        <div style="top: 83%; left: 59%;position: absolute;"><input style="width:20%;" type="text" name="outros_alimentos_8" id="id_outros_alimentos_8" /></div>
+                        <div style="top: 83%; left: 63%;position: absolute;"><input style="width:20%;" type="text" name="outros_alimentos_9" id="id_outros_alimentos_9" /></div>
 
                     <span style="top:88%;position: absolute;">Total gasto</span>
-                        <div style="top: 88%; left: 30%;position: absolute;">aqui</div>
-                        <div style="top: 88%; left: 34%;position: absolute;">aqui</div>
-                        <div style="top: 88%; left: 38%;position: absolute;">aqui</div>
-                        <div style="top: 88%; left: 42%;position: absolute;">aqui</div>
-                        <div style="top: 88%; left: 46%;position: absolute;">aqui</div>
-                        <div style="top: 88%; left: 50%;position: absolute;">aqui</div>
-                        <div style="top: 88%; left: 55%;position: absolute;">aqui</div>
-                        <div style="top: 88%; left: 59%;position: absolute;">aqui</div>
-                        <div style="top: 88%; left: 63%;position: absolute;">aqui</div>
+                        <div style="top: 88%; left: 30%;position: absolute;">
+                        <span id="id_total_1"></span>
+                        </div>
+
+                        <div style="top: 88%; left: 34%;position: absolute;"><span id="id_total_2"></span></div>
+                        <div style="top: 88%; left: 38%;position: absolute;"><span id="id_total_3"></div>
+                        <div style="top: 88%; left: 42%;position: absolute;"><span id="id_total_4"></div>
+                        <div style="top: 88%; left: 46%;position: absolute;"><span id="id_total_5"></div>
+                        <div style="top: 88%; left: 50%;position: absolute;"><span id="id_total_6"></div>
+                        <div style="top: 88%; left: 55%;position: absolute;"><span id="id_total_7"></div>
+                        <div style="top: 88%; left: 59%;position: absolute;"><span id="id_total_8"></div>
+                        <div style="top: 88%; left: 63%;position: absolute;"><span id="id_total_9"></div>
 
                     </div>
-                                                {% block quatro %}{% endblock %}
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                   <div class="col-md-4 col-sm-4 col-xs-12">
 
                     </div>
 
                 </div>
 
-
+                </form>
                 <div class="row">
 
 
@@ -373,30 +378,191 @@
         <div id="notif-group" class="tabbed_notifications"></div>
     </div>
 
+    <script>
+            // total 1
+        var total1 = document.getElementById("id_total_1");
+        var sal_proteico_1 = document.getElementById("id_sal_proteico_1");
+        var rac = document.getElementById("id_racao_concentrada_1");
+        var c_f = document.getElementById("id_creep_feeding_1");
+        var o_a = document.getElementById("id_outros_alimentos_1");
+
+
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        total1.innerHTML =  parseInt(sal_proteico_1.value) + parseInt(rac.value) + parseInt(o_a.value) + parseInt(c_f.value);// + parseInt(c_f.value);//parseInt(racao1.value) + parseInt(sal_proteico_1.value);
+
+}
+
+  sal_proteico_1.addEventListener("keyup", efetuaCalculo);
+  rac.addEventListener("keyup", efetuaCalculo);
+  c_f.addEventListener("keyup", efetuaCalculo);
+  o_a.addEventListener("keyup", efetuaCalculo);
+</script>
+
+    <script>
+            // total 2
+        var total2 = document.getElementById("id_total_2");
+        var sal = document.getElementById("id_sal_proteico_2")
+        var racao = document.getElementById("id_racao_concentrada_2");
+        var c_feed = document.getElementById("id_creep_feeding_2");
+        var outros = document.getElementById("id_outros_alimentos_2");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        total2.innerHTML =  parseInt(sal.value)+parseInt(racao.value)+parseInt(c_feed.value)+parseInt(outros.value);
+
+}
+
+  sal.addEventListener("keyup", efetuaCalculo);
+  racao.addEventListener("keyup", efetuaCalculo);
+  c_feed.addEventListener("keyup", efetuaCalculo);
+  outros.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+
+<script>
+            // total 3
+        var total3 = document.getElementById("id_total_3");
+        var sal = document.getElementById("id_sal_proteico_3")
+        var racao = document.getElementById("id_racao_concentrada_3");
+        var c_feed = document.getElementById("id_creep_feeding_3");
+        var outros = document.getElementById("id_outros_alimentos_3");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        total3.innerHTML =  parseInt(sal.value)+parseInt(racao.value)+parseInt(c_feed.value)+parseInt(outros.value);
+
+}
+
+  sal.addEventListener("keyup", efetuaCalculo);
+  racao.addEventListener("keyup", efetuaCalculo);
+  c_feed.addEventListener("keyup", efetuaCalculo);
+  outros.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+==================================================================================================================================
+
+<script>
+            // total 4
+        var total4 = document.getElementById("id_total_4");
+        var sal = document.getElementById("id_sal_proteico_4")
+        var racao = document.getElementById("id_racao_concentrada_4");
+        var c_feed = document.getElementById("id_creep_feeding_4");
+        var outros = document.getElementById("id_outros_alimentos_4");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        total4.innerHTML =  parseInt(sal.value)+parseInt(racao.value)+parseInt(c_feed.value)+parseInt(outros.value);
+
+}
+
+  sal.addEventListener("keyup", efetuaCalculo);
+  racao.addEventListener("keyup", efetuaCalculo);
+  c_feed.addEventListener("keyup", efetuaCalculo);
+  outros.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+==================================================================================================================================
+
+<script>
+            // total 5
+        var total5 = document.getElementById("id_total_5");
+        var sal = document.getElementById("id_sal_proteico_5")
+        var racao = document.getElementById("id_racao_concentrada_5");
+        var c_feed = document.getElementById("id_creep_feeding_5");
+        var outros = document.getElementById("id_outros_alimentos_5");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        total5.innerHTML =  parseInt(sal.value)+parseInt(racao.value)+parseInt(c_feed.value)+parseInt(outros.value);
+
+}
+
+  sal.addEventListener("keyup", efetuaCalculo);
+  racao.addEventListener("keyup", efetuaCalculo);
+  c_feed.addEventListener("keyup", efetuaCalculo);
+  outros.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+===================================================================================================================================
+
+<script>
+            // total 6
+        var total6 = document.getElementById("id_total_6");
+        var sal = document.getElementById("id_sal_proteico_6")
+        var racao = document.getElementById("id_racao_concentrada_6");
+        var c_feed = document.getElementById("id_creep_feeding_6");
+        var outros = document.getElementById("id_outros_alimentos_6");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        total6.innerHTML =  parseInt(sal.value)+parseInt(racao.value)+parseInt(c_feed.value)+parseInt(outros.value);
+
+}
+
+  sal.addEventListener("keyup", efetuaCalculo);
+  racao.addEventListener("keyup", efetuaCalculo);
+  c_feed.addEventListener("keyup", efetuaCalculo);
+  outros.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+=====================================================================================================================================
+
+<script>
+            // total 7
+        var total7 = document.getElementById("id_total_7");
+        var sal = document.getElementById("id_sal_proteico_7")
+        var racao = document.getElementById("id_racao_concentrada_7");
+        var c_feed = document.getElementById("id_creep_feeding_7");
+        var outros = document.getElementById("id_outros_alimentos_7");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        total7.innerHTML =  parseInt(sal.value)+parseInt(racao.value)+parseInt(c_feed.value)+parseInt(outros.value);
+
+}
+
+  sal.addEventListener("keyup", efetuaCalculo);
+  racao.addEventListener("keyup", efetuaCalculo);
+  c_feed.addEventListener("keyup", efetuaCalculo);
+  outros.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+======================================================================================================================================
+
+<script>
+            // total 8
+        var total8 = document.getElementById("id_total_8");
+        var sal = document.getElementById("id_sal_proteico_8")
+        var racao = document.getElementById("id_racao_concentrada_8");
+        var c_feed = document.getElementById("id_creep_feeding_8");
+        var outros = document.getElementById("id_outros_alimentos_8");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        total8.innerHTML =  parseInt(sal.value)+parseInt(racao.value)+parseInt(c_feed.value)+parseInt(outros.value);
+
+}
+
+  sal.addEventListener("keyup", efetuaCalculo);
+  racao.addEventListener("keyup", efetuaCalculo);
+  c_feed.addEventListener("keyup", efetuaCalculo);
+  outros.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+
+
     <script src="/media/js/bootstrap.min.js"></script>
 
     <!-- gauge js -->
-    <script src="/media/js/numero_piquete_categoria.js"></script>
-    <script src="/media/js/area_piquetes_machos.js"></script>
-    <script src="/media/jsPASTAGENS/zzzzzzzzzzzzzzpastaegem/area_piquetes_femeas.js"></script>
-    <script src="/media/jsPASTAGENS/zzzzzzzzzzzzzzpastaegem/area_aniamais_6_12.js"></script>
-    <script src="/media/jsPASTAGENS/zzzzzzzzzzzzzzpastaegem/area_animais_12_21.js"></script>
-    <script src="/media/jsPASTAGENS/zzzzzzzzzzzzzzpastaegem/area_total_piquetes.js"></script>
-    <script src="/media/js/zzzzzzzzzzzzzzzzzzzzzconfinamentos/ganho_diario.js"></script>
-    <script type="text/javascript" src="/media/js/gauge/gauge.min.js"></script>
-    <script type="text/javascript" src="/media/js/gauge/gauge_demo.js"></script>
-    <!-- chart js -->
-    <script src="/media/js/chartjs/chart.min.js"></script>
-    <!-- bootstrap progress js -->
-    <script src="/media/js/progressbar/bootstrap-progressbar.min.js"></script>
-    <script src="/media/js/nicescroll/jquery.nicescroll.min.js"></script>
-    <!-- icheck -->
-    <script src="/media/js/icheck/icheck.min.js"></script>
-    <!-- daterangepicker -->
-    <script type="text/javascript" src="/media/js/moment.min.js"></script>
-    <script type="text/javascript" src="/media/js/datepicker/daterangepicker.js"></script>
-
-    <script src="/media/js/custom.js"></script>
 
     <!-- flot js -->
     <!--[if lte IE 8]><script type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->

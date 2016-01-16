@@ -1,14 +1,136 @@
+    <script>
+        // vaca gorda PV
+        var vaca_gorda_1 = document.getElementById("id_vaca_gorda_PV");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_1.innerHTML = parseInt(vaca_gorda_kg.value);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
 <script>
-var total = document.getElementById("id_total");
-var vacas_paridas1 = document.getElementById("id_Vacas_paridas_compra");
-var vacas_solteiras1 = document.getElementById("id_Vacas_solteiras_compra");
+        // vaca gorda PT
+        var vaca_gorda_2 = document.getElementById("id_vaca_gorda_PT");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
 
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_2.innerHTML = parseInt(vaca_gorda_kg.value)*parseFloat(0.06);
 
-function efetuaCalculo(){
-          //Cálculo simples de potência só pra ilustrar
-          total.innerHTML = parseInt(2)+parseInt(4);
-
-vacas_paridas1.addEventListener("keyup", efetuaCalculo);
-vacas_solteiras1.addEventListener("keyup", efetuaCalculo);
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
 
     </script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_3 = document.getElementById("id_vaca_gorda_PLF");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_3.innerHTML = parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_4 = document.getElementById("id_vaca_gorda_RC_quente");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_4.innerHTML = (parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_5 = document.getElementById("id_vaca_gorda_RC_frio");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_5.innerHTML = ((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_5 = document.getElementById("id_vaca_gorda_RC_frio");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_5.innerHTML = (((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98));
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_6 = document.getElementById("id_vaca_gorda_CRT");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_6.innerHTML = (((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.48);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_7 = document.getElementById("id_vaca_gorda_CRD");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_7.innerHTML = (((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.38);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_8 = document.getElementById("id_vaca_gorda_CRPA");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_8.innerHTML = (((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.14);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+
+Tarefa : substituir os nomes de vaca_gorda por novilha_gorda
+         substituir os nomes de vaca_gorda por boi_gordo
+         substituir os nomes de vaca_gorda por novilha_gorda
+         substituir os nomes de vaca_gorda por novilho_gordo
+         substituir os nomes de vaca_gorda por touro
+
+         cada um terá uma sequência desses códigos que mandei a cima que estão com vaca_gorda, note que varia até 8 então
+     é fazer o mesmo com cada um dos nomes que substituirão.

@@ -163,12 +163,7 @@ def gastos_veterinarios(request):
     if request.method=='post':
         form = FormGastos_veterinarios(request.POST, request.FILES)
         if form.is_valid():
-            dados = form.cleaned_data
-            item  = Gastos_Produtos_veterinarios(fazenda = dados['fazenda'], ano= dados['ano'], vacinas = dados['vacinas'],vacinas_ru_ano = dados['vacinas_ru_ano'],
-                Outros_medicamentos=dados['Outros_medicamentos'],Outros_medicamentos_ru_ano=dados['Outros_medicamentos_ru_ano'],sal_mineral=dados['sal_mineral'],
-                sal_mineral_ru_ano=dados['sal_mineral_ru_ano'], sal_proteico=dados['sal_proteico'],racao_concentrada=dados['racao_concentrada'],
-                Creep_feeding=dados['Creep_feeding'],outros_alimentos=dados['outros_alimentos'])
-            item.save()
+            form.save()
     else:
         form = FormMaoObra()
     return render_to_response("gastos_veterinarios.html", {"form":form}, context_instance = RequestContext(request))

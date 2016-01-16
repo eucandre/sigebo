@@ -1,0 +1,158 @@
+﻿<script>
+            // total 2
+        var total2 = document.getElementById("id_total_2");
+        var sal = document.getElementById("id_sal_proteico_2")
+        var racao = document.getElementById("id_racao_concentrada_2");
+        var c_feed = document.getElementById("id_creep_feeding_2");
+        var outros = document.getElementById("id_outros_alimentos_2");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        total2.innerHTML =  parseInt(sal.value)+parseInt(racao.value)+parseInt(c_feed.value)+parseInt(outros.value);
+
+}
+
+  sal.addEventListener("keyup", efetuaCalculo);
+  racao.addEventListener("keyup", efetuaCalculo);
+  c_feed.addEventListener("keyup", efetuaCalculo);
+  outros.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+==============================================================================================================================
+
+<script>
+            // total 3
+        var total3 = document.getElementById("id_total_3");
+        var sal = document.getElementById("id_sal_proteico_3")
+        var racao = document.getElementById("id_racao_concentrada_3");
+        var c_feed = document.getElementById("id_creep_feeding_3");
+        var outros = document.getElementById("id_outros_alimentos_3");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        total3.innerHTML =  parseInt(sal.value)+parseInt(racao.value)+parseInt(c_feed.value)+parseInt(outros.value);
+
+}
+
+  sal.addEventListener("keyup", efetuaCalculo);
+  racao.addEventListener("keyup", efetuaCalculo);
+  c_feed.addEventListener("keyup", efetuaCalculo);
+  outros.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+==================================================================================================================================
+
+<script>
+            // total 4
+        var total4 = document.getElementById("id_total_4");
+        var sal = document.getElementById("id_sal_proteico_4")
+        var racao = document.getElementById("id_racao_concentrada_4");
+        var c_feed = document.getElementById("id_creep_feeding_4");
+        var outros = document.getElementById("id_outros_alimentos_4");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        total4.innerHTML =  parseInt(sal.value)+parseInt(racao.value)+parseInt(c_feed.value)+parseInt(outros.value);
+
+}
+
+  sal.addEventListener("keyup", efetuaCalculo);
+  racao.addEventListener("keyup", efetuaCalculo);
+  c_feed.addEventListener("keyup", efetuaCalculo);
+  outros.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+==================================================================================================================================
+
+<script>
+            // total 5
+        var total5 = document.getElementById("id_total_5");
+        var sal = document.getElementById("id_sal_proteico_5")
+        var racao = document.getElementById("id_racao_concentrada_5");
+        var c_feed = document.getElementById("id_creep_feeding_5");
+        var outros = document.getElementById("id_outros_alimentos_5");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        total5.innerHTML =  parseInt(sal.value)+parseInt(racao.value)+parseInt(c_feed.value)+parseInt(outros.value);
+
+}
+
+  sal.addEventListener("keyup", efetuaCalculo);
+  racao.addEventListener("keyup", efetuaCalculo);
+  c_feed.addEventListener("keyup", efetuaCalculo);
+  outros.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+===================================================================================================================================
+
+<script>
+            // total 6
+        var total6 = document.getElementById("id_total_6");
+        var sal = document.getElementById("id_sal_proteico_6")
+        var racao = document.getElementById("id_racao_concentrada_6");
+        var c_feed = document.getElementById("id_creep_feeding_6");
+        var outros = document.getElementById("id_outros_alimentos_6");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        total6.innerHTML =  parseInt(sal.value)+parseInt(racao.value)+parseInt(c_feed.value)+parseInt(outros.value);
+
+}
+
+  sal.addEventListener("keyup", efetuaCalculo);
+  racao.addEventListener("keyup", efetuaCalculo);
+  c_feed.addEventListener("keyup", efetuaCalculo);
+  outros.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+=====================================================================================================================================
+
+<script>
+            // total 7
+        var total7 = document.getElementById("id_total_7");
+        var sal = document.getElementById("id_sal_proteico_7")
+        var racao = document.getElementById("id_racao_concentrada_7");
+        var c_feed = document.getElementById("id_creep_feeding_7");
+        var outros = document.getElementById("id_outros_alimentos_7");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        total7.innerHTML =  parseInt(sal.value)+parseInt(racao.value)+parseInt(c_feed.value)+parseInt(outros.value);
+
+}
+
+  sal.addEventListener("keyup", efetuaCalculo);
+  racao.addEventListener("keyup", efetuaCalculo);
+  c_feed.addEventListener("keyup", efetuaCalculo);
+  outros.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+======================================================================================================================================
+
+<script>
+            // total 8
+        var total8 = document.getElementById("id_total_8");
+        var sal = document.getElementById("id_sal_proteico_8")
+        var racao = document.getElementById("id_racao_concentrada_8");
+        var c_feed = document.getElementById("id_creep_feeding_8");
+        var outros = document.getElementById("id_outros_alimentos_8");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        total8.innerHTML =  parseInt(sal.value)+parseInt(racao.value)+parseInt(c_feed.value)+parseInt(outros.value);
+
+}
+
+  sal.addEventListener("keyup", efetuaCalculo);
+  racao.addEventListener("keyup", efetuaCalculo);
+  c_feed.addEventListener("keyup", efetuaCalculo);
+  outros.addEventListener("keyup", efetuaCalculo);
+
+</script>

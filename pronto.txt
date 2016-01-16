@@ -1,0 +1,57 @@
+﻿    vaca_gorda_PV= forms.IntegerField(initial=50,label='Vaca gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vaca_gorda_PT= forms.IntegerField(initial=50,label='Vaca gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vaca_gorda_PLF= forms.IntegerField(initial=50,label='Vaca gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vaca_gorda_RC_quente= forms.IntegerField(initial=50,label='Vaca gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vaca_gorda_RC_frio= forms.IntegerField(initial=50,label='Vaca gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vaca_gorda_CRT= forms.IntegerField(initial=50,label='Vaca gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vaca_gorda_CRD= forms.IntegerField(initial=50,label='Vaca gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vaca_gorda_CRPA= forms.IntegerField(initial=50,label='Vaca gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    novilha_gorda_PV= forms.IntegerField(initial=50,label='Novilha gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    novilha_gorda_PT= forms.IntegerField(initial=50,label='Novilha gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    novilha_gorda_PLF= forms.IntegerField(initial=50,label='Novilha gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    novilha_gorda_RC_quente= forms.IntegerField(initial=50,label='Novilha gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    novilha_gorda_RC_frio= forms.IntegerField(initial=50,label='Novilha gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    novilha_gorda_CRT= forms.IntegerField(initial=50,label='Novilha gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    novilha_gorda_CRD= forms.IntegerField(initial=50,label='Novilha gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    novilha_gorda_CRPA= forms.IntegerField(initial=50,label='Novilha gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    boi_gordo_PV= forms.IntegerField(initial=58,label='Boi gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    boi_gordo_PT= forms.IntegerField(initial=58,label='Boi gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    boi_gordo_PLF= forms.IntegerField(initial=58,label='Boi gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    boi_gordo_RC_quente= forms.IntegerField(initial=58,label='Boi gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    boi_gordo_RC_frio= forms.IntegerField(initial=58,label='Boi gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    boi_gordo_CRT= forms.IntegerField(initial=58,label='Boi gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    boi_gordo_CRD= forms.IntegerField(initial=58,label='Boi gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    boi_gordo_CRPA= forms.IntegerField(initial=58,label='Boi gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    novilho_gordo_PV= forms.IntegerField(initial=50,label='Novilho gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    novilho_gordo_PT= forms.IntegerField(initial=50,label='Novilho gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    novilho_gordo_PLF= forms.IntegerField(initial=50,label='Novilho gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    novilho_gordo_RC_quente= forms.IntegerField(initial=50,label='Novilho gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    novilho_gordo_RC_frio= forms.IntegerField(initial=50,label='Novilho gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    novilho_gordo_CRT= forms.IntegerField(initial=50,label='Novilho gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    novilho_gordo_CRD= forms.IntegerField(initial=50,label='Novilho gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    novilho_gordo_CRPA= forms.IntegerField(initial=50,label='Novilho gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    touro_PV= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    touro_PT= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    touro_PLF= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    touro_RC_quente= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    touro_RC_frio= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    touro_CRT= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    touro_CRD= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    touro_CRPA= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+
+
+                        _PV
+                        _PT
+                        _PLF
+                        _RC_quente
+                        _RC_frio
+                        _CRT
+                        _CRD
+                        _CRPA
+ Tarefa: colar, esses nomes que estão antecedidos por underlines, junto aos nomes das variávels antes da igualdade e no fim do nome das variáveis.
+   Segue a lógica que cada nome antecedido por underlines está para cada linha dos blocos a cima, tipo: _PV está para cada 1º linha e assim faniamente!

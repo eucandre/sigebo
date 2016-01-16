@@ -228,42 +228,40 @@
                 <h3>Peso do gado gordo (@)</h3>
                 <br/>
                 <span style="top: 30%; left: 18%;position: absolute; ">Vaca gorda</span>
-                        <div style="top: 30%; left: 33%;position: absolute;">aqui</div>
-                        <div style="top: 30%; left: 39%;position: absolute;">aqui</div>
+                        <div style="top: 30%; left: 33%;position: absolute;">{{ form.vaca_gorda_kg }}</div>
+
                 <span style="top: 35%; left: 18%;position: absolute; ">Novilha gorda</span>
-                        <div style="top: 35%; left: 33%;position: absolute;">aqui</div>
-                        <div style="top: 35%; left: 39%;position: absolute;">aqui</div>
+                        <div style="top: 35%; left: 33%;position: absolute;">{{ form.novilha_gosda_kg }}</div>
+
                 <span style="top: 40%; left: 18%;position: absolute; ">Boi gordo</span>
-                        <div style="top: 40%; left: 33%;position: absolute;">aqui</div>
-                        <div style="top: 40%; left: 39%;position: absolute;">aqui</div>
+                        <div style="top: 40%; left: 33%;position: absolute;">{{ form.boi_gordo_kg }}</div>
+
                 <span style="top: 45%; left: 18%;position: absolute; ">Novilho precoce</span>
-                        <div style="top: 45%; left: 33%;position: absolute;">aqui</div>
-                        <div style="top: 45%; left: 39%;position: absolute;">aqui</div>
+                        <div style="top: 45%; left: 33%;position: absolute;">{{ form.novilho_precoce_kg }}</div>
+
                 <span style="top: 50%; left: 18%;position: absolute; ">Touruno</span>
-                        <div style="top: 50%; left: 33%;position: absolute;">aqui</div>
-                        <div style="top: 50%; left: 39%;position: absolute;">aqui</div>
+                        <div style="top: 50%; left: 33%;position: absolute;">{{ form.touro_kg }}</div>
+
                 <!---->
                 <h3 style="top: 11%;left:60%;position: absolute;">Rendimento de carcaça (%)</h3>
                 <span style="top: 30%; left: 60%;position: absolute; ">Vaca gorda</span>
-                        <div style="top: 30%; left: 73%;position: absolute;">aqui</div>
-                        <div style="top: 30%; left: 79%;position: absolute;">aqui</div>
+                        <div style="top: 30%; left: 73%;position: absolute;">{{ form.vaca_gorda_cento }}</div>
+
                 <span style="top: 35%; left: 60%;position: absolute; ">Novilha gorda</span>
-                        <div style="top: 35%; left: 73%;position: absolute;">aqui</div>
-                        <div style="top: 35%; left: 79%;position: absolute;">aqui</div>
+                        <div style="top: 35%; left: 73%;position: absolute;">{{ form.novilha_gorda_cento }}</div>
+
                 <span style="top: 40%; left: 60%;position: absolute; ">Boi gordo</span>
-                        <div style="top: 40%; left: 73%;position: absolute;">aqui</div>
-                        <div style="top: 40%; left: 79%;position: absolute;">aqui</div>
+                        <div style="top: 40%; left: 73%;position: absolute;">{{ form.boi_gordo_cento }}</div>
+
                 <span style="top: 45%; left: 60%;position: absolute; ">Novilho precoce</span>
-                        <div style="top: 45%; left: 73%;position: absolute;">aqui</div>
-                        <div style="top: 45%; left: 79%;position: absolute;">aqui</div>
+                        <div style="top: 45%; left: 73%;position: absolute;">{{ form.novilho_precoce_cento }}</div>
+
                 <span style="top: 50%; left: 60%;position: absolute; ">Touruno</span>
-                        <div style="top: 50%; left: 73%;position: absolute;">aqui</div>
-                        <div style="top: 50%; left: 79%;position: absolute;">aqui</div>
+                        <div style="top: 50%; left: 73%;position: absolute;">{{ form.touro_cento }}</div>
+
 
                 <div class="row">
 
-
-                    {% block tres %}{% endblock %}
 
                     </div>
 
@@ -280,63 +278,63 @@
             </div>
             <div style="top:75%;width: 50%;position: absolute;">
                 <span style="top: 30%; position: absolute; ">Vaca gorda</span>
-                        <div style="top: 30%; left: 23%;position: absolute;">aqui</div>
-                        <div style="top: 30%; left: 32%;position: absolute;">aqui</div>
-                        <div style="top: 35%; left: 41%;position: absolute;">aqui</div>
-                        <div style="top: 35%; left: 52%;position: absolute;">aqui</div>
-                        <div style="top: 40%; left: 68%;position: absolute;">aqui</div>
-                        <div style="top: 40%; left: 81%;position: absolute;">aqui</div>
-                        <div style="top: 45%; left: 92%;position: absolute;">aqui</div>
-                        <div style="top: 50%; left: 103%;position: absolute;">aqui</div>
+                        <div style="top: 30%; left: 23%;position: absolute;"><span id="id_vaca_gorda_PV"></span></div>
+                        <div style="top: 30%; left: 32%;position: absolute;"><span id="id_vaca_gorda_PT"></span></div>
+                        <div style="top: 35%; left: 41%;position: absolute;"><span id="id_vaca_gorda_PLF"></span></div>
+                        <div style="top: 35%; left: 52%;position: absolute;"><span id="id_vaca_gorda_RC_quente"></span></div>
+                        <div style="top: 40%; left: 68%;position: absolute;"><span id="id_vaca_gorda_RC_frio"></span></div>
+                        <div style="top: 40%; left: 81%;position: absolute;"><span id="id_vaca_gorda_CRT"></span></div>
+                        <div style="top: 45%; left: 92%;position: absolute;"><span id="id_vaca_gorda_CRD"></span></div>
+                        <div style="top: 50%; left: 103%;position: absolute;"><span id="id_vaca_gorda_CRPA"></span></div>
             </div>
 
             <div style="top:80%;width: 50%;position: absolute;">
                 <span style="top: 30%; position: absolute; ">Novilha gorda</span>
-                        <div style="top: 30%; left: 23%;position: absolute;">aqui</div>
-                        <div style="top: 30%; left: 32%;position: absolute;">aqui</div>
-                        <div style="top: 35%; left: 41%;position: absolute;">aqui</div>
-                        <div style="top: 35%; left: 52%;position: absolute;">aqui</div>
-                        <div style="top: 40%; left: 68%;position: absolute;">aqui</div>
-                        <div style="top: 40%; left: 81%;position: absolute;">aqui</div>
-                        <div style="top: 45%; left: 92%;position: absolute;">aqui</div>
-                        <div style="top: 50%; left: 103%;position: absolute;">aqui</div>
+                        <div style="top: 30%; left: 23%;position: absolute;"><span id="id_novilha_gorda_PV"></span></div>
+                        <div style="top: 30%; left: 32%;position: absolute;"><span id="id_novilha_gorda_PT"></span></div>
+                        <div style="top: 35%; left: 41%;position: absolute;"><span id="id_novilha_gorda_PLF"></span></div>
+                        <div style="top: 35%; left: 52%;position: absolute;"><span id="id_novilha_gorda_RC_quente"></span></div>
+                        <div style="top: 40%; left: 68%;position: absolute;"><span id="id_novilha_gorda_RC_frio"></span></div>
+                        <div style="top: 40%; left: 81%;position: absolute;"><span id="id_novilha_gorda_CRT"></span></div>
+                        <div style="top: 45%; left: 92%;position: absolute;"><span id="id_novilha_gorda_CRD"></span></div>
+                        <div style="top: 50%; left: 103%;position: absolute;"><span id="id_novilha_gorda_CRPA"></span></div>
 
             </div>
             <div style="top:85%;width: 50%;position: absolute;">
                 <span style="top: 30%; position: absolute; ">Boi gordo</span>
-                        <div style="top: 30%; left: 23%;position: absolute;">aqui</div>
-                        <div style="top: 30%; left: 32%;position: absolute;">aqui</div>
-                        <div style="top: 35%; left: 41%;position: absolute;">aqui</div>
-                        <div style="top: 35%; left: 52%;position: absolute;">aqui</div>
-                        <div style="top: 40%; left: 68%;position: absolute;">aqui</div>
-                        <div style="top: 40%; left: 81%;position: absolute;">aqui</div>
-                        <div style="top: 45%; left: 92%;position: absolute;">aqui</div>
-                        <div style="top: 50%; left: 103%;position: absolute;">aqui</div>
+                        <div style="top: 30%; left: 23%;position: absolute;"><span id="id_boi_gordo_PV"></span></div>
+                        <div style="top: 30%; left: 32%;position: absolute;"><span id="id_boi_gordo_PT"></span></div>
+                        <div style="top: 35%; left: 41%;position: absolute;"><span id="id_boi_gordo_PLF"></span></div>
+                        <div style="top: 35%; left: 52%;position: absolute;"><span id="id_boi_gordo_RC_quente"></span></div>
+                        <div style="top: 40%; left: 68%;position: absolute;"><span id="id_boi_gordo_RC_frio"></span></div>
+                        <div style="top: 40%; left: 81%;position: absolute;"><span id="id_boi_gordo_CRT"></span></div>
+                        <div style="top: 45%; left: 92%;position: absolute;"><span id="id_boi_gordo_CRD"></span></div>
+                        <div style="top: 50%; left: 103%;position: absolute;"><span id="id_boi_gordo_CRPA"></span></div>
 
             </div>
 
             <div style="top:90%;width: 50%;position: absolute;">
                 <span style="top: 30%; position: absolute; ">Novilho precoce</span>
-                        <div style="top: 30%; left: 23%;position: absolute;">aqui</div>
-                        <div style="top: 30%; left: 32%;position: absolute;">aqui</div>
-                        <div style="top: 35%; left: 41%;position: absolute;">aqui</div>
-                        <div style="top: 35%; left: 52%;position: absolute;">aqui</div>
-                        <div style="top: 40%; left: 68%;position: absolute;">aqui</div>
-                        <div style="top: 40%; left: 81%;position: absolute;">aqui</div>
-                        <div style="top: 45%; left: 92%;position: absolute;">aqui</div>
-                        <div style="top: 50%; left: 103%;position: absolute;">aqui</div>
+                        <div style="top: 30%; left: 23%;position: absolute;"><span id="id_novilho_gordo_PV"></span></div>
+                        <div style="top: 30%; left: 32%;position: absolute;"><span id="id_novilho_gordo_PT"></span></div>
+                        <div style="top: 35%; left: 41%;position: absolute;"><span id="id_novilho_gordo_PLF"></span></div>
+                        <div style="top: 35%; left: 52%;position: absolute;"><span id="id_novilho_gordo_RC_quente"></span></div>
+                        <div style="top: 40%; left: 68%;position: absolute;"><span id="id_novilho_gordo_RC_frio"></span></div>
+                        <div style="top: 40%; left: 81%;position: absolute;"><span id="id_novilho_gordo_CRT"></span></div>
+                        <div style="top: 45%; left: 92%;position: absolute;"><span id="id_novilho_gordo_CRD"></span></div>
+                        <div style="top: 50%; left: 103%;position: absolute;"><span id="id_novilho_gordo_CRPA"></span></div>
 
             </div>
             <div style="top:95%;width: 50%;position: absolute;">
                 <span style="top: 30%; position: absolute; ">Touruno</span>
-                        <div style="top: 30%; left: 23%;position: absolute;">aqui</div>
-                        <div style="top: 30%; left: 32%;position: absolute;">aqui</div>
-                        <div style="top: 35%; left: 41%;position: absolute;">aqui</div>
-                        <div style="top: 35%; left: 52%;position: absolute;">aqui</div>
-                        <div style="top: 40%; left: 68%;position: absolute;">aqui</div>
-                        <div style="top: 40%; left: 81%;position: absolute;">aqui</div>
-                        <div style="top: 45%; left: 92%;position: absolute;">aqui</div>
-                        <div style="top: 50%; left: 103%;position: absolute;">aqui</div>
+                        <div style="top: 30%; left: 23%;position: absolute;"><span id="id_touro_PV"></span></div>
+                        <div style="top: 30%; left: 32%;position: absolute;"><span id="id_touro_PT"></span></div>
+                        <div style="top: 35%; left: 41%;position: absolute;"><span id="id_touro_PLF"></span></div>
+                        <div style="top: 35%; left: 52%;position: absolute;"><span id="id_touro_RC_quente"></span></div>
+                        <div style="top: 40%; left: 68%;position: absolute;"><span id="id_touro_RC_frio"></span></div>
+                        <div style="top: 40%; left: 81%;position: absolute;"><span id="id_touro_CRT"></span></div>
+                        <div style="top: 45%; left: 92%;position: absolute;"><span id="id_touro_CRD"></span></div>
+                        <div style="top: 50%; left: 103%;position: absolute;"><span id="id_touro_CRPA"></span></div>
 
             </div>
             <div style="color: #ff0000;">
@@ -414,30 +412,645 @@
         <div id="notif-group" class="tabbed_notifications"></div>
     </div>
 
+    <script>
+        // vaca gorda PV
+        var vaca_gorda_1 = document.getElementById("id_vaca_gorda_PV");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_1.innerHTML = parseInt(vaca_gorda_kg.value);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_2 = document.getElementById("id_vaca_gorda_PT");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_2.innerHTML = parseInt(vaca_gorda_kg.value)*parseFloat(0.06);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_3 = document.getElementById("id_vaca_gorda_PLF");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_3.innerHTML = parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_4 = document.getElementById("id_vaca_gorda_RC_quente");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_4.innerHTML = (parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_5 = document.getElementById("id_vaca_gorda_RC_frio");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_5.innerHTML = ((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_5 = document.getElementById("id_vaca_gorda_RC_frio");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_5.innerHTML = (((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98));
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_6 = document.getElementById("id_vaca_gorda_CRT");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_6.innerHTML = (((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.48);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_7 = document.getElementById("id_vaca_gorda_CRD");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_7.innerHTML = (((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.38);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // vaca gorda PT
+        var vaca_gorda_8 = document.getElementById("id_vaca_gorda_CRPA");
+        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        vaca_gorda_8.innerHTML = (((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.14);
+
+}
+  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // novilha gorda PV
+        var novilhag1 = document.getElementById("id_novilha_gorda_PV");
+        var nkg = document.getElementById("id_novilha_gosda_kg");
+    function efetuaCalculo(){
+        novilhag1.innerHTML = parseInt(nkg.value);
+    }
+nkg.addEventListener("keyup",efetuaCalculo);
+</script>
+
+<script>
+        // novilha gorda PT
+        var novilhag2 = document.getElementById("id_novilha_gorda_PT");
+        var nkg = document.getElementById("id_novilha_gosda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilhag2.innerHTML = parseInt(nkg.value)*parseFloat(0.06);
+
+}
+  nkg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // novilha gorda PT
+        var novilhag3 = document.getElementById("id_novilha_gorda_PLF");
+        var nkg = document.getElementById("id_novilha_gosda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilhag3.innerHTML = parseInt(nkg.value)-parseInt(nkg.value)*parseFloat(0.06);
+
+}
+  nkg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+
+<script>
+        // novilha gorda PT
+        var novilhag4 = document.getElementById("id_novilha_gorda_RC_quente");
+        var nkg = document.getElementById("id_novilha_gosda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilhag4.innerHTML = (parseInt(nkg.value)-parseInt(nkg.value)*parseFloat(0.06))*parseFloat(0.5);
+
+}
+  nkg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // novilha gorda PT
+        var novilha5 = document.getElementById("id_novilha_gorda_RC_frio");
+        var nkg = document.getElementById("id_novilha_gosda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilha5.innerHTML = ((parseInt(nkg.value)-parseInt(nkg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98);
+
+}
+  nkg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // novilha gorda PT
+        var novilha6 = document.getElementById("id_novilha_gorda_RC_frio");
+        var nkg = document.getElementById("id_novilha_gosda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilha6.innerHTML = (((parseInt(nkg.value)-parseInt(nkg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98));
+
+}
+  nkg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // novilha gorda PT
+        var novilha7 = document.getElementById("id_novilha_gorda_CRT");
+        var nkg = document.getElementById("id_novilha_gosda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilha7.innerHTML = (((parseInt(nkg.value)-parseInt(nkg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.48);
+
+}
+  nkg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // novilha gorda PT
+        var novilha8 = document.getElementById("id_novilha_gorda_CRD");
+        var nkg = document.getElementById("id_novilha_gosda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilha8.innerHTML = (((parseInt(nkg.value)-parseInt(nkg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.38);
+
+}
+  nkg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // novilha gorda PT
+        var novilha9 = document.getElementById("id_novilha_gorda_CRPA");
+        var nkg = document.getElementById("id_novilha_gosda_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilha9.innerHTML = (((parseInt(nkg.value)-parseInt(nkg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.14);
+
+}
+  nkg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+
+<script>
+        // novilho gordo PV
+        var novilhoPV = document.getElementById("id_novilho_gordo_PV");
+        var npreco = document.getElementById("id_novilho_precoce_kg");
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilhoPV.innerHTML = parseInt(npreco.value);
+
+}
+npreco.addEventListener("keyup", efetuaCalculo);
+</script>
+
+<script>
+        // novilho gordo PT
+        var novilho_gordo_2 = document.getElementById("id_novilho_gordo_PT");
+        var novilho_gordo_kg = document.getElementById("id_novilho_precoce_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_2.innerHTML = parseInt(novilho_gordo_kg.value)*parseFloat(0.06);
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // novilho gordo PT
+        var novilho_gordo_3 = document.getElementById("id_novilho_gordo_PLF");
+        var novilho_gordo_kg = document.getElementById("id_novilho_precoce_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_3.innerHTML = parseInt(novilho_gordo_kg.value)-parseInt(novilho_gordo_kg.value)*parseFloat(0.06);
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+
+<script>
+        // novilho gordo PT
+        var novilho_gordo_4 = document.getElementById("id_novilho_gordo_RC_quente");
+        var novilho_gordo_kg = document.getElementById("id_novilho_precoce_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_4.innerHTML = (parseInt(novilho_gordo_kg.value)-parseInt(novilho_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5);
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // novilho gordo PT
+        var novilho_gordo_5 = document.getElementById("id_novilho_gordo_RC_frio");
+        var novilho_gordo_kg = document.getElementById("id_novilho_precoce_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_5.innerHTML = ((parseInt(novilho_gordo_kg.value)-parseInt(novilho_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98);
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // novilho gordo PT
+        var novilho_gordo_6 = document.getElementById("id_novilho_gordo_RC_frio");
+        var novilho_gordo_kg = document.getElementById("id_novilho_precoce_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_6.innerHTML = (((parseInt(novilho_gordo_kg.value)-parseInt(novilho_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98));
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // novilho gordo PT
+        var novilho_gordo_7 = document.getElementById("id_novilho_gordo_CRT");
+        var novilho_gordo_kg = document.getElementById("id_novilho_precoce_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_7.innerHTML = (((parseInt(novilho_gordo_kg.value)-parseInt(novilho_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.48);
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // novilho gordo PT
+        var novilho_gordo_8 = document.getElementById("id_novilho_gordo_CRD");
+        var novilho_gordo_kg = document.getElementById("id_novilho_precoce_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_8.innerHTML = (((parseInt(novilho_gordo_kg.value)-parseInt(novilho_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.38);
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // novilho gordo PT
+        var novilho_gordo_9 = document.getElementById("id_novilho_gordo_CRPA");
+        var novilho_gordo_kg = document.getElementById("id_novilho_precoce_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        novilho_gordo_9.innerHTML = (((parseInt(novilho_gordo_kg.value)-parseInt(novilho_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.14);
+
+}
+  novilho_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+
+<script>
+        // boi gordo PV
+        var boi_gordo_1 = document.getElementById("id_boi_gordo_PV");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_1.innerHTML = parseInt(boi_gordo_kg.value);
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // boi gordo PT
+        var boi_gordo_2 = document.getElementById("id_boi_gordo_PT");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_2.innerHTML = parseInt(boi_gordo_kg.value)*parseFloat(0.06);
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);boi_gordoboi_gordo
+    </script>
+
+<script>
+        // boi gordo PT
+        var boi_gordo_3 = document.getElementById("id_boi_gordo_PLF");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_3.innerHTML = parseInt(boi_gordo_kg.value)-parseInt(boi_gordo_kg.value)*parseFloat(0.06);boi_gordo
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+
+<script>
+        // boi gordo PT
+        var boi_gordo_4 = document.getElementById("id_boi_gordo_RC_quente");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_4.innerHTML = (parseInt(boi_gordo_kg.value)-parseInt(boi_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5);
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // boi gordo PT
+        var boi_gordo_5 = document.getElementById("id_boi_gordo_RC_frio");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_5.innerHTML = ((parseInt(boi_gordo_kg.value)-parseInt(boi_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98);
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);boi_gordo
+
+    </script>
+
+<script>
+        // boi gordo PT
+        var boi_gordo_6 = document.getElementById("id_boi_gordo_RC_frio");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_6.innerHTML = (((parseInt(boi_gordo_kg.value)-parseInt(boi_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98));
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // boi gordo PT
+        var boi_gordo_7 = document.getElementById("id_boi_gordo_CRT");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_7.innerHTML = (((parseInt(boi_gordo_kg.value)-parseInt(boi_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.48);
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // boi gordo PT
+        var boi_gordo_8 = document.getElementById("id_boi_gordo_CRD");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_8.innerHTML = (((parseInt(boi_gordo_kg.value)-parseInt(boi_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.38);
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // boi gordo PT
+        var boi_gordo_9 = document.getElementById("id_boi_gordo_CRPA");
+        var boi_gordo_kg = document.getElementById("id_boi_gordo_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        boi_gordo_9.innerHTML = (((parseInt(boi_gordo_kg.value)-parseInt(boi_gordo_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.14);
+
+}
+  boi_gordo_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+
+<script>
+        // touro PV
+        var touro_1 = document.getElementById("id_touro_PV");
+        var tkg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_1.innerHTML = parseInt(tkg.value);
+
+}
+  tkg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // touro PT
+        var touro_2 = document.getElementById("id_touro_PT");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_2.innerHTML = parseInt(touro_kg.value)*parseFloat(0.06);
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // touro PT
+        var touro_3 = document.getElementById("id_touro_PLF");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_3.innerHTML = parseInt(touro_kg.value)-parseInt(touro_kg.value)*parseFloat(0.06);
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+
+<script>
+        // touro PT
+        var touro_4 = document.getElementById("id_touro_RC_quente");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_4.innerHTML = (parseInt(touro_kg.value)-parseInt(touro_kg.value)*parseFloat(0.06))*parseFloat(0.5);
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // touro PT
+        var touro_5 = document.getElementById("id_touro_RC_frio");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_5.innerHTML = ((parseInt(touro_kg.value)-parseInt(touro_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98);
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+    </script>
+
+<script>
+        // touro PT
+        var touro_6 = document.getElementById("id_touro_RC_frio");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_6.innerHTML = (((parseInt(touro_kg.value)-parseInt(touro_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98));
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // touro PT
+        var touro_7 = document.getElementById("id_touro_CRT");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_7.innerHTML = (((parseInt(touro_kg.value)-parseInt(touro_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.48);
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // touro PT
+        var touro_8 = document.getElementById("id_touro_CRD");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_8.innerHTML = (((parseInt(touro_kg.value)-parseInt(touro_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.38);
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+<script>
+        // touro PT
+        var touro_9 = document.getElementById("id_touro_CRPA");
+        var touro_kg = document.getElementById("id_touro_kg");
+
+        function efetuaCalculo(){
+        //Cálculo simples de potência só pra ilustrar
+        touro_9.innerHTML = (((parseInt(touro_kg.value)-parseInt(touro_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.14);
+
+}
+  touro_kg.addEventListener("keyup", efetuaCalculo);
+
+</script>
+
+
+
+
+
+
     <script src="/media/js/bootstrap.min.js"></script>
 
     <!-- gauge js -->
-    <script src="/media/js/numero_piquete_categoria.js"></script>
-    <script src="/media/js/area_piquetes_machos.js"></script>
-    <script src="/media/jsPASTAGENS/zzzzzzzzzzzzzzpastaegem/area_piquetes_femeas.js"></script>
-    <script src="/media/jsPASTAGENS/zzzzzzzzzzzzzzpastaegem/area_aniamais_6_12.js"></script>
-    <script src="/media/jsPASTAGENS/zzzzzzzzzzzzzzpastaegem/area_animais_12_21.js"></script>
-    <script src="/media/jsPASTAGENS/zzzzzzzzzzzzzzpastaegem/area_total_piquetes.js"></script>
-    <script src="/media/js/zzzzzzzzzzzzzzzzzzzzzconfinamentos/ganho_diario.js"></script>
-    <script type="text/javascript" src="/media/js/gauge/gauge.min.js"></script>
-    <script type="text/javascript" src="/media/js/gauge/gauge_demo.js"></script>
-    <!-- chart js -->
-    <script src="/media/js/chartjs/chart.min.js"></script>
-    <!-- bootstrap progress js -->
-    <script src="/media/js/progressbar/bootstrap-progressbar.min.js"></script>
-    <script src="/media/js/nicescroll/jquery.nicescroll.min.js"></script>
-    <!-- icheck -->
-    <script src="/media/js/icheck/icheck.min.js"></script>
-    <!-- daterangepicker -->
-    <script type="text/javascript" src="/media/js/moment.min.js"></script>
-    <script type="text/javascript" src="/media/js/datepicker/daterangepicker.js"></script>
-
-    <script src="/media/js/custom.js"></script>
 
     <!-- flot js -->
     <!--[if lte IE 8]><script type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->

@@ -266,11 +266,11 @@ class Gastos_Produtos_veterinarios(models.Model):
     fazenda = models.ForeignKey(fazenda)
     ano = models.DateField()
     vacinas = models.FloatField()
-    vacinas_ru_ano = models.FloatField()
+
     Outros_medicamentos = models.FloatField()
-    Outros_medicamentos_ru_ano = models.FloatField()
+
     sal_mineral = models.FloatField()
-    sal_mineral_ru_ano = models.FloatField()
+
     sal_proteico = models.FloatField()
     racao_concentrada = models.FloatField()
     Creep_feeding = models.FloatField()
@@ -287,6 +287,7 @@ class Gastos_Produtos_veterinarios(models.Model):
 class Rendiemnto_carcaca(models.Model):
     fazenda = models.ForeignKey(fazenda)
     ano = models.DateField()
+
     vaca_gorda_kg = models.IntegerField()
     novilha_gosda_kg = models.IntegerField()
     boi_gordo_kg = models.IntegerField()

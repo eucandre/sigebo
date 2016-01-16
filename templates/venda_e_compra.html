@@ -237,6 +237,8 @@
                 <span style="padding-right: 6%;">8º</span>
                 <span style="padding-right: 6%;">9º</span>
                 <span style="top: 30%; left: 18%;position: absolute; ">Venda de vacas descarte/ano</span>
+                <form action="." method="post">
+                {% csrf_token %}
                         <div style="top: 30%; left: 33%;position: absolute;">
                             {{ form.descarte_vacas }}
                         </div>
@@ -514,8 +516,8 @@
                         <span id="id_total_compra9"></span></div>
                     <div class="col-md-4 col-sm-4 col-xs-12">  
                     </div>
-                </div>
 
+            </form>
                 <div class="row">
 
                     <div class="col-md-8 col-sm-8 col-xs-12">
@@ -537,6 +539,7 @@
 
 
                     </div>
+
 
                 </div>
 
