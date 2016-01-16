@@ -1,313 +1,92 @@
-var entrada = document.getElementById("entrada");
-var saida = document.getElementById("saida");
 
-function efetuaCalculo(){
-  //Cálculo simples de potência só pra ilustrar
-  saida.innerHTML = Math.pow(entrada.value, 2);
-}
+<p><label for="id_descarte_vacas">Descarte vacas:</label> <input style="width:20%;" name="descarte_vacas" value="0" maxlength="150" type="text" id="id_descarte_vacas" /></p>
+<p><label for="id_descarte_vacas2">Descarte vacas2:</label> <input style="width:20%;" name="descarte_vacas2" value="0" maxlength="150" type="text" id="id_descarte_vacas2" /></p>
+<p><label for="id_descarte_vacas3">Descarte vacas3:</label> <input style="width:20%;" name="descarte_vacas3" value="0" maxlength="150" type="text" id="id_descarte_vacas3" /></p>
+<p><label for="id_descarte_vacas4">Descarte vacas4:</label> <input style="width:20%;" name="descarte_vacas4" value="0" maxlength="150" type="text" id="id_descarte_vacas4" /></p>
+<p><label for="id_descarte_vacas5">Descarte vacas5:</label> <input style="width:20%;" name="descarte_vacas5" value="0" maxlength="150" type="text" id="id_descarte_vacas5" /></p>
+<p><label for="id_descarte_vacas6">Descarte vacas6:</label> <input style="width:20%;" name="descarte_vacas6" value="0" maxlength="150" type="text" id="id_descarte_vacas6" /></p>
+<p><label for="id_descarte_vacas7">Descarte vacas7:</label> <input style="width:20%;" name="descarte_vacas7" value="0" maxlength="150" type="text" id="id_descarte_vacas7" /></p>
+<p><label for="id_descarte_vacas8">Descarte vacas8:</label> <input style="width:20%;" name="descarte_vacas8" value="0" maxlength="150" type="text" id="id_descarte_vacas8" /></p>
+<p><label for="id_descarte_vacas9">Descarte vacas9:</label> <input style="width:20%;" name="descarte_vacas9" value="0" maxlength="150" type="text" id="id_descarte_vacas9" /></p>
 
-entrada.addEventListener("keyup", efetuaCalculo);
+<p><label for="id_descarte_novilhos_as">Descarte novilhos as:</label> <input style="width:20%;" name="descarte_novilhos_as" value="0" maxlength="150" type="text" id="id_descarte_novilhos_as" /></p>
+<p><label for="id_descarte_novilhos_as2">Descarte novilhos as2:</label> <input style="width:20%;" name="descarte_novilhos_as2" value="0" maxlength="150" type="text" id="id_descarte_novilhos_as2" /></p>
+<p><label for="id_descarte_novilhos_as3">Descarte novilhos as3:</label> <input style="width:20%;" name="descarte_novilhos_as3" value="0" maxlength="150" type="text" id="id_descarte_novilhos_as3" /></p>
+<p><label for="id_descarte_novilhos_as4">Descarte novilhos as4:</label> <input style="width:20%;" name="descarte_novilhos_as4" value="0" maxlength="150" type="text" id="id_descarte_novilhos_as4" /></p>
+<p><label for="id_descarte_novilhos_as5">Descarte novilhos as5:</label> <input style="width:20%;" name="descarte_novilhos_as5" value="0" maxlength="150" type="text" id="id_descarte_novilhos_as5" /></p>
+<p><label for="id_descarte_novilhos_as6">Descarte novilhos as6:</label> <input style="width:20%;" name="descarte_novilhos_as6" value="0" maxlength="150" type="text" id="id_descarte_novilhos_as6" /></p>
+<p><label for="id_descarte_novilhos_as7">Descarte novilhos as7:</label> <input style="width:20%;" name="descarte_novilhos_as7" value="0" maxlength="150" type="text" id="id_descarte_novilhos_as7" /></p>
+<p><label for="id_descarte_novilhos_as8">Descarte novilhos as8:</label> <input style="width:20%;" name="descarte_novilhos_as8" value="0" maxlength="150" type="text" id="id_descarte_novilhos_as8" /></p>
+<p><label for="id_descarte_novilhos_as9">Descarte novilhos as9:</label> <input style="width:20%;" name="descarte_novilhos_as9" value="0" maxlength="150" type="text" id="id_descarte_novilhos_as9" /></p>
 
+<p><label for="id_Bezerras_desmamadas">Bezerras desmamadas:</label> <input id="id_Bezerras_desmamadas" style="width:20%;" type="text" name="Bezerras_desmamadas" maxlength="150" /></p>
+<p><label for="id_Bezerras_desmamadas2">Bezerras desmamadas2:</label> <input id="id_Bezerras_desmamadas2" style="width:20%;" type="text" name="Bezerras_desmamadas2" maxlength="150" /></p>
+<p><label for="id_Bezerras_desmamadas3">Bezerras desmamadas3:</label> <input id="id_Bezerras_desmamadas3" style="width:20%;" type="text" name="Bezerras_desmamadas3" maxlength="150" /></p>
+<p><label for="id_Bezerras_desmamadas4">Bezerras desmamadas4:</label> <input id="id_Bezerras_desmamadas4" style="width:20%;" type="text" name="Bezerras_desmamadas4" maxlength="150" /></p>
+<p><label for="id_Bezerras_desmamadas5">Bezerras desmamadas5:</label> <input id="id_Bezerras_desmamadas5" style="width:20%;" type="text" name="Bezerras_desmamadas5" maxlength="150" /></p>
+<p><label for="id_Bezerras_desmamadas6">Bezerras desmamadas6:</label> <input id="id_Bezerras_desmamadas6" style="width:20%;" type="text" name="Bezerras_desmamadas6" maxlength="150" /></p>
+<p><label for="id_Bezerras_desmamadas7">Bezerras desmamadas7:</label> <input id="id_Bezerras_desmamadas7" style="width:20%;" type="text" name="Bezerras_desmamadas7" maxlength="150" /></p>
+<p><label for="id_Bezerras_desmamadas8">Bezerras desmamadas8:</label> <input id="id_Bezerras_desmamadas8" style="width:20%;" type="text" name="Bezerras_desmamadas8" maxlength="150" /></p>
+<p><label for="id_Bezerras_desmamadas9">Bezerras desmamadas9:</label> <input id="id_Bezerras_desmamadas9" style="width:20%;" type="text" name="Bezerras_desmamadas9" maxlength="150" /></p>
 
+<p><label for="id_Bezerros_desmamados">Bezerros desmamados:</label> <input id="id_Bezerros_desmamados" style="width:20%;" type="text" name="Bezerros_desmamados" maxlength="150" /></p>
+<p><label for="id_Bezerros_desmamados2">Bezerros desmamados2:</label> <input id="id_Bezerros_desmamados2" style="width:20%;" type="text" name="Bezerros_desmamados2" maxlength="150" /></p>
+<p><label for="id_Bezerros_desmamados3">Bezerros desmamados3:</label> <input id="id_Bezerros_desmamados3" style="width:20%;" type="text" name="Bezerros_desmamados3" maxlength="150" /></p>
+<p><label for="id_Bezerros_desmamados4">Bezerros desmamados4:</label> <input id="id_Bezerros_desmamados4" style="width:20%;" type="text" name="Bezerros_desmamados4" maxlength="150" /></p>
+<p><label for="id_Bezerros_desmamados5">Bezerros desmamados5:</label> <input id="id_Bezerros_desmamados5" style="width:20%;" type="text" name="Bezerros_desmamados5" maxlength="150" /></p>
+<p><label for="id_Bezerros_desmamados6">Bezerros desmamados6:</label> <input id="id_Bezerros_desmamados6" style="width:20%;" type="text" name="Bezerros_desmamados6" maxlength="150" /></p>
+<p><label for="id_Bezerros_desmamados7">Bezerros desmamados7:</label> <input id="id_Bezerros_desmamados7" style="width:20%;" type="text" name="Bezerros_desmamados7" maxlength="150" /></p>
+<p><label for="id_Bezerros_desmamados8">Bezerros desmamados8:</label> <input id="id_Bezerros_desmamados8" style="width:20%;" type="text" name="Bezerros_desmamados8" maxlength="150" /></p>
+<p><label for="id_Bezerros_desmamados9">Bezerros desmamados9:</label> <input id="id_Bezerros_desmamados9" style="width:20%;" type="text" name="Bezerros_desmamados9" maxlength="150" /></p>
 
+<p><label for="id_Machos_1_2">Machos 1 2:</label> <input id="id_Machos_1_2" style="width:20%;" type="text" name="Machos_1_2" maxlength="150" /></p>
+<p><label for="id_Machos_1_2_2">Machos 1 2 2:</label> <input id="id_Machos_1_2_2" style="width:20%;" type="text" name="Machos_1_2_2" maxlength="150" /></p>
+<p><label for="id_Machos_1_2_3">Machos 1 2 3:</label> <input id="id_Machos_1_2_3" style="width:20%;" type="text" name="Machos_1_2_3" maxlength="150" /></p>
+<p><label for="id_Machos_1_2_4">Machos 1 2 4:</label> <input id="id_Machos_1_2_4" style="width:20%;" type="text" name="Machos_1_2_4" maxlength="150" /></p>
+<p><label for="id_Machos_1_2_5">Machos 1 2 5:</label> <input id="id_Machos_1_2_5" style="width:20%;" type="text" name="Machos_1_2_5" maxlength="150" /></p>
+<p><label for="id_Machos_1_2_6">Machos 1 2 6:</label> <input id="id_Machos_1_2_6" style="width:20%;" type="text" name="Machos_1_2_6" maxlength="150" /></p>
+<p><label for="id_Machos_1_2_7">Machos 1 2 7:</label> <input id="id_Machos_1_2_7" style="width:20%;" type="text" name="Machos_1_2_7" maxlength="150" /></p>
+<p><label for="id_Machos_1_2_8">Machos 1 2 8:</label> <input id="id_Machos_1_2_8" style="width:20%;" type="text" name="Machos_1_2_8" maxlength="150" /></p>
+<p><label for="id_Machos_1_2_9">Machos 1 2 9:</label> <input id="id_Machos_1_2_9" style="width:20%;" type="text" name="Machos_1_2_9" maxlength="150" /></p>
 
+<p><label for="id_Machos_2_3">Machos 2 3:</label> <input id="id_Machos_2_3" style="width:20%;" type="text" name="Machos_2_3" maxlength="150" /></p>
+<p><label for="id_Machos_2_3_2">Machos 2 3 2:</label> <input id="id_Machos_2_3_2" style="width:20%;" type="text" name="Machos_2_3_2" maxlength="150" /></p>
+<p><label for="id_Machos_2_3_3">Machos 2 3 3:</label> <input id="id_Machos_2_3_3" style="width:20%;" type="text" name="Machos_2_3_3" maxlength="150" /></p>
+<p><label for="id_Machos_2_3_4">Machos 2 3 4:</label> <input id="id_Machos_2_3_4" style="width:20%;" type="text" name="Machos_2_3_4" maxlength="150" /></p>
+<p><label for="id_Machos_2_3_5">Machos 2 3 5:</label> <input id="id_Machos_2_3_5" style="width:20%;" type="text" name="Machos_2_3_5" maxlength="150" /></p>
+<p><label for="id_Machos_2_3_6">Machos 2 3 6:</label> <input id="id_Machos_2_3_6" style="width:20%;" type="text" name="Machos_2_3_6" maxlength="150" /></p>
+<p><label for="id_Machos_2_3_7">Machos 2 3 7:</label> <input id="id_Machos_2_3_7" style="width:20%;" type="text" name="Machos_2_3_7" maxlength="150" /></p>
+<p><label for="id_Machos_2_3_8">Machos 2 3 8:</label> <input id="id_Machos_2_3_8" style="width:20%;" type="text" name="Machos_2_3_8" maxlength="150" /></p>
+<p><label for="id_Machos_2_3_9">Machos 2 3 9:</label> <input id="id_Machos_2_3_9" style="width:20%;" type="text" name="Machos_2_3_9" maxlength="150" /></p>
 
+<p><label for="id_Machos_3_4">Machos 3 4:</label> <input id="id_Machos_3_4" style="width:20%;" type="text" name="Machos_3_4" maxlength="150" /></p>
+<p><label for="id_Machos_3_4_2">Machos 3 4 2:</label> <input id="id_Machos_3_4_2" style="width:20%;" type="text" name="Machos_3_4_2" maxlength="150" /></p>
+<p><label for="id_Machos_3_4_3">Machos 3 4 3:</label> <input id="id_Machos_3_4_3" style="width:20%;" type="text" name="Machos_3_4_3" maxlength="150" /></p>
+<p><label for="id_Machos_3_4_4">Machos 3 4 4:</label> <input id="id_Machos_3_4_4" style="width:20%;" type="text" name="Machos_3_4_4" maxlength="150" /></p>
+<p><label for="id_Machos_3_4_5">Machos 3 4 5:</label> <input id="id_Machos_3_4_5" style="width:20%;" type="text" name="Machos_3_4_5" maxlength="150" /></p>
+<p><label for="id_Machos_3_4_6">Machos 3 4 6:</label> <input id="id_Machos_3_4_6" style="width:20%;" type="text" name="Machos_3_4_6" maxlength="150" /></p>
+<p><label for="id_Machos_3_4_7">Machos 3 4 7:</label> <input id="id_Machos_3_4_7" style="width:20%;" type="text" name="Machos_3_4_7" maxlength="150" /></p>
+<p><label for="id_Machos_3_4_8">Machos 3 4 8:</label> <input id="id_Machos_3_4_8" style="width:20%;" type="text" name="Machos_3_4_8" maxlength="150" /></p>
+<p><label for="id_Machos_3_4_9">Machos 3 4 9:</label> <input id="id_Machos_3_4_9" style="width:20%;" type="text" name="Machos_3_4_9" maxlength="150" /></p>
 
-<div>
-  <label>Entrada: </label>
-  <input type="number" name="entrada" id="entrada" />
-</div>
+<p><label for="id_Machos_4_mais">Machos 4 mais:</label> <input id="id_Machos_4_mais" style="width:20%;" type="text" name="Machos_4_mais" maxlength="150" /></p>
+<p><label for="id_Machos_4_mais_2">Machos 4 mais 2:</label> <input id="id_Machos_4_mais_2" style="width:20%;" type="text" name="Machos_4_mais_2" maxlength="150" /></p>
+<p><label for="id_Machos_4_mais_3">Machos 4 mais 3:</label> <input id="id_Machos_4_mais_3" style="width:20%;" type="text" name="Machos_4_mais_3" maxlength="150" /></p>
+<p><label for="id_Machos_4_mais_4">Machos 4 mais 4:</label> <input id="id_Machos_4_mais_4" style="width:20%;" type="text" name="Machos_4_mais_4" maxlength="150" /></p>
+<p><label for="id_Machos_4_mais_5">Machos 4 mais 5:</label> <input id="id_Machos_4_mais_5" style="width:20%;" type="text" name="Machos_4_mais_5" maxlength="150" /></p>
+<p><label for="id_Machos_4_mais_6">Machos 4 mais 6:</label> <input id="id_Machos_4_mais_6" style="width:20%;" type="text" name="Machos_4_mais_6" maxlength="150" /></p>
+<p><label for="id_Machos_4_mais_7">Machos 4 mais 7:</label> <input id="id_Machos_4_mais_7" style="width:20%;" type="text" name="Machos_4_mais_7" maxlength="150" /></p>
+<p><label for="id_Machos_4_mais_8">Machos 4 mais 8:</label> <input id="id_Machos_4_mais_8" style="width:20%;" type="text" name="Machos_4_mais_8" maxlength="150" /></p>
+<p><label for="id_Machos_4_mais_9">Machos 4 mais 9:</label> <input id="id_Machos_4_mais_9" style="width:20%;" type="text" name="Machos_4_mais_9" maxlength="150" /></p>
 
-<div>
-  <label>Saída: </label>
-  <span id="saida"></span>
-</div>
-
-
-
-
-<table border="2">
-                    <tr>
-                        <td align="center">Reposição/ano</td>
-                        <td width="10%">1º ano</td>
-                        <td width="10%">2º ano</td>
-                        <td width="10%">3º ano</td>
-                        <td width="10%">4º ano</td>
-                        <td width="10%">5º ano</td>
-                        <td width="10%">6º ano</td>
-                        <td width="10%">7º ano</td>
-                        <td width="10%">8º ano</td>
-                        <td width="10%">9º ano</td>
-                    </tr>
-                    <tr>
-                        <td width="10%">Touros</td>
-                        <td width="10%"><input id="id_tourosR"/></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                    </tr>
-                    <tr>
-                        <td width="10%">Matrizes</td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                    </tr>
-                    <tr>
-                        <td width="10%">Descarte</td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                    </tr><tr>
-                        <td width="10%">0-1 ano</td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                    </tr><tr>
-                        <td width="10%">1-2 anos</td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                    </tr><tr>
-                        <td width="10%">2-3 anos</td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                    </tr><tr>
-                        <td width="10%">Compras fêmeas reprodução</td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                    </tr><tr>
-                        <td width="10%">Animais 2-3 para reprodução</td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                    </tr><tr>
-                        <td width="10%">Vendas de vacas (descarte/ano)</td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                    </tr><tr>
-                        <td width="10%">Venda de novilh(o|a)s por ano</td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                    </tr><tr>
-                        <td width="10%">Venda de novilh(o|a)s por ano @</td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                    </tr><tr>
-                        <td width="10%">Venda de vacas por ano @</td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                        <td width="10%"></td>
-                    </tr>
-                </table>
+<p><label for="id_total_venda">Total venda:</label> <input style="width:20%;" name="total_venda" value="0" maxlength="150" type="text" id="id_total_venda" /></p>
+<p><label for="id_total_venda2">Total venda2:</label> <input style="width:20%;" name="total_venda2" value="0" maxlength="150" type="text" id="id_total_venda2" /></p>
+<p><label for="id_total_venda3">Total venda3:</label> <input style="width:20%;" name="total_venda3" value="0" maxlength="150" type="text" id="id_total_venda3" /></p>
+<p><label for="id_total_venda4">Total venda4:</label> <input style="width:20%;" name="total_venda4" value="0" maxlength="150" type="text" id="id_total_venda4" /></p>
+<p><label for="id_total_venda5">Total venda5:</label> <input style="width:20%;" name="total_venda5" value="0" maxlength="150" type="text" id="id_total_venda5" /></p>
+<p><label for="id_total_venda6">Total venda6:</label> <input style="width:20%;" name="total_venda6" value="0" maxlength="150" type="text" id="id_total_venda6" /></p>
+<p><label for="id_total_venda7">Total venda7:</label> <input style="width:20%;" name="total_venda7" value="0" maxlength="150" type="text" id="id_total_venda7" /></p>
+<p><label for="id_total_venda8">Total venda8:</label> <input style="width:20%;" name="total_venda8" value="0" maxlength="150" type="text" id="id_total_venda8" /></p>
+<p><label for="id_total_venda9">Total venda9:</label> <input style="width:20%;" name="total_venda9" value="0" maxlength="150" type="text" id="id_total_venda9" /></p>
 
 
-
-
-<form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
-
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Nome da Fazenda <span class="required">*</span>
-                                            </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input type="text" id="id_nome_fazenda" required="required" class="form-control col-md-7 col-xs-12">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Proprietário da fazenda <span class="required">*</span>
-                                            </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input type="text" id="id_proprietario" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
-                                            </div>
-                                        </div>
-
-                                        <h4 style="left: 20%;position: relative;">Endereço</h4>
-
-                                        <div class="form-group">
-                                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12"> Município <span class="required">*  </span></label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input id="id_cidade" class="form-control col-md-7 col-xs-12" type="text" name="middle-name" required="required" type="text">
-                                            </div>
-                                        </div>
-
-
-                                        <div class="form-group"  >
-                                            <label for = "id_uf_municipio" class="control-label col-md-3 col-sm-3 col-xs-12">Unidade federativa<span class="required">* </span></label>
-                                            <div class="col-md-9 col-sm-9 col-xs-12">
-                                                <select name= "uf_municipio" id = "id_uf_municipio" class="form-control" style="width: 25%;" >
-                                                    <option value="" selected="selected">---------</option>
-<option value="Acre">Acre</option>
-<option value="Alagoas">Alagoas</option>
-<option value="Amapa">Amapá</option>
-<option value="Amazonas">Amazonas</option>
-<option value="Bahia">Bahia</option>
-<option value="Ceara">Ceará</option>
-<option value="Distrito Federal">Distrito federal</option>
-<option value="Espirito Santo">Esírito santo</option>
-<option value="Goias">Goias</option>
-<option value="Maranhao">Maranhão</option>
-<option value="Mato Grosso">Mato grosso</option>
-<option value="Mato Grosso do Sul">Mato grosso do sul</option>
-<option value="Minas Gerais">Minas gerais</option>
-<option value="Para">Pará</option>
-<option value="Paraiba">Paraíba</option>
-<option value="Parana">Paraná</option>
-<option value="Pernambuco">Pernambuco</option>
-<option value="Piaui">Piauí</option>
-<option value="Rio de janeiro">Rio de janeiro</option>
-<option value="Rio Grande do Sul">Rio grande do sul</option>
-<option value="Rio Grande do Norte">Rio grande do Norte</option>
-<option value="Rondonia">Rondônia</option>
-<option value="Roraima">Roraima</option>
-<option value="Santa Catarina">Santa catarina</option>
-<option value="Sao paulo">São paulo</option>
-<option value="Sergipe">Sergipe</option>
-<option value="Tocantins">Tocantins</option>
-</select></p>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="form-group" style="width: 20%; top:-54px; left: 55%;position: relative;">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-3">CEP</label>
-                                            <div class="col-md-9 col-sm-9 col-xs-9">
-                                                <input  id="id_cep" type="text" class="form-control" data-inputmask ="'mask': '99999-999'">
-                                                <span class="fa fa-user form-control-feedback right" aria-hidden="true"></span>
-                                            </div>
-                                        </div>
-                                        <div style="top:-54px;position: relative;">
-                                        <div class="form-group" >
-                                            <label for="id_rua" class="control-label col-md-3 col-sm-3 col-xs-12"> Rua <span class="required">*  </span></label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input id="id_rua"  style="width: 60%;" class="form-control col-md-7 col-xs-12" type="text" name="middle-name" required="required" type="text">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group"  style="top:-45px; left: 43%;position: relative;">
-                                            <label for="id_numero" class="control-label col-md-3 col-sm-3 col-xs-12"> Número <span class="required">*  </span></label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input id="id_numero"  style="width: 11%;" class="form-control col-md-7 col-xs-12" type="text" name="middle-name" required="required" type="text">
-                                            </div>
-                                        </div>
-                                        </div>
-                                        <div style="top:-97px;position: relative;">
-                                        <h4 style="left: 20%;position: relative;">Contato</h4>
-
-                                        <div class="form-group"  >
-                                            <label for="id_telefone" class="control-label col-md-3 col-sm-3 col-xs-12"> Telefone <span class="required">*  </span></label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input id="id_telefone"  style="width: 40%;" data-inputmask ="'mask': '9999-9999'" class="form-control col-md-7 col-xs-12" type="text" name="middle-name" required="required" type="text">
-                                            </div>
-                                        </div>
-
-                                            <div class="form-group" style=" top:-43px; left: 29%;position: relative;"  >
-                                            <label for="id_email" class="control-label col-md-3 col-sm-3 col-xs-12"> e-mail <span class="required">*  </span></label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input id="id_email"  style="width: 40%;" data-inputmask ="'mask': '9999-9999'" class="form-control col-md-7 col-xs-12" type="text" name="middle-name" required="required" type="text">
-                                            </div>
-                                        </div>
-                                            </div>
-
-                                        <!--<div class="ln_solid"></div>
-                                        <div class="form-group">
-                                            <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                                                <button type="submit" class="btn btn-primary">Cancelar</button>
-                                                <button type="submit" class="btn btn-success" value="/">Salvar</button>
-                                            </div>
-                                        </div>-->
-
-
-
-
-
-
-
-
-<span style="top:70%;left: 50%;position: absolute;" id="id_n_piquetes_categoria"></span>
