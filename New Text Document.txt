@@ -1,1 +1,17 @@
-manage.py reset
+    <script>
+            //janeiro
+            var total_jan = document.getElementById("id_total_mes");
+            var gerente = document.getElementById("id_getente");
+            var val_gerente = document.getElementById("id_gerente_valor_fixado");
+            function efetuaCalculo(){
+
+                total_jan.innerHTML =parseInt(gerente.value)*parseInt(val_gerente.value);
+            }
+        gerente.addEventListener("keyup",efetuaCalculo);
+        val_gerente.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+
+Tarefa:
+    este script está pronto, basta que repita o mesmo até dezembro, acrescentando nos "" a partir de 2 até 12 e mude o nome do
+ total que aqui está total_jan, batize-o com o nome do referido mes que estará editando, exemplo: fevereito(total_fev) "id_total_mes2"

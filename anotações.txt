@@ -1,136 +1,78 @@
-    <script>
-        // vaca gorda PV
-        var vaca_gorda_1 = document.getElementById("id_vaca_gorda_PV");
-        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
-
-        function efetuaCalculo(){
-        //Cálculo simples de potência só pra ilustrar
-        vaca_gorda_1.innerHTML = parseInt(vaca_gorda_kg.value);
-
-}
-  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
-
-</script>
-
-<script>
-        // vaca gorda PT
-        var vaca_gorda_2 = document.getElementById("id_vaca_gorda_PT");
-        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
-
-        function efetuaCalculo(){
-        //Cálculo simples de potência só pra ilustrar
-        vaca_gorda_2.innerHTML = parseInt(vaca_gorda_kg.value)*parseFloat(0.06);
-
-}
-  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
-
-    </script>
-
-<script>
-        // vaca gorda PT
-        var vaca_gorda_3 = document.getElementById("id_vaca_gorda_PLF");
-        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
-
-        function efetuaCalculo(){
-        //Cálculo simples de potência só pra ilustrar
-        vaca_gorda_3.innerHTML = parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06);
-
-}
-  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
-
-    </script>
-
-
-<script>
-        // vaca gorda PT
-        var vaca_gorda_4 = document.getElementById("id_vaca_gorda_RC_quente");
-        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
-
-        function efetuaCalculo(){
-        //Cálculo simples de potência só pra ilustrar
-        vaca_gorda_4.innerHTML = (parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5);
-
-}
-  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
-
-    </script>
-
-<script>
-        // vaca gorda PT
-        var vaca_gorda_5 = document.getElementById("id_vaca_gorda_RC_frio");
-        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
-
-        function efetuaCalculo(){
-        //Cálculo simples de potência só pra ilustrar
-        vaca_gorda_5.innerHTML = ((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98);
-
-}
-  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
-
-    </script>
-
-<script>
-        // vaca gorda PT
-        var vaca_gorda_5 = document.getElementById("id_vaca_gorda_RC_frio");
-        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
-
-        function efetuaCalculo(){
-        //Cálculo simples de potência só pra ilustrar
-        vaca_gorda_5.innerHTML = (((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98));
-
-}
-  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
-
-</script>
-
-<script>
-        // vaca gorda PT
-        var vaca_gorda_6 = document.getElementById("id_vaca_gorda_CRT");
-        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
-
-        function efetuaCalculo(){
-        //Cálculo simples de potência só pra ilustrar
-        vaca_gorda_6.innerHTML = (((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.48);
-
-}
-  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
-
-</script>
-
-<script>
-        // vaca gorda PT
-        var vaca_gorda_7 = document.getElementById("id_vaca_gorda_CRD");
-        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
-
-        function efetuaCalculo(){
-        //Cálculo simples de potência só pra ilustrar
-        vaca_gorda_7.innerHTML = (((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.38);
-
-}
-  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
-
-</script>
-
-<script>
-        // vaca gorda PT
-        var vaca_gorda_8 = document.getElementById("id_vaca_gorda_CRPA");
-        var vaca_gorda_kg = document.getElementById("id_vaca_gorda_kg");
-
-        function efetuaCalculo(){
-        //Cálculo simples de potência só pra ilustrar
-        vaca_gorda_8.innerHTML = (((parseInt(vaca_gorda_kg.value)-parseInt(vaca_gorda_kg.value)*parseFloat(0.06))*parseFloat(0.5))*parseFloat(0.98))*parseFloat(0.14);
-
-}
-  vaca_gorda_kg.addEventListener("keyup", efetuaCalculo);
-
-</script>
-
-
-Tarefa : substituir os nomes de vaca_gorda por novilha_gorda
-         substituir os nomes de vaca_gorda por boi_gordo
-         substituir os nomes de vaca_gorda por novilha_gorda
-         substituir os nomes de vaca_gorda por novilho_gordo
-         substituir os nomes de vaca_gorda por touro
-
-         cada um terá uma sequência desses códigos que mandei a cima que estão com vaca_gorda, note que varia até 8 então
-     é fazer o mesmo com cada um dos nomes que substituirão.
+<p><label for="id_getente">Numero de gerentes:</label> <input style="width:20%;" type="text" name="getente" id="id_getente" /></p>
+<p><label for="id_getente2">Numero de gerentes:</label> <input style="width:20%;" type="text" name="getente2" id="id_getente2" /></p>
+<p><label for="id_getente3">Numero de gerentes:</label> <input style="width:20%;" type="text" name="getente3" id="id_getente3" /></p>
+<p><label for="id_getente4">Numero de gerentes:</label> <input style="width:20%;" type="text" name="getente4" id="id_getente4" /></p>
+<p><label for="id_getente5">Numero de gerentes:</label> <input style="width:20%;" type="text" name="getente5" id="id_getente5" /></p>
+<p><label for="id_getente6">Numero de gerentes:</label> <input style="width:20%;" type="text" name="getente6" id="id_getente6" /></p>
+<p><label for="id_getente7">Numero de gerentes:</label> <input style="width:20%;" type="text" name="getente7" id="id_getente7" /></p>
+<p><label for="id_getente8">Numero de gerentes:</label> <input style="width:20%;" type="text" name="getente8" id="id_getente8" /></p>
+<p><label for="id_getente9">Numero de gerentes:</label> <input style="width:20%;" type="text" name="getente9" id="id_getente9" /></p>
+<p><label for="id_getente10">Numero de gerentes:</label> <input style="width:20%;" type="text" name="getente10" id="id_getente10" /></p>
+<p><label for="id_getente11">Numero de gerentes:</label> <input style="width:20%;" type="text" name="getente11" id="id_getente11" /></p>
+<p><label for="id_getente12">Numero de gerentes:</label> <input style="width:20%;" type="text" name="getente12" id="id_getente12" /></p>
+<p><label for="id_capataz">Numero de capatazes:</label> <input style="width:20%;" type="text" name="capataz" id="id_capataz" /></p>
+<p><label for="id_capataz2">Numero de capatazes:</label> <input style="width:20%;" type="text" name="capataz2" id="id_capataz2" /></p>
+<p><label for="id_capataz3">Numero de capatazes:</label> <input style="width:20%;" type="text" name="capataz3" id="id_capataz3" /></p>
+<p><label for="id_capataz4">Numero de capatazes:</label> <input style="width:20%;" type="text" name="capataz4" id="id_capataz4" /></p>
+<p><label for="id_capataz5">Numero de capatazes:</label> <input style="width:20%;" type="text" name="capataz5" id="id_capataz5" /></p>
+<p><label for="id_capataz6">Numero de capatazes:</label> <input style="width:20%;" type="text" name="capataz6" id="id_capataz6" /></p>
+<p><label for="id_capataz7">Numero de capatazes:</label> <input style="width:20%;" type="text" name="capataz7" id="id_capataz7" /></p>
+<p><label for="id_capataz8">Numero de capatazes:</label> <input style="width:20%;" type="text" name="capataz8" id="id_capataz8" /></p>
+<p><label for="id_capataz9">Numero de capatazes:</label> <input style="width:20%;" type="text" name="capataz9" id="id_capataz9" /></p>
+<p><label for="id_capataz10">Numero de capatazes:</label> <input style="width:20%;" type="text" name="capataz10" id="id_capataz10" /></p>
+<p><label for="id_capataz11">Numero de capatazes:</label> <input style="width:20%;" type="text" name="capataz11" id="id_capataz11" /></p>
+<p><label for="id_capataz12">Numero de capatazes:</label> <input style="width:20%;" type="text" name="capataz12" id="id_capataz12" /></p>
+<p><label for="id_peao">Numero de peoes:</label> <input style="width:20%;" type="text" name="peao" id="id_peao" /></p>
+<p><label for="id_peao2">Numero de peoes:</label> <input style="width:20%;" type="text" name="peao2" id="id_peao2" /></p>
+<p><label for="id_peao3">Numero de peoes:</label> <input style="width:20%;" type="text" name="peao3" id="id_peao3" /></p>
+<p><label for="id_peao4">Numero de peoes:</label> <input style="width:20%;" type="text" name="peao4" id="id_peao4" /></p>
+<p><label for="id_peao5">Numero de peoes:</label> <input style="width:20%;" type="text" name="peao5" id="id_peao5" /></p>
+<p><label for="id_peao6">Numero de peoes:</label> <input style="width:20%;" type="text" name="peao6" id="id_peao6" /></p>
+<p><label for="id_peao7">Numero de peoes:</label> <input style="width:20%;" type="text" name="peao7" id="id_peao7" /></p>
+<p><label for="id_peao8">Numero de peoes:</label> <input style="width:20%;" type="text" name="peao8" id="id_peao8" /></p>
+<p><label for="id_peao9">Numero de peoes:</label> <input style="width:20%;" type="text" name="peao9" id="id_peao9" /></p>
+<p><label for="id_peao10">Numero de peoes:</label> <input style="width:20%;" type="text" name="peao10" id="id_peao10" /></p>
+<p><label for="id_peao11">Numero de peoes:</label> <input style="width:20%;" type="text" name="peao11" id="id_peao11" /></p>
+<p><label for="id_peao12">Numero de peoes:</label> <input style="width:20%;" type="text" name="peao12" id="id_peao12" /></p>
+<p><label for="id_tratorista">Numero de tratoristas:</label> <input style="width:20%;" type="text" name="tratorista" id="id_tratorista" /></p>
+<p><label for="id_tratorista2">Numero de tratoristas:</label> <input style="width:20%;" type="text" name="tratorista2" id="id_tratorista2" /></p>
+<p><label for="id_tratorista3">Numero de tratoristas:</label> <input style="width:20%;" type="text" name="tratorista3" id="id_tratorista3" /></p>
+<p><label for="id_tratorista4">Numero de tratoristas:</label> <input style="width:20%;" type="text" name="tratorista4" id="id_tratorista4" /></p>
+<p><label for="id_tratorista5">Numero de tratoristas:</label> <input style="width:20%;" type="text" name="tratorista5" id="id_tratorista5" /></p>
+<p><label for="id_tratorista6">Numero de tratoristas:</label> <input style="width:20%;" type="text" name="tratorista6" id="id_tratorista6" /></p>
+<p><label for="id_tratorista7">Numero de tratoristas:</label> <input style="width:20%;" type="text" name="tratorista7" id="id_tratorista7" /></p>
+<p><label for="id_tratorista8">Numero de tratoristas:</label> <input style="width:20%;" type="text" name="tratorista8" id="id_tratorista8" /></p>
+<p><label for="id_tratorista9">Numero de tratoristas:</label> <input style="width:20%;" type="text" name="tratorista9" id="id_tratorista9" /></p>
+<p><label for="id_tratorista10">Numero de tratoristas:</label> <input style="width:20%;" type="text" name="tratorista10" id="id_tratorista10" /></p>
+<p><label for="id_tratorista11">Numero de tratoristas:</label> <input style="width:20%;" type="text" name="tratorista11" id="id_tratorista11" /></p>
+<p><label for="id_tratorista12">Numero de tratoristas:</label> <input style="width:20%;" type="text" name="tratorista12" id="id_tratorista12" /></p>
+<p><label for="id_outro">Numero de outros:</label> <input style="width:20%;" type="text" name="outro" id="id_outro" /></p>
+<p><label for="id_outro2">Numero de outros:</label> <input style="width:20%;" type="text" name="outro2" id="id_outro2" /></p>
+<p><label for="id_outro3">Numero de outros:</label> <input style="width:20%;" type="text" name="outro3" id="id_outro3" /></p>
+<p><label for="id_outro4">Numero de outros:</label> <input style="width:20%;" type="text" name="outro4" id="id_outro4" /></p>
+<p><label for="id_outro5">Numero de outros:</label> <input style="width:20%;" type="text" name="outro5" id="id_outro5" /></p>
+<p><label for="id_outro6">Numero de outros:</label> <input style="width:20%;" type="text" name="outro6" id="id_outro6" /></p>
+<p><label for="id_outro7">Numero de outros:</label> <input style="width:20%;" type="text" name="outro7" id="id_outro7" /></p>
+<p><label for="id_outro8">Numero de outros:</label> <input style="width:20%;" type="text" name="outro8" id="id_outro8" /></p>
+<p><label for="id_outro9">Numero de outros:</label> <input style="width:20%;" type="text" name="outro9" id="id_outro9" /></p>
+<p><label for="id_outro10">Numero de outros:</label> <input style="width:20%;" type="text" name="outro10" id="id_outro10" /></p>
+<p><label for="id_outro11">Numero de outros:</label> <input style="width:20%;" type="text" name="outro11" id="id_outro11" /></p>
+<p><label for="id_outro12">Numero de outros:</label> <input style="width:20%;" type="text" name="outro12" id="id_outro12" /></p>
+<p><label for="id_gerente_valor_fixado">salario do gerente:</label> <input style="width:20%;" type="text" name="gerente_valor_fixado" id="id_gerente_valor_fixado" /></p>
+<p><label for="id_capataz_valor_fixado">Salario do capataz:</label> <input style="width:20%;" type="text" name="capataz_valor_fixado" id="id_capataz_valor_fixado" /></p>
+<p><label for="id_peao_valor_fixado">Salario do peao:</label> <input style="width:20%;" type="text" name="peao_valor_fixado" id="id_peao_valor_fixado" /></p>
+<p><label for="id_tratorista_valor_fixado">Salario do tratorista:</label> <input style="width:20%;" type="text" name="tratorista_valor_fixado" id="id_tratorista_valor_fixado" /></p>
+<p><label for="id_outro_valor_fixado">Salario do outros:</label> <input style="width:20%;" type="text" name="outro_valor_fixado" id="id_outro_valor_fixado" /></p>
+<p><label for="id_encargos">Salario do outros:</label> <input style="width:20%;" type="text" name="encargos" id="id_encargos" /></p>
+<p><label for="id_total_mes">Salario do outros:</label> <input style="width:20%;" type="text" name="total_mes" id="id_total_mes" /></p>
+<p><label for="id_total_mes2">Salario do outros:</label> <input style="width:20%;" type="text" name="total_mes2" id="id_total_mes2" /></p>
+<p><label for="id_total_mes3">Salario do outros:</label> <input style="width:20%;" type="text" name="total_mes3" id="id_total_mes3" /></p>
+<p><label for="id_total_mes4">Salario do outros:</label> <input style="width:20%;" type="text" name="total_mes4" id="id_total_mes4" /></p>
+<p><label for="id_total_mes5">Salario do outros:</label> <input style="width:20%;" type="text" name="total_mes5" id="id_total_mes5" /></p>
+<p><label for="id_total_mes6">Salario do outros:</label> <input style="width:20%;" type="text" name="total_mes6" id="id_total_mes6" /></p>
+<p><label for="id_total_mes7">Salario do outros:</label> <input style="width:20%;" type="text" name="total_mes7" id="id_total_mes7" /></p>
+<p><label for="id_total_mes8">Salario do outros:</label> <input style="width:20%;" type="text" name="total_mes8" id="id_total_mes8" /></p>
+<p><label for="id_total_mes9">Salario do outros:</label> <input style="width:20%;" type="text" name="total_mes9" id="id_total_mes9" /></p>
+<p><label for="id_total_mes10">Salario do outros:</label> <input style="width:20%;" type="text" name="total_mes10" id="id_total_mes10" /></p>
+<p><label for="id_total_mes11">Salario do outros:</label> <input style="width:20%;" type="text" name="total_mes11" id="id_total_mes11" /></p>
+<p><label for="id_total_mes12">Salario do outros:</label> <input style="width:20%;" type="text" name="total_mes12" id="id_total_mes12" /></p>

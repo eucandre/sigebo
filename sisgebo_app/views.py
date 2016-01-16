@@ -149,12 +149,7 @@ def mao_obra(request):
         form = FormMaoObra(request.POST, request.FILES)
         if form.is_valid():
             dados = form.cleaned_data
-            item  = Mao_Obra(fazenda = dados['fazenda'], mes= dados['mes'], getente = dados['getente'],
-                capataz=dados['capataz'],peao=dados['peao'], tratorista=dados['tratorista'],outro=dados['outro'],
-                gerente_valor_fixado=dados['gerente_valor_fixado'],capataz_valor_fixado=dados['capataz_valor_fixado']
-                ,peao_valor_fixado=dados['peao_valor_fixado'], tratorista_valor_fixado=dados['tratorista_valor_fixado'],
-                outro_valor_fixado=dados['outro_valor_fixado'])
-            item.save()
+            form.save()
     else:
         form = FormMaoObra()
     return render_to_response("mao_obra.html", {"form":form}, context_instance = RequestContext(request))

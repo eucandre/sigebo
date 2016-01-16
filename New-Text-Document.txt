@@ -1,0 +1,188 @@
+﻿    <script>
+            //janeiro
+            var total_jan = document.getElementById("id_total_mes");
+            var gerente = document.getElementById("id_getente");
+            var val_gerente = document.getElementById("id_gerente_valor_fixado");
+            function efetuaCalculo(){
+
+                total_jan.innerHTML =parseInt(gerente.value)*parseInt(val_gerente.value);
+            }
+        gerente.addEventListener("keyup",efetuaCalculo);
+        val_gerente.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+
+===================================================================================================
+
+    <script>
+            //fevereirio
+            var total_fev = document.getElementById("id_total_mes2");
+            var gerente = document.getElementById("id_getente2");
+            var val_gerente = document.getElementById("id_gerente_valor_fixado2");
+            function efetuaCalculo(){
+
+                total_fev.innerHTML =parseInt(gerente.value)*parseInt(val_gerente.value);
+            }
+        gerente.addEventListener("keyup",efetuaCalculo);
+        val_gerente.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+====================================================================================================
+
+
+    <script>
+            //marco
+            var total_mar = document.getElementById("id_total_mes3");
+            var gerente = document.getElementById("id_getente3");
+            var val_gerente = document.getElementById("id_gerente_valor_fixado3");
+            function efetuaCalculo(){
+
+                total_mar.innerHTML =parseInt(gerente.value)*parseInt(val_gerente.value);
+            }
+        gerente.addEventListener("keyup",efetuaCalculo);
+        val_gerente.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+======================================================================================================
+
+
+    <script>
+            //abril
+            var total_abr = document.getElementById("id_total_mes4");
+            var gerente = document.getElementById("id_getente4");
+            var val_gerente = document.getElementById("id_gerente_valor_fixado4");
+            function efetuaCalculo(){
+
+                total_abr.innerHTML =parseInt(gerente.value)*parseInt(val_gerente.value);
+            }
+        gerente.addEventListener("keyup",efetuaCalculo);
+        val_gerente.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+=======================================================================================================
+
+
+    <script>
+            //maio
+            var total_mai = document.getElementById("id_total_mes5");
+            var gerente = document.getElementById("id_getente5");
+            var val_gerente = document.getElementById("id_gerente_valor_fixado5");
+            function efetuaCalculo(){
+
+                total_mai.innerHTML =parseInt(gerente.value)*parseInt(val_gerente.value);
+            }
+        gerente.addEventListener("keyup",efetuaCalculo);
+        val_gerente.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+===========================================================================================================
+
+
+    <script>
+            //junho
+            var total_jun = document.getElementById("id_total_mes6");
+            var gerente = document.getElementById("id_getente6");
+            var val_gerente = document.getElementById("id_gerente_valor_fixado6");
+            function efetuaCalculo(){
+
+                total_jun.innerHTML =parseInt(gerente.value)*parseInt(val_gerente.value);
+            }
+        gerente.addEventListener("keyup",efetuaCalculo);
+        val_gerente.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+============================================================================================================
+
+
+    <script>
+            //julho
+            var total_jul = document.getElementById("id_total_mes7");
+            var gerente = document.getElementById("id_getente7");
+            var val_gerente = document.getElementById("id_gerente_valor_fixado7");
+            function efetuaCalculo(){
+
+                total_jul.innerHTML =parseInt(gerente.value)*parseInt(val_gerente.value);
+            }
+        gerente.addEventListener("keyup",efetuaCalculo);
+        val_gerente.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+===============================================================================================================
+
+
+    <script>
+            //agosto
+            var total_ago = document.getElementById("id_total_mes8");
+            var gerente = document.getElementById("id_getente8");
+            var val_gerente = document.getElementById("id_gerente_valor_fixado8");
+            function efetuaCalculo(){
+
+                total_ago.innerHTML =parseInt(gerente.value)*parseInt(val_gerente.value);
+            }
+        gerente.addEventListener("keyup",efetuaCalculo);
+        val_gerente.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+===============================================================================================================
+
+
+    <script>
+            //setembro
+            var total_fev = document.getElementById("id_total_mes9");
+            var gerente = document.getElementById("id_getente9");
+            var val_gerente = document.getElementById("id_gerente_valor_fixado9");
+            function efetuaCalculo(){
+
+                total_set.innerHTML =parseInt(gerente.value)*parseInt(val_gerente.value);
+            }
+        gerente.addEventListener("keyup",efetuaCalculo);
+        val_gerente.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+===============================================================================================================
+
+
+    <script>
+            //outubro
+            var total_out = document.getElementById("id_total_mes10");
+            var gerente = document.getElementById("id_getente10");
+            var val_gerente = document.getElementById("id_gerente_valor_fixado10");
+            function efetuaCalculo(){
+
+                total_out.innerHTML =parseInt(gerente.value)*parseInt(val_gerente.value);
+            }
+        gerente.addEventListener("keyup",efetuaCalculo);
+        val_gerente.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+===============================================================================================================
+
+
+    <script>
+            //novembro
+            var total_nov = document.getElementById("id_total_mes11");
+            var gerente = document.getElementById("id_getente11");
+            var val_gerente = document.getElementById("id_gerente_valor_fixado11");
+            function efetuaCalculo(){
+
+                total_nov.innerHTML =parseInt(gerente.value)*parseInt(val_gerente.value);
+            }
+        gerente.addEventListener("keyup",efetuaCalculo);
+        val_gerente.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+================================================================================================================
+
+
+    <script>
+            //dezembro
+            var total_dez = document.getElementById("id_total_mes12");
+            var gerente = document.getElementById("id_getente12");
+            var val_gerente = document.getElementById("id_gerente_valor_fixado12");
+            function efetuaCalculo(){
+
+                total_dez.innerHTML =parseInt(gerente.value)*parseInt(val_gerente.value);
+            }
+        gerente.addEventListener("keyup",efetuaCalculo);
+        val_gerente.addEventListener("keyup",efetuaCalculo);
+    </script>
