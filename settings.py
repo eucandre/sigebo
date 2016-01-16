@@ -1,8 +1,8 @@
 # Django settings for sigebo project.
-
+import os
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
-
+ROOTDIR = os.path.realpah(os.path.dirname(__file__))
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
 )
@@ -52,7 +52,7 @@ USE_L10N = True
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-MEDIA_ROOT = 'C:/Users/Carlos/Desktop/sisgebo/media'
+MEDIA_ROOT = os.path.join(ROOTDIR,'media')
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
