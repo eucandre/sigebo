@@ -1,143 +1,17 @@
-<script>
-        //isumos medio 1
-        var insumos = document.getElementById("id_Insumos_capital_medio");
-        var insumo_valor_final = document.getElementById("id_Insumos_valor_final_ou_sucata");
-        var insumo_valor_inicial = document.getElementById("id_Insumos_valor_inicial_mercado");
-
-        function efetuaCalculo(){
-            insumos.innerHTML = (parseInt(insumo_valor_inicial.value)+parseInt(insumo_valor_final.value))/2;
-        }
-        insumo_valor_final.addEventListener("keyup",efetuaCalculo);
-        insumo_valor_inicial.addEventListener("keyup",efetuaCalculo);
-    </script>
-
-    <script>
-        //isumos porcentagem 1
-        var insumos = document.getElementById("id_Insumos_porcentagem_patrimonio");
-        var insumo_valor_final = document.getElementById("id_Insumos_valor_final_ou_sucata");
-        var insumo_valor_inicial = document.getElementById("id_Insumos_valor_inicial_mercado");
-
-        function efetuaCalculo(){
-            insumos.innerHTML = ((parseInt(insumo_valor_inicial.value)+parseInt(insumo_valor_final.value))/2)*0.6;
-        }
-        insumo_valor_final.addEventListener("keyup",efetuaCalculo);
-        insumo_valor_inicial.addEventListener("keyup",efetuaCalculo
-    </script>
-
-
-tarefa :
-    copiar e colar esses dois blocos a cima, 16x, apenas substituindo os nomes que aparecerem, exemplos: nestes blocos
-  temos var insumos = document.getElementById("id_Insumos_porcentagem_patrimonio"), irá ser substituido por maquinas_implementos_valor_inicial_de_mercado,
-  onde aparecer o nome de insumos somente.por exemplo para este, como já tem pronto o de insumos, para maquinas faz-se:
-
-    <script>
-        //maquinas 1
-        var maquina = document.getElementById("id_maquinas_implementos_valor_inicial_de_mercado_capital_medio");
-        var maquina_valor_final = document.getElementById("id_maquinas_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
-        var maquina_valor_inicial = document.getElementById("id_maquinas_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
-
-        function efetuaCalculo(){
-            insumos.innerHTML = (parseInt(maquina_valor_inicial.value)+parseInt(maquina_valor_final.value))/2;
-        }
-        maquina_valor_final.addEventListener("keyup",efetuaCalculo);
-        maquina_valor_inicial.addEventListener("keyup",efetuaCalculo);
-    </script>
-
-    <script>
-        //maquinas porcentagem 1
-        var maquina = document.getElementById("id_maquinas_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
-        var maquina_valor_final = document.getElementById("id_maquinas_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
-        var maquina_valor_inicial = document.getElementById("id_maquinas_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
-
-        function efetuaCalculo(){
-            maquina.innerHTML = ((parseInt(maquinas_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt(maquinas_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
-        }
-        maquina_valor_final.addEventListener("keyup",efetuaCalculo);
-        maquina_valor_inicial.addEventListener("keyup",efetuaCalculo
-    </script>
-
-
-
-    maquinas_implementos_valor_inicial_de_mercado= forms.IntegerField(label='Novilho precoce kg',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    maquinas_implementos_capital_medio= forms.IntegerField(label='Touro kg',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    maquinas_implementos_valor_final_ou_sucata= forms.IntegerField(initial=50,label='Vaca gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    maquinas_implementos_porcentagem_patrimonio= forms.IntegerField(initial=50,label='Novilha gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-
-    tratores_valor_inicial_de_mercado  = forms.IntegerField(initial=58,label='Boi gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    tratores_capital_medio             = forms.IntegerField(initial=50,label='Novilho gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    tratores_valor_final_ou_sucata     = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    tratores_porcentagem_patrimonio    = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-
-    veiculos_valor_inicial_de_mercado = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    veiculos_capital_medio            = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    veiculos_valor_final_ou_sucata    = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    veiculos_porcentagem_patrimonio   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-
-    eq_manuais_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    eq_manuais_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    eq_manuais_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    eq_manuais_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-
-    rep_macho_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    rep_macho_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    rep_macho_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    rep_macho_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-
-    rep_femea_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    rep_femea_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    rep_femea_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    rep_femea_porcentagem_patrimonio= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-
-
-    animais_engorda_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    animais_engorda_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    animais_engorda_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    animais_engorda_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-
-
-    animais_trabalho_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    animais_trabalho_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    animais_trabalho_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    animais_trabalho_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-
-
-    canavial_volu_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    canavial_volu_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    canavial_volu_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    canavial_volu_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-
-
-    benfeitoras_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    benfeitoras_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    benfeitoras_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    benfeitoras_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-
-
-    cercas_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    cercas_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    cercas_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    cercas_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-
-
-    edificacoes_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    edificacoes_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    edificacoes_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    edificacoes_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-
-
-    pastagens_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    pastagens_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    pastagens_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    pastagens_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-
-
-    semen_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    semen_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    semen_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    semen_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-
-
-    terra_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    terra_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    terra_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    terra_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+        var insumo_capital_medio=document.getElementById("id_Insumos_capital_medio");
+        var maquinas_capital_medio=document.getElementById("id_maquinas_implementos_capital_medio");
+        var tratores_capital_medio=document.getElementById("id_tratores_capital_medio");
+        var veiculos_capital_medio=document.getElementById("id_veiculos_capital_medio");
+        var eq_manuais_capital_medio=document.getElementById("id_eq_manuais_capital_medio");
+        var rep_macho_capital_medio=document.getElementById("id_rep_macho_capital_medio");
+        var rep_femea_capital_medio=document.getElementById("id_rep_femea_capital_medio");
+        var animais_engorda_capital_medio=document.getElementById("id_animais_engorda_capital_medio");
+        var animais_trabalho_capital_medio=document.getElementById("id_animais_trabalho_capital_medio");
+        var canavial_volu_capital_medio=document.getElementById("id_canavial_volu_capital_medio");
+        var benfeitoras_capital_medio=document.getElementById("id_benfeitoras_capital_medio");
+        var cercas_capital_medio=document.getElementById("id_cercas_capital_medio");
+        var edificacoes_capital_medio=document.getElementById("id_edificacoes_capital_medio");
+        var pastagens_capital_medio=document.getElementById("id_pastagens_capital_medio");
+        var semen_capital_medio=document.getElementById("id_semen_capital_medio");
+        var terra_capital_medio=document.getElementById("id_terra_capital_medio");
+        var total_capital_medio=document.getElementById("id_Insumos_valor_inicial_mercado");
