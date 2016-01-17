@@ -11,7 +11,7 @@ UF =((u'Acre','Acre'),(u'Alagoas','Alagoas'),(u'Amapa','Amapá'),(u'Amazonas','A
 
 CARGO=((u'Peao','Peao'),(u'Capataz','Capataz'),(u'Gerente','Gerente'),(u'Tratorista','Tratorista'),(u'Outros','Outros'))
 TIPO = ((u'Aberto','Abreto'),(u'Fechado','Fechado'))
-
+ALIMENTO=((u'milho','milho'),(u'sorgo','sorgo'),(u'mombaca','mombaca'),(u'milheto','milheto'),(u'girassol','girassol'),(u'cana','cana'))
 
 
 class fazenda(models.Model):
@@ -178,6 +178,7 @@ class Compra_e_venda(models.Model):
 class Confinamento(models.Model):
     #a = Alimentos()
     #obj_alimento = Alimentos.objects.get(pk = len(Alimentos.objects.all()))
+
     fazenda = models.ForeignKey(fazenda)
     N_animais_confinados = models.IntegerField()
     Peso_inicial = models.FloatField()
@@ -190,7 +191,7 @@ class Confinamento(models.Model):
     #Concentrado = models.FloatField()
     tempo_confinamento = models.IntegerField()
     data = models.DateField(auto_now_add=True)
-    #alimento = models.ForeignKey(Alimentos)# a materia do alimento para que seja feito o calculo da area para plantar
+    alimento = models.CharField(choices=ALIMENTO,max_length=150)# a materia do alimento para que seja feito o calculo da area para plantar
     #pms_ha = models.FloatField()#default=obj_alimento.pms_do_alimento_ha)#ForeignKey(pms_regisitros)#esse eh relacionado a materia de alimento
 
     def __unicode__(self):

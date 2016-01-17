@@ -3,33 +3,33 @@
   <component name="ChangeListManager">
     <list id="faf2b82e-2164-4e1d-a3f3-1f6533ae5410" name="Default" comment="Merge branch 'master' of https://github.com/eucandre/sigebo&#10;&#10;Conflicts:&#10;&#9;sisgebo_app/forms.py&#10;" />
     <list default="true" id="e7dd6d88-7531-4f6c-904d-8a42dd6d6c89" name="Failed commit: Default" comment="Editando posicoes relatorio criacao bovinos&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_3.js" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\templates\pgg_rc.html" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_piquetes_machos.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/mao_obra.html" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_piquetes_femeas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_8.js" />
       <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_animais_12_21.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/custos/depreciacao.html" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_piquetes_femeas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_6.js" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\numero_piquete_categoria.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_9.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_8.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/mao_obra.html" />
       <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_total_piquetes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_4.js" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\numero_piquete_categoria.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_6.js" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_piquetes_machos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_7.js" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\templates\pgg_rc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_9.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_2.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sisgebo.db" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sisgebo_app/forms.py" afterPath="$PROJECT_DIR$/sisgebo_app/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urls.py" afterPath="$PROJECT_DIR$/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/definicao_rebanho_inicial.html" afterPath="$PROJECT_DIR$/templates/definicao_rebanho_inicial.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pastagem.html" afterPath="$PROJECT_DIR$/templates/pastagem.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sisgebo_app/models.py" afterPath="$PROJECT_DIR$/sisgebo_app/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sisgebo_app/views.py" afterPath="$PROJECT_DIR$/sisgebo_app/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gastos_veterinarios.html" afterPath="$PROJECT_DIR$/templates/gastos_veterinarios.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rascunho" afterPath="$PROJECT_DIR$/rascunho" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/definicao_rebanho_inicial.html" afterPath="$PROJECT_DIR$/templates/definicao_rebanho_inicial.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sisgebo_app/views.py" afterPath="$PROJECT_DIR$/sisgebo_app/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sisgebo_app/forms.py" afterPath="$PROJECT_DIR$/sisgebo_app/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pastagem.html" afterPath="$PROJECT_DIR$/templates/pastagem.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urls.py" afterPath="$PROJECT_DIR$/urls.py" />
     </list>
     <list id="bb93888b-4d16-4f15-90f1-e27391030ae7" name="Failed commit: Failed commit: Default" comment="Merge branch 'master' of https://github.com/eucandre/sigebo&#10;&#10;Conflicts:&#10;&#9;sisgebo_app/forms.py&#10;">
       <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_aniamais_6_12.js" />
@@ -63,71 +63,135 @@
       <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sisgebo_app/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="8772" max-vertical-offset="52258">
-              <caret line="530" column="0" selection-start-line="530" selection-start-column="0" selection-end-line="530" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="22882" max-vertical-offset="53822">
+              <caret line="1359" column="0" selection-start-line="1039" selection-start-column="4" selection-end-line="1359" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding>
-                <marker date="1452993017469" expanded="true" signature="54144:55723" placeholder="..." />
-                <marker date="1452993017469" expanded="true" signature="60666:61985" placeholder="..." />
+                <element signature="e#0#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Metodos_Auxiliares2.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sisgebo_app/Metodos_Auxiliares2.py">
+      <file leaf-file-name="New Text Document.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/New Text Document.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="918">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2533">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="confinamento.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/confinamento.html">
+      <file leaf-file-name="inventario_atividade.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/custos/inventario_atividade.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6556962" vertical-offset="4484" max-vertical-offset="11033">
-              <caret line="279" column="113" selection-start-line="279" selection-start-column="113" selection-end-line="279" selection-end-column="113" />
+            <state vertical-scroll-proportion="0.44050634" vertical-offset="14429" max-vertical-offset="21267">
+              <caret line="859" column="8" selection-start-line="859" selection-start-column="8" selection-end-line="859" selection-end-column="8" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#7;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#9;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1453049486785" expanded="true" signature="1670:10183" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="1721:10164" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="1781:1791" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="1792:1909" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="2224:9059" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="2276:6746" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="2379:6715" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="2416:2729" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="2567:2580" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="2581:2691" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="2626:2686" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="2766:3813" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="2918:2931" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="2932:3775" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="2977:3058" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="3103:3182" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="3227:3316" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="3361:3448" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="3493:3590" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="3635:3733" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="3850:5191" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="4008:4021" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="4022:5153" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="4067:4150" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="4195:4275" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="4320:4397" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="4442:4514" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="4559:4636" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="4681:4755" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="4800:4874" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="4919:4991" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="5036:5111" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="5228:5737" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="5382:5395" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="5396:5699" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="5441:5519" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="5564:5657" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="5774:6681" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="5945:5958" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="5959:6643" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="6004:6085" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="6130:6213" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="6258:6339" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="6384:6465" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="6510:6601" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="6797:9031" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="6897:9000" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="6934:7839" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="7096:7109" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="7110:7801" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="7155:7241" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="7286:7368" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="7413:7507" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="7552:7634" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="7679:7759" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="7876:8779" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="8032:8045" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="8046:8741" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="8091:8174" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="8219:8302" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="8347:8433" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="8478:8559" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="8604:8698" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="8816:8966" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="9215:10091" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="9303:9425" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="9515:9644" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="9728:9856" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="9942:10064" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="10254:10578" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="10294:10558" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="10347:10535" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="10396:10506" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="11056:11732" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="11091:11110" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="11168:11198" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="11212:11262" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="11348:11405" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="11461:11491" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="11505:11555" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="11635:11685" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="11771:21593" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="11806:11834" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="11887:11925" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="21044:21073" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="21124:21163" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="21249:21288" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="21363:21402" placeholder="..." />
+                <marker date="1453049486785" expanded="false" signature="21485:21524" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="21627:21655" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="22159:22196" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="22441:22688" placeholder="..." />
+                <marker date="1453049486785" expanded="true" signature="22488:22661" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pronto.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pronto.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anotações.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anotações.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="0" column="234" selection-start-line="0" selection-start-column="78" selection-end-line="0" selection-end-column="234" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sisgebo_app/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2907" max-vertical-offset="37315">
-              <caret line="181" column="3" selection-start-line="181" selection-start-column="3" selection-end-line="181" selection-end-column="3" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -135,8 +199,35 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sisgebo_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2584" max-vertical-offset="9180">
-              <caret line="152" column="9" selection-start-line="152" selection-start-column="9" selection-end-line="152" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="6702" max-vertical-offset="9180">
+              <caret line="407" column="45" selection-start-line="407" selection-start-column="45" selection-end-line="407" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="depreciacao.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/custos/depreciacao.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.384615" vertical-offset="6207" max-vertical-offset="12002">
+              <caret line="381" column="24" selection-start-line="381" selection-start-column="24" selection-end-line="381" selection-end-column="24" />
+              <folding>
+                <element signature="n#style#0;n#span#6;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1453048275762" expanded="true" signature="12232:12274" placeholder="..." />
+                <marker date="1453048275762" expanded="true" signature="12275:27401" placeholder="..." />
+                <marker date="1453048275762" expanded="true" signature="12310:12316" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="evolucao_rebanho.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/custos/evolucao_rebanho.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.115385" vertical-offset="8959" max-vertical-offset="14943">
+              <caret line="544" column="0" selection-start-line="544" selection-start-column="0" selection-end-line="544" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -179,12 +270,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/pgg_rc.html" />
-        <option value="$PROJECT_DIR$/templates/cadastro_fazenda.html" />
-        <option value="$PROJECT_DIR$/templates/relatorios/relatorio_criacao_bovinos.html" />
         <option value="$PROJECT_DIR$/templates/relatorios/relatorio_instalacao.html" />
-        <option value="$PROJECT_DIR$/templates/custos/inventario_atividade.html" />
-        <option value="$PROJECT_DIR$/templates/custos/depreciacao.html" />
         <option value="$PROJECT_DIR$/templates/custos/despesas_administrativas.html" />
         <option value="$PROJECT_DIR$/templates/custos/custo_variavel.html" />
         <option value="$PROJECT_DIR$/templates/custos/custo_fixo.html" />
@@ -199,7 +285,6 @@
         <option value="$PROJECT_DIR$/templates/custos/analise.html" />
         <option value="$PROJECT_DIR$/templates/custos/fluxo_em_caixa.html" />
         <option value="$PROJECT_DIR$/templates/custos/vpl.html" />
-        <option value="$PROJECT_DIR$/urls.py" />
         <option value="$PROJECT_DIR$/templates/custos/pe.html" />
         <option value="$PROJECT_DIR$/media/js/zzzzzzzzzzzzzzpastaegem/numero_piquete_categoria.js" />
         <option value="$PROJECT_DIR$/templates/index.html" />
@@ -212,24 +297,30 @@
         <option value="$PROJECT_DIR$/sisgebo_app/metodos_pastagens.py" />
         <option value="$PROJECT_DIR$/templates/pastagem.html" />
         <option value="$PROJECT_DIR$/templates/definicao_rebanho_inicial.html" />
-        <option value="$PROJECT_DIR$/sisgebo_app/Metodos_Auxiliares2.py" />
         <option value="$PROJECT_DIR$/media/js/total1.js" />
         <option value="$PROJECT_DIR$/media/js/total2.js" />
         <option value="$PROJECT_DIR$/media/js/total3.js" />
         <option value="$PROJECT_DIR$/rascunho" />
         <option value="$PROJECT_DIR$/templates/venda_e_compra.html" />
-        <option value="$PROJECT_DIR$/sisgebo_app/models.py" />
         <option value="$PROJECT_DIR$/templates/rendimento_carcaca.html" />
         <option value="$PROJECT_DIR$/Gastos Com Produtos Veterinários.txt" />
         <option value="$PROJECT_DIR$/templates/gastos_veterinarios.html" />
-        <option value="$PROJECT_DIR$/sisgebo_app/views.py" />
-        <option value="$PROJECT_DIR$/auxiliar" />
-        <option value="$PROJECT_DIR$/New Text Document.txt" />
         <option value="$PROJECT_DIR$/templates/mao_obra.html" />
         <option value="$PROJECT_DIR$/settings.py" />
-        <option value="$PROJECT_DIR$/anotações.txt" />
-        <option value="$PROJECT_DIR$/sisgebo_app/forms.py" />
+        <option value="$PROJECT_DIR$/sisgebo_app/models.py" />
+        <option value="$PROJECT_DIR$/auxiliar" />
+        <option value="$PROJECT_DIR$/sisgebo_app/Metodos_Auxiliares2.py" />
         <option value="$PROJECT_DIR$/templates/confinamento.html" />
+        <option value="$PROJECT_DIR$/sisgebo_app/metodos_segunda_planilha.py" />
+        <option value="$PROJECT_DIR$/urls.py" />
+        <option value="$PROJECT_DIR$/sisgebo_app/metodos_2_plan.py" />
+        <option value="$PROJECT_DIR$/New Text Document.txt" />
+        <option value="$PROJECT_DIR$/sisgebo_app/views.py" />
+        <option value="$PROJECT_DIR$/pronto_formulas_inventario.txt" />
+        <option value="$PROJECT_DIR$/sisgebo_app/forms.py" />
+        <option value="$PROJECT_DIR$/templates/custos/depreciacao.html" />
+        <option value="$PROJECT_DIR$/templates/custos/inventario_atividade.html" />
+        <option value="$PROJECT_DIR$/anotações.txt" />
       </list>
     </option>
   </component>
@@ -265,35 +356,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="sigebo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="sigebo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="sisgebo_app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -346,6 +408,53 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sigebo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sigebo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="templates">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sigebo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="templates">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="custos">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,6 +497,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Carlos\Desktop\DESKTOP\sigebo" />
       <recent name="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js" />
       <recent name="C:\Users\Carlos\Desktop\sigebo\templates" />
       <recent name="C:\Users\Carlos\Desktop\sigebo\media" />
@@ -742,23 +852,23 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32026145" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24905375" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329296" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13853142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329296" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3970588" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24509804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32463294" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24905375" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329296" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13853142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24509804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31968504" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41830066" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -799,69 +909,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/custos/custo_total.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5032" max-vertical-offset="11135">
-          <caret line="298" column="82" selection-start-line="298" selection-start-column="82" selection-end-line="298" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/receitas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3774" max-vertical-offset="11407">
-          <caret line="222" column="35" selection-start-line="222" selection-start-column="35" selection-end-line="222" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/balanco_patrimonial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5984" max-vertical-offset="11815">
-          <caret line="369" column="0" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/custo_oportunidade.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5212" max-vertical-offset="10931">
-          <caret line="314" column="0" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/analise.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4333" max-vertical-offset="10132">
-          <caret line="270" column="44" selection-start-line="270" selection-start-column="44" selection-end-line="270" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/fluxo_em_caixa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="364">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/pe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4815864" vertical-offset="3638" max-vertical-offset="9792">
-          <caret line="224" column="16" selection-start-line="224" selection-start-column="16" selection-end-line="224" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/vpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8031915" vertical-offset="3455" max-vertical-offset="11203">
-          <caret line="221" column="0" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="305">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/js/animais23reposicao.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="392">
@@ -1016,16 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="986">
-          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#60#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/pastagem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.192307" vertical-offset="9152" max-vertical-offset="16762">
@@ -1048,13 +1085,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gastos Com Produtos Veterinários.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13385826" vertical-offset="0" max-vertical-offset="527">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/gastos_veterinarios.html">
@@ -1072,45 +1109,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts gastos com produtos veterinários.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.96121883" vertical-offset="2322" max-vertical-offset="2771">
           <caret line="157" column="9" selection-start-line="22" selection-start-column="0" selection-end-line="157" selection-end-column="9" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pronto.txt">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sisgebo_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="9129">
-          <caret line="152" column="9" selection-start-line="152" selection-start-column="9" selection-end-line="152" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pronto.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1054">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/New Text Document.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5824411" vertical-offset="0" max-vertical-offset="467">
-          <caret line="16" column="134" selection-start-line="16" selection-start-column="134" selection-end-line="16" selection-end-column="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auxiliar">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10920771" vertical-offset="0" max-vertical-offset="467">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1136,54 +1150,263 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sisgebo_app/models.py">
+    <entry file="file://$PROJECT_DIR$/templates/relatorios/relatorio_criacao_bovinos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2907" max-vertical-offset="37315">
-          <caret line="181" column="3" selection-start-line="181" selection-start-column="3" selection-end-line="181" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.91392404" vertical-offset="3260" max-vertical-offset="11747">
+          <caret line="213" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/confinamento.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6596" max-vertical-offset="10710">
+          <caret line="401" column="20" selection-start-line="401" selection-start-column="20" selection-end-line="401" selection-end-column="20" />
+          <folding>
+            <marker date="1453005102817" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453005102817" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453005102817" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453005102817" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453005102817" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453005102817" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453005102817" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453005102817" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inventário.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1989">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auxiliar">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16240875" vertical-offset="1441" max-vertical-offset="1989">
+          <caret line="90" column="105" selection-start-line="90" selection-start-column="105" selection-end-line="90" selection-end-column="105" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sisgebo_app/Metodos_Auxiliares2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="918">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.7915937" vertical-offset="364" max-vertical-offset="935">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sisgebo_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5145" max-vertical-offset="37332">
+          <caret line="316" column="33" selection-start-line="316" selection-start-column="4" selection-end-line="316" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sisgebo_app/metodos_2_plan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/New Text Document.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2533">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sisgebo_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6702" max-vertical-offset="9180">
+          <caret line="407" column="45" selection-start-line="407" selection-start-column="45" selection-end-line="407" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts Inventário.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1748" max-vertical-offset="2227">
+          <caret line="118" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/custos/depreciacao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.384615" vertical-offset="6207" max-vertical-offset="12002">
+          <caret line="381" column="24" selection-start-line="381" selection-start-column="24" selection-end-line="381" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#span#6;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1453048275762" expanded="true" signature="12232:12274" placeholder="..." />
+            <marker date="1453048275762" expanded="true" signature="12275:27401" placeholder="..." />
+            <marker date="1453048275762" expanded="true" signature="12310:12316" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sisgebo_app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="22882" max-vertical-offset="53822">
+          <caret line="1359" column="0" selection-start-line="1039" selection-start-column="4" selection-end-line="1359" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/anotações.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="0" column="234" selection-start-line="0" selection-start-column="78" selection-end-line="0" selection-end-column="234" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sisgebo_app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8772" max-vertical-offset="52258">
-          <caret line="530" column="0" selection-start-line="530" selection-start-column="0" selection-end-line="530" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8167116" vertical-offset="10560" max-vertical-offset="10965">
+          <caret line="639" column="62" selection-start-line="639" selection-start-column="62" selection-end-line="639" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pronto_formulas_inventario.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58760107" vertical-offset="6939" max-vertical-offset="8007">
+          <caret line="421" column="0" selection-start-line="396" selection-start-column="0" selection-end-line="421" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pronto_depreciacao.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.042713568" vertical-offset="2023" max-vertical-offset="2873">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding>
-            <marker date="1452993017469" expanded="true" signature="54144:55723" placeholder="..." />
-            <marker date="1452993017469" expanded="true" signature="60666:61985" placeholder="..." />
+            <element signature="e#0#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/confinamento.html">
+    <entry file="file://$PROJECT_DIR$/templates/custos/evolucao_rebanho.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6556962" vertical-offset="4484" max-vertical-offset="11033">
-          <caret line="279" column="113" selection-start-line="279" selection-start-column="113" selection-end-line="279" selection-end-column="113" />
+        <state vertical-scroll-proportion="-11.115385" vertical-offset="8959" max-vertical-offset="14943">
+          <caret line="544" column="0" selection-start-line="544" selection-start-column="0" selection-end-line="544" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/custos/inventario_atividade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44050634" vertical-offset="14429" max-vertical-offset="21267">
+          <caret line="859" column="8" selection-start-line="859" selection-start-column="8" selection-end-line="859" selection-end-column="8" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#9;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1453049486785" expanded="true" signature="1670:10183" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="1721:10164" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="1781:1791" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="1792:1909" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="2224:9059" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="2276:6746" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="2379:6715" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="2416:2729" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="2567:2580" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="2581:2691" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="2626:2686" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="2766:3813" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="2918:2931" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="2932:3775" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="2977:3058" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="3103:3182" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="3227:3316" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="3361:3448" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="3493:3590" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="3635:3733" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="3850:5191" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="4008:4021" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="4022:5153" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="4067:4150" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="4195:4275" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="4320:4397" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="4442:4514" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="4559:4636" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="4681:4755" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="4800:4874" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="4919:4991" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="5036:5111" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="5228:5737" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="5382:5395" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="5396:5699" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="5441:5519" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="5564:5657" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="5774:6681" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="5945:5958" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="5959:6643" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="6004:6085" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="6130:6213" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="6258:6339" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="6384:6465" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="6510:6601" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="6797:9031" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="6897:9000" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="6934:7839" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="7096:7109" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="7110:7801" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="7155:7241" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="7286:7368" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="7413:7507" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="7552:7634" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="7679:7759" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="7876:8779" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="8032:8045" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="8046:8741" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="8091:8174" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="8219:8302" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="8347:8433" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="8478:8559" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="8604:8698" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="8816:8966" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="9215:10091" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="9303:9425" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="9515:9644" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="9728:9856" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="9942:10064" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="10254:10578" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="10294:10558" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="10347:10535" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="10396:10506" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="11056:11732" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="11091:11110" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="11168:11198" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="11212:11262" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="11348:11405" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="11461:11491" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="11505:11555" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="11635:11685" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="11771:21593" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="11806:11834" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="11887:11925" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="21044:21073" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="21124:21163" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="21249:21288" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="21363:21402" placeholder="..." />
+            <marker date="1453049486785" expanded="false" signature="21485:21524" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="21627:21655" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="22159:22196" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="22441:22688" placeholder="..." />
+            <marker date="1453049486785" expanded="true" signature="22488:22661" placeholder="..." />
           </folding>
         </state>
       </provider>

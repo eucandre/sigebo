@@ -34,16 +34,16 @@ def pega_venda_novilhos():
         raise Http404()
 
 def numero_animais_confinados():
-    try:
-        tamanhod = len(Definicao_sistema_e_rebanho_inicial.objects.all())
-        if tamanhod ==None:
-            return 0
+    d= Definicao_sistema_e_rebanho_inicial()
+    if d.vacas == None:
+        return 0
+    else:
+        return ((int(d.vacas)-(int(d.vacas)-(int(d.vacas)*int(d.fertilidade)/100)))-((int(d.vacas)-(int(d.vacas)-(int(d.vacas)*int(d.fertilidade)/100))))*int(d.mortalidade01))+(((int(d.vacas)-(int(d.vacas)-(int(d.vacas)*int(d.fertilidade)/100)))-((int(d.vacas)-(int(d.vacas)-(int(d.vacas)*int(d.fertilidade)/100))))*int(d.mortalidade01))-(int(d.reposicao)/100)*int(d.vacas))
 
-        elif tamanhod>0:
-            d = Definicao_sistema_e_rebanho_inicial.objects.get(pk=tamanhod)
-            numero_a_confinados = ((int(d.vacas)-(int(d.vacas)-(int(d.vacas)*int(d.fertilidade)/100)))-((int(d.vacas)-(int(d.vacas)-(int(d.vacas)*int(d.fertilidade)/100))))*int(d.mortalidade01))+(((int(d.vacas)-(int(d.vacas)-(int(d.vacas)*int(d.fertilidade)/100)))-((int(d.vacas)-(int(d.vacas)-(int(d.vacas)*int(d.fertilidade)/100))))*int(d.mortalidade01))-(int(d.reposicao)/100)*int(d.vacas))
-            return numero_a_confinados
+def ganho_diario():
 
-    except Definicao_sistema_e_rebanho_inicial.DoesNotExist:
-        raise Http404()
-
+    c= Confinamento()
+    if c.Peso_inicial==None:
+        return 0
+    else:
+        return (c.Peso_Final-c.Peso_inicial)/c.tempo_confinamento

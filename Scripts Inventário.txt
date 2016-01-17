@@ -1,0 +1,126 @@
+﻿<script>
+        //total valor inicial
+        var total = document.getElementById("id_total_porcentagem_patrimonio");
+
+        var insumo_valor_inicial = document.getElementById("id_insumo_valor_inicial_mercado");
+        var maquinas = document.getElementById("id_maquinas_implementos_valor_inicial_de_mercado");
+        var tratores_valor_inicial_de_mercado = document.getElementById("id_tratores_valor_inicial_de_mercado");
+        var veiculos_valor_inicial_de_mercado = document.getElementById("id_veiculos_valor_inicial_de_mercado");
+        var eq_manuais_valor_inicial_de_mercado = document.getElementById("id_eq_manuais_valor_inicial_de_mercado");
+        var rep_macho_valor_inicial_de_mercado = document.getElementById("id_rep_macho_valor_inicial_de_mercado");
+        var rep_femea_valor_inicial_de_mercado = document.getElementById("id_rep_femea_valor_inicial_de_mercado");
+        var animais_engorda_valor_inicial_de_mercado = document.getElementById("id_animais_engorda_valor_inicial_de_mercado");
+        var animais_trabalho_valor_inicial_de_mercado = document.getElementById("id_animais_trabalho_valor_inicial_de_mercado");
+        var canavial_volu_valor_inicial_de_mercado = document.getElementById("id_canavial_volu_valor_inicial_de_mercado");
+        var benfeitoras_valor_inicial_de_mercado = document.getElementById("id_benfeitoras_valor_inicial_de_mercado");
+        var cercas_valor_inicial_de_mercado = document.getElementById("id_cercas_valor_inicial_de_mercado");
+        var edificacoes_valor_inicial_de_mercado = document.getElementById("id_edificacoes_valor_inicial_de_mercado");
+        var pastagens_valor_inicial_de_mercado = document.getElementById("id_pastagens_valor_inicial_de_mercado");
+        var semen_valor_inicial_de_mercado = document.getElementById("id_semen_valor_inicial_de_mercado");
+        var terra_valor_inicial_de_mercado = document.getElementById("id_terra_valor_inicial_de_mercado");
+        var total_valor_inicial_de_mercado = document.getElementById("id_total_valor_inicial_de_mercado");
+        function efetuaCalculo(){
+            insumos_valor_inicial.innerHTML = ((parseInt(total_valor_inicial.value)+parseInt(total_valor_final.value)));
+        }
+        total_valor_final.addEventListener("keyup",efetuaCalculo);
+        total_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+
+=================================================================================================================================
+
+<script>
+        //total capital medio
+        var total = document.getElementById("id_total_porcentagem_patrimonio");
+
+        var insumo_capital_medio = document.getElementById("id_insumo_valor_inicial_mercado");
+        var maquinas_capital_medio = document.getElementById("id_maquinas_implementos_capital_medio");
+        var tratores_capital_medio = document.getElementById("id_tratores_capital_medio");
+        var veiculos_capital_medio = document.getElementById("id_veiculos_capital_medio");
+        var eq_manuais_capital_medio = document.getElementById("id_eq_manuais_capital_medio");
+        var rep_macho_capital_medio = document.getElementById("id_rep_macho_capital_medio");
+        var rep_femea_capital_medio = document.getElementById("id_rep_femea_capital_medio");
+        var animais_engorda_capital_medio = document.getElementById("id_animais_engorda_capital_medio");
+        var animais_trabalho_capital_medio = document.getElementById("id_animais_trabalho_capital_medio");
+        var canavial_volu_capital_medio = document.getElementById("id_canavial_volu_capital_medio");
+        var benfeitoras_capital_medio = document.getElementById("id_benfeitoras_capital_medio");
+        var cercas_capital_medio = document.getElementById("id_cercas_capital_medio");
+        var edificacoes_capital_medio = document.getElementById("id_edificacoes_capital_medio");
+        var pastagens_capital_medio = document.getElementById("id_pastagens_capital_medio");
+        var semen_capital_medio = document.getElementById("id_semen_capital_medio");
+        var terra_capital_medio = document.getElementById("id_terra_capital_medio");
+        var total_capital_medio = document.getElementById("id_total_capital_medio");
+        function efetuaCalculo(){
+            insumos_valor_inicial.innerHTML = ((parseInt(total_valor_inicial.value)+parseInt(total_valor_final.value)));
+        }
+        total_valor_final.addEventListener("keyup",efetuaCalculo);
+        total_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+
+================================================================================================================================
+
+
+<script>
+        //total valor final ou sucata
+        var total = document.getElementById("id_total_porcentagem_patrimonio");
+
+        var insumo_final_ou_sucata = document.getElementById("id_insumo_valor_inicial_mercado");
+        var maquinas = document.getElementById("id_maquinas_implementos_valor_final_ou_sucata");
+        var tratores_valor_final_ou_sucata = document.getElementById("id_tratores_valor_final_ou_sucata");
+        var veiculos_valor_final_ou_sucata = document.getElementById("id_veiculos_valor_final_ou_sucata");
+        var eq_manuais_valor_final_ou_sucata = document.getElementById("id_eq_manuais_valor_final_ou_sucata");
+        var rep_macho_valor_final_ou_sucata = document.getElementById("id_rep_macho_valor_final_ou_sucata");
+        var rep_femea_valor_final_ou_sucata = document.getElementById("id_rep_femea_valor_final_ou_sucata");
+        var animais_engorda_valor_final_ou_sucata = document.getElementById("id_animais_engorda_valor_final_ou_sucata");
+        var animais_trabalho_valor_final_ou_sucata = document.getElementById("id_animais_trabalho_valor_final_ou_sucata");
+        var canavial_volu_valor_final_ou_sucata = document.getElementById("id_canavial_volu_valor_final_ou_sucata");
+        var benfeitoras_valor_final_ou_sucata = document.getElementById("id_benfeitoras_valor_final_ou_sucata");
+        var cercas_valor_final_ou_sucata = document.getElementById("id_cercas_valor_final_ou_sucata");
+        var edificacoes_valor_final_ou_sucata = document.getElementById("id_edificacoes_valor_final_ou_sucata");
+        var pastagens_valor_final_ou_sucata = document.getElementById("id_pastagens_valor_final_ou_sucata");
+        var semen_valor_final_ou_sucata = document.getElementById("id_semen_valor_final_ou_sucata");
+        var terra_valor_final_ou_sucata = document.getElementById("id_terra_valor_final_ou_sucata");
+        var total_valor_final_ou_sucata = document.getElementById("id_total_valor_final_ou_sucata");
+        function efetuaCalculo(){
+            insumos_valor_inicial.innerHTML = ((parseInt(total_valor_inicial.value)+parseInt(total_valor_final.value)));
+        }
+        total_valor_final.addEventListener("keyup",efetuaCalculo);
+        total_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+
+=================================================================================================================================
+
+<script>
+        //total porcentagem
+        var total = document.getElementById("id_total_porcentagem_patrimonio");
+
+        var insumo_porcentagem = document.getElementById("id_insumo_porcentagem_mercado");
+        var maquinas = document.getElementById("id_maquinas_implementos_porcentagem");
+        var tratores_porcentagem = document.getElementById("id_tratores_porcentagem");
+        var veiculos_porcentagem = document.getElementById("id_veiculos_porcentagem");
+        var eq_manuais_porcentagem = document.getElementById("id_eq_manuais_porcentagem");
+        var rep_macho_porcentagem = document.getElementById("id_rep_macho_porcentagem");
+        var rep_femea_porcentagem = document.getElementById("id_rep_femea_porcentagem");
+        var animais_engorda_porcentagem = document.getElementById("id_animais_engorda_porcentagem");
+        var animais_trabalho_porcentagem = document.getElementById("id_animais_trabalho_porcentagem");
+        var canavial_volu_porcentagem = document.getElementById("id_canavial_volu_porcentagem");
+        var benfeitoras_porcentagem = document.getElementById("id_benfeitoras_porcentagem");
+        var cercas_porcentagem = document.getElementById("id_cercas_porcentagem");
+        var edificacoes_porcentagem = document.getElementById("id_edificacoes_porcentagem");
+        var pastagens_porcentagem = document.getElementById("id_pastagens_porcentagem");
+        var semen_porcentagem = document.getElementById("id_semen_porcentagem");
+        var terra_porcentagem = document.getElementById("id_terra_porcentagem");
+        var total_porcentagem = document.getElementById("id_total_porcentagem");
+        function efetuaCalculo(){
+            insumos_porcentagem.innerHTML = ((parseInt(total_porcentagem.value)+parseInt(total_valor_final.value)));
+        }
+        total_valor_final.addEventListener("keyup",efetuaCalculo);
+        total_porcentagem.addEventListener("keyup",efetuaCalculo
+    </script>
+
+
+
+
+tarefa:
+        esse script está completo, terá que repetir esse bloco 3x para capital_medio, valor_final_ou_sucata e porcentagem
+      basta que substitua os nomes referentes que estão no final do nome das variáveis, no caso a cima o final a ser mudado
+      é (_inicial_de_mercado) e no ("") subtitua o mesmo. 

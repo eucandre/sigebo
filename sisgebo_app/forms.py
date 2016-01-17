@@ -5,7 +5,7 @@ from sisgebo_app import metodos_pastagens
 from sisgebo_app.models import *
 from metodos_pastagens import *
 from django import forms
-
+from metodos_2_plan import *
 
 UF =((u'Acre','Acre'),(u'Alagoas','Alagoas'),(u'Amapa','Amapá'),(u'Amazonas','Amazonas'),(u'Bahia','Bahia'),
 (u'Ceara','Ceará'),(u'Distrito Federal','Distrito federal'),(u'Espirito Santo','Espirito Santo'),(u'Goias','Goias'),
@@ -16,7 +16,7 @@ UF =((u'Acre','Acre'),(u'Alagoas','Alagoas'),(u'Amapa','Amapá'),(u'Amazonas','A
 (u'Sergipe','Sergipe'),(u'Tocantins','Tocantins'),)
 
 CARGO=((u'Peao','Peao'),(u'Capataz','Capataz'),(u'Gerente','Gerente'),(u'Tratorista','Tratorista'),(u'Outros','Outros'))
-
+ALIMENTO=((u'milho','milho'),(u'sorgo','sorgo'),(u'mombaca','mombaca'),(u'milheto','milheto'),(u'girassol','girassol'),(u'cana','cana'))
 
 class FormFazenda(forms.Form):
 
@@ -505,6 +505,7 @@ class FormVenda_Compra(forms.Form):
 
 class FormConfinamento(forms.Form):
 
+
     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"class":"form-control","style":"width:25%;"}))
     N_animais_confinados = forms.IntegerField(initial=numero_animais_confinados(),label='Numero de animais confinados',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
     Peso_inicial=forms.IntegerField(initial=380,label='Peso inical',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
@@ -513,9 +514,11 @@ class FormConfinamento(forms.Form):
     Consumo_agua=forms.IntegerField(label='Consumo de agua',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
     Preco_concentrado=forms.FloatField(label='Preco do concentrado',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
 
-    tempo_confinamento = forms.FloatField(label='Duracao do confinamento em dias',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    tempo_confinamento = forms.FloatField(initial=90,label='Duracao do confinamento em dias',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
     volumoso=forms.FloatField(label='Percentual do volumoso da dieta dividido por 100',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
     concentrado=forms.FloatField(label='Percentual do volumoso da dieta dividido por 100',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+
+
 
     area_piquete_por_animais    = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
     area_piquete_por_ha         = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
@@ -545,33 +548,33 @@ class FormConfinamento(forms.Form):
     consumo_total_ms_concentrado = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
     consumo_diario_ms_volumoso = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
     consumo_total_ms_volumoso = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    preco_ms_diario_concentrado = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    preco_ms_total_concenrtrado = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    preco_ms_diario_volumoso = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    preco_ms_total_volumoso = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    alimento = forms.ChoiceField(choices=ALIMENTO)
+    pms_forrageira = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
 
-class FormDimensionamentoSiloCeuAberto(forms.Form):
-    fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"class":"form-control","style":"width:20%;"}))
-    Duracao_confinamento=forms.IntegerField(label='Duracao do confinamento',widget=forms.TextInput(attrs={"class":"form-control","style":"width:20%;"}))
-    Comsumo_silagem=forms.IntegerField(label='Consumo de Silagem',widget=forms.TextInput(attrs={"class":"form-control","style":"width:20%;"}))
-    Densidade=forms.IntegerField(label='Densidade',widget=forms.TextInput(attrs={"class":"form-control","style":"width:20%;"}))
-    Altura_Silo=forms.IntegerField(label='Altura do Silo',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Base_menor_silo=forms.IntegerField(label='Base menor do Silo',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Base_maior_silo=forms.IntegerField(label='Base maior do Silo',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Ms_silagem=forms.IntegerField(label='Materia seca da silagem',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    tempo_confinamento =forms.IntegerField(label='Duracao do confinamento',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Consumo_diario=forms.IntegerField(label='Consumo diario',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Fatia_diaria=forms.IntegerField(label='Fatia diaria',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_ha = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:70%;"}))
+    ganho_diario = forms.FloatField(initial= ganho_diario(),label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    area_condinamento = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    preco_por_ha = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    preco_pms_forrageira = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
 
-class FormDimensionamentoSiloFechado(forms.Form):
+    Densidade=forms.IntegerField(label='Densidade',widget=forms.TextInput(attrs={"class":"form-control","style":"width:70%;"}))
+    Altura_Silo=forms.IntegerField(label='Altura do Silo',widget=forms.TextInput(attrs={"class":"form-control","style":"width:70%;"}))
 
-    fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
-    Duracao_confinamento=forms.IntegerField(label='Duracao do confinamento',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Comsumo_silagem=forms.IntegerField(label='Consumo de Silagem',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Densidade=forms.IntegerField(label='Densidade',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Altura_Silo=forms.IntegerField(label='Altura do Silo',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Base_menor_silo=forms.IntegerField(label='Base menor do Silo',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Base_maior_silo=forms.IntegerField(label='Base maior do Silo',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Ms_silagem=forms.IntegerField(label='Materia seca da silagem',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    tempo_confinamento =forms.IntegerField(label='Duracao do confinamento',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Consumo_diario=forms.IntegerField(label='Consumo diario',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Fatia_diaria=forms.IntegerField(label='Fatia diaria',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    Base_menor_silo=forms.IntegerField(label='Base menor do Silo',widget=forms.TextInput(attrs={"class":"form-control","style":"width:70%;"}))
+    Base_maior_silo=forms.IntegerField(label='Base maior do Silo',widget=forms.TextInput(attrs={"class":"form-control","style":"width:70%;"}))
+    Consumo_diario=forms.IntegerField(label='Consumo diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:70%;"}))
+    Consumo_total=forms.IntegerField(label='Consumo diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:70%;"}))
+    Ms_silagem=forms.IntegerField(label='Materia seca da silagem',widget=forms.TextInput(attrs={"class":"form-control","style":"width:70%;"}))
+    face_trapezoide=forms.IntegerField(label='Materia seca da silagem',widget=forms.TextInput(attrs={"class":"form-control","style":"width:70%;"}))
+    volume_retirar=forms.IntegerField(label='Materia seca da silagem',widget=forms.TextInput(attrs={"class":"form-control","style":"width:70%;"}))
+    Fatia_diaria=forms.IntegerField(label='Fatia diaria',widget=forms.TextInput(attrs={"class":"form-control","style":"width:70%;"}))
+    comprimento_silo=forms.IntegerField(label='Fatia diaria',widget=forms.TextInput(attrs={"class":"form-control","style":"width:70%;"}))
+    n_silos=forms.IntegerField(label='Fatia diaria',widget=forms.TextInput(attrs={"class":"form-control","style":"width:70%;"}))
+
 
 class FormMaoObra(forms.Form):
     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;"}))
@@ -789,19 +792,103 @@ class FormRendimentoCarcaca(forms.Form):
 
 
 class FormInventarioatividade(forms.Form):
+
     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
-    Insumos_valor_inicial_mercado= forms.DateField(label='Ano',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    Insumos_valor_inicial_mercado= forms.DateField(label='Ano',initial=calcula_valor_atual_mercado_insumos(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Insumos_capital_medio= forms.IntegerField(label='Vaca gorda kg',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Insumos_valor_final_ou_sucata= forms.IntegerField(label='Novilha gorda kg',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Insumos_porcentagem_patrimonio= forms.IntegerField(label='Boi gordo kg',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    Insumos_porcentagem_patrimonio= forms.IntegerField(initial=percentagem_valor_atual_mercado_insumos(),label='Boi gordo kg',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
     maquinas_implementos_valor_inicial_de_mercado= forms.IntegerField(label='Novilho precoce kg',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     maquinas_implementos_capital_medio= forms.IntegerField(label='Touro kg',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     maquinas_implementos_valor_final_ou_sucata= forms.IntegerField(initial=50,label='Vaca gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     maquinas_implementos_porcentagem_patrimonio= forms.IntegerField(initial=50,label='Novilha gorda %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    tratores_valor_inicial_de_mercado= forms.IntegerField(initial=58,label='Boi gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    tratores_capital_medio= forms.IntegerField(initial=50,label='Novilho gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    tratores_valor_final_ou_sucata= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    tratores_porcentagem_patrimonio= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    tratores_valor_inicial_de_mercado  = forms.IntegerField(initial=58,label='Boi gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tratores_capital_medio             = forms.IntegerField(initial=50,label='Novilho gordo %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tratores_valor_final_ou_sucata     = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tratores_porcentagem_patrimonio    = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    veiculos_valor_inicial_de_mercado = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    veiculos_capital_medio            = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    veiculos_valor_final_ou_sucata    = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    veiculos_porcentagem_patrimonio   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    
+    eq_manuais_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    eq_manuais_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    eq_manuais_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    eq_manuais_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    
+    rep_macho_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    rep_macho_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    rep_macho_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    rep_macho_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    rep_femea_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    rep_femea_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    rep_femea_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    rep_femea_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    
+    
+    animais_engorda_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    animais_engorda_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    animais_engorda_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    animais_engorda_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    
+    
+    animais_trabalho_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    animais_trabalho_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    animais_trabalho_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    animais_trabalho_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    
+    
+    canavial_volu_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    canavial_volu_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    canavial_volu_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    canavial_volu_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    
+    
+    benfeitoras_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    benfeitoras_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    benfeitoras_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    benfeitoras_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    
+    
+    cercas_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    cercas_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    cercas_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    cercas_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    
+    
+    edificacoes_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    edificacoes_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    edificacoes_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    edificacoes_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    
+    
+    pastagens_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    pastagens_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    pastagens_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    pastagens_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    
+    
+    semen_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    semen_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    semen_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    semen_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    
+    
+    terra_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    terra_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    terra_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    terra_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    
+    total_valor_inicial_de_mercado= forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_capital_medio           = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_valor_final_ou_sucata   = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_porcentagem_patrimonio  = forms.IntegerField(initial=50,label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
 
 class FormDepreciacao(forms.Form):
                     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
@@ -810,8 +897,8 @@ class FormDepreciacao(forms.Form):
                     maquina_implemento_valor_final_ou_sucata = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     maquina_implemento_depreciacao_anual = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     maquina_implemento_remuneracao_capital = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    maquina_implemento_custo_fixo = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    maquina_implemento_porcetagem_custo_fixo = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    maquina_implemento_custo_fixo = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:50%;"}))
+                    maquina_implemento_porcetagem_custo_fixo = forms.FloatField()
 
                     tratores_valor_inicial = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     tratores_capital_medio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))

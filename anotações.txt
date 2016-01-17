@@ -1,9 +1,640 @@
-<p><label for="id_N_animais_confinados">Numero de animais confinados:</label> <input id="id_N_animais_confinados" style="width:5%;left:450px;top:200px;position:absolute;" type="text" class="form-control" name="N_animais_confinados" /></p>
-<p><label for="id_Peso_inicial">Peso inical:</label> <input style="width:5%;left:500px;position:absolute;" name="Peso_inicial" value="380" class="form-control" type="text" id="id_Peso_inicial" /></p>
-<p><label for="id_Peso_Final">Peso final:</label> <input style="width:5%;left:500px;position:absolute;" name="Peso_Final" value="480" class="form-control" type="text" id="id_Peso_Final" /></p>
-<p><label for="id_Consumo_ms">Consumo de ms:</label> <input id="id_Consumo_ms" style="width:5%;left:500px;position:absolute;" type="text" class="form-control" name="Consumo_ms" /></p>
-<p><label for="id_Consumo_agua">Consumo de agua:</label> <input id="id_Consumo_agua" style="width:5%;left:500px;position:absolute;" type="text" class="form-control" name="Consumo_agua" /></p>
-<p><label for="id_Preco_concentrado">Preco do concentrado:</label> <input id="id_Preco_concentrado" style="width:5%;left:500px;position:absolute;" type="text" class="form-control" name="Preco_concentrado" /></p>
-<p><label for="id_tempo_confinamento">Duracao do confinamento em dias:</label> <input id="id_tempo_confinamento" style="width:5%;left:500px;position:absolute;" type="text" class="form-control" name="tempo_confinamento" /></p>
-<p><label for="id_volumoso">Percentual do volumoso da dieta dividido por 100:</label> <input id="id_volumoso" style="width:5%;left:590px;position:absolute;" type="text" class="form-control" name="volumoso" /></p>
-<p><label for="id_ganho_diario">Ganho diario:</label> <input id="id_ganho_diario" style="width:5%;left:590px;position:absolute;" type="text" class="form-control" name="ganho_diario" /></p>
+                        <span>Nº novilhos>14@</span>
+                        <div style="top:21%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:21%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:21%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:21%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:21%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:21%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:21%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:21%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:21%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:21%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:21%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:21%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:25%; left: 18.5%;position: absolute">Peso medio /kg</span>
+                         <div style="top:25%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:25%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:25%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:25%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:25%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:25%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:25%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:25%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:25%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:25%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:25%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:25%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:29%; left: 18.5%;position: absolute">Nº novilhos 12-14@</span>
+                        <div style="top:29%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:29%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:29%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:29%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:29%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:29%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:29%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:29%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:29%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:29%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:29%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:29%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:33%; left: 18.5%;position: absolute">Pesos medio /kg</span>
+                        <div style="top:33%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:33%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:33%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:33%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:33%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:33%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:33%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:33%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:33%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:33%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:33%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:33%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:37%; left: 18.5%;position: absolute">Nº novilhos ate 12@</span>
+                        <div style="top:37%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:37%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:37%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:37%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:37%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:37%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:37%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:37%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:37%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:37%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:37%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:37%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:41%; left: 18.5%;position: absolute">Pesos medio /kg</span>
+                        <div style="top:41%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:41%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:41%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:41%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:41%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:41%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:41%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:41%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:41%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:41%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:41%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:41%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:45%; left: 18.5%;position: absolute">Nº novilhas ate 12@</span>
+                        <div style="top:45%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:45%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:45%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:45%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:45%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:45%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:45%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:45%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:45%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:45%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:45%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:45%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:49%; left: 18.5%;position: absolute">Peso medio /kg</span>
+                        <div style="top:49%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:49%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:49%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:49%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:49%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:49%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:49%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:49%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:49%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:49%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:49%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:49%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:53%; left: 18.5%;position: absolute">Nº Bezerros</span>
+                        <div style="top:53%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:53%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:53%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:53%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:53%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:53%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:53%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:53%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:53%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:53%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:53%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:53%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:57%; left: 18.5%;position: absolute">Peso medio /kg</span>
+                        <div style="top:57%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:57%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:57%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:57%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:57%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:57%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:57%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:57%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:57%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:57%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:57%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:57%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:61%; left: 18.5%;position: absolute">Nº Bezerras</span>
+                        <div style="top:61%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:61%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:61%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:61%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:61%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:61%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:61%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:61%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:61%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:61%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:61%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:61%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:65%; left: 18.5%;position: absolute">Peso medio /kg</span>
+                        <div style="top:65%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:65%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:65%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:65%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:65%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:65%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:65%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:65%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:65%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:65%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:65%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:65%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:69%; left: 18.5%;position: absolute">Nº Bezerros</span>
+                        <div style="top:69%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:69%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:69%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:69%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:69%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:69%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:69%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:69%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:69%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:69%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:69%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:69%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:73%; left: 18.5%;position: absolute">Peso medio /kg</span>
+                        <div style="top:73%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:73%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:73%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:73%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:73%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:73%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:73%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:73%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:73%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:73%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:73%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:73%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:77%; left: 18.5%;position: absolute">Nº Outros</span>
+                        <div style="top:77%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:77%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:77%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:77%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:77%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:77%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:77%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:77%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:77%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:77%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:77%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:77%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:81%; left: 18.5%;position: absolute">Peso medio /kg</span>
+                        <div style="top:81%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:81%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:81%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:81%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:81%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:81%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:81%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:81%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:81%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:81%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:81%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:81%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:85%; left: 18.5%;position: absolute">Nº Equideos</span>
+                        <div style="top:85%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:85%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:85%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:85%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:85%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:85%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:85%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:85%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:85%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:85%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:85%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:85%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:89%; left: 18.5%;position: absolute">Peso medio /kg</span>
+                        <div style="top:89%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:89%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:89%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:89%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:89%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:89%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:89%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:89%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:89%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:89%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:89%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:89%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:93%; left: 18.5%;position: absolute">Total cabeças</span>
+                        <div style="top:93%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:93%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:93%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:93%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:93%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:93%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:93%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:93%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:93%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:93%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:93%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:93%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:97%; left: 18.5%;position: absolute">Peso medio /kg</span>
+                        <div style="top:97%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:97%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:97%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:97%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:97%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:97%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:97%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:97%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:97%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:97%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:97%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:97%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:101%; left: 18.5%;position: absolute">Estoque em @</span>
+                        <div style="top:101%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:101%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:101%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:101%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:101%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:101%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:101%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:101%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:101%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:101%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:101%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:101%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:105%; left: 18.5%;position: absolute">Área últil (ha)</span>
+                        <div style="top:105%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:105%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:105%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:105%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:105%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:105%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:105%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:105%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:105%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:105%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:105%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:105%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:109%; left: 18.5%;position: absolute">Dens. lotação(cab/ha)</span>
+                        <div style="top:109%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:109%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:109%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:109%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:109%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:109%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:109%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:109%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:109%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:109%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:109%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:109%; left: 92%;position: absolute">aqui</div>
+                    <span style="top:113%; left: 18.5%;position: absolute">Taxa lotação(UA/ha)</span>
+                        <div style="top:113%; left: 28%;position: absolute">aqui</div>
+                        <div style="top:113%; left: 32%;position: absolute">aqui</div>
+                        <div style="top:113%; left: 38%;position: absolute">aqui</div>
+                        <div style="top:113%; left: 44%;position: absolute">aqui</div>
+                        <div style="top:113%; left: 49%;position: absolute">aqui</div>
+                        <div style="top:113%; left: 56%;position: absolute">aqui</div>
+                        <div style="top:113%; left: 62%;position: absolute">aqui</div>
+                        <div style="top:113%; left: 68%;position: absolute">aqui</div>
+                        <div style="top:113%; left: 74%;position: absolute">aqui</div>
+                        <div style="top:113%; left: 80%;position: absolute">aqui</div>
+                        <div style="top:113%; left: 86%;position: absolute">aqui</div>
+                        <div style="top:113%; left: 92%;position: absolute">aqui</div>
+
+
+########################################################################################################################################################################################################
+    nr_matriz_janeiro              = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    matriz_janeiro_peso_medio      =forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_peso_medio_janeiro   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_fevereiro            = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_peso_medio_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_merco                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_peso_medio_marco     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_abril                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_peso_medio_abriu     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_maio                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_peso_medio_maio      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_junho                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_peso_medio_junho     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_julho                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_peso_medio_julho     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_agosto               = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_peso_medio_agosto    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_setembro             = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_peso_medio_setembro  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_outubro              = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_peso_medio_outubro   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_novembro             = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_peso_medio_novembro  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_dezembro             = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_peso_medio_dezembro  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_media                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_matriz_peso_medio_media     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #novilhos maior que 14 arroubas
+    nr_novilhos_maior14Arrouba_janeiro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_peso_medio_janeiro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_fevereiro               = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_peso_medio_fevereiro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_marco                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_peso_medio_marco        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_abril                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_peso_medio_abriu        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_maio                    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_peso_medio_maio         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_junho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_peso_medio_junho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_julho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_peso_medio_julho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_agosto                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_peso_medio_agosto       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_setembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_peso_medio_setembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_outubro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_peso_medio_outubro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_novembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #Novilhos12-14
+    nr_novilhos_maior12_14Arrouba_janeiro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_peso_medio_janeiro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_fevereiro               = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_peso_medio_fevereiro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_marco                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_peso_medio_marco        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_abril                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_peso_medio_abriu        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_maio                    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_peso_medio_maio         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_junho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_peso_medio_junho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_julho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_peso_medio_julho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_agosto                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_peso_medio_agosto       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_setembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_peso_medio_setembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_outubro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_peso_medio_outubro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_novembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #Novilhos ate12
+    nr_novilhos_maior_ate12Arrouba_janeiro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_peso_medio_janeiro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_fevereiro               = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_peso_medio_fevereiro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_marco                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_peso_medio_marco        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_abril                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_peso_medio_abriu        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_maio                    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_peso_medio_maio         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_junho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_peso_medio_junho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_julho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_peso_medio_julho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_agosto                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_peso_medio_agosto       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_setembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_peso_medio_setembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_outubro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_peso_medio_outubro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_novembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #novilhas ate 12 arroubas
+    nr_novilhas_ate12Arrouba_janeiro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_peso_medio_janeiro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_fevereiro               = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_peso_medio_fevereiro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_marco                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_peso_medio_marco        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_abril                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_peso_medio_abriu        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_maio                    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_peso_medio_maio         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_junho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_peso_medio_junho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_julho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_peso_medio_julho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_agosto                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_peso_medio_agosto       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_setembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_peso_medio_setembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_outubro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_peso_medio_outubro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_novembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #numero de bezerros
+
+    nr_bezerros_janeiro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_peso_medio_janeiro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_fevereiro               = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_peso_medio_fevereiro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_marco                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_peso_medio_marco        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_abril                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_peso_medio_abriu        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_maio                    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_peso_medio_maio         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_junho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_peso_medio_junho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_julho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_peso_medio_julho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_agosto                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_peso_medio_agosto       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_setembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_peso_medio_setembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_outubro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_peso_medio_outubro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_novembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #numero de bezerras
+
+    nr_bezerras_janeiro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_peso_medio_janeiro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_fevereiro               = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_peso_medio_fevereiro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_marco                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_peso_medio_marco        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_abril                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_peso_medio_abriu        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_maio                    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_peso_medio_maio         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_junho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_peso_medio_junho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_julho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_peso_medio_julho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_agosto                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_peso_medio_agosto       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_setembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_peso_medio_setembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_outubro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_peso_medio_outubro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_novembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #numero de outros
+
+    nr_outros_janeiro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_peso_medio_janeiro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_fevereiro               = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_peso_medio_fevereiro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_marco                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_peso_medio_marco        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_abril                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_peso_medio_abriu        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_maio                    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_peso_medio_maio         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_junho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_peso_medio_junho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_julho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_peso_medio_julho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_agosto                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_peso_medio_agosto       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_setembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_peso_medio_setembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_outubro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_peso_medio_outubro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_novembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #numero de equideos
+
+    nr_equideos_janeiro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_peso_medio_janeiro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_fevereiro               = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_peso_medio_fevereiro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_marco                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_peso_medio_marco        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_abril                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_peso_medio_abriu        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_maio                    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_peso_medio_maio         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_junho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_peso_medio_junho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_julho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_peso_medio_julho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_agosto                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_peso_medio_agosto       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_setembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_peso_medio_setembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_outubro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_peso_medio_outubro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_novembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #total cabecas
+
+    total_cabecas_janeiro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_peso_medio_janeiro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_fevereiro               = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_peso_medio_fevereiro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_marco                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_peso_medio_marco        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_abril                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_peso_medio_abriu        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_maio                    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_peso_medio_maio         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_junho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_peso_medio_junho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_julho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_peso_medio_julho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_agosto                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_peso_medio_agosto       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_setembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_peso_medio_setembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_outubro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_peso_medio_outubro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_novembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #Estoque em arroubas
+
+    estoque_em_arroubas_janeiro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_peso_medio_janeiro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_fevereiro               = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_peso_medio_fevereiro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_marco                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_peso_medio_marco        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_abril                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_peso_medio_abriu        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_maio                    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_peso_medio_maio         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_junho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_peso_medio_junho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_julho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_peso_medio_julho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_agosto                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_peso_medio_agosto       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_setembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_peso_medio_setembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_outubro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_peso_medio_outubro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_novembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #area util ha
+
+    area_util_janeiro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_peso_medio_janeiro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_fevereiro               = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_peso_medio_fevereiro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_marco                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_peso_medio_marco        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_abril                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_peso_medio_abriu        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_maio                    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_peso_medio_maio         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_junho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_peso_medio_junho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_julho                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_peso_medio_julho        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_agosto                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_peso_medio_agosto       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_setembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_peso_medio_setembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_outubro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_peso_medio_outubro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_novembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+
+tarefa:
+        Essa é grande que é a porra, a tarefa é a mesma das anteriores, pega os nomes antes da igualdade e substitui os "aqui"
+        Bota os nomes {{form.<nome_do_campo_antes_da_igualdade>}}

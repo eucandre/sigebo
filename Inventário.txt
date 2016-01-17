@@ -1,18 +1,18 @@
-                    <span style="top: 32%;position: absolute;">Insumos</span>
-                        <div style="top: 32%;left: 32%;position: absolute;">aqui</div>
-                        <div style="top: 32%;left: 44%;position: absolute;">aqui</div>
-                        <div style="top: 32%;left: 56%;position: absolute;">aqui</div>
-                        <div style="top: 32%;left: 68%;position: absolute;">aqui</div>
+﻿                    <span style="top: 32%;position: absolute;">Insumos</span>
+                        <div style="top: 32%;left: 32%;position: absolute;">{{form.Insumos_valor_inicial_mercado}}</div>
+                        <div style="top: 32%;left: 44%;position: absolute;">{{form.Insumos_capital_medio}}</div>
+                        <div style="top: 32%;left: 56%;position: absolute;">{{form.Insumos_valor_final_ou_sucata}}</div>
+                        <div style="top: 32%;left: 68%;position: absolute;">{{form.Insumos_porcentagem_patrimonio}}</div>
                     <span style="top: 38%;position: absolute;">Máquinas e implementos</span>
-                        <div style="top: 38%;left: 32%;position: absolute;">aqui</div>
-                        <div style="top: 38%;left: 44%;position: absolute;">aqui</div>
-                        <div style="top: 38%;left: 56%;position: absolute;">aqui</div>
-                        <div style="top: 38%;left: 68%;position: absolute;">aqui</div>
+                        <div style="top: 38%;left: 32%;position: absolute;">{{form.maquinas_implementos_valor_inicial_de_mercado}}</div>
+                        <div style="top: 38%;left: 44%;position: absolute;">{{form.maquinas_implementos_capital_medio}}</div>
+                        <div style="top: 38%;left: 56%;position: absolute;">{{form.maquinas_implementos_valor_final_ou_sucata}}</div>
+                        <div style="top: 38%;left: 68%;position: absolute;">{{form.maquinas_implementos_porcentagem_patrimonio=}}</div>
                     <span style="top: 44%;position: absolute;">Tratores</span>
-                        <div style="top: 44%;left: 32%;position: absolute;">aqui</div>
-                        <div style="top: 44%;left: 44%;position: absolute;">aqui</div>
-                        <div style="top: 44%;left: 56%;position: absolute;">aqui</div>
-                        <div style="top: 44%;left: 68%;position: absolute;">aqui</div>
+                        <div style="top: 44%;left: 32%;position: absolute;">{{form.tratores_valor_inicial_de_mercado=}}</div>
+                        <div style="top: 44%;left: 44%;position: absolute;">{{form.tratores_capital_medio=}}</div>
+                        <div style="top: 44%;left: 56%;position: absolute;">{{form.tratores_valor_final_ou_sucata=}}</div>
+                        <div style="top: 44%;left: 68%;position: absolute;">{{form.tratores_porcentagem_patrimonio=}}</div>
                     <span style="top: 50%;position: absolute;">Veículos</span>
                         <div style="top: 50%;left: 32%;position: absolute;">aqui</div>
                         <div style="top: 50%;left: 44%;position: absolute;">aqui</div>
@@ -105,7 +105,7 @@ tarefa:
          exemplo:
          Insumos =
          <span style="top: 32%;position: absolute;">Insumos</span>
-                        <div style="top: 32%;left: 32%;position: absolute;">{{form.Insumo_valor_inicial}}</div>
+                        <div style="top: 32%;left: 32%;position: absolute;">{{form.tratores_porcentagem_patrimonio=}}</div>
                         <div style="top: 32%;left: 44%;position: absolute;">aqui</div>
                         <div style="top: 32%;left: 56%;position: absolute;">aqui</div>
                         <div style="top: 32%;left: 68%;position: absolute;">aqui</div>

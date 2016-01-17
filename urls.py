@@ -21,7 +21,7 @@ urlpatterns = patterns('',
     url(r'^relatorio_criacao_bovinos/$','sisgebo_app.views.relatorio_criacao_bovinos'),
     url(r'^relatorio_instalacao/$','sisgebo_app.views.relatorio_instalacao'),
     #---#
-    url(r'^inventario_ligado_atividade/$','sisgebo_app.views.inventario_atividade'),
+    url(r'^inventario/$','sisgebo_app.views.inventario_atividade'),
     url(r'^depreciacao/$','sisgebo_app.views.depreciacao'),
     url(r'^evolucao_rebanho/$','sisgebo_app.views.evolucao_rebanho'),
     url(r'^custo_fixo/$','sisgebo_app.views.custo_Fixos'),

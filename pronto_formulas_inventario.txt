@@ -1,0 +1,466 @@
+﻿<script>
+        //isumos medio 1
+        var insumos = document.getElementById("id_Insumos_capital_medio");
+        var insumo_valor_final = document.getElementById("id_Insumos_valor_final_ou_sucata");
+        var insumo_valor_inicial = document.getElementById("id_Insumos_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = (parseInt(insumo_valor_inicial.value)+parseInt(insumo_valor_final.value))/2;
+        }
+        insumo_valor_final.addEventListener("keyup",efetuaCalculo);
+        insumo_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+    <script>
+        //isumos porcentagem 1
+        var insumos = document.getElementById("id_Insumos_porcentagem_patrimonio");
+        var insumo_valor_final = document.getElementById("id_Insumos_valor_final_ou_sucata");
+        var insumo_valor_inicial = document.getElementById("id_Insumos_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = ((parseInt(insumo_valor_inicial.value)+parseInt(insumo_valor_final.value))/2)*0.6;
+        }
+        insumo_valor_final.addEventListener("keyup",efetuaCalculo);
+        insumo_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+
+
+tarefa :
+    copiar e colar esses dois blocos a cima, 16x, apenas substituindo os nomes que aparecerem, exemplos: nestes blocos
+  temos var insumos = document.getElementById("id_Insumos_porcentagem_patrimonio"), irá ser substituido por maquinas_implementos_valor_inicial_de_mercado,
+  onde aparecer o nome de insumos somente.por exemplo para este, como já tem pronto o de insumos, para maquinas faz-se:
+
+    <script>
+        //maquinas 1
+        var maquina = document.getElementById("id_maquinas_implementos_valor_inicial_de_mercado_capital_medio");
+        var maquina_valor_final = document.getElementById("id_maquinas_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var maquina_valor_inicial = document.getElementById("id_maquinas_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = (parseInt(maquina_valor_inicial.value)+parseInt(maquina_valor_final.value))/2;
+        }
+        maquina_valor_final.addEventListener("keyup",efetuaCalculo);
+        maquina_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+    <script>
+        //maquinas porcentagem 2
+        var tratores = document.getElementById("id_tratores_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
+        var tratores_valor_final = document.getElementById("id_tratores_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var tratores_valor_inicial = document.getElementById("id_tratores_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            tratores.innerHTML = ((parseInt(tratores_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt(tratores_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
+        }
+        tratores_valor_final.addEventListener("keyup",efetuaCalculo);
+        tratores_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+<script>
+        //maquinas 2
+        var tratores = document.getElementById("id_tratores_implementos_valor_inicial_de_mercado_capital_medio");
+        var tratores_valor_final = document.getElementById("id_tratores_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var tratores_valor_inicial = document.getElementById("id_tratores_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = (parseInt(tratores_valor_inicial.value)+parseInt(maquina_valor_final.value))/2;
+        }
+        tratores_valor_final.addEventListener("keyup",efetuaCalculo);
+        tratores_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+    <script>
+        //tratores porcentagem 1
+        var tratores = document.getElementById("id_tratores_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
+        var tratores_valor_final = document.getElementById("id_tratores_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var tratores_valor_inicial = document.getElementById("id_tratores_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            tratores.innerHTML = ((parseInt(tratores_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt(tratores_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
+        }
+        tratores_valor_final.addEventListener("keyup",efetuaCalculo);
+        tratores_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+
+ <script>
+        //maquinas porcentagem 2
+        var tratores = document.getElementById("id_tratores_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
+        var tratores_valor_final = document.getElementById("id_tratores_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var tratores_valor_inicial = document.getElementById("id_tratores_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            tratores.innerHTML = ((parseInt(tratores_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt(tratores_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
+        }
+        tratores_valor_final.addEventListener("keyup",efetuaCalculo);
+        tratores_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+<script>
+        //maquinas 3
+        var veiculos = document.getElementById("id_veiculos_implementos_valor_inicial_de_mercado_capital_medio");
+        var veiculos_valor_final = document.getElementById("id_veiculos_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var veiculos_valor_inicial = document.getElementById("id_veiculos_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = (parseInt(veiculos_valor_inicial.value)+parseInt(maquina_valor_final.value))/2;
+        }
+        veiculos_valor_final.addEventListener("keyup",efetuaCalculo);
+        veiculos_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+    <script>
+        //veiculos porcentagem 1
+        var veiculos = document.getElementById("id_veiculos_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
+        var veiculos_valor_final = document.getElementById("id_veiculos_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var veiculos_valor_inicial = document.getElementById("id_veiculos_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            veiculos.innerHTML = ((parseInt(veiculos_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt(veiculos_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
+        }
+        veiculos_valor_final.addEventListener("keyup",efetuaCalculo);
+        veiculos_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+
+<script>
+        //maquinas 4
+        var  eq_manuais = document.getElementById("id_ eq_manuais_implementos_valor_inicial_de_mercado_capital_medio");
+        var  eq_manuais_valor_final = document.getElementById("id_ eq_manuais_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var  eq_manuais_valor_inicial = document.getElementById("id_ eq_manuais_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = (parseInt( eq_manuais_valor_inicial.value)+parseInt(maquina_valor_final.value))/2;
+        }
+         eq_manuais_valor_final.addEventListener("keyup",efetuaCalculo);
+         eq_manuais_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+    <script>
+        // eq_manuais porcentagem 1
+        var  eq_manuais = document.getElementById("id_ eq_manuais_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
+        var  eq_manuais_valor_final = document.getElementById("id_ eq_manuais_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var  eq_manuais_valor_inicial = document.getElementById("id_ eq_manuais_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+             eq_manuais.innerHTML = ((parseInt( eq_manuais_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt( eq_manuais_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
+        }
+         eq_manuais_valor_final.addEventListener("keyup",efetuaCalculo);
+         eq_manuais_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+<script>
+        //maquinas 5
+        var rep_macho = document.getElementById("id_rep_macho_implementos_valor_inicial_de_mercado_capital_medio");
+        var rep_macho_valor_final = document.getElementById("id_rep_macho_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var rep_macho_valor_inicial = document.getElementById("id_rep_macho_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = (parseInt(rep_macho_valor_inicial.value)+parseInt(maquina_valor_final.value))/2;
+        }
+        rep_macho_valor_final.addEventListener("keyup",efetuaCalculo);
+        rep_macho_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+    <script>
+        //rep_macho porcentagem 1
+        var rep_macho = document.getElementById("id_rep_macho_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
+        var rep_macho_valor_final = document.getElementById("id_rep_macho_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var rep_macho_valor_inicial = document.getElementById("id_rep_macho_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            rep_macho.innerHTML = ((parseInt(rep_macho_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt(rep_macho_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
+        }
+        rep_macho_valor_final.addEventListener("keyup",efetuaCalculo);
+        rep_macho_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+<script>
+        //maquinas 6
+        var rep_femea = document.getElementById("id_rep_femea_implementos_valor_inicial_de_mercado_capital_medio");
+        var rep_femea_valor_final = document.getElementById("id_rep_femea_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var rep_femea_valor_inicial = document.getElementById("id_rep_femea_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = (parseInt(rep_femea_valor_inicial.value)+parseInt(maquina_valor_final.value))/2;
+        }
+        rep_femea_valor_final.addEventListener("keyup",efetuaCalculo);
+        rep_femea_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+    <script>
+        //rep_femea porcentagem 1
+        var rep_femea = document.getElementById("id_rep_femea_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
+        var rep_femea_valor_final = document.getElementById("id_rep_femea_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var rep_femea_valor_inicial = document.getElementById("id_rep_femea_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            rep_femea.innerHTML = ((parseInt(rep_femea_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt(rep_femea_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
+        }
+        rep_femea_valor_final.addEventListener("keyup",efetuaCalculo);
+        rep_femea_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+<script>
+        //maquinas 7
+        var  animais_engorda = document.getElementById("id_ animais_engorda_implementos_valor_inicial_de_mercado_capital_medio");
+        var  animais_engorda_valor_final = document.getElementById("id_ animais_engorda_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var  animais_engorda_valor_inicial = document.getElementById("id_ animais_engorda_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = (parseInt( animais_engorda_valor_inicial.value)+parseInt(maquina_valor_final.value))/2;
+        }
+         animais_engorda_valor_final.addEventListener("keyup",efetuaCalculo);
+         animais_engorda_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+    <script>
+        // animais_engorda porcentagem 1
+        var  animais_engorda = document.getElementById("id_ animais_engorda_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
+        var  animais_engorda_valor_final = document.getElementById("id_ animais_engorda_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var  animais_engorda_valor_inicial = document.getElementById("id_ animais_engorda_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+             animais_engorda.innerHTML = ((parseInt( animais_engorda_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt( animais_engorda_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
+        }
+         animais_engorda_valor_final.addEventListener("keyup",efetuaCalculo);
+         animais_engorda_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+<script>
+        //maquinas 7
+        var   animais_trabalho = document.getElementById("id_  animais_trabalho_implementos_valor_inicial_de_mercado_capital_medio");
+        var   animais_trabalho_valor_final = document.getElementById("id_  animais_trabalho_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var   animais_trabalho_valor_inicial = document.getElementById("id_  animais_trabalho_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = (parseInt(  animais_trabalho_valor_inicial.value)+parseInt(maquina_valor_final.value))/2;
+        }
+          animais_trabalho_valor_final.addEventListener("keyup",efetuaCalculo);
+          animais_trabalho_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+    <script>
+        //  animais_trabalho porcentagem 1
+        var   animais_trabalho = document.getElementById("id_  animais_trabalho_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
+        var   animais_trabalho_valor_final = document.getElementById("id_  animais_trabalho_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var   animais_trabalho_valor_inicial = document.getElementById("id_  animais_trabalho_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+              animais_trabalho.innerHTML = ((parseInt(  animais_trabalho_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt(  animais_trabalho_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
+        }
+          animais_trabalho_valor_final.addEventListener("keyup",efetuaCalculo);
+          animais_trabalho_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+<script>
+        //maquinas 7
+        var    canavial_volu = document.getElementById("id_   canavial_volu_implementos_valor_inicial_de_mercado_capital_medio");
+        var    canavial_volu_valor_final = document.getElementById("id_   canavial_volu_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var    canavial_volu_valor_inicial = document.getElementById("id_   canavial_volu_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = (parseInt(   canavial_volu_valor_inicial.value)+parseInt(maquina_valor_final.value))/2;
+        }
+           canavial_volu_valor_final.addEventListener("keyup",efetuaCalculo);
+           canavial_volu_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+    <script>
+        //   canavial_volu porcentagem 1
+        var    canavial_volu = document.getElementById("id_   canavial_volu_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
+        var    canavial_volu_valor_final = document.getElementById("id_   canavial_volu_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var    canavial_volu_valor_inicial = document.getElementById("id_   canavial_volu_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+               canavial_volu.innerHTML = ((parseInt(   canavial_volu_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt(   canavial_volu_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
+        }
+           canavial_volu_valor_final.addEventListener("keyup",efetuaCalculo);
+           canavial_volu_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+<script>
+        //maquinas 7
+        var   benfeitoras = document.getElementById("id_  benfeitoras_implementos_valor_inicial_de_mercado_capital_medio");
+        var   benfeitoras_valor_final = document.getElementById("id_  benfeitoras_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var   benfeitoras_valor_inicial = document.getElementById("id_  benfeitoras_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = (parseInt(  benfeitoras_valor_inicial.value)+parseInt(maquina_valor_final.value))/2;
+        }
+          benfeitoras_valor_final.addEventListener("keyup",efetuaCalculo);
+          benfeitoras_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+    <script>
+        //  benfeitoras porcentagem 1
+        var   benfeitoras = document.getElementById("id_  benfeitoras_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
+        var   benfeitoras_valor_final = document.getElementById("id_  benfeitoras_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var   benfeitoras_valor_inicial = document.getElementById("id_  benfeitoras_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+              benfeitoras.innerHTML = ((parseInt(  benfeitoras_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt(  benfeitoras_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
+        }
+          benfeitoras_valor_final.addEventListener("keyup",efetuaCalculo);
+          benfeitoras_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+script>
+        //maquinas 7
+        var    cercas = document.getElementById("id_   cercas_implementos_valor_inicial_de_mercado_capital_medio");
+        var    cercas_valor_final = document.getElementById("id_   cercas_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var    cercas_valor_inicial = document.getElementById("id_   cercas_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = (parseInt(   cercas_valor_inicial.value)+parseInt(maquina_valor_final.value))/2;
+        }
+           cercas_valor_final.addEventListener("keyup",efetuaCalculo);
+           cercas_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+    <script>
+        //   cercas porcentagem 1
+        var    cercas = document.getElementById("id_   cercas_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
+        var    cercas_valor_final = document.getElementById("id_   cercas_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var    cercas_valor_inicial = document.getElementById("id_   cercas_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+               cercas.innerHTML = ((parseInt(   cercas_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt(   cercas_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
+        }
+           cercas_valor_final.addEventListener("keyup",efetuaCalculo);
+           cercas_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+<script>
+        //maquinas 7
+        var    edificacoes = document.getElementById("id_   edificacoes_implementos_valor_inicial_de_mercado_capital_medio");
+        var    edificacoes_valor_final = document.getElementById("id_   edificacoes_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var    edificacoes_valor_inicial = document.getElementById("id_   edificacoes_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = (parseInt(   edificacoes_valor_inicial.value)+parseInt(maquina_valor_final.value))/2;
+        }
+           edificacoes_valor_final.addEventListener("keyup",efetuaCalculo);
+           edificacoes_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+    <script>
+        //   edificacoes porcentagem 1
+        var    edificacoes = document.getElementById("id_   edificacoes_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
+        var    edificacoes_valor_final = document.getElementById("id_   edificacoes_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var    edificacoes_valor_inicial = document.getElementById("id_   edificacoes_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+               edificacoes.innerHTML = ((parseInt(   edificacoes_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt(   edificacoes_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
+        }
+           edificacoes_valor_final.addEventListener("keyup",efetuaCalculo);
+           edificacoes_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+<script>
+        //maquinas 7
+        var     pastagens = document.getElementById("id_    pastagens_implementos_valor_inicial_de_mercado_capital_medio");
+        var     pastagens_valor_final = document.getElementById("id_    pastagens_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var     pastagens_valor_inicial = document.getElementById("id_    pastagens_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = (parseInt(    pastagens_valor_inicial.value)+parseInt(maquina_valor_final.value))/2;
+        }
+            pastagens_valor_final.addEventListener("keyup",efetuaCalculo);
+            pastagens_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+    <script>
+        //    pastagens porcentagem 1
+        var     pastagens = document.getElementById("id_    pastagens_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
+        var     pastagens_valor_final = document.getElementById("id_    pastagens_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var     pastagens_valor_inicial = document.getElementById("id_    pastagens_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+                pastagens.innerHTML = ((parseInt(    pastagens_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt(    pastagens_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
+        }
+            pastagens_valor_final.addEventListener("keyup",efetuaCalculo);
+            pastagens_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+script>
+        //maquinas 7
+        var     semen = document.getElementById("id_    semen_implementos_valor_inicial_de_mercado_capital_medio");
+        var     semen_valor_final = document.getElementById("id_    semen_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var     semen_valor_inicial = document.getElementById("id_    semen_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = (parseInt(    semen_valor_inicial.value)+parseInt(maquina_valor_final.value))/2;
+        }
+            semen_valor_final.addEventListener("keyup",efetuaCalculo);
+            semen_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+    <script>
+        //    semen porcentagem 1
+        var     semen = document.getElementById("id_    semen_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
+        var     semen_valor_final = document.getElementById("id_    semen_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var     semen_valor_inicial = document.getElementById("id_    semen_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+                semen.innerHTML = ((parseInt(    semen_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt(    semen_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
+        }
+            semen_valor_final.addEventListener("keyup",efetuaCalculo);
+            semen_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+<script>
+        //maquinas 7
+        var     terra = document.getElementById("id_    terra_implementos_valor_inicial_de_mercado_capital_medio");
+        var     terra_valor_final = document.getElementById("id_    terra_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var     terra_valor_inicial = document.getElementById("id_    terra_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+            insumos.innerHTML = (parseInt(    terra_valor_inicial.value)+parseInt(maquina_valor_final.value))/2;
+        }
+            terra_valor_final.addEventListener("keyup",efetuaCalculo);
+            terra_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    </script>
+
+    <script>
+        //    terra porcentagem 1
+        var     terra = document.getElementById("id_    terra_implementos_valor_inicial_de_mercado_porcentagem_patrimonio");
+        var     terra_valor_final = document.getElementById("id_    terra_implementos_valor_inicial_de_mercado_valor_final_ou_sucata");
+        var     terra_valor_inicial = document.getElementById("id_    terra_implementos_valor_inicial_de_mercado_valor_inicial_mercado");
+
+        function efetuaCalculo(){
+                terra.innerHTML = ((parseInt(    terra_implementos_valor_inicial_de_mercado_valor_inicial.value)+parseInt(    terra_implementos_valor_inicial_de_mercado_valor_final.value))/2)*0.6;
+        }
+            terra_valor_final.addEventListener("keyup",efetuaCalculo);
+            terra_valor_inicial.addEventListener("keyup",efetuaCalculo
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+
+    
+
+    
+
+   
+
+
+   
+
+
+    
+
+
+    
+
+    
+
+
+   
+
+
+   
+
+    
+
+    
+
+
+   
