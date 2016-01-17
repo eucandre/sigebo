@@ -2,7 +2,7 @@
 import os
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
-ROOTDIR = os.path.realpah(os.path.dirname(__file__))
+ROOTDIR = os.path.realpath(os.path.dirname(__file__))
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
 )

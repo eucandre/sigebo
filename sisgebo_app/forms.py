@@ -505,27 +505,52 @@ class FormVenda_Compra(forms.Form):
 
 class FormConfinamento(forms.Form):
 
-    fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"class":"form-control","style":"width:20%;"}))
-    N_animais_confinados = forms.IntegerField(initial=numero_animais_confinados(),label='Numero de animais confinados',widget=forms.TextInput(attrs={"class":"form-control","style":"width:5%;left:450px;top:200px;position:absolute;"}))
-    Peso_inicial=forms.IntegerField(initial=380,label='Peso inical',widget=forms.TextInput(attrs={"class":"form-control","style":"width:5%;left:500px;position:absolute;"}))
-    Peso_Final=forms.IntegerField(initial=480,label='Peso final',widget=forms.TextInput(attrs={"class":"form-control","style":"width:5%;left:500px;position:absolute;"}))
-    Consumo_ms=forms.IntegerField(label='Consumo de ms',widget=forms.TextInput(attrs={"class":"form-control","style":"width:5%;left:500px;position:absolute;"}))
-    Consumo_agua=forms.IntegerField(label='Consumo de agua',widget=forms.TextInput(attrs={"class":"form-control","style":"width:5%;left:500px;position:absolute;"}))
-    Preco_concentrado=forms.FloatField(label='Preco do concentrado',widget=forms.TextInput(attrs={"class":"form-control","style":"width:5%;left:500px;position:absolute;"}))
+    fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"class":"form-control","style":"width:25%;"}))
+    N_animais_confinados = forms.IntegerField(initial=numero_animais_confinados(),label='Numero de animais confinados',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    Peso_inicial=forms.IntegerField(initial=380,label='Peso inical',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    Peso_Final=forms.IntegerField(initial=480,label='Peso final',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    Consumo_ms=forms.IntegerField(label='Consumo de ms',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    Consumo_agua=forms.IntegerField(label='Consumo de agua',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    Preco_concentrado=forms.FloatField(label='Preco do concentrado',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
 
-    tempo_confinamento = forms.FloatField(label='Duracao do confinamento em dias',widget=forms.TextInput(attrs={"class":"form-control","style":"width:5%;left:500px;position:absolute;"}))
-    volumoso=forms.FloatField(label='Percentual do volumoso da dieta dividido por 100',widget=forms.TextInput(attrs={"class":"form-control","style":"width:5%;left:590px;position:absolute;"}))
-    ganho_diario = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:5%;left:590px;position:absolute;"}))
-    #Concentrado=forms.IntegerField(label='', widget=forms.TextInput(attrs={"class":"form-field", "placeholder":"Concentrado - deixe em branco"}))
-    #alimento = forms.ModelChoiceField(queryset=Alimentos.objects.all(), widget=forms.Select(attrs={"class":"form-field","placeholder":"alimentos"}))
-    #pms_ha=forms.ModelChoiceField(queryset=pms_regisitros.objects.all(), widget=forms.Select(attrs={"class":"form-field","placeholder":"pms por ha"}))
-    #pms_ha=forms.IntegerField(label='',initial=obj_alimento.pms_do_alimento_ha,widget=forms.TextInput(attrs={"class":"form-field", "placeholder":"pms por hectare"}))
+    tempo_confinamento = forms.FloatField(label='Duracao do confinamento em dias',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    volumoso=forms.FloatField(label='Percentual do volumoso da dieta dividido por 100',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    concentrado=forms.FloatField(label='Percentual do volumoso da dieta dividido por 100',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+
+    area_piquete_por_animais    = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    area_piquete_por_ha         = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    area_piquete_total          = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    area_piquete_comprimento    = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    area_piquete_largura        = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+
+    cocho_por_animais = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    cocho_por_ha = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    cocho_por_comprimento = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    cocho_por_largura = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    cocho_total = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+
+    bebedouro_por_animais = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    bebedouro_por_ha = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    bebedouro_por_comprimento = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    bebedouro_por_largura = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    bebedouro_total = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+
+    caixa_dagua_por_animais = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    caixa_dagua_por_ha = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    caixa_dagua_por_comprimento = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    caixa_dagua_por_largura = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    caixa_dagua_total = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+
+    cconsumo_diario_ms_concentrado = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    consumo_total_ms_concentrado = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    consumo_diario_ms_volumoso = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    consumo_total_ms_volumoso = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
 
 class FormDimensionamentoSiloCeuAberto(forms.Form):
-    fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;"}))
-    Duracao_confinamento=forms.IntegerField(label='Duracao do confinamento',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Comsumo_silagem=forms.IntegerField(label='Consumo de Silagem',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Densidade=forms.IntegerField(label='Densidade',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"class":"form-control","style":"width:20%;"}))
+    Duracao_confinamento=forms.IntegerField(label='Duracao do confinamento',widget=forms.TextInput(attrs={"class":"form-control","style":"width:20%;"}))
+    Comsumo_silagem=forms.IntegerField(label='Consumo de Silagem',widget=forms.TextInput(attrs={"class":"form-control","style":"width:20%;"}))
+    Densidade=forms.IntegerField(label='Densidade',widget=forms.TextInput(attrs={"class":"form-control","style":"width:20%;"}))
     Altura_Silo=forms.IntegerField(label='Altura do Silo',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Base_menor_silo=forms.IntegerField(label='Base menor do Silo',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Base_maior_silo=forms.IntegerField(label='Base maior do Silo',widget=forms.TextInput(attrs={"style":"width:20%;"}))
@@ -535,7 +560,7 @@ class FormDimensionamentoSiloCeuAberto(forms.Form):
     Fatia_diaria=forms.IntegerField(label='Fatia diaria',widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
 class FormDimensionamentoSiloFechado(forms.Form):
-    #pcgf = ConfinamentEmGalpaoFechado.objects.get(pk=(len(ConfinamentEmGalpaoFechado.objects.all())))
+
     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
     Duracao_confinamento=forms.IntegerField(label='Duracao do confinamento',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Comsumo_silagem=forms.IntegerField(label='Consumo de Silagem',widget=forms.TextInput(attrs={"style":"width:20%;"}))
