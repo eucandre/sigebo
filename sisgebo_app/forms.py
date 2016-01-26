@@ -797,7 +797,7 @@ class FormInventarioatividade(forms.Form):
 
     Insumos_valor_inicial_mercado= forms.DateField(label='Ano',initial=calcula_valor_atual_mercado_insumos(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Insumos_capital_medio= forms.IntegerField(label='Vaca gorda kg',widget=forms.TextInput(attrs={"style":"width:20%;"}))
-    Insumos_valor_final_ou_sucata= forms.IntegerField(label='Novilha gorda kg',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    Insumos_valor_final_ou_sucata= forms.IntegerField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     Insumos_porcentagem_patrimonio= forms.IntegerField(initial=percentagem_valor_atual_mercado_insumos(),label='Boi gordo kg',widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
     maquinas_implementos_valor_inicial_de_mercado= forms.IntegerField(label='Novilho precoce kg',widget=forms.TextInput(attrs={"style":"width:20%;"}))
@@ -810,7 +810,7 @@ class FormInventarioatividade(forms.Form):
     tratores_valor_final_ou_sucata     = forms.IntegerField(label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     tratores_porcentagem_patrimonio    = forms.IntegerField(label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-    veiculos_valor_inicial_de_mercado = forms.IntegerField(label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    veiculos_valor_inicial_de_mercado = forms.IntegerField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     veiculos_capital_medio            = forms.IntegerField(label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     veiculos_valor_final_ou_sucata    = forms.IntegerField(label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
     veiculos_porcentagem_patrimonio   = forms.IntegerField(label='Touro %',widget=forms.TextInput(attrs={"style":"width:20%;"}))
@@ -891,10 +891,12 @@ class FormInventarioatividade(forms.Form):
 
 
 class FormDepreciacao(forms.Form):
+                    from metodos_inventario import *
+                    i = Inventario_ligado_atividade()
                     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
-                    maquina_implemento_valor_inicial = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    maquina_implemento_capital_medio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    maquina_implemento_valor_final_ou_sucata = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    maquina_implemento_valor_inicial = forms.FloatField(initial=pega_maquina(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    maquina_implemento_capital_medio = forms.FloatField(initial=medio_inventario(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    maquina_implemento_valor_final_ou_sucata = forms.FloatField(initial=fin_suc_maquina(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     maquina_implemento_depreciacao_anual = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     maquina_implemento_remuneracao_capital = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     maquina_implemento_custo_fixo = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:50%;"}))

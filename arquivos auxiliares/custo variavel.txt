@@ -1,0 +1,946 @@
+#
+na classe FormCustoFixo exitesm os nomes que antecedem as igualdades. A linha 480 marca a divisão entre as marcações com aqui!
+
+A tarefa será de usar esses nomes que antecedem as igualdades e substituir em {{form.<nome_antes_da_igualdade>}}, o que está entre "<>" e as "<>"
+devem ser substituidos, são somente para ilustrar!
+#
+
+
+
+
+
+
+class FormCustoVariavel(forms.ModelForm):
+
+    suplementacao_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    suplementacao_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    suplementacao_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    suplementacao_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    suplementacao_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    suplementacao_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    suplementacao_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    suplementacao_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    suplementacao_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    suplementacao_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    suplementacao_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    suplementacao_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    suplementacao_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    suplementacao_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    linha_branca_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    linha_branca_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    linha_branca_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    linha_branca_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    linha_branca_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    linha_branca_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    linha_branca_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    linha_branca_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    linha_branca_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    linha_branca_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    linha_branca_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    linha_branca_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    linha_branca_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    linha_branca_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    capacidade_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    capacidade_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    capacidade_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    capacidade_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    capacidade_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    capacidade_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    capacidade_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    capacidade_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    capacidade_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    capacidade_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    capacidade_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    capacidade_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    capacidade_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    capacidade_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    mosca_chifre_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mosca_chifre_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mosca_chifre_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mosca_chifre_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mosca_chifre_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mosca_chifre_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mosca_chifre_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mosca_chifre_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mosca_chifre_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mosca_chifre_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mosca_chifre_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mosca_chifre_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mosca_chifre_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mosca_chifre_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    vermifugo_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vermifugo_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vermifugo_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vermifugo_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vermifugo_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vermifugo_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vermifugo_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vermifugo_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vermifugo_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vermifugo_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vermifugo_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vermifugo_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vermifugo_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vermifugo_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    vacina_aftosa_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_aftosa_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_aftosa_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_aftosa_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_aftosa_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_aftosa_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_aftosa_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_aftosa_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_aftosa_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_aftosa_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_aftosa_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_aftosa_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_aftosa_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_aftosa_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    vacina_clostridiose_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_clostridiose_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_clostridiose_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_clostridiose_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_clostridiose_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_clostridiose_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_clostridiose_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_clostridiose_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_clostridiose_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_clostridiose_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_clostridiose_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_clostridiose_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_clostridiose_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    vacina_clostridiose_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    outras_vacinas_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outras_vacinas_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outras_vacinas_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outras_vacinas_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outras_vacinas_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outras_vacinas_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outras_vacinas_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outras_vacinas_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outras_vacinas_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outras_vacinas_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outras_vacinas_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outras_vacinas_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outras_vacinas_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outras_vacinas_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    outros_medicamentos_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_medicamentos_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_medicamentos_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_medicamentos_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_medicamentos_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_medicamentos_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_medicamentos_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_medicamentos_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_medicamentos_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_medicamentos_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_medicamentos_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_medicamentos_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_medicamentos_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_medicamentos_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    mao_obra_temporaria_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mao_obra_temporaria_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mao_obra_temporaria_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mao_obra_temporaria_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mao_obra_temporaria_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mao_obra_temporaria_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mao_obra_temporaria_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mao_obra_temporaria_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mao_obra_temporaria_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mao_obra_temporaria_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mao_obra_temporaria_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mao_obra_temporaria_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mao_obra_temporaria_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    mao_obra_temporaria_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    materiais_fazenda_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    materiais_fazenda_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    materiais_fazenda_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    materiais_fazenda_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    materiais_fazenda_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    materiais_fazenda_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    materiais_fazenda_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    materiais_fazenda_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    materiais_fazenda_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    materiais_fazenda_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    materiais_fazenda_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    materiais_fazenda_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    materiais_fazenda_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    materiais_fazenda_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    curral_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    curral_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    curral_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    curral_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    curral_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    curral_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    curral_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    curral_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    curral_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    curral_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    curral_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    curral_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    curral_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    curral_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    frete_carretas_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    frete_carretas_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    frete_carretas_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    frete_carretas_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    frete_carretas_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    frete_carretas_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    frete_carretas_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    frete_carretas_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    frete_carretas_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    frete_carretas_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    frete_carretas_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    frete_carretas_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    frete_carretas_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    frete_carretas_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    casas_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    casas_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    casas_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    casas_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    casas_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    casas_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    casas_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    casas_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    casas_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    casas_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    casas_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    casas_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    casas_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    casas_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    tratores_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tratores_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tratores_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tratores_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tratores_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tratores_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tratores_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tratores_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tratores_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tratores_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tratores_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tratores_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tratores_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tratores_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    maquinas_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    maquinas_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    maquinas_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    maquinas_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    maquinas_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    maquinas_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    maquinas_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    maquinas_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    maquinas_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    maquinas_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    maquinas_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    maquinas_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    maquinas_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    maquinas_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    combustivel_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    combustivel_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    combustivel_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    combustivel_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    combustivel_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    combustivel_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    combustivel_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    combustivel_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    combustivel_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    combustivel_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    combustivel_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    combustivel_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    combustivel_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    combustivel_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    outros_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    celular_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    celular_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    celular_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    celular_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    celular_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    celular_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    celular_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    celular_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    celular_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    celular_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    celular_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    celular_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    celular_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    celular_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    emcargos_banco_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    emcargos_banco_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    emcargos_banco_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    emcargos_banco_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    emcargos_banco_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    emcargos_banco_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    emcargos_banco_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    emcargos_banco_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    emcargos_banco_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    emcargos_banco_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    emcargos_banco_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    emcargos_banco_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    emcargos_banco_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    emcargos_banco_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    elabora_projeto_pecuario_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    elabora_projeto_pecuario_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    elabora_projeto_pecuario_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    elabora_projeto_pecuario_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    elabora_projeto_pecuario_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    elabora_projeto_pecuario_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    elabora_projeto_pecuario_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    elabora_projeto_pecuario_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    elabora_projeto_pecuario_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    elabora_projeto_pecuario_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    elabora_projeto_pecuario_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    elabora_projeto_pecuario_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    elabora_projeto_pecuario_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    elabora_projeto_pecuario_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    energia_eletrica_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    energia_eletrica_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    energia_eletrica_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    energia_eletrica_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    energia_eletrica_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    energia_eletrica_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    energia_eletrica_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    energia_eletrica_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    energia_eletrica_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    energia_eletrica_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    energia_eletrica_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    energia_eletrica_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    energia_eletrica_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    energia_eletrica_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    aquisicao_animais_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aquisicao_animais_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aquisicao_animais_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aquisicao_animais_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aquisicao_animais_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aquisicao_animais_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aquisicao_animais_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aquisicao_animais_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aquisicao_animais_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aquisicao_animais_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aquisicao_animais_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aquisicao_animais_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aquisicao_animais_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    aquisicao_animais_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    outros1_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros1_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros1_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros1_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros1_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros1_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros1_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros1_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros1_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros1_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros1_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros1_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros1_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros1_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    outros2_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros2_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros2_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros2_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros2_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros2_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros2_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros2_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros2_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros2_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros2_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros2_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros2_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros2_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    outros3_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros3_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros3_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros3_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros3_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros3_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros3_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros3_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros3_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros3_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros3_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros3_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros3_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros3_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    outros4_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros4_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros4_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros4_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros4_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros4_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros4_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros4_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros4_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros4_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros4_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros4_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros4_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros4_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    outros5_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros5_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros5_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros5_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros5_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros5_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros5_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros5_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros5_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros5_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros5_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros5_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros5_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    outros5_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    total_custo_variavel_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    total_custo_variavel_cabeca_reposicao_especificacao_janeirocabeca_reposicao= forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_cabeca_reposicao_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_cabeca_reposicao_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_cabeca_reposicao_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_cabeca_reposicao_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_cabeca_reposicao_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_cabeca_reposicao_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_cabeca_reposicao_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_cabeca_reposicao_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_cabeca_reposicao_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_cabeca_reposicao_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_cabeca_reposicao_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_cabeca_reposicao_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_cabeca_reposicao_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    total_custo_variavel_p_especificacao_janeiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_p_especificacao_fevereiro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_p_especificacao_marco = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_p_especificacao_abril = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_p_especificacao_junho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_p_especificacao_julho = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_p_especificacao_agosto = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_p_especificacao_maio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_p_especificacao_setembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_p_especificacao_outubro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_p_especificacao_novembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_p_especificacao_dezembro = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_p_especificacao_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_custo_variavel_p_especificacao_custo_variavel = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+#--------------------------------------------------------------------------------------------------------------------------------------------#
+
+
+<div style="top:24%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:27%; left: 20%;position: absolute">Linha branca</span>
+                     <div style="top:27%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:30%; left: 20%;position: absolute">Carrapaticidas</span>
+                     <div style="top:30%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:33%; left: 20%;position: absolute">Mosca de chifre</span>
+                     <div style="top:33%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:36%; left: 20%;position: absolute">Vermifugo</span>
+                     <div style="top:36%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:39%; left: 20%;position: absolute">Vaci. aftosa</span>
+                     <div style="top:39%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 97%;position: absolute">aqui</div>
+
+                   <span style="top:42%; left: 20%;position: absolute">Vaci. clostridiose</span>
+                     <div style="top:42%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:42%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:42%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:42%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:42%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:42%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:42%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:42%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:42%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:42%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:42%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:42%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:42%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:45%; left: 20%;position: absolute">Outras vaci.</span>
+                     <div style="top:45%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:45%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:45%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:45%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:45%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:45%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:45%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:45%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:45%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:45%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:45%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:45%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:45%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:48%; left: 20%;position: absolute">Outros medica.</span>
+                     <div style="top:48%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:48%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:48%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:48%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:48%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:48%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:48%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:48%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:48%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:48%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:48%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:48%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:48%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:51%; left: 20%;position: absolute">Mão obra temp.</span>
+                     <div style="top:51%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:51%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:51%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:51%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:51%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:51%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:51%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:51%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:51%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:51%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:51%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:51%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:51%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:54%; left: 20%;position: absolute">Materiais fazenda</span>
+                     <div style="top:54%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:54%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:54%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:54%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:54%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:54%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:54%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:54%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:54%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:54%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:54%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:54%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:54%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:57%; left: 20%;position: absolute">Curral</span>
+                     <div style="top:57%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:57%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:57%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:57%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:57%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:57%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:57%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:57%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:57%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:57%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:57%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:57%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:57%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:60%; left: 20%;position: absolute">Frete carretas</span>
+                     <div style="top:60%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:60%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:60%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:60%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:60%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:60%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:60%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:60%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:60%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:60%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:60%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:60%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:60%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:63%; left: 20%;position: absolute">Casas</span>
+                     <div style="top:63%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:63%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:63%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:63%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:63%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:63%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:63%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:63%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:63%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:63%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:63%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:63%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:63%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:66%; left: 20%;position: absolute">Tratores</span>
+                     <div style="top:66%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:66%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:66%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:66%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:66%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:66%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:66%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:66%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:66%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:66%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:66%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:66%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:66%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:69%; left: 20%;position: absolute">Máquinas</span>
+                     <div style="top:69%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:69%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:69%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:69%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:69%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:69%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:69%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:69%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:69%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:69%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:69%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:69%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:69%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:72%; left: 20%;position: absolute">Combustível</span>
+                     <div style="top:72%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:72%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:72%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:72%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:72%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:72%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:72%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:72%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:72%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:72%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:72%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:72%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:72%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:75%; left: 20%;position: absolute">Outros</span>
+                     <div style="top:75%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:75%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:75%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:75%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:75%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:75%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:75%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:75%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:75%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:75%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:75%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:75%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:75%; left: 97%;position: absolute">aqui</div>
+
+                <span style="top:78%; left: 20%;position: absolute">Celular</span>
+                     <div style="top:78%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:78%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:78%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:78%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:78%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:78%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:78%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:78%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:78%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:78%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:78%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:78%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:78%; left: 97%;position: absolute">aqui</div>
+
+                <span style="top:81%; left: 20%;position: absolute">Encargos Bancos</span>
+                     <div style="top:81%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:81%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:81%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:81%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:81%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:81%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:81%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:81%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:81%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:81%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:81%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:81%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:81%; left: 97%;position: absolute">aqui</div>
+
+                <span style="top:84%; left: 20%;position: absolute">Ela. proj. Pecuar.</span>
+                     <div style="top:84%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:84%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:84%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:84%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:84%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:84%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:84%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:84%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:84%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:84%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:84%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:84%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:84%; left: 97%;position: absolute">aqui</div>
+
+                <span style="top:87%; left: 20%;position: absolute">Enegia elétrica</span>
+                     <div style="top:87%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:87%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:87%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:87%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:87%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:87%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:87%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:87%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:87%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:87%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:87%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:87%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:87%; left: 97%;position: absolute">aqui</div>
+
+                <span style="top:90%; left: 20%;position: absolute">Aquisição animais</span>
+                     <div style="top:90%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:90%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:90%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:90%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:90%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:90%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:90%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:90%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:90%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:90%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:90%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:90%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:90%; left: 97%;position: absolute">aqui</div>
+
+                <span style="top:93%; left: 20%;position: absolute">Outros 1</span>
+                     <div style="top:93%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:93%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:93%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:93%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:93%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:93%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:93%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:93%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:93%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:93%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:93%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:93%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:93%; left: 97%;position: absolute">aqui</div>
+
+                <span style="top:96%; left: 20%;position: absolute">Outros 2</span>
+                     <div style="top:96%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:96%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:96%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:96%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:96%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:96%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:96%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:96%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:96%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:96%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:96%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:96%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:96%; left: 97%;position: absolute">aqui</div>
+
+                <span style="top:99%; left: 20%;position: absolute">Outros 3</span>
+                     <div style="top:99%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:99%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:99%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:99%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:99%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:99%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:99%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:99%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:99%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:99%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:99%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:99%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:99%; left: 97%;position: absolute">aqui</div>
+
+                <span style="top:102%; left: 20%;position: absolute">Outros 4</span>
+                     <div style="top:102%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:102%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:102%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:102%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:102%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:102%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:102%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:102%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:102%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:102%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:102%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:102%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:102%; left: 97%;position: absolute">aqui</div>
+
+                <span style="top:105%; left: 20%;position: absolute">Outros 5</span>
+                     <div style="top:105%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:105%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:105%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:105%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:105%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:105%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:105%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:105%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:105%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:105%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:105%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:105%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:105%; left: 97%;position: absolute">aqui</div>
+
+                <span style="top:111%; left: 20%;position: absolute">Total custo vari.</span>
+                     <div style="top:111%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:111%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:111%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:111%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:111%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:111%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:111%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:111%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:111%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:111%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:111%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:111%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:111%; left: 97%;position: absolute">aqui</div>
+
+                <span style="top:114%; left: 20%;position: absolute">Custo vari. c/ rep.</span>
+                     <div style="top:114%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:114%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:114%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:114%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:114%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:114%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:114%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:114%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:114%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:114%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:114%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:114%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:114%; left: 97%;position: absolute">aqui</div>
+
+                <span style="top:117%; left: 20%;position: absolute">Custo total vari.</span>
+                     <div style="top:117%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:117%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:117%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:117%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:117%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:117%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:117%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:117%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:117%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:117%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:117%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:117%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:117%; left: 97%;position: absolute">aqui</div>
+

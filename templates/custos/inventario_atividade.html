@@ -225,6 +225,7 @@
             <br>
                 <h3>Inventário ligado a atividade</h3>
                 <br />
+                <form action="." method="post">
                 <div class="text-success">
                     <span style="font-weight: bolder">Bens de capital</span>
                     <span style="left: 20% ;font-weight: bolder"><div style="top:24%;width: 10%;position: absolute; left: 30%; ">Valor inicial atual<br>de mercado(R$)</div></span>
@@ -249,10 +250,10 @@
                         <div style="top: 44%;left: 56%;position: absolute;">{{form.tratores_valor_final_ou_sucata}}</div>
                         <div style="top: 44%;left: 68%;position: absolute;">{{form.tratores_porcentagem_patrimonio}}</div>
                     <span style="top: 50%;position: absolute;">Veículos</span>
-                        <div style="top: 50%;left: 32%;position: absolute;">{{form.veiculos_porcentagem_patrimonio}}</div>
-                        <div style="top: 50%;left: 44%;position: absolute;">{{form.veiculos_valor_inicial_de_mercado}}</div>
-                        <div style="top: 50%;left: 56%;position: absolute;">{{form.veiculos_capital_medio}}</div>
-                        <div style="top: 50%;left: 68%;position: absolute;">{{form.veiculos_valor_final_ou_sucata}}</div>
+                        <div style="top: 50%;left: 32%;position: absolute;">{{form.veiculos_valor_inicial_de_mercado}}</div>
+                        <div style="top: 50%;left: 44%;position: absolute;">{{form.veiculos_capital_medio}}</div>
+                        <div style="top: 50%;left: 56%;position: absolute;">{{form.veiculos_valor_final_ou_sucata}}</div>
+                        <div style="top: 50%;left: 68%;position: absolute;">{{form.veiculos_porcentagem_patrimonio}}</div>
                     <span style="top: 56%;position: absolute;">Equipamentos manuais</span>
                         <div style="top: 56%;left: 32%;position: absolute;">{{form.eq_manuais_valor_inicial_de_mercado}}</div>
                         <div style="top: 56%;left: 44%;position: absolute;">{{form.eq_manuais_capital_medio}}</div>
@@ -264,9 +265,9 @@
                         <div style="top: 62%;left: 56%;position: absolute;">{{form.rep_macho_valor_final_ou_sucata}}</div>
                         <div style="top: 62%;left: 68%;position: absolute;">{{form.rep_macho_porcentagem_patrimonio}}</div>
                     <span style="top: 68%;position: absolute;">Reprodutores femeas</span>
-                        <div style="top: 68%;left: 32%;position: absolute;">{{form.rep_femea_capital_medio}}</div>
-                        <div style="top: 68%;left: 44%;position: absolute;">{{form.rep_femea_valor_final_ou_sucata}}</div>
-                        <div style="top: 68%;left: 56%;position: absolute;">{{form.rep_femea_porcentagem_patrimonio}}</div>
+                        <div style="top: 68%;left: 32%;position: absolute;">{{form.rep_femea_valor_inicial_de_mercado}}</div>
+                        <div style="top: 68%;left: 44%;position: absolute;">{{form.rep_femea_capital_medio}}</div>
+                        <div style="top: 68%;left: 56%;position: absolute;">{{form.rep_femea_valor_final_ou_sucata}}</div>
                         <div style="top: 68%;left: 68%;position: absolute;">{{form.rep_femea_porcentagem_patrimonio}}</div>
                     <span style="top: 72%;position: absolute;">Animais de engorda</span>
                         <div style="top: 72%;left: 32%;position: absolute;">{{form.animais_engorda_valor_inicial_de_mercado}}</div>
@@ -315,10 +316,195 @@
                         <div style="top: 120%;left: 68%;position: absolute;">{{form.terra_porcentagem_patrimonio}}</div>
                     <span style="top: 126%;position: absolute;">Total</span>
                         <div style="top: 126%;left: 32%;position: absolute;"><span id="id_total_valor_inicial_de_mercado"></span></div>
+ <script>
+    //total valor atual do mercado
+    var total_inicial_mercado = document.getElementById("id_total_valor_inicial_de_mercado");
+    var valor_inicial_mercado_insumo = document.getElementById("id_Insumos_valor_inicial_mercado");
+    var maquinas_valor_inicial = document.getElementById("id_maquinas_implementos_valor_inicial_de_mercado");
+    var tratores_inicial = document.getElementById("id_tratores_valor_inicial_de_mercado");
+    var veiculos_inicial = document.getElementById("id_veiculos_valor_inicial_de_mercado");
+    var equi_manuais_inicial = document.getElementById("id_eq_manuais_valor_inicial_de_mercado");
+    var rep_machos = document.getElementById("id_rep_macho_valor_inicial_de_mercado");
+    var rep_femea = document.getElementById("id_rep_femea_valor_inicial_de_mercado");
+    var animais_engorda_inicial = document.getElementById("id_animais_engorda_valor_inicial_de_mercado");
+    var animais_trabalho_inicial = document.getElementById("id_animais_trabalho_valor_inicial_de_mercado");
+    var canavial_volu_inicial = document.getElementById("id_canavial_volu_valor_inicial_de_mercado");
+    var benfeitorias_inicial = document.getElementById("id_benfeitoras_valor_inicial_de_mercado");
+    var cercas_inicial = document.getElementById("id_cercas_valor_inicial_de_mercado");
+    var edifica_inicial = document.getElementById("id_edificacoes_valor_inicial_de_mercado");
+    var pastagem_inicial = document.getElementById("id_pastagens_valor_inicial_de_mercado");
+    var semen_inicial = document.getElementById("id_semen_valor_inicial_de_mercado");
+    var terra_inicial = document.getElementById("id_terra_valor_inicial_de_mercado");
+
+
+    function efetuaCalculo(){
+
+        total_inicial_mercado.innerHTML = parseInt(valor_inicial_mercado_insumo.value)+ parseInt(maquinas_valor_inicial.value)
+        + parseInt(tratores_inicial.value)+parseInt(veiculos_inicial.value)+parseInt(equi_manuais_inicial.value)+parseInt(rep_machos.value)
+        +parseInt(rep_femea.value)+parseInt(animais_engorda_inicial.value)+parseInt(animais_trabalho_inicial.value)+parseInt(canavial_volu_inicial.value)
+        +parseInt(benfeitorias_inicial.value)+parseInt(cercas_inicial.value)+parseInt(edifica_inicial.value)+parseInt(pastagem_inicial.value)+
+        parseInt(semen_inicial.value)+parseInt(terra_inicial.value);
+    }
+    valor_inicial_mercado_insumo.addEventListener("keyup",efetuaCalculo);
+    maquinas_valor_inicial.addEventListener("keyup",efetuaCalculo);
+    tratores_inicial.addEventListener("keyup",efetuaCalculo);
+    veiculos_inicial.addEventListener("keyup",efetuaCalculo);
+    equi_manuais_inicial.addEventListener("keyup",efetuaCalculo);
+    rep_machos.addEventListener("keyup",efetuaCalculo);
+    rep_femea.addEventListener("keyup",efetuaCalculo);
+    animais_engorda_inicial.addEventListener("keyup",efetuaCalculo);
+    animais_trabalho_inicial.addEventListener("keyup",efetuaCalculo);
+    canavial_volu_inicial.addEventListener("keyup",efetuaCalculo);
+    benfeitorias_inicial.addEventListener("keyup",efetuaCalculo);
+    cercas_inicial.addEventListener("keyup",efetuaCalculo);
+    edifica_inicial.addEventListener("keyup",efetuaCalculo);
+    pastagem_inicial.addEventListener("keyup",efetuaCalculo);
+    semen_inicial.addEventListener("keyup",efetuaCalculo);
+    terra_inicial.addEventListener("keyup",efetuaCalculo);
+
+</script>
+
                         <div style="top: 126%;left: 44%;position: absolute;"><span id="id_total_capital_medio"></span></div>
+<script>
+    //total capital medio
+    var total_capital_medio = document.getElementById("id_total_capital_medio");
+    var medio_insumo = document.getElementById("id_Insumos_capital_medio");
+    var medio_maquina = document.getElementById("id_maquinas_implementos_capital_medio");
+    var medio_trator = document.getElementById("id_tratores_capital_medio");
+    var medio_veiculo = document.getElementById("id_veiculos_capital_medio");
+    var medio_equi_manuais = document.getElementById("id_eq_manuais_capital_medio");
+    var medio_rep_macho = document.getElementById("id_rep_macho_capital_medio");
+    var medio_rep_femea = document.getElementById("id_rep_femea_capital_medio");
+    var medio_animais_engorda = document.getElementById("id_animais_engorda_capital_medio");
+    var medio_animais_trabalho = document.getElementById("id_animais_trabalho_capital_medio");
+    var medio_canavial_volu = document.getElementById("id_canavial_volu_capital_medio");
+    var medio_benfeitoria = document.getElementById("id_benfeitoras_capital_medio");
+    var medio_cercas = document.getElementById("id_cercas_capital_medio");
+    var medio_edificacoes = document.getElementById("id_edificacoes_capital_medio");
+    var medio_pastagem = document.getElementById("id_pastagens_capital_medio");
+    var medio_semen = document.getElementById("id_semen_capital_medio");
+    var medio_terra = document.getElementById("id_terra_capital_medio");
+
+
+    function efetuaCalculo(){
+
+        total_capital_medio.innerHTML = parseInt(medio_insumo.value)+parseInt(medio_maquina.value)+parseInt(medio_trator.value)+parseInt(medio_veiculo.value)+parseInt(medio_equi_manuais.value)+
+        parseInt(medio_rep_macho.value)+parseInt(medio_rep_femea.value)+parseInt(medio_animais_engorda.value)+parseInt(medio_animais_trabalho.value)+parseInt(medio_canavial_volu.value)+
+        parseInt(medio_benfeitoria.value)+parseInt(medio_cercas.value)+parseInt(medio_edificacoes.value)+parseInt(medio_pastagem.value)+parseInt(medio_semen.value)+parseInt(medio_terra.value)
+        ;
+    }
+    medio_insumo.addEventListener("keyup",efetuaCalculo);
+    medio_maquina.addEventListener("keyup",efetuaCalculo);
+    medio_trator.addEventListener("keyup",efetuaCalculo);
+    medio_veiculo.addEventListener("keyup",efetuaCalculo);
+    medio_equi_manuais.addEventListener("keyup",efetuaCalculo);
+    medio_rep_macho.addEventListener("keyup",efetuaCalculo);
+    medio_rep_femea.addEventListener("keyup",efetuaCalculo);
+    medio_animais_engorda.addEventListener("keyup",efetuaCalculo);
+    medio_animais_trabalho.addEventListener("keyup",efetuaCalculo);
+    medio_canavial_volu.addEventListener("keyup",efetuaCalculo);
+    medio_benfeitoria.addEventListener("keyup",efetuaCalculo);
+    medio_cercas.addEventListener("keyup",efetuaCalculo);
+    medio_edificacoes.addEventListener("keyup",efetuaCalculo);
+    medio_pastagem.addEventListener("keyup",efetuaCalculo);
+    medio_semen.addEventListener("keyup",efetuaCalculo);
+    medio_terra.addEventListener("keyup",efetuaCalculo);
+
+</script>
                         <div style="top: 126%;left: 56%;position: absolute;"><span id="id_total_valor_final_ou_sucata"></span></div>
+<script>
+    //total valor final e sucata
+    var valor_total_sucata = document.getElementById('id_total_valor_final_ou_sucata');
+    var insumos_final_sucata = document.getElementById('id_Insumos_valor_final_ou_sucata');
+    var maquina_final_sucata = document.getElementById('id_maquinas_implementos_valor_final_ou_sucata');
+    var tratores_final_sucata = document.getElementById('id_tratores_valor_final_ou_sucata');
+    var veiculo_final_sucata = document.getElementById('id_veiculos_valor_final_ou_sucata');
+    var eq_manuais_final_sucata = document.getElementById('id_eq_manuais_valor_final_ou_sucata');
+    var rep_macho_final_sucata = document.getElementById('id_rep_macho_valor_final_ou_sucata');
+    var rep_femea_final_sucata = document.getElementById('id_rep_femea_valor_final_ou_sucata');
+    var animais_engorda_final_sucata = document.getElementById('id_animais_engorda_valor_final_ou_sucata');
+    var animais_trabalho_final_sucata = document.getElementById('id_animais_trabalho_valor_final_ou_sucata');
+    var canivial_final_sucata = document.getElementById('id_canavial_volu_valor_final_ou_sucata');
+    var benfeitoria_final_sucata = document.getElementById('id_benfeitoras_valor_final_ou_sucata');
+    var cercas_valor_final_sucata = document.getElementById('id_cercas_valor_final_ou_sucata');
+    var edificacoes_final_sucata = document.getElementById('id_edificacoes_valor_final_ou_sucata');
+    var pastagem_final_sucata = document.getElementById('id_pastagens_valor_final_ou_sucata');
+    var semen_final_sucata = document.getElementById('id_semen_valor_final_ou_sucata');
+    var terra_final_sucata = document.getElementById('id_terra_valor_final_ou_sucata');
+    function efetuaCalculo(){
+        valor_total_sucata.innerHTML = parseInt(insumos_final_sucata.value)+parseInt(maquina_final_sucata.value)+parseInt(tratores_final_sucata.value)
+                +parseInt(veiculo_final_sucata.value)+parseInt(eq_manuais_final_sucata.value)+parseInt(rep_macho_final_sucata.value)+parseInt(rep_femea_final_sucata.value)
+        +parseInt(animais_engorda_final_sucata.value)+parseInt(animais_trabalho_final_sucata.value)+parseInt(canivial_final_sucata.value)+parseInt(benfeitoria_final_sucata.value)
+        +parseInt(cercas_valor_final_sucata.value)+parseInt(edificacoes_final_sucata.value)+parseInt(pastagem_final_sucata.value)+parseInt(semen_final_sucata.value)
+                +parseInt(terra_final_sucata.value);
+    }
+    insumos_final_sucata.addEventListener("keyup",efetuaCalculo);
+    maquina_final_sucata.addEventListener("keyup",efetuaCalculo);
+    tratores_final_sucata.addEventListener("keyup",efetuaCalculo);
+    veiculo_final_sucata.addEventListener("keyup",efetuaCalculo);
+    eq_manuais_final_sucata.addEventListener("keyup",efetuaCalculo);
+    rep_macho_final_sucata.addEventListener("keyup",efetuaCalculo);
+    rep_femea_final_sucata.addEventListener("keyup",efetuaCalculo);
+    animais_engorda_final_sucata.addEventListener("keyup",efetuaCalculo);
+    animais_trabalho_final_sucata.addEventListener("keyup",efetuaCalculo);
+    canivial_final_sucata.addEventListener("keyup",efetuaCalculo);
+    benfeitoria_final_sucata.addEventListener("keyup",efetuaCalculo);
+    cercas_valor_final_sucata.addEventListener("keyup",efetuaCalculo);
+    edificacoes_final_sucata.addEventListener("keyup",efetuaCalculo);
+    pastagem_final_sucata.addEventListener("keyup",efetuaCalculo);
+    semen_final_sucata.addEventListener("keyup",efetuaCalculo);
+    terra_final_sucata.addEventListener("keyup",efetuaCalculo);
+</script>
+
+
                         <div style="top: 126%;left: 68%;position: absolute;"><span id="id_total_porcentagem_patrimonio"></span></div>
+                <script>
+                var total_porcentagem = document.getElementById("id_total_porcentagem_patrimonio");
+                var insumos_porcentagem = document.getElementById("id_Insumos_porcentagem_patrimonio");
+                var maquinas_porcentagem = document.getElementById("id_maquinas_implementos_porcentagem_patrimonio");
+                var tratore_porcentagem = document.getElementById("id_tratores_porcentagem_patrimonio");
+                var veiculos_porcentagem = document.getElementById("id_veiculos_porcentagem_patrimonio");
+                var eq_manuais_porcentagem = document.getElementById("id_eq_manuais_porcentagem_patrimonio");
+                var rep_macho_porcentagem = document.getElementById("id_rep_macho_porcentagem_patrimonio");
+                var rep_femea_porcentagem = document.getElementById("id_rep_femea_porcentagem_patrimonio");
+                var animais_porcentagem = document.getElementById("id_animais_engorda_porcentagem_patrimonio");
+                var animais_trabalho_porcentagem = document.getElementById("id_animais_engorda_porcentagem_patrimonio");
+                var canavial_porcentagem = document.getElementById("id_canavial_volu_porcentagem_patrimonio");
+                var benfeitoris_porcentagem = document.getElementById("id_benfeitoras_porcentagem_patrimonio");
+                var cercas_porcentagem = document.getElementById("id_cercas_porcentagem_patrimonio");
+                var edificacoes_porcentagem = document.getElementById("id_edificacoes_porcentagem_patrimonio");
+                var pastagem_porcentagem = document.getElementById("id_pastagens_porcentagem_patrimonio");
+                var semen_porcentagem = document.getElementById("id_semen_porcentagem_patrimonio");
+                var terra_porcentagem = document.getElementById("id_terra_porcentagem_patrimonio");
+
+                    function efetuaCalculo(){
+                        total_porcentagem.innerHTML = parseInt(insumos_porcentagem.value)+parseInt(maquinas_porcentagem.value)+parseInt(tratore_porcentagem.value)+parseInt(veiculos_porcentagem.value)
+                              +parseInt(eq_manuais_porcentagem.value)+parseInt(rep_macho_porcentagem.value)+parseInt(rep_femea_porcentagem.value)+parseInt(animais_porcentagem.value)
+                        +parseInt(animais_trabalho_porcentagem.value)+parseInt(canavial_porcentagem.value)+parseInt(benfeitoris_porcentagem.value)+parseInt(cercas_porcentagem.value)+
+                        parseInt(edificacoes_porcentagem.value)+parseInt(pastagem_porcentagem.value)+parseInt(semen_porcentagem.value)+parseInt(terra_porcentagem.value);
+                    }
+                    insumos_porcentagem.addEventListener("keyup",efetuaCalculo);
+                    maquinas_porcentagem.addEventListener("keyup",efetuaCalculo);
+                    tratore_porcentagem.addEventListener("keyup",efetuaCalculo);
+                    veiculos_porcentagem.addEventListener("keyup",efetuaCalculo);
+                    eq_manuais_porcentagem.addEventListener("keyup",efetuaCalculo);
+                    rep_macho_porcentagem.addEventListener("keyup",efetuaCalculo);
+                    rep_femea_porcentagem.addEventListener("keyup",efetuaCalculo);
+                    animais_porcentagem.addEventListener("keyup",efetuaCalculo);
+                    animais_trabalho_porcentagem.addEventListener("keyup",efetuaCalculo);
+                    canavial_porcentagem.addEventListener("keyup",efetuaCalculo);
+                    benfeitoris_porcentagem.addEventListener("keyup",efetuaCalculo);
+                    cercas_porcentagem.addEventListener("keyup",efetuaCalculo);
+                    edificacoes_porcentagem.addEventListener("keyup",efetuaCalculo);
+                    pastagem_porcentagem.addEventListener("keyup",efetuaCalculo);
+                    semen_porcentagem.addEventListener("keyup",efetuaCalculo);
+                    terra_porcentagem.addEventListener("keyup",efetuaCalculo);
+
+                </script>
+
                 </div>
+                <button type="submit" style="top:145%; position: absolute;">ENVIAR</button>
+                </form>
                 <div class="row">
 
                     </div>
@@ -336,11 +522,7 @@
 
                     <div class="col-md-8 col-sm-8 col-xs-12">
 
-
-
-
                         <div class="row">
-
 
                             <!-- Start to do list -->
 
@@ -350,11 +532,9 @@
                             <!-- start of weather widget -->
                             <div class="col-md-6 col-sm-6 col-xs-12">
 
-
                             </div>
                             <!-- end of weather widget -->
                         </div>
-
 
                     </div>
 
@@ -384,79 +564,6 @@
         <div class="clearfix"></div>
         <div id="notif-group" class="tabbed_notifications"></div>
     </div>
-
-<script>
-    //total valor atual do mercado
-    var total_inicial_mercado = document.getElementById("id_total_valor_inicial_de_mercado");
-    var valor_inicial_mercado_insumo = document.getElementById("id_Insumos_valor_inicial_mercado");
-    var maquinas_valor_inicial = document.getElementById("id_maquinas_implementos_valor_inicial_de_mercado");
-    var tratores_inicial = document.getElementById("id_tratores_valor_inicial_de_mercado");
-    var vei = document.getElementById("id_veiculos_valor_inicial_de_mercado");
-
-    function efetuaCalculo(){
-
-        total_inicial_mercado.innerHTML = parseInt(valor_inicial_mercado_insumo.value)+ parseInt(maquinas_valor_inicial.value)
-        + parseInt(tratores_inicial.value);//+parseInt(vei.value);
-    }
-    valor_inicial_mercado_insumo.addEventListener("keyup",efetuaCalculo);
-    maquinas_valor_inicial.addEventListener("keyup",efetuaCalculo);
-    tratores_inicial.addEventListener("keyup",efetuaCalculo);
-    vei.addEventListener("keyup",efetuaCalculo);
-
-</script>
-
-    <script>
-    //total valor atual do mercado
-    var total_capital_medio = document.getElementById("id_total_capital_medio");
-    var medio_insumo = document.getElementById("id_Insumos_capital_medio");
-    var medio_maquina = document.getElementById("id_maquinas_implementos_capital_medio");
-    var medio_trator = document.getElementById("id_tratores_capital_medio");
-    var medio_trator = document.getElementById("id_tratores_capital_medio");
-    var medio_veiculo = document.getElementById("id_veiculos_capital_medio");
-    function efetuaCalculo(){
-
-        total_capital_medio.innerHTML = parseInt(medio_insumo.value)+parseInt(medio_maquina.value)+parseInt(medio_trator.value);//+parseInt(medio_veiculo.value);
-    }
-    medio_insumo.addEventListener("keyup",efetuaCalculo);
-    medio_maquina.addEventListener("keyup",efetuaCalculo);
-    medio_trator.addEventListener("keyup",efetuaCalculo);
-    medio_veiculo.addEventListener("keyup",efetuaCalculo);
-
-</script>
-
-<script>
-    //total valor atual do mercado
-    var total_valor_final_ou_sucata = document.getElementById("id_total_valor_final_ou_sucata");
-    var Insumos_valor_final_ou_sucata = document.getElementById("id_Insumos_valor_final_ou_sucata");
-    var maquinas_implementos_valor_final_ou_sucata = document.getElementById("id_maquinas_implementos_valor_final_ou_sucata");
-    var tratores_valor_final_ou_sucata = document.getElementById("id_tratores_valor_final_ou_sucata");
-    var veiculos_valor_final_ou_sucata = document.getElementById("id_veiculos_valor_final_ou_sucata");
-
-    function efetuaCalculo(){
-
-        total_capital_medio.innerHTML = parseInt(Insumos_valor_final_ou_sucata.value)+parseInt(maquinas_implementos_valor_final_ou_sucata.value)
-                +parseInt(tratores_valor_final_ou_sucata.value)+parseInt(veiculos_valor_final_ou_sucata);
-    }
-    Insumos_valor_final_ou_sucata.addEventListener("keyup",efetuaCalculo);
-    maquinas_implementos_valor_final_ou_sucata.addEventListener("keyup",efetuaCalculo);
-    tratores_valor_final_ou_sucata.addEventListener("keyup",efetuaCalculo);
-    veiculos_valor_final_ou_sucata.addEventListener("keyup",efetuaCalculo);
-
-</script>
-
-<script>
-    //total valor atual do mercado
-    var total_porcentagem_patrimonio = document.getElementById("id_total_porcentagem_patrimonio");
-    var Insumos_porcentagem_patrimonio = document.getElementById("id_Insumos_porcentagem_patrimonio");
-    //media
-
-    function efetuaCalculo(){
-
-        total_capital_medio.innerHTML = parseInt(Insumos_porcentagem_patrimonio.value);
-    }
-   Insumos_porcentagem_patrimonio.addEventListener("keyup",efetuaCalculo);
-</script>
-
 
 
     <script src="/media/js/bootstrap.min.js"></script>
