@@ -312,43 +312,228 @@
                         <div style="top: 44%;left: 56%;position: absolute;">{{form.tratores_valor_final_ou_sucata}}</div>
 
 
-                        <div style="top: 44%;left: 68%;position: absolute;">{{form.tratores_depreciacao_anual}}</div>
-                        <div style="top: 44%;left: 80%;position: absolute;">{{form.tratores_remuneracao_capital}}</div>
-                        <div style="top: 44%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 44%;left: 68%;position: absolute;"><span id="id_tratores_depreciacao_anual"></span>
+                        </div>
+                    <script>
+                        var trato_depre = document.getElementById("id_tratores_depreciacao_anual");
+                        var trato_ini = document.getElementById("id_tratores_valor_inicial");
+                        var trato_fin = document.getElementById("id_tratores_valor_final_ou_sucata");
+                        function calc_trator_depr (){
+                            trato_depre.innerHTML = (parseInt(trato_ini.value)-parseInt(trato_fin.value))/20;
+                        }
+                        calc_trator_depr();
+                        trato_ini.addEventListener("keyup",calc_trator_depr);
+                        trato_fin.addEventListener("keyup",calc_trator_depr);
+                    </script>
+                        <div style="top: 44%;left: 80%;position: absolute;"><span id="id_tratores_remuneracao_capital"></span>
+                        </div>
+                    <script>
+                        var trat_rem_capi = document.getElementById("id_tratores_remuneracao_capital");
+                        var trat_cap_medio = document.getElementById("id_tratores_capital_medio");
+                        function calcu_tratores_capi(){
+                            trat_rem_capi.innerHTML = parseInt(trat_cap_medio.value)*10;
+                        }
+
+                        calcu_tratores_capi();
+                        trat_cap_medio.addEventListener("keyup",calcu_tratores_capi);
+                    </script>
+                        <div style="top: 44%;left: 92%;position: absolute;"><span id="id_tratores_custo_fixo"></span></div>
+                    <script>
+                        var tra_custo_fixo = document.getElementById("id_tratores_custo_fixo");
+                        var trato_ini = document.getElementById("id_tratores_valor_inicial");
+                        var trato_fin = document.getElementById("id_tratores_valor_final_ou_sucata");
+                        var trat_cap_medio = document.getElementById("id_tratores_capital_medio");
+                        function tra_cal_cus_fix(){
+                             tra_custo_fixo.innerHTML=((parseInt(trato_ini.value)-parseInt(trato_fin.value))/5)+(parseInt(trat_cap_medio.value)*10);
+                        }
+                        trato_ini.addEventListener("keyup",tra_cal_cus_fix);
+                        trato_fin.addEventListener("keyup",tra_cal_cus_fix);
+                        trat_cap_medio.addEventListener("keyup",tra_cal_cus_fix);
+                    </script>
+
                         <div style="top: 44%;left: 104%;position: absolute;">aqui</div>
+
 
                     <span style="top: 50%;position: absolute;">Veículos</span>
                         <div style="top: 50%;left: 32%;position: absolute;">{{form.veiculos_valor_inicial}}</div>
                         <div style="top: 50%;left: 44%;position: absolute;">{{form.veiculos_capital_medio}}</div>
                         <div style="top: 50%;left: 56%;position: absolute;">{{form.veiculos_valor_final_ou_sucata}}</div>
-                        <div style="top: 50%;left: 68%;position: absolute;">{{form.veiculos_depreciacao_anual}}</div>
-                        <div style="top: 50%;left: 80%;position: absolute;">{{form.veiculos_remuneracao_capital}}</div>
-                        <div style="top: 50%;left: 92%;position: absolute;">aqui</div>
+
+
+
+                        <div style="top: 50%;left: 68%;position: absolute;"><span id="id_veiculos_depreciacao_anual"></span>
+                        </div>
+                    <script>
+                        var vaiculos_dep = document.getElementById("id_veiculos_depreciacao_anual");
+                        var vaiculos_ini = document.getElementById("id_veiculos_valor_inicial");
+                        var vaiculos_fin = document.getElementById("id_veiculos_valor_final_ou_sucata");
+                        function cal_ve_dep(){
+                            vaiculos_dep.innerHTML = (parseInt(vaiculos_ini.value)-parseInt(vaiculos_fin.value))/5;
+                        }
+                        cal_ve_dep();
+                        vaiculos_fin.addEventListener("keyup",cal_ve_dep);
+                        vaiculos_ini.addEventListener("keyup",cal_ve_dep);
+
+                    </script>
+
+                        <div style="top: 50%;left: 80%;position: absolute;"><span id="id_veiculos_remuneracao_capital"></span>
+                        </div>
+                    <script>
+                        var vei_rem = document.getElementById("id_veiculos_remuneracao_capital");
+                        var vei_cap_medio = document.getElementById("id_veiculos_capital_medio");
+                        function vei_rem_capi(){
+                            vei_rem.innerHTML = parseInt(vei_cap_medio.value)*10;
+                        }
+                        vei_rem_capi();
+                        vei_cap_medio.addEventListener("keyup", vei_rem_capi);
+                    </script>
+
+
+                        <div style="top: 50%;left: 92%;position: absolute;"><span id="id_veiculos_custo_fixo"></span>
+                        </div>
+                    <script>
+                        var vei_custofx = document.getElementById("id_veiculos_custo_fixo");
+                        var vaiculos_ini = document.getElementById("id_veiculos_valor_inicial");
+                        var vaiculos_fin = document.getElementById("id_veiculos_valor_final_ou_sucata");
+                        var vei_cap_medio = document.getElementById("id_veiculos_capital_medio");
+                        function vei_custo_FXO(){
+                            vei_custofx.innerHTML = ((parseInt(vaiculos_ini.value)-parseInt(vaiculos_fin.value))/5)+(parseInt(vei_cap_medio.value)*10);
+                        }
+
+                        vei_custo_FXO();
+
+                        vei_custofx.addEventListener("keyup",vei_custo_FXO);
+                        vaiculos_ini.addEventListener("keyup",vei_custo_FXO);
+                        vaiculos_fin.addEventListener("keyup",vei_custo_FXO);
+                        vei_cap_medio.addEventListener("keyup",vei_custo_FXO);
+                    </script>
                         <div style="top: 50%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 56%;position: absolute;">Equipamentos manuais</span>
                         <div style="top: 56%;left: 32%;position: absolute;">{{form.equipamentos_manuais_valor_inicial}}</div>
                         <div style="top: 56%;left: 44%;position: absolute;">{{form.equipamentos_manuais_capital_medio}}</div>
                         <div style="top: 56%;left: 56%;position: absolute;">{{form.equipamentos_manuais_valor_final_ou_sucata}}</div>
-                        <div style="top: 56%;left: 68%;position: absolute;">{{form.equipamentos_manuais_depreciacao_anual}}</div>
-                        <div style="top: 56%;left: 80%;position: absolute;">{{form.equipamentos_manuais_remuneracao_capital}}</div>
-                        <div style="top: 56%;left: 92%;position: absolute;">aqui</div>
+
+
+                        <div style="top: 56%;left: 68%;position: absolute;"><span id="id_equipamentos_manuais_depreciacao_anual"></span>
+                        </div>
+
+                    <script>
+                        var equip_dep = document.getElementById("id_equipamentos_manuais_depreciacao_anual");
+                        var equip_ini = document.getElementById("id_equipamentos_manuais_valor_inicial");
+                        var equip_fin = document.getElementById("id_equipamentos_manuais_valor_final_ou_sucata");
+                        function cal_ve_dep(){
+                            equip_dep.innerHTML = (parseInt(equip_ini.value)-parseInt(equip_fin.value))/10;
+                        }
+                        cal_ve_dep();
+                        equip_fin.addEventListener("keyup",cal_ve_dep);
+                        equip_ini.addEventListener("keyup",cal_ve_dep);
+
+                    </script>
+
+                        <div style="top: 56%;left: 80%;position: absolute;"><span id="id_equipamentos_manuais_remuneracao_capital"></span>
+                        </div>
+                    <script>
+                        var equ_rem = document.getElementById("id_equipamentos_manuais_remuneracao_capital");
+                        var equ_cap_medio = document.getElementById("id_equipamentos_manuais_capital_medio");
+                        function equ_rem_capi(){
+                            equ_rem.innerHTML = parseInt(equ_cap_medio.value)*10;
+                        }
+                        equ_rem_capi();
+                        equ_cap_medio.addEventListener("keyup", equ_rem_capi);
+                    </script>
+
+                        <div style="top: 56%;left: 92%;position: absolute;"><span id="id_equipamentos_manuais_custo_fixo"></span>
+                        </div>
+
+                    <script>
+                        var equ_cf = document.getElementById("id_equipamentos_manuais_custo_fixo");
+                        var equ_cap_medio = document.getElementById("id_equipamentos_manuais_capital_medio");
+                        var equip_ini = document.getElementById("id_equipamentos_manuais_valor_inicial");
+                        var equip_fin = document.getElementById("id_equipamentos_manuais_valor_final_ou_sucata");
+
+                        function equ_custo_FX(){
+                                        equ_cf.innerHTML = (parseInt(equip_ini.value)-parseInt(equip_fin.value)/10)+parseInt(equ_cap_medio.value)*10;
+                        }
+                        equip_ini.addEventListener("keyup",equ_custo_FX);
+                        equip_fin.addEventListener("keyup",equ_custo_FX);
+                        equ_cap_medio.addEventListener("keyup",equ_custo_FX);
+                    </script>
+
                         <div style="top: 56%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 62%;position: absolute;">Reprodutores machos</span>
                         <div style="top: 62%;left: 32%;position: absolute;">{{form.reprodutores_machos_valor_inicial}}</div>
                         <div style="top: 62%;left: 44%;position: absolute;">{{form.reprodutores_machos_capital_medio}}</div>
                         <div style="top: 62%;left: 56%;position: absolute;">{{form.reprodutores_machos_valor_final_ou_sucata}}</div>
-                        <div style="top: 62%;left: 68%;position: absolute;">{{form.reprodutores_machos_depreciacao_anual}}</div>
-                        <div style="top: 62%;left: 80%;position: absolute;">{{form.reprodutores_machos_remuneracao_capital}}</div>
-                        <div style="top: 62%;left: 92%;position: absolute;">aqui</div>
+
+                        <div style="top: 62%;left: 68%;position: absolute;"><span id="id_reprodutores_machos_depreciacao_anual"></span>
+                        </div>
+                        <script>
+                            var rep_mac= document.getElementById("id_reprodutores_machos_depreciacao_anual");
+                            var rep_mac_ini=document.getElementById("id_reprodutores_machos_valor_inicial");
+                            var rep_mac_fin=document.getElementById("id_reprodutores_machos_valor_final_ou_sucata");
+                            function rep_macho(){
+                                rep_mac.innerHTML = (parseInt(rep_mac_ini.value)-parseInt(rep_mac_fin.value))/25;
+                            }
+                            rep_macho();
+                            rep_mac_ini.addEventListener("keyup",rep_macho);
+                            rep_mac_fin.addEventListener("keyup",rep_macho);
+                        </script>
+                        <div style="top: 62%;left: 80%;position: absolute;"><span id="id_reprodutores_machos_remuneracao_capital"></span>
+                        </div>
+                        <script>
+
+                            var rep_mac_rem= document.getElementById("id_reprodutores_machos_remuneracao_capital");
+                            var rep_mac_medi = document.getElementById("id_reprodutores_machos_capital_medio");
+                            function rep_macho(){
+                                rep_mac_rem.innerHTML = parseInt(rep_mac_medi.value)*10;
+                            }
+                            rep_macho();
+                            rep_mac_medi.addEventListener("keyup",rep_macho);
+
+                        </script>
+                        <div style="top: 62%;left: 92%;position: absolute;"><span id="id_reprodutores_machos_custo_fixo"></span>
+                        </div>
+                    <script>
+                         var rep_mac_CFX  = document.getElementById("id_reprodutores_machos_custo_fixo");
+                         var rep_mac_medi = document.getElementById("id_reprodutores_machos_capital_medio");
+                         var rep_mac_ini  =document.getElementById("id_reprodutores_machos_valor_inicial");
+                         var rep_mac_fin  =document.getElementById("id_reprodutores_machos_valor_final_ou_sucata");
+                         function macho_custoFX(){
+                             rep_mac_CFX.innerHTML = ((parseInt(rep_mac_ini.value)-parseInt(rep_mac_fin.value))/25)+(parseInt(rep_mac_medi.value)*10);
+                         }
+
+                        macho_custoFX();
+
+                        rep_mac_CFX.addEventListener("keyup",macho_custoFX);
+                        rep_mac_medi.addEventListener("keyup",macho_custoFX);
+                        rep_mac_ini.addEventListener("keyup",macho_custoFX);
+                        rep_mac_fin.addEventListener("keyup",macho_custoFX);
+                    </script>
                         <div style="top: 62%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 68%;position: absolute;">Reprodutores femeas</span>
                         <div style="top: 68%;left: 32%;position: absolute;">{{form.reprodutores_femeas_valor_inicial}}</div>
                         <div style="top: 68%;left: 44%;position: absolute;">{{form.reprodutores_femeas_capital_medio}}</div>
                         <div style="top: 68%;left: 56%;position: absolute;">{{form.reprodutores_femeas_valor_final_ou_sucata}}</div>
-                        <div style="top: 68%;left: 68%;position: absolute;">{{form.reprodutores_femeas_depreciacao_anual}}</div>
+
+
+
+                        <div style="top: 68%;left: 68%;position: absolute;"><span id="id_reprodutores_femeas_depreciacao_anual"></span>
+                        </div>
+                        <script>
+                            var rep_femea_dep = document.getElementById("id_reprodutores_femeas_depreciacao_anual");
+                            var rep_feme_ini = document.getElementById("id_reprodutores_femeas_valor_inicial");
+                            var rep_feme_fin = document.getElementById("id_reprodutores_femeas_valor_final_ou_sucata");
+                            function femeas_depre(){
+                                rep_femea_dep.innerHTML=(parseInt(rep_feme_ini.value)-parseInt(rep_feme_fin.value))/10;
+                            }
+                            femeas_depre();
+
+                            rep_feme_ini.addEventListener("keyup",femeas_depre);
+                            rep_feme_fin.addEventListener("keyup",femeas_depre);
+                        </script>
                         <div style="top: 68%;left: 80%;position: absolute;">{{form.reprodutores_femeas_remuneracao_capital}}</div>
                         <div style="top: 68%;left: 92%;position: absolute;">aqui</div>
                         <div style="top: 68%;left: 104%;position: absolute;">aqui</div>

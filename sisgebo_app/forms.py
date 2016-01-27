@@ -904,41 +904,41 @@ class FormDepreciacao(forms.Form):
                     maquina_implemento_custo_fixo = forms.FloatField(initial=t_custo_fixo(),widget=forms.TextInput(attrs={"style":"width:50%;"}))
                     maquina_implemento_porcetagem_custo_fixo = forms.FloatField()
 
-                    tratores_valor_inicial = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    tratores_capital_medio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    tratores_valor_final_ou_sucata = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    tratores_valor_inicial = forms.FloatField(initial=trat_valorInicial(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    tratores_capital_medio = forms.FloatField(initial=tra_medio(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    tratores_valor_final_ou_sucata = forms.FloatField(initial=tra_valorFinal(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     tratores_depreciacao_anual = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     tratores_remuneracao_capital = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     tratores_custo_fixo = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     tratores_porcetagem_custo_fixo = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-                    veiculos_valor_inicial         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    veiculos_capital_medio         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    veiculos_valor_final_ou_sucata = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    veiculos_valor_inicial         = forms.FloatField(initial=vei_inicial(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    veiculos_capital_medio         = forms.FloatField(initial=vei_medio(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    veiculos_valor_final_ou_sucata = forms.FloatField(initial=vei_fin(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     veiculos_depreciacao_anual     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     veiculos_remuneracao_capital   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     veiculos_custo_fixo            = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     veiculos_porcetagem_custo_fixo = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:30%;"}))
 
-                    equipamentos_manuais_valor_inicial          = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    equipamentos_manuais_capital_medio          = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    equipamentos_manuais_valor_final_ou_sucata  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    equipamentos_manuais_valor_inicial          = forms.FloatField(initial=equi_ini(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    equipamentos_manuais_capital_medio          = forms.FloatField(initial=equi_med(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    equipamentos_manuais_valor_final_ou_sucata  = forms.FloatField(initial=equi_fin(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     equipamentos_manuais_depreciacao_anual      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     equipamentos_manuais_remuneracao_capital    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     equipamentos_manuais_custo_fixo             = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     equipamentos_manuais_porcetagem_custo_fixo  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-                    reprodutores_machos_valor_inicial           = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    reprodutores_machos_capital_medio           = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    reprodutores_machos_valor_final_ou_sucata   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    reprodutores_machos_valor_inicial           = forms.FloatField(initial=rep_mach_ini(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    reprodutores_machos_capital_medio           = forms.FloatField(initial=rep_mach_medio(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    reprodutores_machos_valor_final_ou_sucata   = forms.FloatField(initial=rep_mach_fin(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     reprodutores_machos_depreciacao_anual       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     reprodutores_machos_remuneracao_capital     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     reprodutores_machos_custo_fixo              = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     reprodutores_machos_porcetagem_custo_fixo   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-                    reprodutores_femeas_valor_inicial           = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    reprodutores_femeas_capital_medio           = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    reprodutores_femeas_valor_final_ou_sucata   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    reprodutores_femeas_valor_inicial           = forms.FloatField(initial=rep_fem_ini(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    reprodutores_femeas_capital_medio           = forms.FloatField(initial=rep_fem_medio(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    reprodutores_femeas_valor_final_ou_sucata   = forms.FloatField(initial=rep_fem_fin(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     reprodutores_femeas_depreciacao_anual       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     reprodutores_femeas_remuneracao_capital     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     reprodutores_femeas_custo_fixo              = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
@@ -1041,24 +1041,6 @@ class FormDepreciacao(forms.Form):
                     edificacoes_amorti  = forms.FloatField(initial=20,widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     pastagem_dep        = forms.FloatField(initial=(100/70),widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     pastagem_amorti     = forms.FloatField(initial=70,widget=forms.TextInput(attrs={"style":"width:20%;"}))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 class FormEvolucaoRebanho(forms.ModelForm):

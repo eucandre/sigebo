@@ -1,0 +1,39 @@
+            <h3> Ponto de equilibrio</h3>
+                <span>Custo fixo total</span>
+                    <div style="top: 23%;left:40%;position: absolute;">aqui</div>
+                <span style="top: 25%;left: 18%;position: absolute;">Custo variável unitário</span>
+                    <div style="top: 25%;left: 40%;position: absolute;">aqui</div>
+                <span style="top: 30%;left:18%;position: absolute;">Preço média de venda</span>
+                    <div style="top: 30%;left: 40%;position: absolute;">aqui</div>
+                <span style="top: 35%; position: absolute;font-weight: bolder">Item</span>
+                <span style="top: 35%;left: 30%;position: absolute;">PE</span>
+                <span style="top: 35%;left: 35%;position: absolute;">PA</span>
+                <span style="top: 35%;left: 40%;position: absolute;">Balanço</span>
+                <span style="top: 35%;left: 45%;position: absolute;">Unidade</span>
+                <span style="top: 40%;position: absolute;">Item</span>
+                    <div style="top: 40%;left:30%;position: absolute;">aqui</div>
+                    <div style="top: 40%;left:35%;position: absolute;">aqui</div>
+                    <div style="top: 40%;left:40%;position: absolute;">aqui</div>
+                    <div style="top: 40%;left:45%;position: absolute;">aqui</div>
+                <span style="top: 45%;position: absolute;">Item</span>
+                    <div style="top: 45%;left:30%;position: absolute;">aqui</div>
+                    <div style="top: 45%;left:35%;position: absolute;">aqui</div>
+                    <div style="top: 45%;left:40%;position: absolute;">aqui</div>
+                    <div style="top: 45%;left:45%;position: absolute;">aqui</div>
+                <span style="top: 50%;position: absolute;">Item</span>
+                    <div style="top: 50%;left:30%;position: absolute;">aqui</div>
+                    <div style="top: 50%;left:35%;position: absolute;">aqui</div>
+                    <div style="top: 50%;left:40%;position: absolute;">aqui</div>
+                    <div style="top: 50%;left:45%;position: absolute;">aqui</div>
+                <div class="row">
+
+
+
+
+                 Custo_fixo_total =          forms.FloatField()
+        Custo_variavel_unitario =   forms.FloatField()
+        Preco_medio_de_venda =      forms.FloatField()
+
+        Ponto_de_equilibrio_anual = forms.FloatField()
+        Ponto_de_equilibrio_mensal= forms.FloatField()
+        Ponto_de_equilibrio_diario= forms.FloatField()
