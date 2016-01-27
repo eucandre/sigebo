@@ -1,0 +1,204 @@
+#
+na classe FormCustoFixo exitesm os nomes que antecedem as igualdades. A linha 93 marca a divisão entre as marcações com aqui!
+
+A tarefa será de usar esses nomes que antecedem as igualdades e substituir em {{form.<nome_antes_da_igualdade>}}, o que está entre "<>" e as "<>"
+devem ser substituidos, são somente para ilustrar!
+#
+
+
+    class FormCustoOperacional(forms.ModelForm):
+    fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
+    fixo_custo_total_atividade_janeiro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    fixo_custo_total_atividade_feveiro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    fixo_custo_total_atividade_marco                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    fixo_custo_total_atividade_abril                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    fixo_custo_total_atividade_maio                   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    fixo_custo_total_atividade_junho                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    fixo_custo_total_atividade_julho                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    fixo_custo_total_atividade_agosto                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    fixo_custo_total_atividade_setembro               = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    fixo_custo_total_atividade_outubro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    fixo_custo_total_atividade_novembro               = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    fixo_custo_total_atividade_dezembro               = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    variavel_custo_total_atividade_janeiro            = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    variavel_custo_total_atividade__feveiro           = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    variavel_custo_total_atividade__marco             = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    variavel_custo_total_atividade__abril             = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    variavel_custo_total_atividade__maio              = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    variavel_custo_total_atividade__junho             = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    variavel_custo_total_atividade__julho             = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    variavel_custo_total_atividade__agosto            = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    variavel_custo_total_atividade__setembro          = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    variavel_custo_total_atividade__outubro           = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    variavel_custo_total_atividade__novembro          = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    variavel_custo_total_atividade__dezembro          = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    administrativo_custo_total_atividade_janeiro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    administrativo_custo_total_atividade__feveiro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    administrativo_custo_total_atividade__marco       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    administrativo_custo_total_atividade__abril       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    administrativo_custo_total_atividade__maio        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    administrativo_custo_total_atividade__junho       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    administrativo_custo_total_atividade__julho       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    administrativo_custo_total_atividade__agosto      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    administrativo_custo_total_atividade__setembro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    administrativo_custo_total_atividade__outubro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    administrativo_custo_total_atividade__novembro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    administrativo_custo_total_atividade__dezembro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+
+    operacional_custo_total_atividade_janeiro        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    operacional_custo_total_atividade__feveiro       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    operacional_custo_total_atividade__marco         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    operacional_custo_total_atividade__abril         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    operacional_custo_total_atividade__maio          = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    operacional_custo_total_atividade__junho         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    operacional_custo_total_atividade__julho         = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    operacional_custo_total_atividade__agosto        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    operacional_custo_total_atividade__setembro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    operacional_custo_total_atividade__outubro       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    operacional_custo_total_atividade__novembro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    operacional_custo_total_atividade__dezembro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    cabeca_reposicao_custo_total_atividade_janeiro      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    cabeca_reposicao_custo_total_atividade__feveiro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    cabeca_reposicao_custo_total_atividade__marco       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    cabeca_reposicao_custo_total_atividade__abril       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    cabeca_reposicao_custo_total_atividade__maio        = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    cabeca_reposicao_custo_total_atividade__junho       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    cabeca_reposicao_custo_total_atividade__julho       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    cabeca_reposicao_custo_total_atividade__agosto      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    cabeca_reposicao_custo_total_atividade__setembro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    cabeca_reposicao_custo_total_atividade__outubro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    cabeca_reposicao_custo_total_atividade__novembro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    cabeca_reposicao_custo_total_atividade__dezembro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    custo_operacional_arrouba_sem_reposicao_custo_total_atividade_janeiro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_sem_reposicao_custo_total_atividade__feveiro   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_sem_reposicao_custo_total_atividade__marco     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_sem_reposicao_custo_total_atividade__abril     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_sem_reposicao_custo_total_atividade__maio      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_sem_reposicao_custo_total_atividade__junho     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_sem_reposicao_custo_total_atividade__julho     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_sem_reposicao_custo_total_atividade__agosto    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_sem_reposicao_custo_total_atividade__setembro  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_sem_reposicao_custo_total_atividade__outubro   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_sem_reposicao_custo_total_atividade__novembro  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_sem_reposicao_custo_total_atividade__dezembro  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    custo_operacional_arrouba_com_reposicao_custo_total_atividade_janeiro    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_com_reposicao_custo_total_atividade__feveiro   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_com_reposicao_custo_total_atividade__marco     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_com_reposicao_custo_total_atividade__abril     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_com_reposicao_custo_total_atividade__maio      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_com_reposicao_custo_total_atividade__junho     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_com_reposicao_custo_total_atividade__julho     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_com_reposicao_custo_total_atividade__agosto    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_com_reposicao_custo_total_atividade__setembro  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_com_reposicao_custo_total_atividade__outubro   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_com_reposicao_custo_total_atividade__novembro  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_operacional_arrouba_com_reposicao_custo_total_atividade__dezembro  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------#
+
+                <h3>Custo operacional</h3>
+                   <div class="text-success">
+                    <span style="font-weight: bolder;-webkit-transform: rotate(-45deg);">Custo to. ati.</span>
+                    <span style="left: 27% ;position: absolute;font-weight: bolder">Janeiro</span>
+                    <span style="left: 32% ;position: absolute;font-weight: bolder">Fevereiro</span>
+                    <span style="left: 37% ;position: absolute;font-weight: bolder">Março</span>
+                    <span style="left: 43% ;position: absolute;font-weight: bolder">Abril</span>
+                    <span style="left: 49% ;position: absolute;font-weight: bolder">Maio</span>
+                    <span style="left: 55% ;position: absolute;font-weight: bolder">Junho</span>
+                    <span style="left: 61% ;position: absolute;font-weight: bolder">Agosto</span>
+                    <span style="left: 67% ;position: absolute;font-weight: bolder">Setembro</span>
+                    <span style="left: 73% ;position: absolute;font-weight: bolder">Outubro</span>
+                    <span style="left: 79% ;position: absolute;font-weight: bolder">Novembro</span>
+                    <span style="left: 85% ;position: absolute;font-weight: bolder">Dezembro</span>
+                    <span style="left: 91% ;position: absolute;font-weight: bolder">Total</span>
+                    <span style="left: 94% ;position: absolute;font-weight: bolder ;-webkit-transform: rotate(-45deg);top:14%;">% custo Operacional</span>
+                    </div>
+
+                <span>Fixo</span>
+                     <div style="top:24%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:27%; left: 20%;position: absolute">Variável</span>
+                     <div style="top:27%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:30%; left: 20%;position: absolute">Desp. Administ.</span>
+                     <div style="top:30%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:33%; left: 20%;position: absolute">Operacional</span>
+                     <div style="top:33%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:36%; left: 20%;position: absolute">C.o/cabe. c/ repo.</span>
+                     <div style="top:36%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:39%; left: 20%;position: absolute">Custo operacional @ sem reposição</span>
+
+                     <div style="top:39%; left: 40%;position: absolute" class="alert-success">aqui</div>
+
+                   <span style="top:42%; left: 20%;position: absolute">Custo operacional @com reposição</span>
+                     <div style="top:42%; left: 40%;position: absolute" class="alert-success">aqui</div>
+

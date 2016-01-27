@@ -892,14 +892,16 @@ class FormInventarioatividade(forms.Form):
 
 class FormDepreciacao(forms.Form):
                     from metodos_inventario import *
+                    from metodo_depreciacao import *
                     i = Inventario_ligado_atividade()
+
                     fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
                     maquina_implemento_valor_inicial = forms.FloatField(initial=pega_maquina(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    maquina_implemento_capital_medio = forms.FloatField(initial=medio_inventario(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    maquina_implemento_capital_medio = forms.FloatField(initial=maquinas_medio(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     maquina_implemento_valor_final_ou_sucata = forms.FloatField(initial=fin_suc_maquina(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     maquina_implemento_depreciacao_anual = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     maquina_implemento_remuneracao_capital = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    maquina_implemento_custo_fixo = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:50%;"}))
+                    maquina_implemento_custo_fixo = forms.FloatField(initial=t_custo_fixo(),widget=forms.TextInput(attrs={"style":"width:50%;"}))
                     maquina_implemento_porcetagem_custo_fixo = forms.FloatField()
 
                     tratores_valor_inicial = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
@@ -916,7 +918,7 @@ class FormDepreciacao(forms.Form):
                     veiculos_depreciacao_anual     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     veiculos_remuneracao_capital   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     veiculos_custo_fixo            = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    veiculos_porcetagem_custo_fixo = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    veiculos_porcetagem_custo_fixo = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:30%;"}))
 
                     equipamentos_manuais_valor_inicial          = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     equipamentos_manuais_capital_medio          = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
@@ -1006,43 +1008,58 @@ class FormDepreciacao(forms.Form):
                     total_custo_fixo                            = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     total_porcetagem_custo_fixo                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-                    Depreciacao_mensal                              = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    jurus_remuneracao_ano                           = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    Depreciacao_mensal                              = forms.FloatField(initial=t_custo_fixo(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    jurus_remuneracao_ano                           = forms.FloatField(initial=10,widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
                     #informacoes para os calculos
 
-                    maquina_implemento_calculo_depreciacao_anual    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    maquina_implemento_calculo_amortizacao_ano      = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    #parte para calculos
+                    #dep_mensal = forms.FloatField(initial=t_custo_fixo,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    #jurus_rem = forms.FloatField(initial=10,widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-                    tratores_calculo_depreciacao_anual              = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    tratores_calculo_amortizacao_ano                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    maquinas_implementos_amorti = forms.FloatField(initial=10,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    maquinas_implementos_dep    = forms.FloatField(initial=(100/10),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    tratores_dep = forms.FloatField(initial=(100/20),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    tratores_amorti = forms.FloatField(initial=20,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    veiculos_dep    = forms.FloatField(initial=(100/5), widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    veiculos_amorti = forms.FloatField(initial=5, widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    equi_manu_dep    = forms.FloatField(initial=(100/10),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    equi_manu_amorti = forms.FloatField(initial=10,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    rep_macho_dep    = forms.FloatField(initial=(100/4) ,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    rep_macho_amorti = forms.FloatField(initial=4 ,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    rep_femea_dep    = forms.FloatField(initial=(100/10),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    rep_femea_amorti = forms.FloatField(initial=10,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    animais_trab_dep    = forms.FloatField(initial=(100/8) ,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    animais_trab_amorti = forms.FloatField(initial=8 ,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    cana_volu_dep       = forms.FloatField(initial=(100/4) ,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    cana_volu_amorti    = forms.FloatField(initial=4 ,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    benfeitorias_dep    = forms.FloatField(initial=(100/40),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    benfeitorias_amorti = forms.FloatField(initial=40,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    cercas_dep          = forms.FloatField(initial=(100/30),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    cercas_amorti       = forms.FloatField(initial=30,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    edificacoes_dep     = forms.FloatField(initial=(100/30),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    edificacoes_amorti  = forms.FloatField(initial=20,widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    pastagem_dep        = forms.FloatField(initial=(100/70),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    pastagem_amorti     = forms.FloatField(initial=70,widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-                    veiculos_calculo_depreciacao_anual              = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    veiculos_calculo_amortizacao_ano                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-                    equipamentos_manuais_calculo_depreciacao_anual  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    equipamentos_manuais_calculo_amortizacao_ano    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-                    reprodutores_machos_calculo_depreciacao_anual   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    reprodutores_femeas_calculo_amortizacao_ano     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-                    animais_de_trabalho_calculo_depreciacao_anual   = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    animais_de_trabalho_calculo_amortizacao_ano     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-                    canavial_volumoso_calculo_depreciacao_anual     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    canavial_volumoso_calculo_amortizacao_ano       = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-                    benfeitorias_calculo_depreciacao_anual          = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    benfeitorias_calculo_amortizacao_ano            = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-                    cercas_calculo_depreciacao_anual                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    cercas_calculo_amortizacao_ano                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-                    edificacoes_calculo_depreciacao_anual           = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    edificacoes_calculo_amortizacao_ano             = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-                    pastagem_calculo_depreciacao_anual              = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    pastagem_calculo_amortizacao_ano                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+
+
+
+
+
+
+
+
+
 
 class FormEvolucaoRebanho(forms.ModelForm):
 

@@ -225,43 +225,106 @@
                 <h3>Depreciações</h3>
                 <div class="text-success">
                     <span style="font-weight: bolder;top: 25%;position: absolute">Bens de capital</span>
-                    <span style="font-weight: bolder; top: 25%;left: 32.3%;position: absolute; -webkit-transform:rotate(270deg);">Valor inicial</span>
-                    <span style="font-weight: bolder; top: 25%;left: 38%;position: absolute;-webkit-transform:rotate(270deg);">Capital Médio</span>
-                    <span style="font-weight: bolder; top: 25%;left: 42%;position: absolute;-webkit-transform:rotate(270deg);">Valor final ou de sucata</span>
-                    <span style="font-weight: bolder; top: 25%;left: 49%;position: absolute;-webkit-transform:rotate(270deg);">Depreciação anual</span>
-                    <span style="font-weight: bolder; top: 25%;left: 54%;position: absolute;-webkit-transform:rotate(270deg);">Remnuneração de capital</span>
-                    <span style="font-weight: bolder; top: 25%;left: 63%;position: absolute;-webkit-transform:rotate(270deg);">Custo Fixo</span>
-                    <span style="font-weight: bolder; top: 25%;left: 68%;position: absolute;-webkit-transform:rotate(270deg);">% Custo fixo</span>
+                    <span style="font-weight: bolder; top: 25%;left: 32.3%;position: absolute; -webkit-transform:rotate(-45deg);">Valor inicial</span>
+                    <span style="font-weight: bolder; top: 25%;left: 38%;position: absolute;-webkit-transform:rotate(-45deg);">Capital Médio</span>
+                    <span style="font-weight: bolder; top: 25%;left: 42%;position: absolute;-webkit-transform:rotate(-45deg);">Valor final ou de sucata</span>
+                    <span style="font-weight: bolder; top: 25%;left: 49%;position: absolute;-webkit-transform:rotate(-45deg);">Depreciação anual</span>
+                    <span style="font-weight: bolder; top: 25%;left: 54%;position: absolute;-webkit-transform:rotate(-45deg);">Remnuneração de capital</span>
+                    <span style="font-weight: bolder; top: 25%;left: 63%;position: absolute;-webkit-transform:rotate(-45deg);">Custo Fixo</span>
+                    <span style="font-weight: bolder; top: 25%;left: 68%;position: absolute;-webkit-transform:rotate(-45deg);">% Custo fixo</span>
 
 
                 </div>
-                <div class="left_col" style="width: 50%;height: 70%;position: absolute;">
+                <div class="left_col" style="width: 47%;height: 70%;position: absolute;">
                     <span style="top: 38%;position: absolute;">Máquinas e implementos</span>
                        <div style="top: 38%;left: 32%;position: absolute;">{{form.maquina_implemento_valor_inicial}}</div>
                         <div style="top: 38%;left: 44%;position: absolute;">{{form.maquina_implemento_capital_medio}}</div>
                         <div style="top: 38%;left: 56%;position: absolute;">{{form.maquina_implemento_valor_final_ou_sucata}}</div>
-                        <div style="top: 38%;left: 68%;position: absolute;">{{form.maquina_implemento_depreciacao_anual}}</div>
-                        <div style="top: 38%;left: 80%;position: absolute;">{{form.maquina_implemento_remuneracao_capital}}</div>
-                        <div style="top: 38%;left: 92%;position: absolute;">{{form.maquina_implemento_custo_fixo}}</div>
-                        <div style="top: 38%;left: 104%;position: absolute;">{{form.maquina_implemento_porcetagem_custo_fixo}}</div>
+                        <div style="top: 38%;left: 68%;position: absolute;" ><span id="id_maquina_implemento_depreciacao_anual"></span>
+                        </div>
+                        <script>
+                            var maquina_dep = document.getElementById("id_maquina_implemento_depreciacao_anual");
+                            var maquina_ini = document.getElementById("id_maquina_implemento_valor_inicial");
+                            var maquina_fin = document.getElementById("id_maquina_implemento_valor_final_ou_sucata");
+                            function calcula(){
+                                maquina_dep.innerHTML = (parseInt(maquina_ini.value)-parseInt(maquina_fin.value))/10;
+                                //document.write(maquina_dep);
+                            }
+                            calcula();
+                            maquina_ini.addEventListener("keyup",calcula);
+                            maquina_fin.addEventListener("keyup",calcula);
+                        </script>
+
+                        <div style="top: 38%;left: 80%;position: absolute;"><span id="id_maquina_implemento_remuneracao_capital"></span>
+                        </div>
+                    <script>
+                        var maquina_remunera_capital = document.getElementById("id_maquina_implemento_remuneracao_capital");
+                        var maquina_cap_medio = document.getElementById("id_maquina_implemento_capital_medio");
+                        //var jurus = document.getElementById("id_jurus_remuneracao_ano");
+                        function c_remuneraca_capital(){
+                            maquina_remunera_capital.innerHTML = parseInt(maquina_cap_medio.value)*10;//parseInt(jurus.value);
+
+                        }
+                        c_remuneraca_capital();
+                        maquina_cap_medio.addEventListener("keyup",c_remuneraca_capital);
+                        //jurus.addEventListener("keyup",c_remuneraca_capital);
+                    </script>
+                        <div style="top: 38%;left: 92%;position: absolute;"><span id="id_maquina_implemento_custo_fixo"></span>
+                        </div>
+                    <script>
+                        var maquina_custo_fixo = document.getElementById("id_maquina_implemento_custo_fixo");
+                        var maquina_ini = document.getElementById("id_maquina_implemento_valor_inicial");
+                        var maquina_fin = document.getElementById("id_maquina_implemento_valor_final_ou_sucata");
+                        var maquina_cap_medio = document.getElementById("id_maquina_implemento_capital_medio");
+                        function calcula_custo_fixo(){
+                            maquina_custo_fixo.innerHTML = ((parseInt(maquina_ini.value)-parseInt(maquina_fin.value))/10)+parseInt(maquina_cap_medio.value)*10;
+                        }
+                        calcula_custo_fixo();
+                        maquina_cap_medio.addEventListener("keyup",calcula_custo_fixo);
+                        maquina_ini.addEventListener("keyup",calcula_custo_fixo);
+                        maquina_fin.addEventListener("keyup",calcula_custo_fixo);
+                    </script>
+
+                        <div style="top: 38%;left: 104%;position: absolute;"><span id="id_maquina_implemento_porcetagem_custo_fixo"></span>
+                        </div>
+                    <script>
+                        var maquina_porcen_custo_fixo = document.getElementById("id_maquina_implemento_porcetagem_custo_fixo");
+
+                        var maquina_ini = document.getElementById("id_maquina_implemento_valor_inicial");
+                        var maquina_fin = document.getElementById("id_maquina_implemento_valor_final_ou_sucata");
+                        var maquina_cap_medio = document.getElementById("id_maquina_implemento_capital_medio");
+                        function maquina_porcentagem_fixo(){
+                            maquina_porcen_custo_fixo.innerHTML =(parseInt(maquina_ini.value))-parseInt(maquina_fin.value));
+                        }
+
+                        maquina_porcentagem_fixo();
+                        maquina_cap_medio.addEventListener("keyup",calcula_custo_fixo);
+                        maquina_ini.addEventListener("keyup",calcula_custo_fixo);
+                        maquina_fin.addEventListener("keyup",calcula_custo_fixo);
+                    </script>
+
+
+
 
                     <span style="top: 44%;position: absolute;">Tratores</span>
                     <div style="top: 44%;left: 32%;position: absolute;">{{form.tratores_valor_inicial}}</div>
                         <div style="top: 44%;left: 44%;position: absolute;">{{form.tratores_capital_medio}}</div>
                         <div style="top: 44%;left: 56%;position: absolute;">{{form.tratores_valor_final_ou_sucata}}</div>
+
+
                         <div style="top: 44%;left: 68%;position: absolute;">{{form.tratores_depreciacao_anual}}</div>
                         <div style="top: 44%;left: 80%;position: absolute;">{{form.tratores_remuneracao_capital}}</div>
-                        <div style="top: 44%;left: 92%;position: absolute;">{{form.tratores_custo_fixo}}</div>
-                        <div style="top: 44%;left: 104%;position: absolute;">{{form.tratores_porcetagem_custo_fixo}}</div>
+                        <div style="top: 44%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 44%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 50%;position: absolute;">Veículos</span>
                         <div style="top: 50%;left: 32%;position: absolute;">{{form.veiculos_valor_inicial}}</div>
-                        <div style="top: 50%;left: 44%;position: absolute;">{{form.veiculos_implemento_capital_medio}}</div>
-                        <div style="top: 50%;left: 56%;position: absolute;">{{form.veiculos_implemento_valor_final_ou_sucata}}</div>
-                        <div style="top: 50%;left: 68%;position: absolute;">{{form.veiculos_implemento_depreciacao_anual}}</div>
-                        <div style="top: 50%;left: 80%;position: absolute;">{{form.veiculos_implemento_remuneracao_capital}}</div>
-                        <div style="top: 50%;left: 92%;position: absolute;">{{form.veiculos_implemento_custo_fixo}}</div>
-                        <div style="top: 50%;left: 104%;position: absolute;">{{form.veiculos_implemento_porcetagem_custo_fixo}}</div>
+                        <div style="top: 50%;left: 44%;position: absolute;">{{form.veiculos_capital_medio}}</div>
+                        <div style="top: 50%;left: 56%;position: absolute;">{{form.veiculos_valor_final_ou_sucata}}</div>
+                        <div style="top: 50%;left: 68%;position: absolute;">{{form.veiculos_depreciacao_anual}}</div>
+                        <div style="top: 50%;left: 80%;position: absolute;">{{form.veiculos_remuneracao_capital}}</div>
+                        <div style="top: 50%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 50%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 56%;position: absolute;">Equipamentos manuais</span>
                         <div style="top: 56%;left: 32%;position: absolute;">{{form.equipamentos_manuais_valor_inicial}}</div>
@@ -269,8 +332,8 @@
                         <div style="top: 56%;left: 56%;position: absolute;">{{form.equipamentos_manuais_valor_final_ou_sucata}}</div>
                         <div style="top: 56%;left: 68%;position: absolute;">{{form.equipamentos_manuais_depreciacao_anual}}</div>
                         <div style="top: 56%;left: 80%;position: absolute;">{{form.equipamentos_manuais_remuneracao_capital}}</div>
-                        <div style="top: 56%;left: 92%;position: absolute;">{{form.equipamentos_manuais_custo_fixo}}</div>
-                        <div style="top: 56%;left: 104%;position: absolute;">{{form.equipamentos_manuais_porcetagem_custo_fixo}}</div>
+                        <div style="top: 56%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 56%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 62%;position: absolute;">Reprodutores machos</span>
                         <div style="top: 62%;left: 32%;position: absolute;">{{form.reprodutores_machos_valor_inicial}}</div>
@@ -278,8 +341,8 @@
                         <div style="top: 62%;left: 56%;position: absolute;">{{form.reprodutores_machos_valor_final_ou_sucata}}</div>
                         <div style="top: 62%;left: 68%;position: absolute;">{{form.reprodutores_machos_depreciacao_anual}}</div>
                         <div style="top: 62%;left: 80%;position: absolute;">{{form.reprodutores_machos_remuneracao_capital}}</div>
-                        <div style="top: 62%;left: 92%;position: absolute;">{{form.reprodutores_machos_custo_fixo}}</div>
-                        <div style="top: 62%;left: 104%;position: absolute;">{{form.reprodutores_machos_porcetagem_custo_fixo}}</div>
+                        <div style="top: 62%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 62%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 68%;position: absolute;">Reprodutores femeas</span>
                         <div style="top: 68%;left: 32%;position: absolute;">{{form.reprodutores_femeas_valor_inicial}}</div>
@@ -287,35 +350,35 @@
                         <div style="top: 68%;left: 56%;position: absolute;">{{form.reprodutores_femeas_valor_final_ou_sucata}}</div>
                         <div style="top: 68%;left: 68%;position: absolute;">{{form.reprodutores_femeas_depreciacao_anual}}</div>
                         <div style="top: 68%;left: 80%;position: absolute;">{{form.reprodutores_femeas_remuneracao_capital}}</div>
-                        <div style="top: 68%;left: 92%;position: absolute;">{{form.reprodutores_femeas_custo_fixo}}</div>
-                        <div style="top: 68%;left: 104%;position: absolute;">{{form.reprodutores_femeas_porcetagem_custo_fixo}}</div>
+                        <div style="top: 68%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 68%;left: 104%;position: absolute;">aqui</div>
 
-                    <span style="top: 72%;position: absolute;">Animais de engorda</span>
-                        <div style="top: 72%;left: 32%;position: absolute;">{{form.animais_gordo_valor_inicial}}</div>
+                    <span style="top: 75%;position: absolute;">Animais de engorda</span>
+                        <div style="top: 75%;left: 32%;position: absolute;">{{form.animais_gordo_valor_inicial}}</div>
                         <div style="top: 72%;left: 44%;position: absolute;">{{form.animais_gordo_capital_medio}}</div>
                         <div style="top: 72%;left: 56%;position: absolute;">{{form.animais_gordo_valor_final_ou_sucata}}</div>
                         <div style="top: 72%;left: 68%;position: absolute;">{{form.animais_gordo_depreciacao_anual}}</div>
                         <div style="top: 72%;left: 80%;position: absolute;">{{form.animais_gordo_remuneracao_capital}}</div>
-                        <div style="top: 72%;left: 92%;position: absolute;">{{form.animais_gordo_custo_fixo}}</div>
-                        <div style="top: 72%;left: 104%;position: absolute;">{{form.animais_gordo_porcetagem_custo_fixo}}</div>
+                        <div style="top: 72%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 72%;left: 104%;position: absolute;">aqui</div>
 
-                    <span style="top: 78%;position: absolute;">Animais de trabalho</span>
-                        <div style="top: 78%;left: 32%;position: absolute;">{{form.animais_trabalho_inicial}}</div>
+                    <span style="top: 80%;position: absolute;">Animais de trabalho</span>
+                        <div style="top: 78%;left: 32%;position: absolute;">{{form.animais_trabalho_valor_inicial}}</div>
                         <div style="top: 78%;left: 44%;position: absolute;">{{form.animais_trabalho_capital_medio}}</div>
                         <div style="top: 78%;left: 56%;position: absolute;">{{form.animais_trabalho_valor_final_ou_sucata}}</div>
                         <div style="top: 78%;left: 68%;position: absolute;">{{form.animais_trabalho_depreciacao_anual}}</div>
                         <div style="top: 78%;left: 80%;position: absolute;">{{form.animais_trabalho_remuneracao_capital}}</div>
-                        <div style="top: 78%;left: 92%;position: absolute;">{{form.animais_trabalho_custo_fixo}}</div>
-                        <div style="top: 78%;left: 104%;position: absolute;">{{form.animais_trabalho_porcetagem_custo_fixo}}</div>
+                        <div style="top: 78%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 78%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 84%;position: absolute;">Canavial ou volumoso</span>
-                        <div style="top: 84%;left: 32%;position: absolute;">{{form.canavial_ou_valor_inicial}}</div>
+                        <div style="top: 84%;left: 32%;position: absolute;">{{form.canavial_ou_volumoso_valor_inicial}}</div>
                         <div style="top: 84%;left: 44%;position: absolute;">{{form.canavial_ou_volumoso_capital_medio}}</div>
                         <div style="top: 84%;left: 56%;position: absolute;">{{form.canavial_ou_volumoso_valor_final_ou_sucata}}</div>
                         <div style="top: 84%;left: 68%;position: absolute;">{{form.canavial_ou_volumoso_depreciacao_anual}}</div>
                         <div style="top: 84%;left: 80%;position: absolute;">{{form.canavial_ou_volumoso_remuneracao_capital}}</div>
-                        <div style="top: 84%;left: 92%;position: absolute;">{{form.canavial_ou_volumoso_custo_fixo}}</div>
-                        <div style="top: 84%;left: 104%;position: absolute;">{{form.canavial_ou_volumoso_porcetagem_custo_fixo}}</div>
+                        <div style="top: 84%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 84%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 90%;position: absolute;">Benfeitorias</span>
                         <div style="top: 90%;left: 32%;position: absolute;">{{form.benfeitorias_valor_inicial}}</div>
@@ -323,26 +386,26 @@
                         <div style="top: 90%;left: 56%;position: absolute;">{{form.benfeitorias_valor_final_ou_sucata}}</div>
                         <div style="top: 90%;left: 68%;position: absolute;">{{form.benfeitorias_depreciacao_anual}}</div>
                         <div style="top: 90%;left: 80%;position: absolute;">{{form.benfeitorias_remuneracao_capital}}</div>
-                        <div style="top: 90%;left: 92%;position: absolute;">{{form.benfeitorias_custo_fixo}}</div>
-                        <div style="top: 90%;left: 104%;position: absolute;">{{form.benfeitorias_porcetagem_custo_fixo}}</div>
+                        <div style="top: 90%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 90%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 96%;position: absolute;">Cercas</span>
-                        <div style="top: 96%;left: 32%;position: absolute;">{{form.cercas_valor_valor_inicial}}</div>
+                        <div style="top: 96%;left: 32%;position: absolute;">{{form.cercas_valor_inicial}}</div>
                         <div style="top: 96%;left: 44%;position: absolute;">{{form.cercas_capital_medio}}</div>
                         <div style="top: 96%;left: 56%;position: absolute;">{{form.cercas_valor_final_ou_sucata}}</div>
                         <div style="top: 96%;left: 68%;position: absolute;">{{form.cercas_depreciacao_anual}}</div>
                         <div style="top: 96%;left: 80%;position: absolute;">{{form.cercas_remuneracao_capital}}</div>
-                        <div style="top: 96%;left: 92%;position: absolute;">{{form.cercas_custo_fixo}}</div>
-                        <div style="top: 96%;left: 104%;position: absolute;">{{form.cercas_valor_porcetagem_custo_fixo}}</div>
+                        <div style="top: 96%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 96%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 102%;position: absolute;">Edificações</span>
-                        <div style="top: 102%;left: 32%;position: absolute;">{{form.edificacoes_inicial}}</div>
+                        <div style="top: 102%;left: 32%;position: absolute;">{{form.edificacoes_valor_inicial}}</div>
                         <div style="top: 102%;left: 44%;position: absolute;">{{form.edificacoes_capital_medio}}</div>
                         <div style="top: 102%;left: 56%;position: absolute;">{{form.edificacoes_valor_final_ou_sucata}}</div>
                         <div style="top: 102%;left: 68%;position: absolute;">{{form.edificacoes_depreciacao_anual}}</div>
                         <div style="top: 102%;left: 80%;position: absolute;">{{form.edificacoes_remuneracao_capital}}</div>
-                        <div style="top: 102%;left: 92%;position: absolute;">{{form.edificacoes_custo_fixo}}</div>
-                        <div style="top: 102%;left: 104%;position: absolute;">{{form.edificacoes_porcetagem_custo_fixo}}</div>
+                        <div style="top: 102%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 102%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 108%;position: absolute;">Pastagem</span>
                         <div style="top: 108%;left: 32%;position: absolute;">{{form.pastagem_valor_inicial}}</div>
@@ -350,26 +413,10 @@
                         <div style="top: 108%;left: 56%;position: absolute;">{{form.pastagem_valor_final_ou_sucata }}</div>
                         <div style="top: 108%;left: 68%;position: absolute;">{{form.pastagem_depreciacao_anual}}</div>
                         <div style="top: 108%;left: 80%;position: absolute;">{{form.pastagem_remuneracao_capital}}</div>
-                        <div style="top: 108%;left: 92%;position: absolute;">{{form.pastagem_custo_fixo}}</div>
-                        <div style="top: 108%;left: 104%;position: absolute;">{{form.pastagem_porcetagem_custo_fixo}}</div>
+                        <div style="top: 108%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 108%;left: 104%;position: absolute;">aqui</div>
 
-                    <span style="top: 114%;position: absolute;">Semem</span>
-                        <div style="top: 114%;left: 32%;position: absolute;">{{form.semem_valor_inicial }}</div>
-                        <div style="top: 114%;left: 44%;position: absolute;">{{form.semem_capital_medio}}</div>
-                        <div style="top: 114%;left: 56%;position: absolute;">{{form.semem_valor_final_ou_sucata}}</div>
-                        <div style="top: 114%;left: 68%;position: absolute;">{{form.semem_depreciacao_anual}}</div>
-                        <div style="top: 114%;left: 80%;position: absolute;">{{form.semem_remuneracao_capital}}</div>
-                        <div style="top: 114%;left: 92%;position: absolute;">{{form.semem_total_custo_fixo}}</div>
-                        <div style="top: 114%;left: 104%;position: absolute;">{{form.semem_porcetagem_custo_fixo}}</div>
 
-                    <span style="top: 120%;position: absolute;">Terra</span>
-                        <div style="top: 120%;left: 32%;position: absolute;">{{form.terra_valor_inicial}}</div>
-                        <div style="top: 120%;left: 44%;position: absolute;">{{form.terra_capital_medio}}</div>
-                        <div style="top: 120%;left: 56%;position: absolute;">{{form.terra_valor_final_ou_sucata}}</div>
-                        <div style="top: 120%;left: 68%;position: absolute;">{{form.terra_depreciacao_anual}}</div>
-                        <div style="top: 120%;left: 80%;position: absolute;">{{form.terra_remuneracao_capital}}</div>
-                        <div style="top: 120%;left: 92%;position: absolute;">{{form.terra_custo_fixo }}</div>
-                        <div style="top: 120%;left: 104%;position: absolute;">{{form.terra_porcetagem_custo_fixo}}</div>
 
                     <span style="top: 126%;position: absolute;">Total</span>
                         <div style="top: 126%;left: 32%;position: absolute;">{{form.total_valor_inicial}}</div>
@@ -377,10 +424,59 @@
                         <div style="top: 126%;left: 56%;position: absolute;">{{form.total_valor_final_ou_sucata}}</div>
                         <div style="top: 126%;left: 68%;position: absolute;">{{form.total_depreciacao_anual}}</div>
                         <div style="top: 126%;left: 80%;position: absolute;">{{form.total_remuneracao_capital}}</div>
-                        <div style="top: 126%;left: 92%;position: absolute;">{{form.total_custo_fixo}}</div>
-                        <div style="top: 126%;left: 104%;position: absolute;">{{form.total_porcetagem_custo_fixo}}</div>
+                        <div style="top: 126%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 126%;left: 104%;position: absolute;">aqui</div>
                         
                 </div>
+
+            <h5 style="top: 116%;position: absolute;">Depreciação Mensal(R$)</h5>
+            <span style="top: 117%;position: absolute;left:40%;">{{ form.Depreciacao_mensal }}</span>
+
+            <h5 style="top: 121%;position: absolute;">Jurus de remuneração ao ano</h5>
+            <span style="top: 121%;position: absolute;left:40%;">{{ form.jurus_remuneracao_ano }}</span>
+
+            <h5 style="top: 125%;position: absolute;">Informações para calculos</h5>
+            <h5 style="top: 125%;position: absolute;left:40%;">Depreciação anual</h5>
+            <h5 style="top: 125%;position: absolute;left:60%;">Amortização/anos</h5>
+            <span style="top: 130%;position: absolute">Máquinas e implementos</span>
+                <div style="top: 130%;position: absolute;left:40%;">{{ form.maquinas_implementos_dep }}</div>
+                <div style="top: 130%;position: absolute;left:60%;">10</div>
+            <span style="top: 135%;position: absolute">Tratores</span>
+                <div style="top: 135%;position: absolute;left:40%;">{{ form.tratores_dep }}</div>
+                <div style="top: 135%;position: absolute;left:60%;">20</div>
+            <span style="top: 140%;position: absolute">Veiculos</span>
+                <div style="top: 140%;position: absolute;left:40%;">{{ form.veiculos_dep }}</div>
+                <div style="top: 140%;position: absolute;left:60%;">5</div>
+            <span style="top: 145%;position: absolute">Equipamentos Manuais</span>
+                <div style="top: 145%;position: absolute;left:40%;">{{ form.equi_manu_dep }}</div>
+                <div style="top: 145%;position: absolute;left:60%;">10</div>
+            <span style="top: 150%;position: absolute">Reprodutores machos</span>
+                <div style="top: 150%;position: absolute;left:40%;">{{ form.rep_macho_dep }}</div>
+                <div style="top: 150%;position: absolute;left:60%;">4</div>
+            <span style="top: 155%;position: absolute">Reprodutores femeas</span>
+                <div style="top: 155%;position: absolute;left:40%;">{{ form.rep_femea_dep }}</div>
+                <div style="top: 155%;position: absolute;left:60%;">10</div>
+            <span style="top: 160%;position: absolute">Animais trabalho</span>
+                    <div style="top: 160%;position: absolute;left:40%;">{{ form.animais_trab_dep }}</div>
+                <div style="top: 160%;position: absolute;left:60%;">8</div>
+            <span style="top: 165%;position: absolute">Canavial ou volumoso</span>
+                    <div style="top: 165%;position: absolute;left:40%;">{{ form.cana_volu_dep }}</div>
+                <div style="top: 165%;position: absolute;left:60%;">4</div>
+            <span style="top: 170%;position: absolute">Benfeitorias</span>
+                    <div style="top: 170%;position: absolute;left:40%;">{{ form.benfeitorias_dep }}</div>
+                <div style="top: 170%;position: absolute;left:60%;">40</div>
+            <span style="top: 175%;position: absolute">Cercas</span>
+                    <div style="top: 175%;position: absolute;left:40%;">{{ form.cercas_dep }}</div>
+                <div style="top: 175%;position: absolute;left:60%;">30</div>
+            <span style="top: 180%;position: absolute">Edificações</span>
+                    <div style="top: 180%;position: absolute;left:40%;">{{ form.edificacoes_dep }}</div>
+                <div style="top: 180%;position: absolute;left:60%;">30</div>
+            <span style="top: 185%;position: absolute">Pastagem</span>
+                    <div style="top: 185%;position: absolute;left:40%;">{{ form.pastagem_dep }}</div>
+                <div style="top: 185%;position: absolute;left:60%;">70</div>
+
+
+
                 <div class="row">
 
 

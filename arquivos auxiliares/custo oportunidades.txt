@@ -1,0 +1,155 @@
+#
+na classe FormCustoFixo exitesm os nomes que antecedem as igualdades. A linha 56 marca a divisão entre as marcações com aqui!
+
+A tarefa será de usar esses nomes que antecedem as igualdades e substituir em {{form.<nome_antes_da_igualdade>}}, o que está entre "<>" e as "<>"
+devem ser substituidos, são somente para ilustrar!
+#
+
+
+    class FormCustoOPortunidade(forms.ModelForm):
+
+    fazenda =forms.ModelChoiceField(queryset=fazenda.objects.all(), label='Fazenda',widget=forms.Select(attrs={"style":"width:20%;" }))
+    rebanho_cabeca = forms.IntegerField()
+    peso_medio_kg = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_reserva_app_ha = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_ha = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    ganho_arrouba_cabeca_ano = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    litacao_cabeca_ha = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    produtividade_arrouba_ha = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_arrouba_produzida = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #indices economicos
+    imobilizado_em_terra_reais = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    imobilizado_em_animais_reais = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    imobilizado_desembolso_reais = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    imobilizado_total_reais = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #calculos de oportunidades custos
+
+    aluguel_cab_mes_terra = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    tempo_aluguel_terra=  forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    cab_ha_terra = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    receita_ha_ano_terra = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    valor_terra_ha_terra = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    receita_area_util_terra = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    #imobilidade
+    custo_oportunidade = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    taxa_SELIC_imobilidade = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    imposto_bancario = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    inflacao = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    no_imobilizado_rais = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    arrendamento_ha_ano = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    valor_da_terra_ha = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_de_oportunidade = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    receita_na_area_util = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    custo_oportunidade_operacional = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    taxa_selic = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    imposto_bancario_operacional = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    inflacao_operacional = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    custo_de_oportunidade_de_custeio = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+    somatoria_dos_custos_de_oportunidade = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    remuneracao_real_do_custo_total = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+
+#-----------------------------------------------------------------------------------------------------------------#
+
+
+
+            <h3>Custo oportunidade</h3>
+            <span style="left: 20%;position: absolute; font-weight: bolder;" class="label-info">Indices produtivos</span>
+            <span style="top: 27%;position: absolute;">Rebanho em cabeças</span>
+            <span style="top: 32%;position: absolute;">Peso médio(kg)</span>
+            <span style="top: 37%;position: absolute;">Area Reserva e A.P.P. (ha)</span>
+            <span style="top: 42%;position: absolute;">Ganho @/cab/ano</span>
+            <span style="top: 47%;position: absolute;">Lotação (cab/@)</span>
+            <span style="top: 52%;position: absolute;">Produtividade (@/ha)</span>
+            <span style="top: 57%;position: absolute;">Totao de @ produzidas</span>
+
+            <span style="left: 35%;position: absolute; font-weight: bolder;" class="label-info">Valores</span>
+            <div style="left: 35%;top: 27%; position: absolute">aqui</div>
+            <div style="left: 35%;top: 32%; position: absolute">aqui</div>
+            <div style="left: 35%;top: 37%; position: absolute">aqui</div>
+            <div style="left: 35%;top: 42%; position: absolute">aqui</div>
+            <div style="left: 35%;top: 47%; position: absolute">aqui</div>
+            <div style="left: 35%;top: 52%; position: absolute">aqui</div>
+            <div style="left: 35%;top: 57%; position: absolute">aqui</div>
+
+            <span style="top: 65%;position: absolute; font-weight: bolder;" class="label-info">Indices econômicos</span>
+            <span style="top: 68%;position: absolute; font-weight: bolder;">Imobilizado</span>
+            <span style="top: 77%;position: absolute;">Em terra(R$)</span>
+            <span style="top: 82%;position: absolute;">Em animais(R$)</span>
+            <span style="top: 87%;position: absolute;">Desembolsos(R$)</span>
+            <span style="top: 92%;position: absolute;">TOTAL(R$)</span>
+
+            <span style="left: 35%;top: 65%;position: absolute; font-weight: bolder;" class="label-info">Valores</span>
+
+            <div style="left: 35%;top: 77%; position: absolute">aqui</div>
+            <div style="left: 35%;top: 82%; position: absolute">aqui</div>
+            <div style="left: 35%;top: 87%; position: absolute">aqui</div>
+            <div style="left: 35%;top: 92%; position: absolute">aqui</div>
+            <h3 style="top: 95%;position: absolute" class="label-success">Custo de oportunidade com pecuária ou agricultura</h3>
+            <h4 style="top: 100%;position: absolute"> 1.1 - Da terra</h4>
+
+            <h5 style="top: 105%;position: absolute" class="label-success">Pecuária</h5>
+            <span style="top: 110%;position: absolute">Aluguel(cab/mes)</span>
+            <span style="top: 115%;position: absolute">Tempo de aluguel(mes)</span>
+            <span style="top: 120%;position: absolute">Cab/(ha)</span>
+            <span style="top: 125%;position: absolute">Receita/ha/ano</span>
+            <span style="top: 130%;position: absolute">Valor da terra(ha)</span>
+            <span style="top: 135%;position: absolute">Receita de área útil</span>
+                <div style="left: 35%;top: 110%; position: absolute">aqui</div>
+                <div style="left: 35%;top: 115%; position: absolute">aqui</div>
+                <div style="left: 35%;top: 120%; position: absolute">aqui</div>
+                <div style="left: 35%;top: 125%; position: absolute">aqui</div>
+                <div style="left: 35%;top: 130%; position: absolute">aqui</div>
+                <div style="left: 35%;top: 135%; position: absolute">aqui</div>
+
+
+           <h5 style="top: 105%;left: 60%;position: absolute" class="label-success">Agricultura</h5>
+            <span style="top: 110%;left: 60%;position: absolute">Arrendamento(ha/ano)</span>
+            <span style="top: 115%;left: 60%;position: absolute">Valor da terra(ha)</span>
+            <span style="top: 120%;left: 60%;position: absolute">Custo oportunidade</span>
+            <span style="top: 125%;left: 60%;position: absolute">Receita área útil</span>
+                <div style="left: 73%;top: 110%; position: absolute">aqui</div>
+                <div style="left: 73%;top: 115%; position: absolute">aqui</div>
+                <div style="left: 73%;top: 120%; position: absolute">aqui</div>
+                <div style="left: 73%;top: 125%; position: absolute">aqui</div>
+            <h4 style="top: 20%;left: 45%;position: absolute"> 1.2 - Dos animais + outros bens</h4>
+                <span style="top: 25%;left: 45%;position: absolute" >Imobilizado </span>
+                <span style="top: 30%;left: 45%;position: absolute" >Custo oportunidade </span>
+                <span style="top: 35%;left: 45%;position: absolute" >Taxa SELIC </span>
+                <span style="top: 40%;left: 45%;position: absolute" >Imposto bancário </span>
+                <span style="top: 45%;left: 45%;position: absolute" >Inflação </span>
+                <span style="top: 50%;left: 45%;position: absolute" >Custo de oportunidade de custeio </span>
+                    <div style="left: 60%;top: 25%; position: absolute">aqui</div>
+                    <div style="left: 60%;top: 30%; position: absolute">aqui</div>
+                    <div style="left: 60%;top: 35%; position: absolute">aqui</div>
+                    <div style="left: 60%;top: 40%; position: absolute">aqui</div>
+                    <div style="left: 60%;top: 45%; position: absolute">aqui</div>
+                    <div style="left: 60%;top: 50%; position: absolute">aqui</div>
+
+            <h4 style="top: 60%;left: 45%;position: absolute"> 1.3 - Dos desembolsos</h4>
+                <span style="top: 65%;left: 45%;position: absolute" >Custo operacional (CV + D adm) </span>
+                <span style="top: 70%;left: 45%;position: absolute" >Custo oportunidade </span>
+                <span style="top: 75%;left: 45%;position: absolute" >Taxa SELIC </span>
+                <span style="top: 80%;left: 45%;position: absolute" >Imposto bancário </span>
+                <span style="top: 85%;left: 45%;position: absolute" >Inflação </span>
+                <span style="top: 90%;left: 45%;position: absolute" >Custo de oportunidade de custeio </span>
+                    <div style="left: 60%;top: 65%; position: absolute">aqui</div>
+                    <div style="left: 60%;top: 70%; position: absolute">aqui</div>
+                    <div style="left: 60%;top: 75%; position: absolute">aqui</div>
+                    <div style="left: 60%;top: 80%; position: absolute">aqui</div>
+                    <div style="left: 60%;top: 85%; position: absolute">aqui</div>
+                    <div style="left: 60%;top: 90%; position: absolute">aqui</div>
+
+            <h4 style="top: 20%;left: 65%;position: absolute"> 1.4 - Da atividade</h4>
+                <span style="top: 30%;left: 65%;position: absolute" >Capital da atividade </span>
+                <span style="top: 35%;left: 65%;position: absolute" >Somatório dos custo de oportunidade </span>
+                <span style="top: 40%;left: 65%;position: absolute" >Somatorio real do custo total</span>
+                    <div style="left: 85%;top: 35%; position: absolute">aqui</div>
+                    <div style="left: 85%;top: 40%; position: absolute">aqui</div>
+

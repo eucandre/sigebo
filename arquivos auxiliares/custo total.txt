@@ -1,0 +1,211 @@
+#
+na classe FormCustoFixo exitesm os nomes que antecedem as igualdades. A linha 220 marca a divisão entre as marcações com aqui!
+
+A tarefa será de usar esses nomes que antecedem as igualdades e substituir em {{form.<nome_antes_da_igualdade>}}, o que está entre "<>" e as "<>"
+devem ser substituidos, são somente para ilustrar!
+#
+
+
+
+
+
+
+  Fixo_janeiro =          forms.FloatField()
+  Fixo_fevereiro =        forms.FloatField()
+  Fixo_marco =            forms.FloatField()
+  Fixo_abril =            forms.FloatField()
+  Fixo_maio =             forms.FloatField()
+  Fixo_junho =            forms.FloatField()
+  Fixo_julho =            forms.FloatField()
+  Fixo_agosto =           forms.FloatField()
+  Fixo_setembro =         forms.FloatField()
+  Fixo_outubro =          forms.FloatField()
+  Fixo_novembro =         forms.FloatField()
+  Fixo_dezembro =         forms.FloatField()
+  Fixo_total =            forms.FloatField()
+  Fixo_custo_total =      forms.FloatField()
+
+  Variavel_janeiro =          forms.FloatField()
+  Variavel_fevereiro =        forms.FloatField()
+  Variavel_marco =            forms.FloatField()
+  Variavel_abril =            forms.FloatField()
+  Variavel_maio =             forms.FloatField()
+  Variavel_junho =            forms.FloatField()
+  Variavel_julho =            forms.FloatField()
+  Variavel_agosto =           forms.FloatField()
+  Variavel_setembro =         forms.FloatField()
+  Variavel_outubro =          forms.FloatField()
+  Variavel_novembro =         forms.FloatField()
+  Variavel_dezembro =         forms.FloatField()
+  Variavel_total =            forms.FloatField()
+  Variavel_custo_total =      forms.FloatField()
+
+  D_administrativas_janeiro =          forms.FloatField()
+  D_administrativas_fevereiro =        forms.FloatField()
+  D_administrativas_marco =            forms.FloatField()
+  D_administrativas_abril =            forms.FloatField()
+  D_administrativas_maio =             forms.FloatField()
+  D_administrativas_junho =            forms.FloatField()
+  D_administrativas_julho =            forms.FloatField()
+  D_administrativas_agosto =           forms.FloatField()
+  D_administrativas_setembro =         forms.FloatField()
+  D_administrativas_outubro =          forms.FloatField()
+  D_administrativas_novembro =         forms.FloatField()
+  D_administrativas_dezembro =         forms.FloatField()
+  D_administrativas_total =            forms.FloatField()
+  D_administrativas_custo_total =      forms.FloatField()
+
+  Oportunidade_janeiro =          forms.FloatField()
+  Oportunidade_fevereiro =        forms.FloatField()
+  Oportunidade_marco =            forms.FloatField()
+  Oportunidade_abril =            forms.FloatField()
+  Oportunidade_maio =             forms.FloatField()
+  Oportunidade_junho =            forms.FloatField()
+  Oportunidade_julho =            forms.FloatField()
+  Oportunidade_agosto =           forms.FloatField()
+  Oportunidade_setembro =         forms.FloatField()
+  Oportunidade_outubro =          forms.FloatField()
+  Oportunidade_novembro =         forms.FloatField()
+  Oportunidade_dezembro =         forms.FloatField()
+  Oportunidade_total =            forms.FloatField()
+  Oportunidade_custo_total =      forms.FloatField()
+
+  Ct_cabeca_c_reposicao_janeiro =          forms.FloatField()
+  Ct_cabeca_c_reposicao_fevereiro =        forms.FloatField()
+  Ct_cabeca_c_reposicao_marco =            forms.FloatField()
+  Ct_cabeca_c_reposicao_abril =            forms.FloatField()
+  Ct_cabeca_c_reposicao_maio =             forms.FloatField()
+  Ct_cabeca_c_reposicao_junho =            forms.FloatField()
+  Ct_cabeca_c_reposicao_julho =            forms.FloatField()
+  Ct_cabeca_c_reposicao_agosto =           forms.FloatField()
+  Ct_cabeca_c_reposicao_setembro =         forms.FloatField()
+  Ct_cabeca_c_reposicao_outubro =          forms.FloatField()
+  Ct_cabeca_c_reposicao_novembro =         forms.FloatField()
+  Ct_cabeca_c_reposicao_dezembro =         forms.FloatField()
+  Ct_cabeca_c_reposicao_total =            forms.FloatField()
+  Ct_cabeca_c_reposicao_custo_total =      forms.FloatField()
+
+  Total_janeiro =          forms.FloatField()
+  Total_fevereiro =        forms.FloatField()
+  Total_marco =            forms.FloatField()
+  Total_abril =            forms.FloatField()
+  Total_maio =             forms.FloatField()
+  Total_junho =            forms.FloatField()
+  Total_julho =            forms.FloatField()
+  Total_agosto =           forms.FloatField()
+  Total_setembro =         forms.FloatField()
+  Total_outubro =          forms.FloatField()
+  Total_novembro =         forms.FloatField()
+  Total_dezembro =         forms.FloatField()
+  Total_total =            forms.FloatField()
+  Total_custo_total =      forms.FloatField()
+
+#--------------------------------------------------------------------------------------------------------------------#
+
+<h3>Custo Total</h3>
+                   <div class="text-success">
+                    <span style="font-weight: bolder;-webkit-transform: rotate(-45deg);">Custo econo ati.</span>
+                    <span style="left: 27% ;position: absolute;font-weight: bolder">Janeiro</span>
+                    <span style="left: 32% ;position: absolute;font-weight: bolder">Fevereiro</span>
+                    <span style="left: 37% ;position: absolute;font-weight: bolder">Março</span>
+                    <span style="left: 43% ;position: absolute;font-weight: bolder">Abril</span>
+                    <span style="left: 49% ;position: absolute;font-weight: bolder">Maio</span>
+                    <span style="left: 55% ;position: absolute;font-weight: bolder">Junho</span>
+                    <span style="left: 61% ;position: absolute;font-weight: bolder">Agosto</span>
+                    <span style="left: 67% ;position: absolute;font-weight: bolder">Setembro</span>
+                    <span style="left: 73% ;position: absolute;font-weight: bolder">Outubro</span>
+                    <span style="left: 79% ;position: absolute;font-weight: bolder">Novembro</span>
+                    <span style="left: 85% ;position: absolute;font-weight: bolder">Dezembro</span>
+                    <span style="left: 91% ;position: absolute;font-weight: bolder">Total</span>
+                    <span style="left: 94% ;position: absolute;font-weight: bolder ;-webkit-transform: rotate(-45deg);top:14%;">% custo total</span>
+                    </div>
+
+                <span>Fixo</span>
+                     <div style="top:24%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:24%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:27%; left: 20%;position: absolute">Variável</span>
+                     <div style="top:27%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:27%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:30%; left: 20%;position: absolute">Desp. Administ.</span>
+                     <div style="top:30%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:30%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:33%; left: 20%;position: absolute">Oportunidade</span>
+                     <div style="top:33%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:33%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:36%; left: 20%;position: absolute">Total</span>
+                     <div style="top:36%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:36%; left: 97%;position: absolute">aqui</div>
+
+                    <span style="top:39%; left: 20%;position: absolute">Total</span>
+                     <div style="top:39%; left: 28%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 32%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 38%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 44%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 49%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 56%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 62%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 68%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 74%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 80%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 86%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 92%;position: absolute">aqui</div>
+                     <div style="top:39%; left: 97%;position: absolute">aqui</div>
