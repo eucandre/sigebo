@@ -1,0 +1,390 @@
+<script>
+    var A_ENGORD_depreciacao= document.getElementById("id_");
+    var A_ENGORD_depreciacao_INICIAL= document.getElementById("id_");
+    var A_ENGORD_depreciacao_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         A_ENGORD_depreciacao.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    A_ENGORD_depreciacao.addEventListener("keyup",animais_ENGORDA);
+    A_ENGORD_depreciacao_INICIAL.addEventListener("keyup",A_ENGORD_depreciacao_INICIAL);
+    A_ENGORD_depreciacao_FINAL.addEventListener("keyup",A_ENGORD_depreciacao_FINAL);
+</script>
+
+====================================================================================================
+
+<script>
+    var A_ENGORD_remuneracao= document.getElementById("id_");
+    var A_ENGORD_remuneracao_INICIAL= document.getElementById("id_");
+    var A_ENGORD_remuneracao_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         A_ENGORD_remuneracao.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    A_ENGORD_remuneracao.addEventListener("keyup",animais_ENGORDA);
+    A_ENGORD_remuneracao_INICIAL.addEventListener("keyup",A_ENGORD_remuneracao_INICIAL);
+    A_ENGORD_remuneracao_FINAL.addEventListener("keyup",A_ENGORD_remuneracao_FINAL);
+</script>
+
+====================================================================================================
+
+<script>
+    var A_ENGORD_CFX= document.getElementById("id_");
+    var A_ENGORD_CFX_INICIAL= document.getElementById("id_");
+    var A_ENGORD_CFX_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         A_ENGORD_CFX.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    A_ENGORD_CFX.addEventListener("keyup",animais_ENGORDA);
+    A_ENGORD_CFX_INICIAL.addEventListener("keyup",A_ENGORD_CFX_INICIAL);
+    A_ENGORD_CFX_FINAL.addEventListener("keyup",A_ENGORD_CFX_FINAL);
+</script>
+
+====================================================================================================
+
+****************************************************************************************************
+
+====================================================================================================
+<script>
+    var A_TRAB_depreciacao= document.getElementById("id_");
+    var A_TRAB_depreciacao_INICIAL= document.getElementById("id_");
+    var A_TRAB_depreciacao_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         A_TRAB_depreciacao.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    A_TRAB_depreciacao.addEventListener("keyup",animais_TRABA);
+    A_TRAB_depreciacao_INICIAL.addEventListener("keyup",A_TRAB_depreciacao_INICIAL);
+    A_TRAB_depreciacao_FINAL.addEventListener("keyup",A_TRAB_depreciacao_FINAL);
+</script>
+
+====================================================================================================
+
+<script>
+    var A_TRAB_remuneracao= document.getElementById("id_");
+    var A_TRAB_remuneracao_INICIAL= document.getElementById("id_");
+    var A_TRAB_remuneracao_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         A_TRAB_remuneracao.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    A_TRAB_remuneracao.addEventListener("keyup",animais_TRABA);
+    A_TRAB_remuneracao_INICIAL.addEventListener("keyup",A_TRAB_remuneracao_INICIAL);
+    A_TRAB_remuneracao_FINAL.addEventListener("keyup",A_TRAB_remuneracao_FINAL);
+</script>
+
+====================================================================================================
+
+<script>
+    var A_TRAB_CFX= document.getElementById("id_");
+    var A_TRAB_CFX_INICIAL= document.getElementById("id_");
+    var A_TRAB_CFX_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         A_TRAB_CFX.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    A_TRAB_CFX.addEventListener("keyup",animais_TRABA);
+    A_TRAB_CFX_INICIAL.addEventListener("keyup",A_TRAB_CFX_INICIAL);
+    A_TRAB_CFX_FINAL.addEventListener("keyup",A_TRAB_CFX_FINAL);
+</script>
+
+====================================================================================================
+
+****************************************************************************************************
+
+====================================================================================================
+
+<script>
+    var CANA_VOLU_depreciacao= document.getElementById("id_");
+    var CANA_VOLU_depreciacao_INICIAL= document.getElementById("id_");
+    var CANA_VOLU_depreciacao_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         CANA_VOLU_depreciacao.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    CANA_VOLU_depreciacao.addEventListener("keyup",animais_TRABA);
+    CANA_VOLU_depreciacao_INICIAL.addEventListener("keyup",CANA_VOLU_depreciacao_INICIAL);
+    CANA_VOLU_depreciacao_FINAL.addEventListener("keyup",CANA_VOLU_depreciacao_FINAL);
+</script>
+
+====================================================================================================
+
+<script>
+    var CANA_VOLU_remuneracao= document.getElementById("id_");
+    var CANA_VOLU_remuneracao_INICIAL= document.getElementById("id_");
+    var CANA_VOLU_remuneracao_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         CANA_VOLU_remuneracao.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    CANA_VOLU_remuneracao.addEventListener("keyup",animais_TRABA);
+    CANA_VOLU_remuneracao_INICIAL.addEventListener("keyup",CANA_VOLU_remuneracao_INICIAL);
+    CANA_VOLU_remuneracao_FINAL.addEventListener("keyup",CANA_VOLU_remuneracao_FINAL);
+</script>
+
+====================================================================================================
+
+<script>
+    var CANA_VOLU_CFX= document.getElementById("id_");
+    var CANA_VOLU_CFX_INICIAL= document.getElementById("id_");
+    var CANA_VOLU_CFX_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         CANA_VOLU_CFX.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    CANA_VOLU_CFX.addEventListener("keyup",animais_TRABA);
+    CANA_VOLU_CFX_INICIAL.addEventListener("keyup",CANA_VOLU_CFX_INICIAL);
+    CANA_VOLU_CFX_FINAL.addEventListener("keyup",CANA_VOLU_CFX_FINAL);
+</script>
+
+====================================================================================================
+
+****************************************************************************************************
+
+====================================================================================================
+
+<script>
+    var BEMFEITORIAS_depreciacao= document.getElementById("id_");
+    var BEMFEITORIAS_depreciacao_INICIAL= document.getElementById("id_");
+    var BEMFEITORIAS_depreciacao_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         BEMFEITORIAS_depreciacao.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    BEMFEITORIAS_depreciacao.addEventListener("keyup",animais_TRABA);
+    BEMFEITORIAS_depreciacao_INICIAL.addEventListener("keyup",BEMFEITORIAS_depreciacao_INICIAL);
+    BEMFEITORIAS_depreciacao_FINAL.addEventListener("keyup",BEMFEITORIAS_depreciacao_FINAL);
+</script>
+
+====================================================================================================
+
+<script>
+    var BEMFEITORIAS_remuneracao= document.getElementById("id_");
+    var BEMFEITORIAS_remuneracao_INICIAL= document.getElementById("id_");
+    var BEMFEITORIAS_remuneracao_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         BEMFEITORIAS_remuneracao.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    BEMFEITORIAS_remuneracao.addEventListener("keyup",animais_TRABA);
+    BEMFEITORIAS_remuneracao_INICIAL.addEventListener("keyup",BEMFEITORIAS_remuneracao_INICIAL);
+    BEMFEITORIAS_remuneracao_FINAL.addEventListener("keyup",BEMFEITORIAS_remuneracao_FINAL);
+</script>
+
+====================================================================================================
+
+<script>
+    var BEMFEITORIAS_CFX= document.getElementById("id_");
+    var BEMFEITORIAS_CFX_INICIAL= document.getElementById("id_");
+    var BEMFEITORIAS_CFX_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         BEMFEITORIAS_CFX.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    BEMFEITORIAS_CFX.addEventListener("keyup",animais_TRABA);
+    BEMFEITORIAS_CFX_INICIAL.addEventListener("keyup",BEMFEITORIAS_CFX_INICIAL);
+    BEMFEITORIAS_CFX_FINAL.addEventListener("keyup",BEMFEITORIAS_CFX_FINAL);
+</script>
+
+====================================================================================================
+
+****************************************************************************************************
+
+====================================================================================================
+
+<script>
+    var CERCAS_depreciacao= document.getElementById("id_");
+    var CERCAS_depreciacao_INICIAL= document.getElementById("id_");
+    var CERCAS_depreciacao_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         CERCAS_depreciacao.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    CERCAS_depreciacao.addEventListener("keyup",animais_TRABA);
+    CERCAS_depreciacao_INICIAL.addEventListener("keyup",CERCAS_depreciacao_INICIAL);
+    CERCAS_depreciacao_FINAL.addEventListener("keyup",CERCAS_depreciacao_FINAL);
+</script>
+
+====================================================================================================
+
+<script>
+    var CERCAS_remuneracao= document.getElementById("id_");
+    var CERCAS_remuneracao_INICIAL= document.getElementById("id_");
+    var CERCAS_remuneracao_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         CERCAS_remuneracao.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    CERCAS_remuneracao.addEventListener("keyup",animais_TRABA);
+    CERCAS_remuneracao_INICIAL.addEventListener("keyup",CERCAS_remuneracao_INICIAL);
+    CERCAS_remuneracao_FINAL.addEventListener("keyup",CERCAS_remuneracao_FINAL);
+</script>
+
+====================================================================================================
+
+<script>
+    var CERCAS_CFX= document.getElementById("id_");
+    var CERCAS_CFX_INICIAL= document.getElementById("id_");
+    var CERCAS_CFX_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         CERCAS_CFX.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    CERCAS_CFX.addEventListener("keyup",animais_TRABA);
+    CERCAS_CFX_INICIAL.addEventListener("keyup",CERCAS_CFX_INICIAL);
+    CERCAS_CFX_FINAL.addEventListener("keyup",CERCAS_CFX_FINAL);
+</script>
+
+====================================================================================================
+
+****************************************************************************************************
+
+====================================================================================================
+
+<script>
+    var EDIF_depreciacao= document.getElementById("id_");
+    var EDIF_depreciacao_INICIAL= document.getElementById("id_");
+    var EDIF_depreciacao_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         EDIF_depreciacao.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    EDIF_depreciacao.addEventListener("keyup",animais_TRABA);
+    EDIF_depreciacao_INICIAL.addEventListener("keyup",EDIF_depreciacao_INICIAL);
+    EDIF_depreciacao_FINAL.addEventListener("keyup",EDIF_depreciacao_FINAL);
+</script>
+
+====================================================================================================
+
+<script>
+    var EDIF_remuneracao= document.getElementById("id_");
+    var EDIF_remuneracao_INICIAL= document.getElementById("id_");
+    var EDIF_remuneracao_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         EDIF_remuneracao.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    EDIF_remuneracao.addEventListener("keyup",animais_TRABA);
+    EDIF_remuneracao_INICIAL.addEventListener("keyup",EDIF_remuneracao_INICIAL);
+    EDIF_remuneracao_FINAL.addEventListener("keyup",EDIF_remuneracao_FINAL);
+</script>
+
+====================================================================================================
+
+<script>
+    var EDIF_CFX= document.getElementById("id_");
+    var EDIF_CFX_INICIAL= document.getElementById("id_");
+    var EDIF_CFX_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         EDIF_CFX.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    EDIF_CFX.addEventListener("keyup",animais_TRABA);
+    EDIF_CFX_INICIAL.addEventListener("keyup",EDIF_CFX_INICIAL);
+    EDIF_CFX_FINAL.addEventListener("keyup",EDIF_CFX_FINAL);
+</script>
+
+====================================================================================================
+
+****************************************************************************************************
+
+====================================================================================================
+
+<script>
+    var PASTAGEM_depreciacao= document.getElementById("id_");
+    var PASTAGEM_depreciacao_INICIAL= document.getElementById("id_");
+    var PASTAGEM_depreciacao_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         PASTAGEM_depreciacao.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    PASTAGEM_depreciacao.addEventListener("keyup",animais_TRABA);
+    PASTAGEM_depreciacao_INICIAL.addEventListener("keyup",PASTAGEM_depreciacao_INICIAL);
+    PASTAGEM_depreciacao_FINAL.addEventListener("keyup",PASTAGEM_depreciacao_FINAL);
+</script>
+
+====================================================================================================
+
+<script>
+    var PASTAGEM_remuneracao= document.getElementById("id_");
+    var PASTAGEM_remuneracao_INICIAL= document.getElementById("id_");
+    var PASTAGEM_remuneracao_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         PASTAGEM_remuneracao.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    PASTAGEM_remuneracao.addEventListener("keyup",animais_TRABA);
+    PASTAGEM_remuneracao_INICIAL.addEventListener("keyup",PASTAGEM_remuneracao_INICIAL);
+    PASTAGEM_remuneracao_FINAL.addEventListener("keyup",PASTAGEM_remuneracao_FINAL);
+</script>
+
+====================================================================================================
+
+<script>
+    var PASTAGEM_CFX= document.getElementById("id_");
+    var PASTAGEM_CFX_INICIAL= document.getElementById("id_");
+    var PASTAGEM_CFX_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         PASTAGEM_CFX.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    PASTAGEM_CFX.addEventListener("keyup",animais_TRABA);
+    PASTAGEM_CFX_INICIAL.addEventListener("keyup",PASTAGEM_CFX_INICIAL);
+    PASTAGEM_CFX_FINAL.addEventListener("keyup",PASTAGEM_CFX_FINAL);
+</script>
+
+====================================================================================================
+
+****************************************************************************************************
+
+====================================================================================================
+
+<script>
+    var TOTAL_depreciacao= document.getElementById("id_");
+    var TOTAL_depreciacao_INICIAL= document.getElementById("id_");
+    var TOTAL_depreciacao_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         TOTAL_depreciacao.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    TOTAL_depreciacao.addEventListener("keyup",animais_TRABA);
+    TOTAL_depreciacao_INICIAL.addEventListener("keyup",TOTAL_depreciacao_INICIAL);
+    TOTAL_depreciacao_FINAL.addEventListener("keyup",TOTAL_depreciacao_FINAL);
+</script>
+
+====================================================================================================
+
+<script>
+    var TOTAL_remuneracao= document.getElementById("id_");
+    var TOTAL_remuneracao_INICIAL= document.getElementById("id_");
+    var TOTAL_remuneracao_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         TOTAL_remuneracao.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    TOTAL_remuneracao.addEventListener("keyup",animais_TRABA);
+    TOTAL_remuneracao_INICIAL.addEventListener("keyup",TOTAL_remuneracao_INICIAL);
+    TOTAL_remuneracao_FINAL.addEventListener("keyup",TOTAL_remuneracao_FINAL);
+</script>
+
+====================================================================================================
+
+<script>
+    var TOTAL_CFX= document.getElementById("id_");
+    var TOTAL_CFX_INICIAL= document.getElementById("id_");
+    var TOTAL_CFX_FINAL= document.getElementById("id_");
+    function <nome_funcao>(){
+         TOTAL_CFX.innerHTML = parseInt();
+    }
+    <nome_funcao>();
+    TOTAL_CFX.addEventListener("keyup",animais_TRABA);
+    TOTAL_CFX_INICIAL.addEventListener("keyup",TOTAL_CFX_INICIAL);
+    TOTAL_CFX_FINAL.addEventListener("keyup",TOTAL_CFX_FINAL);
+</script>
+
+====================================================================================================
+
+****************************************************************************************************
+
+====================================================================================================

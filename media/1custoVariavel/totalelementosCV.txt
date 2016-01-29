@@ -1,0 +1,96 @@
+#
+    Aqui repetir os blocos para os nome decorrentes:
+    Suplementação
+    Linha Branca (Sal mineral)
+    Carrapaticidas
+    Mosca do chifre
+    Vermífugo
+    Vacina de aftosa
+    Vacina clostridiose
+    Outras vacinas
+    Outros medicamentos
+    Mão de obra temporária
+    Materiais p/Fazenda
+    Curral
+    Frete Carretas
+    Casas
+    Tratores
+    Máquinas
+    Combustível
+    Outros
+    Celular
+    Encargos Bancos
+    Elabor.Projeto Pecuario
+    Energia elétrica
+    Aquisição de animais
+    OUTROS 1
+    OUTROS 2
+    OUTROS 3
+    OUTROS 4
+    OUTROS 5
+
+
+#
+
+
+
+var total_elementos = document.getElementById("id_");
+var Suplementação_janeiro             = document.getElementById("id_");
+var Suplementação_fevereiro             = document.getElementById("id_");
+var Suplementação_marco             = document.getElementById("id_");
+var Suplementação_abril             = document.getElementById("id_");
+var Suplementação_maio             = document.getElementById("id_");
+var Suplementação_junho             = document.getElementById("id_");
+var Suplementação_julho             = document.getElementById("id_");
+var Suplementação_agosto             = document.getElementById("id_");
+var Suplementação_setembro             = document.getElementById("id_");
+var Suplementação_outubro             = document.getElementById("id_");
+var Suplementação_novembro             = document.getElementById("id_");
+var Suplementação_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Suplementação_janeiro  .value)+
+        parseInt(Suplementação_fevereiro.value)+
+        parseInt(Suplementação_marco    .value)+
+        parseInt(Suplementação_abril    .value)+
+        parseInt(Suplementação_maio     .value)+
+        parseInt(Suplementação_junho    .value)+
+        parseInt(Suplementação_julho    .value)+
+        parseInt(Suplementação_agosto   .value)+
+        parseInt(Suplementação_setembro .value)+
+        parseInt(Suplementação_outubro  .value)+
+        parseInt(Suplementação_novembro .value)+
+        parseInt(Suplementação_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Suplementação_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementação_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementação_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementação_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementação_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementação_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementação_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementação_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementação_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementação_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementação_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementação_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

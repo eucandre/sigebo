@@ -154,3 +154,75 @@ def rep_fem_medio():
         return 0
     return int(i.reprodutores_femea_capital_medio)
 
+def ani_eng_ini():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.animais_engorda_valor_inicial_de_mercado)
+
+def ani_eng_fin():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.animais_engorda_valor_final_ou_sucata)
+
+def ani_eng_medio():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.animais_engorda_capital_medio)
+
+def ani_tra_ini():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.animais_trabalho_valor_inicial_de_mercado)
+
+def ani_tra_fin():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.animais_trabalho_valor_inicial_de_mercado)
+
+def ani_tra_medio():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.animais_trabalho_capital_medio)
+
+def can_vol_ini():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.canavial_ou_volumoso_valor_inicial_de_mercado)
+
+def can_vol_fin():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.canavial_ou_volumoso_valor_final_ou_sucata)
+
+def can_vol_medio():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.canavial_ou_volumoso_capital_medio)
+

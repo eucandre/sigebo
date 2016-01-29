@@ -534,35 +534,201 @@
                             rep_feme_ini.addEventListener("keyup",femeas_depre);
                             rep_feme_fin.addEventListener("keyup",femeas_depre);
                         </script>
-                        <div style="top: 68%;left: 80%;position: absolute;">{{form.reprodutores_femeas_remuneracao_capital}}</div>
-                        <div style="top: 68%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 68%;left: 80%;position: absolute;"><span id="id_reprodutores_femeas_remuneracao_capital"></span>
+                        </div>
+                    <script>
+                                var femea_remu = document.getElementById("id_reprodutores_femeas_remuneracao_capital");
+                                var femea_medio = document.getElementById("id_reprodutores_femeas_capital_medio");
+                                function femeaR_remuneracao(){
+                                    femea_remu.innerHTML = parseInt(femea_medio.value)*10;
+                                }
+                                femeaR_remuneracao();
+                                femea_medio.addEventListener("keyup",femeaR_remuneracao);
+                            </script>
+                        <div style="top: 68%;left: 92%;position: absolute;"><span id="id_reprodutores_femeas_custo_fixo"></span>
+
+                        </div>
+
+                    <script>
+                        var femeaCUSTOF = document.getElementById("id_reprodutores_femeas_custo_fixo");
+                        var femea_medio = document.getElementById("id_reprodutores_femeas_capital_medio");
+                        var rep_feme_ini = document.getElementById("id_reprodutores_femeas_valor_inicial");
+                        var rep_feme_fin = document.getElementById("id_reprodutores_femeas_valor_final_ou_sucata");
+                        function femea_custoFXO(){
+                            femeaCUSTOF.innerHTML=((parseInt(rep_feme_ini.value)-parseInt(rep_feme_fin.value))/10)+(parseInt(femea_medio.value)*10);
+                        }
+                        femea_custoFXO();
+                        femea_medio.addEventListener("keyup", femea_custoFXO);
+                        rep_feme_ini.addEventListener("keyup", femea_custoFXO);
+                        rep_feme_fin.addEventListener("keyup", femea_custoFXO);
+
+                    </script>
+
                         <div style="top: 68%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 75%;position: absolute;">Animais de engorda</span>
                         <div style="top: 75%;left: 32%;position: absolute;">{{form.animais_gordo_valor_inicial}}</div>
                         <div style="top: 72%;left: 44%;position: absolute;">{{form.animais_gordo_capital_medio}}</div>
                         <div style="top: 72%;left: 56%;position: absolute;">{{form.animais_gordo_valor_final_ou_sucata}}</div>
-                        <div style="top: 72%;left: 68%;position: absolute;">{{form.animais_gordo_depreciacao_anual}}</div>
-                        <div style="top: 72%;left: 80%;position: absolute;">{{form.animais_gordo_remuneracao_capital}}</div>
-                        <div style="top: 72%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 72%;left: 68%;position: absolute;"><span id="id_animais_gordo_depreciacao_anual"></span>
+                        </div>
+                        <script>
+                                var A_ENGORD_depreciacao= document.getElementById("id_animais_gordo_depreciacao_anual");
+                                var A_ENGORD_depreciacao_INICIAL= document.getElementById("id_animais_gordo_valor_inicial");
+                                var A_ENGORD_depreciacao_FINAL= document.getElementById("id_animais_gordo_valor_final_ou_sucata");
+                                function Animais_engorda_dep(){
+                                     A_ENGORD_depreciacao.innerHTML = (parseInt(A_ENGORD_depreciacao_INICIAL.value)-parseInt(A_ENGORD_depreciacao_FINAL.value))/8;
+                                }
+                                Animais_engorda_dep();
+                                A_ENGORD_depreciacao.addEventListener("keyup",Animais_engorda_dep);
+                                A_ENGORD_depreciacao_INICIAL.addEventListener("keyup",Animais_engorda_dep);
+                                A_ENGORD_depreciacao_FINAL.addEventListener("keyup",Animais_engorda_dep);
+                    </script>
+
+
+                        <div style="top: 72%;left: 80%;position: absolute;"><span id="id_animais_gordo_remuneracao_capital"></span>
+                        </div>
+                            <script>
+                            var A_ENGORD_remuneracao= document.getElementById("id_animais_gordo_remuneracao_capital");
+                            //var A_ENGORD_remuneracao_INICIAL= document.getElementById("id_animais_gordo_valor_inicial");
+                            var A_ENGORD_remuneracao_MEDIO= document.getElementById("id_animais_gordo_capital_medio");
+                            function Animais_engor_REM(){
+                                 A_ENGORD_remuneracao.innerHTML = parseInt(A_ENGORD_remuneracao_MEDIO.value)*10;
+                            }
+                            Animais_engor_REM();
+                            //A_ENGORD_remuneracao.addEventListener("keyup",animais_ENGORDA);
+                           // A_ENGORD_remuneracao_INICIAL.addEventListener("keyup",A_ENGORD_remuneracao_INICIAL);
+                            A_ENGORD_remuneracao_MEDIO.addEventListener("keyup",Animais_engor_REM);
+                </script>
+
+                        <div style="top: 72%;left: 92%;position: absolute;"><span id="id_animais_gordo_custo_fixo"></span>
+                        </div>
+
+                            <script>
+                            var A_ENGORD_CFX= document.getElementById("id_animais_gordo_custo_fixo");
+                            var A_ENGORD_CFX_MEDIO   = document.getElementById("id_animais_gordo_capital_medio");
+                            var A_ENGORD_CFX_INICIAL = document.getElementById("id_animais_gordo_valor_inicial");
+                            var A_ENGORD_CFX_FINAL   = document.getElementById("id_animais_gordo_valor_final_ou_sucata");
+
+                            function AniEN_CFX(){
+                                 A_ENGORD_CFX.innerHTML = ((parseInt(A_ENGORD_CFX_INICIAL.value)-parseInt(A_ENGORD_CFX_FINAL.value))/8)+(parseInt(A_ENGORD_CFX_MEDIO.value)*10);
+                            }
+                            AniEN_CFX();
+                            A_ENGORD_CFX_MEDIO.addEventListener("keyup",AniEN_CFX);
+                            A_ENGORD_CFX_INICIAL.addEventListener("keyup",AniEN_CFX);
+                            A_ENGORD_CFX_FINAL.addEventListener("keyup",AniEN_CFX);
+                        </script>
+
+
                         <div style="top: 72%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 80%;position: absolute;">Animais de trabalho</span>
                         <div style="top: 78%;left: 32%;position: absolute;">{{form.animais_trabalho_valor_inicial}}</div>
                         <div style="top: 78%;left: 44%;position: absolute;">{{form.animais_trabalho_capital_medio}}</div>
                         <div style="top: 78%;left: 56%;position: absolute;">{{form.animais_trabalho_valor_final_ou_sucata}}</div>
-                        <div style="top: 78%;left: 68%;position: absolute;">{{form.animais_trabalho_depreciacao_anual}}</div>
-                        <div style="top: 78%;left: 80%;position: absolute;">{{form.animais_trabalho_remuneracao_capital}}</div>
-                        <div style="top: 78%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 78%;left: 68%;position: absolute;"><span id="id_animais_trabalho_depreciacao_anual"></span>
+                        </div>
+                        <script>
+                            var A_TRAB_depreciacao= document.getElementById("id_animais_trabalho_depreciacao_anual");
+                            var A_TRAB_depreciacao_INICIAL= document.getElementById("id_animais_trabalho_valor_inicial");
+                            var A_TRAB_depreciacao_FINAL= document.getElementById("id_animais_trabalho_valor_final_ou_sucata");
+                            function A_nimais_trab_depre(){
+                                 A_TRAB_depreciacao.innerHTML = (parseInt(A_TRAB_depreciacao_INICIAL.value)-parseInt(A_TRAB_depreciacao_FINAL.value))/12;
+                            }
+                            A_nimais_trab_depre();
+                            //A_TRAB_depreciacao.addEventListener("keyup",animais_TRABA);
+                            A_TRAB_depreciacao_INICIAL.addEventListener("keyup",A_nimais_trab_depre);
+                            A_TRAB_depreciacao_FINAL.addEventListener("keyup",A_nimais_trab_depre);
+                        </script>
+
+
+                        <div style="top: 78%;left: 80%;position: absolute;"><span id="id_animais_trabalho_remuneracao_capital"></span>
+                        </div>
+                        <script>
+                            var A_TRAB_remuneracao= document.getElementById("id_animais_trabalho_remuneracao_capital");
+                            //var A_TRAB_remuneracao_INICIAL= document.getElementById("id_");
+                            var A_TRAB_remuneracao_MEDIO= document.getElementById("id_animais_trabalho_capital_medio");
+                            function Animais_trab_rem(){
+                                 A_TRAB_remuneracao.innerHTML = parseInt(A_TRAB_remuneracao_MEDIO.value)*10;
+                            }
+                            Animais_trab_rem();
+                            //A_TRAB_remuneracao.addEventListener("keyup",animais_TRABA);
+                            //A_TRAB_remuneracao_INICIAL.addEventListener("keyup",A_TRAB_remuneracao_INICIAL);
+                            A_TRAB_remuneracao_MEDIO.addEventListener("keyup",Animais_trab_rem);
+                        </script>
+
+
+                        <div style="top: 78%;left: 92%;position: absolute;"><span id="id_animais_trabalho_custo_fixo"></span>
+                        </div>
+
+                    <script>
+                        var A_TRAB_CFX= document.getElementById("id_animais_trabalho_custo_fixo");
+                        var A_TRAB_CFX_INICIAL= document.getElementById("id_animais_trabalho_valor_inicial");
+                        var A_TRAB_CFX_FINAL= document.getElementById("id_animais_trabalho_valor_final_ou_sucata");
+                        var A_TRAB_CFX_MEDIO= document.getElementById("id_animais_trabalho_capital_medio");
+                        function animais_custo_FX(){
+                             A_TRAB_CFX.innerHTML = ((parseInt(A_TRAB_CFX_INICIAL.value)-parseInt(A_TRAB_CFX_FINAL.value))/12)+(parseInt(A_TRAB_CFX_MEDIO.value)*10);
+                        }
+                        animais_custo_FX();
+                        //A_TRAB_CFX.addEventListener("keyup",animais_custo_FX);
+                        A_TRAB_CFX_INICIAL.addEventListener("keyup",animais_custo_FX);
+                        A_TRAB_CFX_FINAL.addEventListener("keyup",animais_custo_FX);
+                    </script>
+
+
                         <div style="top: 78%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 84%;position: absolute;">Canavial ou volumoso</span>
                         <div style="top: 84%;left: 32%;position: absolute;">{{form.canavial_ou_volumoso_valor_inicial}}</div>
                         <div style="top: 84%;left: 44%;position: absolute;">{{form.canavial_ou_volumoso_capital_medio}}</div>
                         <div style="top: 84%;left: 56%;position: absolute;">{{form.canavial_ou_volumoso_valor_final_ou_sucata}}</div>
-                        <div style="top: 84%;left: 68%;position: absolute;">{{form.canavial_ou_volumoso_depreciacao_anual}}</div>
-                        <div style="top: 84%;left: 80%;position: absolute;">{{form.canavial_ou_volumoso_remuneracao_capital}}</div>
-                        <div style="top: 84%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 84%;left: 68%;position: absolute;"><span id="id_canavial_ou_volumoso_depreciacao_anual"></span>
+                        </div>
+                            <script>
+                                var CANA_VOLU_depreciacao= document.getElementById("id_canavial_ou_volumoso_depreciacao_anual");
+                                var CANA_VOLU_depreciacao_INICIAL= document.getElementById("id_canavial_ou_volumoso_valor_inicial");
+                                var CANA_VOLU_depreciacao_FINAL= document.getElementById("id_canavial_ou_volumoso_valor_final_ou_sucata");
+                                function cana_volu_depre(){
+                                     CANA_VOLU_depreciacao.innerHTML = (parseInt(CANA_VOLU_depreciacao_INICIAL.value)-(parseInt(CANA_VOLU_depreciacao_FINAL.value)))/25;
+                                }
+                                cana_volu_depre();
+                                CANA_VOLU_depreciacao.addEventListener("keyup",cana_volu_depre);
+                                CANA_VOLU_depreciacao_INICIAL.addEventListener("keyup",cana_volu_depre);
+                                CANA_VOLU_depreciacao_FINAL.addEventListener("keyup",cana_volu_depre);
+                            </script>
+
+                        <div style="top: 84%;left: 80%;position: absolute;"><span id="id_canavial_ou_volumoso_remuneracao_capital"></span>
+                        </div>
+                    <script>
+                        var CANA_VOLU_remuneracao= document.getElementById("id_canavial_ou_volumoso_remuneracao_capital");
+                        //var CANA_VOLU_remuneracao_INICIAL= document.getElementById("id_");
+                        var CANA_VOLU_remuneracao_MEDIO= document.getElementById("id_canavial_ou_volumoso_capital_medio");
+                        function canavial_remune(){
+                             CANA_VOLU_remuneracao.innerHTML = parseInt(CANA_VOLU_remuneracao.value)*10;
+                        }
+                        canavial_remune();
+                        //CANA_VOLU_remuneracao.addEventListener("keyup",animais_TRABA);
+                        //CANA_VOLU_remuneracao_INICIAL.addEventListener("keyup",CANA_VOLU_remuneracao_INICIAL);
+                        CANA_VOLU_remuneracao_MEDIO.addEventListener("keyup",canavial_remune);
+                    </script>
+                        <div style="top: 84%;left: 92%;position: absolute;"><span id="id_canavial_ou_volumoso_custo_fixo"></span>
+                        </div>
+                    <script>
+                        var CANA_VOLU_CFX= document.getElementById("id_canavial_ou_volumoso_custo_fixo");
+                        var CANA_VOLU_CFX_INICIAL= document.getElementById("id_canavial_ou_volumoso_valor_inicial");
+                        var CANA_VOLU_CFX_FINAL= document.getElementById("id_canavial_ou_volumoso_valor_final_ou_sucata");
+                        var CANA_VOLU_CFX_MEDIO= document.getElementById("id_canavial_ou_volumoso_capital_medio");
+                        function cana_CFX(){
+                             CANA_VOLU_CFX.innerHTML = ((parseInt(CANA_VOLU_CFX_INICIAL.value)-parseInt(CANA_VOLU_CFX_FINAL.value))/25)+(parseInt(CANA_VOLU_CFX_MEDIO.value)*10)
+                        }
+                        cana_CFX();
+                        CANA_VOLU_CFX.addEventListener("keyup",cana_CFX);
+                        CANA_VOLU_CFX_INICIAL.addEventListener("keyup",cana_CFX);
+                        CANA_VOLU_CFX_FINAL.addEventListener("keyup",cana_CFX);
+                        CANA_VOLU_CFX_MEDIO.addEventListener("keyup",cana_CFX);
+                    </script>
+
+
                         <div style="top: 84%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 90%;position: absolute;">Benfeitorias</span>

@@ -1,0 +1,2288 @@
+
+#####################################################################################################################################################################################
+<script>
+    var media_Nr_Matrizes      = document.getElementById("id_");
+    var media_Nr_Matrizes_jan = document.getElementById("id_");
+    var media_Nr_Matrizes_fev = document.getElementById("id_");
+    var media_Nr_Matrizes_mar = document.getElementById("id_");
+    var media_Nr_Matrizes_abr = document.getElementById("id_");
+    var media_Nr_Matrizes_mai = document.getElementById("id_");
+    var media_Nr_Matrizes_jun = document.getElementById("id_");
+    var media_Nr_Matrizes_jul = document.getElementById("id_");
+    var media_Nr_Matrizes_ago = document.getElementById("id_");
+    var media_Nr_Matrizes_set = document.getElementById("id_");
+    var media_Nr_Matrizes_out = document.getElementById("id_");
+    var media_Nr_Matrizes_nov = document.getElementById("id_");
+    var media_Nr_Matrizes_dez = document.getElementById("id_");
+
+    function ME_Nr_Matrizes(){
+        media_Nr_Matrizes.innerHTML = parseInt(media_Nr_Matrizes_jan.value)+parseInt(media_Nr_Matrizes_fev.value)+parseInt(media_Nr_Matrizes_mar.value)+
+        parseInt(media_Nr_Matrizes_abri.value)+parseInt(media_Nr_Matrizes_mai.value)+parseInt(media_Nr_Matrizes_jun.value)+parseInt(media_Nr_Matrizes_jul.value)+parseInt(media_Nr_Matrizes_ago.value)
+        +parseInt(media_Nr_Matrizes_set.value)+parseInt(media_Nr_Matrizes_out.value)+parseInt(media_Nr_Matrizes_nov.value)+parseInt(media_Nr_Matrizes_dez.value);
+    }
+
+    ME_Nr_Matrizes();
+
+    media_Nr_Matrizes_jan.addEventListener("keyup",ME_Nr_Matrizes);
+    media_Nr_Matrizes_fev.addEventListener("keyup",ME_Nr_Matrizes);
+    media_Nr_Matrizes_mar.addEventListener("keyup",ME_Nr_Matrizes);
+    media_Nr_Matrizes_abr.addEventListener("keyup",ME_Nr_Matrizes);
+    media_Nr_Matrizes_mai.addEventListener("keyup",ME_Nr_Matrizes);
+    media_Nr_Matrizes_jun.addEventListener("keyup",ME_Nr_Matrizes);
+    media_Nr_Matrizes_jul.addEventListener("keyup",ME_Nr_Matrizes);
+    media_Nr_Matrizes_ago.addEventListener("keyup",ME_Nr_Matrizes);
+    media_Nr_Matrizes_set.addEventListener("keyup",ME_Nr_Matrizes);
+    media_Nr_Matrizes_out.addEventListener("keyup",ME_Nr_Matrizes);
+    media_Nr_Matrizes_nov.addEventListener("keyup",ME_Nr_Matrizes);
+    media_Nr_Matrizes_dez.addEventListener("keyup",ME_Nr_Matrizes);
+
+</script>
+
+
+<script>
+
+
+    var peso_media_Nr_Matrizes      = document.getElementById("id_");
+    var peso_media_Nr_Matrizes_jan = document.getElementById("id_");
+    var peso_media_Nr_Matrizes_fev = document.getElementById("id_");
+    var peso_media_Nr_Matrizes_mar = document.getElementById("id_");
+    var peso_media_Nr_Matrizes_abr = document.getElementById("id_");
+    var peso_media_Nr_Matrizes_mai = document.getElementById("id_");
+    var peso_media_Nr_Matrizes_jun = document.getElementById("id_");
+    var peso_media_Nr_Matrizes_jul = document.getElementById("id_");
+    var peso_media_Nr_Matrizes_ago = document.getElementById("id_");
+    var peso_media_Nr_Matrizes_set = document.getElementById("id_");
+    var peso_media_Nr_Matrizes_out = document.getElementById("id_");
+    var peso_media_Nr_Matrizes_nov = document.getElementById("id_");
+    var peso_media_Nr_Matrizes_dez = document.getElementById("id_");
+    function PES_M_Nr_Matrizes(){
+
+        peso_media_Nr_Matrizes.innerHTML = parseInt(peso_media_Nr_Matrizes_jan.value)+parseInt(peso_media_Nr_Matrizes_fev.value)+parseInt(peso_media_Nr_Matrizes_mar.value)+
+        parseInt(peso_media_Nr_Matrizes_abril.value)+parseInt(peso_media_Nr_Matrizes_mai.value)+parseInt(peso_media_Nr_Matrizes_jun.value)+parseInt(peso_media_Nr_Matrizes_jul.value)+parseInt(peso_media_Nr_Matrizes_ago.value)
+        +parseInt(peso_media_Nr_Matrizes_set.value)+parseInt(peso_media_Nr_Matrizes_out.value)+parseInt(peso_media_Nr_Matrizes_nov.value)+parseInt(peso_media_Nr_Matrizes_dez.value);
+
+    }
+
+</script>
+
+
+########################################################################################################################################################
+
+<script>
+    var media_Nr_Novilhos_14_Arroba      = document.getElementById("id_");
+    var media_Nr_Novilhos_14_Arroba_jan = document.getElementById("id_");
+    var media_Nr_Novilhos_14_Arroba_fev = document.getElementById("id_");
+    var media_Nr_Novilhos_14_Arroba_mar = document.getElementById("id_");
+    var media_Nr_Novilhos_14_Arroba_abr = document.getElementById("id_");
+    var media_Nr_Novilhos_14_Arroba_mai = document.getElementById("id_");
+    var media_Nr_Novilhos_14_Arroba_jun = document.getElementById("id_");
+    var media_Nr_Novilhos_14_Arroba_jul = document.getElementById("id_");
+    var media_Nr_Novilhos_14_Arroba_ago = document.getElementById("id_");
+    var media_Nr_Novilhos_14_Arroba_set = document.getElementById("id_");
+    var media_Nr_Novilhos_14_Arroba_out = document.getElementById("id_");
+    var media_Nr_Novilhos_14_Arroba_nov = document.getElementById("id_");
+    var media_Nr_Novilhos_14_Arroba_dez = document.getElementById("id_");
+
+    function ME_Nr_Novilhos_14_Arroba(){
+        media_Nr_Novilhos_14_Arroba.innerHTML = parseInt(media_Nr_Novilhos_14_Arroba_jan.value)+parseInt(media_Nr_Novilhos_14_Arroba_fev.value)+parseInt(media_Nr_Novilhos_14_Arroba_mar.value)+
+        parseInt(media_Nr_Novilhos_14_Arroba_abri.value)+parseInt(media_Nr_Novilhos_14_Arroba_mai.value)+parseInt(media_Nr_Novilhos_14_Arroba_jun.value)+parseInt(media_Nr_Novilhos_14_Arroba_jul.value)+parseInt(media_Nr_Novilhos_14_Arroba_ago.value)
+        +parseInt(media_Nr_Novilhos_14_Arroba_set.value)+parseInt(media_Nr_Novilhos_14_Arroba_out.value)+parseInt(media_Nr_Novilhos_14_Arroba_nov.value)+parseInt(media_Nr_Novilhos_14_Arroba_dez.value);
+    }
+
+    ME_Nr_Novilhos_14_Arroba();
+
+    media_Nr_Novilhos_14_Arroba_jan.addEventListener("keyup",ME_Nr_Novilhos_14_Arroba);
+    media_Nr_Novilhos_14_Arroba_fev.addEventListener("keyup",ME_Nr_Novilhos_14_Arroba);
+    media_Nr_Novilhos_14_Arroba_mar.addEventListener("keyup",ME_Nr_Novilhos_14_Arroba);
+    media_Nr_Novilhos_14_Arroba_abr.addEventListener("keyup",ME_Nr_Novilhos_14_Arroba);
+    media_Nr_Novilhos_14_Arroba_mai.addEventListener("keyup",ME_Nr_Novilhos_14_Arroba);
+    media_Nr_Novilhos_14_Arroba_jun.addEventListener("keyup",ME_Nr_Novilhos_14_Arroba);
+    media_Nr_Novilhos_14_Arroba_jul.addEventListener("keyup",ME_Nr_Novilhos_14_Arroba);
+    media_Nr_Novilhos_14_Arroba_ago.addEventListener("keyup",ME_Nr_Novilhos_14_Arroba);
+    media_Nr_Novilhos_14_Arroba_set.addEventListener("keyup",ME_Nr_Novilhos_14_Arroba);
+    media_Nr_Novilhos_14_Arroba_out.addEventListener("keyup",ME_Nr_Novilhos_14_Arroba);
+    media_Nr_Novilhos_14_Arroba_nov.addEventListener("keyup",ME_Nr_Novilhos_14_Arroba);
+    media_Nr_Novilhos_14_Arroba_dez.addEventListener("keyup",ME_Nr_Novilhos_14_Arroba);
+
+</script>
+
+
+<script>
+
+
+    var peso_media_Nr_Novilhos_14_Arroba      = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_14_Arroba_jan = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_14_Arroba_fev = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_14_Arroba_mar = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_14_Arroba_abr = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_14_Arroba_mai = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_14_Arroba_jun = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_14_Arroba_jul = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_14_Arroba_ago = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_14_Arroba_set = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_14_Arroba_out = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_14_Arroba_nov = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_14_Arroba_dez = document.getElementById("id_");
+    function PES_M_Nr_Novilhos_14_Arroba(){
+
+        peso_media_Nr_Novilhos_14_Arroba.innerHTML = parseInt(peso_media_Nr_Novilhos_14_Arroba_jan.value)+parseInt(peso_media_Nr_Novilhos_14_Arroba_fev.value)+parseInt(peso_media_Nr_Novilhos_14_Arroba_mar.value)+
+        parseInt(peso_media_Nr_Novilhos_14_Arroba_abril.value)+parseInt(peso_media_Nr_Novilhos_14_Arroba_mai.value)+parseInt(peso_media_Nr_Novilhos_14_Arroba_jun.value)+parseInt(peso_media_Nr_Novilhos_14_Arroba_jul.value)+parseInt(peso_media_Nr_Novilhos_14_Arroba_ago.value)
+        +parseInt(peso_media_Nr_Novilhos_14_Arroba_set.value)+parseInt(peso_media_Nr_Novilhos_14_Arroba_out.value)+parseInt(peso_media_Nr_Novilhos_14_Arroba_nov.value)+parseInt(peso_media_Nr_Novilhos_14_Arroba_dez.value);
+
+    }
+
+</script>
+
+
+
+
+########################################################################################################################################################
+
+<script>
+    var media_Nr_Novilhos_12_a_14_Arroba      = document.getElementById("id_");
+    var media_Nr_Novilhos_12_a_14_Arroba_jan = document.getElementById("id_");
+    var media_Nr_Novilhos_12_a_14_Arroba_fev = document.getElementById("id_");
+    var media_Nr_Novilhos_12_a_14_Arroba_mar = document.getElementById("id_");
+    var media_Nr_Novilhos_12_a_14_Arroba_abr = document.getElementById("id_");
+    var media_Nr_Novilhos_12_a_14_Arroba_mai = document.getElementById("id_");
+    var media_Nr_Novilhos_12_a_14_Arroba_jun = document.getElementById("id_");
+    var media_Nr_Novilhos_12_a_14_Arroba_jul = document.getElementById("id_");
+    var media_Nr_Novilhos_12_a_14_Arroba_ago = document.getElementById("id_");
+    var media_Nr_Novilhos_12_a_14_Arroba_set = document.getElementById("id_");
+    var media_Nr_Novilhos_12_a_14_Arroba_out = document.getElementById("id_");
+    var media_Nr_Novilhos_12_a_14_Arroba_nov = document.getElementById("id_");
+    var media_Nr_Novilhos_12_a_14_Arroba_dez = document.getElementById("id_");
+
+    function ME_Nr_Novilhos_12_a_14_Arroba(){
+        media_Nr_Novilhos_12_a_14_Arroba.innerHTML = parseInt(media_Nr_Novilhos_12_a_14_Arroba_jan.value)+parseInt(media_Nr_Novilhos_12_a_14_Arroba_fev.value)+parseInt(media_Nr_Novilhos_12_a_14_Arroba_mar.value)+
+        parseInt(media_Nr_Novilhos_12_a_14_Arroba_abri.value)+parseInt(media_Nr_Novilhos_12_a_14_Arroba_mai.value)+parseInt(media_Nr_Novilhos_12_a_14_Arroba_jun.value)+parseInt(media_Nr_Novilhos_12_a_14_Arroba_jul.value)+parseInt(media_Nr_Novilhos_12_a_14_Arroba_ago.value)
+        +parseInt(media_Nr_Novilhos_12_a_14_Arroba_set.value)+parseInt(media_Nr_Novilhos_12_a_14_Arroba_out.value)+parseInt(media_Nr_Novilhos_12_a_14_Arroba_nov.value)+parseInt(media_Nr_Novilhos_12_a_14_Arroba_dez.value);
+    }
+
+    ME_Nr_Novilhos_12_a_14_Arroba();
+
+    media_Nr_Novilhos_12_a_14_Arroba_jan.addEventListener("keyup",ME_Nr_Novilhos_12_a_14_Arroba);
+    media_Nr_Novilhos_12_a_14_Arroba_fev.addEventListener("keyup",ME_Nr_Novilhos_12_a_14_Arroba);
+    media_Nr_Novilhos_12_a_14_Arroba_mar.addEventListener("keyup",ME_Nr_Novilhos_12_a_14_Arroba);
+    media_Nr_Novilhos_12_a_14_Arroba_abr.addEventListener("keyup",ME_Nr_Novilhos_12_a_14_Arroba);
+    media_Nr_Novilhos_12_a_14_Arroba_mai.addEventListener("keyup",ME_Nr_Novilhos_12_a_14_Arroba);
+    media_Nr_Novilhos_12_a_14_Arroba_jun.addEventListener("keyup",ME_Nr_Novilhos_12_a_14_Arroba);
+    media_Nr_Novilhos_12_a_14_Arroba_jul.addEventListener("keyup",ME_Nr_Novilhos_12_a_14_Arroba);
+    media_Nr_Novilhos_12_a_14_Arroba_ago.addEventListener("keyup",ME_Nr_Novilhos_12_a_14_Arroba);
+    media_Nr_Novilhos_12_a_14_Arroba_set.addEventListener("keyup",ME_Nr_Novilhos_12_a_14_Arroba);
+    media_Nr_Novilhos_12_a_14_Arroba_out.addEventListener("keyup",ME_Nr_Novilhos_12_a_14_Arroba);
+    media_Nr_Novilhos_12_a_14_Arroba_nov.addEventListener("keyup",ME_Nr_Novilhos_12_a_14_Arroba);
+    media_Nr_Novilhos_12_a_14_Arroba_dez.addEventListener("keyup",ME_Nr_Novilhos_12_a_14_Arroba);
+
+</script>
+
+
+<script>
+
+
+    var peso_media_Nr_Novilhos_12_a_14_Arroba      = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_12_a_14_Arroba_jan = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_12_a_14_Arroba_fev = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_12_a_14_Arroba_mar = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_12_a_14_Arroba_abr = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_12_a_14_Arroba_mai = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_12_a_14_Arroba_jun = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_12_a_14_Arroba_jul = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_12_a_14_Arroba_ago = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_12_a_14_Arroba_set = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_12_a_14_Arroba_out = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_12_a_14_Arroba_nov = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_12_a_14_Arroba_dez = document.getElementById("id_");
+    function PES_M_Nr_Novilhos_12_a_14_Arroba(){
+
+        peso_media_Nr_Novilhos_12_a_14_Arroba.innerHTML = parseInt(peso_media_Nr_Novilhos_12_a_14_Arroba_jan.value)+parseInt(peso_media_Nr_Novilhos_12_a_14_Arroba_fev.value)+parseInt(peso_media_Nr_Novilhos_12_a_14_Arroba_mar.value)+
+        parseInt(peso_media_Nr_Novilhos_12_a_14_Arroba_abril.value)+parseInt(peso_media_Nr_Novilhos_12_a_14_Arroba_mai.value)+parseInt(peso_media_Nr_Novilhos_12_a_14_Arroba_jun.value)+parseInt(peso_media_Nr_Novilhos_12_a_14_Arroba_jul.value)+parseInt(peso_media_Nr_Novilhos_12_a_14_Arroba_ago.value)
+        +parseInt(peso_media_Nr_Novilhos_12_a_14_Arroba_set.value)+parseInt(peso_media_Nr_Novilhos_12_a_14_Arroba_out.value)+parseInt(peso_media_Nr_Novilhos_12_a_14_Arroba_nov.value)+parseInt(peso_media_Nr_Novilhos_12_a_14_Arroba_dez.value);
+
+    }
+
+</script>
+
+########################################################################################################################################################
+
+<script>
+    var media_Nr_Novilhos_ate_12_Arroba      = document.getElementById("id_");
+    var media_Nr_Novilhos_ate_12_Arroba_jan = document.getElementById("id_");
+    var media_Nr_Novilhos_ate_12_Arroba_fev = document.getElementById("id_");
+    var media_Nr_Novilhos_ate_12_Arroba_mar = document.getElementById("id_");
+    var media_Nr_Novilhos_ate_12_Arroba_abr = document.getElementById("id_");
+    var media_Nr_Novilhos_ate_12_Arroba_mai = document.getElementById("id_");
+    var media_Nr_Novilhos_ate_12_Arroba_jun = document.getElementById("id_");
+    var media_Nr_Novilhos_ate_12_Arroba_jul = document.getElementById("id_");
+    var media_Nr_Novilhos_ate_12_Arroba_ago = document.getElementById("id_");
+    var media_Nr_Novilhos_ate_12_Arroba_set = document.getElementById("id_");
+    var media_Nr_Novilhos_ate_12_Arroba_out = document.getElementById("id_");
+    var media_Nr_Novilhos_ate_12_Arroba_nov = document.getElementById("id_");
+    var media_Nr_Novilhos_ate_12_Arroba_dez = document.getElementById("id_");
+
+    function ME_Nr_Novilhos_ate_12_Arroba(){
+        media_Nr_Novilhos_ate_12_Arroba.innerHTML = parseInt(media_Nr_Novilhos_ate_12_Arroba_jan.value)+parseInt(media_Nr_Novilhos_ate_12_Arroba_fev.value)+parseInt(media_Nr_Novilhos_ate_12_Arroba_mar.value)+
+        parseInt(media_Nr_Novilhos_ate_12_Arroba_abri.value)+parseInt(media_Nr_Novilhos_ate_12_Arroba_mai.value)+parseInt(media_Nr_Novilhos_ate_12_Arroba_jun.value)+parseInt(media_Nr_Novilhos_ate_12_Arroba_jul.value)+parseInt(media_Nr_Novilhos_ate_12_Arroba_ago.value)
+        +parseInt(media_Nr_Novilhos_ate_12_Arroba_set.value)+parseInt(media_Nr_Novilhos_ate_12_Arroba_out.value)+parseInt(media_Nr_Novilhos_ate_12_Arroba_nov.value)+parseInt(media_Nr_Novilhos_ate_12_Arroba_dez.value);
+    }
+
+    ME_Nr_Novilhos_ate_12_Arroba();
+
+    media_Nr_Novilhos_ate_12_Arroba_jan.addEventListener("keyup",ME_Nr_Novilhos_ate_12_Arroba);
+    media_Nr_Novilhos_ate_12_Arroba_fev.addEventListener("keyup",ME_Nr_Novilhos_ate_12_Arroba);
+    media_Nr_Novilhos_ate_12_Arroba_mar.addEventListener("keyup",ME_Nr_Novilhos_ate_12_Arroba);
+    media_Nr_Novilhos_ate_12_Arroba_abr.addEventListener("keyup",ME_Nr_Novilhos_ate_12_Arroba);
+    media_Nr_Novilhos_ate_12_Arroba_mai.addEventListener("keyup",ME_Nr_Novilhos_ate_12_Arroba);
+    media_Nr_Novilhos_ate_12_Arroba_jun.addEventListener("keyup",ME_Nr_Novilhos_ate_12_Arroba);
+    media_Nr_Novilhos_ate_12_Arroba_jul.addEventListener("keyup",ME_Nr_Novilhos_ate_12_Arroba);
+    media_Nr_Novilhos_ate_12_Arroba_ago.addEventListener("keyup",ME_Nr_Novilhos_ate_12_Arroba);
+    media_Nr_Novilhos_ate_12_Arroba_set.addEventListener("keyup",ME_Nr_Novilhos_ate_12_Arroba);
+    media_Nr_Novilhos_ate_12_Arroba_out.addEventListener("keyup",ME_Nr_Novilhos_ate_12_Arroba);
+    media_Nr_Novilhos_ate_12_Arroba_nov.addEventListener("keyup",ME_Nr_Novilhos_ate_12_Arroba);
+    media_Nr_Novilhos_ate_12_Arroba_dez.addEventListener("keyup",ME_Nr_Novilhos_ate_12_Arroba);
+
+</script>
+
+
+<script>
+
+
+    var peso_media_Nr_Novilhos_ate_12_Arroba      = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_ate_12_Arroba_jan = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_ate_12_Arroba_fev = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_ate_12_Arroba_mar = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_ate_12_Arroba_abr = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_ate_12_Arroba_mai = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_ate_12_Arroba_jun = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_ate_12_Arroba_jul = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_ate_12_Arroba_ago = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_ate_12_Arroba_set = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_ate_12_Arroba_out = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_ate_12_Arroba_nov = document.getElementById("id_");
+    var peso_media_Nr_Novilhos_ate_12_Arroba_dez = document.getElementById("id_");
+    function PES_M_Nr_Novilhos_ate_12_Arroba(){
+
+        peso_media_Nr_Novilhos_ate_12_Arroba.innerHTML = parseInt(peso_media_Nr_Novilhos_ate_12_Arroba_jan.value)+parseInt(peso_media_Nr_Novilhos_ate_12_Arroba_fev.value)+parseInt(peso_media_Nr_Novilhos_ate_12_Arroba_mar.value)+
+        parseInt(peso_media_Nr_Novilhos_ate_12_Arroba_abril.value)+parseInt(peso_media_Nr_Novilhos_ate_12_Arroba_mai.value)+parseInt(peso_media_Nr_Novilhos_ate_12_Arroba_jun.value)+parseInt(peso_media_Nr_Novilhos_ate_12_Arroba_jul.value)+parseInt(peso_media_Nr_Novilhos_ate_12_Arroba_ago.value)
+        +parseInt(peso_media_Nr_Novilhos_ate_12_Arroba_set.value)+parseInt(peso_media_Nr_Novilhos_ate_12_Arroba_out.value)+parseInt(peso_media_Nr_Novilhos_ate_12_Arroba_nov.value)+parseInt(peso_media_Nr_Novilhos_ate_12_Arroba_dez.value);
+
+    }
+
+</script>
+
+########################################################################################################################################################
+
+<script>
+    var media_Nr_Novilhas_ate_12_Arroba      = document.getElementById("id_");
+    var media_Nr_Novilhas_ate_12_Arroba_jan = document.getElementById("id_");
+    var media_Nr_Novilhas_ate_12_Arroba_fev = document.getElementById("id_");
+    var media_Nr_Novilhas_ate_12_Arroba_mar = document.getElementById("id_");
+    var media_Nr_Novilhas_ate_12_Arroba_abr = document.getElementById("id_");
+    var media_Nr_Novilhas_ate_12_Arroba_mai = document.getElementById("id_");
+    var media_Nr_Novilhas_ate_12_Arroba_jun = document.getElementById("id_");
+    var media_Nr_Novilhas_ate_12_Arroba_jul = document.getElementById("id_");
+    var media_Nr_Novilhas_ate_12_Arroba_ago = document.getElementById("id_");
+    var media_Nr_Novilhas_ate_12_Arroba_set = document.getElementById("id_");
+    var media_Nr_Novilhas_ate_12_Arroba_out = document.getElementById("id_");
+    var media_Nr_Novilhas_ate_12_Arroba_nov = document.getElementById("id_");
+    var media_Nr_Novilhas_ate_12_Arroba_dez = document.getElementById("id_");
+
+    function ME_Nr_Novilhas_ate_12_Arroba(){
+        media_Nr_Novilhas_ate_12_Arroba.innerHTML = parseInt(media_Nr_Novilhas_ate_12_Arroba_jan.value)+parseInt(media_Nr_Novilhas_ate_12_Arroba_fev.value)+parseInt(media_Nr_Novilhas_ate_12_Arroba_mar.value)+
+        parseInt(media_Nr_Novilhas_ate_12_Arroba_abri.value)+parseInt(media_Nr_Novilhas_ate_12_Arroba_mai.value)+parseInt(media_Nr_Novilhas_ate_12_Arroba_jun.value)+parseInt(media_Nr_Novilhas_ate_12_Arroba_jul.value)+parseInt(media_Nr_Novilhas_ate_12_Arroba_ago.value)
+        +parseInt(media_Nr_Novilhas_ate_12_Arroba_set.value)+parseInt(media_Nr_Novilhas_ate_12_Arroba_out.value)+parseInt(media_Nr_Novilhas_ate_12_Arroba_nov.value)+parseInt(media_Nr_Novilhas_ate_12_Arroba_dez.value);
+    }
+
+    ME_Nr_Novilhas_ate_12_Arroba();
+
+    media_Nr_Novilhas_ate_12_Arroba_jan.addEventListener("keyup",ME_Nr_Novilhas_ate_12_Arroba);
+    media_Nr_Novilhas_ate_12_Arroba_fev.addEventListener("keyup",ME_Nr_Novilhas_ate_12_Arroba);
+    media_Nr_Novilhas_ate_12_Arroba_mar.addEventListener("keyup",ME_Nr_Novilhas_ate_12_Arroba);
+    media_Nr_Novilhas_ate_12_Arroba_abr.addEventListener("keyup",ME_Nr_Novilhas_ate_12_Arroba);
+    media_Nr_Novilhas_ate_12_Arroba_mai.addEventListener("keyup",ME_Nr_Novilhas_ate_12_Arroba);
+    media_Nr_Novilhas_ate_12_Arroba_jun.addEventListener("keyup",ME_Nr_Novilhas_ate_12_Arroba);
+    media_Nr_Novilhas_ate_12_Arroba_jul.addEventListener("keyup",ME_Nr_Novilhas_ate_12_Arroba);
+    media_Nr_Novilhas_ate_12_Arroba_ago.addEventListener("keyup",ME_Nr_Novilhas_ate_12_Arroba);
+    media_Nr_Novilhas_ate_12_Arroba_set.addEventListener("keyup",ME_Nr_Novilhas_ate_12_Arroba);
+    media_Nr_Novilhas_ate_12_Arroba_out.addEventListener("keyup",ME_Nr_Novilhas_ate_12_Arroba);
+    media_Nr_Novilhas_ate_12_Arroba_nov.addEventListener("keyup",ME_Nr_Novilhas_ate_12_Arroba);
+    media_Nr_Novilhas_ate_12_Arroba_dez.addEventListener("keyup",ME_Nr_Novilhas_ate_12_Arroba);
+
+</script>
+
+
+<script>
+
+
+    var peso_media_Nr_Novilhas_ate_12_Arroba      = document.getElementById("id_");
+    var peso_media_Nr_Novilhas_ate_12_Arroba_jan = document.getElementById("id_");
+    var peso_media_Nr_Novilhas_ate_12_Arroba_fev = document.getElementById("id_");
+    var peso_media_Nr_Novilhas_ate_12_Arroba_mar = document.getElementById("id_");
+    var peso_media_Nr_Novilhas_ate_12_Arroba_abr = document.getElementById("id_");
+    var peso_media_Nr_Novilhas_ate_12_Arroba_mai = document.getElementById("id_");
+    var peso_media_Nr_Novilhas_ate_12_Arroba_jun = document.getElementById("id_");
+    var peso_media_Nr_Novilhas_ate_12_Arroba_jul = document.getElementById("id_");
+    var peso_media_Nr_Novilhas_ate_12_Arroba_ago = document.getElementById("id_");
+    var peso_media_Nr_Novilhas_ate_12_Arroba_set = document.getElementById("id_");
+    var peso_media_Nr_Novilhas_ate_12_Arroba_out = document.getElementById("id_");
+    var peso_media_Nr_Novilhas_ate_12_Arroba_nov = document.getElementById("id_");
+    var peso_media_Nr_Novilhas_ate_12_Arroba_dez = document.getElementById("id_");
+    function PES_M_Nr_Novilhas_ate_12_Arroba(){
+
+        peso_media_Nr_Novilhas_ate_12_Arroba.innerHTML = parseInt(peso_media_Nr_Novilhas_ate_12_Arroba_jan.value)+parseInt(peso_media_Nr_Novilhas_ate_12_Arroba_fev.value)+parseInt(peso_media_Nr_Novilhas_ate_12_Arroba_mar.value)+
+        parseInt(peso_media_Nr_Novilhas_ate_12_Arroba_abril.value)+parseInt(peso_media_Nr_Novilhas_ate_12_Arroba_mai.value)+parseInt(peso_media_Nr_Novilhas_ate_12_Arroba_jun.value)+parseInt(peso_media_Nr_Novilhas_ate_12_Arroba_jul.value)+parseInt(peso_media_Nr_Novilhas_ate_12_Arroba_ago.value)
+        +parseInt(peso_media_Nr_Novilhas_ate_12_Arroba_set.value)+parseInt(peso_media_Nr_Novilhas_ate_12_Arroba_out.value)+parseInt(peso_media_Nr_Novilhas_ate_12_Arroba_nov.value)+parseInt(peso_media_Nr_Novilhas_ate_12_Arroba_dez.value);
+
+    }
+
+
+
+</script>
+
+########################################################################################################################################################
+
+<script>
+    var media_Nr_Bezerros      = document.getElementById("id_");
+    var media_Nr_Bezerros_jan = document.getElementById("id_");
+    var media_Nr_Bezerros_fev = document.getElementById("id_");
+    var media_Nr_Bezerros_mar = document.getElementById("id_");
+    var media_Nr_Bezerros_abr = document.getElementById("id_");
+    var media_Nr_Bezerros_mai = document.getElementById("id_");
+    var media_Nr_Bezerros_jun = document.getElementById("id_");
+    var media_Nr_Bezerros_jul = document.getElementById("id_");
+    var media_Nr_Bezerros_ago = document.getElementById("id_");
+    var media_Nr_Bezerros_set = document.getElementById("id_");
+    var media_Nr_Bezerros_out = document.getElementById("id_");
+    var media_Nr_Bezerros_nov = document.getElementById("id_");
+    var media_Nr_Bezerros_dez = document.getElementById("id_");
+
+    function ME_Nr_Bezerros(){
+        media_Nr_Bezerros.innerHTML = parseInt(media_Nr_Bezerros_jan.value)+parseInt(media_Nr_Bezerros_fev.value)+parseInt(media_Nr_Bezerros_mar.value)+
+        parseInt(media_Nr_Bezerros_abri.value)+parseInt(media_Nr_Bezerros_mai.value)+parseInt(media_Nr_Bezerros_jun.value)+parseInt(media_Nr_Bezerros_jul.value)+parseInt(media_Nr_Bezerros_ago.value)
+        +parseInt(media_Nr_Bezerros_set.value)+parseInt(media_Nr_Bezerros_out.value)+parseInt(media_Nr_Bezerros_nov.value)+parseInt(media_Nr_Bezerros_dez.value);
+    }
+
+    ME_Nr_Bezerros();
+
+    media_Nr_Bezerros_jan.addEventListener("keyup",ME_Nr_Bezerros);
+    media_Nr_Bezerros_fev.addEventListener("keyup",ME_Nr_Bezerros);
+    media_Nr_Bezerros_mar.addEventListener("keyup",ME_Nr_Bezerros);
+    media_Nr_Bezerros_abr.addEventListener("keyup",ME_Nr_Bezerros);
+    media_Nr_Bezerros_mai.addEventListener("keyup",ME_Nr_Bezerros);
+    media_Nr_Bezerros_jun.addEventListener("keyup",ME_Nr_Bezerros);
+    media_Nr_Bezerros_jul.addEventListener("keyup",ME_Nr_Bezerros);
+    media_Nr_Bezerros_ago.addEventListener("keyup",ME_Nr_Bezerros);
+    media_Nr_Bezerros_set.addEventListener("keyup",ME_Nr_Bezerros);
+    media_Nr_Bezerros_out.addEventListener("keyup",ME_Nr_Bezerros);
+    media_Nr_Bezerros_nov.addEventListener("keyup",ME_Nr_Bezerros);
+    media_Nr_Bezerros_dez.addEventListener("keyup",ME_Nr_Bezerros);
+
+</script>
+
+
+<script>
+
+
+    var peso_media_Nr_Bezerros      = document.getElementById("id_");
+    var peso_media_Nr_Bezerros_jan = document.getElementById("id_");
+    var peso_media_Nr_Bezerros_fev = document.getElementById("id_");
+    var peso_media_Nr_Bezerros_mar = document.getElementById("id_");
+    var peso_media_Nr_Bezerros_abr = document.getElementById("id_");
+    var peso_media_Nr_Bezerros_mai = document.getElementById("id_");
+    var peso_media_Nr_Bezerros_jun = document.getElementById("id_");
+    var peso_media_Nr_Bezerros_jul = document.getElementById("id_");
+    var peso_media_Nr_Bezerros_ago = document.getElementById("id_");
+    var peso_media_Nr_Bezerros_set = document.getElementById("id_");
+    var peso_media_Nr_Bezerros_out = document.getElementById("id_");
+    var peso_media_Nr_Bezerros_nov = document.getElementById("id_");
+    var peso_media_Nr_Bezerros_dez = document.getElementById("id_");
+    function PES_M_Nr_Bezerros(){
+
+        peso_media_Nr_Bezerros.innerHTML = parseInt(peso_media_Nr_Bezerros_jan.value)+parseInt(peso_media_Nr_Bezerros_fev.value)+parseInt(peso_media_Nr_Bezerros_mar.value)+
+        parseInt(peso_media_Nr_Bezerros_abril.value)+parseInt(peso_media_Nr_Bezerros_mai.value)+parseInt(peso_media_Nr_Bezerros_jun.value)+parseInt(peso_media_Nr_Bezerros_jul.value)+parseInt(peso_media_Nr_Bezerros_ago.value)
+        +parseInt(peso_media_Nr_Bezerros_set.value)+parseInt(peso_media_Nr_Bezerros_out.value)+parseInt(peso_media_Nr_Bezerros_nov.value)+parseInt(peso_media_Nr_Bezerros_dez.value);
+
+    }
+
+
+
+</script>
+
+########################################################################################################################################################
+
+<script>
+    var media_Nr_Bezerras      = document.getElementById("id_");
+    var media_Nr_Bezerras_jan = document.getElementById("id_");
+    var media_Nr_Bezerras_fev = document.getElementById("id_");
+    var media_Nr_Bezerras_mar = document.getElementById("id_");
+    var media_Nr_Bezerras_abr = document.getElementById("id_");
+    var media_Nr_Bezerras_mai = document.getElementById("id_");
+    var media_Nr_Bezerras_jun = document.getElementById("id_");
+    var media_Nr_Bezerras_jul = document.getElementById("id_");
+    var media_Nr_Bezerras_ago = document.getElementById("id_");
+    var media_Nr_Bezerras_set = document.getElementById("id_");
+    var media_Nr_Bezerras_out = document.getElementById("id_");
+    var media_Nr_Bezerras_nov = document.getElementById("id_");
+    var media_Nr_Bezerras_dez = document.getElementById("id_");
+
+    function ME_Nr_Bezerras(){
+        media_Nr_Bezerras.innerHTML = parseInt(media_Nr_Bezerras_jan.value)+parseInt(media_Nr_Bezerras_fev.value)+parseInt(media_Nr_Bezerras_mar.value)+
+        parseInt(media_Nr_Bezerras_abri.value)+parseInt(media_Nr_Bezerras_mai.value)+parseInt(media_Nr_Bezerras_jun.value)+parseInt(media_Nr_Bezerras_jul.value)+parseInt(media_Nr_Bezerras_ago.value)
+        +parseInt(media_Nr_Bezerras_set.value)+parseInt(media_Nr_Bezerras_out.value)+parseInt(media_Nr_Bezerras_nov.value)+parseInt(media_Nr_Bezerras_dez.value);
+    }
+
+    ME_Nr_Bezerras();
+
+    media_Nr_Bezerras_jan.addEventListener("keyup",ME_Nr_Bezerras);
+    media_Nr_Bezerras_fev.addEventListener("keyup",ME_Nr_Bezerras);
+    media_Nr_Bezerras_mar.addEventListener("keyup",ME_Nr_Bezerras);
+    media_Nr_Bezerras_abr.addEventListener("keyup",ME_Nr_Bezerras);
+    media_Nr_Bezerras_mai.addEventListener("keyup",ME_Nr_Bezerras);
+    media_Nr_Bezerras_jun.addEventListener("keyup",ME_Nr_Bezerras);
+    media_Nr_Bezerras_jul.addEventListener("keyup",ME_Nr_Bezerras);
+    media_Nr_Bezerras_ago.addEventListener("keyup",ME_Nr_Bezerras);
+    media_Nr_Bezerras_set.addEventListener("keyup",ME_Nr_Bezerras);
+    media_Nr_Bezerras_out.addEventListener("keyup",ME_Nr_Bezerras);
+    media_Nr_Bezerras_nov.addEventListener("keyup",ME_Nr_Bezerras);
+    media_Nr_Bezerras_dez.addEventListener("keyup",ME_Nr_Bezerras);
+
+</script>
+
+
+<script>
+
+
+    var peso_media_Nr_Bezerras      = document.getElementById("id_");
+    var peso_media_Nr_Bezerras_jan = document.getElementById("id_");
+    var peso_media_Nr_Bezerras_fev = document.getElementById("id_");
+    var peso_media_Nr_Bezerras_mar = document.getElementById("id_");
+    var peso_media_Nr_Bezerras_abr = document.getElementById("id_");
+    var peso_media_Nr_Bezerras_mai = document.getElementById("id_");
+    var peso_media_Nr_Bezerras_jun = document.getElementById("id_");
+    var peso_media_Nr_Bezerras_jul = document.getElementById("id_");
+    var peso_media_Nr_Bezerras_ago = document.getElementById("id_");
+    var peso_media_Nr_Bezerras_set = document.getElementById("id_");
+    var peso_media_Nr_Bezerras_out = document.getElementById("id_");
+    var peso_media_Nr_Bezerras_nov = document.getElementById("id_");
+    var peso_media_Nr_Bezerras_dez = document.getElementById("id_");
+    function PES_M_Nr_Bezerras(){
+
+        peso_media_Nr_Bezerras.innerHTML = parseInt(peso_media_Nr_Bezerras_jan.value)+parseInt(peso_media_Nr_Bezerras_fev.value)+parseInt(peso_media_Nr_Bezerras_mar.value)+
+        parseInt(peso_media_Nr_Bezerras_abril.value)+parseInt(peso_media_Nr_Bezerras_mai.value)+parseInt(peso_media_Nr_Bezerras_jun.value)+parseInt(peso_media_Nr_Bezerras_jul.value)+parseInt(peso_media_Nr_Bezerras_ago.value)
+        +parseInt(peso_media_Nr_Bezerras_set.value)+parseInt(peso_media_Nr_Bezerras_out.value)+parseInt(peso_media_Nr_Bezerras_nov.value)+parseInt(peso_media_Nr_Bezerras_dez.value);
+
+    }
+
+</script>
+
+########################################################################################################################################################
+
+<script>
+    var media_Nr_Outros      = document.getElementById("id_");
+    var media_Nr_Outros_jan = document.getElementById("id_");
+    var media_Nr_Outros_fev = document.getElementById("id_");
+    var media_Nr_Outros_mar = document.getElementById("id_");
+    var media_Nr_Outros_abr = document.getElementById("id_");
+    var media_Nr_Outros_mai = document.getElementById("id_");
+    var media_Nr_Outros_jun = document.getElementById("id_");
+    var media_Nr_Outros_jul = document.getElementById("id_");
+    var media_Nr_Outros_ago = document.getElementById("id_");
+    var media_Nr_Outros_set = document.getElementById("id_");
+    var media_Nr_Outros_out = document.getElementById("id_");
+    var media_Nr_Outros_nov = document.getElementById("id_");
+    var media_Nr_Outros_dez = document.getElementById("id_");
+
+    function ME_Nr_Outros(){
+        media_Nr_Outros.innerHTML = parseInt(media_Nr_Outros_jan.value)+parseInt(media_Nr_Outros_fev.value)+parseInt(media_Nr_Outros_mar.value)+
+        parseInt(media_Nr_Outros_abri.value)+parseInt(media_Nr_Outros_mai.value)+parseInt(media_Nr_Outros_jun.value)+parseInt(media_Nr_Outros_jul.value)+parseInt(media_Nr_Outros_ago.value)
+        +parseInt(media_Nr_Outros_set.value)+parseInt(media_Nr_Outros_out.value)+parseInt(media_Nr_Outros_nov.value)+parseInt(media_Nr_Outros_dez.value);
+    }
+
+    ME_Nr_Outros();
+
+    media_Nr_Outros_jan.addEventListener("keyup",ME_Nr_Outros);
+    media_Nr_Outros_fev.addEventListener("keyup",ME_Nr_Outros);
+    media_Nr_Outros_mar.addEventListener("keyup",ME_Nr_Outros);
+    media_Nr_Outros_abr.addEventListener("keyup",ME_Nr_Outros);
+    media_Nr_Outros_mai.addEventListener("keyup",ME_Nr_Outros);
+    media_Nr_Outros_jun.addEventListener("keyup",ME_Nr_Outros);
+    media_Nr_Outros_jul.addEventListener("keyup",ME_Nr_Outros);
+    media_Nr_Outros_ago.addEventListener("keyup",ME_Nr_Outros);
+    media_Nr_Outros_set.addEventListener("keyup",ME_Nr_Outros);
+    media_Nr_Outros_out.addEventListener("keyup",ME_Nr_Outros);
+    media_Nr_Outros_nov.addEventListener("keyup",ME_Nr_Outros);
+    media_Nr_Outros_dez.addEventListener("keyup",ME_Nr_Outros);
+
+</script>
+
+
+<script>
+
+
+    var peso_media_Nr_Outros      = document.getElementById("id_");
+    var peso_media_Nr_Outros_jan = document.getElementById("id_");
+    var peso_media_Nr_Outros_fev = document.getElementById("id_");
+    var peso_media_Nr_Outros_mar = document.getElementById("id_");
+    var peso_media_Nr_Outros_abr = document.getElementById("id_");
+    var peso_media_Nr_Outros_mai = document.getElementById("id_");
+    var peso_media_Nr_Outros_jun = document.getElementById("id_");
+    var peso_media_Nr_Outros_jul = document.getElementById("id_");
+    var peso_media_Nr_Outros_ago = document.getElementById("id_");
+    var peso_media_Nr_Outros_set = document.getElementById("id_");
+    var peso_media_Nr_Outros_out = document.getElementById("id_");
+    var peso_media_Nr_Outros_nov = document.getElementById("id_");
+    var peso_media_Nr_Outros_dez = document.getElementById("id_");
+    function PES_M_Nr_Outros(){
+
+        peso_media_Nr_Outros.innerHTML = parseInt(peso_media_Nr_Outros_jan.value)+parseInt(peso_media_Nr_Outros_fev.value)+parseInt(peso_media_Nr_Outros_mar.value)+
+        parseInt(peso_media_Nr_Outros_abril.value)+parseInt(peso_media_Nr_Outros_mai.value)+parseInt(peso_media_Nr_Outros_jun.value)+parseInt(peso_media_Nr_Outros_jul.value)+parseInt(peso_media_Nr_Outros_ago.value)
+        +parseInt(peso_media_Nr_Outros_set.value)+parseInt(peso_media_Nr_Outros_out.value)+parseInt(peso_media_Nr_Outros_nov.value)+parseInt(peso_media_Nr_Outros_dez.value);
+
+    }
+
+
+</script>
+
+########################################################################################################################################################
+
+<script>
+    var media_Nr_Equideos      = document.getElementById("id_");
+    var media_Nr_Equideos_jan = document.getElementById("id_");
+    var media_Nr_Equideos_fev = document.getElementById("id_");
+    var media_Nr_Equideos_mar = document.getElementById("id_");
+    var media_Nr_Equideos_abr = document.getElementById("id_");
+    var media_Nr_Equideos_mai = document.getElementById("id_");
+    var media_Nr_Equideos_jun = document.getElementById("id_");
+    var media_Nr_Equideos_jul = document.getElementById("id_");
+    var media_Nr_Equideos_ago = document.getElementById("id_");
+    var media_Nr_Equideos_set = document.getElementById("id_");
+    var media_Nr_Equideos_out = document.getElementById("id_");
+    var media_Nr_Equideos_nov = document.getElementById("id_");
+    var media_Nr_Equideos_dez = document.getElementById("id_");
+
+    function ME_Nr_Equideos(){
+        media_Nr_Equideos.innerHTML = parseInt(media_Nr_Equideos_jan.value)+parseInt(media_Nr_Equideos_fev.value)+parseInt(media_Nr_Equideos_mar.value)+
+        parseInt(media_Nr_Equideos_abri.value)+parseInt(media_Nr_Equideos_mai.value)+parseInt(media_Nr_Equideos_jun.value)+parseInt(media_Nr_Equideos_jul.value)+parseInt(media_Nr_Equideos_ago.value)
+        +parseInt(media_Nr_Equideos_set.value)+parseInt(media_Nr_Equideos_out.value)+parseInt(media_Nr_Equideos_nov.value)+parseInt(media_Nr_Equideos_dez.value);
+    }
+
+    ME_Nr_Equideos();
+
+    media_Nr_Equideos_jan.addEventListener("keyup",ME_Nr_Equideos);
+    media_Nr_Equideos_fev.addEventListener("keyup",ME_Nr_Equideos);
+    media_Nr_Equideos_mar.addEventListener("keyup",ME_Nr_Equideos);
+    media_Nr_Equideos_abr.addEventListener("keyup",ME_Nr_Equideos);
+    media_Nr_Equideos_mai.addEventListener("keyup",ME_Nr_Equideos);
+    media_Nr_Equideos_jun.addEventListener("keyup",ME_Nr_Equideos);
+    media_Nr_Equideos_jul.addEventListener("keyup",ME_Nr_Equideos);
+    media_Nr_Equideos_ago.addEventListener("keyup",ME_Nr_Equideos);
+    media_Nr_Equideos_set.addEventListener("keyup",ME_Nr_Equideos);
+    media_Nr_Equideos_out.addEventListener("keyup",ME_Nr_Equideos);
+    media_Nr_Equideos_nov.addEventListener("keyup",ME_Nr_Equideos);
+    media_Nr_Equideos_dez.addEventListener("keyup",ME_Nr_Equideos);
+
+</script>
+
+
+<script>
+
+
+    var peso_media_Nr_Equideos      = document.getElementById("id_");
+    var peso_media_Nr_Equideos_jan = document.getElementById("id_");
+    var peso_media_Nr_Equideos_fev = document.getElementById("id_");
+    var peso_media_Nr_Equideos_mar = document.getElementById("id_");
+    var peso_media_Nr_Equideos_abr = document.getElementById("id_");
+    var peso_media_Nr_Equideos_mai = document.getElementById("id_");
+    var peso_media_Nr_Equideos_jun = document.getElementById("id_");
+    var peso_media_Nr_Equideos_jul = document.getElementById("id_");
+    var peso_media_Nr_Equideos_ago = document.getElementById("id_");
+    var peso_media_Nr_Equideos_set = document.getElementById("id_");
+    var peso_media_Nr_Equideos_out = document.getElementById("id_");
+    var peso_media_Nr_Equideos_nov = document.getElementById("id_");
+    var peso_media_Nr_Equideos_dez = document.getElementById("id_");
+    function PES_M_Nr_Equideos(){
+
+        peso_media_Nr_Equideos.innerHTML = parseInt(peso_media_Nr_Equideos_jan.value)+parseInt(peso_media_Nr_Equideos_fev.value)+parseInt(peso_media_Nr_Equideos_mar.value)+
+        parseInt(peso_media_Nr_Equideos_abril.value)+parseInt(peso_media_Nr_Equideos_mai.value)+parseInt(peso_media_Nr_Equideos_jun.value)+parseInt(peso_media_Nr_Equideos_jul.value)+parseInt(peso_media_Nr_Equideos_ago.value)
+        +parseInt(peso_media_Nr_Equideos_set.value)+parseInt(peso_media_Nr_Equideos_out.value)+parseInt(peso_media_Nr_Equideos_nov.value)+parseInt(peso_media_Nr_Equideos_dez.value);
+
+    }
+
+</script>
+
+########################################################################################################################################################
+
+<script>
+    var media_TOTAL_CABEÇAS      = document.getElementById("id_");
+    var media_TOTAL_CABEÇAS_jan = document.getElementById("id_");
+    var media_TOTAL_CABEÇAS_fev = document.getElementById("id_");
+    var media_TOTAL_CABEÇAS_mar = document.getElementById("id_");
+    var media_TOTAL_CABEÇAS_abr = document.getElementById("id_");
+    var media_TOTAL_CABEÇAS_mai = document.getElementById("id_");
+    var media_TOTAL_CABEÇAS_jun = document.getElementById("id_");
+    var media_TOTAL_CABEÇAS_jul = document.getElementById("id_");
+    var media_TOTAL_CABEÇAS_ago = document.getElementById("id_");
+    var media_TOTAL_CABEÇAS_set = document.getElementById("id_");
+    var media_TOTAL_CABEÇAS_out = document.getElementById("id_");
+    var media_TOTAL_CABEÇAS_nov = document.getElementById("id_");
+    var media_TOTAL_CABEÇAS_dez = document.getElementById("id_");
+
+    function ME_TOTAL_CABEÇAS(){
+        media_TOTAL_CABEÇAS.innerHTML = parseInt(media_TOTAL_CABEÇAS_jan.value)+parseInt(media_TOTAL_CABEÇAS_fev.value)+parseInt(media_TOTAL_CABEÇAS_mar.value)+
+        parseInt(media_TOTAL_CABEÇAS_abri.value)+parseInt(media_TOTAL_CABEÇAS_mai.value)+parseInt(media_TOTAL_CABEÇAS_jun.value)+parseInt(media_TOTAL_CABEÇAS_jul.value)+parseInt(media_TOTAL_CABEÇAS_ago.value)
+        +parseInt(media_TOTAL_CABEÇAS_set.value)+parseInt(media_TOTAL_CABEÇAS_out.value)+parseInt(media_TOTAL_CABEÇAS_nov.value)+parseInt(media_TOTAL_CABEÇAS_dez.value);
+    }
+
+    ME_TOTAL_CABEÇAS();
+
+    media_TOTAL_CABEÇAS_jan.addEventListener("keyup",ME_TOTAL_CABEÇAS);
+    media_TOTAL_CABEÇAS_fev.addEventListener("keyup",ME_TOTAL_CABEÇAS);
+    media_TOTAL_CABEÇAS_mar.addEventListener("keyup",ME_TOTAL_CABEÇAS);
+    media_TOTAL_CABEÇAS_abr.addEventListener("keyup",ME_TOTAL_CABEÇAS);
+    media_TOTAL_CABEÇAS_mai.addEventListener("keyup",ME_TOTAL_CABEÇAS);
+    media_TOTAL_CABEÇAS_jun.addEventListener("keyup",ME_TOTAL_CABEÇAS);
+    media_TOTAL_CABEÇAS_jul.addEventListener("keyup",ME_TOTAL_CABEÇAS);
+    media_TOTAL_CABEÇAS_ago.addEventListener("keyup",ME_TOTAL_CABEÇAS);
+    media_TOTAL_CABEÇAS_set.addEventListener("keyup",ME_TOTAL_CABEÇAS);
+    media_TOTAL_CABEÇAS_out.addEventListener("keyup",ME_TOTAL_CABEÇAS);
+    media_TOTAL_CABEÇAS_nov.addEventListener("keyup",ME_TOTAL_CABEÇAS);
+    media_TOTAL_CABEÇAS_dez.addEventListener("keyup",ME_TOTAL_CABEÇAS);
+
+</script>
+
+
+<script>
+
+
+    var peso_media_TOTAL_CABEÇAS      = document.getElementById("id_");
+    var peso_media_TOTAL_CABEÇAS_jan = document.getElementById("id_");
+    var peso_media_TOTAL_CABEÇAS_fev = document.getElementById("id_");
+    var peso_media_TOTAL_CABEÇAS_mar = document.getElementById("id_");
+    var peso_media_TOTAL_CABEÇAS_abr = document.getElementById("id_");
+    var peso_media_TOTAL_CABEÇAS_mai = document.getElementById("id_");
+    var peso_media_TOTAL_CABEÇAS_jun = document.getElementById("id_");
+    var peso_media_TOTAL_CABEÇAS_jul = document.getElementById("id_");
+    var peso_media_TOTAL_CABEÇAS_ago = document.getElementById("id_");
+    var peso_media_TOTAL_CABEÇAS_set = document.getElementById("id_");
+    var peso_media_TOTAL_CABEÇAS_out = document.getElementById("id_");
+    var peso_media_TOTAL_CABEÇAS_nov = document.getElementById("id_");
+    var peso_media_TOTAL_CABEÇAS_dez = document.getElementById("id_");
+    function PES_M_TOTAL_CABEÇAS(){
+
+        peso_media_TOTAL_CABEÇAS.innerHTML = parseInt(peso_media_TOTAL_CABEÇAS_jan.value)+parseInt(peso_media_TOTAL_CABEÇAS_fev.value)+parseInt(peso_media_TOTAL_CABEÇAS_mar.value)+
+        parseInt(peso_media_TOTAL_CABEÇAS_abril.value)+parseInt(peso_media_TOTAL_CABEÇAS_mai.value)+parseInt(peso_media_TOTAL_CABEÇAS_jun.value)+parseInt(peso_media_TOTAL_CABEÇAS_jul.value)+parseInt(peso_media_TOTAL_CABEÇAS_ago.value)
+        +parseInt(peso_media_TOTAL_CABEÇAS_set.value)+parseInt(peso_media_TOTAL_CABEÇAS_out.value)+parseInt(peso_media_TOTAL_CABEÇAS_nov.value)+parseInt(peso_media_TOTAL_CABEÇAS_dez.value);
+
+    }
+
+</script>
+
+########################################################################################################################################################
+
+<script>
+    var media_Peso_medio      = document.getElementById("id_");
+    var media_Peso_medio_jan = document.getElementById("id_");
+    var media_Peso_medio_fev = document.getElementById("id_");
+    var media_Peso_medio_mar = document.getElementById("id_");
+    var media_Peso_medio_abr = document.getElementById("id_");
+    var media_Peso_medio_mai = document.getElementById("id_");
+    var media_Peso_medio_jun = document.getElementById("id_");
+    var media_Peso_medio_jul = document.getElementById("id_");
+    var media_Peso_medio_ago = document.getElementById("id_");
+    var media_Peso_medio_set = document.getElementById("id_");
+    var media_Peso_medio_out = document.getElementById("id_");
+    var media_Peso_medio_nov = document.getElementById("id_");
+    var media_Peso_medio_dez = document.getElementById("id_");
+
+    function ME_Peso_medio(){
+        media_Peso_medio.innerHTML = parseInt(media_Peso_medio_jan.value)+parseInt(media_Peso_medio_fev.value)+parseInt(media_Peso_medio_mar.value)+
+        parseInt(media_Peso_medio_abri.value)+parseInt(media_Peso_medio_mai.value)+parseInt(media_Peso_medio_jun.value)+parseInt(media_Peso_medio_jul.value)+parseInt(media_Peso_medio_ago.value)
+        +parseInt(media_Peso_medio_set.value)+parseInt(media_Peso_medio_out.value)+parseInt(media_Peso_medio_nov.value)+parseInt(media_Peso_medio_dez.value);
+    }
+
+    ME_Peso_medio();
+
+    media_Peso_medio_jan.addEventListener("keyup",ME_Peso_medio);
+    media_Peso_medio_fev.addEventListener("keyup",ME_Peso_medio);
+    media_Peso_medio_mar.addEventListener("keyup",ME_Peso_medio);
+    media_Peso_medio_abr.addEventListener("keyup",ME_Peso_medio);
+    media_Peso_medio_mai.addEventListener("keyup",ME_Peso_medio);
+    media_Peso_medio_jun.addEventListener("keyup",ME_Peso_medio);
+    media_Peso_medio_jul.addEventListener("keyup",ME_Peso_medio);
+    media_Peso_medio_ago.addEventListener("keyup",ME_Peso_medio);
+    media_Peso_medio_set.addEventListener("keyup",ME_Peso_medio);
+    media_Peso_medio_out.addEventListener("keyup",ME_Peso_medio);
+    media_Peso_medio_nov.addEventListener("keyup",ME_Peso_medio);
+    media_Peso_medio_dez.addEventListener("keyup",ME_Peso_medio);
+
+</script>
+
+
+<script>
+
+
+    var peso_media_Peso_medio      = document.getElementById("id_");
+    var peso_media_Peso_medio_jan = document.getElementById("id_");
+    var peso_media_Peso_medio_fev = document.getElementById("id_");
+    var peso_media_Peso_medio_mar = document.getElementById("id_");
+    var peso_media_Peso_medio_abr = document.getElementById("id_");
+    var peso_media_Peso_medio_mai = document.getElementById("id_");
+    var peso_media_Peso_medio_jun = document.getElementById("id_");
+    var peso_media_Peso_medio_jul = document.getElementById("id_");
+    var peso_media_Peso_medio_ago = document.getElementById("id_");
+    var peso_media_Peso_medio_set = document.getElementById("id_");
+    var peso_media_Peso_medio_out = document.getElementById("id_");
+    var peso_media_Peso_medio_nov = document.getElementById("id_");
+    var peso_media_Peso_medio_dez = document.getElementById("id_");
+    function PES_M_Peso_medio(){
+
+        peso_media_Peso_medio.innerHTML = parseInt(peso_media_Peso_medio_jan.value)+parseInt(peso_media_Peso_medio_fev.value)+parseInt(peso_media_Peso_medio_mar.value)+
+        parseInt(peso_media_Peso_medio_abril.value)+parseInt(peso_media_Peso_medio_mai.value)+parseInt(peso_media_Peso_medio_jun.value)+parseInt(peso_media_Peso_medio_jul.value)+parseInt(peso_media_Peso_medio_ago.value)
+        +parseInt(peso_media_Peso_medio_set.value)+parseInt(peso_media_Peso_medio_out.value)+parseInt(peso_media_Peso_medio_nov.value)+parseInt(peso_media_Peso_medio_dez.value);
+
+    }
+
+</script>
+
+########################################################################################################################################################
+
+<script>
+    var media_Estoque_em__Arroba      = document.getElementById("id_");
+    var media_Estoque_em__Arroba_jan = document.getElementById("id_");
+    var media_Estoque_em__Arroba_fev = document.getElementById("id_");
+    var media_Estoque_em__Arroba_mar = document.getElementById("id_");
+    var media_Estoque_em__Arroba_abr = document.getElementById("id_");
+    var media_Estoque_em__Arroba_mai = document.getElementById("id_");
+    var media_Estoque_em__Arroba_jun = document.getElementById("id_");
+    var media_Estoque_em__Arroba_jul = document.getElementById("id_");
+    var media_Estoque_em__Arroba_ago = document.getElementById("id_");
+    var media_Estoque_em__Arroba_set = document.getElementById("id_");
+    var media_Estoque_em__Arroba_out = document.getElementById("id_");
+    var media_Estoque_em__Arroba_nov = document.getElementById("id_");
+    var media_Estoque_em__Arroba_dez = document.getElementById("id_");
+
+    function ME_Estoque_em__Arroba(){
+        media_Estoque_em__Arroba.innerHTML = parseInt(media_Estoque_em__Arroba_jan.value)+parseInt(media_Estoque_em__Arroba_fev.value)+parseInt(media_Estoque_em__Arroba_mar.value)+
+        parseInt(media_Estoque_em__Arroba_abri.value)+parseInt(media_Estoque_em__Arroba_mai.value)+parseInt(media_Estoque_em__Arroba_jun.value)+parseInt(media_Estoque_em__Arroba_jul.value)+parseInt(media_Estoque_em__Arroba_ago.value)
+        +parseInt(media_Estoque_em__Arroba_set.value)+parseInt(media_Estoque_em__Arroba_out.value)+parseInt(media_Estoque_em__Arroba_nov.value)+parseInt(media_Estoque_em__Arroba_dez.value);
+    }
+
+    ME_Estoque_em__Arroba();
+
+    media_Estoque_em__Arroba_jan.addEventListener("keyup",ME_Estoque_em__Arroba);
+    media_Estoque_em__Arroba_fev.addEventListener("keyup",ME_Estoque_em__Arroba);
+    media_Estoque_em__Arroba_mar.addEventListener("keyup",ME_Estoque_em__Arroba);
+    media_Estoque_em__Arroba_abr.addEventListener("keyup",ME_Estoque_em__Arroba);
+    media_Estoque_em__Arroba_mai.addEventListener("keyup",ME_Estoque_em__Arroba);
+    media_Estoque_em__Arroba_jun.addEventListener("keyup",ME_Estoque_em__Arroba);
+    media_Estoque_em__Arroba_jul.addEventListener("keyup",ME_Estoque_em__Arroba);
+    media_Estoque_em__Arroba_ago.addEventListener("keyup",ME_Estoque_em__Arroba);
+    media_Estoque_em__Arroba_set.addEventListener("keyup",ME_Estoque_em__Arroba);
+    media_Estoque_em__Arroba_out.addEventListener("keyup",ME_Estoque_em__Arroba);
+    media_Estoque_em__Arroba_nov.addEventListener("keyup",ME_Estoque_em__Arroba);
+    media_Estoque_em__Arroba_dez.addEventListener("keyup",ME_Estoque_em__Arroba);
+
+</script>
+
+
+<script>
+
+
+    var peso_media_Estoque_em__Arroba      = document.getElementById("id_");
+    var peso_media_Estoque_em__Arroba_jan = document.getElementById("id_");
+    var peso_media_Estoque_em__Arroba_fev = document.getElementById("id_");
+    var peso_media_Estoque_em__Arroba_mar = document.getElementById("id_");
+    var peso_media_Estoque_em__Arroba_abr = document.getElementById("id_");
+    var peso_media_Estoque_em__Arroba_mai = document.getElementById("id_");
+    var peso_media_Estoque_em__Arroba_jun = document.getElementById("id_");
+    var peso_media_Estoque_em__Arroba_jul = document.getElementById("id_");
+    var peso_media_Estoque_em__Arroba_ago = document.getElementById("id_");
+    var peso_media_Estoque_em__Arroba_set = document.getElementById("id_");
+    var peso_media_Estoque_em__Arroba_out = document.getElementById("id_");
+    var peso_media_Estoque_em__Arroba_nov = document.getElementById("id_");
+    var peso_media_Estoque_em__Arroba_dez = document.getElementById("id_");
+    function PES_M_Estoque_em__Arroba(){
+
+        peso_media_Estoque_em__Arroba.innerHTML = parseInt(peso_media_Estoque_em__Arroba_jan.value)+parseInt(peso_media_Estoque_em__Arroba_fev.value)+parseInt(peso_media_Estoque_em__Arroba_mar.value)+
+        parseInt(peso_media_Estoque_em__Arroba_abril.value)+parseInt(peso_media_Estoque_em__Arroba_mai.value)+parseInt(peso_media_Estoque_em__Arroba_jun.value)+parseInt(peso_media_Estoque_em__Arroba_jul.value)+parseInt(peso_media_Estoque_em__Arroba_ago.value)
+        +parseInt(peso_media_Estoque_em__Arroba_set.value)+parseInt(peso_media_Estoque_em__Arroba_out.value)+parseInt(peso_media_Estoque_em__Arroba_nov.value)+parseInt(peso_media_Estoque_em__Arroba_dez.value);
+
+    }
+
+</script>
+
+########################################################################################################################################################
+
+<script>
+    var media_Area_Util_ha      = document.getElementById("id_");
+    var media_Area_Util_ha_jan = document.getElementById("id_");
+    var media_Area_Util_ha_fev = document.getElementById("id_");
+    var media_Area_Util_ha_mar = document.getElementById("id_");
+    var media_Area_Util_ha_abr = document.getElementById("id_");
+    var media_Area_Util_ha_mai = document.getElementById("id_");
+    var media_Area_Util_ha_jun = document.getElementById("id_");
+    var media_Area_Util_ha_jul = document.getElementById("id_");
+    var media_Area_Util_ha_ago = document.getElementById("id_");
+    var media_Area_Util_ha_set = document.getElementById("id_");
+    var media_Area_Util_ha_out = document.getElementById("id_");
+    var media_Area_Util_ha_nov = document.getElementById("id_");
+    var media_Area_Util_ha_dez = document.getElementById("id_");
+
+    function ME_Area_Util_ha(){
+        media_Area_Util_ha.innerHTML = parseInt(media_Area_Util_ha_jan.value)+parseInt(media_Area_Util_ha_fev.value)+parseInt(media_Area_Util_ha_mar.value)+
+        parseInt(media_Area_Util_ha_abri.value)+parseInt(media_Area_Util_ha_mai.value)+parseInt(media_Area_Util_ha_jun.value)+parseInt(media_Area_Util_ha_jul.value)+parseInt(media_Area_Util_ha_ago.value)
+        +parseInt(media_Area_Util_ha_set.value)+parseInt(media_Area_Util_ha_out.value)+parseInt(media_Area_Util_ha_nov.value)+parseInt(media_Area_Util_ha_dez.value);
+    }
+
+    ME_Area_Util_ha();
+
+    media_Area_Util_ha_jan.addEventListener("keyup",ME_Area_Util_ha);
+    media_Area_Util_ha_fev.addEventListener("keyup",ME_Area_Util_ha);
+    media_Area_Util_ha_mar.addEventListener("keyup",ME_Area_Util_ha);
+    media_Area_Util_ha_abr.addEventListener("keyup",ME_Area_Util_ha);
+    media_Area_Util_ha_mai.addEventListener("keyup",ME_Area_Util_ha);
+    media_Area_Util_ha_jun.addEventListener("keyup",ME_Area_Util_ha);
+    media_Area_Util_ha_jul.addEventListener("keyup",ME_Area_Util_ha);
+    media_Area_Util_ha_ago.addEventListener("keyup",ME_Area_Util_ha);
+    media_Area_Util_ha_set.addEventListener("keyup",ME_Area_Util_ha);
+    media_Area_Util_ha_out.addEventListener("keyup",ME_Area_Util_ha);
+    media_Area_Util_ha_nov.addEventListener("keyup",ME_Area_Util_ha);
+    media_Area_Util_ha_dez.addEventListener("keyup",ME_Area_Util_ha);
+
+</script>
+
+
+<script>
+
+
+    var peso_media_Area_Util_ha      = document.getElementById("id_");
+    var peso_media_Area_Util_ha_jan = document.getElementById("id_");
+    var peso_media_Area_Util_ha_fev = document.getElementById("id_");
+    var peso_media_Area_Util_ha_mar = document.getElementById("id_");
+    var peso_media_Area_Util_ha_abr = document.getElementById("id_");
+    var peso_media_Area_Util_ha_mai = document.getElementById("id_");
+    var peso_media_Area_Util_ha_jun = document.getElementById("id_");
+    var peso_media_Area_Util_ha_jul = document.getElementById("id_");
+    var peso_media_Area_Util_ha_ago = document.getElementById("id_");
+    var peso_media_Area_Util_ha_set = document.getElementById("id_");
+    var peso_media_Area_Util_ha_out = document.getElementById("id_");
+    var peso_media_Area_Util_ha_nov = document.getElementById("id_");
+    var peso_media_Area_Util_ha_dez = document.getElementById("id_");
+    function PES_M_Area_Util_ha(){
+
+        peso_media_Area_Util_ha.innerHTML = parseInt(peso_media_Area_Util_ha_jan.value)+parseInt(peso_media_Area_Util_ha_fev.value)+parseInt(peso_media_Area_Util_ha_mar.value)+
+        parseInt(peso_media_Area_Util_ha_abril.value)+parseInt(peso_media_Area_Util_ha_mai.value)+parseInt(peso_media_Area_Util_ha_jun.value)+parseInt(peso_media_Area_Util_ha_jul.value)+parseInt(peso_media_Area_Util_ha_ago.value)
+        +parseInt(peso_media_Area_Util_ha_set.value)+parseInt(peso_media_Area_Util_ha_out.value)+parseInt(peso_media_Area_Util_ha_nov.value)+parseInt(peso_media_Area_Util_ha_dez.value);
+
+    }
+
+</script>
+
+########################################################################################################################################################
+
+<script>
+    var media_Densidade_de_Lotação_cab_ha      = document.getElementById("id_");
+    var media_Densidade_de_Lotação_cab_ha_jan = document.getElementById("id_");
+    var media_Densidade_de_Lotação_cab_ha_fev = document.getElementById("id_");
+    var media_Densidade_de_Lotação_cab_ha_mar = document.getElementById("id_");
+    var media_Densidade_de_Lotação_cab_ha_abr = document.getElementById("id_");
+    var media_Densidade_de_Lotação_cab_ha_mai = document.getElementById("id_");
+    var media_Densidade_de_Lotação_cab_ha_jun = document.getElementById("id_");
+    var media_Densidade_de_Lotação_cab_ha_jul = document.getElementById("id_");
+    var media_Densidade_de_Lotação_cab_ha_ago = document.getElementById("id_");
+    var media_Densidade_de_Lotação_cab_ha_set = document.getElementById("id_");
+    var media_Densidade_de_Lotação_cab_ha_out = document.getElementById("id_");
+    var media_Densidade_de_Lotação_cab_ha_nov = document.getElementById("id_");
+    var media_Densidade_de_Lotação_cab_ha_dez = document.getElementById("id_");
+
+    function ME_Densidade_de_Lotação_cab_ha(){
+        media_Densidade_de_Lotação_cab_ha.innerHTML = parseInt(media_Densidade_de_Lotação_cab_ha_jan.value)+parseInt(media_Densidade_de_Lotação_cab_ha_fev.value)+parseInt(media_Densidade_de_Lotação_cab_ha_mar.value)+
+        parseInt(media_Densidade_de_Lotação_cab_ha_abri.value)+parseInt(media_Densidade_de_Lotação_cab_ha_mai.value)+parseInt(media_Densidade_de_Lotação_cab_ha_jun.value)+parseInt(media_Densidade_de_Lotação_cab_ha_jul.value)+parseInt(media_Densidade_de_Lotação_cab_ha_ago.value)
+        +parseInt(media_Densidade_de_Lotação_cab_ha_set.value)+parseInt(media_Densidade_de_Lotação_cab_ha_out.value)+parseInt(media_Densidade_de_Lotação_cab_ha_nov.value)+parseInt(media_Densidade_de_Lotação_cab_ha_dez.value);
+    }
+
+    ME_Densidade_de_Lotação_cab_ha();
+
+    media_Densidade_de_Lotação_cab_ha_jan.addEventListener("keyup",ME_Densidade_de_Lotação_cab_ha);
+    media_Densidade_de_Lotação_cab_ha_fev.addEventListener("keyup",ME_Densidade_de_Lotação_cab_ha);
+    media_Densidade_de_Lotação_cab_ha_mar.addEventListener("keyup",ME_Densidade_de_Lotação_cab_ha);
+    media_Densidade_de_Lotação_cab_ha_abr.addEventListener("keyup",ME_Densidade_de_Lotação_cab_ha);
+    media_Densidade_de_Lotação_cab_ha_mai.addEventListener("keyup",ME_Densidade_de_Lotação_cab_ha);
+    media_Densidade_de_Lotação_cab_ha_jun.addEventListener("keyup",ME_Densidade_de_Lotação_cab_ha);
+    media_Densidade_de_Lotação_cab_ha_jul.addEventListener("keyup",ME_Densidade_de_Lotação_cab_ha);
+    media_Densidade_de_Lotação_cab_ha_ago.addEventListener("keyup",ME_Densidade_de_Lotação_cab_ha);
+    media_Densidade_de_Lotação_cab_ha_set.addEventListener("keyup",ME_Densidade_de_Lotação_cab_ha);
+    media_Densidade_de_Lotação_cab_ha_out.addEventListener("keyup",ME_Densidade_de_Lotação_cab_ha);
+    media_Densidade_de_Lotação_cab_ha_nov.addEventListener("keyup",ME_Densidade_de_Lotação_cab_ha);
+    media_Densidade_de_Lotação_cab_ha_dez.addEventListener("keyup",ME_Densidade_de_Lotação_cab_ha);
+
+</script>
+
+
+<script>
+
+
+    var peso_media_Densidade_de_Lotação_cab_ha      = document.getElementById("id_");
+    var peso_media_Densidade_de_Lotação_cab_ha_jan = document.getElementById("id_");
+    var peso_media_Densidade_de_Lotação_cab_ha_fev = document.getElementById("id_");
+    var peso_media_Densidade_de_Lotação_cab_ha_mar = document.getElementById("id_");
+    var peso_media_Densidade_de_Lotação_cab_ha_abr = document.getElementById("id_");
+    var peso_media_Densidade_de_Lotação_cab_ha_mai = document.getElementById("id_");
+    var peso_media_Densidade_de_Lotação_cab_ha_jun = document.getElementById("id_");
+    var peso_media_Densidade_de_Lotação_cab_ha_jul = document.getElementById("id_");
+    var peso_media_Densidade_de_Lotação_cab_ha_ago = document.getElementById("id_");
+    var peso_media_Densidade_de_Lotação_cab_ha_set = document.getElementById("id_");
+    var peso_media_Densidade_de_Lotação_cab_ha_out = document.getElementById("id_");
+    var peso_media_Densidade_de_Lotação_cab_ha_nov = document.getElementById("id_");
+    var peso_media_Densidade_de_Lotação_cab_ha_dez = document.getElementById("id_");
+    function PES_M_Densidade_de_Lotação_cab_ha(){
+
+        peso_media_Densidade_de_Lotação_cab_ha.innerHTML = parseInt(peso_media_Densidade_de_Lotação_cab_ha_jan.value)+parseInt(peso_media_Densidade_de_Lotação_cab_ha_fev.value)+parseInt(peso_media_Densidade_de_Lotação_cab_ha_mar.value)+
+        parseInt(peso_media_Densidade_de_Lotação_cab_ha_abril.value)+parseInt(peso_media_Densidade_de_Lotação_cab_ha_mai.value)+parseInt(peso_media_Densidade_de_Lotação_cab_ha_jun.value)+parseInt(peso_media_Densidade_de_Lotação_cab_ha_jul.value)+parseInt(peso_media_Densidade_de_Lotação_cab_ha_ago.value)
+        +parseInt(peso_media_Densidade_de_Lotação_cab_ha_set.value)+parseInt(peso_media_Densidade_de_Lotação_cab_ha_out.value)+parseInt(peso_media_Densidade_de_Lotação_cab_ha_nov.value)+parseInt(peso_media_Densidade_de_Lotação_cab_ha_dez.value);
+
+    }
+
+</script>
+
+########################################################################################################################################################
+
+
+<script>
+    var media_Taxa_de_Lotação_UA_ha      = document.getElementById("id_");
+    var media_Taxa_de_Lotação_UA_ha_jan = document.getElementById("id_");
+    var media_Taxa_de_Lotação_UA_ha_fev = document.getElementById("id_");
+    var media_Taxa_de_Lotação_UA_ha_mar = document.getElementById("id_");
+    var media_Taxa_de_Lotação_UA_ha_abr = document.getElementById("id_");
+    var media_Taxa_de_Lotação_UA_ha_mai = document.getElementById("id_");
+    var media_Taxa_de_Lotação_UA_ha_jun = document.getElementById("id_");
+    var media_Taxa_de_Lotação_UA_ha_jul = document.getElementById("id_");
+    var media_Taxa_de_Lotação_UA_ha_ago = document.getElementById("id_");
+    var media_Taxa_de_Lotação_UA_ha_set = document.getElementById("id_");
+    var media_Taxa_de_Lotação_UA_ha_out = document.getElementById("id_");
+    var media_Taxa_de_Lotação_UA_ha_nov = document.getElementById("id_");
+    var media_Taxa_de_Lotação_UA_ha_dez = document.getElementById("id_");
+
+    function ME_Taxa_de_Lotação_UA_ha(){
+        media_Taxa_de_Lotação_UA_ha.innerHTML = parseInt(media_Taxa_de_Lotação_UA_ha_jan.value)+parseInt(media_Taxa_de_Lotação_UA_ha_fev.value)+parseInt(media_Taxa_de_Lotação_UA_ha_mar.value)+
+        parseInt(media_Taxa_de_Lotação_UA_ha_abri.value)+parseInt(media_Taxa_de_Lotação_UA_ha_mai.value)+parseInt(media_Taxa_de_Lotação_UA_ha_jun.value)+parseInt(media_Taxa_de_Lotação_UA_ha_jul.value)+parseInt(media_Taxa_de_Lotação_UA_ha_ago.value)
+        +parseInt(media_Taxa_de_Lotação_UA_ha_set.value)+parseInt(media_Taxa_de_Lotação_UA_ha_out.value)+parseInt(media_Taxa_de_Lotação_UA_ha_nov.value)+parseInt(media_Taxa_de_Lotação_UA_ha_dez.value);
+    }
+
+    ME_Taxa_de_Lotação_UA_ha();
+
+    media_Taxa_de_Lotação_UA_ha_jan.addEventListener("keyup",ME_Taxa_de_Lotação_UA_ha);
+    media_Taxa_de_Lotação_UA_ha_fev.addEventListener("keyup",ME_Taxa_de_Lotação_UA_ha);
+    media_Taxa_de_Lotação_UA_ha_mar.addEventListener("keyup",ME_Taxa_de_Lotação_UA_ha);
+    media_Taxa_de_Lotação_UA_ha_abr.addEventListener("keyup",ME_Taxa_de_Lotação_UA_ha);
+    media_Taxa_de_Lotação_UA_ha_mai.addEventListener("keyup",ME_Taxa_de_Lotação_UA_ha);
+    media_Taxa_de_Lotação_UA_ha_jun.addEventListener("keyup",ME_Taxa_de_Lotação_UA_ha);
+    media_Taxa_de_Lotação_UA_ha_jul.addEventListener("keyup",ME_Taxa_de_Lotação_UA_ha);
+    media_Taxa_de_Lotação_UA_ha_ago.addEventListener("keyup",ME_Taxa_de_Lotação_UA_ha);
+    media_Taxa_de_Lotação_UA_ha_set.addEventListener("keyup",ME_Taxa_de_Lotação_UA_ha);
+    media_Taxa_de_Lotação_UA_ha_out.addEventListener("keyup",ME_Taxa_de_Lotação_UA_ha);
+    media_Taxa_de_Lotação_UA_ha_nov.addEventListener("keyup",ME_Taxa_de_Lotação_UA_ha);
+    media_Taxa_de_Lotação_UA_ha_dez.addEventListener("keyup",ME_Taxa_de_Lotação_UA_ha);
+
+</script>
+
+
+<script>
+
+
+    var peso_media_Taxa_de_Lotação_UA_ha      = document.getElementById("id_");
+    var peso_media_Taxa_de_Lotação_UA_ha_jan = document.getElementById("id_");
+    var peso_media_Taxa_de_Lotação_UA_ha_fev = document.getElementById("id_");
+    var peso_media_Taxa_de_Lotação_UA_ha_mar = document.getElementById("id_");
+    var peso_media_Taxa_de_Lotação_UA_ha_abr = document.getElementById("id_");
+    var peso_media_Taxa_de_Lotação_UA_ha_mai = document.getElementById("id_");
+    var peso_media_Taxa_de_Lotação_UA_ha_jun = document.getElementById("id_");
+    var peso_media_Taxa_de_Lotação_UA_ha_jul = document.getElementById("id_");
+    var peso_media_Taxa_de_Lotação_UA_ha_ago = document.getElementById("id_");
+    var peso_media_Taxa_de_Lotação_UA_ha_set = document.getElementById("id_");
+    var peso_media_Taxa_de_Lotação_UA_ha_out = document.getElementById("id_");
+    var peso_media_Taxa_de_Lotação_UA_ha_nov = document.getElementById("id_");
+    var peso_media_Taxa_de_Lotação_UA_ha_dez = document.getElementById("id_");
+    function PES_M_Taxa_de_Lotação_UA_ha(){
+
+        peso_media_Taxa_de_Lotação_UA_ha.innerHTML = parseInt(peso_media_Taxa_de_Lotação_UA_ha_jan.value)+parseInt(peso_media_Taxa_de_Lotação_UA_ha_fev.value)+parseInt(peso_media_Taxa_de_Lotação_UA_ha_mar.value)+
+        parseInt(peso_media_Taxa_de_Lotação_UA_ha_abril.value)+parseInt(peso_media_Taxa_de_Lotação_UA_ha_mai.value)+parseInt(peso_media_Taxa_de_Lotação_UA_ha_jun.value)+parseInt(peso_media_Taxa_de_Lotação_UA_ha_jul.value)+parseInt(peso_media_Taxa_de_Lotação_UA_ha_ago.value)
+        +parseInt(peso_media_Taxa_de_Lotação_UA_ha_set.value)+parseInt(peso_media_Taxa_de_Lotação_UA_ha_out.value)+parseInt(peso_media_Taxa_de_Lotação_UA_ha_nov.value)+parseInt(peso_media_Taxa_de_Lotação_UA_ha_dez.value);
+
+    }
+
+</script>
+
+
+
+#########################################################################################################################################################
+
+<script>
+
+        //1
+    var Total_kbcas_janeiro = document.getElementById("id_");
+    var N_MATRIZ_janeiro = document.getElementById("id_");
+    var N_NOVILH_14_janeiro = document.getElementById("id_");
+    var N_NOVILHO_12_14_janeiro = document.getElementById("id_");
+    var N_NOVILHO_12_janeiro = document.getElementById("id_");
+    var N_NOVILHAS_12_janeiro = document.getElementById("id_");
+    var N_BEZERROS_janeiro = document.getElementById("id_");
+    var N_BEZERRAS_janeiro = document.getElementById("id_");
+    var N_OUTROS_janeiro = document.getElementById("id_");
+    var N_EQUIDEOS_janeiro = document.getElementById("id_");
+
+    function total_ani_janeiro(){
+            Total_kbcas_janeiro.innerHTML =(parseInt(N_MATRIZ_janeiro.value)+parseInt(N_NOVILH_14_janeiro.value)+parseInt(N_NOVILHO_12_14_janeiro.value)+parseInt(N_NOVILHO_12_janeiro.value)+parseInt(N_NOVILHAS_12_janeiro)+
+            parseInt(N_BEZERROS_janeiro.value)+parseInt(N_BEZERRAS_janeiro.value)+parseInt(N_OUTROS_janeiro.value)+parseInt(N_EQUIDEOS_janeiro.value));
+
+    }
+
+</script>
+
+<script>
+
+        //2
+    var Peso_MEDIO_janeiro = document.getElementById("id_");
+    var N_MATRIZ_janeiro = document.getElementById("id_");
+    var N_NOVILH_14_janeiro = document.getElementById("id_");
+    var N_NOVILHO_12_14_janeiro = document.getElementById("id_");
+    var N_NOVILHO_12_janeiro = document.getElementById("id_");
+    var N_NOVILHAS_12_janeiro = document.getElementById("id_");
+    var N_BEZERROS_janeiro = document.getElementById("id_");
+    var N_BEZERRAS_janeiro = document.getElementById("id_");
+    var N_OUTROS_janeiro = document.getElementById("id_");
+    var N_EQUIDEOS_janeiro = document.getElementById("id_");
+
+    var peso_media_janeiro_matriz = document.getElementById("id_");
+    var peso_media_janeiro_novilho14 = document.getElementById("id_");
+    var peso_media_janeiro_novilho12_14 = document.getElementById("id_");
+    var peso_media_janeiro_novilho12 = document.getElementById("id_");
+    var peso_media_janeiro_novilha12 = document.getElementById("id_");
+    var peso_media_janeiro_bezerro = document.getElementById("id_");
+    var peso_media_janeiro_bezerra = document.getElementById("id_");
+    var peso_media_janeiro_outros = document.getElementById("id_");
+    var peso_media_janeiro_equideos = document.getElementById("id_");
+
+    function PESO_media_arit_janeiro(){
+        Peso_MEDIO_janeiro.innetHTML = ((parseInt(N_MATRIZ_janeiro.value)*parseInt(peso_media_janeiro_matriz.value))+(parseInt(N_NOVILH_14_janeiro.value)*parseInt(peso_media_janeiro_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_janeiro.value)*parseInt(peso_media_janeiro_novilho12_14.value))+(parseInt(N_NOVILHO_12_janeiro.value)*parseInt(peso_media_janeiro_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_janeiro.value)*parseInt(peso_media_janeiro_novilha12.value))+(parseInt(N_BEZERROS_janeiro.value)*parseInt(peso_media_janeiro_bezerro.value))
+         +(parseInt(N_BEZERROS_janeiro.value)*parseInt(peso_media_janeiro_bezerro.value))+(parseInt(N_BEZERRAS_janeiro.value)*parseInt(peso_media_janeiro_bezerra.value))
+         +(parseInt(N_OUTROS_janeiro.value)*parseInt(peso_media_janeiro_outros.value))+(parseInt(N_EQUIDEOS_janeiro.value)*parseInt(peso_media_janeiro_equideos.value)))/((parseInt(N_MATRIZ_janeiro.value)+parseInt(N_NOVILH_14_janeiro.value)
+         +parseInt(N_NOVILHO_12_14_janeiro.value)+parseInt(N_NOVILHO_12_janeiro.value)+parseInt(N_NOVILHAS_12_janeiro)
+         +parseInt(N_BEZERROS_janeiro.value)+parseInt(N_BEZERRAS_janeiro.value)+parseInt(N_OUTROS_janeiro.value)+parseInt(N_EQUIDEOS_janeiro.value)));
+    }
+
+
+</script>
+
+
+<script>
+
+    //3
+    var Peso_MEDIO_janeiro = document.getElementById("id_");
+    var N_MATRIZ_janeiro = document.getElementById("id_");
+    var N_NOVILH_14_janeiro = document.getElementById("id_");
+    var N_NOVILHO_12_14_janeiro = document.getElementById("id_");
+    var N_NOVILHO_12_janeiro = document.getElementById("id_");
+    var N_NOVILHAS_12_janeiro = document.getElementById("id_");
+    var N_BEZERROS_janeiro = document.getElementById("id_");
+    var N_BEZERRAS_janeiro = document.getElementById("id_");
+    var N_OUTROS_janeiro = document.getElementById("id_");
+    var N_EQUIDEOS_janeiro = document.getElementById("id_");
+
+    var peso_media_janeiro_matriz = document.getElementById("id_");
+    var peso_media_janeiro_novilho14 = document.getElementById("id_");
+    var peso_media_janeiro_novilho12_14 = document.getElementById("id_");
+    var peso_media_janeiro_novilho12 = document.getElementById("id_");
+    var peso_media_janeiro_novilha12 = document.getElementById("id_");
+    var peso_media_janeiro_bezerro = document.getElementById("id_");
+    var peso_media_janeiro_bezerra = document.getElementById("id_");
+    var peso_media_janeiro_outros = document.getElementById("id_");
+    var peso_media_janeiro_equideos = document.getElementById("id_");
+
+    function ESTOQUE_janeiro(){
+        Peso_MEDIO_janeiro.innetHTML = ((((parseInt(N_MATRIZ_janeiro.value)*parseInt(peso_media_janeiro_matriz.value))+(parseInt(N_NOVILH_14_janeiro.value)*parseInt(peso_media_janeiro_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_janeiro.value)*parseInt(peso_media_janeiro_novilho12_14.value))+(parseInt(N_NOVILHO_12_janeiro.value)*parseInt(peso_media_janeiro_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_janeiro.value)*parseInt(peso_media_janeiro_novilha12.value))+(parseInt(N_BEZERROS_janeiro.value)*parseInt(peso_media_janeiro_bezerro.value))
+         +(parseInt(N_BEZERROS_janeiro.value)*parseInt(peso_media_janeiro_bezerro.value))+(parseInt(N_BEZERRAS_janeiro.value)*parseInt(peso_media_janeiro_bezerra.value))
+         +(parseInt(N_OUTROS_janeiro.value)*parseInt(peso_media_janeiro_outros.value))+(parseInt(N_EQUIDEOS_janeiro.value)*parseInt(peso_media_janeiro_equideos.value)))/((parseInt(N_MATRIZ_janeiro.value)+parseInt(N_NOVILH_14_janeiro.value)
+         +parseInt(N_NOVILHO_12_14_janeiro.value)+parseInt(N_NOVILHO_12_janeiro.value)+parseInt(N_NOVILHAS_12_janeiro)
+         +parseInt(N_BEZERROS_janeiro.value)+parseInt(N_BEZERRAS_janeiro.value)+parseInt(N_OUTROS_janeiro.value)+parseInt(N_EQUIDEOS_janeiro.value))))*((parseInt(N_MATRIZ_janeiro.value)+parseInt(N_NOVILH_14_janeiro.value)
+         +parseInt(N_NOVILHO_12_14_janeiro.value)+parseInt(N_NOVILHO_12_janeiro.value)+parseInt(N_NOVILHAS_12_janeiro)
+         +parseInt(N_BEZERROS_janeiro.value)+parseInt(N_BEZERRAS_janeiro.value)+parseInt(N_OUTROS_janeiro.value)+parseInt(N_EQUIDEOS_janeiro.value))))/30;
+    }
+
+</script>
+
+
+
+<script>
+
+</script>
+
+#########################################################################################################################################################
+
+<script>
+
+        //1
+    var Total_kbcas_fevereiro = document.getElementById("id_");
+    var N_MATRIZ_fevereiro = document.getElementById("id_");
+    var N_NOVILH_14_fevereiro = document.getElementById("id_");
+    var N_NOVILHO_12_14_fevereiro = document.getElementById("id_");
+    var N_NOVILHO_12_fevereiro = document.getElementById("id_");
+    var N_NOVILHAS_12_fevereiro = document.getElementById("id_");
+    var N_BEZERROS_fevereiro = document.getElementById("id_");
+    var N_BEZERRAS_fevereiro = document.getElementById("id_");
+    var N_OUTROS_fevereiro = document.getElementById("id_");
+    var N_EQUIDEOS_fevereiro = document.getElementById("id_");
+
+    function total_ani_fevereiro(){
+            Total_kbcas_fevereiro.innerHTML =(parseInt(N_MATRIZ_fevereiro.value)+parseInt(N_NOVILH_14_fevereiro.value)+parseInt(N_NOVILHO_12_14_fevereiro.value)+parseInt(N_NOVILHO_12_fevereiro.value)+parseInt(N_NOVILHAS_12_fevereiro)+
+            parseInt(N_BEZERROS_fevereiro.value)+parseInt(N_BEZERRAS_fevereiro.value)+parseInt(N_OUTROS_fevereiro.value)+parseInt(N_EQUIDEOS_fevereiro.value));
+
+    }
+
+</script>
+
+<script>
+
+        //2
+    var Peso_MEDIO_fevereiro = document.getElementById("id_");
+    var N_MATRIZ_fevereiro = document.getElementById("id_");
+    var N_NOVILH_14_fevereiro = document.getElementById("id_");
+    var N_NOVILHO_12_14_fevereiro = document.getElementById("id_");
+    var N_NOVILHO_12_fevereiro = document.getElementById("id_");
+    var N_NOVILHAS_12_fevereiro = document.getElementById("id_");
+    var N_BEZERROS_fevereiro = document.getElementById("id_");
+    var N_BEZERRAS_fevereiro = document.getElementById("id_");
+    var N_OUTROS_fevereiro = document.getElementById("id_");
+    var N_EQUIDEOS_fevereiro = document.getElementById("id_");
+
+    var peso_media_fevereiro_matriz = document.getElementById("id_");
+    var peso_media_fevereiro_novilho14 = document.getElementById("id_");
+    var peso_media_fevereiro_novilho12_14 = document.getElementById("id_");
+    var peso_media_fevereiro_novilho12 = document.getElementById("id_");
+    var peso_media_fevereiro_novilha12 = document.getElementById("id_");
+    var peso_media_fevereiro_bezerro = document.getElementById("id_");
+    var peso_media_fevereiro_bezerra = document.getElementById("id_");
+    var peso_media_fevereiro_outros = document.getElementById("id_");
+    var peso_media_fevereiro_equideos = document.getElementById("id_");
+
+    function PESO_media_arit_fevereiro(){
+        Peso_MEDIO_fevereiro.innetHTML = ((parseInt(N_MATRIZ_fevereiro.value)*parseInt(peso_media_fevereiro_matriz.value))+(parseInt(N_NOVILH_14_fevereiro.value)*parseInt(peso_media_fevereiro_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_fevereiro.value)*parseInt(peso_media_fevereiro_novilho12_14.value))+(parseInt(N_NOVILHO_12_fevereiro.value)*parseInt(peso_media_fevereiro_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_fevereiro.value)*parseInt(peso_media_fevereiro_novilha12.value))+(parseInt(N_BEZERROS_fevereiro.value)*parseInt(peso_media_fevereiro_bezerro.value))
+         +(parseInt(N_BEZERROS_fevereiro.value)*parseInt(peso_media_fevereiro_bezerro.value))+(parseInt(N_BEZERRAS_fevereiro.value)*parseInt(peso_media_fevereiro_bezerra.value))
+         +(parseInt(N_OUTROS_fevereiro.value)*parseInt(peso_media_fevereiro_outros.value))+(parseInt(N_EQUIDEOS_fevereiro.value)*parseInt(peso_media_fevereiro_equideos.value)))/((parseInt(N_MATRIZ_fevereiro.value)+parseInt(N_NOVILH_14_fevereiro.value)
+         +parseInt(N_NOVILHO_12_14_fevereiro.value)+parseInt(N_NOVILHO_12_fevereiro.value)+parseInt(N_NOVILHAS_12_fevereiro)
+         +parseInt(N_BEZERROS_fevereiro.value)+parseInt(N_BEZERRAS_fevereiro.value)+parseInt(N_OUTROS_fevereiro.value)+parseInt(N_EQUIDEOS_fevereiro.value)));
+    }
+
+
+</script>
+
+
+<script>
+
+    //3
+    var Peso_MEDIO_fevereiro = document.getElementById("id_");
+    var N_MATRIZ_fevereiro = document.getElementById("id_");
+    var N_NOVILH_14_fevereiro = document.getElementById("id_");
+    var N_NOVILHO_12_14_fevereiro = document.getElementById("id_");
+    var N_NOVILHO_12_fevereiro = document.getElementById("id_");
+    var N_NOVILHAS_12_fevereiro = document.getElementById("id_");
+    var N_BEZERROS_fevereiro = document.getElementById("id_");
+    var N_BEZERRAS_fevereiro = document.getElementById("id_");
+    var N_OUTROS_fevereiro = document.getElementById("id_");
+    var N_EQUIDEOS_fevereiro = document.getElementById("id_");
+
+    var peso_media_fevereiro_matriz = document.getElementById("id_");
+    var peso_media_fevereiro_novilho14 = document.getElementById("id_");
+    var peso_media_fevereiro_novilho12_14 = document.getElementById("id_");
+    var peso_media_fevereiro_novilho12 = document.getElementById("id_");
+    var peso_media_fevereiro_novilha12 = document.getElementById("id_");
+    var peso_media_fevereiro_bezerro = document.getElementById("id_");
+    var peso_media_fevereiro_bezerra = document.getElementById("id_");
+    var peso_media_fevereiro_outros = document.getElementById("id_");
+    var peso_media_fevereiro_equideos = document.getElementById("id_");
+
+    function ESTOQUE_fevereiro(){
+        Peso_MEDIO_fevereiro.innetHTML = ((((parseInt(N_MATRIZ_fevereiro.value)*parseInt(peso_media_fevereiro_matriz.value))+(parseInt(N_NOVILH_14_fevereiro.value)*parseInt(peso_media_fevereiro_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_fevereiro.value)*parseInt(peso_media_fevereiro_novilho12_14.value))+(parseInt(N_NOVILHO_12_fevereiro.value)*parseInt(peso_media_fevereiro_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_fevereiro.value)*parseInt(peso_media_fevereiro_novilha12.value))+(parseInt(N_BEZERROS_fevereiro.value)*parseInt(peso_media_fevereiro_bezerro.value))
+         +(parseInt(N_BEZERROS_fevereiro.value)*parseInt(peso_media_fevereiro_bezerro.value))+(parseInt(N_BEZERRAS_fevereiro.value)*parseInt(peso_media_fevereiro_bezerra.value))
+         +(parseInt(N_OUTROS_fevereiro.value)*parseInt(peso_media_fevereiro_outros.value))+(parseInt(N_EQUIDEOS_fevereiro.value)*parseInt(peso_media_fevereiro_equideos.value)))/((parseInt(N_MATRIZ_fevereiro.value)+parseInt(N_NOVILH_14_fevereiro.value)
+         +parseInt(N_NOVILHO_12_14_fevereiro.value)+parseInt(N_NOVILHO_12_fevereiro.value)+parseInt(N_NOVILHAS_12_fevereiro)
+         +parseInt(N_BEZERROS_fevereiro.value)+parseInt(N_BEZERRAS_fevereiro.value)+parseInt(N_OUTROS_fevereiro.value)+parseInt(N_EQUIDEOS_fevereiro.value))))*((parseInt(N_MATRIZ_fevereiro.value)+parseInt(N_NOVILH_14_fevereiro.value)
+         +parseInt(N_NOVILHO_12_14_fevereiro.value)+parseInt(N_NOVILHO_12_fevereiro.value)+parseInt(N_NOVILHAS_12_fevereiro)
+         +parseInt(N_BEZERROS_fevereiro.value)+parseInt(N_BEZERRAS_fevereiro.value)+parseInt(N_OUTROS_fevereiro.value)+parseInt(N_EQUIDEOS_fevereiro.value))))/30;
+    }
+
+</script>
+
+
+
+<script>
+
+</script>
+
+#########################################################################################################################################################
+
+
+<script>
+
+        //1
+    var Total_kbcas_marco = document.getElementById("id_");
+    var N_MATRIZ_marco = document.getElementById("id_");
+    var N_NOVILH_14_marco = document.getElementById("id_");
+    var N_NOVILHO_12_14_marco = document.getElementById("id_");
+    var N_NOVILHO_12_marco = document.getElementById("id_");
+    var N_NOVILHAS_12_marco = document.getElementById("id_");
+    var N_BEZERROS_marco = document.getElementById("id_");
+    var N_BEZERRAS_marco = document.getElementById("id_");
+    var N_OUTROS_marco = document.getElementById("id_");
+    var N_EQUIDEOS_marco = document.getElementById("id_");
+
+    function total_ani_marco(){
+            Total_kbcas_marco.innerHTML =(parseInt(N_MATRIZ_marco.value)+parseInt(N_NOVILH_14_marco.value)+parseInt(N_NOVILHO_12_14_marco.value)+parseInt(N_NOVILHO_12_marco.value)+parseInt(N_NOVILHAS_12_marco)+
+            parseInt(N_BEZERROS_marco.value)+parseInt(N_BEZERRAS_marco.value)+parseInt(N_OUTROS_marco.value)+parseInt(N_EQUIDEOS_marco.value));
+
+    }
+
+</script>
+
+<script>
+
+        //2
+    var Peso_MEDIO_marco = document.getElementById("id_");
+    var N_MATRIZ_marco = document.getElementById("id_");
+    var N_NOVILH_14_marco = document.getElementById("id_");
+    var N_NOVILHO_12_14_marco = document.getElementById("id_");
+    var N_NOVILHO_12_marco = document.getElementById("id_");
+    var N_NOVILHAS_12_marco = document.getElementById("id_");
+    var N_BEZERROS_marco = document.getElementById("id_");
+    var N_BEZERRAS_marco = document.getElementById("id_");
+    var N_OUTROS_marco = document.getElementById("id_");
+    var N_EQUIDEOS_marco = document.getElementById("id_");
+
+    var peso_media_marco_matriz = document.getElementById("id_");
+    var peso_media_marco_novilho14 = document.getElementById("id_");
+    var peso_media_marco_novilho12_14 = document.getElementById("id_");
+    var peso_media_marco_novilho12 = document.getElementById("id_");
+    var peso_media_marco_novilha12 = document.getElementById("id_");
+    var peso_media_marco_bezerro = document.getElementById("id_");
+    var peso_media_marco_bezerra = document.getElementById("id_");
+    var peso_media_marco_outros = document.getElementById("id_");
+    var peso_media_marco_equideos = document.getElementById("id_");
+
+    function PESO_media_arit_marco(){
+        Peso_MEDIO_marco.innetHTML = ((parseInt(N_MATRIZ_marco.value)*parseInt(peso_media_marco_matriz.value))+(parseInt(N_NOVILH_14_marco.value)*parseInt(peso_media_marco_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_marco.value)*parseInt(peso_media_marco_novilho12_14.value))+(parseInt(N_NOVILHO_12_marco.value)*parseInt(peso_media_marco_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_marco.value)*parseInt(peso_media_marco_novilha12.value))+(parseInt(N_BEZERROS_marco.value)*parseInt(peso_media_marco_bezerro.value))
+         +(parseInt(N_BEZERROS_marco.value)*parseInt(peso_media_marco_bezerro.value))+(parseInt(N_BEZERRAS_marco.value)*parseInt(peso_media_marco_bezerra.value))
+         +(parseInt(N_OUTROS_marco.value)*parseInt(peso_media_marco_outros.value))+(parseInt(N_EQUIDEOS_marco.value)*parseInt(peso_media_marco_equideos.value)))/((parseInt(N_MATRIZ_marco.value)+parseInt(N_NOVILH_14_marco.value)
+         +parseInt(N_NOVILHO_12_14_marco.value)+parseInt(N_NOVILHO_12_marco.value)+parseInt(N_NOVILHAS_12_marco)
+         +parseInt(N_BEZERROS_marco.value)+parseInt(N_BEZERRAS_marco.value)+parseInt(N_OUTROS_marco.value)+parseInt(N_EQUIDEOS_marco.value)));
+    }
+
+
+</script>
+
+
+<script>
+
+    //3
+    var Peso_MEDIO_marco = document.getElementById("id_");
+    var N_MATRIZ_marco = document.getElementById("id_");
+    var N_NOVILH_14_marco = document.getElementById("id_");
+    var N_NOVILHO_12_14_marco = document.getElementById("id_");
+    var N_NOVILHO_12_marco = document.getElementById("id_");
+    var N_NOVILHAS_12_marco = document.getElementById("id_");
+    var N_BEZERROS_marco = document.getElementById("id_");
+    var N_BEZERRAS_marco = document.getElementById("id_");
+    var N_OUTROS_marco = document.getElementById("id_");
+    var N_EQUIDEOS_marco = document.getElementById("id_");
+
+    var peso_media_marco_matriz = document.getElementById("id_");
+    var peso_media_marco_novilho14 = document.getElementById("id_");
+    var peso_media_marco_novilho12_14 = document.getElementById("id_");
+    var peso_media_marco_novilho12 = document.getElementById("id_");
+    var peso_media_marco_novilha12 = document.getElementById("id_");
+    var peso_media_marco_bezerro = document.getElementById("id_");
+    var peso_media_marco_bezerra = document.getElementById("id_");
+    var peso_media_marco_outros = document.getElementById("id_");
+    var peso_media_marco_equideos = document.getElementById("id_");
+
+    function ESTOQUE_marco(){
+        Peso_MEDIO_marco.innetHTML = ((((parseInt(N_MATRIZ_marco.value)*parseInt(peso_media_marco_matriz.value))+(parseInt(N_NOVILH_14_marco.value)*parseInt(peso_media_marco_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_marco.value)*parseInt(peso_media_marco_novilho12_14.value))+(parseInt(N_NOVILHO_12_marco.value)*parseInt(peso_media_marco_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_marco.value)*parseInt(peso_media_marco_novilha12.value))+(parseInt(N_BEZERROS_marco.value)*parseInt(peso_media_marco_bezerro.value))
+         +(parseInt(N_BEZERROS_marco.value)*parseInt(peso_media_marco_bezerro.value))+(parseInt(N_BEZERRAS_marco.value)*parseInt(peso_media_marco_bezerra.value))
+         +(parseInt(N_OUTROS_marco.value)*parseInt(peso_media_marco_outros.value))+(parseInt(N_EQUIDEOS_marco.value)*parseInt(peso_media_marco_equideos.value)))/((parseInt(N_MATRIZ_marco.value)+parseInt(N_NOVILH_14_marco.value)
+         +parseInt(N_NOVILHO_12_14_marco.value)+parseInt(N_NOVILHO_12_marco.value)+parseInt(N_NOVILHAS_12_marco)
+         +parseInt(N_BEZERROS_marco.value)+parseInt(N_BEZERRAS_marco.value)+parseInt(N_OUTROS_marco.value)+parseInt(N_EQUIDEOS_marco.value))))*((parseInt(N_MATRIZ_marco.value)+parseInt(N_NOVILH_14_marco.value)
+         +parseInt(N_NOVILHO_12_14_marco.value)+parseInt(N_NOVILHO_12_marco.value)+parseInt(N_NOVILHAS_12_marco)
+         +parseInt(N_BEZERROS_marco.value)+parseInt(N_BEZERRAS_marco.value)+parseInt(N_OUTROS_marco.value)+parseInt(N_EQUIDEOS_marco.value))))/30;
+    }
+
+</script>
+
+
+
+<script>
+
+</script>
+
+#########################################################################################################################################################
+
+<script>
+
+        //1
+    var Total_kbcas_abril = document.getElementById("id_");
+    var N_MATRIZ_abril = document.getElementById("id_");
+    var N_NOVILH_14_abril = document.getElementById("id_");
+    var N_NOVILHO_12_14_abril = document.getElementById("id_");
+    var N_NOVILHO_12_abril = document.getElementById("id_");
+    var N_NOVILHAS_12_abril = document.getElementById("id_");
+    var N_BEZERROS_abril = document.getElementById("id_");
+    var N_BEZERRAS_abril = document.getElementById("id_");
+    var N_OUTROS_abril = document.getElementById("id_");
+    var N_EQUIDEOS_abril = document.getElementById("id_");
+
+    function total_ani_abril(){
+            Total_kbcas_abril.innerHTML =(parseInt(N_MATRIZ_abril.value)+parseInt(N_NOVILH_14_abril.value)+parseInt(N_NOVILHO_12_14_abril.value)+parseInt(N_NOVILHO_12_abril.value)+parseInt(N_NOVILHAS_12_abril)+
+            parseInt(N_BEZERROS_abril.value)+parseInt(N_BEZERRAS_abril.value)+parseInt(N_OUTROS_abril.value)+parseInt(N_EQUIDEOS_abril.value));
+
+    }
+
+</script>
+
+<script>
+
+        //2
+    var Peso_MEDIO_abril = document.getElementById("id_");
+    var N_MATRIZ_abril = document.getElementById("id_");
+    var N_NOVILH_14_abril = document.getElementById("id_");
+    var N_NOVILHO_12_14_abril = document.getElementById("id_");
+    var N_NOVILHO_12_abril = document.getElementById("id_");
+    var N_NOVILHAS_12_abril = document.getElementById("id_");
+    var N_BEZERROS_abril = document.getElementById("id_");
+    var N_BEZERRAS_abril = document.getElementById("id_");
+    var N_OUTROS_abril = document.getElementById("id_");
+    var N_EQUIDEOS_abril = document.getElementById("id_");
+
+    var peso_media_abril_matriz = document.getElementById("id_");
+    var peso_media_abril_novilho14 = document.getElementById("id_");
+    var peso_media_abril_novilho12_14 = document.getElementById("id_");
+    var peso_media_abril_novilho12 = document.getElementById("id_");
+    var peso_media_abril_novilha12 = document.getElementById("id_");
+    var peso_media_abril_bezerro = document.getElementById("id_");
+    var peso_media_abril_bezerra = document.getElementById("id_");
+    var peso_media_abril_outros = document.getElementById("id_");
+    var peso_media_abril_equideos = document.getElementById("id_");
+
+    function PESO_media_arit_abril(){
+        Peso_MEDIO_abril.innetHTML = ((parseInt(N_MATRIZ_abril.value)*parseInt(peso_media_abril_matriz.value))+(parseInt(N_NOVILH_14_abril.value)*parseInt(peso_media_abril_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_abril.value)*parseInt(peso_media_abril_novilho12_14.value))+(parseInt(N_NOVILHO_12_abril.value)*parseInt(peso_media_abril_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_abril.value)*parseInt(peso_media_abril_novilha12.value))+(parseInt(N_BEZERROS_abril.value)*parseInt(peso_media_abril_bezerro.value))
+         +(parseInt(N_BEZERROS_abril.value)*parseInt(peso_media_abril_bezerro.value))+(parseInt(N_BEZERRAS_abril.value)*parseInt(peso_media_abril_bezerra.value))
+         +(parseInt(N_OUTROS_abril.value)*parseInt(peso_media_abril_outros.value))+(parseInt(N_EQUIDEOS_abril.value)*parseInt(peso_media_abril_equideos.value)))/((parseInt(N_MATRIZ_abril.value)+parseInt(N_NOVILH_14_abril.value)
+         +parseInt(N_NOVILHO_12_14_abril.value)+parseInt(N_NOVILHO_12_abril.value)+parseInt(N_NOVILHAS_12_abril)
+         +parseInt(N_BEZERROS_abril.value)+parseInt(N_BEZERRAS_abril.value)+parseInt(N_OUTROS_abril.value)+parseInt(N_EQUIDEOS_abril.value)));
+    }
+
+
+</script>
+
+
+<script>
+
+    //3
+    var Peso_MEDIO_abril = document.getElementById("id_");
+    var N_MATRIZ_abril = document.getElementById("id_");
+    var N_NOVILH_14_abril = document.getElementById("id_");
+    var N_NOVILHO_12_14_abril = document.getElementById("id_");
+    var N_NOVILHO_12_abril = document.getElementById("id_");
+    var N_NOVILHAS_12_abril = document.getElementById("id_");
+    var N_BEZERROS_abril = document.getElementById("id_");
+    var N_BEZERRAS_abril = document.getElementById("id_");
+    var N_OUTROS_abril = document.getElementById("id_");
+    var N_EQUIDEOS_abril = document.getElementById("id_");
+
+    var peso_media_abril_matriz = document.getElementById("id_");
+    var peso_media_abril_novilho14 = document.getElementById("id_");
+    var peso_media_abril_novilho12_14 = document.getElementById("id_");
+    var peso_media_abril_novilho12 = document.getElementById("id_");
+    var peso_media_abril_novilha12 = document.getElementById("id_");
+    var peso_media_abril_bezerro = document.getElementById("id_");
+    var peso_media_abril_bezerra = document.getElementById("id_");
+    var peso_media_abril_outros = document.getElementById("id_");
+    var peso_media_abril_equideos = document.getElementById("id_");
+
+    function ESTOQUE_abril(){
+        Peso_MEDIO_abril.innetHTML = ((((parseInt(N_MATRIZ_abril.value)*parseInt(peso_media_abril_matriz.value))+(parseInt(N_NOVILH_14_abril.value)*parseInt(peso_media_abril_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_abril.value)*parseInt(peso_media_abril_novilho12_14.value))+(parseInt(N_NOVILHO_12_abril.value)*parseInt(peso_media_abril_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_abril.value)*parseInt(peso_media_abril_novilha12.value))+(parseInt(N_BEZERROS_abril.value)*parseInt(peso_media_abril_bezerro.value))
+         +(parseInt(N_BEZERROS_abril.value)*parseInt(peso_media_abril_bezerro.value))+(parseInt(N_BEZERRAS_abril.value)*parseInt(peso_media_abril_bezerra.value))
+         +(parseInt(N_OUTROS_abril.value)*parseInt(peso_media_abril_outros.value))+(parseInt(N_EQUIDEOS_abril.value)*parseInt(peso_media_abril_equideos.value)))/((parseInt(N_MATRIZ_abril.value)+parseInt(N_NOVILH_14_abril.value)
+         +parseInt(N_NOVILHO_12_14_abril.value)+parseInt(N_NOVILHO_12_abril.value)+parseInt(N_NOVILHAS_12_abril)
+         +parseInt(N_BEZERROS_abril.value)+parseInt(N_BEZERRAS_abril.value)+parseInt(N_OUTROS_abril.value)+parseInt(N_EQUIDEOS_abril.value))))*((parseInt(N_MATRIZ_abril.value)+parseInt(N_NOVILH_14_abril.value)
+         +parseInt(N_NOVILHO_12_14_abril.value)+parseInt(N_NOVILHO_12_abril.value)+parseInt(N_NOVILHAS_12_abril)
+         +parseInt(N_BEZERROS_abril.value)+parseInt(N_BEZERRAS_abril.value)+parseInt(N_OUTROS_abril.value)+parseInt(N_EQUIDEOS_abril.value))))/30;
+    }
+
+</script>
+
+
+
+<script>
+
+</script>
+
+#########################################################################################################################################################
+
+<script>
+
+        //1
+    var Total_kbcas_maio = document.getElementById("id_");
+    var N_MATRIZ_maio = document.getElementById("id_");
+    var N_NOVILH_14_maio = document.getElementById("id_");
+    var N_NOVILHO_12_14_maio = document.getElementById("id_");
+    var N_NOVILHO_12_maio = document.getElementById("id_");
+    var N_NOVILHAS_12_maio = document.getElementById("id_");
+    var N_BEZERROS_maio = document.getElementById("id_");
+    var N_BEZERRAS_maio = document.getElementById("id_");
+    var N_OUTROS_maio = document.getElementById("id_");
+    var N_EQUIDEOS_maio = document.getElementById("id_");
+
+    function total_ani_maio(){
+            Total_kbcas_maio.innerHTML =(parseInt(N_MATRIZ_maio.value)+parseInt(N_NOVILH_14_maio.value)+parseInt(N_NOVILHO_12_14_maio.value)+parseInt(N_NOVILHO_12_maio.value)+parseInt(N_NOVILHAS_12_maio)+
+            parseInt(N_BEZERROS_maio.value)+parseInt(N_BEZERRAS_maio.value)+parseInt(N_OUTROS_maio.value)+parseInt(N_EQUIDEOS_maio.value));
+
+    }
+
+</script>
+
+<script>
+
+        //2
+    var Peso_MEDIO_maio = document.getElementById("id_");
+    var N_MATRIZ_maio = document.getElementById("id_");
+    var N_NOVILH_14_maio = document.getElementById("id_");
+    var N_NOVILHO_12_14_maio = document.getElementById("id_");
+    var N_NOVILHO_12_maio = document.getElementById("id_");
+    var N_NOVILHAS_12_maio = document.getElementById("id_");
+    var N_BEZERROS_maio = document.getElementById("id_");
+    var N_BEZERRAS_maio = document.getElementById("id_");
+    var N_OUTROS_maio = document.getElementById("id_");
+    var N_EQUIDEOS_maio = document.getElementById("id_");
+
+    var peso_media_maio_matriz = document.getElementById("id_");
+    var peso_media_maio_novilho14 = document.getElementById("id_");
+    var peso_media_maio_novilho12_14 = document.getElementById("id_");
+    var peso_media_maio_novilho12 = document.getElementById("id_");
+    var peso_media_maio_novilha12 = document.getElementById("id_");
+    var peso_media_maio_bezerro = document.getElementById("id_");
+    var peso_media_maio_bezerra = document.getElementById("id_");
+    var peso_media_maio_outros = document.getElementById("id_");
+    var peso_media_maio_equideos = document.getElementById("id_");
+
+    function PESO_media_arit_maio(){
+        Peso_MEDIO_maio.innetHTML = ((parseInt(N_MATRIZ_maio.value)*parseInt(peso_media_maio_matriz.value))+(parseInt(N_NOVILH_14_maio.value)*parseInt(peso_media_maio_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_maio.value)*parseInt(peso_media_maio_novilho12_14.value))+(parseInt(N_NOVILHO_12_maio.value)*parseInt(peso_media_maio_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_maio.value)*parseInt(peso_media_maio_novilha12.value))+(parseInt(N_BEZERROS_maio.value)*parseInt(peso_media_maio_bezerro.value))
+         +(parseInt(N_BEZERROS_maio.value)*parseInt(peso_media_maio_bezerro.value))+(parseInt(N_BEZERRAS_maio.value)*parseInt(peso_media_maio_bezerra.value))
+         +(parseInt(N_OUTROS_maio.value)*parseInt(peso_media_maio_outros.value))+(parseInt(N_EQUIDEOS_maio.value)*parseInt(peso_media_maio_equideos.value)))/((parseInt(N_MATRIZ_maio.value)+parseInt(N_NOVILH_14_maio.value)
+         +parseInt(N_NOVILHO_12_14_maio.value)+parseInt(N_NOVILHO_12_maio.value)+parseInt(N_NOVILHAS_12_maio)
+         +parseInt(N_BEZERROS_maio.value)+parseInt(N_BEZERRAS_maio.value)+parseInt(N_OUTROS_maio.value)+parseInt(N_EQUIDEOS_maio.value)));
+    }
+
+
+</script>
+
+
+<script>
+
+    //3
+    var Peso_MEDIO_maio = document.getElementById("id_");
+    var N_MATRIZ_maio = document.getElementById("id_");
+    var N_NOVILH_14_maio = document.getElementById("id_");
+    var N_NOVILHO_12_14_maio = document.getElementById("id_");
+    var N_NOVILHO_12_maio = document.getElementById("id_");
+    var N_NOVILHAS_12_maio = document.getElementById("id_");
+    var N_BEZERROS_maio = document.getElementById("id_");
+    var N_BEZERRAS_maio = document.getElementById("id_");
+    var N_OUTROS_maio = document.getElementById("id_");
+    var N_EQUIDEOS_maio = document.getElementById("id_");
+
+    var peso_media_maio_matriz = document.getElementById("id_");
+    var peso_media_maio_novilho14 = document.getElementById("id_");
+    var peso_media_maio_novilho12_14 = document.getElementById("id_");
+    var peso_media_maio_novilho12 = document.getElementById("id_");
+    var peso_media_maio_novilha12 = document.getElementById("id_");
+    var peso_media_maio_bezerro = document.getElementById("id_");
+    var peso_media_maio_bezerra = document.getElementById("id_");
+    var peso_media_maio_outros = document.getElementById("id_");
+    var peso_media_maio_equideos = document.getElementById("id_");
+
+    function ESTOQUE_maio(){
+        Peso_MEDIO_maio.innetHTML = ((((parseInt(N_MATRIZ_maio.value)*parseInt(peso_media_maio_matriz.value))+(parseInt(N_NOVILH_14_maio.value)*parseInt(peso_media_maio_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_maio.value)*parseInt(peso_media_maio_novilho12_14.value))+(parseInt(N_NOVILHO_12_maio.value)*parseInt(peso_media_maio_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_maio.value)*parseInt(peso_media_maio_novilha12.value))+(parseInt(N_BEZERROS_maio.value)*parseInt(peso_media_maio_bezerro.value))
+         +(parseInt(N_BEZERROS_maio.value)*parseInt(peso_media_maio_bezerro.value))+(parseInt(N_BEZERRAS_maio.value)*parseInt(peso_media_maio_bezerra.value))
+         +(parseInt(N_OUTROS_maio.value)*parseInt(peso_media_maio_outros.value))+(parseInt(N_EQUIDEOS_maio.value)*parseInt(peso_media_maio_equideos.value)))/((parseInt(N_MATRIZ_maio.value)+parseInt(N_NOVILH_14_maio.value)
+         +parseInt(N_NOVILHO_12_14_maio.value)+parseInt(N_NOVILHO_12_maio.value)+parseInt(N_NOVILHAS_12_maio)
+         +parseInt(N_BEZERROS_maio.value)+parseInt(N_BEZERRAS_maio.value)+parseInt(N_OUTROS_maio.value)+parseInt(N_EQUIDEOS_maio.value))))*((parseInt(N_MATRIZ_maio.value)+parseInt(N_NOVILH_14_maio.value)
+         +parseInt(N_NOVILHO_12_14_maio.value)+parseInt(N_NOVILHO_12_maio.value)+parseInt(N_NOVILHAS_12_maio)
+         +parseInt(N_BEZERROS_maio.value)+parseInt(N_BEZERRAS_maio.value)+parseInt(N_OUTROS_maio.value)+parseInt(N_EQUIDEOS_maio.value))))/30;
+    }
+
+</script>
+
+
+
+<script>
+
+</script>
+
+#########################################################################################################################################################
+
+<script>
+
+        //1
+    var Total_kbcas_junho = document.getElementById("id_");
+    var N_MATRIZ_junho = document.getElementById("id_");
+    var N_NOVILH_14_junho = document.getElementById("id_");
+    var N_NOVILHO_12_14_junho = document.getElementById("id_");
+    var N_NOVILHO_12_junho = document.getElementById("id_");
+    var N_NOVILHAS_12_junho = document.getElementById("id_");
+    var N_BEZERROS_junho = document.getElementById("id_");
+    var N_BEZERRAS_junho = document.getElementById("id_");
+    var N_OUTROS_junho = document.getElementById("id_");
+    var N_EQUIDEOS_junho = document.getElementById("id_");
+
+    function total_ani_junho(){
+            Total_kbcas_junho.innerHTML =(parseInt(N_MATRIZ_junho.value)+parseInt(N_NOVILH_14_junho.value)+parseInt(N_NOVILHO_12_14_junho.value)+parseInt(N_NOVILHO_12_junho.value)+parseInt(N_NOVILHAS_12_junho)+
+            parseInt(N_BEZERROS_junho.value)+parseInt(N_BEZERRAS_junho.value)+parseInt(N_OUTROS_junho.value)+parseInt(N_EQUIDEOS_junho.value));
+
+    }
+
+</script>
+
+<script>
+
+        //2
+    var Peso_MEDIO_junho = document.getElementById("id_");
+    var N_MATRIZ_junho = document.getElementById("id_");
+    var N_NOVILH_14_junho = document.getElementById("id_");
+    var N_NOVILHO_12_14_junho = document.getElementById("id_");
+    var N_NOVILHO_12_junho = document.getElementById("id_");
+    var N_NOVILHAS_12_junho = document.getElementById("id_");
+    var N_BEZERROS_junho = document.getElementById("id_");
+    var N_BEZERRAS_junho = document.getElementById("id_");
+    var N_OUTROS_junho = document.getElementById("id_");
+    var N_EQUIDEOS_junho = document.getElementById("id_");
+
+    var peso_media_junho_matriz = document.getElementById("id_");
+    var peso_media_junho_novilho14 = document.getElementById("id_");
+    var peso_media_junho_novilho12_14 = document.getElementById("id_");
+    var peso_media_junho_novilho12 = document.getElementById("id_");
+    var peso_media_junho_novilha12 = document.getElementById("id_");
+    var peso_media_junho_bezerro = document.getElementById("id_");
+    var peso_media_junho_bezerra = document.getElementById("id_");
+    var peso_media_junho_outros = document.getElementById("id_");
+    var peso_media_junho_equideos = document.getElementById("id_");
+
+    function PESO_media_arit_junho(){
+        Peso_MEDIO_junho.innetHTML = ((parseInt(N_MATRIZ_junho.value)*parseInt(peso_media_junho_matriz.value))+(parseInt(N_NOVILH_14_junho.value)*parseInt(peso_media_junho_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_junho.value)*parseInt(peso_media_junho_novilho12_14.value))+(parseInt(N_NOVILHO_12_junho.value)*parseInt(peso_media_junho_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_junho.value)*parseInt(peso_media_junho_novilha12.value))+(parseInt(N_BEZERROS_junho.value)*parseInt(peso_media_junho_bezerro.value))
+         +(parseInt(N_BEZERROS_junho.value)*parseInt(peso_media_junho_bezerro.value))+(parseInt(N_BEZERRAS_junho.value)*parseInt(peso_media_junho_bezerra.value))
+         +(parseInt(N_OUTROS_junho.value)*parseInt(peso_media_junho_outros.value))+(parseInt(N_EQUIDEOS_junho.value)*parseInt(peso_media_junho_equideos.value)))/((parseInt(N_MATRIZ_junho.value)+parseInt(N_NOVILH_14_junho.value)
+         +parseInt(N_NOVILHO_12_14_junho.value)+parseInt(N_NOVILHO_12_junho.value)+parseInt(N_NOVILHAS_12_junho)
+         +parseInt(N_BEZERROS_junho.value)+parseInt(N_BEZERRAS_junho.value)+parseInt(N_OUTROS_junho.value)+parseInt(N_EQUIDEOS_junho.value)));
+    }
+
+
+</script>
+
+
+<script>
+
+    //3
+    var Peso_MEDIO_junho = document.getElementById("id_");
+    var N_MATRIZ_junho = document.getElementById("id_");
+    var N_NOVILH_14_junho = document.getElementById("id_");
+    var N_NOVILHO_12_14_junho = document.getElementById("id_");
+    var N_NOVILHO_12_junho = document.getElementById("id_");
+    var N_NOVILHAS_12_junho = document.getElementById("id_");
+    var N_BEZERROS_junho = document.getElementById("id_");
+    var N_BEZERRAS_junho = document.getElementById("id_");
+    var N_OUTROS_junho = document.getElementById("id_");
+    var N_EQUIDEOS_junho = document.getElementById("id_");
+
+    var peso_media_junho_matriz = document.getElementById("id_");
+    var peso_media_junho_novilho14 = document.getElementById("id_");
+    var peso_media_junho_novilho12_14 = document.getElementById("id_");
+    var peso_media_junho_novilho12 = document.getElementById("id_");
+    var peso_media_junho_novilha12 = document.getElementById("id_");
+    var peso_media_junho_bezerro = document.getElementById("id_");
+    var peso_media_junho_bezerra = document.getElementById("id_");
+    var peso_media_junho_outros = document.getElementById("id_");
+    var peso_media_junho_equideos = document.getElementById("id_");
+
+    function ESTOQUE_junho(){
+        Peso_MEDIO_junho.innetHTML = ((((parseInt(N_MATRIZ_junho.value)*parseInt(peso_media_junho_matriz.value))+(parseInt(N_NOVILH_14_junho.value)*parseInt(peso_media_junho_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_junho.value)*parseInt(peso_media_junho_novilho12_14.value))+(parseInt(N_NOVILHO_12_junho.value)*parseInt(peso_media_junho_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_junho.value)*parseInt(peso_media_junho_novilha12.value))+(parseInt(N_BEZERROS_junho.value)*parseInt(peso_media_junho_bezerro.value))
+         +(parseInt(N_BEZERROS_junho.value)*parseInt(peso_media_junho_bezerro.value))+(parseInt(N_BEZERRAS_junho.value)*parseInt(peso_media_junho_bezerra.value))
+         +(parseInt(N_OUTROS_junho.value)*parseInt(peso_media_junho_outros.value))+(parseInt(N_EQUIDEOS_junho.value)*parseInt(peso_media_junho_equideos.value)))/((parseInt(N_MATRIZ_junho.value)+parseInt(N_NOVILH_14_junho.value)
+         +parseInt(N_NOVILHO_12_14_junho.value)+parseInt(N_NOVILHO_12_junho.value)+parseInt(N_NOVILHAS_12_junho)
+         +parseInt(N_BEZERROS_junho.value)+parseInt(N_BEZERRAS_junho.value)+parseInt(N_OUTROS_junho.value)+parseInt(N_EQUIDEOS_junho.value))))*((parseInt(N_MATRIZ_junho.value)+parseInt(N_NOVILH_14_junho.value)
+         +parseInt(N_NOVILHO_12_14_junho.value)+parseInt(N_NOVILHO_12_junho.value)+parseInt(N_NOVILHAS_12_junho)
+         +parseInt(N_BEZERROS_junho.value)+parseInt(N_BEZERRAS_junho.value)+parseInt(N_OUTROS_junho.value)+parseInt(N_EQUIDEOS_junho.value))))/30;
+    }
+
+</script>
+
+
+
+<script>
+
+</script>
+
+#########################################################################################################################################################
+
+<script>
+
+        //1
+    var Total_kbcas_julho = document.getElementById("id_");
+    var N_MATRIZ_julho = document.getElementById("id_");
+    var N_NOVILH_14_julho = document.getElementById("id_");
+    var N_NOVILHO_12_14_julho = document.getElementById("id_");
+    var N_NOVILHO_12_julho = document.getElementById("id_");
+    var N_NOVILHAS_12_julho = document.getElementById("id_");
+    var N_BEZERROS_julho = document.getElementById("id_");
+    var N_BEZERRAS_julho = document.getElementById("id_");
+    var N_OUTROS_julho = document.getElementById("id_");
+    var N_EQUIDEOS_julho = document.getElementById("id_");
+
+    function total_ani_julho(){
+            Total_kbcas_julho.innerHTML =(parseInt(N_MATRIZ_julho.value)+parseInt(N_NOVILH_14_julho.value)+parseInt(N_NOVILHO_12_14_julho.value)+parseInt(N_NOVILHO_12_julho.value)+parseInt(N_NOVILHAS_12_julho)+
+            parseInt(N_BEZERROS_julho.value)+parseInt(N_BEZERRAS_julho.value)+parseInt(N_OUTROS_julho.value)+parseInt(N_EQUIDEOS_julho.value));
+
+    }
+
+</script>
+
+<script>
+
+        //2
+    var Peso_MEDIO_julho = document.getElementById("id_");
+    var N_MATRIZ_julho = document.getElementById("id_");
+    var N_NOVILH_14_julho = document.getElementById("id_");
+    var N_NOVILHO_12_14_julho = document.getElementById("id_");
+    var N_NOVILHO_12_julho = document.getElementById("id_");
+    var N_NOVILHAS_12_julho = document.getElementById("id_");
+    var N_BEZERROS_julho = document.getElementById("id_");
+    var N_BEZERRAS_julho = document.getElementById("id_");
+    var N_OUTROS_julho = document.getElementById("id_");
+    var N_EQUIDEOS_julho = document.getElementById("id_");
+
+    var peso_media_julho_matriz = document.getElementById("id_");
+    var peso_media_julho_novilho14 = document.getElementById("id_");
+    var peso_media_julho_novilho12_14 = document.getElementById("id_");
+    var peso_media_julho_novilho12 = document.getElementById("id_");
+    var peso_media_julho_novilha12 = document.getElementById("id_");
+    var peso_media_julho_bezerro = document.getElementById("id_");
+    var peso_media_julho_bezerra = document.getElementById("id_");
+    var peso_media_julho_outros = document.getElementById("id_");
+    var peso_media_julho_equideos = document.getElementById("id_");
+
+    function PESO_media_arit_julho(){
+        Peso_MEDIO_julho.innetHTML = ((parseInt(N_MATRIZ_julho.value)*parseInt(peso_media_julho_matriz.value))+(parseInt(N_NOVILH_14_julho.value)*parseInt(peso_media_julho_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_julho.value)*parseInt(peso_media_julho_novilho12_14.value))+(parseInt(N_NOVILHO_12_julho.value)*parseInt(peso_media_julho_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_julho.value)*parseInt(peso_media_julho_novilha12.value))+(parseInt(N_BEZERROS_julho.value)*parseInt(peso_media_julho_bezerro.value))
+         +(parseInt(N_BEZERROS_julho.value)*parseInt(peso_media_julho_bezerro.value))+(parseInt(N_BEZERRAS_julho.value)*parseInt(peso_media_julho_bezerra.value))
+         +(parseInt(N_OUTROS_julho.value)*parseInt(peso_media_julho_outros.value))+(parseInt(N_EQUIDEOS_julho.value)*parseInt(peso_media_julho_equideos.value)))/((parseInt(N_MATRIZ_julho.value)+parseInt(N_NOVILH_14_julho.value)
+         +parseInt(N_NOVILHO_12_14_julho.value)+parseInt(N_NOVILHO_12_julho.value)+parseInt(N_NOVILHAS_12_julho)
+         +parseInt(N_BEZERROS_julho.value)+parseInt(N_BEZERRAS_julho.value)+parseInt(N_OUTROS_julho.value)+parseInt(N_EQUIDEOS_julho.value)));
+    }
+
+
+</script>
+
+
+<script>
+
+    //3
+    var Peso_MEDIO_julho = document.getElementById("id_");
+    var N_MATRIZ_julho = document.getElementById("id_");
+    var N_NOVILH_14_julho = document.getElementById("id_");
+    var N_NOVILHO_12_14_julho = document.getElementById("id_");
+    var N_NOVILHO_12_julho = document.getElementById("id_");
+    var N_NOVILHAS_12_julho = document.getElementById("id_");
+    var N_BEZERROS_julho = document.getElementById("id_");
+    var N_BEZERRAS_julho = document.getElementById("id_");
+    var N_OUTROS_julho = document.getElementById("id_");
+    var N_EQUIDEOS_julho = document.getElementById("id_");
+
+    var peso_media_julho_matriz = document.getElementById("id_");
+    var peso_media_julho_novilho14 = document.getElementById("id_");
+    var peso_media_julho_novilho12_14 = document.getElementById("id_");
+    var peso_media_julho_novilho12 = document.getElementById("id_");
+    var peso_media_julho_novilha12 = document.getElementById("id_");
+    var peso_media_julho_bezerro = document.getElementById("id_");
+    var peso_media_julho_bezerra = document.getElementById("id_");
+    var peso_media_julho_outros = document.getElementById("id_");
+    var peso_media_julho_equideos = document.getElementById("id_");
+
+    function ESTOQUE_julho(){
+        Peso_MEDIO_julho.innetHTML = ((((parseInt(N_MATRIZ_julho.value)*parseInt(peso_media_julho_matriz.value))+(parseInt(N_NOVILH_14_julho.value)*parseInt(peso_media_julho_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_julho.value)*parseInt(peso_media_julho_novilho12_14.value))+(parseInt(N_NOVILHO_12_julho.value)*parseInt(peso_media_julho_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_julho.value)*parseInt(peso_media_julho_novilha12.value))+(parseInt(N_BEZERROS_julho.value)*parseInt(peso_media_julho_bezerro.value))
+         +(parseInt(N_BEZERROS_julho.value)*parseInt(peso_media_julho_bezerro.value))+(parseInt(N_BEZERRAS_julho.value)*parseInt(peso_media_julho_bezerra.value))
+         +(parseInt(N_OUTROS_julho.value)*parseInt(peso_media_julho_outros.value))+(parseInt(N_EQUIDEOS_julho.value)*parseInt(peso_media_julho_equideos.value)))/((parseInt(N_MATRIZ_julho.value)+parseInt(N_NOVILH_14_julho.value)
+         +parseInt(N_NOVILHO_12_14_julho.value)+parseInt(N_NOVILHO_12_julho.value)+parseInt(N_NOVILHAS_12_julho)
+         +parseInt(N_BEZERROS_julho.value)+parseInt(N_BEZERRAS_julho.value)+parseInt(N_OUTROS_julho.value)+parseInt(N_EQUIDEOS_julho.value))))*((parseInt(N_MATRIZ_julho.value)+parseInt(N_NOVILH_14_julho.value)
+         +parseInt(N_NOVILHO_12_14_julho.value)+parseInt(N_NOVILHO_12_julho.value)+parseInt(N_NOVILHAS_12_julho)
+         +parseInt(N_BEZERROS_julho.value)+parseInt(N_BEZERRAS_julho.value)+parseInt(N_OUTROS_julho.value)+parseInt(N_EQUIDEOS_julho.value))))/30;
+    }
+
+</script>
+
+
+
+<script>
+
+</script>
+
+#########################################################################################################################################################
+
+<script>
+
+        //1
+    var Total_kbcas_agosto = document.getElementById("id_");
+    var N_MATRIZ_agosto = document.getElementById("id_");
+    var N_NOVILH_14_agosto = document.getElementById("id_");
+    var N_NOVILHO_12_14_agosto = document.getElementById("id_");
+    var N_NOVILHO_12_agosto = document.getElementById("id_");
+    var N_NOVILHAS_12_agosto = document.getElementById("id_");
+    var N_BEZERROS_agosto = document.getElementById("id_");
+    var N_BEZERRAS_agosto = document.getElementById("id_");
+    var N_OUTROS_agosto = document.getElementById("id_");
+    var N_EQUIDEOS_agosto = document.getElementById("id_");
+
+    function total_ani_agosto(){
+            Total_kbcas_agosto.innerHTML =(parseInt(N_MATRIZ_agosto.value)+parseInt(N_NOVILH_14_agosto.value)+parseInt(N_NOVILHO_12_14_agosto.value)+parseInt(N_NOVILHO_12_agosto.value)+parseInt(N_NOVILHAS_12_agosto)+
+            parseInt(N_BEZERROS_agosto.value)+parseInt(N_BEZERRAS_agosto.value)+parseInt(N_OUTROS_agosto.value)+parseInt(N_EQUIDEOS_agosto.value));
+
+    }
+
+</script>
+
+<script>
+
+        //2
+    var Peso_MEDIO_agosto = document.getElementById("id_");
+    var N_MATRIZ_agosto = document.getElementById("id_");
+    var N_NOVILH_14_agosto = document.getElementById("id_");
+    var N_NOVILHO_12_14_agosto = document.getElementById("id_");
+    var N_NOVILHO_12_agosto = document.getElementById("id_");
+    var N_NOVILHAS_12_agosto = document.getElementById("id_");
+    var N_BEZERROS_agosto = document.getElementById("id_");
+    var N_BEZERRAS_agosto = document.getElementById("id_");
+    var N_OUTROS_agosto = document.getElementById("id_");
+    var N_EQUIDEOS_agosto = document.getElementById("id_");
+
+    var peso_media_agosto_matriz = document.getElementById("id_");
+    var peso_media_agosto_novilho14 = document.getElementById("id_");
+    var peso_media_agosto_novilho12_14 = document.getElementById("id_");
+    var peso_media_agosto_novilho12 = document.getElementById("id_");
+    var peso_media_agosto_novilha12 = document.getElementById("id_");
+    var peso_media_agosto_bezerro = document.getElementById("id_");
+    var peso_media_agosto_bezerra = document.getElementById("id_");
+    var peso_media_agosto_outros = document.getElementById("id_");
+    var peso_media_agosto_equideos = document.getElementById("id_");
+
+    function PESO_media_arit_agosto(){
+        Peso_MEDIO_agosto.innetHTML = ((parseInt(N_MATRIZ_agosto.value)*parseInt(peso_media_agosto_matriz.value))+(parseInt(N_NOVILH_14_agosto.value)*parseInt(peso_media_agosto_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_agosto.value)*parseInt(peso_media_agosto_novilho12_14.value))+(parseInt(N_NOVILHO_12_agosto.value)*parseInt(peso_media_agosto_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_agosto.value)*parseInt(peso_media_agosto_novilha12.value))+(parseInt(N_BEZERROS_agosto.value)*parseInt(peso_media_agosto_bezerro.value))
+         +(parseInt(N_BEZERROS_agosto.value)*parseInt(peso_media_agosto_bezerro.value))+(parseInt(N_BEZERRAS_agosto.value)*parseInt(peso_media_agosto_bezerra.value))
+         +(parseInt(N_OUTROS_agosto.value)*parseInt(peso_media_agosto_outros.value))+(parseInt(N_EQUIDEOS_agosto.value)*parseInt(peso_media_agosto_equideos.value)))/((parseInt(N_MATRIZ_agosto.value)+parseInt(N_NOVILH_14_agosto.value)
+         +parseInt(N_NOVILHO_12_14_agosto.value)+parseInt(N_NOVILHO_12_agosto.value)+parseInt(N_NOVILHAS_12_agosto)
+         +parseInt(N_BEZERROS_agosto.value)+parseInt(N_BEZERRAS_agosto.value)+parseInt(N_OUTROS_agosto.value)+parseInt(N_EQUIDEOS_agosto.value)));
+    }
+
+
+</script>
+
+
+<script>
+
+    //3
+    var Peso_MEDIO_agosto = document.getElementById("id_");
+    var N_MATRIZ_agosto = document.getElementById("id_");
+    var N_NOVILH_14_agosto = document.getElementById("id_");
+    var N_NOVILHO_12_14_agosto = document.getElementById("id_");
+    var N_NOVILHO_12_agosto = document.getElementById("id_");
+    var N_NOVILHAS_12_agosto = document.getElementById("id_");
+    var N_BEZERROS_agosto = document.getElementById("id_");
+    var N_BEZERRAS_agosto = document.getElementById("id_");
+    var N_OUTROS_agosto = document.getElementById("id_");
+    var N_EQUIDEOS_agosto = document.getElementById("id_");
+
+    var peso_media_agosto_matriz = document.getElementById("id_");
+    var peso_media_agosto_novilho14 = document.getElementById("id_");
+    var peso_media_agosto_novilho12_14 = document.getElementById("id_");
+    var peso_media_agosto_novilho12 = document.getElementById("id_");
+    var peso_media_agosto_novilha12 = document.getElementById("id_");
+    var peso_media_agosto_bezerro = document.getElementById("id_");
+    var peso_media_agosto_bezerra = document.getElementById("id_");
+    var peso_media_agosto_outros = document.getElementById("id_");
+    var peso_media_agosto_equideos = document.getElementById("id_");
+
+    function ESTOQUE_agosto(){
+        Peso_MEDIO_agosto.innetHTML = ((((parseInt(N_MATRIZ_agosto.value)*parseInt(peso_media_agosto_matriz.value))+(parseInt(N_NOVILH_14_agosto.value)*parseInt(peso_media_agosto_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_agosto.value)*parseInt(peso_media_agosto_novilho12_14.value))+(parseInt(N_NOVILHO_12_agosto.value)*parseInt(peso_media_agosto_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_agosto.value)*parseInt(peso_media_agosto_novilha12.value))+(parseInt(N_BEZERROS_agosto.value)*parseInt(peso_media_agosto_bezerro.value))
+         +(parseInt(N_BEZERROS_agosto.value)*parseInt(peso_media_agosto_bezerro.value))+(parseInt(N_BEZERRAS_agosto.value)*parseInt(peso_media_agosto_bezerra.value))
+         +(parseInt(N_OUTROS_agosto.value)*parseInt(peso_media_agosto_outros.value))+(parseInt(N_EQUIDEOS_agosto.value)*parseInt(peso_media_agosto_equideos.value)))/((parseInt(N_MATRIZ_agosto.value)+parseInt(N_NOVILH_14_agosto.value)
+         +parseInt(N_NOVILHO_12_14_agosto.value)+parseInt(N_NOVILHO_12_agosto.value)+parseInt(N_NOVILHAS_12_agosto)
+         +parseInt(N_BEZERROS_agosto.value)+parseInt(N_BEZERRAS_agosto.value)+parseInt(N_OUTROS_agosto.value)+parseInt(N_EQUIDEOS_agosto.value))))*((parseInt(N_MATRIZ_agosto.value)+parseInt(N_NOVILH_14_agosto.value)
+         +parseInt(N_NOVILHO_12_14_agosto.value)+parseInt(N_NOVILHO_12_agosto.value)+parseInt(N_NOVILHAS_12_agosto)
+         +parseInt(N_BEZERROS_agosto.value)+parseInt(N_BEZERRAS_agosto.value)+parseInt(N_OUTROS_agosto.value)+parseInt(N_EQUIDEOS_agosto.value))))/30;
+    }
+
+</script>
+
+
+
+<script>
+
+</script>
+
+#########################################################################################################################################################
+
+<script>
+
+        //1
+    var Total_kbcas_setembro = document.getElementById("id_");
+    var N_MATRIZ_setembro = document.getElementById("id_");
+    var N_NOVILH_14_setembro = document.getElementById("id_");
+    var N_NOVILHO_12_14_setembro = document.getElementById("id_");
+    var N_NOVILHO_12_setembro = document.getElementById("id_");
+    var N_NOVILHAS_12_setembro = document.getElementById("id_");
+    var N_BEZERROS_setembro = document.getElementById("id_");
+    var N_BEZERRAS_setembro = document.getElementById("id_");
+    var N_OUTROS_setembro = document.getElementById("id_");
+    var N_EQUIDEOS_setembro = document.getElementById("id_");
+
+    function total_ani_setembro(){
+            Total_kbcas_setembro.innerHTML =(parseInt(N_MATRIZ_setembro.value)+parseInt(N_NOVILH_14_setembro.value)+parseInt(N_NOVILHO_12_14_setembro.value)+parseInt(N_NOVILHO_12_setembro.value)+parseInt(N_NOVILHAS_12_setembro)+
+            parseInt(N_BEZERROS_setembro.value)+parseInt(N_BEZERRAS_setembro.value)+parseInt(N_OUTROS_setembro.value)+parseInt(N_EQUIDEOS_setembro.value));
+
+    }
+
+</script>
+
+<script>
+
+        //2
+    var Peso_MEDIO_setembro = document.getElementById("id_");
+    var N_MATRIZ_setembro = document.getElementById("id_");
+    var N_NOVILH_14_setembro = document.getElementById("id_");
+    var N_NOVILHO_12_14_setembro = document.getElementById("id_");
+    var N_NOVILHO_12_setembro = document.getElementById("id_");
+    var N_NOVILHAS_12_setembro = document.getElementById("id_");
+    var N_BEZERROS_setembro = document.getElementById("id_");
+    var N_BEZERRAS_setembro = document.getElementById("id_");
+    var N_OUTROS_setembro = document.getElementById("id_");
+    var N_EQUIDEOS_setembro = document.getElementById("id_");
+
+    var peso_media_setembro_matriz = document.getElementById("id_");
+    var peso_media_setembro_novilho14 = document.getElementById("id_");
+    var peso_media_setembro_novilho12_14 = document.getElementById("id_");
+    var peso_media_setembro_novilho12 = document.getElementById("id_");
+    var peso_media_setembro_novilha12 = document.getElementById("id_");
+    var peso_media_setembro_bezerro = document.getElementById("id_");
+    var peso_media_setembro_bezerra = document.getElementById("id_");
+    var peso_media_setembro_outros = document.getElementById("id_");
+    var peso_media_setembro_equideos = document.getElementById("id_");
+
+    function PESO_media_arit_setembro(){
+        Peso_MEDIO_setembro.innetHTML = ((parseInt(N_MATRIZ_setembro.value)*parseInt(peso_media_setembro_matriz.value))+(parseInt(N_NOVILH_14_setembro.value)*parseInt(peso_media_setembro_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_setembro.value)*parseInt(peso_media_setembro_novilho12_14.value))+(parseInt(N_NOVILHO_12_setembro.value)*parseInt(peso_media_setembro_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_setembro.value)*parseInt(peso_media_setembro_novilha12.value))+(parseInt(N_BEZERROS_setembro.value)*parseInt(peso_media_setembro_bezerro.value))
+         +(parseInt(N_BEZERROS_setembro.value)*parseInt(peso_media_setembro_bezerro.value))+(parseInt(N_BEZERRAS_setembro.value)*parseInt(peso_media_setembro_bezerra.value))
+         +(parseInt(N_OUTROS_setembro.value)*parseInt(peso_media_setembro_outros.value))+(parseInt(N_EQUIDEOS_setembro.value)*parseInt(peso_media_setembro_equideos.value)))/((parseInt(N_MATRIZ_setembro.value)+parseInt(N_NOVILH_14_setembro.value)
+         +parseInt(N_NOVILHO_12_14_setembro.value)+parseInt(N_NOVILHO_12_setembro.value)+parseInt(N_NOVILHAS_12_setembro)
+         +parseInt(N_BEZERROS_setembro.value)+parseInt(N_BEZERRAS_setembro.value)+parseInt(N_OUTROS_setembro.value)+parseInt(N_EQUIDEOS_setembro.value)));
+    }
+
+
+</script>
+
+
+<script>
+
+    //3
+    var Peso_MEDIO_setembro = document.getElementById("id_");
+    var N_MATRIZ_setembro = document.getElementById("id_");
+    var N_NOVILH_14_setembro = document.getElementById("id_");
+    var N_NOVILHO_12_14_setembro = document.getElementById("id_");
+    var N_NOVILHO_12_setembro = document.getElementById("id_");
+    var N_NOVILHAS_12_setembro = document.getElementById("id_");
+    var N_BEZERROS_setembro = document.getElementById("id_");
+    var N_BEZERRAS_setembro = document.getElementById("id_");
+    var N_OUTROS_setembro = document.getElementById("id_");
+    var N_EQUIDEOS_setembro = document.getElementById("id_");
+
+    var peso_media_setembro_matriz = document.getElementById("id_");
+    var peso_media_setembro_novilho14 = document.getElementById("id_");
+    var peso_media_setembro_novilho12_14 = document.getElementById("id_");
+    var peso_media_setembro_novilho12 = document.getElementById("id_");
+    var peso_media_setembro_novilha12 = document.getElementById("id_");
+    var peso_media_setembro_bezerro = document.getElementById("id_");
+    var peso_media_setembro_bezerra = document.getElementById("id_");
+    var peso_media_setembro_outros = document.getElementById("id_");
+    var peso_media_setembro_equideos = document.getElementById("id_");
+
+    function ESTOQUE_setembro(){
+        Peso_MEDIO_setembro.innetHTML = ((((parseInt(N_MATRIZ_setembro.value)*parseInt(peso_media_setembro_matriz.value))+(parseInt(N_NOVILH_14_setembro.value)*parseInt(peso_media_setembro_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_setembro.value)*parseInt(peso_media_setembro_novilho12_14.value))+(parseInt(N_NOVILHO_12_setembro.value)*parseInt(peso_media_setembro_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_setembro.value)*parseInt(peso_media_setembro_novilha12.value))+(parseInt(N_BEZERROS_setembro.value)*parseInt(peso_media_setembro_bezerro.value))
+         +(parseInt(N_BEZERROS_setembro.value)*parseInt(peso_media_setembro_bezerro.value))+(parseInt(N_BEZERRAS_setembro.value)*parseInt(peso_media_setembro_bezerra.value))
+         +(parseInt(N_OUTROS_setembro.value)*parseInt(peso_media_setembro_outros.value))+(parseInt(N_EQUIDEOS_setembro.value)*parseInt(peso_media_setembro_equideos.value)))/((parseInt(N_MATRIZ_setembro.value)+parseInt(N_NOVILH_14_setembro.value)
+         +parseInt(N_NOVILHO_12_14_setembro.value)+parseInt(N_NOVILHO_12_setembro.value)+parseInt(N_NOVILHAS_12_setembro)
+         +parseInt(N_BEZERROS_setembro.value)+parseInt(N_BEZERRAS_setembro.value)+parseInt(N_OUTROS_setembro.value)+parseInt(N_EQUIDEOS_setembro.value))))*((parseInt(N_MATRIZ_setembro.value)+parseInt(N_NOVILH_14_setembro.value)
+         +parseInt(N_NOVILHO_12_14_setembro.value)+parseInt(N_NOVILHO_12_setembro.value)+parseInt(N_NOVILHAS_12_setembro)
+         +parseInt(N_BEZERROS_setembro.value)+parseInt(N_BEZERRAS_setembro.value)+parseInt(N_OUTROS_setembro.value)+parseInt(N_EQUIDEOS_setembro.value))))/30;
+    }
+
+</script>
+
+
+
+<script>
+
+</script>
+
+#########################################################################################################################################################
+
+<script>
+
+        //1
+    var Total_kbcas_outubro = document.getElementById("id_");
+    var N_MATRIZ_outubro = document.getElementById("id_");
+    var N_NOVILH_14_outubro = document.getElementById("id_");
+    var N_NOVILHO_12_14_outubro = document.getElementById("id_");
+    var N_NOVILHO_12_outubro = document.getElementById("id_");
+    var N_NOVILHAS_12_outubro = document.getElementById("id_");
+    var N_BEZERROS_outubro = document.getElementById("id_");
+    var N_BEZERRAS_outubro = document.getElementById("id_");
+    var N_OUTROS_outubro = document.getElementById("id_");
+    var N_EQUIDEOS_outubro = document.getElementById("id_");
+
+    function total_ani_outubro(){
+            Total_kbcas_outubro.innerHTML =(parseInt(N_MATRIZ_outubro.value)+parseInt(N_NOVILH_14_outubro.value)+parseInt(N_NOVILHO_12_14_outubro.value)+parseInt(N_NOVILHO_12_outubro.value)+parseInt(N_NOVILHAS_12_outubro)+
+            parseInt(N_BEZERROS_outubro.value)+parseInt(N_BEZERRAS_outubro.value)+parseInt(N_OUTROS_outubro.value)+parseInt(N_EQUIDEOS_outubro.value));
+
+    }
+
+</script>
+
+<script>
+
+        //2
+    var Peso_MEDIO_outubro = document.getElementById("id_");
+    var N_MATRIZ_outubro = document.getElementById("id_");
+    var N_NOVILH_14_outubro = document.getElementById("id_");
+    var N_NOVILHO_12_14_outubro = document.getElementById("id_");
+    var N_NOVILHO_12_outubro = document.getElementById("id_");
+    var N_NOVILHAS_12_outubro = document.getElementById("id_");
+    var N_BEZERROS_outubro = document.getElementById("id_");
+    var N_BEZERRAS_outubro = document.getElementById("id_");
+    var N_OUTROS_outubro = document.getElementById("id_");
+    var N_EQUIDEOS_outubro = document.getElementById("id_");
+
+    var peso_media_outubro_matriz = document.getElementById("id_");
+    var peso_media_outubro_novilho14 = document.getElementById("id_");
+    var peso_media_outubro_novilho12_14 = document.getElementById("id_");
+    var peso_media_outubro_novilho12 = document.getElementById("id_");
+    var peso_media_outubro_novilha12 = document.getElementById("id_");
+    var peso_media_outubro_bezerro = document.getElementById("id_");
+    var peso_media_outubro_bezerra = document.getElementById("id_");
+    var peso_media_outubro_outros = document.getElementById("id_");
+    var peso_media_outubro_equideos = document.getElementById("id_");
+
+    function PESO_media_arit_outubro(){
+        Peso_MEDIO_outubro.innetHTML = ((parseInt(N_MATRIZ_outubro.value)*parseInt(peso_media_outubro_matriz.value))+(parseInt(N_NOVILH_14_outubro.value)*parseInt(peso_media_outubro_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_outubro.value)*parseInt(peso_media_outubro_novilho12_14.value))+(parseInt(N_NOVILHO_12_outubro.value)*parseInt(peso_media_outubro_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_outubro.value)*parseInt(peso_media_outubro_novilha12.value))+(parseInt(N_BEZERROS_outubro.value)*parseInt(peso_media_outubro_bezerro.value))
+         +(parseInt(N_BEZERROS_outubro.value)*parseInt(peso_media_outubro_bezerro.value))+(parseInt(N_BEZERRAS_outubro.value)*parseInt(peso_media_outubro_bezerra.value))
+         +(parseInt(N_OUTROS_outubro.value)*parseInt(peso_media_outubro_outros.value))+(parseInt(N_EQUIDEOS_outubro.value)*parseInt(peso_media_outubro_equideos.value)))/((parseInt(N_MATRIZ_outubro.value)+parseInt(N_NOVILH_14_outubro.value)
+         +parseInt(N_NOVILHO_12_14_outubro.value)+parseInt(N_NOVILHO_12_outubro.value)+parseInt(N_NOVILHAS_12_outubro)
+         +parseInt(N_BEZERROS_outubro.value)+parseInt(N_BEZERRAS_outubro.value)+parseInt(N_OUTROS_outubro.value)+parseInt(N_EQUIDEOS_outubro.value)));
+    }
+
+
+</script>
+
+
+<script>
+
+    //3
+    var Peso_MEDIO_outubro = document.getElementById("id_");
+    var N_MATRIZ_outubro = document.getElementById("id_");
+    var N_NOVILH_14_outubro = document.getElementById("id_");
+    var N_NOVILHO_12_14_outubro = document.getElementById("id_");
+    var N_NOVILHO_12_outubro = document.getElementById("id_");
+    var N_NOVILHAS_12_outubro = document.getElementById("id_");
+    var N_BEZERROS_outubro = document.getElementById("id_");
+    var N_BEZERRAS_outubro = document.getElementById("id_");
+    var N_OUTROS_outubro = document.getElementById("id_");
+    var N_EQUIDEOS_outubro = document.getElementById("id_");
+
+    var peso_media_outubro_matriz = document.getElementById("id_");
+    var peso_media_outubro_novilho14 = document.getElementById("id_");
+    var peso_media_outubro_novilho12_14 = document.getElementById("id_");
+    var peso_media_outubro_novilho12 = document.getElementById("id_");
+    var peso_media_outubro_novilha12 = document.getElementById("id_");
+    var peso_media_outubro_bezerro = document.getElementById("id_");
+    var peso_media_outubro_bezerra = document.getElementById("id_");
+    var peso_media_outubro_outros = document.getElementById("id_");
+    var peso_media_outubro_equideos = document.getElementById("id_");
+
+    function ESTOQUE_outubro(){
+        Peso_MEDIO_outubro.innetHTML = ((((parseInt(N_MATRIZ_outubro.value)*parseInt(peso_media_outubro_matriz.value))+(parseInt(N_NOVILH_14_outubro.value)*parseInt(peso_media_outubro_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_outubro.value)*parseInt(peso_media_outubro_novilho12_14.value))+(parseInt(N_NOVILHO_12_outubro.value)*parseInt(peso_media_outubro_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_outubro.value)*parseInt(peso_media_outubro_novilha12.value))+(parseInt(N_BEZERROS_outubro.value)*parseInt(peso_media_outubro_bezerro.value))
+         +(parseInt(N_BEZERROS_outubro.value)*parseInt(peso_media_outubro_bezerro.value))+(parseInt(N_BEZERRAS_outubro.value)*parseInt(peso_media_outubro_bezerra.value))
+         +(parseInt(N_OUTROS_outubro.value)*parseInt(peso_media_outubro_outros.value))+(parseInt(N_EQUIDEOS_outubro.value)*parseInt(peso_media_outubro_equideos.value)))/((parseInt(N_MATRIZ_outubro.value)+parseInt(N_NOVILH_14_outubro.value)
+         +parseInt(N_NOVILHO_12_14_outubro.value)+parseInt(N_NOVILHO_12_outubro.value)+parseInt(N_NOVILHAS_12_outubro)
+         +parseInt(N_BEZERROS_outubro.value)+parseInt(N_BEZERRAS_outubro.value)+parseInt(N_OUTROS_outubro.value)+parseInt(N_EQUIDEOS_outubro.value))))*((parseInt(N_MATRIZ_outubro.value)+parseInt(N_NOVILH_14_outubro.value)
+         +parseInt(N_NOVILHO_12_14_outubro.value)+parseInt(N_NOVILHO_12_outubro.value)+parseInt(N_NOVILHAS_12_outubro)
+         +parseInt(N_BEZERROS_outubro.value)+parseInt(N_BEZERRAS_outubro.value)+parseInt(N_OUTROS_outubro.value)+parseInt(N_EQUIDEOS_outubro.value))))/30;
+    }
+
+</script>
+
+
+
+<script>
+
+</script>
+
+#########################################################################################################################################################
+
+<script>
+
+        //1
+    var Total_kbcas_Novembro = document.getElementById("id_");
+    var N_MATRIZ_Novembro = document.getElementById("id_");
+    var N_NOVILH_14_Novembro = document.getElementById("id_");
+    var N_NOVILHO_12_14_Novembro = document.getElementById("id_");
+    var N_NOVILHO_12_Novembro = document.getElementById("id_");
+    var N_NOVILHAS_12_Novembro = document.getElementById("id_");
+    var N_BEZERROS_Novembro = document.getElementById("id_");
+    var N_BEZERRAS_Novembro = document.getElementById("id_");
+    var N_OUTROS_Novembro = document.getElementById("id_");
+    var N_EQUIDEOS_Novembro = document.getElementById("id_");
+
+    function total_ani_Novembro(){
+            Total_kbcas_Novembro.innerHTML =(parseInt(N_MATRIZ_Novembro.value)+parseInt(N_NOVILH_14_Novembro.value)+parseInt(N_NOVILHO_12_14_Novembro.value)+parseInt(N_NOVILHO_12_Novembro.value)+parseInt(N_NOVILHAS_12_Novembro)+
+            parseInt(N_BEZERROS_Novembro.value)+parseInt(N_BEZERRAS_Novembro.value)+parseInt(N_OUTROS_Novembro.value)+parseInt(N_EQUIDEOS_Novembro.value));
+
+    }
+
+</script>
+
+<script>
+
+        //2
+    var Peso_MEDIO_Novembro = document.getElementById("id_");
+    var N_MATRIZ_Novembro = document.getElementById("id_");
+    var N_NOVILH_14_Novembro = document.getElementById("id_");
+    var N_NOVILHO_12_14_Novembro = document.getElementById("id_");
+    var N_NOVILHO_12_Novembro = document.getElementById("id_");
+    var N_NOVILHAS_12_Novembro = document.getElementById("id_");
+    var N_BEZERROS_Novembro = document.getElementById("id_");
+    var N_BEZERRAS_Novembro = document.getElementById("id_");
+    var N_OUTROS_Novembro = document.getElementById("id_");
+    var N_EQUIDEOS_Novembro = document.getElementById("id_");
+
+    var peso_media_Novembro_matriz = document.getElementById("id_");
+    var peso_media_Novembro_novilho14 = document.getElementById("id_");
+    var peso_media_Novembro_novilho12_14 = document.getElementById("id_");
+    var peso_media_Novembro_novilho12 = document.getElementById("id_");
+    var peso_media_Novembro_novilha12 = document.getElementById("id_");
+    var peso_media_Novembro_bezerro = document.getElementById("id_");
+    var peso_media_Novembro_bezerra = document.getElementById("id_");
+    var peso_media_Novembro_outros = document.getElementById("id_");
+    var peso_media_Novembro_equideos = document.getElementById("id_");
+
+    function PESO_media_arit_Novembro(){
+        Peso_MEDIO_Novembro.innetHTML = ((parseInt(N_MATRIZ_Novembro.value)*parseInt(peso_media_Novembro_matriz.value))+(parseInt(N_NOVILH_14_Novembro.value)*parseInt(peso_media_Novembro_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_Novembro.value)*parseInt(peso_media_Novembro_novilho12_14.value))+(parseInt(N_NOVILHO_12_Novembro.value)*parseInt(peso_media_Novembro_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_Novembro.value)*parseInt(peso_media_Novembro_novilha12.value))+(parseInt(N_BEZERROS_Novembro.value)*parseInt(peso_media_Novembro_bezerro.value))
+         +(parseInt(N_BEZERROS_Novembro.value)*parseInt(peso_media_Novembro_bezerro.value))+(parseInt(N_BEZERRAS_Novembro.value)*parseInt(peso_media_Novembro_bezerra.value))
+         +(parseInt(N_OUTROS_Novembro.value)*parseInt(peso_media_Novembro_outros.value))+(parseInt(N_EQUIDEOS_Novembro.value)*parseInt(peso_media_Novembro_equideos.value)))/((parseInt(N_MATRIZ_Novembro.value)+parseInt(N_NOVILH_14_Novembro.value)
+         +parseInt(N_NOVILHO_12_14_Novembro.value)+parseInt(N_NOVILHO_12_Novembro.value)+parseInt(N_NOVILHAS_12_Novembro)
+         +parseInt(N_BEZERROS_Novembro.value)+parseInt(N_BEZERRAS_Novembro.value)+parseInt(N_OUTROS_Novembro.value)+parseInt(N_EQUIDEOS_Novembro.value)));
+    }
+
+
+</script>
+
+
+<script>
+
+    //3
+    var Peso_MEDIO_Novembro = document.getElementById("id_");
+    var N_MATRIZ_Novembro = document.getElementById("id_");
+    var N_NOVILH_14_Novembro = document.getElementById("id_");
+    var N_NOVILHO_12_14_Novembro = document.getElementById("id_");
+    var N_NOVILHO_12_Novembro = document.getElementById("id_");
+    var N_NOVILHAS_12_Novembro = document.getElementById("id_");
+    var N_BEZERROS_Novembro = document.getElementById("id_");
+    var N_BEZERRAS_Novembro = document.getElementById("id_");
+    var N_OUTROS_Novembro = document.getElementById("id_");
+    var N_EQUIDEOS_Novembro = document.getElementById("id_");
+
+    var peso_media_Novembro_matriz = document.getElementById("id_");
+    var peso_media_Novembro_novilho14 = document.getElementById("id_");
+    var peso_media_Novembro_novilho12_14 = document.getElementById("id_");
+    var peso_media_Novembro_novilho12 = document.getElementById("id_");
+    var peso_media_Novembro_novilha12 = document.getElementById("id_");
+    var peso_media_Novembro_bezerro = document.getElementById("id_");
+    var peso_media_Novembro_bezerra = document.getElementById("id_");
+    var peso_media_Novembro_outros = document.getElementById("id_");
+    var peso_media_Novembro_equideos = document.getElementById("id_");
+
+    function ESTOQUE_Novembro(){
+        Peso_MEDIO_Novembro.innetHTML = ((((parseInt(N_MATRIZ_Novembro.value)*parseInt(peso_media_Novembro_matriz.value))+(parseInt(N_NOVILH_14_Novembro.value)*parseInt(peso_media_Novembro_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_Novembro.value)*parseInt(peso_media_Novembro_novilho12_14.value))+(parseInt(N_NOVILHO_12_Novembro.value)*parseInt(peso_media_Novembro_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_Novembro.value)*parseInt(peso_media_Novembro_novilha12.value))+(parseInt(N_BEZERROS_Novembro.value)*parseInt(peso_media_Novembro_bezerro.value))
+         +(parseInt(N_BEZERROS_Novembro.value)*parseInt(peso_media_Novembro_bezerro.value))+(parseInt(N_BEZERRAS_Novembro.value)*parseInt(peso_media_Novembro_bezerra.value))
+         +(parseInt(N_OUTROS_Novembro.value)*parseInt(peso_media_Novembro_outros.value))+(parseInt(N_EQUIDEOS_Novembro.value)*parseInt(peso_media_Novembro_equideos.value)))/((parseInt(N_MATRIZ_Novembro.value)+parseInt(N_NOVILH_14_Novembro.value)
+         +parseInt(N_NOVILHO_12_14_Novembro.value)+parseInt(N_NOVILHO_12_Novembro.value)+parseInt(N_NOVILHAS_12_Novembro)
+         +parseInt(N_BEZERROS_Novembro.value)+parseInt(N_BEZERRAS_Novembro.value)+parseInt(N_OUTROS_Novembro.value)+parseInt(N_EQUIDEOS_Novembro.value))))*((parseInt(N_MATRIZ_Novembro.value)+parseInt(N_NOVILH_14_Novembro.value)
+         +parseInt(N_NOVILHO_12_14_Novembro.value)+parseInt(N_NOVILHO_12_Novembro.value)+parseInt(N_NOVILHAS_12_Novembro)
+         +parseInt(N_BEZERROS_Novembro.value)+parseInt(N_BEZERRAS_Novembro.value)+parseInt(N_OUTROS_Novembro.value)+parseInt(N_EQUIDEOS_Novembro.value))))/30;
+    }
+
+</script>
+
+
+
+<script>
+
+</script>
+
+<script>
+
+        //1
+    var Total_kbcas_fevereiro = document.getElementById("id_");
+    var N_MATRIZ_fevereiro = document.getElementById("id_");
+    var N_NOVILH_14_fevereiro = document.getElementById("id_");
+    var N_NOVILHO_12_14_fevereiro = document.getElementById("id_");
+    var N_NOVILHO_12_fevereiro = document.getElementById("id_");
+    var N_NOVILHAS_12_fevereiro = document.getElementById("id_");
+    var N_BEZERROS_fevereiro = document.getElementById("id_");
+    var N_BEZERRAS_fevereiro = document.getElementById("id_");
+    var N_OUTROS_fevereiro = document.getElementById("id_");
+    var N_EQUIDEOS_fevereiro = document.getElementById("id_");
+
+    function total_ani_fevereiro(){
+            Total_kbcas_fevereiro.innerHTML =(parseInt(N_MATRIZ_fevereiro.value)+parseInt(N_NOVILH_14_fevereiro.value)+parseInt(N_NOVILHO_12_14_fevereiro.value)+parseInt(N_NOVILHO_12_fevereiro.value)+parseInt(N_NOVILHAS_12_fevereiro)+
+            parseInt(N_BEZERROS_fevereiro.value)+parseInt(N_BEZERRAS_fevereiro.value)+parseInt(N_OUTROS_fevereiro.value)+parseInt(N_EQUIDEOS_fevereiro.value));
+
+    }
+
+</script>
+
+<script>
+
+        //2
+    var Peso_MEDIO_dezembro = document.getElementById("id_");
+    var N_MATRIZ_dezembro = document.getElementById("id_");
+    var N_NOVILH_14_dezembro = document.getElementById("id_");
+    var N_NOVILHO_12_14_dezembro = document.getElementById("id_");
+    var N_NOVILHO_12_dezembro = document.getElementById("id_");
+    var N_NOVILHAS_12_dezembro = document.getElementById("id_");
+    var N_BEZERROS_dezembro = document.getElementById("id_");
+    var N_BEZERRAS_dezembro = document.getElementById("id_");
+    var N_OUTROS_dezembro = document.getElementById("id_");
+    var N_EQUIDEOS_dezembro = document.getElementById("id_");
+
+    var peso_media_dezembro_matriz = document.getElementById("id_");
+    var peso_media_dezembro_novilho14 = document.getElementById("id_");
+    var peso_media_dezembro_novilho12_14 = document.getElementById("id_");
+    var peso_media_dezembro_novilho12 = document.getElementById("id_");
+    var peso_media_dezembro_novilha12 = document.getElementById("id_");
+    var peso_media_dezembro_bezerro = document.getElementById("id_");
+    var peso_media_dezembro_bezerra = document.getElementById("id_");
+    var peso_media_dezembro_outros = document.getElementById("id_");
+    var peso_media_dezembro_equideos = document.getElementById("id_");
+
+    function PESO_media_arit_dezembro(){
+        Peso_MEDIO_dezembro.innetHTML = ((parseInt(N_MATRIZ_dezembro.value)*parseInt(peso_media_dezembro_matriz.value))+(parseInt(N_NOVILH_14_dezembro.value)*parseInt(peso_media_dezembro_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_dezembro.value)*parseInt(peso_media_dezembro_novilho12_14.value))+(parseInt(N_NOVILHO_12_dezembro.value)*parseInt(peso_media_dezembro_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_dezembro.value)*parseInt(peso_media_dezembro_novilha12.value))+(parseInt(N_BEZERROS_dezembro.value)*parseInt(peso_media_dezembro_bezerro.value))
+         +(parseInt(N_BEZERROS_dezembro.value)*parseInt(peso_media_dezembro_bezerro.value))+(parseInt(N_BEZERRAS_dezembro.value)*parseInt(peso_media_dezembro_bezerra.value))
+         +(parseInt(N_OUTROS_dezembro.value)*parseInt(peso_media_dezembro_outros.value))+(parseInt(N_EQUIDEOS_dezembro.value)*parseInt(peso_media_dezembro_equideos.value)))/((parseInt(N_MATRIZ_dezembro.value)+parseInt(N_NOVILH_14_dezembro.value)
+         +parseInt(N_NOVILHO_12_14_dezembro.value)+parseInt(N_NOVILHO_12_dezembro.value)+parseInt(N_NOVILHAS_12_dezembro)
+         +parseInt(N_BEZERROS_dezembro.value)+parseInt(N_BEZERRAS_dezembro.value)+parseInt(N_OUTROS_dezembro.value)+parseInt(N_EQUIDEOS_dezembro.value)));
+    }
+
+
+</script>
+
+
+<script>
+
+    //3
+    var Peso_MEDIO_dezembro = document.getElementById("id_");
+    var N_MATRIZ_dezembro = document.getElementById("id_");
+    var N_NOVILH_14_dezembro = document.getElementById("id_");
+    var N_NOVILHO_12_14_dezembro = document.getElementById("id_");
+    var N_NOVILHO_12_dezembro = document.getElementById("id_");
+    var N_NOVILHAS_12_dezembro = document.getElementById("id_");
+    var N_BEZERROS_dezembro = document.getElementById("id_");
+    var N_BEZERRAS_dezembro = document.getElementById("id_");
+    var N_OUTROS_dezembro = document.getElementById("id_");
+    var N_EQUIDEOS_dezembro = document.getElementById("id_");
+
+    var peso_media_dezembro_matriz = document.getElementById("id_");
+    var peso_media_dezembro_novilho14 = document.getElementById("id_");
+    var peso_media_dezembro_novilho12_14 = document.getElementById("id_");
+    var peso_media_dezembro_novilho12 = document.getElementById("id_");
+    var peso_media_dezembro_novilha12 = document.getElementById("id_");
+    var peso_media_dezembro_bezerro = document.getElementById("id_");
+    var peso_media_dezembro_bezerra = document.getElementById("id_");
+    var peso_media_dezembro_outros = document.getElementById("id_");
+    var peso_media_dezembro_equideos = document.getElementById("id_");
+
+    function ESTOQUE_dezembro(){
+        Peso_MEDIO_dezembro.innetHTML = ((((parseInt(N_MATRIZ_dezembro.value)*parseInt(peso_media_dezembro_matriz.value))+(parseInt(N_NOVILH_14_dezembro.value)*parseInt(peso_media_dezembro_novilho14.value))+
+         +(parseInt(N_NOVILHO_12_14_dezembro.value)*parseInt(peso_media_dezembro_novilho12_14.value))+(parseInt(N_NOVILHO_12_dezembro.value)*parseInt(peso_media_dezembro_novilho12.value))
+         +(parseInt(N_NOVILHAS_12_dezembro.value)*parseInt(peso_media_dezembro_novilha12.value))+(parseInt(N_BEZERROS_dezembro.value)*parseInt(peso_media_dezembro_bezerro.value))
+         +(parseInt(N_BEZERROS_dezembro.value)*parseInt(peso_media_dezembro_bezerro.value))+(parseInt(N_BEZERRAS_dezembro.value)*parseInt(peso_media_dezembro_bezerra.value))
+         +(parseInt(N_OUTROS_dezembro.value)*parseInt(peso_media_dezembro_outros.value))+(parseInt(N_EQUIDEOS_dezembro.value)*parseInt(peso_media_dezembro_equideos.value)))/((parseInt(N_MATRIZ_dezembro.value)+parseInt(N_NOVILH_14_dezembro.value)
+         +parseInt(N_NOVILHO_12_14_dezembro.value)+parseInt(N_NOVILHO_12_dezembro.value)+parseInt(N_NOVILHAS_12_dezembro)
+         +parseInt(N_BEZERROS_dezembro.value)+parseInt(N_BEZERRAS_dezembro.value)+parseInt(N_OUTROS_dezembro.value)+parseInt(N_EQUIDEOS_dezembro.value))))*((parseInt(N_MATRIZ_dezembro.value)+parseInt(N_NOVILH_14_dezembro.value)
+         +parseInt(N_NOVILHO_12_14_dezembro.value)+parseInt(N_NOVILHO_12_dezembro.value)+parseInt(N_NOVILHAS_12_dezembro)
+         +parseInt(N_BEZERROS_dezembro.value)+parseInt(N_BEZERRAS_dezembro.value)+parseInt(N_OUTROS_dezembro.value)+parseInt(N_EQUIDEOS_dezembro.value))))/30;
+    }
+
+</script>
+
+
+
+<script>
+
+</script>
+

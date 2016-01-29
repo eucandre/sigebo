@@ -1,0 +1,54 @@
+#
+    Substituir os XXX pelos nomes seguintes
+    TRATORES
+    VEICULOS
+    EQUIPAMENTOS MANUAIS
+    REPRODUTORES MACHOS
+    REPRODUTORES FEMEAS
+    ANIMAIS DE TRABALHO
+    CANAVIAL OU VOLUMOSOS
+    BENFEITORIAS
+    EDIFICAÇÕES
+    PASTAGEM
+    Mao de obra fixa da fazenda
+    Encargos sociais
+    Assistência tecnica
+    Despesas tributárias (IR e ITR)
+
+
+    TOTAL CUSTO FIXO (R$)
+    CUSTO FIXO/CABEÇA (R$)
+#
+
+
+
+var XXX_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var XXX_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var XXX_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var XXX_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var XXX_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var XXX_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var XXX_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var XXX_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var XXX_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var XXX_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var XXX_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var XXX_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var XXX_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    XXX_total.innerHTML = 10;//parseInt(XXX_jan.value)+parseInt(XXX_fev.value)+parseInt(XXX_mar.value)+parseInt(XXX_abr.value)+parseInt(XXX_mai.value)+parseInt(XXX_jun.value)+
+    //parseInt(XXX_jul.value)+parseInt(XXX_ago.value)+parseInt(XXX_set.value)+parseInt(XXX_out.value)+parseInt(XXX_nov.value)+parseInt(XXX_dez.value);
+}
+calc_maq();
+XXX_jan.addEventListener("keyup",calc_maq);
+XXX_fev.addEventListener("keyup",calc_maq);
+XXX_mar.addEventListener("keyup",calc_maq);
+XXX_abr.addEventListener("keyup",calc_maq);
+XXX_mai.addEventListener("keyup",calc_maq);
+XXX_jun.addEventListener("keyup",calc_maq);
+XXX_jul.addEventListener("keyup",calc_maq);
+XXX_ago.addEventListener("keyup",calc_maq);
+XXX_set.addEventListener("keyup",calc_maq);
+XXX_out.addEventListener("keyup",calc_maq);
+XXX_nov.addEventListener("keyup",calc_maq);
