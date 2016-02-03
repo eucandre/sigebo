@@ -3,33 +3,33 @@
   <component name="ChangeListManager">
     <list id="faf2b82e-2164-4e1d-a3f3-1f6533ae5410" name="Default" comment="Merge branch 'master' of https://github.com/eucandre/sigebo&#10;&#10;Conflicts:&#10;&#9;sisgebo_app/forms.py&#10;" />
     <list default="true" id="e7dd6d88-7531-4f6c-904d-8a42dd6d6c89" name="Failed commit: Default" comment="Editando posicoes relatorio criacao bovinos&#10;">
-      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_animais_12_21.js" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\templates\pgg_rc.html" />
       <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_piquetes_machos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_4.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_8.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/mao_obra.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_7.js" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_piquetes_femeas.js" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_total_piquetes.js" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\numero_piquete_categoria.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_3.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_9.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_1.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/custos/depreciacao.html" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\templates\pgg_rc.html" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_animais_12_21.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_7.js" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\numero_piquete_categoria.js" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_total_piquetes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/js/zzzzzzzzzzzgastos_veterinarios/total_6.js" />
+      <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_piquetes_femeas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/mao_obra.html" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sisgebo.db" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urls.py" afterPath="$PROJECT_DIR$/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pastagem.html" afterPath="$PROJECT_DIR$/templates/pastagem.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sisgebo_app/forms.py" afterPath="$PROJECT_DIR$/sisgebo_app/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rascunho" afterPath="$PROJECT_DIR$/rascunho" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sisgebo_app/models.py" afterPath="$PROJECT_DIR$/sisgebo_app/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gastos_veterinarios.html" afterPath="$PROJECT_DIR$/templates/gastos_veterinarios.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urls.py" afterPath="$PROJECT_DIR$/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sisgebo_app/views.py" afterPath="$PROJECT_DIR$/sisgebo_app/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rascunho" afterPath="$PROJECT_DIR$/rascunho" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pastagem.html" afterPath="$PROJECT_DIR$/templates/pastagem.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/definicao_rebanho_inicial.html" afterPath="$PROJECT_DIR$/templates/definicao_rebanho_inicial.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gastos_veterinarios.html" afterPath="$PROJECT_DIR$/templates/gastos_veterinarios.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sisgebo_app/views.py" afterPath="$PROJECT_DIR$/sisgebo_app/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sisgebo_app/forms.py" afterPath="$PROJECT_DIR$/sisgebo_app/forms.py" />
     </list>
     <list id="bb93888b-4d16-4f15-90f1-e27391030ae7" name="Failed commit: Failed commit: Default" comment="Merge branch 'master' of https://github.com/eucandre/sigebo&#10;&#10;Conflicts:&#10;&#9;sisgebo_app/forms.py&#10;">
       <change type="NEW" beforePath="" afterPath="C:\Users\Carlos\Desktop\DESKTOP\sigebo\media\js\zzzzzzzzzzzzzzpastaegem\area_aniamais_6_12.js" />
@@ -60,131 +60,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CUSTO_TOTAL-elemtn.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/formulas js que o robson mandou/CUSTO_TOTAL-elemtn.txt">
+      <file leaf-file-name="investimento.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/custos/investimento.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3349">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="13685">
+              <caret line="220" column="65" selection-start-line="220" selection-start-column="65" selection-end-line="220" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="depreciacao.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/formulas js que o robson mandou/depreciacao.txt">
+      <file leaf-file-name="custo_operacional.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/custos/custo_operacional.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.444445" vertical-offset="2397" max-vertical-offset="6715">
-              <caret line="156" column="92" selection-start-line="147" selection-start-column="4" selection-end-line="156" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BENFEITORIAS_depre.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/media/1Depreciacao/BENFEITORIAS_depre.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23448277" vertical-offset="0" max-vertical-offset="435">
-              <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+            <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="11050">
+              <caret line="220" column="48" selection-start-line="220" selection-start-column="48" selection-end-line="220" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sisgebo_app/forms.py">
+      <file leaf-file-name="custo_total.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/custos/custo_total.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="16255" max-vertical-offset="54774">
-              <caret line="972" column="101" selection-start-line="972" selection-start-column="101" selection-end-line="972" selection-end-column="101" />
-              <folding>
-                <element signature="e#15#47#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-4.1153846" vertical-offset="3616" max-vertical-offset="11135">
+              <caret line="219" column="55" selection-start-line="219" selection-start-column="55" selection-end-line="219" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="depreciacao.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/custos/depreciacao.html">
+      <file leaf-file-name="receitas.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/custos/receitas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-55.115383" vertical-offset="10671" max-vertical-offset="19193">
-              <caret line="737" column="24" selection-start-line="737" selection-start-column="24" selection-end-line="737" selection-end-column="24" />
-              <folding>
-                <element signature="tag#script#25;tag#div#1;tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#60;tag#div#1;tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#script#27;tag#div#1;tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <marker date="1454520294324" expanded="false" signature="12785:12823" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="13337:13549" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="13810:13848" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="14354:14509" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="14794:14832" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="15441:15628" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="15994:16033" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="16678:16830" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="17633:17671" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="18130:18267" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="18534:18572" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="18942:19058" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="19259:19297" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="19817:19993" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="20819:20857" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="21316:21459" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="21716:21754" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="22110:22219" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="22407:22445" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="22990:23169" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="24159:24197" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="24696:24831" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="25082:25120" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="25512:25621" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="25808:25846" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="26441:26618" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="27475:27513" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="28023:28168" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="28434:28472" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="28877:28997" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="29188:29226" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="29829:30008" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="30992:31030" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="31556:31707" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="31985:32023" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="32443:32569" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="32788:32826" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="33427:33603" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="34496:34534" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="35093:35291" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="35729:35767" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="36310:36454" placeholder="{...}" />
-                <marker date="1454520294324" expanded="true" signature="36532:36712" placeholder="//..." />
-                <marker date="1454520294324" expanded="false" signature="36876:36914" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="37533:37741" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="38662:38700" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="39249:39434" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="39850:39888" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="40402:40542" placeholder="{...}" />
-                <marker date="1454520294324" expanded="true" signature="40619:40791" placeholder="//..." />
-                <marker date="1454520294324" expanded="false" signature="40961:40999" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="41596:41789" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="42721:42759" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="43349:43553" placeholder="{...}" />
-                <marker date="1454520294324" expanded="false" signature="43985:44023" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="44537:44675" placeholder="{...}" />
-                <marker date="1454520294324" expanded="true" signature="44743:44920" placeholder="//..." />
-                <marker date="1454520294324" expanded="false" signature="45082:45120" placeholder="..." />
-                <marker date="1454520294324" expanded="true" signature="45740:45944" placeholder="{...}" />
-              </folding>
+            <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="11407">
+              <caret line="220" column="67" selection-start-line="220" selection-start-column="67" selection-end-line="220" selection-end-column="67" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="metodos_inventario.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sisgebo_app/metodos_inventario.py">
+      <file leaf-file-name="balanco_patrimonial.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/custos/balanco_patrimonial.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3808" max-vertical-offset="4386">
-              <caret line="228" column="4" selection-start-line="228" selection-start-column="4" selection-end-line="228" selection-end-column="12" />
+            <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="11815">
+              <caret line="220" column="65" selection-start-line="220" selection-start-column="65" selection-end-line="220" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="analise.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/custos/analise.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="10132">
+              <caret line="220" column="59" selection-start-line="220" selection-start-column="59" selection-end-line="220" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fluxo_em_caixa.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/custos/fluxo_em_caixa.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="11696">
+              <caret line="220" column="43" selection-start-line="220" selection-start-column="43" selection-end-line="220" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vpl.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/custos/vpl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.1153846" vertical-offset="3616" max-vertical-offset="11203">
+              <caret line="219" column="59" selection-start-line="219" selection-start-column="59" selection-end-line="219" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pe.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/custos/pe.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3324397" vertical-offset="3616" max-vertical-offset="9792">
+              <caret line="220" column="57" selection-start-line="220" selection-start-column="57" selection-end-line="220" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1003">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="20" />
               <folding>
-                <element signature="e#0#46#0" expanded="true" />
+                <element signature="e#0#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -227,46 +199,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/media/js/total2.js" />
-        <option value="$PROJECT_DIR$/media/js/total3.js" />
-        <option value="$PROJECT_DIR$/rascunho" />
-        <option value="$PROJECT_DIR$/templates/venda_e_compra.html" />
-        <option value="$PROJECT_DIR$/templates/rendimento_carcaca.html" />
-        <option value="$PROJECT_DIR$/Gastos Com Produtos Veterinários.txt" />
-        <option value="$PROJECT_DIR$/templates/gastos_veterinarios.html" />
-        <option value="$PROJECT_DIR$/templates/mao_obra.html" />
-        <option value="$PROJECT_DIR$/settings.py" />
-        <option value="$PROJECT_DIR$/sisgebo_app/models.py" />
-        <option value="$PROJECT_DIR$/auxiliar" />
-        <option value="$PROJECT_DIR$/sisgebo_app/Metodos_Auxiliares2.py" />
-        <option value="$PROJECT_DIR$/templates/confinamento.html" />
-        <option value="$PROJECT_DIR$/sisgebo_app/metodos_segunda_planilha.py" />
-        <option value="$PROJECT_DIR$/sisgebo_app/metodos_2_plan.py" />
-        <option value="$PROJECT_DIR$/sisgebo_app/views.py" />
-        <option value="$PROJECT_DIR$/pronto_formulas_inventario.txt" />
-        <option value="$PROJECT_DIR$/anotações.txt" />
-        <option value="$PROJECT_DIR$/New Text Document.txt" />
-        <option value="$PROJECT_DIR$/arquivos auxiliares/Custo fixo" />
-        <option value="$PROJECT_DIR$/arquivos auxiliares/custo variavel" />
-        <option value="$PROJECT_DIR$/arquivos auxiliares/despesas administrativas" />
-        <option value="$PROJECT_DIR$/templates/custos/inventario_atividade.html" />
-        <option value="$PROJECT_DIR$/arquivos auxiliares/investimento.txt" />
-        <option value="$PROJECT_DIR$/arquivos auxiliares/custo operacional.txt" />
-        <option value="$PROJECT_DIR$/arquivos auxiliares/custo oportunidades.txt" />
-        <option value="$PROJECT_DIR$/arquivos auxiliares/custo total.txt" />
-        <option value="$PROJECT_DIR$/arquivos auxiliares/receitas.txt" />
-        <option value="$PROJECT_DIR$/arquivos auxiliares/balanco patimonial.txt" />
-        <option value="$PROJECT_DIR$/sisgebo_app/metodo_depreciacao.py" />
         <option value="$PROJECT_DIR$/arquivos auxiliares/analise.txt" />
         <option value="$PROJECT_DIR$/arquivos auxiliares/fluxo caixa.txt" />
         <option value="$PROJECT_DIR$/arquivos auxiliares/vpl.txt" />
         <option value="$PROJECT_DIR$/arquivos auxiliares/pe.txt" />
         <option value="$PROJECT_DIR$/arquivos auxiliares/depreciacao.txt" />
-        <option value="$PROJECT_DIR$/templates/custos/custo_fixo.html" />
         <option value="$PROJECT_DIR$/media/1arquivoCUSTOFIXO/total_maquinas.js" />
         <option value="$PROJECT_DIR$/arquivos_formulas/evolucao_rebanho.txt" />
         <option value="$PROJECT_DIR$/media/1custoADM/total_despesasADM.js" />
-        <option value="$PROJECT_DIR$/templates/custos/fluxo_em_caixa.html" />
         <option value="$PROJECT_DIR$/urls.py" />
         <option value="$PROJECT_DIR$/media/1Fluxo_caixa/total_fluxo_elemento.js" />
         <option value="$PROJECT_DIR$/media/1Fluxo_caixa/total_fluxo_elemento.txt" />
@@ -274,10 +214,42 @@
         <option value="$PROJECT_DIR$/media/1Fluxo_caixa/total_saidas.txt" />
         <option value="$PROJECT_DIR$/media/1Fluxo_caixa/fluxo_caixa.txt" />
         <option value="$PROJECT_DIR$/media/1Depreciacao/A_engorda_depre.js" />
-        <option value="$PROJECT_DIR$/templates/custos/depreciacao.html" />
+        <option value="$PROJECT_DIR$/media/1Depreciacao/BENFEITORIAS_depre.js" />
+        <option value="$PROJECT_DIR$/media/1Depreciacao/BENFEITORIA_remune.js" />
+        <option value="$PROJECT_DIR$/media/1Depreciacao/BENFEITORIAS_custo_fixo.js" />
+        <option value="$PROJECT_DIR$/media/1CERCAS/CERCAS_remu.js" />
+        <option value="$PROJECT_DIR$/media/1CERCAS/CERCAS_depreci.js" />
+        <option value="$PROJECT_DIR$/media/1CERCAS/CERCAS_CFX.js" />
+        <option value="$PROJECT_DIR$/media/1EDIFICACOES/edifica_depre.js" />
+        <option value="$PROJECT_DIR$/media/1EDIFICACOES/Edif_remu.js" />
+        <option value="$PROJECT_DIR$/media/1EDIFICACOES/Edifica_CFX.js" />
         <option value="$PROJECT_DIR$/sisgebo_app/metodos_inventario.py" />
         <option value="$PROJECT_DIR$/sisgebo_app/forms.py" />
-        <option value="$PROJECT_DIR$/media/1Depreciacao/BENFEITORIAS_depre.js" />
+        <option value="$PROJECT_DIR$/formulas js que o robson mandou/depreciacao.txt" />
+        <option value="$PROJECT_DIR$/media/1PASTAGEM/past_depre.js" />
+        <option value="$PROJECT_DIR$/media/1PASTAGEM/Past_rem.js" />
+        <option value="$PROJECT_DIR$/media/1PASTAGEM/past_CFX.js" />
+        <option value="$PROJECT_DIR$/media/TOTAL_DEPRE/total_dep_val_ini.js" />
+        <option value="$PROJECT_DIR$/media/TOTAL_DEPRE/total_capital_medio.js" />
+        <option value="$PROJECT_DIR$/media/TOTAL_DEPRE/TOTAL_valorFinal_Sucata.js" />
+        <option value="$PROJECT_DIR$/media/TOTAL_DEPRE/TOTAL_Depre_anual.js" />
+        <option value="$PROJECT_DIR$/templates/venda_e_compra.html" />
+        <option value="$PROJECT_DIR$/templates/confinamento.html" />
+        <option value="$PROJECT_DIR$/templates/custos/inventario_atividade.html" />
+        <option value="$PROJECT_DIR$/templates/custos/depreciacao.html" />
+        <option value="$PROJECT_DIR$/templates/custos/evolucao_rebanho.html" />
+        <option value="$PROJECT_DIR$/templates/custos/custo_fixo.html" />
+        <option value="$PROJECT_DIR$/templates/custos/despesas_administrativas.html" />
+        <option value="$PROJECT_DIR$/templates/custos/custo_variavel.html" />
+        <option value="$PROJECT_DIR$/templates/custos/investimento.html" />
+        <option value="$PROJECT_DIR$/templates/custos/custo_operacional.html" />
+        <option value="$PROJECT_DIR$/templates/custos/custo_total.html" />
+        <option value="$PROJECT_DIR$/templates/custos/receitas.html" />
+        <option value="$PROJECT_DIR$/templates/custos/balanco_patrimonial.html" />
+        <option value="$PROJECT_DIR$/templates/custos/analise.html" />
+        <option value="$PROJECT_DIR$/templates/custos/fluxo_em_caixa.html" />
+        <option value="$PROJECT_DIR$/templates/custos/vpl.html" />
+        <option value="$PROJECT_DIR$/templates/custos/pe.html" />
       </list>
     </option>
   </component>
@@ -387,7 +359,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="media">
+            <PATH_ELEMENT USER_OBJECT="templates">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -401,11 +373,11 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="media">
+            <PATH_ELEMENT USER_OBJECT="templates">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="1Depreciacao">
+            <PATH_ELEMENT USER_OBJECT="custos">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -499,15 +471,15 @@
       <option name="OPTIONS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
@@ -574,7 +546,27 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sigebo" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -600,27 +592,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="sigebo" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
@@ -810,7 +782,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31810766" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -818,24 +790,24 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24905375" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329296" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1317184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1317184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329296" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3964111" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24469821" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24346405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32463294" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31968504" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41830066" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -876,222 +848,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/custos/investimento.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8109" max-vertical-offset="13685">
-          <caret line="482" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="482" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos auxiliares/investimento.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04644809" vertical-offset="4097" max-vertical-offset="8959">
-          <caret line="242" column="105" selection-start-line="242" selection-start-column="105" selection-end-line="242" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/custo_operacional.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5372" max-vertical-offset="11050">
-          <caret line="325" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/custo_oportunidade.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5368" max-vertical-offset="10931">
-          <caret line="320" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos auxiliares/custo oportunidades.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3133515" vertical-offset="2153" max-vertical-offset="2737">
-          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos auxiliares/custo operacional.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90112996" vertical-offset="3149" max-vertical-offset="3570">
-          <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos auxiliares/Custo fixo.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7956">
-          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/custo_total.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5304" max-vertical-offset="11135">
-          <caret line="331" column="82" selection-start-line="225" selection-start-column="16" selection-end-line="331" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos auxiliares/custo total.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3689">
-          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos auxiliares/receitas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18149467" vertical-offset="0" max-vertical-offset="4777">
-          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/receitas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4896" max-vertical-offset="11407">
-          <caret line="248" column="33" selection-start-line="248" selection-start-column="33" selection-end-line="248" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sisgebo_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5167" max-vertical-offset="37332">
-          <caret line="312" column="6" selection-start-line="312" selection-start-column="6" selection-end-line="312" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/balanco_patrimonial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.270777" vertical-offset="6069" max-vertical-offset="11815">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33274022" vertical-offset="4369" max-vertical-offset="18700">
-          <caret line="268" column="19" selection-start-line="268" selection-start-column="19" selection-end-line="268" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos auxiliares/balanco patimonial.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33009708" vertical-offset="0" max-vertical-offset="3468">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos auxiliares/analise.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/analise.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2307692" vertical-offset="4574" max-vertical-offset="10132">
-          <caret line="274" column="0" selection-start-line="226" selection-start-column="11" selection-end-line="274" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos auxiliares/fluxo caixa.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9174757" vertical-offset="2461" max-vertical-offset="2941">
-          <caret line="167" column="2" selection-start-line="167" selection-start-column="2" selection-end-line="167" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/vpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.769231" vertical-offset="5554" max-vertical-offset="11203">
-          <caret line="334" column="22" selection-start-line="225" selection-start-column="18" selection-end-line="334" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos auxiliares/vpl.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2176">
-          <caret line="122" column="50" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos auxiliares/pe.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82564104" vertical-offset="44" max-vertical-offset="765">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/pe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21794872" vertical-offset="3927" max-vertical-offset="9792">
-          <caret line="238" column="70" selection-start-line="238" selection-start-column="70" selection-end-line="238" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/evolucao_rebanho.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3621" max-vertical-offset="14943">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos auxiliares/depreciacao.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.111111" vertical-offset="2009" max-vertical-offset="6715">
-          <caret line="139" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/custo_fixo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846" vertical-offset="7922" max-vertical-offset="14042">
-          <caret line="470" column="70" selection-start-line="470" selection-start-column="70" selection-end-line="470" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/1arquivoCUSTOFIXO/total_maquinas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="595">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos_formulas/evolucao_rebanho.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12911393" vertical-offset="0" max-vertical-offset="38998">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/1custoADM/TOTAL_DESPESAS_FUNC.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5873786" vertical-offset="455" max-vertical-offset="935">
-          <caret line="41" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/1custoADM/totaldespessasADMMES.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/1CUSTOTOTAL/total_custo_meses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="412">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/1custoVariavel/total_custo_variavel_janeiro.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
@@ -1120,13 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="398" max-vertical-offset="1003">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sisgebo_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="8494" max-vertical-offset="9180">
@@ -1141,48 +890,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/custos/fluxo_em_caixa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/1Fluxo_caixa/fluxo_caixa.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61290324" vertical-offset="15" max-vertical-offset="595">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/media/1Fluxo_caixa/total_entradas.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/media/1Fluxo_caixa/total_saidas.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03119266" vertical-offset="0" max-vertical-offset="545">
           <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/media/1Fluxo_caixa/total_fluxo_elemento.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,7 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12002">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1198,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.34871796" vertical-offset="204" max-vertical-offset="1275">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1210,120 +946,693 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/formulas js que o robson mandou/depreciacao.txt">
+    <entry file="file://$PROJECT_DIR$/sisgebo_app/metodo_depreciacao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.444445" vertical-offset="2397" max-vertical-offset="6715">
-          <caret line="156" column="92" selection-start-line="147" selection-start-column="4" selection-end-line="156" selection-end-column="92" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="422">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/1Depreciacao/BENFEITORIA_remune.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/1Depreciacao/BENFEITORIAS_depre.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="7" column="0" selection-start-line="5" selection-start-column="13" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/1Depreciacao/BENFEITORIAS_custo_fixo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33009708" vertical-offset="0" max-vertical-offset="412">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/1CERCAS/CERCAS_remu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="4" column="79" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="79" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/1CERCAS/CERCAS_depreci.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="123" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sisgebo_app/forms.py">
+    <entry file="file://$PROJECT_DIR$/media/1CERCAS/CERCAS_CFX.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="16255" max-vertical-offset="54774">
-          <caret line="972" column="101" selection-start-line="972" selection-start-column="101" selection-end-line="972" selection-end-column="101" />
-          <folding>
-            <element signature="e#15#47#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.41262135" vertical-offset="0" max-vertical-offset="412">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/1EDIFICACOES/Edifica_CFX.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.123786405" vertical-offset="0" max-vertical-offset="412">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/1EDIFICACOES/Edif_remu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="0" column="47" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/1EDIFICACOES/edifica_depre.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15632184" vertical-offset="0" max-vertical-offset="435">
+          <caret line="4" column="117" selection-start-line="4" selection-start-column="117" selection-end-line="4" selection-end-column="117" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sisgebo_app/metodos_inventario.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3808" max-vertical-offset="4386">
-          <caret line="228" column="4" selection-start-line="228" selection-start-column="4" selection-end-line="228" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="5117" max-vertical-offset="5644">
+          <caret line="308" column="50" selection-start-line="308" selection-start-column="50" selection-end-line="308" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sisgebo_app/metodo_depreciacao.py">
+    <entry file="file://$PROJECT_DIR$/media/1PASTAGEM/past_depre.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="422">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="4" column="129" selection-start-line="4" selection-start-column="129" selection-end-line="4" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/1PASTAGEM/past_CFX.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20631067" vertical-offset="0" max-vertical-offset="412">
+          <caret line="5" column="97" selection-start-line="5" selection-start-column="97" selection-end-line="5" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/1PASTAGEM/Past_rem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07816092" vertical-offset="0" max-vertical-offset="435">
+          <caret line="2" column="82" selection-start-line="2" selection-start-column="82" selection-end-line="2" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formulas js que o robson mandou/depreciacao.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.444445" vertical-offset="5695" max-vertical-offset="6715">
+          <caret line="320" column="0" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/TOTAL_DEPRE/total_dep_val_ini.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <caret line="0" column="47" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/TOTAL_DEPRE/total_capital_medio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <caret line="15" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/TOTAL_DEPRE/TOTAL_valorFinal_Sucata.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sisgebo_app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="16890" max-vertical-offset="54774">
+          <caret line="1005" column="43" selection-start-line="1005" selection-start-column="20" selection-end-line="1005" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/TOTAL_DEPRE/TOTAL_Depre_anual.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/venda_e_compra.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="3672" max-vertical-offset="24123">
+          <caret line="221" column="70" selection-start-line="221" selection-start-column="70" selection-end-line="221" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/confinamento.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617" vertical-offset="3570" max-vertical-offset="10710">
+          <caret line="220" column="62" selection-start-line="220" selection-start-column="62" selection-end-line="220" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/custos/inventario_atividade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231" vertical-offset="3417" max-vertical-offset="13498">
+          <caret line="219" column="60" selection-start-line="219" selection-start-column="60" selection-end-line="219" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/custos/evolucao_rebanho.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="14943">
+          <caret line="220" column="48" selection-start-line="220" selection-start-column="48" selection-end-line="220" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/custos/depreciacao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-55.115383" vertical-offset="10671" max-vertical-offset="19193">
-          <caret line="737" column="24" selection-start-line="737" selection-start-column="24" selection-end-line="737" selection-end-column="24" />
+        <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="19550">
+          <caret line="220" column="48" selection-start-line="220" selection-start-column="48" selection-end-line="220" selection-end-column="64" />
           <folding>
-            <element signature="tag#script#25;tag#div#1;tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#60;tag#div#1;tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#script#27;tag#div#1;tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <marker date="1454520294324" expanded="false" signature="12785:12823" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="13337:13549" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="13810:13848" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="14354:14509" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="14794:14832" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="15441:15628" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="15994:16033" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="16678:16830" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="17633:17671" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="18130:18267" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="18534:18572" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="18942:19058" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="19259:19297" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="19817:19993" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="20819:20857" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="21316:21459" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="21716:21754" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="22110:22219" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="22407:22445" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="22990:23169" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="24159:24197" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="24696:24831" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="25082:25120" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="25512:25621" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="25808:25846" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="26441:26618" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="27475:27513" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="28023:28168" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="28434:28472" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="28877:28997" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="29188:29226" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="29829:30008" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="30992:31030" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="31556:31707" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="31985:32023" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="32443:32569" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="32788:32826" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="33427:33603" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="34496:34534" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="35093:35291" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="35729:35767" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="36310:36454" placeholder="{...}" />
-            <marker date="1454520294324" expanded="true" signature="36532:36712" placeholder="//..." />
-            <marker date="1454520294324" expanded="false" signature="36876:36914" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="37533:37741" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="38662:38700" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="39249:39434" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="39850:39888" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="40402:40542" placeholder="{...}" />
-            <marker date="1454520294324" expanded="true" signature="40619:40791" placeholder="//..." />
-            <marker date="1454520294324" expanded="false" signature="40961:40999" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="41596:41789" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="42721:42759" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="43349:43553" placeholder="{...}" />
-            <marker date="1454520294324" expanded="false" signature="43985:44023" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="44537:44675" placeholder="{...}" />
-            <marker date="1454520294324" expanded="true" signature="44743:44920" placeholder="//..." />
-            <marker date="1454520294324" expanded="false" signature="45082:45120" placeholder="..." />
-            <marker date="1454520294324" expanded="true" signature="45740:45944" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;tooltip&quot;: false...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;shadowSize&quot;: 2...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;show&quot;: false...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;show&quot;: true...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;radius&quot;: 0...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;verticalLines&quot;: true...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;tickColor&quot;: &quot;rgba(51, 51, 51, 0.06)&quot;...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;ticks&quot;: 8...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;map&quot;: 'world_mill_en'...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;normalizeFunction&quot;: 'polynomial'...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;color&quot;: &quot;#73879C&quot;...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;value&quot;: 30...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;value&quot;: 30...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;value&quot;: 60...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;value&quot;: 100...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;value&quot;: 120...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;minDate&quot;: '01/01/2012'...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;days&quot;: 60...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{&quot;applyLabel&quot;: 'Submit'...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454542901500" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/1Depreciacao/BENFEITORIAS_depre.js">
+    <entry file="file://$PROJECT_DIR$/templates/custos/custo_fixo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23448277" vertical-offset="0" max-vertical-offset="435">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="14025">
+          <caret line="220" column="48" selection-start-line="220" selection-start-column="48" selection-end-line="220" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/custos/despesas_administrativas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="13209">
+          <caret line="220" column="60" selection-start-line="220" selection-start-column="60" selection-end-line="220" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/custos/custo_variavel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="17510">
+          <caret line="220" column="48" selection-start-line="220" selection-start-column="48" selection-end-line="220" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/custos/investimento.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="13685">
+          <caret line="220" column="65" selection-start-line="220" selection-start-column="65" selection-end-line="220" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/custos/custo_operacional.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="11050">
+          <caret line="220" column="48" selection-start-line="220" selection-start-column="48" selection-end-line="220" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/custos/custo_total.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1153846" vertical-offset="3616" max-vertical-offset="11135">
+          <caret line="219" column="55" selection-start-line="219" selection-start-column="55" selection-end-line="219" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/custos/receitas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="11407">
+          <caret line="220" column="67" selection-start-line="220" selection-start-column="67" selection-end-line="220" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/custos/balanco_patrimonial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="11815">
+          <caret line="220" column="65" selection-start-line="220" selection-start-column="65" selection-end-line="220" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/custos/analise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="10132">
+          <caret line="220" column="59" selection-start-line="220" selection-start-column="59" selection-end-line="220" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/custos/fluxo_em_caixa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.769231" vertical-offset="3616" max-vertical-offset="11696">
+          <caret line="220" column="43" selection-start-line="220" selection-start-column="43" selection-end-line="220" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/custos/vpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1153846" vertical-offset="3616" max-vertical-offset="11203">
+          <caret line="219" column="59" selection-start-line="219" selection-start-column="59" selection-end-line="219" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1003">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/custos/pe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3324397" vertical-offset="3616" max-vertical-offset="9792">
+          <caret line="220" column="57" selection-start-line="220" selection-start-column="57" selection-end-line="220" selection-end-column="57" />
           <folding />
         </state>
       </provider>

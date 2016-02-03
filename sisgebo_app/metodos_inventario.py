@@ -250,3 +250,77 @@ def benf_medio():
         return 0
     return int(i.benfeitorias_capital_medio)
 
+def cerc_ini():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.cercas_valor_inicial_de_mercado)
+
+def cerc_fin():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.cercas_valor_final_ou_sucata)
+
+def cerc_medio():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.cercas_capital_medio)
+
+
+def ed_ini():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.edificacoes_valor_inicial_de_mercado)
+
+def ed_fin():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.edificacoes_valor_final_ou_sucata)
+
+def ed_medio():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.edificacoes_capital_medio)
+
+
+def past_ini():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.pastagem_valor_inicial_de_mercado)
+
+def past_fin():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.pastagem_valor_final_ou_sucata)
+
+def past_medio():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.pastagem_capital_medio)
+

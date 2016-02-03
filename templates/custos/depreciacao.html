@@ -217,8 +217,8 @@
             <div class="right_col" role="main">
 
                 <!-- top tiles -->
-                    <a class="bg-danger" href="/#/">Anterior</a>
-                    <a class="bg-danger" href="/#/">Próximo</a>
+                    <a class="bg-danger" href="/inventario/">Anterior</a>
+                    <a class="bg-danger" href="/evolucao_rebanho/">Próximo</a>
 
                 <!-- /top tiles -->
             <br>
@@ -737,44 +737,65 @@
                         <div style="top: 90%;left: 56%;position: absolute;">{{form.benfeitorias_valor_final_ou_sucata}}</div>
                         <div style="top: 90%;left: 68%;position: absolute;"><span id="id_benfeitorias_depreciacao_anual"></span></div>
                         <script src="/media/1Depreciacao/BENFEITORIAS_depre.js"></script>
-                        <div style="top: 90%;left: 80%;position: absolute;">{{form.benfeitorias_remuneracao_capital}}</div>
-                        <div style="top: 90%;left: 92%;position: absolute;">aqui</div>
+
+                        <div style="top: 90%;left: 80%;position: absolute;"><span id="id_benfeitorias_remuneracao_capital"></span></div>
+                        <script src="/media/1Depreciacao/BENFEITORIA_remune.js"></script>
+
+                        <div style="top: 90%;left: 92%;position: absolute;"><span id="id_benfeitorias_custo_fixo"></span></div>
+                        <script src="/media/1Depreciacao/BENFEITORIAS_custo_fixo.js"></script>
                         <div style="top: 90%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 96%;position: absolute;">Cercas</span>
                         <div style="top: 96%;left: 32%;position: absolute;">{{form.cercas_valor_inicial}}</div>
                         <div style="top: 96%;left: 44%;position: absolute;">{{form.cercas_capital_medio}}</div>
                         <div style="top: 96%;left: 56%;position: absolute;">{{form.cercas_valor_final_ou_sucata}}</div>
-                        <div style="top: 96%;left: 68%;position: absolute;">{{form.cercas_depreciacao_anual}}</div>
-                        <div style="top: 96%;left: 80%;position: absolute;">{{form.cercas_remuneracao_capital}}</div>
-                        <div style="top: 96%;left: 92%;position: absolute;">aqui</div>
+
+
+
+                        <div style="top: 96%;left: 68%;position: absolute;"><span id="id_cercas_depreciacao_anual"></span></div>
+                        <script src="/media/1CERCAS/CERCAS_depreci.js"></script>
+                        <div style="top: 96%;left: 80%;position: absolute;"><span id="id_cercas_remuneracao_capital"></span></div>
+                        <script src="/media/1CERCAS/CERCAS_remu.js"></script>
+                        <div style="top: 96%;left: 92%;position: absolute;"><span id="id_cercas_custo_fixo"></span></div>
+                        <script src="/media/1CERCAS/CERCAS_CFX.js"></script>
                         <div style="top: 96%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 102%;position: absolute;">Edificações</span>
                         <div style="top: 102%;left: 32%;position: absolute;">{{form.edificacoes_valor_inicial}}</div>
                         <div style="top: 102%;left: 44%;position: absolute;">{{form.edificacoes_capital_medio}}</div>
                         <div style="top: 102%;left: 56%;position: absolute;">{{form.edificacoes_valor_final_ou_sucata}}</div>
-                        <div style="top: 102%;left: 68%;position: absolute;">{{form.edificacoes_depreciacao_anual}}</div>
-                        <div style="top: 102%;left: 80%;position: absolute;">{{form.edificacoes_remuneracao_capital}}</div>
-                        <div style="top: 102%;left: 92%;position: absolute;">aqui</div>
+
+                        <div style="top: 102%;left: 68%;position: absolute;"><span id="edificacoes_depreciacao_anual"></span></div>
+                        <script src="/media/1EDIFICACOES/edifica_depre.js"></script>
+                        <div style="top: 102%;left: 80%;position: absolute;"><span id="id_edificacoes_remuneracao_capital"></span></div>
+                        <script src="/media/1EDIFICACOES/Edif_remu.js"></script>
+                        <div style="top: 102%;left: 92%;position: absolute;"><span id="id_edificacoes_custo_fixo"></span></div>
+                        <script src="/media/1EDIFICACOES/Edifica_CFX.js"></script>
                         <div style="top: 102%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 108%;position: absolute;">Pastagem</span>
                         <div style="top: 108%;left: 32%;position: absolute;">{{form.pastagem_valor_inicial}}</div>
                         <div style="top: 108%;left: 44%;position: absolute;">{{form.pastagem_capital_medio}}</div>
                         <div style="top: 108%;left: 56%;position: absolute;">{{form.pastagem_valor_final_ou_sucata }}</div>
-                        <div style="top: 108%;left: 68%;position: absolute;">{{form.pastagem_depreciacao_anual}}</div>
-                        <div style="top: 108%;left: 80%;position: absolute;">{{form.pastagem_remuneracao_capital}}</div>
-                        <div style="top: 108%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 108%;left: 68%;position: absolute;"><span id="id_pastagem_depreciacao_anual"></span></div>
+                        <script src="/media/1PASTAGEM/past_depre.js"></script>
+                        <div style="top: 108%;left: 80%;position: absolute;"><span id="id_pastagem_remuneracao_capital"></span></div>
+                        <script src="/media/1PASTAGEM/Past_rem.js"></script>
+                        <div style="top: 108%;left: 92%;position: absolute;"><span id="id_pastagem_custo_fixo"></span></div>
+                        <script src="/media/1PASTAGEM/past_CFX.js"></script>
                         <div style="top: 108%;left: 104%;position: absolute;">aqui</div>
 
 
 
                     <span style="top: 126%;position: absolute;">Total</span>
-                        <div style="top: 126%;left: 32%;position: absolute;">{{form.total_valor_inicial}}</div>
-                        <div style="top: 126%;left: 44%;position: absolute;">{{form.total_capital_medio}}</div>
-                        <div style="top: 126%;left: 56%;position: absolute;">{{form.total_valor_final_ou_sucata}}</div>
-                        <div style="top: 126%;left: 68%;position: absolute;">{{form.total_depreciacao_anual}}</div>
+                        <div style="top: 126%;left: 32%;position: absolute;"><span id="id_total_valor_inicial"></span></div>
+                        <script src="/media/TOTAL_DEPRE/total_dep_val_ini.js"></script>
+                        <div style="top: 126%;left: 44%;position: absolute;"><span id="id_total_capital_medio"></span></div>
+                        <script src="/media/TOTAL_DEPRE/total_capital_medio.js"></script>
+                        <div style="top: 126%;left: 56%;position: absolute;"><span id="id_total_valor_final_ou_sucata"></span></div>
+                        <script src="/media/TOTAL_DEPRE/TOTAL_valorFinal_Sucata.js"></script>
+                        <div style="top: 126%;left: 68%;position: absolute;"><span id="id_total_depreciacao_anual"></span></div>
+                        <script src="/media/TOTAL_DEPRE/TOTAL_Depre_anual.js"></script>
                         <div style="top: 126%;left: 80%;position: absolute;">{{form.total_remuneracao_capital}}</div>
                         <div style="top: 126%;left: 92%;position: absolute;">aqui</div>
                         <div style="top: 126%;left: 104%;position: absolute;">aqui</div>
