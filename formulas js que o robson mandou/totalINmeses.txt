@@ -1,0 +1,700 @@
+#
+aqui substitua janeiro pelos meses correntes
+#
+
+var total_mes_Invest = document.getElementById("");
+var total_mes_Herbicida_JANEIRO = document.getElementById("");
+var total_mes_Equip_Aplicação_Herbicidas_JANEIRO = document.getElementById("");
+var total_mes_Mão_de_obra_para_roçagem_JANEIRO = document.getElementById("");
+var total_mes_Equip_Roçagem_JANEIRO = document.getElementById("");
+var total_mes_COMPRA_VACAS_GIROLANDO_JANEIRO = document.getElementById("");
+var total_mes_Cocho_Sal_JANEIRO = document.getElementById("");
+var total_mes_Inseminação_Artificial_JANEIRO = document.getElementById("");
+var total_mes_Mat_p_Cercas_JANEIRO = document.getElementById("");
+var total_mes_EDIFICAÇÕES_JANEIRO = document.getElementById("");
+var total_mes_SILO_JANEIRO = document.getElementById("");
+var total_mes_CURRAL_CANCELAS_BALANÇAS_JANEIRO = document.getElementById("");
+var total_mes_OUTROS_1_JANEIRO = document.getElementById("");
+var total_mes_OUTROS_2_JANEIRO = document.getElementById("");
+var total_mes_OUTROS_3_JANEIRO = document.getElementById("");
+var total_mes_OUTROS_4_JANEIRO = document.getElementById("");
+var total_mes_OUTROS_5_JANEIRO = document.getElementById("");
+function tot_inv_JANEIRO(){
+    total_mes_Invest.innerHTML =
+        parseInt(total_mes_Herbicida_JANEIRO.value)+
+        parseInt(total_mes_Equip_Aplicação_Herbicidas_JANEIRO.value)+
+        parseInt(total_mes_Mão_de_obra_para_roçagem_JANEIRO.value)+
+        parseInt(total_mes_Equip_Roçagem_JANEIRO.value)+
+        parseInt(total_mes_COMPRA_VACAS_GIROLANDO_JANEIRO.value)+
+        parseInt(total_mes_Cocho_Sal_JANEIRO.value)+
+        parseInt(total_mes_Inseminação_Artificial_JANEIRO.value)+
+        parseInt(total_mes_Mat_p_Cercas_JANEIRO.value)+
+        parseInt(total_mes_EDIFICAÇÕES_JANEIRO.value)+
+        parseInt(total_mes_SILO_JANEIRO.value)+
+        parseInt(total_mes_CURRAL_CANCELAS_BALANÇAS_JANEIRO.value)+
+        parseInt(total_mes_OUTROS_1_JANEIRO.value)+
+        parseInt(total_mes_OUTROS_2_JANEIRO.value)+
+        parseInt(total_mes_OUTROS_3_JANEIRO.value)+
+        parseInt(total_mes_OUTROS_4_JANEIRO.value)+
+        parseInt(total_mes_OUTROS_5_JANEIRO.value);
+
+}
+tot_inv_JANEIRO();
+total_mes_Herbicida_JANEIRO.addEventListener("keyup",tot_inv_JANEIRO);
+total_mes_Equip_Aplicação_Herbicidas_JANEIRO.addEventListener("keyup",tot_inv_JANEIRO);
+total_mes_Mão_de_obra_para_roçagem_JANEIRO.addEventListener("keyup",tot_inv_JANEIRO);
+total_mes_Equip_Roçagem_JANEIRO.addEventListener("keyup",tot_inv_JANEIRO);
+total_mes_COMPRA_VACAS_GIROLANDO_JANEIRO.addEventListener("keyup",tot_inv_JANEIRO);
+total_mes_Cocho_Sal_JANEIRO.addEventListener("keyup",tot_inv_JANEIRO);
+total_mes_Inseminação_Artificial_JANEIRO.addEventListener("keyup",tot_inv_JANEIRO);
+total_mes_Mat_p_Cercas_JANEIRO.addEventListener("keyup",tot_inv_JANEIRO);
+total_mes_EDIFICAÇÕES_JANEIRO.addEventListener("keyup",tot_inv_JANEIRO);
+total_mes_SILO_JANEIRO.addEventListener("keyup",tot_inv_JANEIRO);
+total_mes_CURRAL_CANCELAS_BALANÇAS_JANEIRO.addEventListener("keyup",tot_inv_JANEIRO);
+total_mes_OUTROS_1_JANEIRO.addEventListener("keyup",tot_inv_JANEIRO);
+total_mes_OUTROS_2_JANEIRO.addEventListener("keyup",tot_inv_JANEIRO);
+total_mes_OUTROS_3_JANEIRO.addEventListener("keyup",tot_inv_JANEIRO);
+total_mes_OUTROS_4_JANEIRO.addEventListener("keyup",tot_inv_JANEIRO);
+total_mes_OUTROS_5_JANEIRO.addEventListener("keyup",tot_inv_JANEIRO);
+
+################################################################################################################################
+
+
+var total_mes_Invest = document.getElementById("");
+var total_mes_Herbicida_FEVEREIRO = document.getElementById("");
+var total_mes_Equip_Aplicação_Herbicidas_FEVEREIRO = document.getElementById("");
+var total_mes_Mão_de_obra_para_roçagem_FEVEREIRO = document.getElementById("");
+var total_mes_Equip_Roçagem_FEVEREIRO = document.getElementById("");
+var total_mes_COMPRA_VACAS_GIROLANDO_FEVEREIRO = document.getElementById("");
+var total_mes_Cocho_Sal_FEVEREIRO = document.getElementById("");
+var total_mes_Inseminação_Artificial_FEVEREIRO = document.getElementById("");
+var total_mes_Mat_p_Cercas_FEVEREIRO = document.getElementById("");
+var total_mes_EDIFICAÇÕES_FEVEREIRO = document.getElementById("");
+var total_mes_SILO_FEVEREIRO = document.getElementById("");
+var total_mes_CURRAL_CANCELAS_BALANÇAS_FEVEREIRO = document.getElementById("");
+var total_mes_OUTROS_1_FEVEREIRO = document.getElementById("");
+var total_mes_OUTROS_2_FEVEREIRO = document.getElementById("");
+var total_mes_OUTROS_3_FEVEREIRO = document.getElementById("");
+var total_mes_OUTROS_4_FEVEREIRO = document.getElementById("");
+var total_mes_OUTROS_5_FEVEREIRO = document.getElementById("");
+function tot_inv_FEVEREIRO(){
+    total_mes_Invest.innerHTML =
+        parseInt(total_mes_Herbicida_FEVEREIRO.value)+
+        parseInt(total_mes_Equip_Aplicação_Herbicidas_FEVEREIRO.value)+
+        parseInt(total_mes_Mão_de_obra_para_roçagem_FEVEREIRO.value)+
+        parseInt(total_mes_Equip_Roçagem_FEVEREIRO.value)+
+        parseInt(total_mes_COMPRA_VACAS_GIROLANDO_FEVEREIRO.value)+
+        parseInt(total_mes_Cocho_Sal_FEVEREIRO.value)+
+        parseInt(total_mes_Inseminação_Artificial_FEVEREIRO.value)+
+        parseInt(total_mes_Mat_p_Cercas_FEVEREIRO.value)+
+        parseInt(total_mes_EDIFICAÇÕES_FEVEREIRO.value)+
+        parseInt(total_mes_SILO_FEVEREIRO.value)+
+        parseInt(total_mes_CURRAL_CANCELAS_BALANÇAS_FEVEREIRO.value)+
+        parseInt(total_mes_OUTROS_1_FEVEREIRO.value)+
+        parseInt(total_mes_OUTROS_2_FEVEREIRO.value)+
+        parseInt(total_mes_OUTROS_3_FEVEREIRO.value)+
+        parseInt(total_mes_OUTROS_4_FEVEREIRO.value)+
+        parseInt(total_mes_OUTROS_5_FEVEREIRO.value);
+
+}
+tot_inv_FEVEREIRO();
+total_mes_Herbicida_FEVEREIRO.addEventListener("keyup",tot_inv_FEVEREIRO);
+total_mes_Equip_Aplicação_Herbicidas_FEVEREIRO.addEventListener("keyup",tot_inv_FEVEREIRO);
+total_mes_Mão_de_obra_para_roçagem_FEVEREIRO.addEventListener("keyup",tot_inv_FEVEREIRO);
+total_mes_Equip_Roçagem_FEVEREIRO.addEventListener("keyup",tot_inv_FEVEREIRO);
+total_mes_COMPRA_VACAS_GIROLANDO_FEVEREIRO.addEventListener("keyup",tot_inv_FEVEREIRO);
+total_mes_Cocho_Sal_FEVEREIRO.addEventListener("keyup",tot_inv_FEVEREIRO);
+total_mes_Inseminação_Artificial_FEVEREIRO.addEventListener("keyup",tot_inv_FEVEREIRO);
+total_mes_Mat_p_Cercas_FEVEREIRO.addEventListener("keyup",tot_inv_FEVEREIRO);
+total_mes_EDIFICAÇÕES_FEVEREIRO.addEventListener("keyup",tot_inv_FEVEREIRO);
+total_mes_SILO_FEVEREIRO.addEventListener("keyup",tot_inv_FEVEREIRO);
+total_mes_CURRAL_CANCELAS_BALANÇAS_FEVEREIRO.addEventListener("keyup",tot_inv_FEVEREIRO);
+total_mes_OUTROS_1_FEVEREIRO.addEventListener("keyup",tot_inv_FEVEREIRO);
+total_mes_OUTROS_2_FEVEREIRO.addEventListener("keyup",tot_inv_FEVEREIRO);
+total_mes_OUTROS_3_FEVEREIRO.addEventListener("keyup",tot_inv_FEVEREIRO);
+total_mes_OUTROS_4_FEVEREIRO.addEventListener("keyup",tot_inv_FEVEREIRO);
+total_mes_OUTROS_5_FEVEREIRO.addEventListener("keyup",tot_inv_FEVEREIRO);
+
+################################################################################################################################
+
+
+var total_mes_Invest = document.getElementById("");
+var total_mes_Herbicida_MARCO = document.getElementById("");
+var total_mes_Equip_Aplicação_Herbicidas_MARCO = document.getElementById("");
+var total_mes_Mão_de_obra_para_roçagem_MARCO = document.getElementById("");
+var total_mes_Equip_Roçagem_MARCO = document.getElementById("");
+var total_mes_COMPRA_VACAS_GIROLANDO_MARCO = document.getElementById("");
+var total_mes_Cocho_Sal_MARCO = document.getElementById("");
+var total_mes_Inseminação_Artificial_MARCO = document.getElementById("");
+var total_mes_Mat_p_Cercas_MARCO = document.getElementById("");
+var total_mes_EDIFICAÇÕES_MARCO = document.getElementById("");
+var total_mes_SILO_MARCO = document.getElementById("");
+var total_mes_CURRAL_CANCELAS_BALANÇAS_MARCO = document.getElementById("");
+var total_mes_OUTROS_1_MARCO = document.getElementById("");
+var total_mes_OUTROS_2_MARCO = document.getElementById("");
+var total_mes_OUTROS_3_MARCO = document.getElementById("");
+var total_mes_OUTROS_4_MARCO = document.getElementById("");
+var total_mes_OUTROS_5_MARCO = document.getElementById("");
+function tot_inv_MARCO(){
+    total_mes_Invest.innerHTML =
+        parseInt(total_mes_Herbicida_MARCO.value)+
+        parseInt(total_mes_Equip_Aplicação_Herbicidas_MARCO.value)+
+        parseInt(total_mes_Mão_de_obra_para_roçagem_MARCO.value)+
+        parseInt(total_mes_Equip_Roçagem_MARCO.value)+
+        parseInt(total_mes_COMPRA_VACAS_GIROLANDO_MARCO.value)+
+        parseInt(total_mes_Cocho_Sal_MARCO.value)+
+        parseInt(total_mes_Inseminação_Artificial_MARCO.value)+
+        parseInt(total_mes_Mat_p_Cercas_MARCO.value)+
+        parseInt(total_mes_EDIFICAÇÕES_MARCO.value)+
+        parseInt(total_mes_SILO_MARCO.value)+
+        parseInt(total_mes_CURRAL_CANCELAS_BALANÇAS_MARCO.value)+
+        parseInt(total_mes_OUTROS_1_MARCO.value)+
+        parseInt(total_mes_OUTROS_2_MARCO.value)+
+        parseInt(total_mes_OUTROS_3_MARCO.value)+
+        parseInt(total_mes_OUTROS_4_MARCO.value)+
+        parseInt(total_mes_OUTROS_5_MARCO.value);
+
+}
+tot_inv_MARCO();
+total_mes_Herbicida_MARCO.addEventListener("keyup",tot_inv_MARCO);
+total_mes_Equip_Aplicação_Herbicidas_MARCO.addEventListener("keyup",tot_inv_MARCO);
+total_mes_Mão_de_obra_para_roçagem_MARCO.addEventListener("keyup",tot_inv_MARCO);
+total_mes_Equip_Roçagem_MARCO.addEventListener("keyup",tot_inv_MARCO);
+total_mes_COMPRA_VACAS_GIROLANDO_MARCO.addEventListener("keyup",tot_inv_MARCO);
+total_mes_Cocho_Sal_MARCO.addEventListener("keyup",tot_inv_MARCO);
+total_mes_Inseminação_Artificial_MARCO.addEventListener("keyup",tot_inv_MARCO);
+total_mes_Mat_p_Cercas_MARCO.addEventListener("keyup",tot_inv_MARCO);
+total_mes_EDIFICAÇÕES_MARCO.addEventListener("keyup",tot_inv_MARCO);
+total_mes_SILO_MARCO.addEventListener("keyup",tot_inv_MARCO);
+total_mes_CURRAL_CANCELAS_BALANÇAS_MARCO.addEventListener("keyup",tot_inv_MARCO);
+total_mes_OUTROS_1_MARCO.addEventListener("keyup",tot_inv_MARCO);
+total_mes_OUTROS_2_MARCO.addEventListener("keyup",tot_inv_MARCO);
+total_mes_OUTROS_3_MARCO.addEventListener("keyup",tot_inv_MARCO);
+total_mes_OUTROS_4_MARCO.addEventListener("keyup",tot_inv_MARCO);
+total_mes_OUTROS_5_MARCO.addEventListener("keyup",tot_inv_MARCO);
+
+################################################################################################################################
+
+
+var total_mes_Invest = document.getElementById("");
+var total_mes_Herbicida_ABRIL = document.getElementById("");
+var total_mes_Equip_Aplicação_Herbicidas_ABRIL = document.getElementById("");
+var total_mes_Mão_de_obra_para_roçagem_ABRIL = document.getElementById("");
+var total_mes_Equip_Roçagem_ABRIL = document.getElementById("");
+var total_mes_COMPRA_VACAS_GIROLANDO_ABRIL = document.getElementById("");
+var total_mes_Cocho_Sal_ABRIL = document.getElementById("");
+var total_mes_Inseminação_Artificial_ABRIL = document.getElementById("");
+var total_mes_Mat_p_Cercas_ABRIL = document.getElementById("");
+var total_mes_EDIFICAÇÕES_ABRIL = document.getElementById("");
+var total_mes_SILO_ABRIL = document.getElementById("");
+var total_mes_CURRAL_CANCELAS_BALANÇAS_ABRIL = document.getElementById("");
+var total_mes_OUTROS_1_ABRIL = document.getElementById("");
+var total_mes_OUTROS_2_ABRIL = document.getElementById("");
+var total_mes_OUTROS_3_ABRIL = document.getElementById("");
+var total_mes_OUTROS_4_ABRIL = document.getElementById("");
+var total_mes_OUTROS_5_ABRIL = document.getElementById("");
+function tot_inv_ABRIL(){
+    total_mes_Invest.innerHTML =
+        parseInt(total_mes_Herbicida_ABRIL.value)+
+        parseInt(total_mes_Equip_Aplicação_Herbicidas_ABRIL.value)+
+        parseInt(total_mes_Mão_de_obra_para_roçagem_ABRIL.value)+
+        parseInt(total_mes_Equip_Roçagem_ABRIL.value)+
+        parseInt(total_mes_COMPRA_VACAS_GIROLANDO_ABRIL.value)+
+        parseInt(total_mes_Cocho_Sal_ABRIL.value)+
+        parseInt(total_mes_Inseminação_Artificial_ABRIL.value)+
+        parseInt(total_mes_Mat_p_Cercas_ABRIL.value)+
+        parseInt(total_mes_EDIFICAÇÕES_ABRIL.value)+
+        parseInt(total_mes_SILO_ABRIL.value)+
+        parseInt(total_mes_CURRAL_CANCELAS_BALANÇAS_ABRIL.value)+
+        parseInt(total_mes_OUTROS_1_ABRIL.value)+
+        parseInt(total_mes_OUTROS_2_ABRIL.value)+
+        parseInt(total_mes_OUTROS_3_ABRIL.value)+
+        parseInt(total_mes_OUTROS_4_ABRIL.value)+
+        parseInt(total_mes_OUTROS_5_ABRIL.value);
+
+}
+tot_inv_ABRIL();
+total_mes_Herbicida_ABRIL.addEventListener("keyup",tot_inv_ABRIL);
+total_mes_Equip_Aplicação_Herbicidas_ABRIL.addEventListener("keyup",tot_inv_ABRIL);
+total_mes_Mão_de_obra_para_roçagem_ABRIL.addEventListener("keyup",tot_inv_ABRIL);
+total_mes_Equip_Roçagem_ABRIL.addEventListener("keyup",tot_inv_ABRIL);
+total_mes_COMPRA_VACAS_GIROLANDO_ABRIL.addEventListener("keyup",tot_inv_ABRIL);
+total_mes_Cocho_Sal_ABRIL.addEventListener("keyup",tot_inv_ABRIL);
+total_mes_Inseminação_Artificial_ABRIL.addEventListener("keyup",tot_inv_ABRIL);
+total_mes_Mat_p_Cercas_ABRIL.addEventListener("keyup",tot_inv_ABRIL);
+total_mes_EDIFICAÇÕES_ABRIL.addEventListener("keyup",tot_inv_ABRIL);
+total_mes_SILO_ABRIL.addEventListener("keyup",tot_inv_ABRIL);
+total_mes_CURRAL_CANCELAS_BALANÇAS_ABRIL.addEventListener("keyup",tot_inv_ABRIL);
+total_mes_OUTROS_1_ABRIL.addEventListener("keyup",tot_inv_ABRIL);
+total_mes_OUTROS_2_ABRIL.addEventListener("keyup",tot_inv_ABRIL);
+total_mes_OUTROS_3_ABRIL.addEventListener("keyup",tot_inv_ABRIL);
+total_mes_OUTROS_4_ABRIL.addEventListener("keyup",tot_inv_ABRIL);
+total_mes_OUTROS_5_ABRIL.addEventListener("keyup",tot_inv_ABRIL);
+
+################################################################################################################################
+
+
+var total_mes_Invest = document.getElementById("");
+var total_mes_Herbicida_MAIO = document.getElementById("");
+var total_mes_Equip_Aplicação_Herbicidas_MAIO = document.getElementById("");
+var total_mes_Mão_de_obra_para_roçagem_MAIO = document.getElementById("");
+var total_mes_Equip_Roçagem_MAIO = document.getElementById("");
+var total_mes_COMPRA_VACAS_GIROLANDO_MAIO = document.getElementById("");
+var total_mes_Cocho_Sal_MAIO = document.getElementById("");
+var total_mes_Inseminação_Artificial_MAIO = document.getElementById("");
+var total_mes_Mat_p_Cercas_MAIO = document.getElementById("");
+var total_mes_EDIFICAÇÕES_MAIO = document.getElementById("");
+var total_mes_SILO_MAIO = document.getElementById("");
+var total_mes_CURRAL_CANCELAS_BALANÇAS_MAIO = document.getElementById("");
+var total_mes_OUTROS_1_MAIO = document.getElementById("");
+var total_mes_OUTROS_2_MAIO = document.getElementById("");
+var total_mes_OUTROS_3_MAIO = document.getElementById("");
+var total_mes_OUTROS_4_MAIO = document.getElementById("");
+var total_mes_OUTROS_5_MAIO = document.getElementById("");
+function tot_inv_MAIO(){
+    total_mes_Invest.innerHTML =
+        parseInt(total_mes_Herbicida_MAIO.value)+
+        parseInt(total_mes_Equip_Aplicação_Herbicidas_MAIO.value)+
+        parseInt(total_mes_Mão_de_obra_para_roçagem_MAIO.value)+
+        parseInt(total_mes_Equip_Roçagem_MAIO.value)+
+        parseInt(total_mes_COMPRA_VACAS_GIROLANDO_MAIO.value)+
+        parseInt(total_mes_Cocho_Sal_MAIO.value)+
+        parseInt(total_mes_Inseminação_Artificial_MAIO.value)+
+        parseInt(total_mes_Mat_p_Cercas_MAIO.value)+
+        parseInt(total_mes_EDIFICAÇÕES_MAIO.value)+
+        parseInt(total_mes_SILO_MAIO.value)+
+        parseInt(total_mes_CURRAL_CANCELAS_BALANÇAS_MAIO.value)+
+        parseInt(total_mes_OUTROS_1_MAIO.value)+
+        parseInt(total_mes_OUTROS_2_MAIO.value)+
+        parseInt(total_mes_OUTROS_3_MAIO.value)+
+        parseInt(total_mes_OUTROS_4_MAIO.value)+
+        parseInt(total_mes_OUTROS_5_MAIO.value);
+
+}
+tot_inv_MAIO();
+total_mes_Herbicida_MAIO.addEventListener("keyup",tot_inv_MAIO);
+total_mes_Equip_Aplicação_Herbicidas_MAIO.addEventListener("keyup",tot_inv_MAIO);
+total_mes_Mão_de_obra_para_roçagem_MAIO.addEventListener("keyup",tot_inv_MAIO);
+total_mes_Equip_Roçagem_MAIO.addEventListener("keyup",tot_inv_MAIO);
+total_mes_COMPRA_VACAS_GIROLANDO_MAIO.addEventListener("keyup",tot_inv_MAIO);
+total_mes_Cocho_Sal_MAIO.addEventListener("keyup",tot_inv_MAIO);
+total_mes_Inseminação_Artificial_MAIO.addEventListener("keyup",tot_inv_MAIO);
+total_mes_Mat_p_Cercas_MAIO.addEventListener("keyup",tot_inv_MAIO);
+total_mes_EDIFICAÇÕES_MAIO.addEventListener("keyup",tot_inv_MAIO);
+total_mes_SILO_MAIO.addEventListener("keyup",tot_inv_MAIO);
+total_mes_CURRAL_CANCELAS_BALANÇAS_MAIO.addEventListener("keyup",tot_inv_MAIO);
+total_mes_OUTROS_1_MAIO.addEventListener("keyup",tot_inv_MAIO);
+total_mes_OUTROS_2_MAIO.addEventListener("keyup",tot_inv_MAIO);
+total_mes_OUTROS_3_MAIO.addEventListener("keyup",tot_inv_MAIO);
+total_mes_OUTROS_4_MAIO.addEventListener("keyup",tot_inv_MAIO);
+total_mes_OUTROS_5_MAIO.addEventListener("keyup",tot_inv_MAIO);
+
+################################################################################################################################
+
+
+var total_mes_Invest = document.getElementById("");
+var total_mes_Herbicida_JUNHO = document.getElementById("");
+var total_mes_Equip_Aplicação_Herbicidas_JUNHO = document.getElementById("");
+var total_mes_Mão_de_obra_para_roçagem_JUNHO = document.getElementById("");
+var total_mes_Equip_Roçagem_JUNHO = document.getElementById("");
+var total_mes_COMPRA_VACAS_GIROLANDO_JUNHO = document.getElementById("");
+var total_mes_Cocho_Sal_JUNHO = document.getElementById("");
+var total_mes_Inseminação_Artificial_JUNHO = document.getElementById("");
+var total_mes_Mat_p_Cercas_JUNHO = document.getElementById("");
+var total_mes_EDIFICAÇÕES_JUNHO = document.getElementById("");
+var total_mes_SILO_JUNHO = document.getElementById("");
+var total_mes_CURRAL_CANCELAS_BALANÇAS_JUNHO = document.getElementById("");
+var total_mes_OUTROS_1_JUNHO = document.getElementById("");
+var total_mes_OUTROS_2_JUNHO = document.getElementById("");
+var total_mes_OUTROS_3_JUNHO = document.getElementById("");
+var total_mes_OUTROS_4_JUNHO = document.getElementById("");
+var total_mes_OUTROS_5_JUNHO = document.getElementById("");
+function tot_inv_JUNHO(){
+    total_mes_Invest.innerHTML =
+        parseInt(total_mes_Herbicida_JUNHO.value)+
+        parseInt(total_mes_Equip_Aplicação_Herbicidas_JUNHO.value)+
+        parseInt(total_mes_Mão_de_obra_para_roçagem_JUNHO.value)+
+        parseInt(total_mes_Equip_Roçagem_JUNHO.value)+
+        parseInt(total_mes_COMPRA_VACAS_GIROLANDO_JUNHO.value)+
+        parseInt(total_mes_Cocho_Sal_JUNHO.value)+
+        parseInt(total_mes_Inseminação_Artificial_JUNHO.value)+
+        parseInt(total_mes_Mat_p_Cercas_JUNHO.value)+
+        parseInt(total_mes_EDIFICAÇÕES_JUNHO.value)+
+        parseInt(total_mes_SILO_JUNHO.value)+
+        parseInt(total_mes_CURRAL_CANCELAS_BALANÇAS_JUNHO.value)+
+        parseInt(total_mes_OUTROS_1_JUNHO.value)+
+        parseInt(total_mes_OUTROS_2_JUNHO.value)+
+        parseInt(total_mes_OUTROS_3_JUNHO.value)+
+        parseInt(total_mes_OUTROS_4_JUNHO.value)+
+        parseInt(total_mes_OUTROS_5_JUNHO.value);
+
+}
+tot_inv_JUNHO();
+total_mes_Herbicida_JUNHO.addEventListener("keyup",tot_inv_JUNHO);
+total_mes_Equip_Aplicação_Herbicidas_JUNHO.addEventListener("keyup",tot_inv_JUNHO);
+total_mes_Mão_de_obra_para_roçagem_JUNHO.addEventListener("keyup",tot_inv_JUNHO);
+total_mes_Equip_Roçagem_JUNHO.addEventListener("keyup",tot_inv_JUNHO);
+total_mes_COMPRA_VACAS_GIROLANDO_JUNHO.addEventListener("keyup",tot_inv_JUNHO);
+total_mes_Cocho_Sal_JUNHO.addEventListener("keyup",tot_inv_JUNHO);
+total_mes_Inseminação_Artificial_JUNHO.addEventListener("keyup",tot_inv_JUNHO);
+total_mes_Mat_p_Cercas_JUNHO.addEventListener("keyup",tot_inv_JUNHO);
+total_mes_EDIFICAÇÕES_JUNHO.addEventListener("keyup",tot_inv_JUNHO);
+total_mes_SILO_JUNHO.addEventListener("keyup",tot_inv_JUNHO);
+total_mes_CURRAL_CANCELAS_BALANÇAS_JUNHO.addEventListener("keyup",tot_inv_JUNHO);
+total_mes_OUTROS_1_JUNHO.addEventListener("keyup",tot_inv_JUNHO);
+total_mes_OUTROS_2_JUNHO.addEventListener("keyup",tot_inv_JUNHO);
+total_mes_OUTROS_3_JUNHO.addEventListener("keyup",tot_inv_JUNHO);
+total_mes_OUTROS_4_JUNHO.addEventListener("keyup",tot_inv_JUNHO);
+total_mes_OUTROS_5_JUNHO.addEventListener("keyup",tot_inv_JUNHO);
+
+################################################################################################################################
+
+
+var total_mes_Invest = document.getElementById("");
+var total_mes_Herbicida_JULHO = document.getElementById("");
+var total_mes_Equip_Aplicação_Herbicidas_JULHO = document.getElementById("");
+var total_mes_Mão_de_obra_para_roçagem_JULHO = document.getElementById("");
+var total_mes_Equip_Roçagem_JULHO = document.getElementById("");
+var total_mes_COMPRA_VACAS_GIROLANDO_JULHO = document.getElementById("");
+var total_mes_Cocho_Sal_JULHO = document.getElementById("");
+var total_mes_Inseminação_Artificial_JULHO = document.getElementById("");
+var total_mes_Mat_p_Cercas_JULHO = document.getElementById("");
+var total_mes_EDIFICAÇÕES_JULHO = document.getElementById("");
+var total_mes_SILO_JULHO = document.getElementById("");
+var total_mes_CURRAL_CANCELAS_BALANÇAS_JULHO = document.getElementById("");
+var total_mes_OUTROS_1_JULHO = document.getElementById("");
+var total_mes_OUTROS_2_JULHO = document.getElementById("");
+var total_mes_OUTROS_3_JULHO = document.getElementById("");
+var total_mes_OUTROS_4_JULHO = document.getElementById("");
+var total_mes_OUTROS_5_JULHO = document.getElementById("");
+function tot_inv_JULHO(){
+    total_mes_Invest.innerHTML =
+        parseInt(total_mes_Herbicida_JULHO.value)+
+        parseInt(total_mes_Equip_Aplicação_Herbicidas_JULHO.value)+
+        parseInt(total_mes_Mão_de_obra_para_roçagem_JULHO.value)+
+        parseInt(total_mes_Equip_Roçagem_JULHO.value)+
+        parseInt(total_mes_COMPRA_VACAS_GIROLANDO_JULHO.value)+
+        parseInt(total_mes_Cocho_Sal_JULHO.value)+
+        parseInt(total_mes_Inseminação_Artificial_JULHO.value)+
+        parseInt(total_mes_Mat_p_Cercas_JULHO.value)+
+        parseInt(total_mes_EDIFICAÇÕES_JULHO.value)+
+        parseInt(total_mes_SILO_JULHO.value)+
+        parseInt(total_mes_CURRAL_CANCELAS_BALANÇAS_JULHO.value)+
+        parseInt(total_mes_OUTROS_1_JULHO.value)+
+        parseInt(total_mes_OUTROS_2_JULHO.value)+
+        parseInt(total_mes_OUTROS_3_JULHO.value)+
+        parseInt(total_mes_OUTROS_4_JULHO.value)+
+        parseInt(total_mes_OUTROS_5_JULHO.value);
+
+}
+tot_inv_JULHO();
+total_mes_Herbicida_JULHO.addEventListener("keyup",tot_inv_JULHO);
+total_mes_Equip_Aplicação_Herbicidas_JULHO.addEventListener("keyup",tot_inv_JULHO);
+total_mes_Mão_de_obra_para_roçagem_JULHO.addEventListener("keyup",tot_inv_JULHO);
+total_mes_Equip_Roçagem_JULHO.addEventListener("keyup",tot_inv_JULHO);
+total_mes_COMPRA_VACAS_GIROLANDO_JULHO.addEventListener("keyup",tot_inv_JULHO);
+total_mes_Cocho_Sal_JULHO.addEventListener("keyup",tot_inv_JULHO);
+total_mes_Inseminação_Artificial_JULHO.addEventListener("keyup",tot_inv_JULHO);
+total_mes_Mat_p_Cercas_JULHO.addEventListener("keyup",tot_inv_JULHO);
+total_mes_EDIFICAÇÕES_JULHO.addEventListener("keyup",tot_inv_JULHO);
+total_mes_SILO_JULHO.addEventListener("keyup",tot_inv_JULHO);
+total_mes_CURRAL_CANCELAS_BALANÇAS_JULHO.addEventListener("keyup",tot_inv_JULHO);
+total_mes_OUTROS_1_JULHO.addEventListener("keyup",tot_inv_JULHO);
+total_mes_OUTROS_2_JULHO.addEventListener("keyup",tot_inv_JULHO);
+total_mes_OUTROS_3_JULHO.addEventListener("keyup",tot_inv_JULHO);
+total_mes_OUTROS_4_JULHO.addEventListener("keyup",tot_inv_JULHO);
+total_mes_OUTROS_5_JULHO.addEventListener("keyup",tot_inv_JULHO);
+
+################################################################################################################################
+
+
+var total_mes_Invest = document.getElementById("");
+var total_mes_Herbicida_AGOSTO = document.getElementById("");
+var total_mes_Equip_Aplicação_Herbicidas_AGOSTO = document.getElementById("");
+var total_mes_Mão_de_obra_para_roçagem_AGOSTO = document.getElementById("");
+var total_mes_Equip_Roçagem_AGOSTO = document.getElementById("");
+var total_mes_COMPRA_VACAS_GIROLANDO_AGOSTO = document.getElementById("");
+var total_mes_Cocho_Sal_AGOSTO = document.getElementById("");
+var total_mes_Inseminação_Artificial_AGOSTO = document.getElementById("");
+var total_mes_Mat_p_Cercas_AGOSTO = document.getElementById("");
+var total_mes_EDIFICAÇÕES_AGOSTO = document.getElementById("");
+var total_mes_SILO_AGOSTO = document.getElementById("");
+var total_mes_CURRAL_CANCELAS_BALANÇAS_AGOSTO = document.getElementById("");
+var total_mes_OUTROS_1_AGOSTO = document.getElementById("");
+var total_mes_OUTROS_2_AGOSTO = document.getElementById("");
+var total_mes_OUTROS_3_AGOSTO = document.getElementById("");
+var total_mes_OUTROS_4_AGOSTO = document.getElementById("");
+var total_mes_OUTROS_5_AGOSTO = document.getElementById("");
+function tot_inv_AGOSTO(){
+    total_mes_Invest.innerHTML =
+        parseInt(total_mes_Herbicida_AGOSTO.value)+
+        parseInt(total_mes_Equip_Aplicação_Herbicidas_AGOSTO.value)+
+        parseInt(total_mes_Mão_de_obra_para_roçagem_AGOSTO.value)+
+        parseInt(total_mes_Equip_Roçagem_AGOSTO.value)+
+        parseInt(total_mes_COMPRA_VACAS_GIROLANDO_AGOSTO.value)+
+        parseInt(total_mes_Cocho_Sal_AGOSTO.value)+
+        parseInt(total_mes_Inseminação_Artificial_AGOSTO.value)+
+        parseInt(total_mes_Mat_p_Cercas_AGOSTO.value)+
+        parseInt(total_mes_EDIFICAÇÕES_AGOSTO.value)+
+        parseInt(total_mes_SILO_AGOSTO.value)+
+        parseInt(total_mes_CURRAL_CANCELAS_BALANÇAS_AGOSTO.value)+
+        parseInt(total_mes_OUTROS_1_AGOSTO.value)+
+        parseInt(total_mes_OUTROS_2_AGOSTO.value)+
+        parseInt(total_mes_OUTROS_3_AGOSTO.value)+
+        parseInt(total_mes_OUTROS_4_AGOSTO.value)+
+        parseInt(total_mes_OUTROS_5_AGOSTO.value);
+
+}
+tot_inv_AGOSTO();
+total_mes_Herbicida_AGOSTO.addEventListener("keyup",tot_inv_AGOSTO);
+total_mes_Equip_Aplicação_Herbicidas_AGOSTO.addEventListener("keyup",tot_inv_AGOSTO);
+total_mes_Mão_de_obra_para_roçagem_AGOSTO.addEventListener("keyup",tot_inv_AGOSTO);
+total_mes_Equip_Roçagem_AGOSTO.addEventListener("keyup",tot_inv_AGOSTO);
+total_mes_COMPRA_VACAS_GIROLANDO_AGOSTO.addEventListener("keyup",tot_inv_AGOSTO);
+total_mes_Cocho_Sal_AGOSTO.addEventListener("keyup",tot_inv_AGOSTO);
+total_mes_Inseminação_Artificial_AGOSTO.addEventListener("keyup",tot_inv_AGOSTO);
+total_mes_Mat_p_Cercas_AGOSTO.addEventListener("keyup",tot_inv_AGOSTO);
+total_mes_EDIFICAÇÕES_AGOSTO.addEventListener("keyup",tot_inv_AGOSTO);
+total_mes_SILO_AGOSTO.addEventListener("keyup",tot_inv_AGOSTO);
+total_mes_CURRAL_CANCELAS_BALANÇAS_AGOSTO.addEventListener("keyup",tot_inv_AGOSTO);
+total_mes_OUTROS_1_AGOSTO.addEventListener("keyup",tot_inv_AGOSTO);
+total_mes_OUTROS_2_AGOSTO.addEventListener("keyup",tot_inv_AGOSTO);
+total_mes_OUTROS_3_AGOSTO.addEventListener("keyup",tot_inv_AGOSTO);
+total_mes_OUTROS_4_AGOSTO.addEventListener("keyup",tot_inv_AGOSTO);
+total_mes_OUTROS_5_AGOSTO.addEventListener("keyup",tot_inv_AGOSTO);
+
+################################################################################################################################
+
+
+var total_mes_Invest = document.getElementById("");
+var total_mes_Herbicida_SETEMBRO = document.getElementById("");
+var total_mes_Equip_Aplicação_Herbicidas_SETEMBRO = document.getElementById("");
+var total_mes_Mão_de_obra_para_roçagem_SETEMBRO = document.getElementById("");
+var total_mes_Equip_Roçagem_SETEMBRO = document.getElementById("");
+var total_mes_COMPRA_VACAS_GIROLANDO_SETEMBRO = document.getElementById("");
+var total_mes_Cocho_Sal_SETEMBRO = document.getElementById("");
+var total_mes_Inseminação_Artificial_SETEMBRO = document.getElementById("");
+var total_mes_Mat_p_Cercas_SETEMBRO = document.getElementById("");
+var total_mes_EDIFICAÇÕES_SETEMBRO = document.getElementById("");
+var total_mes_SILO_SETEMBRO = document.getElementById("");
+var total_mes_CURRAL_CANCELAS_BALANÇAS_SETEMBRO = document.getElementById("");
+var total_mes_OUTROS_1_SETEMBRO = document.getElementById("");
+var total_mes_OUTROS_2_SETEMBRO = document.getElementById("");
+var total_mes_OUTROS_3_SETEMBRO = document.getElementById("");
+var total_mes_OUTROS_4_SETEMBRO = document.getElementById("");
+var total_mes_OUTROS_5_SETEMBRO = document.getElementById("");
+function tot_inv_SETEMBRO(){
+    total_mes_Invest.innerHTML =
+        parseInt(total_mes_Herbicida_SETEMBRO.value)+
+        parseInt(total_mes_Equip_Aplicação_Herbicidas_SETEMBRO.value)+
+        parseInt(total_mes_Mão_de_obra_para_roçagem_SETEMBRO.value)+
+        parseInt(total_mes_Equip_Roçagem_SETEMBRO.value)+
+        parseInt(total_mes_COMPRA_VACAS_GIROLANDO_SETEMBRO.value)+
+        parseInt(total_mes_Cocho_Sal_SETEMBRO.value)+
+        parseInt(total_mes_Inseminação_Artificial_SETEMBRO.value)+
+        parseInt(total_mes_Mat_p_Cercas_SETEMBRO.value)+
+        parseInt(total_mes_EDIFICAÇÕES_SETEMBRO.value)+
+        parseInt(total_mes_SILO_SETEMBRO.value)+
+        parseInt(total_mes_CURRAL_CANCELAS_BALANÇAS_SETEMBRO.value)+
+        parseInt(total_mes_OUTROS_1_SETEMBRO.value)+
+        parseInt(total_mes_OUTROS_2_SETEMBRO.value)+
+        parseInt(total_mes_OUTROS_3_SETEMBRO.value)+
+        parseInt(total_mes_OUTROS_4_SETEMBRO.value)+
+        parseInt(total_mes_OUTROS_5_SETEMBRO.value);
+
+}
+tot_inv_SETEMBRO();
+total_mes_Herbicida_SETEMBRO.addEventListener("keyup",tot_inv_SETEMBRO);
+total_mes_Equip_Aplicação_Herbicidas_SETEMBRO.addEventListener("keyup",tot_inv_SETEMBRO);
+total_mes_Mão_de_obra_para_roçagem_SETEMBRO.addEventListener("keyup",tot_inv_SETEMBRO);
+total_mes_Equip_Roçagem_SETEMBRO.addEventListener("keyup",tot_inv_SETEMBRO);
+total_mes_COMPRA_VACAS_GIROLANDO_SETEMBRO.addEventListener("keyup",tot_inv_SETEMBRO);
+total_mes_Cocho_Sal_SETEMBRO.addEventListener("keyup",tot_inv_SETEMBRO);
+total_mes_Inseminação_Artificial_SETEMBRO.addEventListener("keyup",tot_inv_SETEMBRO);
+total_mes_Mat_p_Cercas_SETEMBRO.addEventListener("keyup",tot_inv_SETEMBRO);
+total_mes_EDIFICAÇÕES_SETEMBRO.addEventListener("keyup",tot_inv_SETEMBRO);
+total_mes_SILO_SETEMBRO.addEventListener("keyup",tot_inv_SETEMBRO);
+total_mes_CURRAL_CANCELAS_BALANÇAS_SETEMBRO.addEventListener("keyup",tot_inv_SETEMBRO);
+total_mes_OUTROS_1_SETEMBRO.addEventListener("keyup",tot_inv_SETEMBRO);
+total_mes_OUTROS_2_SETEMBRO.addEventListener("keyup",tot_inv_SETEMBRO);
+total_mes_OUTROS_3_SETEMBRO.addEventListener("keyup",tot_inv_SETEMBRO);
+total_mes_OUTROS_4_SETEMBRO.addEventListener("keyup",tot_inv_SETEMBRO);
+total_mes_OUTROS_5_SETEMBRO.addEventListener("keyup",tot_inv_SETEMBRO);
+
+################################################################################################################################
+
+
+var total_mes_Invest = document.getElementById("");
+var total_mes_Herbicida_OUTUBRO = document.getElementById("");
+var total_mes_Equip_Aplicação_Herbicidas_OUTUBRO = document.getElementById("");
+var total_mes_Mão_de_obra_para_roçagem_OUTUBRO = document.getElementById("");
+var total_mes_Equip_Roçagem_OUTUBRO = document.getElementById("");
+var total_mes_COMPRA_VACAS_GIROLANDO_OUTUBRO = document.getElementById("");
+var total_mes_Cocho_Sal_OUTUBRO = document.getElementById("");
+var total_mes_Inseminação_Artificial_OUTUBRO = document.getElementById("");
+var total_mes_Mat_p_Cercas_OUTUBRO = document.getElementById("");
+var total_mes_EDIFICAÇÕES_OUTUBRO = document.getElementById("");
+var total_mes_SILO_OUTUBRO = document.getElementById("");
+var total_mes_CURRAL_CANCELAS_BALANÇAS_OUTUBRO = document.getElementById("");
+var total_mes_OUTROS_1_OUTUBRO = document.getElementById("");
+var total_mes_OUTROS_2_OUTUBRO = document.getElementById("");
+var total_mes_OUTROS_3_OUTUBRO = document.getElementById("");
+var total_mes_OUTROS_4_OUTUBRO = document.getElementById("");
+var total_mes_OUTROS_5_OUTUBRO = document.getElementById("");
+function tot_inv_OUTUBRO(){
+    total_mes_Invest.innerHTML =
+        parseInt(total_mes_Herbicida_OUTUBRO.value)+
+        parseInt(total_mes_Equip_Aplicação_Herbicidas_OUTUBRO.value)+
+        parseInt(total_mes_Mão_de_obra_para_roçagem_OUTUBRO.value)+
+        parseInt(total_mes_Equip_Roçagem_OUTUBRO.value)+
+        parseInt(total_mes_COMPRA_VACAS_GIROLANDO_OUTUBRO.value)+
+        parseInt(total_mes_Cocho_Sal_OUTUBRO.value)+
+        parseInt(total_mes_Inseminação_Artificial_OUTUBRO.value)+
+        parseInt(total_mes_Mat_p_Cercas_OUTUBRO.value)+
+        parseInt(total_mes_EDIFICAÇÕES_OUTUBRO.value)+
+        parseInt(total_mes_SILO_OUTUBRO.value)+
+        parseInt(total_mes_CURRAL_CANCELAS_BALANÇAS_OUTUBRO.value)+
+        parseInt(total_mes_OUTROS_1_OUTUBRO.value)+
+        parseInt(total_mes_OUTROS_2_OUTUBRO.value)+
+        parseInt(total_mes_OUTROS_3_OUTUBRO.value)+
+        parseInt(total_mes_OUTROS_4_OUTUBRO.value)+
+        parseInt(total_mes_OUTROS_5_OUTUBRO.value);
+
+}
+tot_inv_OUTUBRO();
+total_mes_Herbicida_OUTUBRO.addEventListener("keyup",tot_inv_OUTUBRO);
+total_mes_Equip_Aplicação_Herbicidas_OUTUBRO.addEventListener("keyup",tot_inv_OUTUBRO);
+total_mes_Mão_de_obra_para_roçagem_OUTUBRO.addEventListener("keyup",tot_inv_OUTUBRO);
+total_mes_Equip_Roçagem_OUTUBRO.addEventListener("keyup",tot_inv_OUTUBRO);
+total_mes_COMPRA_VACAS_GIROLANDO_OUTUBRO.addEventListener("keyup",tot_inv_OUTUBRO);
+total_mes_Cocho_Sal_OUTUBRO.addEventListener("keyup",tot_inv_OUTUBRO);
+total_mes_Inseminação_Artificial_OUTUBRO.addEventListener("keyup",tot_inv_OUTUBRO);
+total_mes_Mat_p_Cercas_OUTUBRO.addEventListener("keyup",tot_inv_OUTUBRO);
+total_mes_EDIFICAÇÕES_OUTUBRO.addEventListener("keyup",tot_inv_OUTUBRO);
+total_mes_SILO_OUTUBRO.addEventListener("keyup",tot_inv_OUTUBRO);
+total_mes_CURRAL_CANCELAS_BALANÇAS_OUTUBRO.addEventListener("keyup",tot_inv_OUTUBRO);
+total_mes_OUTROS_1_OUTUBRO.addEventListener("keyup",tot_inv_OUTUBRO);
+total_mes_OUTROS_2_OUTUBRO.addEventListener("keyup",tot_inv_OUTUBRO);
+total_mes_OUTROS_3_OUTUBRO.addEventListener("keyup",tot_inv_OUTUBRO);
+total_mes_OUTROS_4_OUTUBRO.addEventListener("keyup",tot_inv_OUTUBRO);
+total_mes_OUTROS_5_OUTUBRO.addEventListener("keyup",tot_inv_OUTUBRO);
+
+################################################################################################################################
+
+
+var total_mes_Invest = document.getElementById("");
+var total_mes_Herbicida_NOVEMBRO = document.getElementById("");
+var total_mes_Equip_Aplicação_Herbicidas_NOVEMBRO = document.getElementById("");
+var total_mes_Mão_de_obra_para_roçagem_NOVEMBRO = document.getElementById("");
+var total_mes_Equip_Roçagem_NOVEMBRO = document.getElementById("");
+var total_mes_COMPRA_VACAS_GIROLANDO_NOVEMBRO = document.getElementById("");
+var total_mes_Cocho_Sal_NOVEMBRO = document.getElementById("");
+var total_mes_Inseminação_Artificial_NOVEMBRO = document.getElementById("");
+var total_mes_Mat_p_Cercas_NOVEMBRO = document.getElementById("");
+var total_mes_EDIFICAÇÕES_NOVEMBRO = document.getElementById("");
+var total_mes_SILO_NOVEMBRO = document.getElementById("");
+var total_mes_CURRAL_CANCELAS_BALANÇAS_NOVEMBRO = document.getElementById("");
+var total_mes_OUTROS_1_NOVEMBRO = document.getElementById("");
+var total_mes_OUTROS_2_NOVEMBRO = document.getElementById("");
+var total_mes_OUTROS_3_NOVEMBRO = document.getElementById("");
+var total_mes_OUTROS_4_NOVEMBRO = document.getElementById("");
+var total_mes_OUTROS_5_NOVEMBRO = document.getElementById("");
+function tot_inv_NOVEMBRO(){
+    total_mes_Invest.innerHTML =
+        parseInt(total_mes_Herbicida_NOVEMBRO.value)+
+        parseInt(total_mes_Equip_Aplicação_Herbicidas_NOVEMBRO.value)+
+        parseInt(total_mes_Mão_de_obra_para_roçagem_NOVEMBRO.value)+
+        parseInt(total_mes_Equip_Roçagem_NOVEMBRO.value)+
+        parseInt(total_mes_COMPRA_VACAS_GIROLANDO_NOVEMBRO.value)+
+        parseInt(total_mes_Cocho_Sal_NOVEMBRO.value)+
+        parseInt(total_mes_Inseminação_Artificial_NOVEMBRO.value)+
+        parseInt(total_mes_Mat_p_Cercas_NOVEMBRO.value)+
+        parseInt(total_mes_EDIFICAÇÕES_NOVEMBRO.value)+
+        parseInt(total_mes_SILO_NOVEMBRO.value)+
+        parseInt(total_mes_CURRAL_CANCELAS_BALANÇAS_NOVEMBRO.value)+
+        parseInt(total_mes_OUTROS_1_NOVEMBRO.value)+
+        parseInt(total_mes_OUTROS_2_NOVEMBRO.value)+
+        parseInt(total_mes_OUTROS_3_NOVEMBRO.value)+
+        parseInt(total_mes_OUTROS_4_NOVEMBRO.value)+
+        parseInt(total_mes_OUTROS_5_NOVEMBRO.value);
+
+}
+tot_inv_NOVEMBRO();
+total_mes_Herbicida_NOVEMBRO.addEventListener("keyup",tot_inv_NOVEMBRO);
+total_mes_Equip_Aplicação_Herbicidas_NOVEMBRO.addEventListener("keyup",tot_inv_NOVEMBRO);
+total_mes_Mão_de_obra_para_roçagem_NOVEMBRO.addEventListener("keyup",tot_inv_NOVEMBRO);
+total_mes_Equip_Roçagem_NOVEMBRO.addEventListener("keyup",tot_inv_NOVEMBRO);
+total_mes_COMPRA_VACAS_GIROLANDO_NOVEMBRO.addEventListener("keyup",tot_inv_NOVEMBRO);
+total_mes_Cocho_Sal_NOVEMBRO.addEventListener("keyup",tot_inv_NOVEMBRO);
+total_mes_Inseminação_Artificial_NOVEMBRO.addEventListener("keyup",tot_inv_NOVEMBRO);
+total_mes_Mat_p_Cercas_NOVEMBRO.addEventListener("keyup",tot_inv_NOVEMBRO);
+total_mes_EDIFICAÇÕES_NOVEMBRO.addEventListener("keyup",tot_inv_NOVEMBRO);
+total_mes_SILO_NOVEMBRO.addEventListener("keyup",tot_inv_NOVEMBRO);
+total_mes_CURRAL_CANCELAS_BALANÇAS_NOVEMBRO.addEventListener("keyup",tot_inv_NOVEMBRO);
+total_mes_OUTROS_1_NOVEMBRO.addEventListener("keyup",tot_inv_NOVEMBRO);
+total_mes_OUTROS_2_NOVEMBRO.addEventListener("keyup",tot_inv_NOVEMBRO);
+total_mes_OUTROS_3_NOVEMBRO.addEventListener("keyup",tot_inv_NOVEMBRO);
+total_mes_OUTROS_4_NOVEMBRO.addEventListener("keyup",tot_inv_NOVEMBRO);
+total_mes_OUTROS_5_NOVEMBRO.addEventListener("keyup",tot_inv_NOVEMBRO);
+
+################################################################################################################################
+
+
+var total_mes_Invest = document.getElementById("");
+var total_mes_Herbicida_DEZEMBRO = document.getElementById("");
+var total_mes_Equip_Aplicação_Herbicidas_DEZEMBRO = document.getElementById("");
+var total_mes_Mão_de_obra_para_roçagem_DEZEMBRO = document.getElementById("");
+var total_mes_Equip_Roçagem_DEZEMBRO = document.getElementById("");
+var total_mes_COMPRA_VACAS_GIROLANDO_DEZEMBRO = document.getElementById("");
+var total_mes_Cocho_Sal_DEZEMBRO = document.getElementById("");
+var total_mes_Inseminação_Artificial_DEZEMBRO = document.getElementById("");
+var total_mes_Mat_p_Cercas_DEZEMBRO = document.getElementById("");
+var total_mes_EDIFICAÇÕES_DEZEMBRO = document.getElementById("");
+var total_mes_SILO_DEZEMBRO = document.getElementById("");
+var total_mes_CURRAL_CANCELAS_BALANÇAS_DEZEMBRO = document.getElementById("");
+var total_mes_OUTROS_1_DEZEMBRO = document.getElementById("");
+var total_mes_OUTROS_2_DEZEMBRO = document.getElementById("");
+var total_mes_OUTROS_3_DEZEMBRO = document.getElementById("");
+var total_mes_OUTROS_4_DEZEMBRO = document.getElementById("");
+var total_mes_OUTROS_5_DEZEMBRO = document.getElementById("");
+function tot_inv_DEZEMBRO(){
+    total_mes_Invest.innerHTML =
+        parseInt(total_mes_Herbicida_DEZEMBRO.value)+
+        parseInt(total_mes_Equip_Aplicação_Herbicidas_DEZEMBRO.value)+
+        parseInt(total_mes_Mão_de_obra_para_roçagem_DEZEMBRO.value)+
+        parseInt(total_mes_Equip_Roçagem_DEZEMBRO.value)+
+        parseInt(total_mes_COMPRA_VACAS_GIROLANDO_DEZEMBRO.value)+
+        parseInt(total_mes_Cocho_Sal_DEZEMBRO.value)+
+        parseInt(total_mes_Inseminação_Artificial_DEZEMBRO.value)+
+        parseInt(total_mes_Mat_p_Cercas_DEZEMBRO.value)+
+        parseInt(total_mes_EDIFICAÇÕES_DEZEMBRO.value)+
+        parseInt(total_mes_SILO_DEZEMBRO.value)+
+        parseInt(total_mes_CURRAL_CANCELAS_BALANÇAS_DEZEMBRO.value)+
+        parseInt(total_mes_OUTROS_1_DEZEMBRO.value)+
+        parseInt(total_mes_OUTROS_2_DEZEMBRO.value)+
+        parseInt(total_mes_OUTROS_3_DEZEMBRO.value)+
+        parseInt(total_mes_OUTROS_4_DEZEMBRO.value)+
+        parseInt(total_mes_OUTROS_5_DEZEMBRO.value);
+
+}
+tot_inv_DEZEMBRO();
+total_mes_Herbicida_DEZEMBRO.addEventListener("keyup",tot_inv_DEZEMBRO);
+total_mes_Equip_Aplicação_Herbicidas_DEZEMBRO.addEventListener("keyup",tot_inv_DEZEMBRO);
+total_mes_Mão_de_obra_para_roçagem_DEZEMBRO.addEventListener("keyup",tot_inv_DEZEMBRO);
+total_mes_Equip_Roçagem_DEZEMBRO.addEventListener("keyup",tot_inv_DEZEMBRO);
+total_mes_COMPRA_VACAS_GIROLANDO_DEZEMBRO.addEventListener("keyup",tot_inv_DEZEMBRO);
+total_mes_Cocho_Sal_DEZEMBRO.addEventListener("keyup",tot_inv_DEZEMBRO);
+total_mes_Inseminação_Artificial_DEZEMBRO.addEventListener("keyup",tot_inv_DEZEMBRO);
+total_mes_Mat_p_Cercas_DEZEMBRO.addEventListener("keyup",tot_inv_DEZEMBRO);
+total_mes_EDIFICAÇÕES_DEZEMBRO.addEventListener("keyup",tot_inv_DEZEMBRO);
+total_mes_SILO_DEZEMBRO.addEventListener("keyup",tot_inv_DEZEMBRO);
+total_mes_CURRAL_CANCELAS_BALANÇAS_DEZEMBRO.addEventListener("keyup",tot_inv_DEZEMBRO);
+total_mes_OUTROS_1_DEZEMBRO.addEventListener("keyup",tot_inv_DEZEMBRO);
+total_mes_OUTROS_2_DEZEMBRO.addEventListener("keyup",tot_inv_DEZEMBRO);
+total_mes_OUTROS_3_DEZEMBRO.addEventListener("keyup",tot_inv_DEZEMBRO);
+total_mes_OUTROS_4_DEZEMBRO.addEventListener("keyup",tot_inv_DEZEMBRO);
+total_mes_OUTROS_5_DEZEMBRO.addEventListener("keyup",tot_inv_DEZEMBRO);
+
+################################################################################################################################
+
+

@@ -1,0 +1,263 @@
+#
+substitua pelos meses seguintes
+#
+var total_Custo = document.getElementById("");
+var total_FIXO_jan              = document.getElementById("");
+var total_VARIÁVEL_jan          = document.getElementById("");
+var total_D_ADMINISTRATIVAS_jan = document.getElementById("");
+
+function total_CUSTO_JAN(){
+    total_Custo.innerHTML =
+        parseInt(total_FIXO_jan.value)+
+        parseInt(total_VARIÁVEL_jan.value)+
+        parseInt(total_D_ADMINISTRATIVAS_jan.value);
+}
+
+total_CUSTO_JAN();
+total_FIXO_jan.addEventListener("keyup",total_CUSTO_JAN);
+total_VARIÁVEL_jan.addEventListener("keyup",total_CUSTO_JAN);
+total_D_ADMINISTRATIVAS_jan.addEventListener("keyup",total_CUSTO_JAN);
+
+
+##############################################################################################################
+
+
+var total_Custo = document.getElementById("");
+var total_FIXO_fev              = document.getElementById("");
+var total_VARIÁVEL_fev          = document.getElementById("");
+var total_D_ADMINISTRATIVAS_fev = document.getElementById("");
+
+function total_CUSTO_fev(){
+    total_Custo.innerHTML =
+        parseInt(total_FIXO_fev.value)+
+        parseInt(total_VARIÁVEL_fev.value)+
+        parseInt(total_D_ADMINISTRATIVAS_fev.value);
+}
+
+total_CUSTO_fev();
+total_FIXO_fev.addEventListener("keyup",total_CUSTO_fev);
+total_VARIÁVEL_fev.addEventListener("keyup",total_CUSTO_fev);
+total_D_ADMINISTRATIVAS_fev.addEventListener("keyup",total_CUSTO_fev);
+
+
+##############################################################################################################
+
+
+
+var total_Custo = document.getElementById("");
+var total_FIXO_mar              = document.getElementById("");
+var total_VARIÁVEL_mar          = document.getElementById("");
+var total_D_ADMINISTRATIVAS_mar = document.getElementById("");
+
+function total_CUSTO_mar(){
+    total_Custo.innerHTML =
+        parseInt(total_FIXO_mar.value)+
+        parseInt(total_VARIÁVEL_mar.value)+
+        parseInt(total_D_ADMINISTRATIVAS_mar.value);
+}
+
+total_CUSTO_mar();
+total_FIXO_mar.addEventListener("keyup",total_CUSTO_mar);
+total_VARIÁVEL_mar.addEventListener("keyup",total_CUSTO_mar);
+total_D_ADMINISTRATIVAS_mar.addEventListener("keyup",total_CUSTO_mar);
+
+
+##############################################################################################################
+
+
+
+var total_Custo = document.getElementById("");
+var total_FIXO_abr              = document.getElementById("");
+var total_VARIÁVEL_abr          = document.getElementById("");
+var total_D_ADMINISTRATIVAS_abr = document.getElementById("");
+
+function total_CUSTO_abr(){
+    total_Custo.innerHTML =
+        parseInt(total_FIXO_abr.value)+
+        parseInt(total_VARIÁVEL_abr.value)+
+        parseInt(total_D_ADMINISTRATIVAS_abr.value);
+}
+
+total_CUSTO_abr();
+total_FIXO_abr.addEventListener("keyup",total_CUSTO_abr);
+total_VARIÁVEL_abr.addEventListener("keyup",total_CUSTO_abr);
+total_D_ADMINISTRATIVAS_abr.addEventListener("keyup",total_CUSTO_abr);
+
+
+##############################################################################################################
+
+
+
+var total_Custo = document.getElementById("");
+var total_FIXO_mai              = document.getElementById("");
+var total_VARIÁVEL_mai          = document.getElementById("");
+var total_D_ADMINISTRATIVAS_mai = document.getElementById("");
+
+function total_CUSTO_mai(){
+    total_Custo.innerHTML =
+        parseInt(total_FIXO_mai.value)+
+        parseInt(total_VARIÁVEL_mai.value)+
+        parseInt(total_D_ADMINISTRATIVAS_mai.value);
+}
+
+total_CUSTO_mai();
+total_FIXO_mai.addEventListener("keyup",total_CUSTO_mai);
+total_VARIÁVEL_mai.addEventListener("keyup",total_CUSTO_mai);
+total_D_ADMINISTRATIVAS_mai.addEventListener("keyup",total_CUSTO_mai);
+
+
+##############################################################################################################
+
+
+
+var total_Custo = document.getElementById("");
+var total_FIXO_jun              = document.getElementById("");
+var total_VARIÁVEL_jun          = document.getElementById("");
+var total_D_ADMINISTRATIVAS_jun = document.getElementById("");
+
+function total_CUSTO_jun(){
+    total_Custo.innerHTML =
+        parseInt(total_FIXO_jun.value)+
+        parseInt(total_VARIÁVEL_jun.value)+
+        parseInt(total_D_ADMINISTRATIVAS_jun.value);
+}
+
+total_CUSTO_jun();
+total_FIXO_jun.addEventListener("keyup",total_CUSTO_jun);
+total_VARIÁVEL_jun.addEventListener("keyup",total_CUSTO_jun);
+total_D_ADMINISTRATIVAS_jun.addEventListener("keyup",total_CUSTO_jun);
+
+
+##############################################################################################################
+
+
+
+var total_Custo = document.getElementById("");
+var total_FIXO_jul              = document.getElementById("");
+var total_VARIÁVEL_jul          = document.getElementById("");
+var total_D_ADMINISTRATIVAS_jul = document.getElementById("");
+
+function total_CUSTO_jul(){
+    total_Custo.innerHTML =
+        parseInt(total_FIXO_jul.value)+
+        parseInt(total_VARIÁVEL_jul.value)+
+        parseInt(total_D_ADMINISTRATIVAS_jul.value);
+}
+
+total_CUSTO_jul();
+total_FIXO_jul.addEventListener("keyup",total_CUSTO_jul);
+total_VARIÁVEL_jul.addEventListener("keyup",total_CUSTO_jul);
+total_D_ADMINISTRATIVAS_jul.addEventListener("keyup",total_CUSTO_jul);
+
+
+##############################################################################################################
+
+
+
+var total_Custo = document.getElementById("");
+var total_FIXO_ago              = document.getElementById("");
+var total_VARIÁVEL_ago          = document.getElementById("");
+var total_D_ADMINISTRATIVAS_ago = document.getElementById("");
+
+function total_CUSTO_ago(){
+    total_Custo.innerHTML =
+        parseInt(total_FIXO_ago.value)+
+        parseInt(total_VARIÁVEL_ago.value)+
+        parseInt(total_D_ADMINISTRATIVAS_ago.value);
+}
+
+total_CUSTO_ago();
+total_FIXO_ago.addEventListener("keyup",total_CUSTO_ago);
+total_VARIÁVEL_ago.addEventListener("keyup",total_CUSTO_ago);
+total_D_ADMINISTRATIVAS_ago.addEventListener("keyup",total_CUSTO_ago);
+
+
+##############################################################################################################
+
+
+var total_Custo = document.getElementById("");
+var total_FIXO_set              = document.getElementById("");
+var total_VARIÁVEL_set          = document.getElementById("");
+var total_D_ADMINISTRATIVAS_set = document.getElementById("");
+
+function total_CUSTO_set(){
+    total_Custo.innerHTML =
+        parseInt(total_FIXO_set.value)+
+        parseInt(total_VARIÁVEL_set.value)+
+        parseInt(total_D_ADMINISTRATIVAS_set.value);
+}
+
+total_CUSTO_set();
+total_FIXO_set.addEventListener("keyup",total_CUSTO_set);
+total_VARIÁVEL_set.addEventListener("keyup",total_CUSTO_set);
+total_D_ADMINISTRATIVAS_set.addEventListener("keyup",total_CUSTO_set);
+
+
+##############################################################################################################
+
+
+
+var total_Custo = document.getElementById("");
+var total_FIXO_out              = document.getElementById("");
+var total_VARIÁVEL_out          = document.getElementById("");
+var total_D_ADMINISTRATIVAS_out = document.getElementById("");
+
+function total_CUSTO_out(){
+    total_Custo.innerHTML =
+        parseInt(total_FIXO_out.value)+
+        parseInt(total_VARIÁVEL_out.value)+
+        parseInt(total_D_ADMINISTRATIVAS_out.value);
+}
+
+total_CUSTO_out();
+total_FIXO_out.addEventListener("keyup",total_CUSTO_out);
+total_VARIÁVEL_out.addEventListener("keyup",total_CUSTO_out);
+total_D_ADMINISTRATIVAS_out.addEventListener("keyup",total_CUSTO_out);
+
+
+##############################################################################################################
+
+
+
+var total_Custo = document.getElementById("");
+var total_FIXO_nov              = document.getElementById("");
+var total_VARIÁVEL_nov          = document.getElementById("");
+var total_D_ADMINISTRATIVAS_nov = document.getElementById("");
+
+function total_CUSTO_nov(){
+    total_Custo.innerHTML =
+        parseInt(total_FIXO_nov.value)+
+        parseInt(total_VARIÁVEL_nov.value)+
+        parseInt(total_D_ADMINISTRATIVAS_nov.value);
+}
+
+total_CUSTO_nov();
+total_FIXO_nov.addEventListener("keyup",total_CUSTO_nov);
+total_VARIÁVEL_nov.addEventListener("keyup",total_CUSTO_nov);
+total_D_ADMINISTRATIVAS_nov.addEventListener("keyup",total_CUSTO_nov);
+
+
+##############################################################################################################
+
+
+
+var total_Custo = document.getElementById("");
+var total_FIXO_dez              = document.getElementById("");
+var total_VARIÁVEL_dez          = document.getElementById("");
+var total_D_ADMINISTRATIVAS_dez = document.getElementById("");
+
+function total_CUSTO_dez(){
+    total_Custo.innerHTML =
+        parseInt(total_FIXO_dez.value)+
+        parseInt(total_VARIÁVEL_dez.value)+
+        parseInt(total_D_ADMINISTRATIVAS_dez.value);
+}
+
+total_CUSTO_dez();
+total_FIXO_dez.addEventListener("keyup",total_CUSTO_dez);
+total_VARIÁVEL_dez.addEventListener("keyup",total_CUSTO_dez);
+total_D_ADMINISTRATIVAS_dez.addEventListener("keyup",total_CUSTO_dez);
+
+
+##############################################################################################################
+

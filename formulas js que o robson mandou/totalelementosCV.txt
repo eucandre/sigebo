@@ -1,0 +1,1529 @@
+#
+    Aqui repetir os blocos para os nome decorrentes:
+    Suplementação
+    Linha Branca (Sal mineral)
+    Carrapaticidas
+    Mosca do chifre
+    Vermifugo
+    Vacina de aftosa
+    Vacina clostridiose
+    Outras vacinas
+    Outros medicamentos
+    Mão de obra temporária
+    Materiais p/Fazenda
+    Curral
+    Frete Carretas
+    Casas
+    Tratores
+    Máquinas
+    Combustível
+    Outros
+    Celular
+    Encargos Bancos
+    Elabor.Projeto Pecuario
+    Energia elétrica
+    Aquisição de animais
+    OUTROS 1
+    OUTROS 2
+    OUTROS 3
+    OUTROS 4
+    OUTROS 5
+
+
+#
+
+
+
+var total_elementos = document.getElementById("id_");
+var Suplementacao_janeiro             = document.getElementById("id_");
+var Suplementacao_fevereiro             = document.getElementById("id_");
+var Suplementacao_marco             = document.getElementById("id_");
+var Suplementacao_abril             = document.getElementById("id_");
+var Suplementacao_maio             = document.getElementById("id_");
+var Suplementacao_junho             = document.getElementById("id_");
+var Suplementacao_julho             = document.getElementById("id_");
+var Suplementacao_agosto             = document.getElementById("id_");
+var Suplementacao_setembro             = document.getElementById("id_");
+var Suplementacao_outubro             = document.getElementById("id_");
+var Suplementacao_novembro             = document.getElementById("id_");
+var Suplementacao_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Suplementacao_janeiro  .value)+
+        parseInt(Suplementacao_fevereiro.value)+
+        parseInt(Suplementacao_marco    .value)+
+        parseInt(Suplementacao_abril    .value)+
+        parseInt(Suplementacao_maio     .value)+
+        parseInt(Suplementacao_junho    .value)+
+        parseInt(Suplementacao_julho    .value)+
+        parseInt(Suplementacao_agosto   .value)+
+        parseInt(Suplementacao_setembro .value)+
+        parseInt(Suplementacao_outubro  .value)+
+        parseInt(Suplementacao_novembro .value)+
+        parseInt(Suplementacao_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Suplementacao_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementacao_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementacao_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementacao_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementacao_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementacao_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementacao_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementacao_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementacao_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementacao_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementacao_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Suplementacao_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Linha_Branca_Sal_mineral_janeiro             = document.getElementById("id_");
+var Linha_Branca_Sal_mineral_fevereiro             = document.getElementById("id_");
+var Linha_Branca_Sal_mineral_marco             = document.getElementById("id_");
+var Linha_Branca_Sal_mineral_abril             = document.getElementById("id_");
+var Linha_Branca_Sal_mineral_maio             = document.getElementById("id_");
+var Linha_Branca_Sal_mineral_junho             = document.getElementById("id_");
+var Linha_Branca_Sal_mineral_julho             = document.getElementById("id_");
+var Linha_Branca_Sal_mineral_agosto             = document.getElementById("id_");
+var Linha_Branca_Sal_mineral_setembro             = document.getElementById("id_");
+var Linha_Branca_Sal_mineral_outubro             = document.getElementById("id_");
+var Linha_Branca_Sal_mineral_novembro             = document.getElementById("id_");
+var Linha_Branca_Sal_mineral_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Linha_Branca_Sal_mineral_janeiro  .value)+
+        parseInt(Linha_Branca_Sal_mineral_fevereiro.value)+
+        parseInt(Linha_Branca_Sal_mineral_marco    .value)+
+        parseInt(Linha_Branca_Sal_mineral_abril    .value)+
+        parseInt(Linha_Branca_Sal_mineral_maio     .value)+
+        parseInt(Linha_Branca_Sal_mineral_junho    .value)+
+        parseInt(Linha_Branca_Sal_mineral_julho    .value)+
+        parseInt(Linha_Branca_Sal_mineral_agosto   .value)+
+        parseInt(Linha_Branca_Sal_mineral_setembro .value)+
+        parseInt(Linha_Branca_Sal_mineral_outubro  .value)+
+        parseInt(Linha_Branca_Sal_mineral_novembro .value)+
+        parseInt(Linha_Branca_Sal_mineral_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Linha_Branca_Sal_mineral_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Linha_Branca_Sal_mineral_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Linha_Branca_Sal_mineral_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Linha_Branca_Sal_mineral_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Linha_Branca_Sal_mineral_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Linha_Branca_Sal_mineral_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Linha_Branca_Sal_mineral_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Linha_Branca_Sal_mineral_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Linha_Branca_Sal_mineral_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Linha_Branca_Sal_mineral_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Linha_Branca_Sal_mineral_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Linha_Branca_Sal_mineral_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Carrapaticidas_janeiro             = document.getElementById("id_");
+var Carrapaticidas_fevereiro             = document.getElementById("id_");
+var Carrapaticidas_marco             = document.getElementById("id_");
+var Carrapaticidas_abril             = document.getElementById("id_");
+var Carrapaticidas_maio             = document.getElementById("id_");
+var Carrapaticidas_junho             = document.getElementById("id_");
+var Carrapaticidas_julho             = document.getElementById("id_");
+var Carrapaticidas_agosto             = document.getElementById("id_");
+var Carrapaticidas_setembro             = document.getElementById("id_");
+var Carrapaticidas_outubro             = document.getElementById("id_");
+var Carrapaticidas_novembro             = document.getElementById("id_");
+var Carrapaticidas_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Carrapaticidas_janeiro  .value)+
+        parseInt(Carrapaticidas_fevereiro.value)+
+        parseInt(Carrapaticidas_marco    .value)+
+        parseInt(Carrapaticidas_abril    .value)+
+        parseInt(Carrapaticidas_maio     .value)+
+        parseInt(Carrapaticidas_junho    .value)+
+        parseInt(Carrapaticidas_julho    .value)+
+        parseInt(Carrapaticidas_agosto   .value)+
+        parseInt(Carrapaticidas_setembro .value)+
+        parseInt(Carrapaticidas_outubro  .value)+
+        parseInt(Carrapaticidas_novembro .value)+
+        parseInt(Carrapaticidas_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Carrapaticidas_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Carrapaticidas_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Carrapaticidas_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Carrapaticidas_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Carrapaticidas_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Carrapaticidas_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Carrapaticidas_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Carrapaticidas_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Carrapaticidas_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Carrapaticidas_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Carrapaticidas_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Carrapaticidas_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Mosca_do_chifre_janeiro             = document.getElementById("id_");
+var Mosca_do_chifre_fevereiro             = document.getElementById("id_");
+var Mosca_do_chifre_marco             = document.getElementById("id_");
+var Mosca_do_chifre_abril             = document.getElementById("id_");
+var Mosca_do_chifre_maio             = document.getElementById("id_");
+var Mosca_do_chifre_junho             = document.getElementById("id_");
+var Mosca_do_chifre_julho             = document.getElementById("id_");
+var Mosca_do_chifre_agosto             = document.getElementById("id_");
+var Mosca_do_chifre_setembro             = document.getElementById("id_");
+var Mosca_do_chifre_outubro             = document.getElementById("id_");
+var Mosca_do_chifre_novembro             = document.getElementById("id_");
+var Mosca_do_chifre_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Mosca_do_chifre_janeiro  .value)+
+        parseInt(Mosca_do_chifre_fevereiro.value)+
+        parseInt(Mosca_do_chifre_marco    .value)+
+        parseInt(Mosca_do_chifre_abril    .value)+
+        parseInt(Mosca_do_chifre_maio     .value)+
+        parseInt(Mosca_do_chifre_junho    .value)+
+        parseInt(Mosca_do_chifre_julho    .value)+
+        parseInt(Mosca_do_chifre_agosto   .value)+
+        parseInt(Mosca_do_chifre_setembro .value)+
+        parseInt(Mosca_do_chifre_outubro  .value)+
+        parseInt(Mosca_do_chifre_novembro .value)+
+        parseInt(Mosca_do_chifre_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Mosca_do_chifre_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Mosca_do_chifre_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Mosca_do_chifre_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Mosca_do_chifre_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Mosca_do_chifre_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Mosca_do_chifre_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Mosca_do_chifre_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Mosca_do_chifre_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Mosca_do_chifre_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Mosca_do_chifre_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Mosca_do_chifre_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Mosca_do_chifre_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Vermifugo_janeiro             = document.getElementById("id_");
+var Vermifugo_fevereiro             = document.getElementById("id_");
+var Vermifugo_marco             = document.getElementById("id_");
+var Vermifugo_abril             = document.getElementById("id_");
+var Vermifugo_maio             = document.getElementById("id_");
+var Vermifugo_junho             = document.getElementById("id_");
+var Vermifugo_julho             = document.getElementById("id_");
+var Vermifugo_agosto             = document.getElementById("id_");
+var Vermifugo_setembro             = document.getElementById("id_");
+var Vermifugo_outubro             = document.getElementById("id_");
+var Vermifugo_novembro             = document.getElementById("id_");
+var Vermifugo_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Vermifugo_janeiro  .value)+
+        parseInt(Vermifugo_fevereiro.value)+
+        parseInt(Vermifugo_marco    .value)+
+        parseInt(Vermifugo_abril    .value)+
+        parseInt(Vermifugo_maio     .value)+
+        parseInt(Vermifugo_junho    .value)+
+        parseInt(Vermifugo_julho    .value)+
+        parseInt(Vermifugo_agosto   .value)+
+        parseInt(Vermifugo_setembro .value)+
+        parseInt(Vermifugo_outubro  .value)+
+        parseInt(Vermifugo_novembro .value)+
+        parseInt(Vermifugo_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Vermifugo_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Vermifugo_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Vermifugo_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Vermifugo_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Vermifugo_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Vermifugo_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Vermifugo_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Vermifugo_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Vermifugo_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Vermifugo_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Vermifugo_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Vermifugo_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Vacina_de_aftosa_janeiro             = document.getElementById("id_");
+var Vacina_de_aftosa_fevereiro             = document.getElementById("id_");
+var Vacina_de_aftosa_marco             = document.getElementById("id_");
+var Vacina_de_aftosa_abril             = document.getElementById("id_");
+var Vacina_de_aftosa_maio             = document.getElementById("id_");
+var Vacina_de_aftosa_junho             = document.getElementById("id_");
+var Vacina_de_aftosa_julho             = document.getElementById("id_");
+var Vacina_de_aftosa_agosto             = document.getElementById("id_");
+var Vacina_de_aftosa_setembro             = document.getElementById("id_");
+var Vacina_de_aftosa_outubro             = document.getElementById("id_");
+var Vacina_de_aftosa_novembro             = document.getElementById("id_");
+var Vacina_de_aftosa_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Vacina_de_aftosa_janeiro  .value)+
+        parseInt(Vacina_de_aftosa_fevereiro.value)+
+        parseInt(Vacina_de_aftosa_marco    .value)+
+        parseInt(Vacina_de_aftosa_abril    .value)+
+        parseInt(Vacina_de_aftosa_maio     .value)+
+        parseInt(Vacina_de_aftosa_junho    .value)+
+        parseInt(Vacina_de_aftosa_julho    .value)+
+        parseInt(Vacina_de_aftosa_agosto   .value)+
+        parseInt(Vacina_de_aftosa_setembro .value)+
+        parseInt(Vacina_de_aftosa_outubro  .value)+
+        parseInt(Vacina_de_aftosa_novembro .value)+
+        parseInt(Vacina_de_aftosa_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Vacina_de_aftosa_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_de_aftosa_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_de_aftosa_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_de_aftosa_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_de_aftosa_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_de_aftosa_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_de_aftosa_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_de_aftosa_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_de_aftosa_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_de_aftosa_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_de_aftosa_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_de_aftosa_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Vacina_clostridiose_janeiro             = document.getElementById("id_");
+var Vacina_clostridiose_fevereiro             = document.getElementById("id_");
+var Vacina_clostridiose_marco             = document.getElementById("id_");
+var Vacina_clostridiose_abril             = document.getElementById("id_");
+var Vacina_clostridiose_maio             = document.getElementById("id_");
+var Vacina_clostridiose_junho             = document.getElementById("id_");
+var Vacina_clostridiose_julho             = document.getElementById("id_");
+var Vacina_clostridiose_agosto             = document.getElementById("id_");
+var Vacina_clostridiose_setembro             = document.getElementById("id_");
+var Vacina_clostridiose_outubro             = document.getElementById("id_");
+var Vacina_clostridiose_novembro             = document.getElementById("id_");
+var Vacina_clostridiose_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Vacina_clostridiose_janeiro  .value)+
+        parseInt(Vacina_clostridiose_fevereiro.value)+
+        parseInt(Vacina_clostridiose_marco    .value)+
+        parseInt(Vacina_clostridiose_abril    .value)+
+        parseInt(Vacina_clostridiose_maio     .value)+
+        parseInt(Vacina_clostridiose_junho    .value)+
+        parseInt(Vacina_clostridiose_julho    .value)+
+        parseInt(Vacina_clostridiose_agosto   .value)+
+        parseInt(Vacina_clostridiose_setembro .value)+
+        parseInt(Vacina_clostridiose_outubro  .value)+
+        parseInt(Vacina_clostridiose_novembro .value)+
+        parseInt(Vacina_clostridiose_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Vacina_clostridiose_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_clostridiose_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_clostridiose_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_clostridiose_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_clostridiose_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_clostridiose_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_clostridiose_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_clostridiose_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_clostridiose_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_clostridiose_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_clostridiose_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Vacina_clostridiose_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Outras_vacinas_janeiro             = document.getElementById("id_");
+var Outras_vacinas_fevereiro             = document.getElementById("id_");
+var Outras_vacinas_marco             = document.getElementById("id_");
+var Outras_vacinas_abril             = document.getElementById("id_");
+var Outras_vacinas_maio             = document.getElementById("id_");
+var Outras_vacinas_junho             = document.getElementById("id_");
+var Outras_vacinas_julho             = document.getElementById("id_");
+var Outras_vacinas_agosto             = document.getElementById("id_");
+var Outras_vacinas_setembro             = document.getElementById("id_");
+var Outras_vacinas_outubro             = document.getElementById("id_");
+var Outras_vacinas_novembro             = document.getElementById("id_");
+var Outras_vacinas_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Outras_vacinas_janeiro  .value)+
+        parseInt(Outras_vacinas_fevereiro.value)+
+        parseInt(Outras_vacinas_marco    .value)+
+        parseInt(Outras_vacinas_abril    .value)+
+        parseInt(Outras_vacinas_maio     .value)+
+        parseInt(Outras_vacinas_junho    .value)+
+        parseInt(Outras_vacinas_julho    .value)+
+        parseInt(Outras_vacinas_agosto   .value)+
+        parseInt(Outras_vacinas_setembro .value)+
+        parseInt(Outras_vacinas_outubro  .value)+
+        parseInt(Outras_vacinas_novembro .value)+
+        parseInt(Outras_vacinas_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Outras_vacinas_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Outras_vacinas_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Outras_vacinas_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Outras_vacinas_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Outras_vacinas_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Outras_vacinas_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Outras_vacinas_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Outras_vacinas_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Outras_vacinas_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Outras_vacinas_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Outras_vacinas_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Outras_vacinas_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Outros_medicamentos_janeiro             = document.getElementById("id_");
+var Outros_medicamentos_fevereiro             = document.getElementById("id_");
+var Outros_medicamentos_marco             = document.getElementById("id_");
+var Outros_medicamentos_abril             = document.getElementById("id_");
+var Outros_medicamentos_maio             = document.getElementById("id_");
+var Outros_medicamentos_junho             = document.getElementById("id_");
+var Outros_medicamentos_julho             = document.getElementById("id_");
+var Outros_medicamentos_agosto             = document.getElementById("id_");
+var Outros_medicamentos_setembro             = document.getElementById("id_");
+var Outros_medicamentos_outubro             = document.getElementById("id_");
+var Outros_medicamentos_novembro             = document.getElementById("id_");
+var Outros_medicamentos_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Outros_medicamentos_janeiro  .value)+
+        parseInt(Outros_medicamentos_fevereiro.value)+
+        parseInt(Outros_medicamentos_marco    .value)+
+        parseInt(Outros_medicamentos_abril    .value)+
+        parseInt(Outros_medicamentos_maio     .value)+
+        parseInt(Outros_medicamentos_junho    .value)+
+        parseInt(Outros_medicamentos_julho    .value)+
+        parseInt(Outros_medicamentos_agosto   .value)+
+        parseInt(Outros_medicamentos_setembro .value)+
+        parseInt(Outros_medicamentos_outubro  .value)+
+        parseInt(Outros_medicamentos_novembro .value)+
+        parseInt(Outros_medicamentos_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Outros_medicamentos_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_medicamentos_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_medicamentos_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_medicamentos_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_medicamentos_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_medicamentos_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_medicamentos_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_medicamentos_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_medicamentos_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_medicamentos_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_medicamentos_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_medicamentos_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Mao_de_obra_temporaria_janeiro             = document.getElementById("id_");
+var Mao_de_obra_temporaria_fevereiro             = document.getElementById("id_");
+var Mao_de_obra_temporaria_marco             = document.getElementById("id_");
+var Mao_de_obra_temporaria_abril             = document.getElementById("id_");
+var Mao_de_obra_temporaria_maio             = document.getElementById("id_");
+var Mao_de_obra_temporaria_junho             = document.getElementById("id_");
+var Mao_de_obra_temporaria_julho             = document.getElementById("id_");
+var Mao_de_obra_temporaria_agosto             = document.getElementById("id_");
+var Mao_de_obra_temporaria_setembro             = document.getElementById("id_");
+var Mao_de_obra_temporaria_outubro             = document.getElementById("id_");
+var Mao_de_obra_temporaria_novembro             = document.getElementById("id_");
+var Mao_de_obra_temporaria_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Mao_de_obra_temporaria_janeiro  .value)+
+        parseInt(Mao_de_obra_temporaria_fevereiro.value)+
+        parseInt(Mao_de_obra_temporaria_marco    .value)+
+        parseInt(Mao_de_obra_temporaria_abril    .value)+
+        parseInt(Mao_de_obra_temporaria_maio     .value)+
+        parseInt(Mao_de_obra_temporaria_junho    .value)+
+        parseInt(Mao_de_obra_temporaria_julho    .value)+
+        parseInt(Mao_de_obra_temporaria_agosto   .value)+
+        parseInt(Mao_de_obra_temporaria_setembro .value)+
+        parseInt(Mao_de_obra_temporaria_outubro  .value)+
+        parseInt(Mao_de_obra_temporaria_novembro .value)+
+        parseInt(Mao_de_obra_temporaria_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Mao_de_obra_temporaria_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Mao_de_obra_temporaria_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Mao_de_obra_temporaria_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Mao_de_obra_temporaria_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Mao_de_obra_temporaria_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Mao_de_obra_temporaria_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Mao_de_obra_temporaria_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Mao_de_obra_temporaria_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Mao_de_obra_temporaria_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Mao_de_obra_temporaria_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Mao_de_obra_temporaria_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Mao_de_obra_temporaria_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Materiais_para_Fazenda_janeiro             = document.getElementById("id_");
+var Materiais_para_Fazenda_fevereiro             = document.getElementById("id_");
+var Materiais_para_Fazenda_marco             = document.getElementById("id_");
+var Materiais_para_Fazenda_abril             = document.getElementById("id_");
+var Materiais_para_Fazenda_maio             = document.getElementById("id_");
+var Materiais_para_Fazenda_junho             = document.getElementById("id_");
+var Materiais_para_Fazenda_julho             = document.getElementById("id_");
+var Materiais_para_Fazenda_agosto             = document.getElementById("id_");
+var Materiais_para_Fazenda_setembro             = document.getElementById("id_");
+var Materiais_para_Fazenda_outubro             = document.getElementById("id_");
+var Materiais_para_Fazenda_novembro             = document.getElementById("id_");
+var Materiais_para_Fazenda_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Materiais_para_Fazenda_janeiro  .value)+
+        parseInt(Materiais_para_Fazenda_fevereiro.value)+
+        parseInt(Materiais_para_Fazenda_marco    .value)+
+        parseInt(Materiais_para_Fazenda_abril    .value)+
+        parseInt(Materiais_para_Fazenda_maio     .value)+
+        parseInt(Materiais_para_Fazenda_junho    .value)+
+        parseInt(Materiais_para_Fazenda_julho    .value)+
+        parseInt(Materiais_para_Fazenda_agosto   .value)+
+        parseInt(Materiais_para_Fazenda_setembro .value)+
+        parseInt(Materiais_para_Fazenda_outubro  .value)+
+        parseInt(Materiais_para_Fazenda_novembro .value)+
+        parseInt(Materiais_para_Fazenda_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Materiais_para_Fazenda_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Materiais_para_Fazenda_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Materiais_para_Fazenda_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Materiais_para_Fazenda_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Materiais_para_Fazenda_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Materiais_para_Fazenda_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Materiais_para_Fazenda_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Materiais_para_Fazenda_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Materiais_para_Fazenda_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Materiais_para_Fazenda_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Materiais_para_Fazenda_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Materiais_para_Fazenda_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Curral_janeiro             = document.getElementById("id_");
+var Curral_fevereiro             = document.getElementById("id_");
+var Curral_marco             = document.getElementById("id_");
+var Curral_abril             = document.getElementById("id_");
+var Curral_maio             = document.getElementById("id_");
+var Curral_junho             = document.getElementById("id_");
+var Curral_julho             = document.getElementById("id_");
+var Curral_agosto             = document.getElementById("id_");
+var Curral_setembro             = document.getElementById("id_");
+var Curral_outubro             = document.getElementById("id_");
+var Curral_novembro             = document.getElementById("id_");
+var Curral_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Curral_janeiro  .value)+
+        parseInt(Curral_fevereiro.value)+
+        parseInt(Curral_marco    .value)+
+        parseInt(Curral_abril    .value)+
+        parseInt(Curral_maio     .value)+
+        parseInt(Curral_junho    .value)+
+        parseInt(Curral_julho    .value)+
+        parseInt(Curral_agosto   .value)+
+        parseInt(Curral_setembro .value)+
+        parseInt(Curral_outubro  .value)+
+        parseInt(Curral_novembro .value)+
+        parseInt(Curral_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Curral_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Curral_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Curral_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Curral_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Curral_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Curral_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Curral_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Curral_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Curral_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Curral_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Curral_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Curral_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Frete_Carretas_janeiro             = document.getElementById("id_");
+var Frete_Carretas_fevereiro             = document.getElementById("id_");
+var Frete_Carretas_marco             = document.getElementById("id_");
+var Frete_Carretas_abril             = document.getElementById("id_");
+var Frete_Carretas_maio             = document.getElementById("id_");
+var Frete_Carretas_junho             = document.getElementById("id_");
+var Frete_Carretas_julho             = document.getElementById("id_");
+var Frete_Carretas_agosto             = document.getElementById("id_");
+var Frete_Carretas_setembro             = document.getElementById("id_");
+var Frete_Carretas_outubro             = document.getElementById("id_");
+var Frete_Carretas_novembro             = document.getElementById("id_");
+var Frete_Carretas_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Frete_Carretas_janeiro  .value)+
+        parseInt(Frete_Carretas_fevereiro.value)+
+        parseInt(Frete_Carretas_marco    .value)+
+        parseInt(Frete_Carretas_abril    .value)+
+        parseInt(Frete_Carretas_maio     .value)+
+        parseInt(Frete_Carretas_junho    .value)+
+        parseInt(Frete_Carretas_julho    .value)+
+        parseInt(Frete_Carretas_agosto   .value)+
+        parseInt(Frete_Carretas_setembro .value)+
+        parseInt(Frete_Carretas_outubro  .value)+
+        parseInt(Frete_Carretas_novembro .value)+
+        parseInt(Frete_Carretas_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Frete_Carretas_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Frete_Carretas_janeiro             = document.getElementById("id_");
+var Frete_Carretas_fevereiro             = document.getElementById("id_");
+var Frete_Carretas_marco             = document.getElementById("id_");
+var Frete_Carretas_abril             = document.getElementById("id_");
+var Frete_Carretas_maio             = document.getElementById("id_");
+var Frete_Carretas_junho             = document.getElementById("id_");
+var Frete_Carretas_julho             = document.getElementById("id_");
+var Frete_Carretas_agosto             = document.getElementById("id_");
+var Frete_Carretas_setembro             = document.getElementById("id_");
+var Frete_Carretas_outubro             = document.getElementById("id_");
+var Frete_Carretas_novembro             = document.getElementById("id_");
+var Frete_Carretas_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Frete_Carretas_janeiro  .value)+
+        parseInt(Frete_Carretas_fevereiro.value)+
+        parseInt(Frete_Carretas_marco    .value)+
+        parseInt(Frete_Carretas_abril    .value)+
+        parseInt(Frete_Carretas_maio     .value)+
+        parseInt(Frete_Carretas_junho    .value)+
+        parseInt(Frete_Carretas_julho    .value)+
+        parseInt(Frete_Carretas_agosto   .value)+
+        parseInt(Frete_Carretas_setembro .value)+
+        parseInt(Frete_Carretas_outubro  .value)+
+        parseInt(Frete_Carretas_novembro .value)+
+        parseInt(Frete_Carretas_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Frete_Carretas_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Frete_Carretas_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Casas_janeiro             = document.getElementById("id_");
+var Casas_fevereiro             = document.getElementById("id_");
+var Casas_marco             = document.getElementById("id_");
+var Casas_abril             = document.getElementById("id_");
+var Casas_maio             = document.getElementById("id_");
+var Casas_junho             = document.getElementById("id_");
+var Casas_julho             = document.getElementById("id_");
+var Casas_agosto             = document.getElementById("id_");
+var Casas_setembro             = document.getElementById("id_");
+var Casas_outubro             = document.getElementById("id_");
+var Casas_novembro             = document.getElementById("id_");
+var Casas_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Casas_janeiro  .value)+
+        parseInt(Casas_fevereiro.value)+
+        parseInt(Casas_marco    .value)+
+        parseInt(Casas_abril    .value)+
+        parseInt(Casas_maio     .value)+
+        parseInt(Casas_junho    .value)+
+        parseInt(Casas_julho    .value)+
+        parseInt(Casas_agosto   .value)+
+        parseInt(Casas_setembro .value)+
+        parseInt(Casas_outubro  .value)+
+        parseInt(Casas_novembro .value)+
+        parseInt(Casas_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Casas_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Casas_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Casas_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Casas_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Casas_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Casas_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Casas_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Casas_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Casas_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Casas_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Casas_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Casas_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Tratores_janeiro             = document.getElementById("id_");
+var Tratores_fevereiro             = document.getElementById("id_");
+var Tratores_marco             = document.getElementById("id_");
+var Tratores_abril             = document.getElementById("id_");
+var Tratores_maio             = document.getElementById("id_");
+var Tratores_junho             = document.getElementById("id_");
+var Tratores_julho             = document.getElementById("id_");
+var Tratores_agosto             = document.getElementById("id_");
+var Tratores_setembro             = document.getElementById("id_");
+var Tratores_outubro             = document.getElementById("id_");
+var Tratores_novembro             = document.getElementById("id_");
+var Tratores_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Tratores_janeiro  .value)+
+        parseInt(Tratores_fevereiro.value)+
+        parseInt(Tratores_marco    .value)+
+        parseInt(Tratores_abril    .value)+
+        parseInt(Tratores_maio     .value)+
+        parseInt(Tratores_junho    .value)+
+        parseInt(Tratores_julho    .value)+
+        parseInt(Tratores_agosto   .value)+
+        parseInt(Tratores_setembro .value)+
+        parseInt(Tratores_outubro  .value)+
+        parseInt(Tratores_novembro .value)+
+        parseInt(Tratores_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Tratores_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Tratores_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Tratores_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Tratores_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Tratores_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Tratores_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Tratores_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Tratores_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Tratores_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Tratores_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Tratores_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Tratores_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Maquinas_janeiro             = document.getElementById("id_");
+var Maquinas_fevereiro             = document.getElementById("id_");
+var Maquinas_marco             = document.getElementById("id_");
+var Maquinas_abril             = document.getElementById("id_");
+var Maquinas_maio             = document.getElementById("id_");
+var Maquinas_junho             = document.getElementById("id_");
+var Maquinas_julho             = document.getElementById("id_");
+var Maquinas_agosto             = document.getElementById("id_");
+var Maquinas_setembro             = document.getElementById("id_");
+var Maquinas_outubro             = document.getElementById("id_");
+var Maquinas_novembro             = document.getElementById("id_");
+var Maquinas_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Maquinas_janeiro  .value)+
+        parseInt(Maquinas_fevereiro.value)+
+        parseInt(Maquinas_marco    .value)+
+        parseInt(Maquinas_abril    .value)+
+        parseInt(Maquinas_maio     .value)+
+        parseInt(Maquinas_junho    .value)+
+        parseInt(Maquinas_julho    .value)+
+        parseInt(Maquinas_agosto   .value)+
+        parseInt(Maquinas_setembro .value)+
+        parseInt(Maquinas_outubro  .value)+
+        parseInt(Maquinas_novembro .value)+
+        parseInt(Maquinas_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Maquinas_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Maquinas_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Maquinas_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Maquinas_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Maquinas_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Maquinas_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Maquinas_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Maquinas_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Maquinas_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Maquinas_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Maquinas_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Maquinas_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Combustivel_janeiro             = document.getElementById("id_");
+var Combustivel_fevereiro             = document.getElementById("id_");
+var Combustivel_marco             = document.getElementById("id_");
+var Combustivel_abril             = document.getElementById("id_");
+var Combustivel_maio             = document.getElementById("id_");
+var Combustivel_junho             = document.getElementById("id_");
+var Combustivel_julho             = document.getElementById("id_");
+var Combustivel_agosto             = document.getElementById("id_");
+var Combustivel_setembro             = document.getElementById("id_");
+var Combustivel_outubro             = document.getElementById("id_");
+var Combustivel_novembro             = document.getElementById("id_");
+var Combustivel_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Combustivel_janeiro  .value)+
+        parseInt(Combustivel_fevereiro.value)+
+        parseInt(Combustivel_marco    .value)+
+        parseInt(Combustivel_abril    .value)+
+        parseInt(Combustivel_maio     .value)+
+        parseInt(Combustivel_junho    .value)+
+        parseInt(Combustivel_julho    .value)+
+        parseInt(Combustivel_agosto   .value)+
+        parseInt(Combustivel_setembro .value)+
+        parseInt(Combustivel_outubro  .value)+
+        parseInt(Combustivel_novembro .value)+
+        parseInt(Combustivel_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Combustivel_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Combustivel_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Combustivel_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Combustivel_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Combustivel_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Combustivel_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Combustivel_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Combustivel_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Combustivel_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Combustivel_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Combustivel_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Combustivel_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Outros_janeiro             = document.getElementById("id_");
+var Outros_fevereiro             = document.getElementById("id_");
+var Outros_marco             = document.getElementById("id_");
+var Outros_abril             = document.getElementById("id_");
+var Outros_maio             = document.getElementById("id_");
+var Outros_junho             = document.getElementById("id_");
+var Outros_julho             = document.getElementById("id_");
+var Outros_agosto             = document.getElementById("id_");
+var Outros_setembro             = document.getElementById("id_");
+var Outros_outubro             = document.getElementById("id_");
+var Outros_novembro             = document.getElementById("id_");
+var Outros_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Outros_janeiro  .value)+
+        parseInt(Outros_fevereiro.value)+
+        parseInt(Outros_marco    .value)+
+        parseInt(Outros_abril    .value)+
+        parseInt(Outros_maio     .value)+
+        parseInt(Outros_junho    .value)+
+        parseInt(Outros_julho    .value)+
+        parseInt(Outros_agosto   .value)+
+        parseInt(Outros_setembro .value)+
+        parseInt(Outros_outubro  .value)+
+        parseInt(Outros_novembro .value)+
+        parseInt(Outros_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Outros_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Outros_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Encargos_Bancos_janeiro             = document.getElementById("id_");
+var Encargos_Bancos_fevereiro             = document.getElementById("id_");
+var Encargos_Bancos_marco             = document.getElementById("id_");
+var Encargos_Bancos_abril             = document.getElementById("id_");
+var Encargos_Bancos_maio             = document.getElementById("id_");
+var Encargos_Bancos_junho             = document.getElementById("id_");
+var Encargos_Bancos_julho             = document.getElementById("id_");
+var Encargos_Bancos_agosto             = document.getElementById("id_");
+var Encargos_Bancos_setembro             = document.getElementById("id_");
+var Encargos_Bancos_outubro             = document.getElementById("id_");
+var Encargos_Bancos_novembro             = document.getElementById("id_");
+var Encargos_Bancos_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Encargos_Bancos_janeiro  .value)+
+        parseInt(Encargos_Bancos_fevereiro.value)+
+        parseInt(Encargos_Bancos_marco    .value)+
+        parseInt(Encargos_Bancos_abril    .value)+
+        parseInt(Encargos_Bancos_maio     .value)+
+        parseInt(Encargos_Bancos_junho    .value)+
+        parseInt(Encargos_Bancos_julho    .value)+
+        parseInt(Encargos_Bancos_agosto   .value)+
+        parseInt(Encargos_Bancos_setembro .value)+
+        parseInt(Encargos_Bancos_outubro  .value)+
+        parseInt(Encargos_Bancos_novembro .value)+
+        parseInt(Encargos_Bancos_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Encargos_Bancos_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Encargos_Bancos_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Encargos_Bancos_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Encargos_Bancos_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Encargos_Bancos_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Encargos_Bancos_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Encargos_Bancos_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Encargos_Bancos_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Encargos_Bancos_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Encargos_Bancos_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Encargos_Bancos_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Encargos_Bancos_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Elabor_Projeto_Pecuario_janeiro             = document.getElementById("id_");
+var Elabor_Projeto_Pecuario_fevereiro             = document.getElementById("id_");
+var Elabor_Projeto_Pecuario_marco             = document.getElementById("id_");
+var Elabor_Projeto_Pecuario_abril             = document.getElementById("id_");
+var Elabor_Projeto_Pecuario_maio             = document.getElementById("id_");
+var Elabor_Projeto_Pecuario_junho             = document.getElementById("id_");
+var Elabor_Projeto_Pecuario_julho             = document.getElementById("id_");
+var Elabor_Projeto_Pecuario_agosto             = document.getElementById("id_");
+var Elabor_Projeto_Pecuario_setembro             = document.getElementById("id_");
+var Elabor_Projeto_Pecuario_outubro             = document.getElementById("id_");
+var Elabor_Projeto_Pecuario_novembro             = document.getElementById("id_");
+var Elabor_Projeto_Pecuario_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Elabor_Projeto_Pecuario_janeiro  .value)+
+        parseInt(Elabor_Projeto_Pecuario_fevereiro.value)+
+        parseInt(Elabor_Projeto_Pecuario_marco    .value)+
+        parseInt(Elabor_Projeto_Pecuario_abril    .value)+
+        parseInt(Elabor_Projeto_Pecuario_maio     .value)+
+        parseInt(Elabor_Projeto_Pecuario_junho    .value)+
+        parseInt(Elabor_Projeto_Pecuario_julho    .value)+
+        parseInt(Elabor_Projeto_Pecuario_agosto   .value)+
+        parseInt(Elabor_Projeto_Pecuario_setembro .value)+
+        parseInt(Elabor_Projeto_Pecuario_outubro  .value)+
+        parseInt(Elabor_Projeto_Pecuario_novembro .value)+
+        parseInt(Elabor_Projeto_Pecuario_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Elabor_Projeto_Pecuario_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Elabor_Projeto_Pecuario_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Elabor_Projeto_Pecuario_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Elabor_Projeto_Pecuario_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Elabor_Projeto_Pecuario_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Elabor_Projeto_Pecuario_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Elabor_Projeto_Pecuario_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Elabor_Projeto_Pecuario_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Elabor_Projeto_Pecuario_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Elabor_Projeto_Pecuario_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Elabor_Projeto_Pecuario_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Elabor_Projeto_Pecuario_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Energia_eletrica_janeiro             = document.getElementById("id_");
+var Energia_eletrica_fevereiro             = document.getElementById("id_");
+var Energia_eletrica_marco             = document.getElementById("id_");
+var Energia_eletrica_abril             = document.getElementById("id_");
+var Energia_eletrica_maio             = document.getElementById("id_");
+var Energia_eletrica_junho             = document.getElementById("id_");
+var Energia_eletrica_julho             = document.getElementById("id_");
+var Energia_eletrica_agosto             = document.getElementById("id_");
+var Energia_eletrica_setembro             = document.getElementById("id_");
+var Energia_eletrica_outubro             = document.getElementById("id_");
+var Energia_eletrica_novembro             = document.getElementById("id_");
+var Energia_eletrica_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Energia_eletrica_janeiro  .value)+
+        parseInt(Energia_eletrica_fevereiro.value)+
+        parseInt(Energia_eletrica_marco    .value)+
+        parseInt(Energia_eletrica_abril    .value)+
+        parseInt(Energia_eletrica_maio     .value)+
+        parseInt(Energia_eletrica_junho    .value)+
+        parseInt(Energia_eletrica_julho    .value)+
+        parseInt(Energia_eletrica_agosto   .value)+
+        parseInt(Energia_eletrica_setembro .value)+
+        parseInt(Energia_eletrica_outubro  .value)+
+        parseInt(Energia_eletrica_novembro .value)+
+        parseInt(Energia_eletrica_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Energia_eletrica_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Energia_eletrica_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Energia_eletrica_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Energia_eletrica_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Energia_eletrica_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Energia_eletrica_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Energia_eletrica_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Energia_eletrica_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Energia_eletrica_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Energia_eletrica_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Energia_eletrica_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Energia_eletrica_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var Aquisicao_de_animais_janeiro             = document.getElementById("id_");
+var Aquisicao_de_animais_fevereiro             = document.getElementById("id_");
+var Aquisicao_de_animais_marco             = document.getElementById("id_");
+var Aquisicao_de_animais_abril             = document.getElementById("id_");
+var Aquisicao_de_animais_maio             = document.getElementById("id_");
+var Aquisicao_de_animais_junho             = document.getElementById("id_");
+var Aquisicao_de_animais_julho             = document.getElementById("id_");
+var Aquisicao_de_animais_agosto             = document.getElementById("id_");
+var Aquisicao_de_animais_setembro             = document.getElementById("id_");
+var Aquisicao_de_animais_outubro             = document.getElementById("id_");
+var Aquisicao_de_animais_novembro             = document.getElementById("id_");
+var Aquisicao_de_animais_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(Aquisicao_de_animais_janeiro  .value)+
+        parseInt(Aquisicao_de_animais_fevereiro.value)+
+        parseInt(Aquisicao_de_animais_marco    .value)+
+        parseInt(Aquisicao_de_animais_abril    .value)+
+        parseInt(Aquisicao_de_animais_maio     .value)+
+        parseInt(Aquisicao_de_animais_junho    .value)+
+        parseInt(Aquisicao_de_animais_julho    .value)+
+        parseInt(Aquisicao_de_animais_agosto   .value)+
+        parseInt(Aquisicao_de_animais_setembro .value)+
+        parseInt(Aquisicao_de_animais_outubro  .value)+
+        parseInt(Aquisicao_de_animais_novembro .value)+
+        parseInt(Aquisicao_de_animais_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+Aquisicao_de_animais_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+Aquisicao_de_animais_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+Aquisicao_de_animais_marco..addEvetListener("keyup",TOTAL_SUPLE);
+Aquisicao_de_animais_abril..addEvetListener("keyup",TOTAL_SUPLE);
+Aquisicao_de_animais_maio..addEvetListener("keyup",TOTAL_SUPLE);
+Aquisicao_de_animais_junho..addEvetListener("keyup",TOTAL_SUPLE);
+Aquisicao_de_animais_julho..addEvetListener("keyup",TOTAL_SUPLE);
+Aquisicao_de_animais_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+Aquisicao_de_animais_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+Aquisicao_de_animais_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+Aquisicao_de_animais_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+Aquisicao_de_animais_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var OUTROS_1_janeiro             = document.getElementById("id_");
+var OUTROS_1_fevereiro             = document.getElementById("id_");
+var OUTROS_1_marco             = document.getElementById("id_");
+var OUTROS_1_abril             = document.getElementById("id_");
+var OUTROS_1_maio             = document.getElementById("id_");
+var OUTROS_1_junho             = document.getElementById("id_");
+var OUTROS_1_julho             = document.getElementById("id_");
+var OUTROS_1_agosto             = document.getElementById("id_");
+var OUTROS_1_setembro             = document.getElementById("id_");
+var OUTROS_1_outubro             = document.getElementById("id_");
+var OUTROS_1_novembro             = document.getElementById("id_");
+var OUTROS_1_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(OUTROS_1_janeiro  .value)+
+        parseInt(OUTROS_1_fevereiro.value)+
+        parseInt(OUTROS_1_marco    .value)+
+        parseInt(OUTROS_1_abril    .value)+
+        parseInt(OUTROS_1_maio     .value)+
+        parseInt(OUTROS_1_junho    .value)+
+        parseInt(OUTROS_1_julho    .value)+
+        parseInt(OUTROS_1_agosto   .value)+
+        parseInt(OUTROS_1_setembro .value)+
+        parseInt(OUTROS_1_outubro  .value)+
+        parseInt(OUTROS_1_novembro .value)+
+        parseInt(OUTROS_1_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+OUTROS_1_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_1_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_1_marco..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_1_abril..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_1_maio..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_1_junho..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_1_julho..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_1_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_1_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_1_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_1_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_1_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var OUTROS_2_janeiro             = document.getElementById("id_");
+var OUTROS_2_fevereiro             = document.getElementById("id_");
+var OUTROS_2_marco             = document.getElementById("id_");
+var OUTROS_2_abril             = document.getElementById("id_");
+var OUTROS_2_maio             = document.getElementById("id_");
+var OUTROS_2_junho             = document.getElementById("id_");
+var OUTROS_2_julho             = document.getElementById("id_");
+var OUTROS_2_agosto             = document.getElementById("id_");
+var OUTROS_2_setembro             = document.getElementById("id_");
+var OUTROS_2_outubro             = document.getElementById("id_");
+var OUTROS_2_novembro             = document.getElementById("id_");
+var OUTROS_2_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(OUTROS_2_janeiro  .value)+
+        parseInt(OUTROS_2_fevereiro.value)+
+        parseInt(OUTROS_2_marco    .value)+
+        parseInt(OUTROS_2_abril    .value)+
+        parseInt(OUTROS_2_maio     .value)+
+        parseInt(OUTROS_2_junho    .value)+
+        parseInt(OUTROS_2_julho    .value)+
+        parseInt(OUTROS_2_agosto   .value)+
+        parseInt(OUTROS_2_setembro .value)+
+        parseInt(OUTROS_2_outubro  .value)+
+        parseInt(OUTROS_2_novembro .value)+
+        parseInt(OUTROS_2_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+OUTROS_2_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_2_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_2_marco..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_2_abril..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_2_maio..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_2_junho..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_2_julho..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_2_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_2_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_2_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_2_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_2_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var OUTROS_3_janeiro             = document.getElementById("id_");
+var OUTROS_3_fevereiro             = document.getElementById("id_");
+var OUTROS_3_marco             = document.getElementById("id_");
+var OUTROS_3_abril             = document.getElementById("id_");
+var OUTROS_3_maio             = document.getElementById("id_");
+var OUTROS_3_junho             = document.getElementById("id_");
+var OUTROS_3_julho             = document.getElementById("id_");
+var OUTROS_3_agosto             = document.getElementById("id_");
+var OUTROS_3_setembro             = document.getElementById("id_");
+var OUTROS_3_outubro             = document.getElementById("id_");
+var OUTROS_3_novembro             = document.getElementById("id_");
+var OUTROS_3_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(OUTROS_3_janeiro  .value)+
+        parseInt(OUTROS_3_fevereiro.value)+
+        parseInt(OUTROS_3_marco    .value)+
+        parseInt(OUTROS_3_abril    .value)+
+        parseInt(OUTROS_3_maio     .value)+
+        parseInt(OUTROS_3_junho    .value)+
+        parseInt(OUTROS_3_julho    .value)+
+        parseInt(OUTROS_3_agosto   .value)+
+        parseInt(OUTROS_3_setembro .value)+
+        parseInt(OUTROS_3_outubro  .value)+
+        parseInt(OUTROS_3_novembro .value)+
+        parseInt(OUTROS_3_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+OUTROS_3_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_3_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_3_marco..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_3_abril..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_3_maio..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_3_junho..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_3_julho..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_3_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_3_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_3_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_3_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_3_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var OUTROS_4_janeiro             = document.getElementById("id_");
+var OUTROS_4_fevereiro             = document.getElementById("id_");
+var OUTROS_4_marco             = document.getElementById("id_");
+var OUTROS_4_abril             = document.getElementById("id_");
+var OUTROS_4_maio             = document.getElementById("id_");
+var OUTROS_4_junho             = document.getElementById("id_");
+var OUTROS_4_julho             = document.getElementById("id_");
+var OUTROS_4_agosto             = document.getElementById("id_");
+var OUTROS_4_setembro             = document.getElementById("id_");
+var OUTROS_4_outubro             = document.getElementById("id_");
+var OUTROS_4_novembro             = document.getElementById("id_");
+var OUTROS_4_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(OUTROS_4_janeiro  .value)+
+        parseInt(OUTROS_4_fevereiro.value)+
+        parseInt(OUTROS_4_marco    .value)+
+        parseInt(OUTROS_4_abril    .value)+
+        parseInt(OUTROS_4_maio     .value)+
+        parseInt(OUTROS_4_junho    .value)+
+        parseInt(OUTROS_4_julho    .value)+
+        parseInt(OUTROS_4_agosto   .value)+
+        parseInt(OUTROS_4_setembro .value)+
+        parseInt(OUTROS_4_outubro  .value)+
+        parseInt(OUTROS_4_novembro .value)+
+        parseInt(OUTROS_4_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+OUTROS_4_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_4_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_4_marco..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_4_abril..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_4_maio..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_4_junho..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_4_julho..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_4_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_4_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_4_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_4_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_4_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+var total_elementos = document.getElementById("id_");
+var OUTROS_5_janeiro             = document.getElementById("id_");
+var OUTROS_5_fevereiro             = document.getElementById("id_");
+var OUTROS_5_marco             = document.getElementById("id_");
+var OUTROS_5_abril             = document.getElementById("id_");
+var OUTROS_5_maio             = document.getElementById("id_");
+var OUTROS_5_junho             = document.getElementById("id_");
+var OUTROS_5_julho             = document.getElementById("id_");
+var OUTROS_5_agosto             = document.getElementById("id_");
+var OUTROS_5_setembro             = document.getElementById("id_");
+var OUTROS_5_outubro             = document.getElementById("id_");
+var OUTROS_5_novembro             = document.getElementById("id_");
+var OUTROS_5_dezembro             = document.getElementById("id_");
+
+
+function  TOTAL_SUPLE(){
+    total_elementos.innerHTML=
+        parseInt(OUTROS_5_janeiro  .value)+
+        parseInt(OUTROS_5_fevereiro.value)+
+        parseInt(OUTROS_5_marco    .value)+
+        parseInt(OUTROS_5_abril    .value)+
+        parseInt(OUTROS_5_maio     .value)+
+        parseInt(OUTROS_5_junho    .value)+
+        parseInt(OUTROS_5_julho    .value)+
+        parseInt(OUTROS_5_agosto   .value)+
+        parseInt(OUTROS_5_setembro .value)+
+        parseInt(OUTROS_5_outubro  .value)+
+        parseInt(OUTROS_5_novembro .value)+
+        parseInt(OUTROS_5_dezembro .value);
+
+
+}
+TOTAL_SUPLE();
+OUTROS_5_janeiro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_5_fevereiro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_5_marco..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_5_abril..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_5_maio..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_5_junho..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_5_julho..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_5_agosto..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_5_setembro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_5_outubro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_5_novembro..addEvetListener("keyup",TOTAL_SUPLE);
+OUTROS_5_dezembro..addEvetListener("keyup",TOTAL_SUPLE);
+
+
+#############################################################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+

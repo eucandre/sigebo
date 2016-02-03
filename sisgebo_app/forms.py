@@ -968,9 +968,9 @@ class FormDepreciacao(forms.Form):
                     canavial_ou_volumoso_custo_fixo             = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     canavial_ou_volumoso_porcetagem_custo_fixo  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
-                    benfeitorias_valor_inicial                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    benfeitorias_capital_medio                  = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
-                    benfeitorias_valor_final_ou_sucata          = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    benfeitorias_valor_inicial                  = forms.FloatField(initial=benf_ini(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    benfeitorias_capital_medio                  = forms.FloatField(initial=benf_fin(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
+                    benfeitorias_valor_final_ou_sucata          = forms.FloatField(initial=benf_medio(),widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     benfeitorias_depreciacao_anual              = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     benfeitorias_remuneracao_capital            = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
                     benfeitorias_custo_fixo                     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))

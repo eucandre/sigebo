@@ -1,0 +1,733 @@
+#
+Nesta função vc irá repetila para os meses do ano e para total
+
+#
+
+
+var total_custoFIXOJAN = document.getElementById("id_calculo_custo_fixo_janeiro");
+var custo_mac_jan           =document.getElementById("id_itens_custo_maquina_implementos_janeiro");
+var custo_trat_jan              =document.getElementById("id_itens_custo_tratores_janeiro");
+var custo_veiculo_jan           =document.getElementById("id_itens_custo_veiculos_janeiro");
+var custo_equ_jan               =document.getElementById("id_itens_custo_equipamentos_manuais_janeiro");
+var custo_repMacho_jan           =document.getElementById("id_itens_reprodutores_machos_janeiro");
+var custo_repFem_jan           =document.getElementById("id_itens_reprodutores_femeas_janeiro");
+var custo_anoTra_jan           =document.getElementById("id_itens_animais_trabalho_janeiro");
+var custo_CANAVOL_jan           =document.getElementById("id_itens_canavial_ou_volumoso_janeiro");
+var custo_benf_jan           =document.getElementById("id_itens_benfeitorias_janeiro");
+var custo_past_jan           =document.getElementById("id_itens_pastagem_janeiro");
+var custo_edifi_jan           =document.getElementById("id_itens_edificacoes_janeiro");
+var custo_mao_jan           =document.getElementById("id_itens_mao_obra_fixa_fazenda_janeiro");
+var custo_encar_jan           =document.getElementById("id_itens_encargos_sociais_janeiro");
+var custo_assis_jan           =document.getElementById("id_itens_assistencia_tecnica_janeiro");
+var custo_despes_jan           =document.getElementById("id_itens_despesas_tributarias_IR_ITR_janeiro");
+var custo_custoFIX_jan           =document.getElementById("id_calculo_custo_fixo_janeiro");
+var custo_custoFIXKB_jan            =  document.getElementById("id_calculo_custo_fixo_por_cabeca_janeiro");
+function  totalFIXO_JAN(){
+    total_custoFIXOJAN.innerHTML =
+
+        parseInt(custo_mac_jan.value)+
+        parseInt(custo_trat.value)+
+        parseInt(custo_veiculo.value)+
+        parseInt(custo_equ.value)+
+        parseInt(custo_repMacho.value)+
+        parseInt(custo_repFem.value)+
+        parseInt(custo_anoTra.value)+
+        parseInt(custo_CANAVOL.value)+
+        parseInt(custo_benf.value)+
+        parseInt(custo_past.value)+
+        parseInt(custo_edifi.value)+
+        parseInt(custo_mao.value)+
+        parseInt(custo_encar.value)+
+        parseInt(custo_assis.value)+
+        parseInt(custo_despes.value)+
+        parseInt(custo_custoFIX.value)+
+        parseInt(custo_custoFIXKB.value);
+}
+custo_mac_jan.addEventListener("keyup",totalFIXO_JAN);
+custo_trat.addEventListener("keyup",totalFIXO_JAN);
+custo_veiculo.addEventListener("keyup",totalFIXO_JAN);
+custo_equ.addEventListener("keyup",totalFIXO_JAN);
+custo_repMacho.addEventListener("keyup",totalFIXO_JAN);
+custo_repFem.addEventListener("keyup",totalFIXO_JAN);
+custo_anoTra.addEventListener("keyup",totalFIXO_JAN);
+custo_CANAVOL.addEventListener("keyup",totalFIXO_JAN);
+custo_benf.addEventListener("keyup",totalFIXO_JAN);
+custo_past.addEventListener("keyup",totalFIXO_JAN);
+custo_edifi.addEventListener("keyup",totalFIXO_JAN);
+custo_mao.addEventListener("keyup",totalFIXO_JAN);
+custo_encar.addEventListener("keyup",totalFIXO_JAN);
+custo_assis.addEventListener("keyup",totalFIXO_JAN);
+custo_despes.addEventListener("keyup",totalFIXO_JAN);
+custo_custoFIX.addEventListener("keyup",totalFIXO_JAN);
+custo_custoFIXKB.addEventListener("keyup",totalFIXO_JAN);
+
+####################################################################################################################################################################################
+
+
+var total_custoFIXOFEV = document.getElementById("id_calculo_custo_fixo_fevereiro");
+var custo_mac_fev           =document.getElementById("id_itens_custo_maquina_implementos_fevereiro");
+var custo_trat_fev              =document.getElementById("id_itens_custo_tratores_fevereiro");
+var custo_veiculo_fev           =document.getElementById("id_itens_custo_veiculos_fevereiro");
+var custo_equ_fev               =document.getElementById("id_itens_custo_equipamentos_manuais_fevereiro");
+var custo_repMacho_fev           =document.getElementById("id_itens_reprodutores_machos_fevereiro");
+var custo_repFem_fev           =document.getElementById("id_itens_reprodutores_femeas_fevereiro");
+var custo_anoTra_fev           =document.getElementById("id_itens_animais_trabalho_fevereiro");
+var custo_CANAVOL_fev           =document.getElementById("id_itens_canavial_ou_volumoso_fevereiro");
+var custo_benf_fev           =document.getElementById("id_itens_benfeitorias_fevereiro");
+var custo_past_fev           =document.getElementById("id_itens_pastagem_fevereiro");
+var custo_edifi_fev           =document.getElementById("id_itens_edificacoes_fevereiro");
+var custo_mao_fev           =document.getElementById("id_itens_mao_obra_fixa_fazenda_fevereiro");
+var custo_encar_fev           =document.getElementById("id_itens_encargos_sociais_fevereiro");
+var custo_assis_fev           =document.getElementById("id_itens_assistencia_tecnica_fevereiro");
+var custo_despes_fev           =document.getElementById("id_itens_despesas_tributarias_IR_ITR_fevereiro");
+var custo_custoFIX_fev           =document.getElementById("id_calculo_custo_fixo_fevereiro");
+var custo_custoFIXKB_fev            =  document.getElementById("id_calculo_custo_fixo_por_cabeca_fevereiro");
+function  totalFIXO_fev(){
+    total_custoFIXOfev.innerHTML =
+
+        parseInt(custo_mac_fev.value)+
+        parseInt(custo_trat.value)+
+        parseInt(custo_veiculo.value)+
+        parseInt(custo_equ.value)+
+        parseInt(custo_repMacho.value)+
+        parseInt(custo_repFem.value)+
+        parseInt(custo_anoTra.value)+
+        parseInt(custo_CANAVOL.value)+
+        parseInt(custo_benf.value)+
+        parseInt(custo_past.value)+
+        parseInt(custo_edifi.value)+
+        parseInt(custo_mao.value)+
+        parseInt(custo_encar.value)+
+        parseInt(custo_assis.value)+
+        parseInt(custo_despes.value)+
+        parseInt(custo_custoFIX.value)+
+        parseInt(custo_custoFIXKB.value);
+}
+custo_mac_fev.addEventListener("keyup",totalFIXO_fev);
+custo_trat.addEventListener("keyup",totalFIXO_fev);
+custo_veiculo.addEventListener("keyup",totalFIXO_fev);
+custo_equ.addEventListener("keyup",totalFIXO_fev);
+custo_repMacho.addEventListener("keyup",totalFIXO_fev);
+custo_repFem.addEventListener("keyup",totalFIXO_fev);
+custo_anoTra.addEventListener("keyup",totalFIXO_fev);
+custo_CANAVOL.addEventListener("keyup",totalFIXO_fev);
+custo_benf.addEventListener("keyup",totalFIXO_fev);
+custo_past.addEventListener("keyup",totalFIXO_fev);
+custo_edifi.addEventListener("keyup",totalFIXO_fev);
+custo_mao.addEventListener("keyup",totalFIXO_fev);
+custo_encar.addEventListener("keyup",totalFIXO_fev);
+custo_assis.addEventListener("keyup",totalFIXO_fev);
+custo_despes.addEventListener("keyup",totalFIXO_fev);
+custo_custoFIX.addEventListener("keyup",totalFIXO_fev);
+custo_custoFIXKB.addEventListener("keyup",totalFIXO_fev);
+
+####################################################################################################################################################################################
+
+
+
+var total_custoFIXOmar = document.getElementById("id_calculo_custo_fixo_marco");
+var custo_mac_mar           =document.getElementById("id_itens_custo_maquina_implementos_marco");
+var custo_trat_mar              =document.getElementById("id_itens_custo_tratores_marco");
+var custo_veiculo_mar           =document.getElementById("id_itens_custo_veiculos_marco");
+var custo_equ_mar               =document.getElementById("id_itens_custo_equipamentos_manuais_marco");
+var custo_repMacho_mar           =document.getElementById("id_itens_reprodutores_machos_marco");
+var custo_repFem_mar           =document.getElementById("id_itens_reprodutores_femeas_marco");
+var custo_anoTra_mar           =document.getElementById("id_itens_animais_trabalho_marco");
+var custo_CANAVOL_mar           =document.getElementById("id_itens_canavial_ou_volumoso_marco");
+var custo_benf_mar           =document.getElementById("id_itens_benfeitorias_marco");
+var custo_past_mar           =document.getElementById("id_itens_pastagem_marco");
+var custo_edifi_mar           =document.getElementById("id_itens_edificacoes_marco");
+var custo_mao_mar           =document.getElementById("id_itens_mao_obra_fixa_fazenda_marco");
+var custo_encar_mar           =document.getElementById("id_itens_encargos_sociais_marco");
+var custo_assis_mar           =document.getElementById("id_itens_assistencia_tecnica_marco");
+var custo_despes_mar           =document.getElementById("id_itens_despesas_tributarias_IR_ITR_marco");
+var custo_custoFIX_mar           =document.getElementById("id_calculo_custo_fixo_marco");
+var custo_custoFIXKB_mar            =  document.getElementById("id_calculo_custo_fixo_por_cabeca_marco");
+function  totalFIXO_mar(){
+    total_custoFIXOmar.innerHTML =
+
+        parseInt(custo_mac_mar.value)+
+        parseInt(custo_trat.value)+
+        parseInt(custo_veiculo.value)+
+        parseInt(custo_equ.value)+
+        parseInt(custo_repMacho.value)+
+        parseInt(custo_repFem.value)+
+        parseInt(custo_anoTra.value)+
+        parseInt(custo_CANAVOL.value)+
+        parseInt(custo_benf.value)+
+        parseInt(custo_past.value)+
+        parseInt(custo_edifi.value)+
+        parseInt(custo_mao.value)+
+        parseInt(custo_encar.value)+
+        parseInt(custo_assis.value)+
+        parseInt(custo_despes.value)+
+        parseInt(custo_custoFIX.value)+
+        parseInt(custo_custoFIXKB.value);
+}
+custo_mac_mar.addEventListener("keyup",totalFIXO_mar);
+custo_trat.addEventListener("keyup",totalFIXO_mar);
+custo_veiculo.addEventListener("keyup",totalFIXO_mar);
+custo_equ.addEventListener("keyup",totalFIXO_mar);
+custo_repMacho.addEventListener("keyup",totalFIXO_mar);
+custo_repFem.addEventListener("keyup",totalFIXO_mar);
+custo_anoTra.addEventListener("keyup",totalFIXO_mar);
+custo_CANAVOL.addEventListener("keyup",totalFIXO_mar);
+custo_benf.addEventListener("keyup",totalFIXO_mar);
+custo_past.addEventListener("keyup",totalFIXO_mar);
+custo_edifi.addEventListener("keyup",totalFIXO_mar);
+custo_mao.addEventListener("keyup",totalFIXO_mar);
+custo_encar.addEventListener("keyup",totalFIXO_mar);
+custo_assis.addEventListener("keyup",totalFIXO_mar);
+custo_despes.addEventListener("keyup",totalFIXO_mar);
+custo_custoFIX.addEventListener("keyup",totalFIXO_mar);
+custo_custoFIXKB.addEventListener("keyup",totalFIXO_mar);
+
+####################################################################################################################################################################################
+
+
+
+var total_custoFIXOabr = document.getElementById("id_calculo_custo_fixo_abril");
+var custo_mac_abr           =document.getElementById("id_itens_custo_maquina_implementos_abril");
+var custo_trat_abr              =document.getElementById("id_itens_custo_tratores_abril");
+var custo_veiculo_abr           =document.getElementById("id_itens_custo_veiculos_abril");
+var custo_equ_abr               =document.getElementById("id_itens_custo_equipamentos_manuais_abril");
+var custo_repMacho_abr           =document.getElementById("id_itens_reprodutores_machos_abril");
+var custo_repFem_abr           =document.getElementById("id_itens_reprodutores_femeas_abril");
+var custo_anoTra_abr           =document.getElementById("id_itens_animais_trabalho_abril");
+var custo_CANAVOL_abr           =document.getElementById("id_itens_canavial_ou_volumoso_abril");
+var custo_benf_abr           =document.getElementById("id_itens_benfeitorias_abril");
+var custo_past_abr           =document.getElementById("id_itens_pastagem_abril");
+var custo_edifi_abr           =document.getElementById("id_itens_edificacoes_abril");
+var custo_mao_abr           =document.getElementById("id_itens_mao_obra_fixa_fazenda_abril");
+var custo_encar_abr           =document.getElementById("id_itens_encargos_sociais_abril");
+var custo_assis_abr           =document.getElementById("id_itens_assistencia_tecnica_abril");
+var custo_despes_abr           =document.getElementById("id_itens_despesas_tributarias_IR_ITR_abril");
+var custo_custoFIX_abr           =document.getElementById("id_calculo_custo_fixo_abril");
+var custo_custoFIXKB_abr            =  document.getElementById("id_calculo_custo_fixo_por_cabeca_abril");
+function  totalFIXO_abr(){
+    total_custoFIXOabr.innerHTML =
+
+        parseInt(custo_mac_abr.value)+
+        parseInt(custo_trat.value)+
+        parseInt(custo_veiculo.value)+
+        parseInt(custo_equ.value)+
+        parseInt(custo_repMacho.value)+
+        parseInt(custo_repFem.value)+
+        parseInt(custo_anoTra.value)+
+        parseInt(custo_CANAVOL.value)+
+        parseInt(custo_benf.value)+
+        parseInt(custo_past.value)+
+        parseInt(custo_edifi.value)+
+        parseInt(custo_mao.value)+
+        parseInt(custo_encar.value)+
+        parseInt(custo_assis.value)+
+        parseInt(custo_despes.value)+
+        parseInt(custo_custoFIX.value)+
+        parseInt(custo_custoFIXKB.value);
+}
+custo_mac_abr.addEventListener("keyup",totalFIXO_abr);
+custo_trat.addEventListener("keyup",totalFIXO_abr);
+custo_veiculo.addEventListener("keyup",totalFIXO_abr);
+custo_equ.addEventListener("keyup",totalFIXO_abr);
+custo_repMacho.addEventListener("keyup",totalFIXO_abr);
+custo_repFem.addEventListener("keyup",totalFIXO_abr);
+custo_anoTra.addEventListener("keyup",totalFIXO_abr);
+custo_CANAVOL.addEventListener("keyup",totalFIXO_abr);
+custo_benf.addEventListener("keyup",totalFIXO_abr);
+custo_past.addEventListener("keyup",totalFIXO_abr);
+custo_edifi.addEventListener("keyup",totalFIXO_abr);
+custo_mao.addEventListener("keyup",totalFIXO_abr);
+custo_encar.addEventListener("keyup",totalFIXO_abr);
+custo_assis.addEventListener("keyup",totalFIXO_abr);
+custo_despes.addEventListener("keyup",totalFIXO_abr);
+custo_custoFIX.addEventListener("keyup",totalFIXO_abr);
+custo_custoFIXKB.addEventListener("keyup",totalFIXO_abr);
+
+####################################################################################################################################################################################
+
+
+
+var total_custoFIXOmai = document.getElementById("id_calculo_custo_fixo_maio");
+var custo_mac_mai           =document.getElementById("id_itens_custo_maquina_implementos_maio");
+var custo_trat_mai              =document.getElementById("id_itens_custo_tratores_maio");
+var custo_veiculo_mai           =document.getElementById("id_itens_custo_veiculos_maio");
+var custo_equ_mai               =document.getElementById("id_itens_custo_equipamentos_manuais_maio");
+var custo_repMacho_mai           =document.getElementById("id_itens_reprodutores_machos_maio");
+var custo_repFem_mai           =document.getElementById("id_itens_reprodutores_femeas_maio");
+var custo_anoTra_mai           =document.getElementById("id_itens_animais_trabalho_maio");
+var custo_CANAVOL_mai           =document.getElementById("id_itens_canavial_ou_volumoso_maio");
+var custo_benf_mai           =document.getElementById("id_itens_benfeitorias_maio");
+var custo_past_mai           =document.getElementById("id_itens_pastagem_maio");
+var custo_edifi_mai           =document.getElementById("id_itens_edificacoes_maio");
+var custo_mao_mai           =document.getElementById("id_itens_mao_obra_fixa_fazenda_maio");
+var custo_encar_mai           =document.getElementById("id_itens_encargos_sociais_maio");
+var custo_assis_mai           =document.getElementById("id_itens_assistencia_tecnica_maio");
+var custo_despes_mai           =document.getElementById("id_itens_despesas_tributarias_IR_ITR_maio");
+var custo_custoFIX_mai           =document.getElementById("id_calculo_custo_fixo_maio");
+var custo_custoFIXKB_mai            =  document.getElementById("id_calculo_custo_fixo_por_cabeca_maio");
+function  totalFIXO_mai(){
+    total_custoFIXOmai.innerHTML =
+
+        parseInt(custo_mac_mai.value)+
+        parseInt(custo_trat.value)+
+        parseInt(custo_veiculo.value)+
+        parseInt(custo_equ.value)+
+        parseInt(custo_repMacho.value)+
+        parseInt(custo_repFem.value)+
+        parseInt(custo_anoTra.value)+
+        parseInt(custo_CANAVOL.value)+
+        parseInt(custo_benf.value)+
+        parseInt(custo_past.value)+
+        parseInt(custo_edifi.value)+
+        parseInt(custo_mao.value)+
+        parseInt(custo_encar.value)+
+        parseInt(custo_assis.value)+
+        parseInt(custo_despes.value)+
+        parseInt(custo_custoFIX.value)+
+        parseInt(custo_custoFIXKB.value);
+}
+custo_mac_mai.addEventListener("keyup",totalFIXO_mai);
+custo_trat.addEventListener("keyup",totalFIXO_mai);
+custo_veiculo.addEventListener("keyup",totalFIXO_mai);
+custo_equ.addEventListener("keyup",totalFIXO_mai);
+custo_repMacho.addEventListener("keyup",totalFIXO_mai);
+custo_repFem.addEventListener("keyup",totalFIXO_mai);
+custo_anoTra.addEventListener("keyup",totalFIXO_mai);
+custo_CANAVOL.addEventListener("keyup",totalFIXO_mai);
+custo_benf.addEventListener("keyup",totalFIXO_mai);
+custo_past.addEventListener("keyup",totalFIXO_mai);
+custo_edifi.addEventListener("keyup",totalFIXO_mai);
+custo_mao.addEventListener("keyup",totalFIXO_mai);
+custo_encar.addEventListener("keyup",totalFIXO_mai);
+custo_assis.addEventListener("keyup",totalFIXO_mai);
+custo_despes.addEventListener("keyup",totalFIXO_mai);
+custo_custoFIX.addEventListener("keyup",totalFIXO_mai);
+custo_custoFIXKB.addEventListener("keyup",totalFIXO_mai);
+
+####################################################################################################################################################################################
+
+
+
+var total_custoFIXOjun = document.getElementById("id_calculo_custo_fixo_junho");
+var custo_mac_jun           =document.getElementById("id_itens_custo_maquina_implementos_junho");
+var custo_trat_jun              =document.getElementById("id_itens_custo_tratores_junho");
+var custo_veiculo_jun           =document.getElementById("id_itens_custo_veiculos_junho");
+var custo_equ_jun               =document.getElementById("id_itens_custo_equipamentos_manuais_junho");
+var custo_repMacho_jun           =document.getElementById("id_itens_reprodutores_machos_junho");
+var custo_repFem_jun           =document.getElementById("id_itens_reprodutores_femeas_junho");
+var custo_anoTra_jun           =document.getElementById("id_itens_animais_trabalho_junho");
+var custo_CANAVOL_jun           =document.getElementById("id_itens_canavial_ou_volumoso_junho");
+var custo_benf_jun           =document.getElementById("id_itens_benfeitorias_junho");
+var custo_past_jun           =document.getElementById("id_itens_pastagem_junho");
+var custo_edifi_jun           =document.getElementById("id_itens_edificacoes_junho");
+var custo_mao_jun           =document.getElementById("id_itens_mao_obra_fixa_fazenda_junho");
+var custo_encar_jun           =document.getElementById("id_itens_encargos_sociais_junho");
+var custo_assis_jun           =document.getElementById("id_itens_assistencia_tecnica_junho");
+var custo_despes_jun           =document.getElementById("id_itens_despesas_tributarias_IR_ITR_junho");
+var custo_custoFIX_jun           =document.getElementById("id_calculo_custo_fixo_junho");
+var custo_custoFIXKB_jun            =  document.getElementById("id_calculo_custo_fixo_por_cabeca_junho");
+function  totalFIXO_jun(){
+    total_custoFIXOjun.innerHTML =
+
+        parseInt(custo_mac_jun.value)+
+        parseInt(custo_trat.value)+
+        parseInt(custo_veiculo.value)+
+        parseInt(custo_equ.value)+
+        parseInt(custo_repMacho.value)+
+        parseInt(custo_repFem.value)+
+        parseInt(custo_anoTra.value)+
+        parseInt(custo_CANAVOL.value)+
+        parseInt(custo_benf.value)+
+        parseInt(custo_past.value)+
+        parseInt(custo_edifi.value)+
+        parseInt(custo_mao.value)+
+        parseInt(custo_encar.value)+
+        parseInt(custo_assis.value)+
+        parseInt(custo_despes.value)+
+        parseInt(custo_custoFIX.value)+
+        parseInt(custo_custoFIXKB.value);
+}
+custo_mac_jun.addEventListener("keyup",totalFIXO_jun);
+custo_trat.addEventListener("keyup",totalFIXO_jun);
+custo_veiculo.addEventListener("keyup",totalFIXO_jun);
+custo_equ.addEventListener("keyup",totalFIXO_jun);
+custo_repMacho.addEventListener("keyup",totalFIXO_jun);
+custo_repFem.addEventListener("keyup",totalFIXO_jun);
+custo_anoTra.addEventListener("keyup",totalFIXO_jun);
+custo_CANAVOL.addEventListener("keyup",totalFIXO_jun);
+custo_benf.addEventListener("keyup",totalFIXO_jun);
+custo_past.addEventListener("keyup",totalFIXO_jun);
+custo_edifi.addEventListener("keyup",totalFIXO_jun);
+custo_mao.addEventListener("keyup",totalFIXO_jun);
+custo_encar.addEventListener("keyup",totalFIXO_jun);
+custo_assis.addEventListener("keyup",totalFIXO_jun);
+custo_despes.addEventListener("keyup",totalFIXO_jun);
+custo_custoFIX.addEventListener("keyup",totalFIXO_jun);
+custo_custoFIXKB.addEventListener("keyup",totalFIXO_jun);
+
+####################################################################################################################################################################################
+
+
+
+var total_custoFIXOjul = document.getElementById("id_calculo_custo_fixo_julho");
+var custo_mac_jul           =document.getElementById("id_itens_custo_maquina_implementos_julho");
+var custo_trat_jul              =document.getElementById("id_itens_custo_tratores_julho");
+var custo_veiculo_jul           =document.getElementById("id_itens_custo_veiculos_julho");
+var custo_equ_jul               =document.getElementById("id_itens_custo_equipamentos_manuais_julho");
+var custo_repMacho_jul           =document.getElementById("id_itens_reprodutores_machos_julho");
+var custo_repFem_jul           =document.getElementById("id_itens_reprodutores_femeas_julho");
+var custo_anoTra_jul           =document.getElementById("id_itens_animais_trabalho_julho");
+var custo_CANAVOL_jul           =document.getElementById("id_itens_canavial_ou_volumoso_julho");
+var custo_benf_jul           =document.getElementById("id_itens_benfeitorias_julho");
+var custo_past_jul           =document.getElementById("id_itens_pastagem_julho");
+var custo_edifi_jul           =document.getElementById("id_itens_edificacoes_julho");
+var custo_mao_jul           =document.getElementById("id_itens_mao_obra_fixa_fazenda_julho");
+var custo_encar_jul           =document.getElementById("id_itens_encargos_sociais_julho");
+var custo_assis_jul           =document.getElementById("id_itens_assistencia_tecnica_julho");
+var custo_despes_jul           =document.getElementById("id_itens_despesas_tributarias_IR_ITR_julho");
+var custo_custoFIX_jul           =document.getElementById("id_calculo_custo_fixo_julho");
+var custo_custoFIXKB_jul            =  document.getElementById("id_calculo_custo_fixo_por_cabeca_julho");
+function  totalFIXO_jul(){
+    total_custoFIXOjul.innerHTML =
+
+        parseInt(custo_mac_jul.value)+
+        parseInt(custo_trat.value)+
+        parseInt(custo_veiculo.value)+
+        parseInt(custo_equ.value)+
+        parseInt(custo_repMacho.value)+
+        parseInt(custo_repFem.value)+
+        parseInt(custo_anoTra.value)+
+        parseInt(custo_CANAVOL.value)+
+        parseInt(custo_benf.value)+
+        parseInt(custo_past.value)+
+        parseInt(custo_edifi.value)+
+        parseInt(custo_mao.value)+
+        parseInt(custo_encar.value)+
+        parseInt(custo_assis.value)+
+        parseInt(custo_despes.value)+
+        parseInt(custo_custoFIX.value)+
+        parseInt(custo_custoFIXKB.value);
+}
+custo_mac_jul.addEventListener("keyup",totalFIXO_jul);
+custo_trat.addEventListener("keyup",totalFIXO_jul);
+custo_veiculo.addEventListener("keyup",totalFIXO_jul);
+custo_equ.addEventListener("keyup",totalFIXO_jul);
+custo_repMacho.addEventListener("keyup",totalFIXO_jul);
+custo_repFem.addEventListener("keyup",totalFIXO_jul);
+custo_anoTra.addEventListener("keyup",totalFIXO_jul);
+custo_CANAVOL.addEventListener("keyup",totalFIXO_jul);
+custo_benf.addEventListener("keyup",totalFIXO_jul);
+custo_past.addEventListener("keyup",totalFIXO_jul);
+custo_edifi.addEventListener("keyup",totalFIXO_jul);
+custo_mao.addEventListener("keyup",totalFIXO_jul);
+custo_encar.addEventListener("keyup",totalFIXO_jul);
+custo_assis.addEventListener("keyup",totalFIXO_jul);
+custo_despes.addEventListener("keyup",totalFIXO_jul);
+custo_custoFIX.addEventListener("keyup",totalFIXO_jul);
+custo_custoFIXKB.addEventListener("keyup",totalFIXO_jul);
+
+####################################################################################################################################################################################
+
+
+
+var total_custoFIXOago = document.getElementById("id_calculo_custo_fixo_agosto");
+var custo_mac_ago           =document.getElementById("id_itens_custo_maquina_implementos_agosto");
+var custo_trat_ago              =document.getElementById("id_itens_custo_tratores_agosto");
+var custo_veiculo_ago           =document.getElementById("id_itens_custo_veiculos_agosto");
+var custo_equ_ago               =document.getElementById("id_itens_custo_equipamentos_manuais_agosto");
+var custo_repMacho_ago           =document.getElementById("id_itens_reprodutores_machos_agosto");
+var custo_repFem_ago           =document.getElementById("id_itens_reprodutores_femeas_agosto");
+var custo_anoTra_ago           =document.getElementById("id_itens_animais_trabalho_agosto");
+var custo_CANAVOL_ago           =document.getElementById("id_itens_canavial_ou_volumoso_agosto");
+var custo_benf_ago           =document.getElementById("id_itens_benfeitorias_agosto");
+var custo_past_ago           =document.getElementById("id_itens_pastagem_agosto");
+var custo_edifi_ago           =document.getElementById("id_itens_edificacoes_agosto");
+var custo_mao_ago           =document.getElementById("id_itens_mao_obra_fixa_fazenda_agosto");
+var custo_encar_ago           =document.getElementById("id_itens_encargos_sociais_agosto");
+var custo_assis_ago           =document.getElementById("id_itens_assistencia_tecnica_agosto");
+var custo_despes_ago           =document.getElementById("id_itens_despesas_tributarias_IR_ITR_agosto");
+var custo_custoFIX_ago           =document.getElementById("id_calculo_custo_fixo_agosto");
+var custo_custoFIXKB_ago            =  document.getElementById("id_calculo_custo_fixo_por_cabeca_agosto");
+function  totalFIXO_ago(){
+    total_custoFIXOago.innerHTML =
+
+        parseInt(custo_mac_ago.value)+
+        parseInt(custo_trat.value)+
+        parseInt(custo_veiculo.value)+
+        parseInt(custo_equ.value)+
+        parseInt(custo_repMacho.value)+
+        parseInt(custo_repFem.value)+
+        parseInt(custo_anoTra.value)+
+        parseInt(custo_CANAVOL.value)+
+        parseInt(custo_benf.value)+
+        parseInt(custo_past.value)+
+        parseInt(custo_edifi.value)+
+        parseInt(custo_mao.value)+
+        parseInt(custo_encar.value)+
+        parseInt(custo_assis.value)+
+        parseInt(custo_despes.value)+
+        parseInt(custo_custoFIX.value)+
+        parseInt(custo_custoFIXKB.value);
+}
+custo_mac_ago.addEventListener("keyup",totalFIXO_ago);
+custo_trat.addEventListener("keyup",totalFIXO_ago);
+custo_veiculo.addEventListener("keyup",totalFIXO_ago);
+custo_equ.addEventListener("keyup",totalFIXO_ago);
+custo_repMacho.addEventListener("keyup",totalFIXO_ago);
+custo_repFem.addEventListener("keyup",totalFIXO_ago);
+custo_anoTra.addEventListener("keyup",totalFIXO_ago);
+custo_CANAVOL.addEventListener("keyup",totalFIXO_ago);
+custo_benf.addEventListener("keyup",totalFIXO_ago);
+custo_past.addEventListener("keyup",totalFIXO_ago);
+custo_edifi.addEventListener("keyup",totalFIXO_ago);
+custo_mao.addEventListener("keyup",totalFIXO_ago);
+custo_encar.addEventListener("keyup",totalFIXO_ago);
+custo_assis.addEventListener("keyup",totalFIXO_ago);
+custo_despes.addEventListener("keyup",totalFIXO_ago);
+custo_custoFIX.addEventListener("keyup",totalFIXO_ago);
+custo_custoFIXKB.addEventListener("keyup",totalFIXO_ago);
+
+####################################################################################################################################################################################
+
+
+var total_custoFIXOset = document.getElementById("id_calculo_custo_fixo_setembro");
+var custo_mac_set           =document.getElementById("id_itens_custo_maquina_implementos_setembro");
+var custo_trat_set              =document.getElementById("id_itens_custo_tratores_setembro");
+var custo_veiculo_set           =document.getElementById("id_itens_custo_veiculos_setembro");
+var custo_equ_set               =document.getElementById("id_itens_custo_equipamentos_manuais_setembro");
+var custo_repMacho_set           =document.getElementById("id_itens_reprodutores_machos_setembro");
+var custo_repFem_set           =document.getElementById("id_itens_reprodutores_femeas_setembro");
+var custo_anoTra_set           =document.getElementById("id_itens_animais_trabalho_setembro");
+var custo_CANAVOL_set           =document.getElementById("id_itens_canavial_ou_volumoso_setembro");
+var custo_benf_set           =document.getElementById("id_itens_benfeitorias_setembro");
+var custo_past_set           =document.getElementById("id_itens_pastagem_setembro");
+var custo_edifi_set           =document.getElementById("id_itens_edificacoes_setembro");
+var custo_mao_set           =document.getElementById("id_itens_mao_obra_fixa_fazenda_setembro");
+var custo_encar_set           =document.getElementById("id_itens_encargos_sociais_setembro");
+var custo_assis_set           =document.getElementById("id_itens_assistencia_tecnica_setembro");
+var custo_despes_set           =document.getElementById("id_itens_despesas_tributarias_IR_ITR_setembro");
+var custo_custoFIX_set           =document.getElementById("id_calculo_custo_fixo_setembro");
+var custo_custoFIXKB_set            =  document.getElementById("id_calculo_custo_fixo_por_cabeca_setembro");
+function  totalFIXO_set(){
+    total_custoFIXOset.innerHTML =
+
+        parseInt(custo_mac_set.value)+
+        parseInt(custo_trat.value)+
+        parseInt(custo_veiculo.value)+
+        parseInt(custo_equ.value)+
+        parseInt(custo_repMacho.value)+
+        parseInt(custo_repFem.value)+
+        parseInt(custo_anoTra.value)+
+        parseInt(custo_CANAVOL.value)+
+        parseInt(custo_benf.value)+
+        parseInt(custo_past.value)+
+        parseInt(custo_edifi.value)+
+        parseInt(custo_mao.value)+
+        parseInt(custo_encar.value)+
+        parseInt(custo_assis.value)+
+        parseInt(custo_despes.value)+
+        parseInt(custo_custoFIX.value)+
+        parseInt(custo_custoFIXKB.value);
+}
+custo_mac_set.addEventListener("keyup",totalFIXO_set);
+custo_trat.addEventListener("keyup",totalFIXO_set);
+custo_veiculo.addEventListener("keyup",totalFIXO_set);
+custo_equ.addEventListener("keyup",totalFIXO_set);
+custo_repMacho.addEventListener("keyup",totalFIXO_set);
+custo_repFem.addEventListener("keyup",totalFIXO_set);
+custo_anoTra.addEventListener("keyup",totalFIXO_set);
+custo_CANAVOL.addEventListener("keyup",totalFIXO_set);
+custo_benf.addEventListener("keyup",totalFIXO_set);
+custo_past.addEventListener("keyup",totalFIXO_set);
+custo_edifi.addEventListener("keyup",totalFIXO_set);
+custo_mao.addEventListener("keyup",totalFIXO_set);
+custo_encar.addEventListener("keyup",totalFIXO_set);
+custo_assis.addEventListener("keyup",totalFIXO_set);
+custo_despes.addEventListener("keyup",totalFIXO_set);
+custo_custoFIX.addEventListener("keyup",totalFIXO_set);
+custo_custoFIXKB.addEventListener("keyup",totalFIXO_set);
+
+####################################################################################################################################################################################
+
+
+
+var total_custoFIXOout = document.getElementById("id_calculo_custo_fixo_outubro");
+var custo_mac_out           =document.getElementById("id_itens_custo_maquina_implementos_outubro");
+var custo_trat_out              =document.getElementById("id_itens_custo_tratores_outubro");
+var custo_veiculo_out           =document.getElementById("id_itens_custo_veiculos_outubro");
+var custo_equ_out               =document.getElementById("id_itens_custo_equipamentos_manuais_outubro");
+var custo_repMacho_out           =document.getElementById("id_itens_reprodutores_machos_outubro");
+var custo_repFem_out           =document.getElementById("id_itens_reprodutores_femeas_outubro");
+var custo_anoTra_out           =document.getElementById("id_itens_animais_trabalho_outubro");
+var custo_CANAVOL_out           =document.getElementById("id_itens_canavial_ou_volumoso_outubro");
+var custo_benf_out           =document.getElementById("id_itens_benfeitorias_outubro");
+var custo_past_out           =document.getElementById("id_itens_pastagem_outubro");
+var custo_edifi_out           =document.getElementById("id_itens_edificacoes_outubro");
+var custo_mao_out           =document.getElementById("id_itens_mao_obra_fixa_fazenda_outubro");
+var custo_encar_out           =document.getElementById("id_itens_encargos_sociais_outubro");
+var custo_assis_out           =document.getElementById("id_itens_assistencia_tecnica_outubro");
+var custo_despes_out           =document.getElementById("id_itens_despesas_tributarias_IR_ITR_outubro");
+var custo_custoFIX_out           =document.getElementById("id_calculo_custo_fixo_outubro");
+var custo_custoFIXKB_out            =  document.getElementById("id_calculo_custo_fixo_por_cabeca_outubro");
+function  totalFIXO_out(){
+    total_custoFIXOout.innerHTML =
+
+        parseInt(custo_mac_out.value)+
+        parseInt(custo_trat.value)+
+        parseInt(custo_veiculo.value)+
+        parseInt(custo_equ.value)+
+        parseInt(custo_repMacho.value)+
+        parseInt(custo_repFem.value)+
+        parseInt(custo_anoTra.value)+
+        parseInt(custo_CANAVOL.value)+
+        parseInt(custo_benf.value)+
+        parseInt(custo_past.value)+
+        parseInt(custo_edifi.value)+
+        parseInt(custo_mao.value)+
+        parseInt(custo_encar.value)+
+        parseInt(custo_assis.value)+
+        parseInt(custo_despes.value)+
+        parseInt(custo_custoFIX.value)+
+        parseInt(custo_custoFIXKB.value);
+}
+custo_mac_out.addEventListener("keyup",totalFIXO_out);
+custo_trat.addEventListener("keyup",totalFIXO_out);
+custo_veiculo.addEventListener("keyup",totalFIXO_out);
+custo_equ.addEventListener("keyup",totalFIXO_out);
+custo_repMacho.addEventListener("keyup",totalFIXO_out);
+custo_repFem.addEventListener("keyup",totalFIXO_out);
+custo_anoTra.addEventListener("keyup",totalFIXO_out);
+custo_CANAVOL.addEventListener("keyup",totalFIXO_out);
+custo_benf.addEventListener("keyup",totalFIXO_out);
+custo_past.addEventListener("keyup",totalFIXO_out);
+custo_edifi.addEventListener("keyup",totalFIXO_out);
+custo_mao.addEventListener("keyup",totalFIXO_out);
+custo_encar.addEventListener("keyup",totalFIXO_out);
+custo_assis.addEventListener("keyup",totalFIXO_out);
+custo_despes.addEventListener("keyup",totalFIXO_out);
+custo_custoFIX.addEventListener("keyup",totalFIXO_out);
+custo_custoFIXKB.addEventListener("keyup",totalFIXO_out);
+
+####################################################################################################################################################################################
+
+
+var total_custoFIXOnov = document.getElementById("id_calculo_custo_fixo_novembro");
+var custo_mac_nov           =document.getElementById("id_itens_custo_maquina_implementos_novembro");
+var custo_trat_nov              =document.getElementById("id_itens_custo_tratores_novembro");
+var custo_veiculo_nov           =document.getElementById("id_itens_custo_veiculos_novembro");
+var custo_equ_nov               =document.getElementById("id_itens_custo_equipamentos_manuais_novembro");
+var custo_repMacho_nov           =document.getElementById("id_itens_reprodutores_machos_novembro");
+var custo_repFem_nov           =document.getElementById("id_itens_reprodutores_femeas_novembro");
+var custo_anoTra_nov           =document.getElementById("id_itens_animais_trabalho_novembro");
+var custo_CANAVOL_nov           =document.getElementById("id_itens_canavial_ou_volumoso_novembro");
+var custo_benf_nov           =document.getElementById("id_itens_benfeitorias_novembro");
+var custo_past_nov           =document.getElementById("id_itens_pastagem_novembro");
+var custo_edifi_nov           =document.getElementById("id_itens_edificacoes_novembro");
+var custo_mao_nov           =document.getElementById("id_itens_mao_obra_fixa_fazenda_novembro");
+var custo_encar_nov           =document.getElementById("id_itens_encargos_sociais_novembro");
+var custo_assis_nov           =document.getElementById("id_itens_assistencia_tecnica_novembro");
+var custo_despes_nov           =document.getElementById("id_itens_despesas_tributarias_IR_ITR_novembro");
+var custo_custoFIX_nov           =document.getElementById("id_calculo_custo_fixo_novembro");
+var custo_custoFIXKB_nov            =  document.getElementById("id_calculo_custo_fixo_por_cabeca_novembro");
+function  totalFIXO_nov(){
+    total_custoFIXOnov.innerHTML =
+
+        parseInt(custo_mac_nov.value)+
+        parseInt(custo_trat.value)+
+        parseInt(custo_veiculo.value)+
+        parseInt(custo_equ.value)+
+        parseInt(custo_repMacho.value)+
+        parseInt(custo_repFem.value)+
+        parseInt(custo_anoTra.value)+
+        parseInt(custo_CANAVOL.value)+
+        parseInt(custo_benf.value)+
+        parseInt(custo_past.value)+
+        parseInt(custo_edifi.value)+
+        parseInt(custo_mao.value)+
+        parseInt(custo_encar.value)+
+        parseInt(custo_assis.value)+
+        parseInt(custo_despes.value)+
+        parseInt(custo_custoFIX.value)+
+        parseInt(custo_custoFIXKB.value);
+}
+custo_mac_nov.addEventListener("keyup",totalFIXO_nov);
+custo_trat.addEventListener("keyup",totalFIXO_nov);
+custo_veiculo.addEventListener("keyup",totalFIXO_nov);
+custo_equ.addEventListener("keyup",totalFIXO_nov);
+custo_repMacho.addEventListener("keyup",totalFIXO_nov);
+custo_repFem.addEventListener("keyup",totalFIXO_nov);
+custo_anoTra.addEventListener("keyup",totalFIXO_nov);
+custo_CANAVOL.addEventListener("keyup",totalFIXO_nov);
+custo_benf.addEventListener("keyup",totalFIXO_nov);
+custo_past.addEventListener("keyup",totalFIXO_nov);
+custo_edifi.addEventListener("keyup",totalFIXO_nov);
+custo_mao.addEventListener("keyup",totalFIXO_nov);
+custo_encar.addEventListener("keyup",totalFIXO_nov);
+custo_assis.addEventListener("keyup",totalFIXO_nov);
+custo_despes.addEventListener("keyup",totalFIXO_nov);
+custo_custoFIX.addEventListener("keyup",totalFIXO_nov);
+custo_custoFIXKB.addEventListener("keyup",totalFIXO_nov);
+
+####################################################################################################################################################################################
+
+
+var total_custoFIXOdez = document.getElementById("id_calculo_custo_fixo_dezembro");
+var custo_mac_dez           =document.getElementById("id_itens_custo_maquina_implementos_dezembro");
+var custo_trat_dez              =document.getElementById("id_itens_custo_tratores_dezembro");
+var custo_veiculo_dez           =document.getElementById("id_itens_custo_veiculos_dezembro");
+var custo_equ_dez               =document.getElementById("id_itens_custo_equipamentos_manuais_dezembro");
+var custo_repMacho_dez           =document.getElementById("id_itens_reprodutores_machos_dezembro");
+var custo_repFem_dez           =document.getElementById("id_itens_reprodutores_femeas_dezembro");
+var custo_anoTra_dez           =document.getElementById("id_itens_animais_trabalho_dezembro");
+var custo_CANAVOL_dez           =document.getElementById("id_itens_canavial_ou_volumoso_dezembro");
+var custo_benf_dez           =document.getElementById("id_itens_benfeitorias_dezembro");
+var custo_past_dez           =document.getElementById("id_itens_pastagem_dezembro");
+var custo_edifi_dez           =document.getElementById("id_itens_edificacoes_dezembro");
+var custo_mao_dez           =document.getElementById("id_itens_mao_obra_fixa_fazenda_dezembro");
+var custo_encar_dez           =document.getElementById("id_itens_encargos_sociais_dezembro");
+var custo_assis_dez           =document.getElementById("id_itens_assistencia_tecnica_dezembro");
+var custo_despes_dez           =document.getElementById("id_itens_despesas_tributarias_IR_ITR_dezembro");
+var custo_custoFIX_dez           =document.getElementById("id_calculo_custo_fixo_dezembro");
+var custo_custoFIXKB_dez            =  document.getElementById("id_calculo_custo_fixo_por_cabeca_dezembro");
+function  totalFIXO_dez(){
+    total_custoFIXOdez.innerHTML =
+
+        parseInt(custo_mac_dez.value)+
+        parseInt(custo_trat.value)+
+        parseInt(custo_veiculo.value)+
+        parseInt(custo_equ.value)+
+        parseInt(custo_repMacho.value)+
+        parseInt(custo_repFem.value)+
+        parseInt(custo_anoTra.value)+
+        parseInt(custo_CANAVOL.value)+
+        parseInt(custo_benf.value)+
+        parseInt(custo_past.value)+
+        parseInt(custo_edifi.value)+
+        parseInt(custo_mao.value)+
+        parseInt(custo_encar.value)+
+        parseInt(custo_assis.value)+
+        parseInt(custo_despes.value)+
+        parseInt(custo_custoFIX.value)+
+        parseInt(custo_custoFIXKB.value);
+}
+custo_mac_dez.addEventListener("keyup",totalFIXO_dez);
+custo_trat.addEventListener("keyup",totalFIXO_dez);
+custo_veiculo.addEventListener("keyup",totalFIXO_dez);
+custo_equ.addEventListener("keyup",totalFIXO_dez);
+custo_repMacho.addEventListener("keyup",totalFIXO_dez);
+custo_repFem.addEventListener("keyup",totalFIXO_dez);
+custo_anoTra.addEventListener("keyup",totalFIXO_dez);
+custo_CANAVOL.addEventListener("keyup",totalFIXO_dez);
+custo_benf.addEventListener("keyup",totalFIXO_dez);
+custo_past.addEventListener("keyup",totalFIXO_dez);
+custo_edifi.addEventListener("keyup",totalFIXO_dez);
+custo_mao.addEventListener("keyup",totalFIXO_dez);
+custo_encar.addEventListener("keyup",totalFIXO_dez);
+custo_assis.addEventListener("keyup",totalFIXO_dez);
+custo_despes.addEventListener("keyup",totalFIXO_dez);
+custo_custoFIX.addEventListener("keyup",totalFIXO_dez);
+custo_custoFIXKB.addEventListener("keyup",totalFIXO_dez);
+
+####################################################################################################################################################################################
+
+

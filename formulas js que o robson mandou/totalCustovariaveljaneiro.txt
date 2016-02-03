@@ -1,0 +1,1145 @@
+#
+    Aqui repetir o bloco para os decorrentes meses 
+#
+
+
+var total_custo_V_janeiro = document.getElementById("");
+var Suplementação_janeiro            = document.getElementById("");
+var Linha_Branca_Sal_mineral_janeiro = document.getElementById("");
+var Carrapaticidasjaneiro               = document.getElementById("");
+var Mosca_do_chifrejaneiro              = document.getElementById("");
+var Vermífugojaneiro                    = document.getElementById("");
+var Vacina_de_aftosajaneiro             = document.getElementById("");
+var Vacina_clostridiosejaneiro          = document.getElementById("");
+var Outras_vacinasjaneiro               = document.getElementById("");
+var Outros_medicamentosjaneiro          = document.getElementById("");
+var Mão_de_obra_temporáriajaneiro       = document.getElementById("");
+var Materiais_p_Fazenda_janeiro         = document.getElementById("");
+var Curral_janeiro                      = document.getElementById("");
+var Frete_Carretas_janeiro              = document.getElementById("");
+var Casas_janeiro                        = document.getElementById("");
+var Tratores_janeiro                    = document.getElementById("");
+var Máquinas_janeiro                    = document.getElementById("");
+var Combustível_janeiro                  = document.getElementById("");
+var Outros_janeiro                      = document.getElementById("");
+var Celular_janeiro                     = document.getElementById("");
+var Encargos_Bancos_janeiro             = document.getElementById("");
+var Elabor_Projeto_Pecuario_janeiro         = document.getElementById("");
+var Energia_elétrica_janeiro             = document.getElementById("");
+var Aquisição_de_animaisjaneiro         = document.getElementById("");
+var OUTROS_1_janeiro                     = document.getElementById("");
+var OUTROS_2_janeiro                    = document.getElementById("");
+var OUTROS_3_janeiro                    = document.getElementById("");
+var OUTROS_4_janeiro                    = document.getElementById("");
+var OUTROS_5_janeiro                    = document.getElementById("");
+function  Total_CV_JANEIRO(){
+    total_custo_V_janeiro.innerHTML=
+        parseInt(Suplementaçãojaneiro.value)+
+        parseInt(Linha_Branca_Sal_mineral_janeiro.value)+
+        parseInt(Carrapaticidasjaneiro.value)+
+        parseInt(Mosca_do_chifrejaneiro.value)+
+        parseInt(Vermífugojaneiro.value)+
+        parseInt(Vacina_de_aftosajaneiro.value)+
+        parseInt(Vacina_clostridiosejaneiro.value)+
+        parseInt(Outras_vacinasjaneiro.value)+
+        parseInt(Outros_medicamentosjaneiro.value)+
+        parseInt(Mão_de_obra_temporáriajaneiro.value)+
+        parseInt(Materiais_p_Fazenda_janeiro.value)+
+        parseInt(Curral_janeiro  .value)+
+        parseInt(Frete_Carretas_janeiro .value)+
+        parseInt(Casas_janeiro   .value)+
+        parseInt(Tratores_janeiro.value)+
+        parseInt(Máquinas_janeiro.value)+
+        parseInt(Combustível_janeiro.value)+
+        parseInt(Outros_janeiro.value)+
+        parseInt(Celular_janeiro.value)+
+        parseInt(Encargos_Bancos_janeiro.value)+
+        parseInt(Elabor_Projeto_Pecuario_janeiro.value)+
+        parseInt(Energia_elétrica_janeiro.value)+
+        parseInt(Aquisição_de_animaisjaneiro.value)+
+        parseInt(OUTROS_1_janeiro.value)+
+        parseInt(OUTROS_2_janeiro.value)+
+        parseInt(OUTROS_3_janeiro.value)+
+        parseInt(OUTROS_4_janeiro.value)+
+        parseInt(OUTROS_5_janeiro.value);
+}
+          Total_CV_JANEIRO();
+
+Suplementaçãojaneiro.addEventListener("keyup",Total_CV_JANEIRO);
+Linha_Branca_Sal_mineral_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+Carrapaticidasjaneiro.addEventListener("keyup",Total_CV_JANEIRO);
+Mosca_do_chifrejaneiro.addEventListener("keyup",Total_CV_JANEIRO);
+Vermífugojaneiro.addEventListener("keyup",Total_CV_JANEIRO);
+Vacina_de_aftosajaneiro.addEventListener("keyup",Total_CV_JANEIRO);
+Vacina_clostridiosejaneiro.addEventListener("keyup",Total_CV_JANEIRO);
+Outras_vacinasjaneiro.addEventListener("keyup",Total_CV_JANEIRO);
+Outros_medicamentosjaneiro.addEventListener("keyup",Total_CV_JANEIRO);
+Mão_de_obra_temporáriajaneiro.addEventListener("keyup",Total_CV_JANEIRO);
+Materiais_p_Fazenda_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+Curral_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+Frete_Carretas_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+Casas_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+Tratores_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+Máquinas_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+Combustível_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+Outros_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+Celular_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+Encargos_Bancos_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+Elabor_Projeto_Pecuario_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+Energia_elétrica_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+Aquisição_de_animaisjaneiro.addEventListener("keyup",Total_CV_JANEIRO);
+OUTROS_1_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+OUTROS_2_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+OUTROS_3_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+OUTROS_4_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+OUTROS_5_janeiro.addEventListener("keyup",Total_CV_JANEIRO);
+
+###############################################################################################################################
+
+#
+
+
+var total_custo_V_fevereiro = document.getElementById("");
+var Suplementação_fevereiro            = document.getElementById("");
+var Linha_Branca_Sal_mineral_fevereiro = document.getElementById("");
+var Carrapaticidasfevereiro               = document.getElementById("");
+var Mosca_do_chifrefevereiro              = document.getElementById("");
+var Vermífugofevereiro                    = document.getElementById("");
+var Vacina_de_aftosafevereiro             = document.getElementById("");
+var Vacina_clostridiosefevereiro          = document.getElementById("");
+var Outras_vacinasfevereiro               = document.getElementById("");
+var Outros_medicamentosfevereiro          = document.getElementById("");
+var Mão_de_obra_temporáriafevereiro       = document.getElementById("");
+var Materiais_p_Fazenda_fevereiro         = document.getElementById("");
+var Curral_fevereiro                      = document.getElementById("");
+var Frete_Carretas_fevereiro              = document.getElementById("");
+var Casas_fevereiro                        = document.getElementById("");
+var Tratores_fevereiro                    = document.getElementById("");
+var Máquinas_fevereiro                    = document.getElementById("");
+var Combustível_fevereiro                  = document.getElementById("");
+var Outros_fevereiro                      = document.getElementById("");
+var Celular_fevereiro                     = document.getElementById("");
+var Encargos_Bancos_fevereiro             = document.getElementById("");
+var Elabor_Projeto_Pecuario_fevereiro         = document.getElementById("");
+var Energia_elétrica_fevereiro             = document.getElementById("");
+var Aquisição_de_animaisfevereiro         = document.getElementById("");
+var OUTROS_1_fevereiro                     = document.getElementById("");
+var OUTROS_2_fevereiro                    = document.getElementById("");
+var OUTROS_3_fevereiro                    = document.getElementById("");
+var OUTROS_4_fevereiro                    = document.getElementById("");
+var OUTROS_5_fevereiro                    = document.getElementById("");
+function  Total_CV_fevereiro(){
+    total_custo_V_fevereiro.innerHTML=
+        parseInt(Suplementaçãofevereiro.value)+
+        parseInt(Linha_Branca_Sal_mineral_fevereiro.value)+
+        parseInt(Carrapaticidasfevereiro.value)+
+        parseInt(Mosca_do_chifrefevereiro.value)+
+        parseInt(Vermífugofevereiro.value)+
+        parseInt(Vacina_de_aftosafevereiro.value)+
+        parseInt(Vacina_clostridiosefevereiro.value)+
+        parseInt(Outras_vacinasfevereiro.value)+
+        parseInt(Outros_medicamentosfevereiro.value)+
+        parseInt(Mão_de_obra_temporáriafevereiro.value)+
+        parseInt(Materiais_p_Fazenda_fevereiro.value)+
+        parseInt(Curral_fevereiro  .value)+
+        parseInt(Frete_Carretas_fevereiro .value)+
+        parseInt(Casas_fevereiro   .value)+
+        parseInt(Tratores_fevereiro.value)+
+        parseInt(Máquinas_fevereiro.value)+
+        parseInt(Combustível_fevereiro.value)+
+        parseInt(Outros_fevereiro.value)+
+        parseInt(Celular_fevereiro.value)+
+        parseInt(Encargos_Bancos_fevereiro.value)+
+        parseInt(Elabor_Projeto_Pecuario_fevereiro.value)+
+        parseInt(Energia_elétrica_fevereiro.value)+
+        parseInt(Aquisição_de_animaisfevereiro.value)+
+        parseInt(OUTROS_1_fevereiro.value)+
+        parseInt(OUTROS_2_fevereiro.value)+
+        parseInt(OUTROS_3_fevereiro.value)+
+        parseInt(OUTROS_4_fevereiro.value)+
+        parseInt(OUTROS_5_fevereiro.value);
+}
+          Total_CV_fevereiro();
+
+Suplementaçãofevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Linha_Branca_Sal_mineral_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Carrapaticidasfevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Mosca_do_chifrefevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Vermífugofevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Vacina_de_aftosafevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Vacina_clostridiosefevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Outras_vacinasfevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Outros_medicamentosfevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Mão_de_obra_temporáriafevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Materiais_p_Fazenda_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Curral_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Frete_Carretas_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Casas_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Tratores_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Máquinas_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Combustível_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Outros_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Celular_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Encargos_Bancos_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Elabor_Projeto_Pecuario_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Energia_elétrica_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+Aquisição_de_animaisfevereiro.addEventListener("keyup",Total_CV_fevereiro);
+OUTROS_1_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+OUTROS_2_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+OUTROS_3_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+OUTROS_4_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+OUTROS_5_fevereiro.addEventListener("keyup",Total_CV_fevereiro);
+
+###############################################################################################################################
+
+#
+
+
+var total_custo_V_marco = document.getElementById("");
+var Suplementação_marco            = document.getElementById("");
+var Linha_Branca_Sal_mineral_marco = document.getElementById("");
+var Carrapaticidasmarco               = document.getElementById("");
+var Mosca_do_chifremarco              = document.getElementById("");
+var Vermífugomarco                    = document.getElementById("");
+var Vacina_de_aftosamarco             = document.getElementById("");
+var Vacina_clostridiosemarco          = document.getElementById("");
+var Outras_vacinasmarco               = document.getElementById("");
+var Outros_medicamentosmarco          = document.getElementById("");
+var Mão_de_obra_temporáriamarco       = document.getElementById("");
+var Materiais_p_Fazenda_marco         = document.getElementById("");
+var Curral_marco                      = document.getElementById("");
+var Frete_Carretas_marco              = document.getElementById("");
+var Casas_marco                        = document.getElementById("");
+var Tratores_marco                    = document.getElementById("");
+var Máquinas_marco                    = document.getElementById("");
+var Combustível_marco                  = document.getElementById("");
+var Outros_marco                      = document.getElementById("");
+var Celular_marco                     = document.getElementById("");
+var Encargos_Bancos_marco             = document.getElementById("");
+var Elabor_Projeto_Pecuario_marco         = document.getElementById("");
+var Energia_elétrica_marco             = document.getElementById("");
+var Aquisição_de_animaismarco         = document.getElementById("");
+var OUTROS_1_marco                     = document.getElementById("");
+var OUTROS_2_marco                    = document.getElementById("");
+var OUTROS_3_marco                    = document.getElementById("");
+var OUTROS_4_marco                    = document.getElementById("");
+var OUTROS_5_marco                    = document.getElementById("");
+function  Total_CV_marco(){
+    total_custo_V_marco.innerHTML=
+        parseInt(Suplementaçãomarco.value)+
+        parseInt(Linha_Branca_Sal_mineral_marco.value)+
+        parseInt(Carrapaticidasmarco.value)+
+        parseInt(Mosca_do_chifremarco.value)+
+        parseInt(Vermífugomarco.value)+
+        parseInt(Vacina_de_aftosamarco.value)+
+        parseInt(Vacina_clostridiosemarco.value)+
+        parseInt(Outras_vacinasmarco.value)+
+        parseInt(Outros_medicamentosmarco.value)+
+        parseInt(Mão_de_obra_temporáriamarco.value)+
+        parseInt(Materiais_p_Fazenda_marco.value)+
+        parseInt(Curral_marco  .value)+
+        parseInt(Frete_Carretas_marco .value)+
+        parseInt(Casas_marco   .value)+
+        parseInt(Tratores_marco.value)+
+        parseInt(Máquinas_marco.value)+
+        parseInt(Combustível_marco.value)+
+        parseInt(Outros_marco.value)+
+        parseInt(Celular_marco.value)+
+        parseInt(Encargos_Bancos_marco.value)+
+        parseInt(Elabor_Projeto_Pecuario_marco.value)+
+        parseInt(Energia_elétrica_marco.value)+
+        parseInt(Aquisição_de_animaismarco.value)+
+        parseInt(OUTROS_1_marco.value)+
+        parseInt(OUTROS_2_marco.value)+
+        parseInt(OUTROS_3_marco.value)+
+        parseInt(OUTROS_4_marco.value)+
+        parseInt(OUTROS_5_marco.value);
+}
+          Total_CV_marco();
+
+Suplementaçãomarco.addEventListener("keyup",Total_CV_marco);
+Linha_Branca_Sal_mineral_marco.addEventListener("keyup",Total_CV_marco);
+Carrapaticidasmarco.addEventListener("keyup",Total_CV_marco);
+Mosca_do_chifremarco.addEventListener("keyup",Total_CV_marco);
+Vermífugomarco.addEventListener("keyup",Total_CV_marco);
+Vacina_de_aftosamarco.addEventListener("keyup",Total_CV_marco);
+Vacina_clostridiosemarco.addEventListener("keyup",Total_CV_marco);
+Outras_vacinasmarco.addEventListener("keyup",Total_CV_marco);
+Outros_medicamentosmarco.addEventListener("keyup",Total_CV_marco);
+Mão_de_obra_temporáriamarco.addEventListener("keyup",Total_CV_marco);
+Materiais_p_Fazenda_marco.addEventListener("keyup",Total_CV_marco);
+Curral_marco.addEventListener("keyup",Total_CV_marco);
+Frete_Carretas_marco.addEventListener("keyup",Total_CV_marco);
+Casas_marco.addEventListener("keyup",Total_CV_marco);
+Tratores_marco.addEventListener("keyup",Total_CV_marco);
+Máquinas_marco.addEventListener("keyup",Total_CV_marco);
+Combustível_marco.addEventListener("keyup",Total_CV_marco);
+Outros_marco.addEventListener("keyup",Total_CV_marco);
+Celular_marco.addEventListener("keyup",Total_CV_marco);
+Encargos_Bancos_marco.addEventListener("keyup",Total_CV_marco);
+Elabor_Projeto_Pecuario_marco.addEventListener("keyup",Total_CV_marco);
+Energia_elétrica_marco.addEventListener("keyup",Total_CV_marco);
+Aquisição_de_animaismarco.addEventListener("keyup",Total_CV_marco);
+OUTROS_1_marco.addEventListener("keyup",Total_CV_marco);
+OUTROS_2_marco.addEventListener("keyup",Total_CV_marco);
+OUTROS_3_marco.addEventListener("keyup",Total_CV_marco);
+OUTROS_4_marco.addEventListener("keyup",Total_CV_marco);
+OUTROS_5_marco.addEventListener("keyup",Total_CV_marco);
+
+###############################################################################################################################
+#
+
+
+var total_custo_V_abril = document.getElementById("");
+var Suplementação_abril            = document.getElementById("");
+var Linha_Branca_Sal_mineral_abril = document.getElementById("");
+var Carrapaticidasabril               = document.getElementById("");
+var Mosca_do_chifreabril              = document.getElementById("");
+var Vermífugoabril                    = document.getElementById("");
+var Vacina_de_aftosaabril             = document.getElementById("");
+var Vacina_clostridioseabril          = document.getElementById("");
+var Outras_vacinasabril               = document.getElementById("");
+var Outros_medicamentosabril          = document.getElementById("");
+var Mão_de_obra_temporáriaabril       = document.getElementById("");
+var Materiais_p_Fazenda_abril         = document.getElementById("");
+var Curral_abril                      = document.getElementById("");
+var Frete_Carretas_abril              = document.getElementById("");
+var Casas_abril                        = document.getElementById("");
+var Tratores_abril                    = document.getElementById("");
+var Máquinas_abril                    = document.getElementById("");
+var Combustível_abril                  = document.getElementById("");
+var Outros_abril                      = document.getElementById("");
+var Celular_abril                     = document.getElementById("");
+var Encargos_Bancos_abril             = document.getElementById("");
+var Elabor_Projeto_Pecuario_abril         = document.getElementById("");
+var Energia_elétrica_abril             = document.getElementById("");
+var Aquisição_de_animaisabril         = document.getElementById("");
+var OUTROS_1_abril                     = document.getElementById("");
+var OUTROS_2_abril                    = document.getElementById("");
+var OUTROS_3_abril                    = document.getElementById("");
+var OUTROS_4_abril                    = document.getElementById("");
+var OUTROS_5_abril                    = document.getElementById("");
+function  Total_CV_abril(){
+    total_custo_V_abril.innerHTML=
+        parseInt(Suplementaçãoabril.value)+
+        parseInt(Linha_Branca_Sal_mineral_abril.value)+
+        parseInt(Carrapaticidasabril.value)+
+        parseInt(Mosca_do_chifreabril.value)+
+        parseInt(Vermífugoabril.value)+
+        parseInt(Vacina_de_aftosaabril.value)+
+        parseInt(Vacina_clostridioseabril.value)+
+        parseInt(Outras_vacinasabril.value)+
+        parseInt(Outros_medicamentosabril.value)+
+        parseInt(Mão_de_obra_temporáriaabril.value)+
+        parseInt(Materiais_p_Fazenda_abril.value)+
+        parseInt(Curral_abril  .value)+
+        parseInt(Frete_Carretas_abril .value)+
+        parseInt(Casas_abril   .value)+
+        parseInt(Tratores_abril.value)+
+        parseInt(Máquinas_abril.value)+
+        parseInt(Combustível_abril.value)+
+        parseInt(Outros_abril.value)+
+        parseInt(Celular_abril.value)+
+        parseInt(Encargos_Bancos_abril.value)+
+        parseInt(Elabor_Projeto_Pecuario_abril.value)+
+        parseInt(Energia_elétrica_abril.value)+
+        parseInt(Aquisição_de_animaisabril.value)+
+        parseInt(OUTROS_1_abril.value)+
+        parseInt(OUTROS_2_abril.value)+
+        parseInt(OUTROS_3_abril.value)+
+        parseInt(OUTROS_4_abril.value)+
+        parseInt(OUTROS_5_abril.value);
+}
+          Total_CV_abril();
+
+Suplementaçãoabril.addEventListener("keyup",Total_CV_abril);
+Linha_Branca_Sal_mineral_abril.addEventListener("keyup",Total_CV_abril);
+Carrapaticidasabril.addEventListener("keyup",Total_CV_abril);
+Mosca_do_chifreabril.addEventListener("keyup",Total_CV_abril);
+Vermífugoabril.addEventListener("keyup",Total_CV_abril);
+Vacina_de_aftosaabril.addEventListener("keyup",Total_CV_abril);
+Vacina_clostridioseabril.addEventListener("keyup",Total_CV_abril);
+Outras_vacinasabril.addEventListener("keyup",Total_CV_abril);
+Outros_medicamentosabril.addEventListener("keyup",Total_CV_abril);
+Mão_de_obra_temporáriaabril.addEventListener("keyup",Total_CV_abril);
+Materiais_p_Fazenda_abril.addEventListener("keyup",Total_CV_abril);
+Curral_abril.addEventListener("keyup",Total_CV_abril);
+Frete_Carretas_abril.addEventListener("keyup",Total_CV_abril);
+Casas_abril.addEventListener("keyup",Total_CV_abril);
+Tratores_abril.addEventListener("keyup",Total_CV_abril);
+Máquinas_abril.addEventListener("keyup",Total_CV_abril);
+Combustível_abril.addEventListener("keyup",Total_CV_abril);
+Outros_abril.addEventListener("keyup",Total_CV_abril);
+Celular_abril.addEventListener("keyup",Total_CV_abril);
+Encargos_Bancos_abril.addEventListener("keyup",Total_CV_abril);
+Elabor_Projeto_Pecuario_abril.addEventListener("keyup",Total_CV_abril);
+Energia_elétrica_abril.addEventListener("keyup",Total_CV_abril);
+Aquisição_de_animaisabril.addEventListener("keyup",Total_CV_abril);
+OUTROS_1_abril.addEventListener("keyup",Total_CV_abril);
+OUTROS_2_abril.addEventListener("keyup",Total_CV_abril);
+OUTROS_3_abril.addEventListener("keyup",Total_CV_abril);
+OUTROS_4_abril.addEventListener("keyup",Total_CV_abril);
+OUTROS_5_abril.addEventListener("keyup",Total_CV_abril);
+
+###############################################################################################################################
+#
+
+
+var total_custo_V_maio = document.getElementById("");
+var Suplementação_maio            = document.getElementById("");
+var Linha_Branca_Sal_mineral_maio = document.getElementById("");
+var Carrapaticidasmaio               = document.getElementById("");
+var Mosca_do_chifremaio              = document.getElementById("");
+var Vermífugomaio                    = document.getElementById("");
+var Vacina_de_aftosamaio             = document.getElementById("");
+var Vacina_clostridiosemaio          = document.getElementById("");
+var Outras_vacinasmaio               = document.getElementById("");
+var Outros_medicamentosmaio          = document.getElementById("");
+var Mão_de_obra_temporáriamaio       = document.getElementById("");
+var Materiais_p_Fazenda_maio         = document.getElementById("");
+var Curral_maio                      = document.getElementById("");
+var Frete_Carretas_maio              = document.getElementById("");
+var Casas_maio                        = document.getElementById("");
+var Tratores_maio                    = document.getElementById("");
+var Máquinas_maio                    = document.getElementById("");
+var Combustível_maio                  = document.getElementById("");
+var Outros_maio                      = document.getElementById("");
+var Celular_maio                     = document.getElementById("");
+var Encargos_Bancos_maio             = document.getElementById("");
+var Elabor_Projeto_Pecuario_maio         = document.getElementById("");
+var Energia_elétrica_maio             = document.getElementById("");
+var Aquisição_de_animaismaio         = document.getElementById("");
+var OUTROS_1_maio                     = document.getElementById("");
+var OUTROS_2_maio                    = document.getElementById("");
+var OUTROS_3_maio                    = document.getElementById("");
+var OUTROS_4_maio                    = document.getElementById("");
+var OUTROS_5_maio                    = document.getElementById("");
+function  Total_CV_maio(){
+    total_custo_V_maio.innerHTML=
+        parseInt(Suplementaçãomaio.value)+
+        parseInt(Linha_Branca_Sal_mineral_maio.value)+
+        parseInt(Carrapaticidasmaio.value)+
+        parseInt(Mosca_do_chifremaio.value)+
+        parseInt(Vermífugomaio.value)+
+        parseInt(Vacina_de_aftosamaio.value)+
+        parseInt(Vacina_clostridiosemaio.value)+
+        parseInt(Outras_vacinasmaio.value)+
+        parseInt(Outros_medicamentosmaio.value)+
+        parseInt(Mão_de_obra_temporáriamaio.value)+
+        parseInt(Materiais_p_Fazenda_maio.value)+
+        parseInt(Curral_maio  .value)+
+        parseInt(Frete_Carretas_maio .value)+
+        parseInt(Casas_maio   .value)+
+        parseInt(Tratores_maio.value)+
+        parseInt(Máquinas_maio.value)+
+        parseInt(Combustível_maio.value)+
+        parseInt(Outros_maio.value)+
+        parseInt(Celular_maio.value)+
+        parseInt(Encargos_Bancos_maio.value)+
+        parseInt(Elabor_Projeto_Pecuario_maio.value)+
+        parseInt(Energia_elétrica_maio.value)+
+        parseInt(Aquisição_de_animaismaio.value)+
+        parseInt(OUTROS_1_maio.value)+
+        parseInt(OUTROS_2_maio.value)+
+        parseInt(OUTROS_3_maio.value)+
+        parseInt(OUTROS_4_maio.value)+
+        parseInt(OUTROS_5_maio.value);
+}
+          Total_CV_maio();
+
+Suplementaçãomaio.addEventListener("keyup",Total_CV_maio);
+Linha_Branca_Sal_mineral_maio.addEventListener("keyup",Total_CV_maio);
+Carrapaticidasmaio.addEventListener("keyup",Total_CV_maio);
+Mosca_do_chifremaio.addEventListener("keyup",Total_CV_maio);
+Vermífugomaio.addEventListener("keyup",Total_CV_maio);
+Vacina_de_aftosamaio.addEventListener("keyup",Total_CV_maio);
+Vacina_clostridiosemaio.addEventListener("keyup",Total_CV_maio);
+Outras_vacinasmaio.addEventListener("keyup",Total_CV_maio);
+Outros_medicamentosmaio.addEventListener("keyup",Total_CV_maio);
+Mão_de_obra_temporáriamaio.addEventListener("keyup",Total_CV_maio);
+Materiais_p_Fazenda_maio.addEventListener("keyup",Total_CV_maio);
+Curral_maio.addEventListener("keyup",Total_CV_maio);
+Frete_Carretas_maio.addEventListener("keyup",Total_CV_maio);
+Casas_maio.addEventListener("keyup",Total_CV_maio);
+Tratores_maio.addEventListener("keyup",Total_CV_maio);
+Máquinas_maio.addEventListener("keyup",Total_CV_maio);
+Combustível_maio.addEventListener("keyup",Total_CV_maio);
+Outros_maio.addEventListener("keyup",Total_CV_maio);
+Celular_maio.addEventListener("keyup",Total_CV_maio);
+Encargos_Bancos_maio.addEventListener("keyup",Total_CV_maio);
+Elabor_Projeto_Pecuario_maio.addEventListener("keyup",Total_CV_maio);
+Energia_elétrica_maio.addEventListener("keyup",Total_CV_maio);
+Aquisição_de_animaismaio.addEventListener("keyup",Total_CV_maio);
+OUTROS_1_maio.addEventListener("keyup",Total_CV_maio);
+OUTROS_2_maio.addEventListener("keyup",Total_CV_maio);
+OUTROS_3_maio.addEventListener("keyup",Total_CV_maio);
+OUTROS_4_maio.addEventListener("keyup",Total_CV_maio);
+OUTROS_5_maio.addEventListener("keyup",Total_CV_maio);
+
+###############################################################################################################################
+#
+
+
+var total_custo_V_junho = document.getElementById("");
+var Suplementação_junho            = document.getElementById("");
+var Linha_Branca_Sal_mineral_junho = document.getElementById("");
+var Carrapaticidasjunho               = document.getElementById("");
+var Mosca_do_chifrejunho              = document.getElementById("");
+var Vermífugojunho                    = document.getElementById("");
+var Vacina_de_aftosajunho             = document.getElementById("");
+var Vacina_clostridiosejunho          = document.getElementById("");
+var Outras_vacinasjunho               = document.getElementById("");
+var Outros_medicamentosjunho          = document.getElementById("");
+var Mão_de_obra_temporáriajunho       = document.getElementById("");
+var Materiais_p_Fazenda_junho         = document.getElementById("");
+var Curral_junho                      = document.getElementById("");
+var Frete_Carretas_junho              = document.getElementById("");
+var Casas_junho                        = document.getElementById("");
+var Tratores_junho                    = document.getElementById("");
+var Máquinas_junho                    = document.getElementById("");
+var Combustível_junho                  = document.getElementById("");
+var Outros_junho                      = document.getElementById("");
+var Celular_junho                     = document.getElementById("");
+var Encargos_Bancos_junho             = document.getElementById("");
+var Elabor_Projeto_Pecuario_junho         = document.getElementById("");
+var Energia_elétrica_junho             = document.getElementById("");
+var Aquisição_de_animaisjunho         = document.getElementById("");
+var OUTROS_1_junho                     = document.getElementById("");
+var OUTROS_2_junho                    = document.getElementById("");
+var OUTROS_3_junho                    = document.getElementById("");
+var OUTROS_4_junho                    = document.getElementById("");
+var OUTROS_5_junho                    = document.getElementById("");
+function  Total_CV_junho(){
+    total_custo_V_junho.innerHTML=
+        parseInt(Suplementaçãojunho.value)+
+        parseInt(Linha_Branca_Sal_mineral_junho.value)+
+        parseInt(Carrapaticidasjunho.value)+
+        parseInt(Mosca_do_chifrejunho.value)+
+        parseInt(Vermífugojunho.value)+
+        parseInt(Vacina_de_aftosajunho.value)+
+        parseInt(Vacina_clostridiosejunho.value)+
+        parseInt(Outras_vacinasjunho.value)+
+        parseInt(Outros_medicamentosjunho.value)+
+        parseInt(Mão_de_obra_temporáriajunho.value)+
+        parseInt(Materiais_p_Fazenda_junho.value)+
+        parseInt(Curral_junho  .value)+
+        parseInt(Frete_Carretas_junho .value)+
+        parseInt(Casas_junho   .value)+
+        parseInt(Tratores_junho.value)+
+        parseInt(Máquinas_junho.value)+
+        parseInt(Combustível_junho.value)+
+        parseInt(Outros_junho.value)+
+        parseInt(Celular_junho.value)+
+        parseInt(Encargos_Bancos_junho.value)+
+        parseInt(Elabor_Projeto_Pecuario_junho.value)+
+        parseInt(Energia_elétrica_junho.value)+
+        parseInt(Aquisição_de_animaisjunho.value)+
+        parseInt(OUTROS_1_junho.value)+
+        parseInt(OUTROS_2_junho.value)+
+        parseInt(OUTROS_3_junho.value)+
+        parseInt(OUTROS_4_junho.value)+
+        parseInt(OUTROS_5_junho.value);
+}
+          Total_CV_junho();
+
+Suplementaçãojunho.addEventListener("keyup",Total_CV_junho);
+Linha_Branca_Sal_mineral_junho.addEventListener("keyup",Total_CV_junho);
+Carrapaticidasjunho.addEventListener("keyup",Total_CV_junho);
+Mosca_do_chifrejunho.addEventListener("keyup",Total_CV_junho);
+Vermífugojunho.addEventListener("keyup",Total_CV_junho);
+Vacina_de_aftosajunho.addEventListener("keyup",Total_CV_junho);
+Vacina_clostridiosejunho.addEventListener("keyup",Total_CV_junho);
+Outras_vacinasjunho.addEventListener("keyup",Total_CV_junho);
+Outros_medicamentosjunho.addEventListener("keyup",Total_CV_junho);
+Mão_de_obra_temporáriajunho.addEventListener("keyup",Total_CV_junho);
+Materiais_p_Fazenda_junho.addEventListener("keyup",Total_CV_junho);
+Curral_junho.addEventListener("keyup",Total_CV_junho);
+Frete_Carretas_junho.addEventListener("keyup",Total_CV_junho);
+Casas_junho.addEventListener("keyup",Total_CV_junho);
+Tratores_junho.addEventListener("keyup",Total_CV_junho);
+Máquinas_junho.addEventListener("keyup",Total_CV_junho);
+Combustível_junho.addEventListener("keyup",Total_CV_junho);
+Outros_junho.addEventListener("keyup",Total_CV_junho);
+Celular_junho.addEventListener("keyup",Total_CV_junho);
+Encargos_Bancos_junho.addEventListener("keyup",Total_CV_junho);
+Elabor_Projeto_Pecuario_junho.addEventListener("keyup",Total_CV_junho);
+Energia_elétrica_junho.addEventListener("keyup",Total_CV_junho);
+Aquisição_de_animaisjunho.addEventListener("keyup",Total_CV_junho);
+OUTROS_1_junho.addEventListener("keyup",Total_CV_junho);
+OUTROS_2_junho.addEventListener("keyup",Total_CV_junho);
+OUTROS_3_junho.addEventListener("keyup",Total_CV_junho);
+OUTROS_4_junho.addEventListener("keyup",Total_CV_junho);
+OUTROS_5_junho.addEventListener("keyup",Total_CV_junho);
+
+###############################################################################################################################
+#
+
+
+var total_custo_V_julho = document.getElementById("");
+var Suplementação_julho            = document.getElementById("");
+var Linha_Branca_Sal_mineral_julho = document.getElementById("");
+var Carrapaticidasjulho               = document.getElementById("");
+var Mosca_do_chifrejulho              = document.getElementById("");
+var Vermífugojulho                    = document.getElementById("");
+var Vacina_de_aftosajulho             = document.getElementById("");
+var Vacina_clostridiosejulho          = document.getElementById("");
+var Outras_vacinasjulho               = document.getElementById("");
+var Outros_medicamentosjulho          = document.getElementById("");
+var Mão_de_obra_temporáriajulho       = document.getElementById("");
+var Materiais_p_Fazenda_julho         = document.getElementById("");
+var Curral_julho                      = document.getElementById("");
+var Frete_Carretas_julho              = document.getElementById("");
+var Casas_julho                        = document.getElementById("");
+var Tratores_julho                    = document.getElementById("");
+var Máquinas_julho                    = document.getElementById("");
+var Combustível_julho                  = document.getElementById("");
+var Outros_julho                      = document.getElementById("");
+var Celular_julho                     = document.getElementById("");
+var Encargos_Bancos_julho             = document.getElementById("");
+var Elabor_Projeto_Pecuario_julho         = document.getElementById("");
+var Energia_elétrica_julho             = document.getElementById("");
+var Aquisição_de_animaisjulho         = document.getElementById("");
+var OUTROS_1_julho                     = document.getElementById("");
+var OUTROS_2_julho                    = document.getElementById("");
+var OUTROS_3_julho                    = document.getElementById("");
+var OUTROS_4_julho                    = document.getElementById("");
+var OUTROS_5_julho                    = document.getElementById("");
+function  Total_CV_julho(){
+    total_custo_V_julho.innerHTML=
+        parseInt(Suplementaçãojulho.value)+
+        parseInt(Linha_Branca_Sal_mineral_julho.value)+
+        parseInt(Carrapaticidasjulho.value)+
+        parseInt(Mosca_do_chifrejulho.value)+
+        parseInt(Vermífugojulho.value)+
+        parseInt(Vacina_de_aftosajulho.value)+
+        parseInt(Vacina_clostridiosejulho.value)+
+        parseInt(Outras_vacinasjulho.value)+
+        parseInt(Outros_medicamentosjulho.value)+
+        parseInt(Mão_de_obra_temporáriajulho.value)+
+        parseInt(Materiais_p_Fazenda_julho.value)+
+        parseInt(Curral_julho  .value)+
+        parseInt(Frete_Carretas_julho .value)+
+        parseInt(Casas_julho   .value)+
+        parseInt(Tratores_julho.value)+
+        parseInt(Máquinas_julho.value)+
+        parseInt(Combustível_julho.value)+
+        parseInt(Outros_julho.value)+
+        parseInt(Celular_julho.value)+
+        parseInt(Encargos_Bancos_julho.value)+
+        parseInt(Elabor_Projeto_Pecuario_julho.value)+
+        parseInt(Energia_elétrica_julho.value)+
+        parseInt(Aquisição_de_animaisjulho.value)+
+        parseInt(OUTROS_1_julho.value)+
+        parseInt(OUTROS_2_julho.value)+
+        parseInt(OUTROS_3_julho.value)+
+        parseInt(OUTROS_4_julho.value)+
+        parseInt(OUTROS_5_julho.value);
+}
+          Total_CV_julho();
+
+Suplementaçãojulho.addEventListener("keyup",Total_CV_julho);
+Linha_Branca_Sal_mineral_julho.addEventListener("keyup",Total_CV_julho);
+Carrapaticidasjulho.addEventListener("keyup",Total_CV_julho);
+Mosca_do_chifrejulho.addEventListener("keyup",Total_CV_julho);
+Vermífugojulho.addEventListener("keyup",Total_CV_julho);
+Vacina_de_aftosajulho.addEventListener("keyup",Total_CV_julho);
+Vacina_clostridiosejulho.addEventListener("keyup",Total_CV_julho);
+Outras_vacinasjulho.addEventListener("keyup",Total_CV_julho);
+Outros_medicamentosjulho.addEventListener("keyup",Total_CV_julho);
+Mão_de_obra_temporáriajulho.addEventListener("keyup",Total_CV_julho);
+Materiais_p_Fazenda_julho.addEventListener("keyup",Total_CV_julho);
+Curral_julho.addEventListener("keyup",Total_CV_julho);
+Frete_Carretas_julho.addEventListener("keyup",Total_CV_julho);
+Casas_julho.addEventListener("keyup",Total_CV_julho);
+Tratores_julho.addEventListener("keyup",Total_CV_julho);
+Máquinas_julho.addEventListener("keyup",Total_CV_julho);
+Combustível_julho.addEventListener("keyup",Total_CV_julho);
+Outros_julho.addEventListener("keyup",Total_CV_julho);
+Celular_julho.addEventListener("keyup",Total_CV_julho);
+Encargos_Bancos_julho.addEventListener("keyup",Total_CV_julho);
+Elabor_Projeto_Pecuario_julho.addEventListener("keyup",Total_CV_julho);
+Energia_elétrica_julho.addEventListener("keyup",Total_CV_julho);
+Aquisição_de_animaisjulho.addEventListener("keyup",Total_CV_julho);
+OUTROS_1_julho.addEventListener("keyup",Total_CV_julho);
+OUTROS_2_julho.addEventListener("keyup",Total_CV_julho);
+OUTROS_3_julho.addEventListener("keyup",Total_CV_julho);
+OUTROS_4_julho.addEventListener("keyup",Total_CV_julho);
+OUTROS_5_julho.addEventListener("keyup",Total_CV_julho);
+
+###############################################################################################################################
+#
+
+
+var total_custo_V_agosto = document.getElementById("");
+var Suplementação_agosto            = document.getElementById("");
+var Linha_Branca_Sal_mineral_agosto = document.getElementById("");
+var Carrapaticidasagosto               = document.getElementById("");
+var Mosca_do_chifreagosto              = document.getElementById("");
+var Vermífugoagosto                    = document.getElementById("");
+var Vacina_de_aftosaagosto             = document.getElementById("");
+var Vacina_clostridioseagosto          = document.getElementById("");
+var Outras_vacinasagosto               = document.getElementById("");
+var Outros_medicamentosagosto          = document.getElementById("");
+var Mão_de_obra_temporáriaagosto       = document.getElementById("");
+var Materiais_p_Fazenda_agosto         = document.getElementById("");
+var Curral_agosto                      = document.getElementById("");
+var Frete_Carretas_agosto              = document.getElementById("");
+var Casas_agosto                        = document.getElementById("");
+var Tratores_agosto                    = document.getElementById("");
+var Máquinas_agosto                    = document.getElementById("");
+var Combustível_agosto                  = document.getElementById("");
+var Outros_agosto                      = document.getElementById("");
+var Celular_agosto                     = document.getElementById("");
+var Encargos_Bancos_agosto             = document.getElementById("");
+var Elabor_Projeto_Pecuario_agosto         = document.getElementById("");
+var Energia_elétrica_agosto             = document.getElementById("");
+var Aquisição_de_animaisagosto         = document.getElementById("");
+var OUTROS_1_agosto                     = document.getElementById("");
+var OUTROS_2_agosto                    = document.getElementById("");
+var OUTROS_3_agosto                    = document.getElementById("");
+var OUTROS_4_agosto                    = document.getElementById("");
+var OUTROS_5_agosto                    = document.getElementById("");
+function  Total_CV_agosto(){
+    total_custo_V_agosto.innerHTML=
+        parseInt(Suplementaçãoagosto.value)+
+        parseInt(Linha_Branca_Sal_mineral_agosto.value)+
+        parseInt(Carrapaticidasagosto.value)+
+        parseInt(Mosca_do_chifreagosto.value)+
+        parseInt(Vermífugoagosto.value)+
+        parseInt(Vacina_de_aftosaagosto.value)+
+        parseInt(Vacina_clostridioseagosto.value)+
+        parseInt(Outras_vacinasagosto.value)+
+        parseInt(Outros_medicamentosagosto.value)+
+        parseInt(Mão_de_obra_temporáriaagosto.value)+
+        parseInt(Materiais_p_Fazenda_agosto.value)+
+        parseInt(Curral_agosto  .value)+
+        parseInt(Frete_Carretas_agosto .value)+
+        parseInt(Casas_agosto   .value)+
+        parseInt(Tratores_agosto.value)+
+        parseInt(Máquinas_agosto.value)+
+        parseInt(Combustível_agosto.value)+
+        parseInt(Outros_agosto.value)+
+        parseInt(Celular_agosto.value)+
+        parseInt(Encargos_Bancos_agosto.value)+
+        parseInt(Elabor_Projeto_Pecuario_agosto.value)+
+        parseInt(Energia_elétrica_agosto.value)+
+        parseInt(Aquisição_de_animaisagosto.value)+
+        parseInt(OUTROS_1_agosto.value)+
+        parseInt(OUTROS_2_agosto.value)+
+        parseInt(OUTROS_3_agosto.value)+
+        parseInt(OUTROS_4_agosto.value)+
+        parseInt(OUTROS_5_agosto.value);
+}
+          Total_CV_agosto();
+
+Suplementaçãoagosto.addEventListener("keyup",Total_CV_agosto);
+Linha_Branca_Sal_mineral_agosto.addEventListener("keyup",Total_CV_agosto);
+Carrapaticidasagosto.addEventListener("keyup",Total_CV_agosto);
+Mosca_do_chifreagosto.addEventListener("keyup",Total_CV_agosto);
+Vermífugoagosto.addEventListener("keyup",Total_CV_agosto);
+Vacina_de_aftosaagosto.addEventListener("keyup",Total_CV_agosto);
+Vacina_clostridioseagosto.addEventListener("keyup",Total_CV_agosto);
+Outras_vacinasagosto.addEventListener("keyup",Total_CV_agosto);
+Outros_medicamentosagosto.addEventListener("keyup",Total_CV_agosto);
+Mão_de_obra_temporáriaagosto.addEventListener("keyup",Total_CV_agosto);
+Materiais_p_Fazenda_agosto.addEventListener("keyup",Total_CV_agosto);
+Curral_agosto.addEventListener("keyup",Total_CV_agosto);
+Frete_Carretas_agosto.addEventListener("keyup",Total_CV_agosto);
+Casas_agosto.addEventListener("keyup",Total_CV_agosto);
+Tratores_agosto.addEventListener("keyup",Total_CV_agosto);
+Máquinas_agosto.addEventListener("keyup",Total_CV_agosto);
+Combustível_agosto.addEventListener("keyup",Total_CV_agosto);
+Outros_agosto.addEventListener("keyup",Total_CV_agosto);
+Celular_agosto.addEventListener("keyup",Total_CV_agosto);
+Encargos_Bancos_agosto.addEventListener("keyup",Total_CV_agosto);
+Elabor_Projeto_Pecuario_agosto.addEventListener("keyup",Total_CV_agosto);
+Energia_elétrica_agosto.addEventListener("keyup",Total_CV_agosto);
+Aquisição_de_animaisagosto.addEventListener("keyup",Total_CV_agosto);
+OUTROS_1_agosto.addEventListener("keyup",Total_CV_agosto);
+OUTROS_2_agosto.addEventListener("keyup",Total_CV_agosto);
+OUTROS_3_agosto.addEventListener("keyup",Total_CV_agosto);
+OUTROS_4_agosto.addEventListener("keyup",Total_CV_agosto);
+OUTROS_5_agosto.addEventListener("keyup",Total_CV_agosto);
+
+###############################################################################################################################
+#
+
+
+var total_custo_V_setembro = document.getElementById("");
+var Suplementação_setembro            = document.getElementById("");
+var Linha_Branca_Sal_mineral_setembro = document.getElementById("");
+var Carrapaticidassetembro               = document.getElementById("");
+var Mosca_do_chifresetembro              = document.getElementById("");
+var Vermífugosetembro                    = document.getElementById("");
+var Vacina_de_aftosasetembro             = document.getElementById("");
+var Vacina_clostridiosesetembro          = document.getElementById("");
+var Outras_vacinassetembro               = document.getElementById("");
+var Outros_medicamentossetembro          = document.getElementById("");
+var Mão_de_obra_temporáriasetembro       = document.getElementById("");
+var Materiais_p_Fazenda_setembro         = document.getElementById("");
+var Curral_setembro                      = document.getElementById("");
+var Frete_Carretas_setembro              = document.getElementById("");
+var Casas_setembro                        = document.getElementById("");
+var Tratores_setembro                    = document.getElementById("");
+var Máquinas_setembro                    = document.getElementById("");
+var Combustível_setembro                  = document.getElementById("");
+var Outros_setembro                      = document.getElementById("");
+var Celular_setembro                     = document.getElementById("");
+var Encargos_Bancos_setembro             = document.getElementById("");
+var Elabor_Projeto_Pecuario_setembro         = document.getElementById("");
+var Energia_elétrica_setembro             = document.getElementById("");
+var Aquisição_de_animaissetembro         = document.getElementById("");
+var OUTROS_1_setembro                     = document.getElementById("");
+var OUTROS_2_setembro                    = document.getElementById("");
+var OUTROS_3_setembro                    = document.getElementById("");
+var OUTROS_4_setembro                    = document.getElementById("");
+var OUTROS_5_setembro                    = document.getElementById("");
+function  Total_CV_setembro(){
+    total_custo_V_setembro.innerHTML=
+        parseInt(Suplementaçãosetembro.value)+
+        parseInt(Linha_Branca_Sal_mineral_setembro.value)+
+        parseInt(Carrapaticidassetembro.value)+
+        parseInt(Mosca_do_chifresetembro.value)+
+        parseInt(Vermífugosetembro.value)+
+        parseInt(Vacina_de_aftosasetembro.value)+
+        parseInt(Vacina_clostridiosesetembro.value)+
+        parseInt(Outras_vacinassetembro.value)+
+        parseInt(Outros_medicamentossetembro.value)+
+        parseInt(Mão_de_obra_temporáriasetembro.value)+
+        parseInt(Materiais_p_Fazenda_setembro.value)+
+        parseInt(Curral_setembro  .value)+
+        parseInt(Frete_Carretas_setembro .value)+
+        parseInt(Casas_setembro   .value)+
+        parseInt(Tratores_setembro.value)+
+        parseInt(Máquinas_setembro.value)+
+        parseInt(Combustível_setembro.value)+
+        parseInt(Outros_setembro.value)+
+        parseInt(Celular_setembro.value)+
+        parseInt(Encargos_Bancos_setembro.value)+
+        parseInt(Elabor_Projeto_Pecuario_setembro.value)+
+        parseInt(Energia_elétrica_setembro.value)+
+        parseInt(Aquisição_de_animaissetembro.value)+
+        parseInt(OUTROS_1_setembro.value)+
+        parseInt(OUTROS_2_setembro.value)+
+        parseInt(OUTROS_3_setembro.value)+
+        parseInt(OUTROS_4_setembro.value)+
+        parseInt(OUTROS_5_setembro.value);
+}
+          Total_CV_setembro();
+
+Suplementaçãosetembro.addEventListener("keyup",Total_CV_setembro);
+Linha_Branca_Sal_mineral_setembro.addEventListener("keyup",Total_CV_setembro);
+Carrapaticidassetembro.addEventListener("keyup",Total_CV_setembro);
+Mosca_do_chifresetembro.addEventListener("keyup",Total_CV_setembro);
+Vermífugosetembro.addEventListener("keyup",Total_CV_setembro);
+Vacina_de_aftosasetembro.addEventListener("keyup",Total_CV_setembro);
+Vacina_clostridiosesetembro.addEventListener("keyup",Total_CV_setembro);
+Outras_vacinassetembro.addEventListener("keyup",Total_CV_setembro);
+Outros_medicamentossetembro.addEventListener("keyup",Total_CV_setembro);
+Mão_de_obra_temporáriasetembro.addEventListener("keyup",Total_CV_setembro);
+Materiais_p_Fazenda_setembro.addEventListener("keyup",Total_CV_setembro);
+Curral_setembro.addEventListener("keyup",Total_CV_setembro);
+Frete_Carretas_setembro.addEventListener("keyup",Total_CV_setembro);
+Casas_setembro.addEventListener("keyup",Total_CV_setembro);
+Tratores_setembro.addEventListener("keyup",Total_CV_setembro);
+Máquinas_setembro.addEventListener("keyup",Total_CV_setembro);
+Combustível_setembro.addEventListener("keyup",Total_CV_setembro);
+Outros_setembro.addEventListener("keyup",Total_CV_setembro);
+Celular_setembro.addEventListener("keyup",Total_CV_setembro);
+Encargos_Bancos_setembro.addEventListener("keyup",Total_CV_setembro);
+Elabor_Projeto_Pecuario_setembro.addEventListener("keyup",Total_CV_setembro);
+Energia_elétrica_setembro.addEventListener("keyup",Total_CV_setembro);
+Aquisição_de_animaissetembro.addEventListener("keyup",Total_CV_setembro);
+OUTROS_1_setembro.addEventListener("keyup",Total_CV_setembro);
+OUTROS_2_setembro.addEventListener("keyup",Total_CV_setembro);
+OUTROS_3_setembro.addEventListener("keyup",Total_CV_setembro);
+OUTROS_4_setembro.addEventListener("keyup",Total_CV_setembro);
+OUTROS_5_setembro.addEventListener("keyup",Total_CV_setembro);
+
+###############################################################################################################################
+#
+
+
+var total_custo_V_outubro = document.getElementById("");
+var Suplementação_outubro            = document.getElementById("");
+var Linha_Branca_Sal_mineral_outubro = document.getElementById("");
+var Carrapaticidasoutubro               = document.getElementById("");
+var Mosca_do_chifreoutubro              = document.getElementById("");
+var Vermífugooutubro                    = document.getElementById("");
+var Vacina_de_aftosaoutubro             = document.getElementById("");
+var Vacina_clostridioseoutubro          = document.getElementById("");
+var Outras_vacinasoutubro               = document.getElementById("");
+var Outros_medicamentosoutubro          = document.getElementById("");
+var Mão_de_obra_temporáriaoutubro       = document.getElementById("");
+var Materiais_p_Fazenda_outubro         = document.getElementById("");
+var Curral_outubro                      = document.getElementById("");
+var Frete_Carretas_outubro              = document.getElementById("");
+var Casas_outubro                        = document.getElementById("");
+var Tratores_outubro                    = document.getElementById("");
+var Máquinas_outubro                    = document.getElementById("");
+var Combustível_outubro                  = document.getElementById("");
+var Outros_outubro                      = document.getElementById("");
+var Celular_outubro                     = document.getElementById("");
+var Encargos_Bancos_outubro             = document.getElementById("");
+var Elabor_Projeto_Pecuario_outubro         = document.getElementById("");
+var Energia_elétrica_outubro             = document.getElementById("");
+var Aquisição_de_animaisoutubro         = document.getElementById("");
+var OUTROS_1_outubro                     = document.getElementById("");
+var OUTROS_2_outubro                    = document.getElementById("");
+var OUTROS_3_outubro                    = document.getElementById("");
+var OUTROS_4_outubro                    = document.getElementById("");
+var OUTROS_5_outubro                    = document.getElementById("");
+function  Total_CV_outubro(){
+    total_custo_V_outubro.innerHTML=
+        parseInt(Suplementaçãooutubro.value)+
+        parseInt(Linha_Branca_Sal_mineral_outubro.value)+
+        parseInt(Carrapaticidasoutubro.value)+
+        parseInt(Mosca_do_chifreoutubro.value)+
+        parseInt(Vermífugooutubro.value)+
+        parseInt(Vacina_de_aftosaoutubro.value)+
+        parseInt(Vacina_clostridioseoutubro.value)+
+        parseInt(Outras_vacinasoutubro.value)+
+        parseInt(Outros_medicamentosoutubro.value)+
+        parseInt(Mão_de_obra_temporáriaoutubro.value)+
+        parseInt(Materiais_p_Fazenda_outubro.value)+
+        parseInt(Curral_outubro  .value)+
+        parseInt(Frete_Carretas_outubro .value)+
+        parseInt(Casas_outubro   .value)+
+        parseInt(Tratores_outubro.value)+
+        parseInt(Máquinas_outubro.value)+
+        parseInt(Combustível_outubro.value)+
+        parseInt(Outros_outubro.value)+
+        parseInt(Celular_outubro.value)+
+        parseInt(Encargos_Bancos_outubro.value)+
+        parseInt(Elabor_Projeto_Pecuario_outubro.value)+
+        parseInt(Energia_elétrica_outubro.value)+
+        parseInt(Aquisição_de_animaisoutubro.value)+
+        parseInt(OUTROS_1_outubro.value)+
+        parseInt(OUTROS_2_outubro.value)+
+        parseInt(OUTROS_3_outubro.value)+
+        parseInt(OUTROS_4_outubro.value)+
+        parseInt(OUTROS_5_outubro.value);
+}
+          Total_CV_outubro();
+
+Suplementaçãooutubro.addEventListener("keyup",Total_CV_outubro);
+Linha_Branca_Sal_mineral_outubro.addEventListener("keyup",Total_CV_outubro);
+Carrapaticidasoutubro.addEventListener("keyup",Total_CV_outubro);
+Mosca_do_chifreoutubro.addEventListener("keyup",Total_CV_outubro);
+Vermífugooutubro.addEventListener("keyup",Total_CV_outubro);
+Vacina_de_aftosaoutubro.addEventListener("keyup",Total_CV_outubro);
+Vacina_clostridioseoutubro.addEventListener("keyup",Total_CV_outubro);
+Outras_vacinasoutubro.addEventListener("keyup",Total_CV_outubro);
+Outros_medicamentosoutubro.addEventListener("keyup",Total_CV_outubro);
+Mão_de_obra_temporáriaoutubro.addEventListener("keyup",Total_CV_outubro);
+Materiais_p_Fazenda_outubro.addEventListener("keyup",Total_CV_outubro);
+Curral_outubro.addEventListener("keyup",Total_CV_outubro);
+Frete_Carretas_outubro.addEventListener("keyup",Total_CV_outubro);
+Casas_outubro.addEventListener("keyup",Total_CV_outubro);
+Tratores_outubro.addEventListener("keyup",Total_CV_outubro);
+Máquinas_outubro.addEventListener("keyup",Total_CV_outubro);
+Combustível_outubro.addEventListener("keyup",Total_CV_outubro);
+Outros_outubro.addEventListener("keyup",Total_CV_outubro);
+Celular_outubro.addEventListener("keyup",Total_CV_outubro);
+Encargos_Bancos_outubro.addEventListener("keyup",Total_CV_outubro);
+Elabor_Projeto_Pecuario_outubro.addEventListener("keyup",Total_CV_outubro);
+Energia_elétrica_outubro.addEventListener("keyup",Total_CV_outubro);
+Aquisição_de_animaisoutubro.addEventListener("keyup",Total_CV_outubro);
+OUTROS_1_outubro.addEventListener("keyup",Total_CV_outubro);
+OUTROS_2_outubro.addEventListener("keyup",Total_CV_outubro);
+OUTROS_3_outubro.addEventListener("keyup",Total_CV_outubro);
+OUTROS_4_outubro.addEventListener("keyup",Total_CV_outubro);
+OUTROS_5_outubro.addEventListener("keyup",Total_CV_outubro);
+
+###############################################################################################################################
+#
+
+
+var total_custo_V_novembro = document.getElementById("");
+var Suplementação_novembro            = document.getElementById("");
+var Linha_Branca_Sal_mineral_novembro = document.getElementById("");
+var Carrapaticidasnovembro               = document.getElementById("");
+var Mosca_do_chifrenovembro              = document.getElementById("");
+var Vermífugonovembro                    = document.getElementById("");
+var Vacina_de_aftosanovembro             = document.getElementById("");
+var Vacina_clostridiosenovembro          = document.getElementById("");
+var Outras_vacinasnovembro               = document.getElementById("");
+var Outros_medicamentosnovembro          = document.getElementById("");
+var Mão_de_obra_temporárianovembro       = document.getElementById("");
+var Materiais_p_Fazenda_novembro         = document.getElementById("");
+var Curral_novembro                      = document.getElementById("");
+var Frete_Carretas_novembro              = document.getElementById("");
+var Casas_novembro                        = document.getElementById("");
+var Tratores_novembro                    = document.getElementById("");
+var Máquinas_novembro                    = document.getElementById("");
+var Combustível_novembro                  = document.getElementById("");
+var Outros_novembro                      = document.getElementById("");
+var Celular_novembro                     = document.getElementById("");
+var Encargos_Bancos_novembro             = document.getElementById("");
+var Elabor_Projeto_Pecuario_novembro         = document.getElementById("");
+var Energia_elétrica_novembro             = document.getElementById("");
+var Aquisição_de_animaisnovembro         = document.getElementById("");
+var OUTROS_1_novembro                     = document.getElementById("");
+var OUTROS_2_novembro                    = document.getElementById("");
+var OUTROS_3_novembro                    = document.getElementById("");
+var OUTROS_4_novembro                    = document.getElementById("");
+var OUTROS_5_novembro                    = document.getElementById("");
+function  Total_CV_novembro(){
+    total_custo_V_novembro.innerHTML=
+        parseInt(Suplementaçãonovembro.value)+
+        parseInt(Linha_Branca_Sal_mineral_novembro.value)+
+        parseInt(Carrapaticidasnovembro.value)+
+        parseInt(Mosca_do_chifrenovembro.value)+
+        parseInt(Vermífugonovembro.value)+
+        parseInt(Vacina_de_aftosanovembro.value)+
+        parseInt(Vacina_clostridiosenovembro.value)+
+        parseInt(Outras_vacinasnovembro.value)+
+        parseInt(Outros_medicamentosnovembro.value)+
+        parseInt(Mão_de_obra_temporárianovembro.value)+
+        parseInt(Materiais_p_Fazenda_novembro.value)+
+        parseInt(Curral_novembro  .value)+
+        parseInt(Frete_Carretas_novembro .value)+
+        parseInt(Casas_novembro   .value)+
+        parseInt(Tratores_novembro.value)+
+        parseInt(Máquinas_novembro.value)+
+        parseInt(Combustível_novembro.value)+
+        parseInt(Outros_novembro.value)+
+        parseInt(Celular_novembro.value)+
+        parseInt(Encargos_Bancos_novembro.value)+
+        parseInt(Elabor_Projeto_Pecuario_novembro.value)+
+        parseInt(Energia_elétrica_novembro.value)+
+        parseInt(Aquisição_de_animaisnovembro.value)+
+        parseInt(OUTROS_1_novembro.value)+
+        parseInt(OUTROS_2_novembro.value)+
+        parseInt(OUTROS_3_novembro.value)+
+        parseInt(OUTROS_4_novembro.value)+
+        parseInt(OUTROS_5_novembro.value);
+}
+          Total_CV_novembro();
+
+Suplementaçãonovembro.addEventListener("keyup",Total_CV_novembro);
+Linha_Branca_Sal_mineral_novembro.addEventListener("keyup",Total_CV_novembro);
+Carrapaticidasnovembro.addEventListener("keyup",Total_CV_novembro);
+Mosca_do_chifrenovembro.addEventListener("keyup",Total_CV_novembro);
+Vermífugonovembro.addEventListener("keyup",Total_CV_novembro);
+Vacina_de_aftosanovembro.addEventListener("keyup",Total_CV_novembro);
+Vacina_clostridiosenovembro.addEventListener("keyup",Total_CV_novembro);
+Outras_vacinasnovembro.addEventListener("keyup",Total_CV_novembro);
+Outros_medicamentosnovembro.addEventListener("keyup",Total_CV_novembro);
+Mão_de_obra_temporárianovembro.addEventListener("keyup",Total_CV_novembro);
+Materiais_p_Fazenda_novembro.addEventListener("keyup",Total_CV_novembro);
+Curral_novembro.addEventListener("keyup",Total_CV_novembro);
+Frete_Carretas_novembro.addEventListener("keyup",Total_CV_novembro);
+Casas_novembro.addEventListener("keyup",Total_CV_novembro);
+Tratores_novembro.addEventListener("keyup",Total_CV_novembro);
+Máquinas_novembro.addEventListener("keyup",Total_CV_novembro);
+Combustível_novembro.addEventListener("keyup",Total_CV_novembro);
+Outros_novembro.addEventListener("keyup",Total_CV_novembro);
+Celular_novembro.addEventListener("keyup",Total_CV_novembro);
+Encargos_Bancos_novembro.addEventListener("keyup",Total_CV_novembro);
+Elabor_Projeto_Pecuario_novembro.addEventListener("keyup",Total_CV_novembro);
+Energia_elétrica_novembro.addEventListener("keyup",Total_CV_novembro);
+Aquisição_de_animaisnovembro.addEventListener("keyup",Total_CV_novembro);
+OUTROS_1_novembro.addEventListener("keyup",Total_CV_novembro);
+OUTROS_2_novembro.addEventListener("keyup",Total_CV_novembro);
+OUTROS_3_novembro.addEventListener("keyup",Total_CV_novembro);
+OUTROS_4_novembro.addEventListener("keyup",Total_CV_novembro);
+OUTROS_5_novembro.addEventListener("keyup",Total_CV_novembro);
+
+###############################################################################################################################
+#
+
+
+var total_custo_V_dezembro = document.getElementById("");
+var Suplementação_dezembro            = document.getElementById("");
+var Linha_Branca_Sal_mineral_dezembro = document.getElementById("");
+var Carrapaticidasdezembro               = document.getElementById("");
+var Mosca_do_chifredezembro              = document.getElementById("");
+var Vermífugodezembro                    = document.getElementById("");
+var Vacina_de_aftosadezembro             = document.getElementById("");
+var Vacina_clostridiosedezembro          = document.getElementById("");
+var Outras_vacinasdezembro               = document.getElementById("");
+var Outros_medicamentosdezembro          = document.getElementById("");
+var Mão_de_obra_temporáriadezembro       = document.getElementById("");
+var Materiais_p_Fazenda_dezembro         = document.getElementById("");
+var Curral_dezembro                      = document.getElementById("");
+var Frete_Carretas_dezembro              = document.getElementById("");
+var Casas_dezembro                        = document.getElementById("");
+var Tratores_dezembro                    = document.getElementById("");
+var Máquinas_dezembro                    = document.getElementById("");
+var Combustível_dezembro                  = document.getElementById("");
+var Outros_dezembro                      = document.getElementById("");
+var Celular_dezembro                     = document.getElementById("");
+var Encargos_Bancos_dezembro             = document.getElementById("");
+var Elabor_Projeto_Pecuario_dezembro         = document.getElementById("");
+var Energia_elétrica_dezembro             = document.getElementById("");
+var Aquisição_de_animaisdezembro         = document.getElementById("");
+var OUTROS_1_dezembro                     = document.getElementById("");
+var OUTROS_2_dezembro                    = document.getElementById("");
+var OUTROS_3_dezembro                    = document.getElementById("");
+var OUTROS_4_dezembro                    = document.getElementById("");
+var OUTROS_5_dezembro                    = document.getElementById("");
+function  Total_CV_dezembro(){
+    total_custo_V_dezembro.innerHTML=
+        parseInt(Suplementaçãodezembro.value)+
+        parseInt(Linha_Branca_Sal_mineral_dezembro.value)+
+        parseInt(Carrapaticidasdezembro.value)+
+        parseInt(Mosca_do_chifredezembro.value)+
+        parseInt(Vermífugodezembro.value)+
+        parseInt(Vacina_de_aftosadezembro.value)+
+        parseInt(Vacina_clostridiosedezembro.value)+
+        parseInt(Outras_vacinasdezembro.value)+
+        parseInt(Outros_medicamentosdezembro.value)+
+        parseInt(Mão_de_obra_temporáriadezembro.value)+
+        parseInt(Materiais_p_Fazenda_dezembro.value)+
+        parseInt(Curral_dezembro  .value)+
+        parseInt(Frete_Carretas_dezembro .value)+
+        parseInt(Casas_dezembro   .value)+
+        parseInt(Tratores_dezembro.value)+
+        parseInt(Máquinas_dezembro.value)+
+        parseInt(Combustível_dezembro.value)+
+        parseInt(Outros_dezembro.value)+
+        parseInt(Celular_dezembro.value)+
+        parseInt(Encargos_Bancos_dezembro.value)+
+        parseInt(Elabor_Projeto_Pecuario_dezembro.value)+
+        parseInt(Energia_elétrica_dezembro.value)+
+        parseInt(Aquisição_de_animaisdezembro.value)+
+        parseInt(OUTROS_1_dezembro.value)+
+        parseInt(OUTROS_2_dezembro.value)+
+        parseInt(OUTROS_3_dezembro.value)+
+        parseInt(OUTROS_4_dezembro.value)+
+        parseInt(OUTROS_5_dezembro.value);
+}
+          Total_CV_dezembro();
+
+Suplementaçãodezembro.addEventListener("keyup",Total_CV_dezembro);
+Linha_Branca_Sal_mineral_dezembro.addEventListener("keyup",Total_CV_dezembro);
+Carrapaticidasdezembro.addEventListener("keyup",Total_CV_dezembro);
+Mosca_do_chifredezembro.addEventListener("keyup",Total_CV_dezembro);
+Vermífugodezembro.addEventListener("keyup",Total_CV_dezembro);
+Vacina_de_aftosadezembro.addEventListener("keyup",Total_CV_dezembro);
+Vacina_clostridiosedezembro.addEventListener("keyup",Total_CV_dezembro);
+Outras_vacinasdezembro.addEventListener("keyup",Total_CV_dezembro);
+Outros_medicamentosdezembro.addEventListener("keyup",Total_CV_dezembro);
+Mão_de_obra_temporáriadezembro.addEventListener("keyup",Total_CV_dezembro);
+Materiais_p_Fazenda_dezembro.addEventListener("keyup",Total_CV_dezembro);
+Curral_dezembro.addEventListener("keyup",Total_CV_dezembro);
+Frete_Carretas_dezembro.addEventListener("keyup",Total_CV_dezembro);
+Casas_dezembro.addEventListener("keyup",Total_CV_dezembro);
+Tratores_dezembro.addEventListener("keyup",Total_CV_dezembro);
+Máquinas_dezembro.addEventListener("keyup",Total_CV_dezembro);
+Combustível_dezembro.addEventListener("keyup",Total_CV_dezembro);
+Outros_dezembro.addEventListener("keyup",Total_CV_dezembro);
+Celular_dezembro.addEventListener("keyup",Total_CV_dezembro);
+Encargos_Bancos_dezembro.addEventListener("keyup",Total_CV_dezembro);
+Elabor_Projeto_Pecuario_dezembro.addEventListener("keyup",Total_CV_dezembro);
+Energia_elétrica_dezembro.addEventListener("keyup",Total_CV_dezembro);
+Aquisição_de_animaisdezembro.addEventListener("keyup",Total_CV_dezembro);
+OUTROS_1_dezembro.addEventListener("keyup",Total_CV_dezembro);
+OUTROS_2_dezembro.addEventListener("keyup",Total_CV_dezembro);
+OUTROS_3_dezembro.addEventListener("keyup",Total_CV_dezembro);
+OUTROS_4_dezembro.addEventListener("keyup",Total_CV_dezembro);
+OUTROS_5_dezembro.addEventListener("keyup",Total_CV_dezembro);
+
+
+

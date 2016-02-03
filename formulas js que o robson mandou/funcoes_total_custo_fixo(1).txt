@@ -1,0 +1,547 @@
+    TRATORES
+    VEICULOS
+    EQUIPAMENTOS MANUAIS
+    REPRODUTORES MACHOS
+    REPRODUTORES FEMEAS
+    ANIMAIS DE TRABALHO
+    CANAVIAL OU VOLUMOSOS
+    BENFEITORIAS
+    EDIFICAÇÕES
+    PASTAGEM
+    Mao de obra fixa da fazenda
+    Encargos sociais
+    Assistência tecnica
+    Despesas tributárias (IR e ITR)
+    TOTAL CUSTO FIXO (R$)
+    CUSTO FIXO/CABEÇA (R$)
+#
+
+
+
+var TRATORES_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var TRATORES_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var TRATORES_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var TRATORES_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var TRATORES_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var TRATORES_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var TRATORES_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var TRATORES_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var TRATORES_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var TRATORES_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var TRATORES_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var TRATORES_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var TRATORES_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    TRATORES_total.innerHTML = 10;//parseInt(TRATORES_jan.value)+parseInt(TRATORES_fev.value)+parseInt(TRATORES_mar.value)+parseInt(TRATORES_abr.value)+parseInt(TRATORES_mai.value)+parseInt(TRATORES_jun.value)+
+    //parseInt(TRATORES_jul.value)+parseInt(TRATORES_ago.value)+parseInt(TRATORES_set.value)+parseInt(TRATORES_out.value)+parseInt(TRATORES_nov.value)+parseInt(TRATORES_dez.value);
+}
+calc_maq();
+TRATORES_jan.addEventListener("keyup",calc_maq);
+TRATORES_fev.addEventListener("keyup",calc_maq);
+TRATORES_mar.addEventListener("keyup",calc_maq);
+TRATORES_abr.addEventListener("keyup",calc_maq);
+TRATORES_mai.addEventListener("keyup",calc_maq);
+TRATORES_jun.addEventListener("keyup",calc_maq);
+TRATORES_jul.addEventListener("keyup",calc_maq);
+TRATORES_ago.addEventListener("keyup",calc_maq);
+TRATORES_set.addEventListener("keyup",calc_maq);
+TRATORES_out.addEventListener("keyup",calc_maq);
+TRATORES_nov.addEventListener("keyup",calc_maq);
+
+####################################################################################################################################################################################
+
+var VEICULOS_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var VEICULOS_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var VEICULOS_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var VEICULOS_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var VEICULOS_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var VEICULOS_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var VEICULOS_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var VEICULOS_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var VEICULOS_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var VEICULOS_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var VEICULOS_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var VEICULOS_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var VEICULOS_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    VEICULOS_total.innerHTML = 10;//parseInt(VEICULOS_jan.value)+parseInt(VEICULOS_fev.value)+parseInt(VEICULOS_mar.value)+parseInt(VEICULOS_abr.value)+parseInt(VEICULOS_mai.value)+parseInt(VEICULOS_jun.value)+
+    //parseInt(VEICULOS_jul.value)+parseInt(VEICULOS_ago.value)+parseInt(VEICULOS_set.value)+parseInt(VEICULOS_out.value)+parseInt(VEICULOS_nov.value)+parseInt(VEICULOS_dez.value);
+}
+calc_maq();
+VEICULOS_jan.addEventListener("keyup",calc_maq);
+VEICULOS_fev.addEventListener("keyup",calc_maq);
+VEICULOS_mar.addEventListener("keyup",calc_maq);
+VEICULOS_abr.addEventListener("keyup",calc_maq);
+VEICULOS_mai.addEventListener("keyup",calc_maq);
+VEICULOS_jun.addEventListener("keyup",calc_maq);
+VEICULOS_jul.addEventListener("keyup",calc_maq);
+VEICULOS_ago.addEventListener("keyup",calc_maq);
+VEICULOS_set.addEventListener("keyup",calc_maq);
+VEICULOS_out.addEventListener("keyup",calc_maq);
+VEICULOS_nov.addEventListener("keyup",calc_maq);
+
+####################################################################################################################################################################################
+
+var EQUIPAMENTOS_MANUAIS_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var EQUIPAMENTOS_MANUAIS_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var EQUIPAMENTOS_MANUAIS_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var EQUIPAMENTOS_MANUAIS_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var EQUIPAMENTOS_MANUAIS_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var EQUIPAMENTOS_MANUAIS_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var EQUIPAMENTOS_MANUAIS_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var EQUIPAMENTOS_MANUAIS_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var EQUIPAMENTOS_MANUAIS_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var EQUIPAMENTOS_MANUAIS_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var EQUIPAMENTOS_MANUAIS_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var EQUIPAMENTOS_MANUAIS_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var EQUIPAMENTOS_MANUAIS_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    EQUIPAMENTOS_MANUAIS_total.innerHTML = 10;//parseInt(EQUIPAMENTOS_MANUAIS_jan.value)+parseInt(EQUIPAMENTOS_MANUAIS_fev.value)+parseInt(EQUIPAMENTOS_MANUAIS_mar.value)+parseInt(EQUIPAMENTOS_MANUAIS_abr.value)+parseInt(EQUIPAMENTOS_MANUAIS_mai.value)+parseInt(EQUIPAMENTOS_MANUAIS_jun.value)+
+    //parseInt(EQUIPAMENTOS_MANUAIS_jul.value)+parseInt(EQUIPAMENTOS_MANUAIS_ago.value)+parseInt(EQUIPAMENTOS_MANUAIS_set.value)+parseInt(EQUIPAMENTOS_MANUAIS_out.value)+parseInt(EQUIPAMENTOS_MANUAIS_nov.value)+parseInt(EQUIPAMENTOS_MANUAIS_dez.value);
+}
+calc_maq();
+EQUIPAMENTOS_MANUAIS_jan.addEventListener("keyup",calc_maq);
+EQUIPAMENTOS_MANUAIS_fev.addEventListener("keyup",calc_maq);
+EQUIPAMENTOS_MANUAIS_mar.addEventListener("keyup",calc_maq);
+EQUIPAMENTOS_MANUAIS_abr.addEventListener("keyup",calc_maq);
+EQUIPAMENTOS_MANUAIS_mai.addEventListener("keyup",calc_maq);
+EQUIPAMENTOS_MANUAIS_jun.addEventListener("keyup",calc_maq);
+EQUIPAMENTOS_MANUAIS_jul.addEventListener("keyup",calc_maq);
+EQUIPAMENTOS_MANUAIS_ago.addEventListener("keyup",calc_maq);
+EQUIPAMENTOS_MANUAIS_set.addEventListener("keyup",calc_maq);
+EQUIPAMENTOS_MANUAIS_out.addEventListener("keyup",calc_maq);
+EQUIPAMENTOS_MANUAIS_nov.addEventListener("keyup",calc_maq);
+
+####################################################################################################################################################################################
+
+var REPRODUTORES_MACHOS_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var REPRODUTORES_MACHOS_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var REPRODUTORES_MACHOS_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var REPRODUTORES_MACHOS_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var REPRODUTORES_MACHOS_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var REPRODUTORES_MACHOS_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var REPRODUTORES_MACHOS_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var REPRODUTORES_MACHOS_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var REPRODUTORES_MACHOS_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var REPRODUTORES_MACHOS_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var REPRODUTORES_MACHOS_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var REPRODUTORES_MACHOS_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var REPRODUTORES_MACHOS_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    REPRODUTORES_MACHOS_total.innerHTML = 10;//parseInt(REPRODUTORES_MACHOS_jan.value)+parseInt(REPRODUTORES_MACHOS_fev.value)+parseInt(REPRODUTORES_MACHOS_mar.value)+parseInt(REPRODUTORES_MACHOS_abr.value)+parseInt(REPRODUTORES_MACHOS_mai.value)+parseInt(REPRODUTORES_MACHOS_jun.value)+
+    //parseInt(REPRODUTORES_MACHOS_jul.value)+parseInt(REPRODUTORES_MACHOS_ago.value)+parseInt(REPRODUTORES_MACHOS_set.value)+parseInt(REPRODUTORES_MACHOS_out.value)+parseInt(REPRODUTORES_MACHOS_nov.value)+parseInt(REPRODUTORES_MACHOS_dez.value);
+}
+calc_maq();
+REPRODUTORES_MACHOS_jan.addEventListener("keyup",calc_maq);
+REPRODUTORES_MACHOS_fev.addEventListener("keyup",calc_maq);
+REPRODUTORES_MACHOS_mar.addEventListener("keyup",calc_maq);
+REPRODUTORES_MACHOS_abr.addEventListener("keyup",calc_maq);
+REPRODUTORES_MACHOS_mai.addEventListener("keyup",calc_maq);
+REPRODUTORES_MACHOS_jun.addEventListener("keyup",calc_maq);
+REPRODUTORES_MACHOS_jul.addEventListener("keyup",calc_maq);
+REPRODUTORES_MACHOS_ago.addEventListener("keyup",calc_maq);
+REPRODUTORES_MACHOS_set.addEventListener("keyup",calc_maq);
+REPRODUTORES_MACHOS_out.addEventListener("keyup",calc_maq);
+REPRODUTORES_MACHOS_nov.addEventListener("keyup",calc_maq);
+
+####################################################################################################################################################################################
+
+var REPRODUTORES_FEMEAS_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var REPRODUTORES_FEMEAS_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var REPRODUTORES_FEMEAS_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var REPRODUTORES_FEMEAS_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var REPRODUTORES_FEMEAS_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var REPRODUTORES_FEMEAS_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var REPRODUTORES_FEMEAS_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var REPRODUTORES_FEMEAS_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var REPRODUTORES_FEMEAS_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var REPRODUTORES_FEMEAS_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var REPRODUTORES_FEMEAS_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var REPRODUTORES_FEMEAS_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var REPRODUTORES_FEMEAS_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    REPRODUTORES_FEMEAS_total.innerHTML = 10;//parseInt(REPRODUTORES_FEMEAS_jan.value)+parseInt(REPRODUTORES_FEMEAS_fev.value)+parseInt(REPRODUTORES_FEMEAS_mar.value)+parseInt(REPRODUTORES_FEMEAS_abr.value)+parseInt(REPRODUTORES_FEMEAS_mai.value)+parseInt(REPRODUTORES_FEMEAS_jun.value)+
+    //parseInt(REPRODUTORES_FEMEAS_jul.value)+parseInt(REPRODUTORES_FEMEAS_ago.value)+parseInt(REPRODUTORES_FEMEAS_set.value)+parseInt(REPRODUTORES_FEMEAS_out.value)+parseInt(REPRODUTORES_FEMEAS_nov.value)+parseInt(REPRODUTORES_FEMEAS_dez.value);
+}
+calc_maq();
+REPRODUTORES_FEMEAS_jan.addEventListener("keyup",calc_maq);
+REPRODUTORES_FEMEAS_fev.addEventListener("keyup",calc_maq);
+REPRODUTORES_FEMEAS_mar.addEventListener("keyup",calc_maq);
+REPRODUTORES_FEMEAS_abr.addEventListener("keyup",calc_maq);
+REPRODUTORES_FEMEAS_mai.addEventListener("keyup",calc_maq);
+REPRODUTORES_FEMEAS_jun.addEventListener("keyup",calc_maq);
+REPRODUTORES_FEMEAS_jul.addEventListener("keyup",calc_maq);
+REPRODUTORES_FEMEAS_ago.addEventListener("keyup",calc_maq);
+REPRODUTORES_FEMEAS_set.addEventListener("keyup",calc_maq);
+REPRODUTORES_FEMEAS_out.addEventListener("keyup",calc_maq);
+REPRODUTORES_FEMEAS_nov.addEventListener("keyup",calc_maq);
+
+####################################################################################################################################################################################
+
+var ANIMAIS_DE_TRABALHO_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var ANIMAIS_DE_TRABALHO_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var ANIMAIS_DE_TRABALHO_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var ANIMAIS_DE_TRABALHO_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var ANIMAIS_DE_TRABALHO_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var ANIMAIS_DE_TRABALHO_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var ANIMAIS_DE_TRABALHO_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var ANIMAIS_DE_TRABALHO_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var ANIMAIS_DE_TRABALHO_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var ANIMAIS_DE_TRABALHO_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var ANIMAIS_DE_TRABALHO_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var ANIMAIS_DE_TRABALHO_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var ANIMAIS_DE_TRABALHO_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    ANIMAIS_DE_TRABALHO_total.innerHTML = 10;//parseInt(ANIMAIS_DE_TRABALHO_jan.value)+parseInt(ANIMAIS_DE_TRABALHO_fev.value)+parseInt(ANIMAIS_DE_TRABALHO_mar.value)+parseInt(ANIMAIS_DE_TRABALHO_abr.value)+parseInt(ANIMAIS_DE_TRABALHO_mai.value)+parseInt(ANIMAIS_DE_TRABALHO_jun.value)+
+    //parseInt(ANIMAIS_DE_TRABALHO_jul.value)+parseInt(ANIMAIS_DE_TRABALHO_ago.value)+parseInt(ANIMAIS_DE_TRABALHO_set.value)+parseInt(ANIMAIS_DE_TRABALHO_out.value)+parseInt(ANIMAIS_DE_TRABALHO_nov.value)+parseInt(ANIMAIS_DE_TRABALHO_dez.value);
+}
+calc_maq();
+ANIMAIS_DE_TRABALHO_jan.addEventListener("keyup",calc_maq);
+ANIMAIS_DE_TRABALHO_fev.addEventListener("keyup",calc_maq);
+ANIMAIS_DE_TRABALHO_mar.addEventListener("keyup",calc_maq);
+ANIMAIS_DE_TRABALHO_abr.addEventListener("keyup",calc_maq);
+ANIMAIS_DE_TRABALHO_mai.addEventListener("keyup",calc_maq);
+ANIMAIS_DE_TRABALHO_jun.addEventListener("keyup",calc_maq);
+ANIMAIS_DE_TRABALHO_jul.addEventListener("keyup",calc_maq);
+ANIMAIS_DE_TRABALHO_ago.addEventListener("keyup",calc_maq);
+ANIMAIS_DE_TRABALHO_set.addEventListener("keyup",calc_maq);
+ANIMAIS_DE_TRABALHO_out.addEventListener("keyup",calc_maq);
+ANIMAIS_DE_TRABALHO_nov.addEventListener("keyup",calc_maq);
+
+####################################################################################################################################################################################
+
+var CANAVIAL_OU_VOLUMOSOS_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var CANAVIAL_OU_VOLUMOSOS_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var CANAVIAL_OU_VOLUMOSOS_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var CANAVIAL_OU_VOLUMOSOS_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var CANAVIAL_OU_VOLUMOSOS_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var CANAVIAL_OU_VOLUMOSOS_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var CANAVIAL_OU_VOLUMOSOS_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var CANAVIAL_OU_VOLUMOSOS_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var CANAVIAL_OU_VOLUMOSOS_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var CANAVIAL_OU_VOLUMOSOS_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var CANAVIAL_OU_VOLUMOSOS_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var CANAVIAL_OU_VOLUMOSOS_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var CANAVIAL_OU_VOLUMOSOS_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    CANAVIAL_OU_VOLUMOSOS_total.innerHTML = 10;//parseInt(CANAVIAL_OU_VOLUMOSOS_jan.value)+parseInt(CANAVIAL_OU_VOLUMOSOS_fev.value)+parseInt(CANAVIAL_OU_VOLUMOSOS_mar.value)+parseInt(CANAVIAL_OU_VOLUMOSOS_abr.value)+parseInt(CANAVIAL_OU_VOLUMOSOS_mai.value)+parseInt(CANAVIAL_OU_VOLUMOSOS_jun.value)+
+    //parseInt(CANAVIAL_OU_VOLUMOSOS_jul.value)+parseInt(CANAVIAL_OU_VOLUMOSOS_ago.value)+parseInt(CANAVIAL_OU_VOLUMOSOS_set.value)+parseInt(CANAVIAL_OU_VOLUMOSOS_out.value)+parseInt(CANAVIAL_OU_VOLUMOSOS_nov.value)+parseInt(CANAVIAL_OU_VOLUMOSOS_dez.value);
+}
+calc_maq();
+CANAVIAL_OU_VOLUMOSOS_jan.addEventListener("keyup",calc_maq);
+CANAVIAL_OU_VOLUMOSOS_fev.addEventListener("keyup",calc_maq);
+CANAVIAL_OU_VOLUMOSOS_mar.addEventListener("keyup",calc_maq);
+CANAVIAL_OU_VOLUMOSOS_abr.addEventListener("keyup",calc_maq);
+CANAVIAL_OU_VOLUMOSOS_mai.addEventListener("keyup",calc_maq);
+CANAVIAL_OU_VOLUMOSOS_jun.addEventListener("keyup",calc_maq);
+CANAVIAL_OU_VOLUMOSOS_jul.addEventListener("keyup",calc_maq);
+CANAVIAL_OU_VOLUMOSOS_ago.addEventListener("keyup",calc_maq);
+CANAVIAL_OU_VOLUMOSOS_set.addEventListener("keyup",calc_maq);
+CANAVIAL_OU_VOLUMOSOS_out.addEventListener("keyup",calc_maq);
+CANAVIAL_OU_VOLUMOSOS_nov.addEventListener("keyup",calc_maq);
+
+####################################################################################################################################################################################
+
+var BENFEITORIAS_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var BENFEITORIAS_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var BENFEITORIAS_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var BENFEITORIAS_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var BENFEITORIAS_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var BENFEITORIAS_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var BENFEITORIAS_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var BENFEITORIAS_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var BENFEITORIAS_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var BENFEITORIAS_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var BENFEITORIAS_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var BENFEITORIAS_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var BENFEITORIAS_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    BENFEITORIAS_total.innerHTML = 10;//parseInt(BENFEITORIAS_jan.value)+parseInt(BENFEITORIAS_fev.value)+parseInt(BENFEITORIAS_mar.value)+parseInt(BENFEITORIAS_abr.value)+parseInt(BENFEITORIAS_mai.value)+parseInt(BENFEITORIAS_jun.value)+
+    //parseInt(BENFEITORIAS_jul.value)+parseInt(BENFEITORIAS_ago.value)+parseInt(BENFEITORIAS_set.value)+parseInt(BENFEITORIAS_out.value)+parseInt(BENFEITORIAS_nov.value)+parseInt(BENFEITORIAS_dez.value);
+}
+calc_maq();
+BENFEITORIAS_jan.addEventListener("keyup",calc_maq);
+BENFEITORIAS_fev.addEventListener("keyup",calc_maq);
+BENFEITORIAS_mar.addEventListener("keyup",calc_maq);
+BENFEITORIAS_abr.addEventListener("keyup",calc_maq);
+BENFEITORIAS_mai.addEventListener("keyup",calc_maq);
+BENFEITORIAS_jun.addEventListener("keyup",calc_maq);
+BENFEITORIAS_jul.addEventListener("keyup",calc_maq);
+BENFEITORIAS_ago.addEventListener("keyup",calc_maq);
+BENFEITORIAS_set.addEventListener("keyup",calc_maq);
+BENFEITORIAS_out.addEventListener("keyup",calc_maq);
+BENFEITORIAS_nov.addEventListener("keyup",calc_maq);
+
+####################################################################################################################################################################################
+
+var EDIFICAÇÕES_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var EDIFICAÇÕES_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var EDIFICAÇÕES_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var EDIFICAÇÕES_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var EDIFICAÇÕES_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var EDIFICAÇÕES_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var EDIFICAÇÕES_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var EDIFICAÇÕES_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var EDIFICAÇÕES_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var EDIFICAÇÕES_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var EDIFICAÇÕES_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var EDIFICAÇÕES_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var EDIFICAÇÕES_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    EDIFICAÇÕES_total.innerHTML = 10;//parseInt(EDIFICAÇÕES_jan.value)+parseInt(EDIFICAÇÕES_fev.value)+parseInt(EDIFICAÇÕES_mar.value)+parseInt(EDIFICAÇÕES_abr.value)+parseInt(EDIFICAÇÕES_mai.value)+parseInt(EDIFICAÇÕES_jun.value)+
+    //parseInt(EDIFICAÇÕES_jul.value)+parseInt(EDIFICAÇÕES_ago.value)+parseInt(EDIFICAÇÕES_set.value)+parseInt(EDIFICAÇÕES_out.value)+parseInt(EDIFICAÇÕES_nov.value)+parseInt(EDIFICAÇÕES_dez.value);
+}
+calc_maq();
+EDIFICAÇÕES_jan.addEventListener("keyup",calc_maq);
+EDIFICAÇÕES_fev.addEventListener("keyup",calc_maq);
+EDIFICAÇÕES_mar.addEventListener("keyup",calc_maq);
+EDIFICAÇÕES_abr.addEventListener("keyup",calc_maq);
+EDIFICAÇÕES_mai.addEventListener("keyup",calc_maq);
+EDIFICAÇÕES_jun.addEventListener("keyup",calc_maq);
+EDIFICAÇÕES_jul.addEventListener("keyup",calc_maq);
+EDIFICAÇÕES_ago.addEventListener("keyup",calc_maq);
+EDIFICAÇÕES_set.addEventListener("keyup",calc_maq);
+EDIFICAÇÕES_out.addEventListener("keyup",calc_maq);
+EDIFICAÇÕES_nov.addEventListener("keyup",calc_maq);
+
+####################################################################################################################################################################################
+
+var PASTAGEM_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var PASTAGEM_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var PASTAGEM_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var PASTAGEM_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var PASTAGEM_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var PASTAGEM_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var PASTAGEM_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var PASTAGEM_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var PASTAGEM_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var PASTAGEM_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var PASTAGEM_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var PASTAGEM_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var PASTAGEM_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    PASTAGEM_total.innerHTML = 10;//parseInt(PASTAGEM_jan.value)+parseInt(PASTAGEM_fev.value)+parseInt(PASTAGEM_mar.value)+parseInt(PASTAGEM_abr.value)+parseInt(PASTAGEM_mai.value)+parseInt(PASTAGEM_jun.value)+
+    //parseInt(PASTAGEM_jul.value)+parseInt(PASTAGEM_ago.value)+parseInt(PASTAGEM_set.value)+parseInt(PASTAGEM_out.value)+parseInt(PASTAGEM_nov.value)+parseInt(PASTAGEM_dez.value);
+}
+calc_maq();
+PASTAGEM_jan.addEventListener("keyup",calc_maq);
+PASTAGEM_fev.addEventListener("keyup",calc_maq);
+PASTAGEM_mar.addEventListener("keyup",calc_maq);
+PASTAGEM_abr.addEventListener("keyup",calc_maq);
+PASTAGEM_mai.addEventListener("keyup",calc_maq);
+PASTAGEM_jun.addEventListener("keyup",calc_maq);
+PASTAGEM_jul.addEventListener("keyup",calc_maq);
+PASTAGEM_ago.addEventListener("keyup",calc_maq);
+PASTAGEM_set.addEventListener("keyup",calc_maq);
+PASTAGEM_out.addEventListener("keyup",calc_maq);
+PASTAGEM_nov.addEventListener("keyup",calc_maq);
+
+####################################################################################################################################################################################
+
+var Mao_de_obra_fixa_da_fazenda_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var Mao_de_obra_fixa_da_fazenda_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var Mao_de_obra_fixa_da_fazenda_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var Mao_de_obra_fixa_da_fazenda_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var Mao_de_obra_fixa_da_fazenda_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var Mao_de_obra_fixa_da_fazenda_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var Mao_de_obra_fixa_da_fazenda_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var Mao_de_obra_fixa_da_fazenda_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var Mao_de_obra_fixa_da_fazenda_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var Mao_de_obra_fixa_da_fazenda_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var Mao_de_obra_fixa_da_fazenda_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var Mao_de_obra_fixa_da_fazenda_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var Mao_de_obra_fixa_da_fazenda_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    Mao_de_obra_fixa_da_fazenda_total.innerHTML = 10;//parseInt(Mao_de_obra_fixa_da_fazenda_jan.value)+parseInt(Mao_de_obra_fixa_da_fazenda_fev.value)+parseInt(Mao_de_obra_fixa_da_fazenda_mar.value)+parseInt(Mao_de_obra_fixa_da_fazenda_abr.value)+parseInt(Mao_de_obra_fixa_da_fazenda_mai.value)+parseInt(Mao_de_obra_fixa_da_fazenda_jun.value)+
+    //parseInt(Mao_de_obra_fixa_da_fazenda_jul.value)+parseInt(Mao_de_obra_fixa_da_fazenda_ago.value)+parseInt(Mao_de_obra_fixa_da_fazenda_set.value)+parseInt(Mao_de_obra_fixa_da_fazenda_out.value)+parseInt(Mao_de_obra_fixa_da_fazenda_nov.value)+parseInt(Mao_de_obra_fixa_da_fazenda_dez.value);
+}
+calc_maq();
+Mao_de_obra_fixa_da_fazenda_jan.addEventListener("keyup",calc_maq);
+Mao_de_obra_fixa_da_fazenda_fev.addEventListener("keyup",calc_maq);
+Mao_de_obra_fixa_da_fazenda_mar.addEventListener("keyup",calc_maq);
+Mao_de_obra_fixa_da_fazenda_abr.addEventListener("keyup",calc_maq);
+Mao_de_obra_fixa_da_fazenda_mai.addEventListener("keyup",calc_maq);
+Mao_de_obra_fixa_da_fazenda_jun.addEventListener("keyup",calc_maq);
+Mao_de_obra_fixa_da_fazenda_jul.addEventListener("keyup",calc_maq);
+Mao_de_obra_fixa_da_fazenda_ago.addEventListener("keyup",calc_maq);
+Mao_de_obra_fixa_da_fazenda_set.addEventListener("keyup",calc_maq);
+Mao_de_obra_fixa_da_fazenda_out.addEventListener("keyup",calc_maq);
+Mao_de_obra_fixa_da_fazenda_nov.addEventListener("keyup",calc_maq);
+
+####################################################################################################################################################################################
+
+var Encargos_sociais_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var Encargos_sociais_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var Encargos_sociais_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var Encargos_sociais_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var Encargos_sociais_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var Encargos_sociais_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var Encargos_sociais_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var Encargos_sociais_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var Encargos_sociais_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var Encargos_sociais_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var Encargos_sociais_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var Encargos_sociais_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var Encargos_sociais_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    Encargos_sociais_total.innerHTML = 10;//parseInt(Encargos_sociais_jan.value)+parseInt(Encargos_sociais_fev.value)+parseInt(Encargos_sociais_mar.value)+parseInt(Encargos_sociais_abr.value)+parseInt(Encargos_sociais_mai.value)+parseInt(Encargos_sociais_jun.value)+
+    //parseInt(Encargos_sociais_jul.value)+parseInt(Encargos_sociais_ago.value)+parseInt(Encargos_sociais_set.value)+parseInt(Encargos_sociais_out.value)+parseInt(Encargos_sociais_nov.value)+parseInt(Encargos_sociais_dez.value);
+}
+calc_maq();
+Encargos_sociais_jan.addEventListener("keyup",calc_maq);
+Encargos_sociais_fev.addEventListener("keyup",calc_maq);
+Encargos_sociais_mar.addEventListener("keyup",calc_maq);
+Encargos_sociais_abr.addEventListener("keyup",calc_maq);
+Encargos_sociais_mai.addEventListener("keyup",calc_maq);
+Encargos_sociais_jun.addEventListener("keyup",calc_maq);
+Encargos_sociais_jul.addEventListener("keyup",calc_maq);
+Encargos_sociais_ago.addEventListener("keyup",calc_maq);
+Encargos_sociais_set.addEventListener("keyup",calc_maq);
+Encargos_sociais_out.addEventListener("keyup",calc_maq);
+Encargos_sociais_nov.addEventListener("keyup",calc_maq);
+
+####################################################################################################################################################################################
+
+var Assistência_tecnica_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var Assistência_tecnica_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var Assistência_tecnica_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var Assistência_tecnica_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var Assistência_tecnica_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var Assistência_tecnica_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var Assistência_tecnica_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var Assistência_tecnica_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var Assistência_tecnica_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var Assistência_tecnica_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var Assistência_tecnica_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var Assistência_tecnica_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var Assistência_tecnica_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    Assistência_tecnica_total.innerHTML = 10;//parseInt(Assistência_tecnica_jan.value)+parseInt(Assistência_tecnica_fev.value)+parseInt(Assistência_tecnica_mar.value)+parseInt(Assistência_tecnica_abr.value)+parseInt(Assistência_tecnica_mai.value)+parseInt(Assistência_tecnica_jun.value)+
+    //parseInt(Assistência_tecnica_jul.value)+parseInt(Assistência_tecnica_ago.value)+parseInt(Assistência_tecnica_set.value)+parseInt(Assistência_tecnica_out.value)+parseInt(Assistência_tecnica_nov.value)+parseInt(Assistência_tecnica_dez.value);
+}
+calc_maq();
+Assistência_tecnica_jan.addEventListener("keyup",calc_maq);
+Assistência_tecnica_fev.addEventListener("keyup",calc_maq);
+Assistência_tecnica_mar.addEventListener("keyup",calc_maq);
+Assistência_tecnica_abr.addEventListener("keyup",calc_maq);
+Assistência_tecnica_mai.addEventListener("keyup",calc_maq);
+Assistência_tecnica_jun.addEventListener("keyup",calc_maq);
+Assistência_tecnica_jul.addEventListener("keyup",calc_maq);
+Assistência_tecnica_ago.addEventListener("keyup",calc_maq);
+Assistência_tecnica_set.addEventListener("keyup",calc_maq);
+Assistência_tecnica_out.addEventListener("keyup",calc_maq);
+Assistência_tecnica_nov.addEventListener("keyup",calc_maq);
+
+####################################################################################################################################################################################
+var Despesas_tributárias_IR_e_ITR_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var Despesas_tributárias_IR_e_ITR_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var Despesas_tributárias_IR_e_ITR_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var Despesas_tributárias_IR_e_ITR_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var Despesas_tributárias_IR_e_ITR_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var Despesas_tributárias_IR_e_ITR_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var Despesas_tributárias_IR_e_ITR_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var Despesas_tributárias_IR_e_ITR_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var Despesas_tributárias_IR_e_ITR_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var Despesas_tributárias_IR_e_ITR_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var Despesas_tributárias_IR_e_ITR_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var Despesas_tributárias_IR_e_ITR_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var Despesas_tributárias_IR_e_ITR_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    Despesas_tributárias_IR_e_ITR_total.innerHTML = 10;//parseInt(Despesas_tributárias_IR_e_ITR_jan.value)+parseInt(Despesas_tributárias_IR_e_ITR_fev.value)+parseInt(Despesas_tributárias_IR_e_ITR_mar.value)+parseInt(Despesas_tributárias_IR_e_ITR_abr.value)+parseInt(Despesas_tributárias_IR_e_ITR_mai.value)+parseInt(Despesas_tributárias_IR_e_ITR_jun.value)+
+    //parseInt(Despesas_tributárias_IR_e_ITR_jul.value)+parseInt(Despesas_tributárias_IR_e_ITR_ago.value)+parseInt(Despesas_tributárias_IR_e_ITR_set.value)+parseInt(Despesas_tributárias_IR_e_ITR_out.value)+parseInt(Despesas_tributárias_IR_e_ITR_nov.value)+parseInt(Despesas_tributárias_IR_e_ITR_dez.value);
+}
+calc_maq();
+Despesas_tributárias_IR_e_ITR_jan.addEventListener("keyup",calc_maq);
+Despesas_tributárias_IR_e_ITR_fev.addEventListener("keyup",calc_maq);
+Despesas_tributárias_IR_e_ITR_mar.addEventListener("keyup",calc_maq);
+Despesas_tributárias_IR_e_ITR_abr.addEventListener("keyup",calc_maq);
+Despesas_tributárias_IR_e_ITR_mai.addEventListener("keyup",calc_maq);
+Despesas_tributárias_IR_e_ITR_jun.addEventListener("keyup",calc_maq);
+Despesas_tributárias_IR_e_ITR_jul.addEventListener("keyup",calc_maq);
+Despesas_tributárias_IR_e_ITR_ago.addEventListener("keyup",calc_maq);
+Despesas_tributárias_IR_e_ITR_set.addEventListener("keyup",calc_maq);
+Despesas_tributárias_IR_e_ITR_out.addEventListener("keyup",calc_maq);
+Despesas_tributárias_IR_e_ITR_nov.addEventListener("keyup",calc_maq);
+
+####################################################################################################################################################################################
+
+var TOTAL_CUSTO_FIXO_EM_REAIS_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var TOTAL_CUSTO_FIXO_EM_REAIS_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var TOTAL_CUSTO_FIXO_EM_REAIS_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var TOTAL_CUSTO_FIXO_EM_REAIS_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var TOTAL_CUSTO_FIXO_EM_REAIS_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var TOTAL_CUSTO_FIXO_EM_REAIS_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var TOTAL_CUSTO_FIXO_EM_REAIS_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var TOTAL_CUSTO_FIXO_EM_REAIS_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var TOTAL_CUSTO_FIXO_EM_REAIS_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var TOTAL_CUSTO_FIXO_EM_REAIS_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var TOTAL_CUSTO_FIXO_EM_REAIS_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var TOTAL_CUSTO_FIXO_EM_REAIS_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var TOTAL_CUSTO_FIXO_EM_REAIS_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    TOTAL_CUSTO_FIXO_EM_REAIS_total.innerHTML = 10;//parseInt(TOTAL_CUSTO_FIXO_EM_REAIS_jan.value)+parseInt(TOTAL_CUSTO_FIXO_EM_REAIS_fev.value)+parseInt(TOTAL_CUSTO_FIXO_EM_REAIS_mar.value)+parseInt(TOTAL_CUSTO_FIXO_EM_REAIS_abr.value)+parseInt(TOTAL_CUSTO_FIXO_EM_REAIS_mai.value)+parseInt(TOTAL_CUSTO_FIXO_EM_REAIS_jun.value)+
+    //parseInt(TOTAL_CUSTO_FIXO_EM_REAIS_jul.value)+parseInt(TOTAL_CUSTO_FIXO_EM_REAIS_ago.value)+parseInt(TOTAL_CUSTO_FIXO_EM_REAIS_set.value)+parseInt(TOTAL_CUSTO_FIXO_EM_REAIS_out.value)+parseInt(TOTAL_CUSTO_FIXO_EM_REAIS_nov.value)+parseInt(TOTAL_CUSTO_FIXO_EM_REAIS_dez.value);
+}
+calc_maq();
+TOTAL_CUSTO_FIXO_EM_REAIS_jan.addEventListener("keyup",calc_maq);
+TOTAL_CUSTO_FIXO_EM_REAIS_fev.addEventListener("keyup",calc_maq);
+TOTAL_CUSTO_FIXO_EM_REAIS_mar.addEventListener("keyup",calc_maq);
+TOTAL_CUSTO_FIXO_EM_REAIS_abr.addEventListener("keyup",calc_maq);
+TOTAL_CUSTO_FIXO_EM_REAIS_mai.addEventListener("keyup",calc_maq);
+TOTAL_CUSTO_FIXO_EM_REAIS_jun.addEventListener("keyup",calc_maq);
+TOTAL_CUSTO_FIXO_EM_REAIS_jul.addEventListener("keyup",calc_maq);
+TOTAL_CUSTO_FIXO_EM_REAIS_ago.addEventListener("keyup",calc_maq);
+TOTAL_CUSTO_FIXO_EM_REAIS_set.addEventListener("keyup",calc_maq);
+TOTAL_CUSTO_FIXO_EM_REAIS_out.addEventListener("keyup",calc_maq);
+TOTAL_CUSTO_FIXO_EM_REAIS_nov.addEventListener("keyup",calc_maq);
+
+####################################################################################################################################################################################
+
+var CUSTO_FIXO_CABEÇA_EM_REAIS_total = document.getElementById("id_total_MAQUINAS_IMPLEMENTOS");
+var CUSTO_FIXO_CABEÇA_EM_REAIS_jan = document.getElementById("itens_custo_maquina_implementos_janeiro  ");
+var CUSTO_FIXO_CABEÇA_EM_REAIS_fev = document.getElementById("itens_custo_maquina_implementos_fevereiro");
+var CUSTO_FIXO_CABEÇA_EM_REAIS_mar = document.getElementById("itens_custo_maquina_implementos_marco    ");
+var CUSTO_FIXO_CABEÇA_EM_REAIS_abr = document.getElementById("itens_custo_maquina_implementos_abril    ");
+var CUSTO_FIXO_CABEÇA_EM_REAIS_mai = document.getElementById("itens_custo_maquina_implementos_maio     ");
+var CUSTO_FIXO_CABEÇA_EM_REAIS_jun = document.getElementById("itens_custo_maquina_implementos_junho    ");
+var CUSTO_FIXO_CABEÇA_EM_REAIS_jul = document.getElementById("itens_custo_maquina_implementos_julho    ");
+var CUSTO_FIXO_CABEÇA_EM_REAIS_ago = document.getElementById("itens_custo_maquina_implementos_agosto   ");
+var CUSTO_FIXO_CABEÇA_EM_REAIS_set = document.getElementById("itens_custo_maquina_implementos_setembro ");
+var CUSTO_FIXO_CABEÇA_EM_REAIS_out = document.getElementById("itens_custo_maquina_implementos_outubro  ");
+var CUSTO_FIXO_CABEÇA_EM_REAIS_nov = document.getElementById("itens_custo_maquina_implementos_novembro ");
+var CUSTO_FIXO_CABEÇA_EM_REAIS_dez = document.getElementById("itens_custo_maquina_implementos_dezembro ");
+
+function calc_maq(){
+    CUSTO_FIXO_CABEÇA_EM_REAIS_total.innerHTML = 10;//parseInt(CUSTO_FIXO_CABEÇA_EM_REAIS_jan.value)+parseInt(CUSTO_FIXO_CABEÇA_EM_REAIS_fev.value)+parseInt(CUSTO_FIXO_CABEÇA_EM_REAIS_mar.value)+parseInt(CUSTO_FIXO_CABEÇA_EM_REAIS_abr.value)+parseInt(CUSTO_FIXO_CABEÇA_EM_REAIS_mai.value)+parseInt(CUSTO_FIXO_CABEÇA_EM_REAIS_jun.value)+
+    //parseInt(CUSTO_FIXO_CABEÇA_EM_REAIS_jul.value)+parseInt(CUSTO_FIXO_CABEÇA_EM_REAIS_ago.value)+parseInt(CUSTO_FIXO_CABEÇA_EM_REAIS_set.value)+parseInt(CUSTO_FIXO_CABEÇA_EM_REAIS_out.value)+parseInt(CUSTO_FIXO_CABEÇA_EM_REAIS_nov.value)+parseInt(CUSTO_FIXO_CABEÇA_EM_REAIS_dez.value);
+}
+calc_maq();
+CUSTO_FIXO_CABEÇA_EM_REAIS_jan.addEventListener("keyup",calc_maq);
+CUSTO_FIXO_CABEÇA_EM_REAIS_fev.addEventListener("keyup",calc_maq);
+CUSTO_FIXO_CABEÇA_EM_REAIS_mar.addEventListener("keyup",calc_maq);
+CUSTO_FIXO_CABEÇA_EM_REAIS_abr.addEventListener("keyup",calc_maq);
+CUSTO_FIXO_CABEÇA_EM_REAIS_mai.addEventListener("keyup",calc_maq);
+CUSTO_FIXO_CABEÇA_EM_REAIS_jun.addEventListener("keyup",calc_maq);
+CUSTO_FIXO_CABEÇA_EM_REAIS_jul.addEventListener("keyup",calc_maq);
+CUSTO_FIXO_CABEÇA_EM_REAIS_ago.addEventListener("keyup",calc_maq);
+CUSTO_FIXO_CABEÇA_EM_REAIS_set.addEventListener("keyup",calc_maq);
+CUSTO_FIXO_CABEÇA_EM_REAIS_out.addEventListener("keyup",calc_maq);
+CUSTO_FIXO_CABEÇA_EM_REAIS_nov.addEventListener("keyup",calc_maq);
+
+####################################################################################################################################################################################
+

@@ -1,0 +1,757 @@
+#
+aqui substitua HERB pelos nomes correntes:
+
+Equip. Aplicação Herbicidas
+Mão de obra para roçagem
+Equip. Roçagem
+COMPRA VACAS
+Cocho Sal
+Inseminação Artificial
+Mat. p/Cercas
+EDIFICAÇÕES
+SILO
+CURRAL, CANCELAS e BALANÇAS
+OUTROS 1
+OUTROS 2
+OUTROS 3
+OUTROS 4
+OUTROS 5
+TOTAL
+
+
+#
+
+
+
+var total_investimento_HERB = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_HERB.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################
+
+var total_investimento_Equip_Aplicacao_Herbicidas = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_Equip_Aplicacao_Herbicidas.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################
+var total_investimento_Mao_de_obra_para_rocagem = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_Mao_de_obra_para_rocagem.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################
+var total_investimento_Equip_Rocagem = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_Equip_Rocagem.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################
+var total_investimento_COMPRA_VACAS = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_COMPRA_VACAS.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################
+var total_investimento_Cocho_Sal = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_Cocho_Sal.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################
+var total_investimento_Inseminacao_Artificial = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_Inseminacao_Artificial.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################
+var total_investimento_Mat_para_Cercas = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_Mat_para_Cercas.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################
+var total_investimento_EDIFICACOES = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_EDIFICACOES.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################
+var total_investimento_SILO = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_SILO.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################
+var total_investimento_CURRAL_CANCELAS_BALANÇAS = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_CURRAL_CANCELAS_BALANÇAS.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################
+var total_investimento_OUTROS_1 = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_OUTROS_1.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################
+var total_investimento_OUTROS_2 = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_OUTROS_2.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################
+var total_investimento_OUTROS_3 = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_OUTROS_3.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################
+var total_investimento_OUTROS_4 = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_OUTROS_4.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################
+var total_investimento_OUTROS_5 = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_OUTROS_5.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################
+var total_investimento_TOTAL = document.getElementById("");
+var total_investimento_jan = document.getElementById("");
+var total_investimento_fev = document.getElementById("");
+var total_investimento_mar = document.getElementById("");
+var total_investimento_abr = document.getElementById("");
+var total_investimento_mai = document.getElementById("");
+var total_investimento_jun = document.getElementById("");
+var total_investimento_jul = document.getElementById("");
+var total_investimento_ago = document.getElementById("");
+var total_investimento_set = document.getElementById("");
+var total_investimento_out = document.getElementById("");
+var total_investimento_nov = document.getElementById("");
+var total_investimento_dez = document.getElementById("");
+function INV_TOTAL(){
+    total_investimento_TOTAL.innerHTML =
+        parseInt(total_investimento_jan.value)+
+        parseInt(total_investimento_fev.value)+
+        parseInt(total_investimento_mar.value)+
+        parseInt(total_investimento_abr.value)+
+        parseInt(total_investimento_mai.value)+
+        parseInt(total_investimento_jun.value)+
+        parseInt(total_investimento_jul.value)+
+        parseInt(total_investimento_ago.value)+
+        parseInt(total_investimento_set.value)+
+        parseInt(total_investimento_out.value)+
+        parseInt(total_investimento_nov.value)+
+        parseInt(total_investimento_dez.value);
+           }
+INV_TOTAL();
+total_investimento_jan.addEventListener("keyup",INV_TOTAL);
+total_investimento_fev.addEventListener("keyup",INV_TOTAL);
+total_investimento_mar.addEventListener("keyup",INV_TOTAL);
+total_investimento_abr.addEventListener("keyup",INV_TOTAL);
+total_investimento_mai.addEventListener("keyup",INV_TOTAL);
+total_investimento_jun.addEventListener("keyup",INV_TOTAL);
+total_investimento_jul.addEventListener("keyup",INV_TOTAL);
+total_investimento_ago.addEventListener("keyup",INV_TOTAL);
+total_investimento_set.addEventListener("keyup",INV_TOTAL);
+total_investimento_out.addEventListener("keyup",INV_TOTAL);
+total_investimento_nov.addEventListener("keyup",INV_TOTAL);
+total_investimento_dez.addEventListener("keyup",INV_TOTAL);
+
+###########################################################################################################################

@@ -1,0 +1,581 @@
+#
+substituir esses por seus seguintes meses
+
+
+#
+
+
+
+var total_desp = document.getElementById("");
+var total_desp_Funcionários_administrativos_JAN = document.getElementById("");
+var total_desp_Alimentação_refeição_JAN         = document.getElementById("");
+var total_desp_Desp_escritório_JAN              = document.getElementById("");
+var total_desp_Telefone_JAN                     = document.getElementById("");
+var total_desp_Contador_Advogado_JAN            = document.getElementById("");
+var total_desp_Telefone_fixo_JAN                = document.getElementById("");
+var total_desp_Informações_JAN                  = document.getElementById("");
+var total_desp_Seguros_veículos_JAN             = document.getElementById("");
+var total_desp_Moto_e_carro_JAN                 = document.getElementById("");
+var total_desp_Outros_diversos_JAN              = document.getElementById("");
+var total_desp_Despesas_Viagem_JAN               = document.getElementById("");
+var total_desp_Energia_elétrica_JAN                 = document.getElementById("");
+
+function TOTAL_DESP_ADM(){
+    total_desp.innerHTML =
+        parseInt(total_desp_Funcionários_administrativos_JAN.value)+
+        parseInt(total_desp_Alimentação_refeição_JAN.value)+
+        parseInt(total_desp_Desp_escritório_JAN.value)+
+        parseInt(total_desp_Telefone_JAN.value)+
+        parseInt(total_desp_Contador_Advogado_JAN.value)+
+        parseInt(total_desp_Telefone_fixo_JAN.value)+
+        parseInt(total_desp_Informações_JAN.value)+
+        parseInt(total_desp_Seguros_veículos_JAN.value)+
+        parseInt(total_desp_Moto_e_carro_JAN.value)+
+        parseInt(total_desp_Outros_diversos_JAN.value)+
+        parseInt(total_desp_Despesas_Viagem_JAN.value);
+}
+TOTAL_DESP_ADM();
+total_desp_Funcionários_administrativos_JAN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Alimentação_refeição_JAN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Desp_escritório_JAN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_JAN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Contador_Advogado_JAN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_fixo_JAN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Informações_JAN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Seguros_veículos_JAN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Moto_e_carro_JAN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Outros_diversos_JAN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Despesas_Viagem_JAN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Energia_elétrica_JAN.addEventListener("keyup",TOTAL_DESP_ADM);
+
+
+##########################################################################################################
+
+
+
+
+var total_desp = document.getElementById("");
+var total_desp_Funcionários_administrativos_FEV = document.getElementById("");
+var total_desp_Alimentação_refeição_FEV         = document.getElementById("");
+var total_desp_Desp_escritório_FEV              = document.getElementById("");
+var total_desp_Telefone_FEV                     = document.getElementById("");
+var total_desp_Contador_Advogado_FEV            = document.getElementById("");
+var total_desp_Telefone_fixo_FEV                = document.getElementById("");
+var total_desp_Informações_FEV                  = document.getElementById("");
+var total_desp_Seguros_veículos_FEV             = document.getElementById("");
+var total_desp_Moto_e_carro_FEV                 = document.getElementById("");
+var total_desp_Outros_diversos_FEV              = document.getElementById("");
+var total_desp_Despesas_Viagem_FEV               = document.getElementById("");
+var total_desp_Energia_elétrica_FEV                 = document.getElementById("");
+
+function TOTAL_DESP_ADM(){
+    total_desp.innerHTML =
+        parseInt(total_desp_Funcionários_administrativos_FEV.value)+
+        parseInt(total_desp_Alimentação_refeição_FEV.value)+
+        parseInt(total_desp_Desp_escritório_FEV.value)+
+        parseInt(total_desp_Telefone_FEV.value)+
+        parseInt(total_desp_Contador_Advogado_FEV.value)+
+        parseInt(total_desp_Telefone_fixo_FEV.value)+
+        parseInt(total_desp_Informações_FEV.value)+
+        parseInt(total_desp_Seguros_veículos_FEV.value)+
+        parseInt(total_desp_Moto_e_carro_FEV.value)+
+        parseInt(total_desp_Outros_diversos_FEV.value)+
+        parseInt(total_desp_Despesas_Viagem_FEV.value);
+}
+TOTAL_DESP_ADM();
+total_desp_Funcionários_administrativos_FEV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Alimentação_refeição_FEV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Desp_escritório_FEV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_FEV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Contador_Advogado_FEV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_fixo_FEV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Informações_FEV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Seguros_veículos_FEV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Moto_e_carro_FEV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Outros_diversos_FEV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Despesas_Viagem_FEV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Energia_elétrica_FEV.addEventListener("keyup",TOTAL_DESP_ADM);
+
+
+##########################################################################################################
+
+
+
+
+var total_desp = document.getElementById("");
+var total_desp_Funcionários_administrativos_MAR = document.getElementById("");
+var total_desp_Alimentação_refeição_MAR         = document.getElementById("");
+var total_desp_Desp_escritório_MAR              = document.getElementById("");
+var total_desp_Telefone_MAR                     = document.getElementById("");
+var total_desp_Contador_Advogado_MAR            = document.getElementById("");
+var total_desp_Telefone_fixo_MAR                = document.getElementById("");
+var total_desp_Informações_MAR                  = document.getElementById("");
+var total_desp_Seguros_veículos_MAR             = document.getElementById("");
+var total_desp_Moto_e_carro_MAR                 = document.getElementById("");
+var total_desp_Outros_diversos_MAR              = document.getElementById("");
+var total_desp_Despesas_Viagem_MAR               = document.getElementById("");
+var total_desp_Energia_elétrica_MAR                 = document.getElementById("");
+
+function TOTAL_DESP_ADM(){
+    total_desp.innerHTML =
+        parseInt(total_desp_Funcionários_administrativos_MAR.value)+
+        parseInt(total_desp_Alimentação_refeição_MAR.value)+
+        parseInt(total_desp_Desp_escritório_MAR.value)+
+        parseInt(total_desp_Telefone_MAR.value)+
+        parseInt(total_desp_Contador_Advogado_MAR.value)+
+        parseInt(total_desp_Telefone_fixo_MAR.value)+
+        parseInt(total_desp_Informações_MAR.value)+
+        parseInt(total_desp_Seguros_veículos_MAR.value)+
+        parseInt(total_desp_Moto_e_carro_MAR.value)+
+        parseInt(total_desp_Outros_diversos_MAR.value)+
+        parseInt(total_desp_Despesas_Viagem_MAR.value);
+}
+TOTAL_DESP_ADM();
+total_desp_Funcionários_administrativos_MAR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Alimentação_refeição_MAR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Desp_escritório_MAR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_MAR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Contador_Advogado_MAR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_fixo_MAR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Informações_MAR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Seguros_veículos_MAR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Moto_e_carro_MAR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Outros_diversos_MAR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Despesas_Viagem_MAR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Energia_elétrica_MAR.addEventListener("keyup",TOTAL_DESP_ADM);
+
+
+##########################################################################################################
+
+
+
+
+var total_desp = document.getElementById("");
+var total_desp_Funcionários_administrativos_ABR = document.getElementById("");
+var total_desp_Alimentação_refeição_ABR         = document.getElementById("");
+var total_desp_Desp_escritório_ABR              = document.getElementById("");
+var total_desp_Telefone_ABR                     = document.getElementById("");
+var total_desp_Contador_Advogado_ABR            = document.getElementById("");
+var total_desp_Telefone_fixo_ABR                = document.getElementById("");
+var total_desp_Informações_ABR                  = document.getElementById("");
+var total_desp_Seguros_veículos_ABR             = document.getElementById("");
+var total_desp_Moto_e_carro_ABR                 = document.getElementById("");
+var total_desp_Outros_diversos_ABR              = document.getElementById("");
+var total_desp_Despesas_Viagem_ABR               = document.getElementById("");
+var total_desp_Energia_elétrica_ABR                 = document.getElementById("");
+
+function TOTAL_DESP_ADM(){
+    total_desp.innerHTML =
+        parseInt(total_desp_Funcionários_administrativos_ABR.value)+
+        parseInt(total_desp_Alimentação_refeição_ABR.value)+
+        parseInt(total_desp_Desp_escritório_ABR.value)+
+        parseInt(total_desp_Telefone_ABR.value)+
+        parseInt(total_desp_Contador_Advogado_ABR.value)+
+        parseInt(total_desp_Telefone_fixo_ABR.value)+
+        parseInt(total_desp_Informações_ABR.value)+
+        parseInt(total_desp_Seguros_veículos_ABR.value)+
+        parseInt(total_desp_Moto_e_carro_ABR.value)+
+        parseInt(total_desp_Outros_diversos_ABR.value)+
+        parseInt(total_desp_Despesas_Viagem_ABR.value);
+}
+TOTAL_DESP_ADM();
+total_desp_Funcionários_administrativos_ABR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Alimentação_refeição_ABR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Desp_escritório_ABR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_ABR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Contador_Advogado_ABR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_fixo_ABR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Informações_ABR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Seguros_veículos_ABR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Moto_e_carro_ABR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Outros_diversos_ABR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Despesas_Viagem_ABR.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Energia_elétrica_ABR.addEventListener("keyup",TOTAL_DESP_ADM);
+
+
+##########################################################################################################
+
+
+
+
+var total_desp = document.getElementById("");
+var total_desp_Funcionários_administrativos_MAI = document.getElementById("");
+var total_desp_Alimentação_refeição_MAI         = document.getElementById("");
+var total_desp_Desp_escritório_MAI              = document.getElementById("");
+var total_desp_Telefone_MAI                     = document.getElementById("");
+var total_desp_Contador_Advogado_MAI            = document.getElementById("");
+var total_desp_Telefone_fixo_MAI                = document.getElementById("");
+var total_desp_Informações_MAI                  = document.getElementById("");
+var total_desp_Seguros_veículos_MAI             = document.getElementById("");
+var total_desp_Moto_e_carro_MAI                 = document.getElementById("");
+var total_desp_Outros_diversos_MAI              = document.getElementById("");
+var total_desp_Despesas_Viagem_MAI               = document.getElementById("");
+var total_desp_Energia_elétrica_MAI                 = document.getElementById("");
+
+function TOTAL_DESP_ADM(){
+    total_desp.innerHTML =
+        parseInt(total_desp_Funcionários_administrativos_MAI.value)+
+        parseInt(total_desp_Alimentação_refeição_MAI.value)+
+        parseInt(total_desp_Desp_escritório_MAI.value)+
+        parseInt(total_desp_Telefone_MAI.value)+
+        parseInt(total_desp_Contador_Advogado_MAI.value)+
+        parseInt(total_desp_Telefone_fixo_MAI.value)+
+        parseInt(total_desp_Informações_MAI.value)+
+        parseInt(total_desp_Seguros_veículos_MAI.value)+
+        parseInt(total_desp_Moto_e_carro_MAI.value)+
+        parseInt(total_desp_Outros_diversos_MAI.value)+
+        parseInt(total_desp_Despesas_Viagem_MAI.value);
+}
+TOTAL_DESP_ADM();
+total_desp_Funcionários_administrativos_MAI.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Alimentação_refeição_MAI.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Desp_escritório_MAI.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_MAI.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Contador_Advogado_MAI.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_fixo_MAI.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Informações_MAI.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Seguros_veículos_MAI.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Moto_e_carro_MAI.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Outros_diversos_MAI.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Despesas_Viagem_MAI.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Energia_elétrica_MAI.addEventListener("keyup",TOTAL_DESP_ADM);
+
+
+##########################################################################################################
+
+
+
+
+var total_desp = document.getElementById("");
+var total_desp_Funcionários_administrativos_JUN = document.getElementById("");
+var total_desp_Alimentação_refeição_JUN         = document.getElementById("");
+var total_desp_Desp_escritório_JUN              = document.getElementById("");
+var total_desp_Telefone_JUN                     = document.getElementById("");
+var total_desp_Contador_Advogado_JUN            = document.getElementById("");
+var total_desp_Telefone_fixo_JUN                = document.getElementById("");
+var total_desp_Informações_JUN                  = document.getElementById("");
+var total_desp_Seguros_veículos_JUN             = document.getElementById("");
+var total_desp_Moto_e_carro_JUN                 = document.getElementById("");
+var total_desp_Outros_diversos_JUN              = document.getElementById("");
+var total_desp_Despesas_Viagem_JUN               = document.getElementById("");
+var total_desp_Energia_elétrica_JUN                 = document.getElementById("");
+
+function TOTAL_DESP_ADM(){
+    total_desp.innerHTML =
+        parseInt(total_desp_Funcionários_administrativos_JUN.value)+
+        parseInt(total_desp_Alimentação_refeição_JUN.value)+
+        parseInt(total_desp_Desp_escritório_JUN.value)+
+        parseInt(total_desp_Telefone_JUN.value)+
+        parseInt(total_desp_Contador_Advogado_JUN.value)+
+        parseInt(total_desp_Telefone_fixo_JUN.value)+
+        parseInt(total_desp_Informações_JUN.value)+
+        parseInt(total_desp_Seguros_veículos_JUN.value)+
+        parseInt(total_desp_Moto_e_carro_JUN.value)+
+        parseInt(total_desp_Outros_diversos_JUN.value)+
+        parseInt(total_desp_Despesas_Viagem_JUN.value);
+}
+TOTAL_DESP_ADM();
+total_desp_Funcionários_administrativos_JUN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Alimentação_refeição_JUN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Desp_escritório_JUN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_JUN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Contador_Advogado_JUN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_fixo_JUN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Informações_JUN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Seguros_veículos_JUN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Moto_e_carro_JUN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Outros_diversos_JUN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Despesas_Viagem_JUN.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Energia_elétrica_JUN.addEventListener("keyup",TOTAL_DESP_ADM);
+
+
+##########################################################################################################
+
+
+
+
+var total_desp = document.getElementById("");
+var total_desp_Funcionários_administrativos_JUL = document.getElementById("");
+var total_desp_Alimentação_refeição_JUL         = document.getElementById("");
+var total_desp_Desp_escritório_JUL              = document.getElementById("");
+var total_desp_Telefone_JUL                     = document.getElementById("");
+var total_desp_Contador_Advogado_JUL            = document.getElementById("");
+var total_desp_Telefone_fixo_JUL                = document.getElementById("");
+var total_desp_Informações_JUL                  = document.getElementById("");
+var total_desp_Seguros_veículos_JUL             = document.getElementById("");
+var total_desp_Moto_e_carro_JUL                 = document.getElementById("");
+var total_desp_Outros_diversos_JUL              = document.getElementById("");
+var total_desp_Despesas_Viagem_JUL               = document.getElementById("");
+var total_desp_Energia_elétrica_JUL                 = document.getElementById("");
+
+function TOTAL_DESP_ADM(){
+    total_desp.innerHTML =
+        parseInt(total_desp_Funcionários_administrativos_JUL.value)+
+        parseInt(total_desp_Alimentação_refeição_JUL.value)+
+        parseInt(total_desp_Desp_escritório_JUL.value)+
+        parseInt(total_desp_Telefone_JUL.value)+
+        parseInt(total_desp_Contador_Advogado_JUL.value)+
+        parseInt(total_desp_Telefone_fixo_JUL.value)+
+        parseInt(total_desp_Informações_JUL.value)+
+        parseInt(total_desp_Seguros_veículos_JUL.value)+
+        parseInt(total_desp_Moto_e_carro_JUL.value)+
+        parseInt(total_desp_Outros_diversos_JUL.value)+
+        parseInt(total_desp_Despesas_Viagem_JUL.value);
+}
+TOTAL_DESP_ADM();
+total_desp_Funcionários_administrativos_JUL.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Alimentação_refeição_JUL.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Desp_escritório_JUL.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_JUL.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Contador_Advogado_JUL.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_fixo_JUL.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Informações_JUL.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Seguros_veículos_JUL.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Moto_e_carro_JUL.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Outros_diversos_JUL.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Despesas_Viagem_JUL.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Energia_elétrica_JUL.addEventListener("keyup",TOTAL_DESP_ADM);
+
+
+##########################################################################################################
+
+
+
+
+var total_desp = document.getElementById("");
+var total_desp_Funcionários_administrativos_AGO = document.getElementById("");
+var total_desp_Alimentação_refeição_AGO         = document.getElementById("");
+var total_desp_Desp_escritório_AGO              = document.getElementById("");
+var total_desp_Telefone_AGO                     = document.getElementById("");
+var total_desp_Contador_Advogado_AGO            = document.getElementById("");
+var total_desp_Telefone_fixo_AGO                = document.getElementById("");
+var total_desp_Informações_AGO                  = document.getElementById("");
+var total_desp_Seguros_veículos_AGO             = document.getElementById("");
+var total_desp_Moto_e_carro_AGO                 = document.getElementById("");
+var total_desp_Outros_diversos_AGO              = document.getElementById("");
+var total_desp_Despesas_Viagem_AGO               = document.getElementById("");
+var total_desp_Energia_elétrica_AGO                 = document.getElementById("");
+
+function TOTAL_DESP_ADM(){
+    total_desp.innerHTML =
+        parseInt(total_desp_Funcionários_administrativos_AGO.value)+
+        parseInt(total_desp_Alimentação_refeição_AGO.value)+
+        parseInt(total_desp_Desp_escritório_AGO.value)+
+        parseInt(total_desp_Telefone_AGO.value)+
+        parseInt(total_desp_Contador_Advogado_AGO.value)+
+        parseInt(total_desp_Telefone_fixo_AGO.value)+
+        parseInt(total_desp_Informações_AGO.value)+
+        parseInt(total_desp_Seguros_veículos_AGO.value)+
+        parseInt(total_desp_Moto_e_carro_AGO.value)+
+        parseInt(total_desp_Outros_diversos_AGO.value)+
+        parseInt(total_desp_Despesas_Viagem_AGO.value);
+}
+TOTAL_DESP_ADM();
+total_desp_Funcionários_administrativos_AGO.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Alimentação_refeição_AGO.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Desp_escritório_AGO.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_AGO.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Contador_Advogado_AGO.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_fixo_AGO.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Informações_AGO.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Seguros_veículos_AGO.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Moto_e_carro_AGO.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Outros_diversos_AGO.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Despesas_Viagem_AGO.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Energia_elétrica_AGO.addEventListener("keyup",TOTAL_DESP_ADM);
+
+
+##########################################################################################################
+
+
+
+
+var total_desp = document.getElementById("");
+var total_desp_Funcionários_administrativos_SET = document.getElementById("");
+var total_desp_Alimentação_refeição_SET         = document.getElementById("");
+var total_desp_Desp_escritório_SET              = document.getElementById("");
+var total_desp_Telefone_SET                     = document.getElementById("");
+var total_desp_Contador_Advogado_SET            = document.getElementById("");
+var total_desp_Telefone_fixo_SET                = document.getElementById("");
+var total_desp_Informações_SET                  = document.getElementById("");
+var total_desp_Seguros_veículos_SET             = document.getElementById("");
+var total_desp_Moto_e_carro_SET                 = document.getElementById("");
+var total_desp_Outros_diversos_SET              = document.getElementById("");
+var total_desp_Despesas_Viagem_SET               = document.getElementById("");
+var total_desp_Energia_elétrica_SET                 = document.getElementById("");
+
+function TOTAL_DESP_ADM(){
+    total_desp.innerHTML =
+        parseInt(total_desp_Funcionários_administrativos_SET.value)+
+        parseInt(total_desp_Alimentação_refeição_SET.value)+
+        parseInt(total_desp_Desp_escritório_SET.value)+
+        parseInt(total_desp_Telefone_SET.value)+
+        parseInt(total_desp_Contador_Advogado_SET.value)+
+        parseInt(total_desp_Telefone_fixo_SET.value)+
+        parseInt(total_desp_Informações_SET.value)+
+        parseInt(total_desp_Seguros_veículos_SET.value)+
+        parseInt(total_desp_Moto_e_carro_SET.value)+
+        parseInt(total_desp_Outros_diversos_SET.value)+
+        parseInt(total_desp_Despesas_Viagem_SET.value);
+}
+TOTAL_DESP_ADM();
+total_desp_Funcionários_administrativos_SET.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Alimentação_refeição_SET.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Desp_escritório_SET.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_SET.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Contador_Advogado_SET.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_fixo_SET.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Informações_SET.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Seguros_veículos_SET.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Moto_e_carro_SET.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Outros_diversos_SET.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Despesas_Viagem_SET.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Energia_elétrica_SET.addEventListener("keyup",TOTAL_DESP_ADM);
+
+
+##########################################################################################################
+
+
+
+
+var total_desp = document.getElementById("");
+var total_desp_Funcionários_administrativos_OUT = document.getElementById("");
+var total_desp_Alimentação_refeição_OUT         = document.getElementById("");
+var total_desp_Desp_escritório_OUT              = document.getElementById("");
+var total_desp_Telefone_OUT                     = document.getElementById("");
+var total_desp_Contador_Advogado_OUT            = document.getElementById("");
+var total_desp_Telefone_fixo_OUT                = document.getElementById("");
+var total_desp_Informações_OUT                  = document.getElementById("");
+var total_desp_Seguros_veículos_OUT             = document.getElementById("");
+var total_desp_Moto_e_carro_OUT                 = document.getElementById("");
+var total_desp_Outros_diversos_OUT              = document.getElementById("");
+var total_desp_Despesas_Viagem_OUT               = document.getElementById("");
+var total_desp_Energia_elétrica_OUT                 = document.getElementById("");
+
+function TOTAL_DESP_ADM(){
+    total_desp.innerHTML =
+        parseInt(total_desp_Funcionários_administrativos_OUT.value)+
+        parseInt(total_desp_Alimentação_refeição_OUT.value)+
+        parseInt(total_desp_Desp_escritório_OUT.value)+
+        parseInt(total_desp_Telefone_OUT.value)+
+        parseInt(total_desp_Contador_Advogado_OUT.value)+
+        parseInt(total_desp_Telefone_fixo_OUT.value)+
+        parseInt(total_desp_Informações_OUT.value)+
+        parseInt(total_desp_Seguros_veículos_OUT.value)+
+        parseInt(total_desp_Moto_e_carro_OUT.value)+
+        parseInt(total_desp_Outros_diversos_OUT.value)+
+        parseInt(total_desp_Despesas_Viagem_OUT.value);
+}
+TOTAL_DESP_ADM();
+total_desp_Funcionários_administrativos_OUT.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Alimentação_refeição_OUT.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Desp_escritório_OUT.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_OUT.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Contador_Advogado_OUT.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_fixo_OUT.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Informações_OUT.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Seguros_veículos_OUT.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Moto_e_carro_OUT.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Outros_diversos_OUT.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Despesas_Viagem_OUT.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Energia_elétrica_OUT.addEventListener("keyup",TOTAL_DESP_ADM);
+
+
+##########################################################################################################
+
+
+
+
+var total_desp = document.getElementById("");
+var total_desp_Funcionários_administrativos_NOV = document.getElementById("");
+var total_desp_Alimentação_refeição_NOV         = document.getElementById("");
+var total_desp_Desp_escritório_NOV              = document.getElementById("");
+var total_desp_Telefone_NOV                     = document.getElementById("");
+var total_desp_Contador_Advogado_NOV            = document.getElementById("");
+var total_desp_Telefone_fixo_NOV                = document.getElementById("");
+var total_desp_Informações_NOV                  = document.getElementById("");
+var total_desp_Seguros_veículos_NOV             = document.getElementById("");
+var total_desp_Moto_e_carro_NOV                 = document.getElementById("");
+var total_desp_Outros_diversos_NOV              = document.getElementById("");
+var total_desp_Despesas_Viagem_NOV               = document.getElementById("");
+var total_desp_Energia_elétrica_NOV                 = document.getElementById("");
+
+function TOTAL_DESP_ADM(){
+    total_desp.innerHTML =
+        parseInt(total_desp_Funcionários_administrativos_NOV.value)+
+        parseInt(total_desp_Alimentação_refeição_NOV.value)+
+        parseInt(total_desp_Desp_escritório_NOV.value)+
+        parseInt(total_desp_Telefone_NOV.value)+
+        parseInt(total_desp_Contador_Advogado_NOV.value)+
+        parseInt(total_desp_Telefone_fixo_NOV.value)+
+        parseInt(total_desp_Informações_NOV.value)+
+        parseInt(total_desp_Seguros_veículos_NOV.value)+
+        parseInt(total_desp_Moto_e_carro_NOV.value)+
+        parseInt(total_desp_Outros_diversos_NOV.value)+
+        parseInt(total_desp_Despesas_Viagem_NOV.value);
+}
+TOTAL_DESP_ADM();
+total_desp_Funcionários_administrativos_NOV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Alimentação_refeição_NOV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Desp_escritório_NOV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_NOV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Contador_Advogado_NOV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_fixo_NOV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Informações_NOV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Seguros_veículos_NOV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Moto_e_carro_NOV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Outros_diversos_NOV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Despesas_Viagem_NOV.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Energia_elétrica_NOV.addEventListener("keyup",TOTAL_DESP_ADM);
+
+
+##########################################################################################################
+
+
+
+
+var total_desp = document.getElementById("");
+var total_desp_Funcionários_administrativos_DEZ = document.getElementById("");
+var total_desp_Alimentação_refeição_DEZ         = document.getElementById("");
+var total_desp_Desp_escritório_DEZ              = document.getElementById("");
+var total_desp_Telefone_DEZ                     = document.getElementById("");
+var total_desp_Contador_Advogado_DEZ            = document.getElementById("");
+var total_desp_Telefone_fixo_DEZ                = document.getElementById("");
+var total_desp_Informações_DEZ                  = document.getElementById("");
+var total_desp_Seguros_veículos_DEZ             = document.getElementById("");
+var total_desp_Moto_e_carro_DEZ                 = document.getElementById("");
+var total_desp_Outros_diversos_DEZ              = document.getElementById("");
+var total_desp_Despesas_Viagem_DEZ               = document.getElementById("");
+var total_desp_Energia_elétrica_DEZ                 = document.getElementById("");
+
+function TOTAL_DESP_ADM(){
+    total_desp.innerHTML =
+        parseInt(total_desp_Funcionários_administrativos_DEZ.value)+
+        parseInt(total_desp_Alimentação_refeição_DEZ.value)+
+        parseInt(total_desp_Desp_escritório_DEZ.value)+
+        parseInt(total_desp_Telefone_DEZ.value)+
+        parseInt(total_desp_Contador_Advogado_DEZ.value)+
+        parseInt(total_desp_Telefone_fixo_DEZ.value)+
+        parseInt(total_desp_Informações_DEZ.value)+
+        parseInt(total_desp_Seguros_veículos_DEZ.value)+
+        parseInt(total_desp_Moto_e_carro_DEZ.value)+
+        parseInt(total_desp_Outros_diversos_DEZ.value)+
+        parseInt(total_desp_Despesas_Viagem_DEZ.value);
+}
+TOTAL_DESP_ADM();
+total_desp_Funcionários_administrativos_DEZ.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Alimentação_refeição_DEZ.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Desp_escritório_DEZ.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_DEZ.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Contador_Advogado_DEZ.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Telefone_fixo_DEZ.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Informações_DEZ.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Seguros_veículos_DEZ.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Moto_e_carro_DEZ.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Outros_diversos_DEZ.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Despesas_Viagem_DEZ.addEventListener("keyup",TOTAL_DESP_ADM);
+total_desp_Energia_elétrica_DEZ.addEventListener("keyup",TOTAL_DESP_ADM);
+
+
+##########################################################################################################
+

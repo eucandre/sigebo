@@ -704,7 +704,7 @@
                         //var CANA_VOLU_remuneracao_INICIAL= document.getElementById("id_");
                         var CANA_VOLU_remuneracao_MEDIO= document.getElementById("id_canavial_ou_volumoso_capital_medio");
                         function canavial_remune(){
-                             CANA_VOLU_remuneracao.innerHTML = parseInt(CANA_VOLU_remuneracao.value)*10;
+                             CANA_VOLU_remuneracao.innerHTML = parseInt(CANA_VOLU_remuneracao_MEDIO.value)*10;
                         }
                         canavial_remune();
                         //CANA_VOLU_remuneracao.addEventListener("keyup",animais_TRABA);
@@ -735,7 +735,8 @@
                         <div style="top: 90%;left: 32%;position: absolute;">{{form.benfeitorias_valor_inicial}}</div>
                         <div style="top: 90%;left: 44%;position: absolute;">{{form.benfeitorias_capital_medio}}</div>
                         <div style="top: 90%;left: 56%;position: absolute;">{{form.benfeitorias_valor_final_ou_sucata}}</div>
-                        <div style="top: 90%;left: 68%;position: absolute;">{{form.benfeitorias_depreciacao_anual}}</div>
+                        <div style="top: 90%;left: 68%;position: absolute;"><span id="id_benfeitorias_depreciacao_anual"></span></div>
+                        <script src="/media/1Depreciacao/BENFEITORIAS_depre.js"></script>
                         <div style="top: 90%;left: 80%;position: absolute;">{{form.benfeitorias_remuneracao_capital}}</div>
                         <div style="top: 90%;left: 92%;position: absolute;">aqui</div>
                         <div style="top: 90%;left: 104%;position: absolute;">aqui</div>

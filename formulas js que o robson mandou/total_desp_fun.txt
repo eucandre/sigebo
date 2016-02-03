@@ -1,0 +1,610 @@
+#
+aqui é para substituir com esses nomes:
+
+Funcionários administrativos
+Alimentação refeição (DESPESAS SEDE)
+Desp. escritório
+Telefone
+Contador/Advogado
+Telefone fixo
+Informações ( curso,revistas,congresso,livros)
+Seguros veículos
+Moto e carro ( combustível,IPVA,seguro,multa)
+Outros (diversos)
+Despesas de Viagem
+Energia elétrica
+
+#
+var total_despesas_FUN = document.getElementById("");
+var total_despesas_FUN_jan = document.getElementById("");
+var total_despesas_FUN_fev = document.getElementById("");
+var total_despesas_FUN_mar = document.getElementById("");
+var total_despesas_FUN_abr = document.getElementById("");
+var total_despesas_FUN_mai = document.getElementById("");
+var total_despesas_FUN_jun = document.getElementById("");
+var total_despesas_FUN_jul = document.getElementById("");
+var total_despesas_FUN_ago = document.getElementById("");
+var total_despesas_FUN_set = document.getElementById("");
+var total_despesas_FUN_out = document.getElementById("");
+var total_despesas_FUN_nov = document.getElementById("");
+var total_despesas_FUN_dez = document.getElementById("");
+function TOTAL_DESP_FUN(){
+    total_despesas_FUN.innerHTML =
+        parseFloat(total_despesas_FUN_jan.value)+
+        parseFloat(total_despesas_FUN_fev.value)+
+        parseFloat(total_despesas_FUN_mar.value)+
+        parseFloat(total_despesas_FUN_abr.value)+
+        parseFloat(total_despesas_FUN_mai.value)+
+        parseFloat(total_despesas_FUN_jun.value)+
+        parseFloat(total_despesas_FUN_jul.value)+
+        parseFloat(total_despesas_FUN_ago.value)+
+        parseFloat(total_despesas_FUN_set.value)+
+        parseFloat(total_despesas_FUN_out.value)+
+        parseFloat(total_despesas_FUN_nov.value)+
+        parseFloat(total_despesas_FUN_dez.value);
+}
+
+total_despesas_FUN_jan.addEventListener("keyup",TOTAL_DESP_FUN);
+total_despesas_FUN_fev.addEventListener("keyup",TOTAL_DESP_FUN);
+total_despesas_FUN_mar.addEventListener("keyup",TOTAL_DESP_FUN);
+total_despesas_FUN_abr.addEventListener("keyup",TOTAL_DESP_FUN);
+total_despesas_FUN_mai.addEventListener("keyup",TOTAL_DESP_FUN);
+total_despesas_FUN_jun.addEventListener("keyup",TOTAL_DESP_FUN);
+total_despesas_FUN_jul.addEventListener("keyup",TOTAL_DESP_FUN);
+total_despesas_FUN_ago.addEventListener("keyup",TOTAL_DESP_FUN);
+total_despesas_FUN_set.addEventListener("keyup",TOTAL_DESP_FUN);
+total_despesas_FUN_out.addEventListener("keyup",TOTAL_DESP_FUN);
+total_despesas_FUN_nov.addEventListener("keyup",TOTAL_DESP_FUN);
+total_despesas_FUN_dez.addEventListener("keyup",TOTAL_DESP_FUN);
+
+##########################################################################################################
+
+#
+var total_Funcionarios_administrativos = document.getElementById("");
+var total_Funcionarios_administrativos_jan = document.getElementById("");
+var total_Funcionarios_administrativos_fev = document.getElementById("");
+var total_Funcionarios_administrativos_mar = document.getElementById("");
+var total_Funcionarios_administrativos_abr = document.getElementById("");
+var total_Funcionarios_administrativos_mai = document.getElementById("");
+var total_Funcionarios_administrativos_jun = document.getElementById("");
+var total_Funcionarios_administrativos_jul = document.getElementById("");
+var total_Funcionarios_administrativos_ago = document.getElementById("");
+var total_Funcionarios_administrativos_set = document.getElementById("");
+var total_Funcionarios_administrativos_out = document.getElementById("");
+var total_Funcionarios_administrativos_nov = document.getElementById("");
+var total_Funcionarios_administrativos_dez = document.getElementById("");
+function TOTAL_DESP_FUN(){
+    total_Funcionarios_administrativos.innerHTML =
+        parseFloat(total_Funcionarios_administrativos_jan.value)+
+        parseFloat(total_Funcionarios_administrativos_fev.value)+
+        parseFloat(total_Funcionarios_administrativos_mar.value)+
+        parseFloat(total_Funcionarios_administrativos_abr.value)+
+        parseFloat(total_Funcionarios_administrativos_mai.value)+
+        parseFloat(total_Funcionarios_administrativos_jun.value)+
+        parseFloat(total_Funcionarios_administrativos_jul.value)+
+        parseFloat(total_Funcionarios_administrativos_ago.value)+
+        parseFloat(total_Funcionarios_administrativos_set.value)+
+        parseFloat(total_Funcionarios_administrativos_out.value)+
+        parseFloat(total_Funcionarios_administrativos_nov.value)+
+        parseFloat(total_Funcionarios_administrativos_dez.value);
+}
+
+total_Funcionarios_administrativos_jan.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Funcionarios_administrativos_fev.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Funcionarios_administrativos_mar.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Funcionarios_administrativos_abr.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Funcionarios_administrativos_mai.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Funcionarios_administrativos_jun.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Funcionarios_administrativos_jul.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Funcionarios_administrativos_ago.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Funcionarios_administrativos_set.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Funcionarios_administrativos_out.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Funcionarios_administrativos_nov.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Funcionarios_administrativos_dez.addEventListener("keyup",TOTAL_DESP_FUN);
+
+##########################################################################################################
+
+#
+var total_Alimentacao_refeiçao_DESPESAS_SEDE = document.getElementById("");
+var total_Alimentacao_refeiçao_DESPESAS_SEDE_jan = document.getElementById("");
+var total_Alimentacao_refeiçao_DESPESAS_SEDE_fev = document.getElementById("");
+var total_Alimentacao_refeiçao_DESPESAS_SEDE_mar = document.getElementById("");
+var total_Alimentacao_refeiçao_DESPESAS_SEDE_abr = document.getElementById("");
+var total_Alimentacao_refeiçao_DESPESAS_SEDE_mai = document.getElementById("");
+var total_Alimentacao_refeiçao_DESPESAS_SEDE_jun = document.getElementById("");
+var total_Alimentacao_refeiçao_DESPESAS_SEDE_jul = document.getElementById("");
+var total_Alimentacao_refeiçao_DESPESAS_SEDE_ago = document.getElementById("");
+var total_Alimentacao_refeiçao_DESPESAS_SEDE_set = document.getElementById("");
+var total_Alimentacao_refeiçao_DESPESAS_SEDE_out = document.getElementById("");
+var total_Alimentacao_refeiçao_DESPESAS_SEDE_nov = document.getElementById("");
+var total_Alimentacao_refeiçao_DESPESAS_SEDE_dez = document.getElementById("");
+function TOTAL_DESP_FUN(){
+    total_Alimentacao_refeiçao_DESPESAS_SEDE.innerHTML =
+        parseFloat(total_Alimentacao_refeiçao_DESPESAS_SEDE_jan.value)+
+        parseFloat(total_Alimentacao_refeiçao_DESPESAS_SEDE_fev.value)+
+        parseFloat(total_Alimentacao_refeiçao_DESPESAS_SEDE_mar.value)+
+        parseFloat(total_Alimentacao_refeiçao_DESPESAS_SEDE_abr.value)+
+        parseFloat(total_Alimentacao_refeiçao_DESPESAS_SEDE_mai.value)+
+        parseFloat(total_Alimentacao_refeiçao_DESPESAS_SEDE_jun.value)+
+        parseFloat(total_Alimentacao_refeiçao_DESPESAS_SEDE_jul.value)+
+        parseFloat(total_Alimentacao_refeiçao_DESPESAS_SEDE_ago.value)+
+        parseFloat(total_Alimentacao_refeiçao_DESPESAS_SEDE_set.value)+
+        parseFloat(total_Alimentacao_refeiçao_DESPESAS_SEDE_out.value)+
+        parseFloat(total_Alimentacao_refeiçao_DESPESAS_SEDE_nov.value)+
+        parseFloat(total_Alimentacao_refeiçao_DESPESAS_SEDE_dez.value);
+}
+
+total_Alimentacao_refeiçao_DESPESAS_SEDE_jan.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Alimentacao_refeiçao_DESPESAS_SEDE_fev.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Alimentacao_refeiçao_DESPESAS_SEDE_mar.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Alimentacao_refeiçao_DESPESAS_SEDE_abr.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Alimentacao_refeiçao_DESPESAS_SEDE_mai.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Alimentacao_refeiçao_DESPESAS_SEDE_jun.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Alimentacao_refeiçao_DESPESAS_SEDE_jul.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Alimentacao_refeiçao_DESPESAS_SEDE_ago.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Alimentacao_refeiçao_DESPESAS_SEDE_set.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Alimentacao_refeiçao_DESPESAS_SEDE_out.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Alimentacao_refeiçao_DESPESAS_SEDE_nov.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Alimentacao_refeiçao_DESPESAS_SEDE_dez.addEventListener("keyup",TOTAL_DESP_FUN);
+
+##########################################################################################################
+
+#
+var total_Desp_escritorio = document.getElementById("");
+var total_Desp_escritorio_jan = document.getElementById("");
+var total_Desp_escritorio_fev = document.getElementById("");
+var total_Desp_escritorio_mar = document.getElementById("");
+var total_Desp_escritorio_abr = document.getElementById("");
+var total_Desp_escritorio_mai = document.getElementById("");
+var total_Desp_escritorio_jun = document.getElementById("");
+var total_Desp_escritorio_jul = document.getElementById("");
+var total_Desp_escritorio_ago = document.getElementById("");
+var total_Desp_escritorio_set = document.getElementById("");
+var total_Desp_escritorio_out = document.getElementById("");
+var total_Desp_escritorio_nov = document.getElementById("");
+var total_Desp_escritorio_dez = document.getElementById("");
+function TOTAL_DESP_FUN(){
+    total_Desp_escritorio.innerHTML =
+        parseFloat(total_Desp_escritorio_jan.value)+
+        parseFloat(total_Desp_escritorio_fev.value)+
+        parseFloat(total_Desp_escritorio_mar.value)+
+        parseFloat(total_Desp_escritorio_abr.value)+
+        parseFloat(total_Desp_escritorio_mai.value)+
+        parseFloat(total_Desp_escritorio_jun.value)+
+        parseFloat(total_Desp_escritorio_jul.value)+
+        parseFloat(total_Desp_escritorio_ago.value)+
+        parseFloat(total_Desp_escritorio_set.value)+
+        parseFloat(total_Desp_escritorio_out.value)+
+        parseFloat(total_Desp_escritorio_nov.value)+
+        parseFloat(total_Desp_escritorio_dez.value);
+}
+
+total_Desp_escritorio_jan.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Desp_escritorio_fev.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Desp_escritorio_mar.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Desp_escritorio_abr.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Desp_escritorio_mai.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Desp_escritorio_jun.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Desp_escritorio_jul.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Desp_escritorio_ago.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Desp_escritorio_set.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Desp_escritorio_out.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Desp_escritorio_nov.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Desp_escritorio_dez.addEventListener("keyup",TOTAL_DESP_FUN);
+
+##########################################################################################################
+
+#
+var total_Telefone = document.getElementById("");
+var total_Telefone_jan = document.getElementById("");
+var total_Telefone_fev = document.getElementById("");
+var total_Telefone_mar = document.getElementById("");
+var total_Telefone_abr = document.getElementById("");
+var total_Telefone_mai = document.getElementById("");
+var total_Telefone_jun = document.getElementById("");
+var total_Telefone_jul = document.getElementById("");
+var total_Telefone_ago = document.getElementById("");
+var total_Telefone_set = document.getElementById("");
+var total_Telefone_out = document.getElementById("");
+var total_Telefone_nov = document.getElementById("");
+var total_Telefone_dez = document.getElementById("");
+function TOTAL_DESP_FUN(){
+    total_Telefone.innerHTML =
+        parseFloat(total_Telefone_jan.value)+
+        parseFloat(total_Telefone_fev.value)+
+        parseFloat(total_Telefone_mar.value)+
+        parseFloat(total_Telefone_abr.value)+
+        parseFloat(total_Telefone_mai.value)+
+        parseFloat(total_Telefone_jun.value)+
+        parseFloat(total_Telefone_jul.value)+
+        parseFloat(total_Telefone_ago.value)+
+        parseFloat(total_Telefone_set.value)+
+        parseFloat(total_Telefone_out.value)+
+        parseFloat(total_Telefone_nov.value)+
+        parseFloat(total_Telefone_dez.value);
+}
+
+total_Telefone_jan.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_fev.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_mar.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_abr.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_mai.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_jun.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_jul.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_ago.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_set.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_out.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_nov.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_dez.addEventListener("keyup",TOTAL_DESP_FUN);
+
+##########################################################################################################
+
+#
+var total_Contador_Advogado = document.getElementById("");
+var total_Contador_Advogado_jan = document.getElementById("");
+var total_Contador_Advogado_fev = document.getElementById("");
+var total_Contador_Advogado_mar = document.getElementById("");
+var total_Contador_Advogado_abr = document.getElementById("");
+var total_Contador_Advogado_mai = document.getElementById("");
+var total_Contador_Advogado_jun = document.getElementById("");
+var total_Contador_Advogado_jul = document.getElementById("");
+var total_Contador_Advogado_ago = document.getElementById("");
+var total_Contador_Advogado_set = document.getElementById("");
+var total_Contador_Advogado_out = document.getElementById("");
+var total_Contador_Advogado_nov = document.getElementById("");
+var total_Contador_Advogado_dez = document.getElementById("");
+function TOTAL_DESP_FUN(){
+    total_Contador_Advogado.innerHTML =
+        parseFloat(total_Contador_Advogado_jan.value)+
+        parseFloat(total_Contador_Advogado_fev.value)+
+        parseFloat(total_Contador_Advogado_mar.value)+
+        parseFloat(total_Contador_Advogado_abr.value)+
+        parseFloat(total_Contador_Advogado_mai.value)+
+        parseFloat(total_Contador_Advogado_jun.value)+
+        parseFloat(total_Contador_Advogado_jul.value)+
+        parseFloat(total_Contador_Advogado_ago.value)+
+        parseFloat(total_Contador_Advogado_set.value)+
+        parseFloat(total_Contador_Advogado_out.value)+
+        parseFloat(total_Contador_Advogado_nov.value)+
+        parseFloat(total_Contador_Advogado_dez.value);
+}
+
+total_Contador_Advogado_jan.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Contador_Advogado_fev.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Contador_Advogado_mar.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Contador_Advogado_abr.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Contador_Advogado_mai.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Contador_Advogado_jun.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Contador_Advogado_jul.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Contador_Advogado_ago.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Contador_Advogado_set.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Contador_Advogado_out.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Contador_Advogado_nov.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Contador_Advogado_dez.addEventListener("keyup",TOTAL_DESP_FUN);
+
+##########################################################################################################
+
+#
+var total_Telefone_fixo = document.getElementById("");
+var total_Telefone_fixo_jan = document.getElementById("");
+var total_Telefone_fixo_fev = document.getElementById("");
+var total_Telefone_fixo_mar = document.getElementById("");
+var total_Telefone_fixo_abr = document.getElementById("");
+var total_Telefone_fixo_mai = document.getElementById("");
+var total_Telefone_fixo_jun = document.getElementById("");
+var total_Telefone_fixo_jul = document.getElementById("");
+var total_Telefone_fixo_ago = document.getElementById("");
+var total_Telefone_fixo_set = document.getElementById("");
+var total_Telefone_fixo_out = document.getElementById("");
+var total_Telefone_fixo_nov = document.getElementById("");
+var total_Telefone_fixo_dez = document.getElementById("");
+function TOTAL_DESP_FUN(){
+    total_Telefone_fixo.innerHTML =
+        parseFloat(total_Telefone_fixo_jan.value)+
+        parseFloat(total_Telefone_fixo_fev.value)+
+        parseFloat(total_Telefone_fixo_mar.value)+
+        parseFloat(total_Telefone_fixo_abr.value)+
+        parseFloat(total_Telefone_fixo_mai.value)+
+        parseFloat(total_Telefone_fixo_jun.value)+
+        parseFloat(total_Telefone_fixo_jul.value)+
+        parseFloat(total_Telefone_fixo_ago.value)+
+        parseFloat(total_Telefone_fixo_set.value)+
+        parseFloat(total_Telefone_fixo_out.value)+
+        parseFloat(total_Telefone_fixo_nov.value)+
+        parseFloat(total_Telefone_fixo_dez.value);
+}
+
+total_Telefone_fixo_jan.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_fixo_fev.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_fixo_mar.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_fixo_abr.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_fixo_mai.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_fixo_jun.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_fixo_jul.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_fixo_ago.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_fixo_set.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_fixo_out.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_fixo_nov.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Telefone_fixo_dez.addEventListener("keyup",TOTAL_DESP_FUN);
+
+##########################################################################################################
+
+#
+var total_Informaçoes_curso_revistas_congresso_livros = document.getElementById("");
+var total_Informaçoes_curso_revistas_congresso_livros_jan = document.getElementById("");
+var total_Informaçoes_curso_revistas_congresso_livros_fev = document.getElementById("");
+var total_Informaçoes_curso_revistas_congresso_livros_mar = document.getElementById("");
+var total_Informaçoes_curso_revistas_congresso_livros_abr = document.getElementById("");
+var total_Informaçoes_curso_revistas_congresso_livros_mai = document.getElementById("");
+var total_Informaçoes_curso_revistas_congresso_livros_jun = document.getElementById("");
+var total_Informaçoes_curso_revistas_congresso_livros_jul = document.getElementById("");
+var total_Informaçoes_curso_revistas_congresso_livros_ago = document.getElementById("");
+var total_Informaçoes_curso_revistas_congresso_livros_set = document.getElementById("");
+var total_Informaçoes_curso_revistas_congresso_livros_out = document.getElementById("");
+var total_Informaçoes_curso_revistas_congresso_livros_nov = document.getElementById("");
+var total_Informaçoes_curso_revistas_congresso_livros_dez = document.getElementById("");
+function TOTAL_DESP_FUN(){
+    total_Informaçoes_curso_revistas_congresso_livros.innerHTML =
+        parseFloat(total_Informaçoes_curso_revistas_congresso_livros_jan.value)+
+        parseFloat(total_Informaçoes_curso_revistas_congresso_livros_fev.value)+
+        parseFloat(total_Informaçoes_curso_revistas_congresso_livros_mar.value)+
+        parseFloat(total_Informaçoes_curso_revistas_congresso_livros_abr.value)+
+        parseFloat(total_Informaçoes_curso_revistas_congresso_livros_mai.value)+
+        parseFloat(total_Informaçoes_curso_revistas_congresso_livros_jun.value)+
+        parseFloat(total_Informaçoes_curso_revistas_congresso_livros_jul.value)+
+        parseFloat(total_Informaçoes_curso_revistas_congresso_livros_ago.value)+
+        parseFloat(total_Informaçoes_curso_revistas_congresso_livros_set.value)+
+        parseFloat(total_Informaçoes_curso_revistas_congresso_livros_out.value)+
+        parseFloat(total_Informaçoes_curso_revistas_congresso_livros_nov.value)+
+        parseFloat(total_Informaçoes_curso_revistas_congresso_livros_dez.value);
+}
+
+total_Informaçoes_curso_revistas_congresso_livros_jan.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Informaçoes_curso_revistas_congresso_livros_fev.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Informaçoes_curso_revistas_congresso_livros_mar.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Informaçoes_curso_revistas_congresso_livros_abr.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Informaçoes_curso_revistas_congresso_livros_mai.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Informaçoes_curso_revistas_congresso_livros_jun.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Informaçoes_curso_revistas_congresso_livros_jul.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Informaçoes_curso_revistas_congresso_livros_ago.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Informaçoes_curso_revistas_congresso_livros_set.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Informaçoes_curso_revistas_congresso_livros_out.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Informaçoes_curso_revistas_congresso_livros_nov.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Informaçoes_curso_revistas_congresso_livros_dez.addEventListener("keyup",TOTAL_DESP_FUN);
+
+##########################################################################################################
+
+#
+var total_Seguros_veiculos = document.getElementById("");
+var total_Seguros_veiculos_jan = document.getElementById("");
+var total_Seguros_veiculos_fev = document.getElementById("");
+var total_Seguros_veiculos_mar = document.getElementById("");
+var total_Seguros_veiculos_abr = document.getElementById("");
+var total_Seguros_veiculos_mai = document.getElementById("");
+var total_Seguros_veiculos_jun = document.getElementById("");
+var total_Seguros_veiculos_jul = document.getElementById("");
+var total_Seguros_veiculos_ago = document.getElementById("");
+var total_Seguros_veiculos_set = document.getElementById("");
+var total_Seguros_veiculos_out = document.getElementById("");
+var total_Seguros_veiculos_nov = document.getElementById("");
+var total_Seguros_veiculos_dez = document.getElementById("");
+function TOTAL_DESP_FUN(){
+    total_Seguros_veiculos.innerHTML =
+        parseFloat(total_Seguros_veiculos_jan.value)+
+        parseFloat(total_Seguros_veiculos_fev.value)+
+        parseFloat(total_Seguros_veiculos_mar.value)+
+        parseFloat(total_Seguros_veiculos_abr.value)+
+        parseFloat(total_Seguros_veiculos_mai.value)+
+        parseFloat(total_Seguros_veiculos_jun.value)+
+        parseFloat(total_Seguros_veiculos_jul.value)+
+        parseFloat(total_Seguros_veiculos_ago.value)+
+        parseFloat(total_Seguros_veiculos_set.value)+
+        parseFloat(total_Seguros_veiculos_out.value)+
+        parseFloat(total_Seguros_veiculos_nov.value)+
+        parseFloat(total_Seguros_veiculos_dez.value);
+}
+
+total_Seguros_veiculos_jan.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Seguros_veiculos_fev.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Seguros_veiculos_mar.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Seguros_veiculos_abr.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Seguros_veiculos_mai.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Seguros_veiculos_jun.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Seguros_veiculos_jul.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Seguros_veiculos_ago.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Seguros_veiculos_set.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Seguros_veiculos_out.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Seguros_veiculos_nov.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Seguros_veiculos_dez.addEventListener("keyup",TOTAL_DESP_FUN);
+
+##########################################################################################################
+
+#
+var total_Moto_e_carro_combustivel_IPVA_seguro_multa = document.getElementById("");
+var total_Moto_e_carro_combustivel_IPVA_seguro_multa_jan = document.getElementById("");
+var total_Moto_e_carro_combustivel_IPVA_seguro_multa_fev = document.getElementById("");
+var total_Moto_e_carro_combustivel_IPVA_seguro_multa_mar = document.getElementById("");
+var total_Moto_e_carro_combustivel_IPVA_seguro_multa_abr = document.getElementById("");
+var total_Moto_e_carro_combustivel_IPVA_seguro_multa_mai = document.getElementById("");
+var total_Moto_e_carro_combustivel_IPVA_seguro_multa_jun = document.getElementById("");
+var total_Moto_e_carro_combustivel_IPVA_seguro_multa_jul = document.getElementById("");
+var total_Moto_e_carro_combustivel_IPVA_seguro_multa_ago = document.getElementById("");
+var total_Moto_e_carro_combustivel_IPVA_seguro_multa_set = document.getElementById("");
+var total_Moto_e_carro_combustivel_IPVA_seguro_multa_out = document.getElementById("");
+var total_Moto_e_carro_combustivel_IPVA_seguro_multa_nov = document.getElementById("");
+var total_Moto_e_carro_combustivel_IPVA_seguro_multa_dez = document.getElementById("");
+function TOTAL_DESP_FUN(){
+    total_Moto_e_carro_combustivel_IPVA_seguro_multa.innerHTML =
+        parseFloat(total_Moto_e_carro_combustivel_IPVA_seguro_multa_jan.value)+
+        parseFloat(total_Moto_e_carro_combustivel_IPVA_seguro_multa_fev.value)+
+        parseFloat(total_Moto_e_carro_combustivel_IPVA_seguro_multa_mar.value)+
+        parseFloat(total_Moto_e_carro_combustivel_IPVA_seguro_multa_abr.value)+
+        parseFloat(total_Moto_e_carro_combustivel_IPVA_seguro_multa_mai.value)+
+        parseFloat(total_Moto_e_carro_combustivel_IPVA_seguro_multa_jun.value)+
+        parseFloat(total_Moto_e_carro_combustivel_IPVA_seguro_multa_jul.value)+
+        parseFloat(total_Moto_e_carro_combustivel_IPVA_seguro_multa_ago.value)+
+        parseFloat(total_Moto_e_carro_combustivel_IPVA_seguro_multa_set.value)+
+        parseFloat(total_Moto_e_carro_combustivel_IPVA_seguro_multa_out.value)+
+        parseFloat(total_Moto_e_carro_combustivel_IPVA_seguro_multa_nov.value)+
+        parseFloat(total_Moto_e_carro_combustivel_IPVA_seguro_multa_dez.value);
+}
+
+total_Moto_e_carro_combustivel_IPVA_seguro_multa_jan.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Moto_e_carro_combustivel_IPVA_seguro_multa_fev.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Moto_e_carro_combustivel_IPVA_seguro_multa_mar.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Moto_e_carro_combustivel_IPVA_seguro_multa_abr.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Moto_e_carro_combustivel_IPVA_seguro_multa_mai.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Moto_e_carro_combustivel_IPVA_seguro_multa_jun.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Moto_e_carro_combustivel_IPVA_seguro_multa_jul.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Moto_e_carro_combustivel_IPVA_seguro_multa_ago.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Moto_e_carro_combustivel_IPVA_seguro_multa_set.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Moto_e_carro_combustivel_IPVA_seguro_multa_out.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Moto_e_carro_combustivel_IPVA_seguro_multa_nov.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Moto_e_carro_combustivel_IPVA_seguro_multa_dez.addEventListener("keyup",TOTAL_DESP_FUN);
+
+##########################################################################################################
+
+#
+var total_Outros_diversos = document.getElementById("");
+var total_Outros_diversos_jan = document.getElementById("");
+var total_Outros_diversos_fev = document.getElementById("");
+var total_Outros_diversos_mar = document.getElementById("");
+var total_Outros_diversos_abr = document.getElementById("");
+var total_Outros_diversos_mai = document.getElementById("");
+var total_Outros_diversos_jun = document.getElementById("");
+var total_Outros_diversos_jul = document.getElementById("");
+var total_Outros_diversos_ago = document.getElementById("");
+var total_Outros_diversos_set = document.getElementById("");
+var total_Outros_diversos_out = document.getElementById("");
+var total_Outros_diversos_nov = document.getElementById("");
+var total_Outros_diversos_dez = document.getElementById("");
+function TOTAL_DESP_FUN(){
+    total_Outros_diversos.innerHTML =
+        parseFloat(total_Outros_diversos_jan.value)+
+        parseFloat(total_Outros_diversos_fev.value)+
+        parseFloat(total_Outros_diversos_mar.value)+
+        parseFloat(total_Outros_diversos_abr.value)+
+        parseFloat(total_Outros_diversos_mai.value)+
+        parseFloat(total_Outros_diversos_jun.value)+
+        parseFloat(total_Outros_diversos_jul.value)+
+        parseFloat(total_Outros_diversos_ago.value)+
+        parseFloat(total_Outros_diversos_set.value)+
+        parseFloat(total_Outros_diversos_out.value)+
+        parseFloat(total_Outros_diversos_nov.value)+
+        parseFloat(total_Outros_diversos_dez.value);
+}
+
+total_Outros_diversos_jan.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Outros_diversos_fev.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Outros_diversos_mar.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Outros_diversos_abr.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Outros_diversos_mai.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Outros_diversos_jun.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Outros_diversos_jul.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Outros_diversos_ago.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Outros_diversos_set.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Outros_diversos_out.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Outros_diversos_nov.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Outros_diversos_dez.addEventListener("keyup",TOTAL_DESP_FUN);
+
+##########################################################################################################
+
+#
+var total_Despesas_de_Viagem = document.getElementById("");
+var total_Despesas_de_Viagem_jan = document.getElementById("");
+var total_Despesas_de_Viagem_fev = document.getElementById("");
+var total_Despesas_de_Viagem_mar = document.getElementById("");
+var total_Despesas_de_Viagem_abr = document.getElementById("");
+var total_Despesas_de_Viagem_mai = document.getElementById("");
+var total_Despesas_de_Viagem_jun = document.getElementById("");
+var total_Despesas_de_Viagem_jul = document.getElementById("");
+var total_Despesas_de_Viagem_ago = document.getElementById("");
+var total_Despesas_de_Viagem_set = document.getElementById("");
+var total_Despesas_de_Viagem_out = document.getElementById("");
+var total_Despesas_de_Viagem_nov = document.getElementById("");
+var total_Despesas_de_Viagem_dez = document.getElementById("");
+function TOTAL_DESP_FUN(){
+    total_Despesas_de_Viagem.innerHTML =
+        parseFloat(total_Despesas_de_Viagem_jan.value)+
+        parseFloat(total_Despesas_de_Viagem_fev.value)+
+        parseFloat(total_Despesas_de_Viagem_mar.value)+
+        parseFloat(total_Despesas_de_Viagem_abr.value)+
+        parseFloat(total_Despesas_de_Viagem_mai.value)+
+        parseFloat(total_Despesas_de_Viagem_jun.value)+
+        parseFloat(total_Despesas_de_Viagem_jul.value)+
+        parseFloat(total_Despesas_de_Viagem_ago.value)+
+        parseFloat(total_Despesas_de_Viagem_set.value)+
+        parseFloat(total_Despesas_de_Viagem_out.value)+
+        parseFloat(total_Despesas_de_Viagem_nov.value)+
+        parseFloat(total_Despesas_de_Viagem_dez.value);
+}
+
+total_Despesas_de_Viagem_jan.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Despesas_de_Viagem_fev.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Despesas_de_Viagem_mar.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Despesas_de_Viagem_abr.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Despesas_de_Viagem_mai.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Despesas_de_Viagem_jun.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Despesas_de_Viagem_jul.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Despesas_de_Viagem_ago.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Despesas_de_Viagem_set.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Despesas_de_Viagem_out.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Despesas_de_Viagem_nov.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Despesas_de_Viagem_dez.addEventListener("keyup",TOTAL_DESP_FUN);
+
+##########################################################################################################
+
+#
+var total_Energia_eletrica = document.getElementById("");
+var total_Energia_eletrica_jan = document.getElementById("");
+var total_Energia_eletrica_fev = document.getElementById("");
+var total_Energia_eletrica_mar = document.getElementById("");
+var total_Energia_eletrica_abr = document.getElementById("");
+var total_Energia_eletrica_mai = document.getElementById("");
+var total_Energia_eletrica_jun = document.getElementById("");
+var total_Energia_eletrica_jul = document.getElementById("");
+var total_Energia_eletrica_ago = document.getElementById("");
+var total_Energia_eletrica_set = document.getElementById("");
+var total_Energia_eletrica_out = document.getElementById("");
+var total_Energia_eletrica_nov = document.getElementById("");
+var total_Energia_eletrica_dez = document.getElementById("");
+function TOTAL_DESP_FUN(){
+    total_Energia_eletrica.innerHTML =
+        parseFloat(total_Energia_eletrica_jan.value)+
+        parseFloat(total_Energia_eletrica_fev.value)+
+        parseFloat(total_Energia_eletrica_mar.value)+
+        parseFloat(total_Energia_eletrica_abr.value)+
+        parseFloat(total_Energia_eletrica_mai.value)+
+        parseFloat(total_Energia_eletrica_jun.value)+
+        parseFloat(total_Energia_eletrica_jul.value)+
+        parseFloat(total_Energia_eletrica_ago.value)+
+        parseFloat(total_Energia_eletrica_set.value)+
+        parseFloat(total_Energia_eletrica_out.value)+
+        parseFloat(total_Energia_eletrica_nov.value)+
+        parseFloat(total_Energia_eletrica_dez.value);
+}
+
+total_Energia_eletrica_jan.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Energia_eletrica_fev.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Energia_eletrica_mar.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Energia_eletrica_abr.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Energia_eletrica_mai.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Energia_eletrica_jun.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Energia_eletrica_jul.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Energia_eletrica_ago.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Energia_eletrica_set.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Energia_eletrica_out.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Energia_eletrica_nov.addEventListener("keyup",TOTAL_DESP_FUN);
+total_Energia_eletrica_dez.addEventListener("keyup",TOTAL_DESP_FUN);
+
+##########################################################################################################
+
+
+
+
+
+
+
+
+
+

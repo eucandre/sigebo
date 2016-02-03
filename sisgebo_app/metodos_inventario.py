@@ -226,3 +226,27 @@ def can_vol_medio():
         return 0
     return int(i.canavial_ou_volumoso_capital_medio)
 
+def benf_ini():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.benfeitorias_valor_inicial_de_mercado)
+
+def benf_fin():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.benfeitorias_valor_final_ou_sucata)
+
+def benf_medio():
+    i = Inventario_ligado_atividade()
+    tamanho = len(Inventario_ligado_atividade.objects.all())
+
+    if tamanho ==0:
+        return 0
+    return int(i.benfeitorias_capital_medio)
+

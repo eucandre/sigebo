@@ -1,0 +1,69 @@
+        #
+na classe FormCustoFixo exitesm os nomes que antecedem as igualdades. A linha 220 marca a divisão entre as marcações com {{form.}}!
+
+A tarefa será de usar esses nomes que antecedem as igualdades e substituir em {{form.<nome_antes_da_igualdade>}}, o que está entre "<>" e as "<>"
+devem ser substituidos, são somente para ilustrar!
+#
+
+
+
+Receita_total           = forms.FloatField()
+        Resultado_caixa         = forms.FloatField()
+        Lucro_operacional       = forms.FloatField()
+        Lucro_economico         = forms.FloatField()
+        Lucro_operacional_ha    = forms.FloatField()
+        Lucratividade           = forms.FloatField()
+        Rentabilidade           = forms.FloatField()
+        Pay_back                = forms.FloatField()
+        Tir                     = forms.FloatField()
+        Relacao_beneficio_custo = forms.FloatField()
+
+
+ <h3>Avaliação de custos e resultados</h3>
+
+            <span> Ativos</span>
+            <span style="left: 30%;position: absolute"> Valor</span>
+            <span style="left: 18%;top: 23%;position: absolute"> capital médio</span>
+                <div style="left: 30%;top: 23%;position: absolute">{{form.Resultado_caixa}}</div>
+            <span style="left: 18%;top: 28%;position: absolute"> Total</span>
+                <div style="left: 30%;top: 28%;position: absolute">{{form.Lucro_operacional}}</div>
+
+            <h4 style="top: 35%;position: absolute; font-weight: bolder" >Custos</h4>
+
+            <span style="top: 40%;position: absolute" >Custo fixo total</span>
+            <span style="top: 45%;position: absolute" >Custo variável total</span>
+            <span style="top: 50%;position: absolute" >Despesas adm</span>
+            <span style="top: 55%;position: absolute" >Custo operacional</span>
+            <span style="top: 60%;position: absolute" >Custo oportunidade</span>
+            <span style="top: 65%;position: absolute" >Custo Total</span>
+
+            <h4 style="left:35%;top: 35%;position: absolute; font-weight: bolder" >valor</h4>
+                <div style="left:35%;top: 40%;position: absolute;">{{form.Lucro_economico}}</div>
+                <div style="left:35%;top: 45%;position: absolute;">{{form.Lucro_operacional_ha}}</div>
+                <div style="left:35%;top: 50%;position: absolute;">{{form.Lucratividade}}</div>
+                <div style="left:35%;top: 55%;position: absolute;">{{form.Rentabilidade}}</div>
+                <div style="left:35%;top: 60%;position: absolute;">{{form.Pay_back}}</div>
+                <div style="left:35%;top: 65%;position: absolute;">{{form.Tir}}</div>
+            <h5 style="top: 70%;position: absolute;">Receita total</h5>
+                <div style="left:35%;top: 70%;position: absolute;">{{form.Relacao_beneficio_custo}}</div>
+            <span style="top: 75%;position: absolute;">Resultado caixa</span>
+                <div style="left:35%;top: 75%;position: absolute;">{{form.}}</div>
+            <span style="top: 80%;position: absolute;">Lucro operacional (R$)</span>
+                <div style="left:35%;top: 80%;position: absolute;">{{form.}}</div>
+            <span style="top: 85%;position: absolute;">Lucro econômico</span>
+                <div style="left:35%;top: 85%;position: absolute;">{{form.}}</div>
+
+             <span style="top: 90%;position: absolute;">Lucro operacional (ha)</span>
+                <div style="left:35%;top: 90%;position: absolute;">{{form.}}</div>
+
+            <span style="top: 95%;position: absolute;">Lucratividade (%)</span>
+                <div style="left:35%;top: 95%;position: absolute;">{{form.}}</div>
+            <span style="top: 100%;position: absolute;">Rentabilidade 1(%)</span>
+                <div style="left:35%;top: 100%;position: absolute;">{{form.}}</div>
+            <span style="top: 105%;position: absolute;">"Pay back" (anos)</span>
+                <div style="left:35%;top: 105%;position: absolute;">{{form.}}</div>
+            <span style="top: 110%;position: absolute;">TIR (%)</span>
+                <div style="left:35%;top: 110%;position: absolute;">{{form.}}</div>
+            <span style="top: 115%;position: absolute;">Relação benefpicio/custo</span>
+                <div style="left:35%;top: 115%;position: absolute;">{{form.}}</div>
+                <div class="row">
