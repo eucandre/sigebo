@@ -4,7 +4,7 @@ var peso_final      = document.getElementById("id_Peso_Final");
 var duracao_confina = document.getElementById("id_tempo_confinamento");
 function valor_consumo(){
 
-    consumo_diario.innerHTML = (parseInt(peso_final.value)-parseInt(peso_inicial.value))/parseInt(duracao_confina.value);
+    consumo_diario.innerHTML = ((parseInt(peso_final.value)-parseInt(peso_inicial.value))/parseInt(duracao_confina.value)).toFixed(2);
 
 }
 

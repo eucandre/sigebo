@@ -63,119 +63,6 @@
 
                     <br />
 
-                    <!-- sidebar menu -->
-                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
-
-                        <div class="menu_section">
-                            <h3>Menu geral</h3>
-                            <ul class="nav side-menu">
-                                <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu" style="display: none">
-                                        <li><a href="/">Inicio</a>
-
-                                    </ul>
-                                </li>
-                                <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu" style="display: none">
-                                        <li><a href="/definicao/">Definição</a>
-                                        </li>
-                                        <li><a href="/pastagem/">Pastagem</a>
-                                        </li>
-                                        <li><a href="/venda_compra/">Compra e venda</a>
-                                        </li>
-                                        <li><a href="/confinamento/">Confinamento</a>
-                                        </li>
-                                        <li><a href="/dimen_aberto/">Dimensionamento aberto</a>
-                                        </li>
-                                        <li><a href="dimen_fechado/">Dimensionamento fechado</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a><i class="fa fa-desktop"></i> encargos <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu" style="display: none">
-                                        <li><a href="general_elements.html">#</a>
-                                        </li>
-                                        <li><a href="media_gallery.html">#</a>
-                                        </li>
-                                        <li><a href="typography.html">#</a>
-                                        </li>
-                                        <li><a href="icons.html">#</a>
-                                        </li>
-                                        <li><a href="glyphicons.html">#</a>
-                                        </li>
-                                        <li><a href="widgets.html">#</a>
-                                        </li>
-                                        <li><a href="invoice.html">#</a>
-                                        </li>
-                                        <li><a href="inbox.html">#</a>
-                                        </li>
-                                        <li><a href="calender.html">#</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu" style="display: none">
-                                        <li><a href="tables.html">Tables</a>
-                                        </li>
-                                        <li><a href="tables_dynamic.html">Table Dynamic</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu" style="display: none">
-                                        <li><a href="chartjs.html">Chart JS</a>
-                                        </li>
-                                        <li><a href="chartjs2.html">Chart JS2</a>
-                                        </li>
-                                        <li><a href="morisjs.html">Moris JS</a>
-                                        </li>
-                                        <li><a href="echarts.html">ECharts </a>
-                                        </li>
-                                        <li><a href="other_charts.html">Other Charts </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="menu_section">
-                            <h3>Live On</h3>
-                            <ul class="nav side-menu">
-                                <li><a><i class="fa fa-bug"></i> Additional Pages <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu" style="display: none">
-                                        <li><a href="e_commerce.html">E-commerce</a>
-                                        </li>
-                                        <li><a href="projects.html">Projects</a>
-                                        </li>
-                                        <li><a href="project_detail.html">Project Detail</a>
-                                        </li>
-                                        <li><a href="contacts.html">Contacts</a>
-                                        </li>
-                                        <li><a href="profile.html">Profile</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
-                                    <ul class="nav child_menu" style="display: none">
-                                        <li><a href="page_404.html">404 Error</a>
-                                        </li>
-                                        <li><a href="page_500.html">500 Error</a>
-                                        </li>
-                                        <li><a href="plain_page.html">Plain Page</a>
-                                        </li>
-                                        <li><a href="login.html">Login Page</a>
-                                        </li>
-                                        <li><a href="pricing_tables.html">Pricing Tables</a>
-                                        </li>
-
-                                    </ul>
-                                </li>
-                                <li><a><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a>
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <!-- /sidebar menu -->
 
                     <!-- /menu footer buttons -->
                     <div class="sidebar-footer hidden-small">
@@ -236,7 +123,7 @@
                     <span style="top: 45%;position: absolute;">Duração do Confinamento (dias)</span>
                              <div style="top: 45%; left: 44%;position: absolute;">{{ form.tempo_confinamento }}</div>
                     <span style="top: 50%;position: absolute;">Ganho diário (kg)</span>
-                             <div style="top: 50%; left: 44%;position: absolute;"><span id="id_ganho_diario"></span></div>
+                             <div style="top: 50%; left: 44%;position: absolute;"><span id="id_ganho_diario""></span></div>
                         <script src="/media/arquivos_primeira_planilha/1CONFINAMENTO/consumoDiario.js"></script>
                     <span style="top: 55%;position: absolute;">Consumo diário (kg)</span>
                                <div style="top: 55%; left: 44%;position: absolute;">{{ form.Consumo_ms }}</div>
@@ -249,34 +136,49 @@
                     <span style="top: 70%;position: absolute;">Preço do concentrado</span>
                                 <div style="top: 70%; left: 44%;position: absolute;">{{ form.Preco_concentrado }}</div>
                     <span style="top: 75%;position: absolute; font-weight: bolder;">Tipo do confinamento</span>
-                                <button id="ceu_aberto" style="top: 80%; position: absolute;">A céu aberto</button>
-                                <button id="galpao_fechado" style="top: 85%; position: absolute;">Galpão fechado</button>
+                                <!--<input id="ceu_aberto" type="button" onclick="clicado=true" value="A ceu aberto" style="top: 80%; position: absolute;">A céu aberto</input>-->
+                                <!--<input id="galpao_fechado" type="button" onclick="area_piquete_ceu()" value="Galpao fechado" style="top: 85%;left: 250px; position: absolute;">Galpão fechado</input>-->
+
+                <div style="top: 80%; position: absolute;">
+                    <select id="valores_confinamento" class ="form-control">
+                                <option  value="ceu" >Ceu aberto</option>
+                                <option value="galpao" selected>Galpão fechado</option>
+                            </select>
+                </div>
                      <span style="top: 90%;left: 34%;position: absolute;">Por Animais</span>
                      <span style="top: 90%;left: 44%;position: absolute;">Total</span>
                      <span style="top: 90%;left: 54%;position: absolute;">(ha)</span>
                      <span style="top: 90%;left: 64%;position: absolute;">Comprimento(m)</span>
                      <span style="top: 90%;left: 74%;position: absolute;">Largura(m)</span>
-                    <span style="top: 95%;position: absolute;"> Área do piquete(m²)</span>
-                            <div style="top: 95%; left: 34%;position: absolute;">{{ form.area_piquete_por_animais }}</div>
-                            <div style="top: 95%; left: 44%;position: absolute;">{{ form.area_piquete_total }}</div>
-                            <div style="top: 95%; left: 54%;position: absolute;">{{ form.area_piquete_por_ha }}</div>
-                            <div style="top: 95%; left: 64%;position: absolute;">{{ form.area_piquete_comprimento }}</div>
+                    <span style="top: 95%;left: 300px;;position: absolute;"> Área do piquete(m²)</span>
+                            <div style="top: 95%; left: 34%;position: absolute"><span id="id_area_piquete_por_animais" ></span></div>
+                            <script src="/media/arquivos_primeira_planilha/1CONFINAMENTO/area_piquete_ceu_aberto.js"></script>
+                            <div style="top: 95%; left: 44%;position: absolute;"><span id="id_area_piquete_total"></span></div>
+                            <script src="/media/arquivos_primeira_planilha/1CONFINAMENTO/total_area_piquete.js"></script>
+                            <div style="top: 95%; left: 54%;position: absolute;"><span id="id_area_piquete_por_ha"></span></div>
+                            <script src="/media/arquivos_primeira_planilha/1CONFINAMENTO/ha.js"></script>
+                            <div style="top: 95%; left: 64%;position: absolute;"><span id="id_area_piquete_comprimento"></span></div>
+                             <script src="/media/arquivos_primeira_planilha/1CONFINAMENTO/comprimento_piquete.js"></script>
                             <div style="top: 95%; left: 74%;position: absolute;">{{ form.area_piquete_largura }}</div>
                     <span style="top: 100%;position: absolute;"> Cocho</span>
                             <div style="top: 100%; left: 34%;position: absolute;">{{ form.cocho_por_animais }}</div>
-                            <div style="top: 100%; left: 44%;position: absolute;">{{ form.cocho_total }}</div>
+                            <div style="top: 100%; left: 44%;position: absolute;"><span id="id_cocho_total"></span></div>
+                            <script src="/media/arquivos_primeira_planilha/1CONFINAMENTO/cocho_total.js"></script>
                             <div style="top: 100%; left: 54%;position: absolute;">{{ form.cocho_por_ha }}</div>
+
                             <div style="top: 100%; left: 64%;position: absolute;">{{ form.cocho_por_comprimento }}</div>
                             <div style="top: 100%; left: 74%;position: absolute;">{{ form.cocho_por_largura }}</div>
                     <span style="top: 105%;position: absolute;"> Bebedouro</span>
                             <div style="top: 105%; left: 34%;position: absolute;">{{ form.bebedouro_por_animais }}</div>
-                            <div style="top: 105%; left: 44%;position: absolute;">{{ form.bebedouro_total }}</div>
+                            <div style="top: 105%; left: 44%;position: absolute;"><span id="id_bebedouro_total"></span></div>
+                            <script src="/media/arquivos_primeira_planilha/1CONFINAMENTO/total_bebedouro.js"></script>
                             <div style="top: 105%; left: 54%;position: absolute;">{{ form.bebedouro_por_ha }}</div>
                             <div style="top: 105%; left: 64%;position: absolute;">{{ form.bebedouro_por_comprimento }}</div>
                             <div style="top: 105%; left: 74%;position: absolute;">{{ form.bebedouro_por_largura }}</div>
                     <span style="top: 110%;position: absolute;"> Caixa d'água/reserva y dias</span>
                             <div style="top: 110%; left: 34%;position: absolute;">{{ form.caixa_dagua_por_animais }}</div>
-                            <div style="top: 110%; left: 44%;position: absolute;">{{ form.caixa_dagua_total }}</div>
+                            <div style="top: 110%; left: 44%;position: absolute;"><span id="id_caixa_dagua_total"></span></div>
+                        <script src="/media/arquivos_primeira_planilha/1CONFINAMENTO/total_caixa_agua.js"></script>
                             <div style="top: 110%; left: 54%;position: absolute;">{{ form.caixa_dagua_por_comprimento }}</div>
                             <div style="top: 110%; left: 64%;position: absolute;">{{ form.caixa_dagua_por_ha }}</div>
                             <div style="top: 110%; left: 74%;position: absolute;">{{ form.caixa_dagua_por_largura }}</div>
@@ -298,13 +200,7 @@
                  <span style="top: 155%;position: absolute;left: 28%;">Consumo total(kg MS)</span>
                               <div style="top: 155%; left: 40%;position: absolute;">{{ form.consumo_total_ms_volumoso }}</div>
                 <h4 style="top: 10%; left: 70%;position: absolute;">Forrageira para produção de volumoso</h4>
-                <button style="top: 15%; left: 70%;position: absolute;opacity: 0.65;-moz-opacity:0.65;" disabled>MILHO</button>
-                <button style="top: 20%; left: 70%;position: absolute; opacity: 0.65;-moz-opacity:0.65;" disabled>SORGO</button>
-                <button style="top: 15%; left: 80%;position: absolute;opacity: 0.65;-moz-opacity:0.65;" disabled>CAPIM ELEFANTE</button>
-                <button style="top: 20%; left: 80%;position: absolute;opacity: 0.65;-moz-opacity:0.65;" disabled>MILHETO</button>
-                <button style="top: 15%; left: 90%;position: absolute;opacity: 0.65;-moz-opacity:0.65;" disabled>GIRASSOL</button>
-                <button style="top: 20%; left: 90%;position: absolute;opacity: 0.65;-moz-opacity:0.65;" disabled>CANA DE AÇUCAR</button>
-                <button style="top: 25%; left: 70%;position: absolute;opacity: 0.65;-moz-opacity:0.65;" disabled>MOMBAÇA</button>
+
             <span style="top: 30%; left: 70%;position: absolute;">Espécie forrageira</span>
             <span style="top: 30%; left: 80%;position: absolute;">PMS forrageira</span>
             <span style="top: 30%; left: 90%;position: absolute;">Área (ha)</span>

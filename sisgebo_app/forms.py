@@ -526,7 +526,7 @@ class FormConfinamento(forms.Form):
     area_piquete_comprimento    = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
     area_piquete_largura        = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
 
-    cocho_por_animais = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
+    cocho_por_animais = forms.FloatField(initial=0.7,label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
     cocho_por_ha = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
     cocho_por_comprimento = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
     cocho_por_largura = forms.FloatField(label='Ganho diario',widget=forms.TextInput(attrs={"class":"form-control","style":"width:25%;"}))
