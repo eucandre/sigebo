@@ -236,19 +236,21 @@
                     <span style="top: 45%;position: absolute;">Duração do Confinamento (dias)</span>
                              <div style="top: 45%; left: 44%;position: absolute;">{{ form.tempo_confinamento }}</div>
                     <span style="top: 50%;position: absolute;">Ganho diário (kg)</span>
-                             <div style="top: 50%; left: 44%;position: absolute;">{{ form.ganho_diario }}</div>
+                             <div style="top: 50%; left: 44%;position: absolute;"><span id="id_ganho_diario"></span></div>
+                        <script src="/media/arquivos_primeira_planilha/1CONFINAMENTO/consumoDiario.js"></script>
                     <span style="top: 55%;position: absolute;">Consumo diário (kg)</span>
                                <div style="top: 55%; left: 44%;position: absolute;">{{ form.Consumo_ms }}</div>
                     <span style="top: 60%;position: absolute;">Relação volumoso x Concentrado</span>
                                 <div style="top: 60%; left: 40%;position: absolute;">{{ form.volumoso }}</div>
-                                <div style="top: 60%; left: 44%;position: absolute;">{{ form.concentrado }} </div>
+                                <div style="top: 60%; left: 44%;position: absolute;"><span id="id_concentrado"></span>%</div>
+                                <script src="/media/arquivos_primeira_planilha/1CONFINAMENTO/relacao_volumosoXconcentrado.js"></script>
                     <span style="top: 65%;position: absolute;">Consumo de água (Litro/dia)</span>
                                 <div style="top: 65%; left: 44%;position: absolute;">{{ form.Consumo_agua }}</div>
                     <span style="top: 70%;position: absolute;">Preço do concentrado</span>
                                 <div style="top: 70%; left: 44%;position: absolute;">{{ form.Preco_concentrado }}</div>
                     <span style="top: 75%;position: absolute; font-weight: bolder;">Tipo do confinamento</span>
-                                <button style="top: 80%; position: absolute;">A céu aberto</button>
-                                <button style="top: 85%; position: absolute;">Galpão fechado</button>
+                                <button id="ceu_aberto" style="top: 80%; position: absolute;">A céu aberto</button>
+                                <button id="galpao_fechado" style="top: 85%; position: absolute;">Galpão fechado</button>
                      <span style="top: 90%;left: 34%;position: absolute;">Por Animais</span>
                      <span style="top: 90%;left: 44%;position: absolute;">Total</span>
                      <span style="top: 90%;left: 54%;position: absolute;">(ha)</span>
