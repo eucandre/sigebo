@@ -4,9 +4,9 @@
     var BEMFEITORIAS_CFX_MEDIO      = document.getElementById("id_benfeitorias_capital_medio");
     function BENFEITORIA_cfx(){
          BEMFEITORIAS_CFX.innerHTML =
-             (parseInt(BEMFEITORIAS_CFX_INICIAL.value)-
+             ((parseInt(BEMFEITORIAS_CFX_INICIAL.value)-
              parseInt(BEMFEITORIAS_CFX_FINAL.value)/2)+
-             parseInt(BEMFEITORIAS_CFX_MEDIO.value)*10;
+             parseInt(BEMFEITORIAS_CFX_MEDIO.value)*10).tofixed(2);
     }
     BENFEITORIA_cfx();
     BEMFEITORIAS_CFX.addEventListener("keyup",BENFEITORIA_cfx);

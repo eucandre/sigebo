@@ -12,14 +12,14 @@ var total_OUTROS_1___jan              = document.getElementById("");
 function TOTAL_rec_jan(){
     total_rece.innerHTML =
 
-        parseInt(total_VENDA_DE_BOI_GORDO_jan.value)+
+        (parseInt(total_VENDA_DE_BOI_GORDO_jan.value)+
         parseInt(total_TOURINHOS_jan.value)+
         parseInt(total_ABATE_jan.value)+
         parseInt(total_TRATOR_jan.value)+
         parseInt(total_ALUGUEL_PASTO_jan.value)+
         parseInt(total_OUTROS_1_jan.value)+
         parseInt(total_OUTROS_1__jan.value)+
-        parseInt(total_OUTROS_1___jan.value);
+        parseInt(total_OUTROS_1___jan.value)).tofixed(2);
 
 }
 TOTAL_rec_jan();

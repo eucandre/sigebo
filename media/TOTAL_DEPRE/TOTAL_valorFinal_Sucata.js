@@ -14,7 +14,7 @@ var tot_valorFInalEdi  = document.getElementById("id_edificacoes_valor_final_ou_
 var tot_valorFInalPAS  = document.getElementById("id_pastagem_valor_final_ou_sucata");
 function TOTAL_valor_FINAL(){
             tot_valor_final.innerHTML =
-            parseInt(tot_valorFInalMaq.value)+
+            (parseInt(tot_valorFInalMaq.value)+
             parseInt(tot_valorFInalTrt.value)+
             parseInt(tot_valorFInalVei.value)+
             parseInt(tot_valorFInalEqM.value)+
@@ -26,7 +26,7 @@ function TOTAL_valor_FINAL(){
             parseInt(tot_valorFInalBef.value)+
             parseInt(tot_valorFInalCer.value)+
             parseInt(tot_valorFInalEdi.value)+
-            parseInt(tot_valorFInalPAS.value);
+            parseInt(tot_valorFInalPAS.value)).tofixed(2);
 }
 TOTAL_valor_FINAL()
 tot_valorFInalMaq.addEventListener("keyup",TOTAL_valor_FINAL);

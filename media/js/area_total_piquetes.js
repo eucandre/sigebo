@@ -21,9 +21,9 @@ var peso_animais_6_12 = document.getElementById("id_peso_animais6_12_kg");
 
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
-  total_piquete.innerHTML =((((parseInt(peso_machos_kg.value)*parseInt(numero_machos.value))/450)/parseInt(capacidade_suporte.value))+
+  total_piquete.innerHTML =(((((parseInt(peso_machos_kg.value)*parseInt(numero_machos.value))/450)/parseInt(capacidade_suporte.value))+
       (((parseInt(n_femeas.value)*parseInt(peso_femea.value))/450)/((1.5)))+(((parseInt(animais_6_12.value)*(parseInt(peso_animais_6_12.value)))/450)/1.5)+
-      ((parseInt(animais_12_21.value)*(parseInt(peso_animais_12_21.value)))/450)/1.5);
+      ((parseInt(animais_12_21.value)*(parseInt(peso_animais_12_21.value)))/450)/1.5)).tofixed(2);
 
 }
 

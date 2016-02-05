@@ -8,7 +8,7 @@ var peso_animais_6_12 = document.getElementById("id_peso_animais6_12_kg");
 
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
-  area_animais_6_12.innerHTML = ((parseInt(animais_6_12.value)*(parseInt(peso_animais_6_12.value)))/450)/1.5;
+  area_animais_6_12.innerHTML = (((parseInt(animais_6_12.value)*(parseInt(peso_animais_6_12.value)))/450)/1.5).tofixed(2);
 }
 
 

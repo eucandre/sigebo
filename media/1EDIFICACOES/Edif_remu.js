@@ -2,7 +2,7 @@ var EDIF_remuneracao= document.getElementById("id_edificacoes_remuneracao_capita
 var EDIF_remuneracao_MEDIO= document.getElementById("id_edificacoes_capital_medio");
 
 function REMU_edi(){
-     EDIF_remuneracao.innerHTML = parseInt(EDIF_remuneracao_MEDIO.value)*10;
+     EDIF_remuneracao.innerHTML = (parseInt(EDIF_remuneracao_MEDIO.value)*10).tofixed(2);
 }                                                                           
 REMU_edi();
 

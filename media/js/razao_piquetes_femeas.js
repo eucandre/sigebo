@@ -18,8 +18,8 @@ var tempo_descanso= document.getElementById("id_tempo_descanso");
 
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
-  razao_area_piquete_categoria_piquete_femeas.innerHTML = ((parseInt(n_femeas.value)*parseInt(peso_femea.value))/450)/((1.5))/
-      (parseInt(parseInt(tempo_descanso.value)/parseInt(tempo_pastejo.value))+1).value;
+  razao_area_piquete_categoria_piquete_femeas.innerHTML = (((parseInt(n_femeas.value)*parseInt(peso_femea.value))/450)/((1.5))/
+      (parseInt(parseInt(tempo_descanso.value)/parseInt(tempo_pastejo.value))+1).value).fixed(2);
 
 }
 

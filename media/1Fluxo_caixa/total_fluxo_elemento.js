@@ -15,7 +15,7 @@ var total_elemento_receita_fazenda_dez = document.getElementById("");
 
 function total_Receita_fazenda(){
     total_elemento_receita_fazenda.innerHTML =
-        parseInt(total_elemento_receita_fazenda_jan.value)+
+        (parseInt(total_elemento_receita_fazenda_jan.value)+
         parseInt(total_elemento_receita_fazenda_fev.value)+
         parseInt(total_elemento_receita_fazenda_mar.value)+
         parseInt(total_elemento_receita_fazenda_abr.value)+
@@ -26,7 +26,7 @@ function total_Receita_fazenda(){
         parseInt(total_elemento_receita_fazenda_set.value)+
         parseInt(total_elemento_receita_fazenda_out.value)+
         parseInt(total_elemento_receita_fazenda_nov.value)+
-        parseInt(total_elemento_receita_fazenda_dez.value);
+        parseInt(total_elemento_receita_fazenda_dez.value)).tofixed(2);
 }
 
 total_elemento_receita_fazenda_jan.addEventListener("keyup",total_Receita_fazenda);

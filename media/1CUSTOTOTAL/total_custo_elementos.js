@@ -13,7 +13,7 @@ var custo_to_FIXO_nov = document.getElementById("");
 var custo_to_FIXO_dez = document.getElementById("");
 function cusFIX(){
     custo_to_FIXO.innerHTML =
-        parseInt(custo_to_FIXO_jan.value)+
+        (parseInt(custo_to_FIXO_jan.value)+
         parseInt(custo_to_FIXO_fev.value)+
         parseInt(custo_to_FIXO_mar.value)+
         parseInt(custo_to_FIXO_abr.value)+
@@ -24,7 +24,7 @@ function cusFIX(){
         parseInt(custo_to_FIXO_set.value)+
         parseInt(custo_to_FIXO_out.value)+
         parseInt(custo_to_FIXO_nov.value)+
-        parseInt(custo_to_FIXO_dez.value);
+        parseInt(custo_to_FIXO_dez.value)).tofixed(2);
 }
 custo_to_FIXO_jan.addEventListener("keyup",cusFIX);
 custo_to_FIXO_fev.addEventListener("keyup",cusFIX);

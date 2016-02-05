@@ -14,7 +14,7 @@ var tot_depreAnoEdi  = document.getElementById("id_edificacoes_depreciacao_anual
 var tot_depreAnoPAS  = document.getElementById("id_pastagem_depreciacao_anual");
 function TOTAL_DEPRE(){
             tot_depreAno.innerHTML =
-            parseInt(tot_depreAnoMaq.value)+
+            (parseInt(tot_depreAnoMaq.value)+
             parseInt(tot_depreAnoTrt.value)+
             parseInt(tot_depreAnoVei.value)+
             parseInt(tot_depreAnoEqM.value)+
@@ -26,7 +26,7 @@ function TOTAL_DEPRE(){
             parseInt(tot_depreAnoBef.value)+
             parseInt(tot_depreAnoCer.value)+
             parseInt(tot_depreAnoEdi.value)+
-            parseInt(tot_depreAnoPAS.value);
+            parseInt(tot_depreAnoPAS.value)).tofixed(2);
 }
 TOTAL_DEPRE()
 tot_depreAnoMaq.addEventListener("keyup",TOTAL_DEPRE);

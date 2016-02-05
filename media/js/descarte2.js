@@ -8,7 +8,7 @@ var descarte2 = document.getElementById("id_descarte2");
 
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
-  descarte2.innerHTML = parseInt(vacas.value)-(parseInt(vacas.value)*parseInt(fertilidade.value)/100);
+  descarte2.innerHTML = (parseInt(vacas.value)-(parseInt(vacas.value)*parseInt(fertilidade.value)/100)).fixed(2);
 
 }
 

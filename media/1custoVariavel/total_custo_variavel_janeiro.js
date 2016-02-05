@@ -29,7 +29,7 @@ var OUTROS_4_janeiro                    = document.getElementById("");
 var OUTROS_5_janeiro                    = document.getElementById("");
 function  Total_CV_JANEIRO(){
     total_custo_V_janeiro.innerHTML=
-        parseInt(Suplementaçãojaneiro.value)+
+        (parseInt(Suplementaçãojaneiro.value)+
         parseInt(Linha_Branca_Sal_mineral_janeiro.value)+
         parseInt(Carrapaticidasjaneiro.value)+
         parseInt(Mosca_do_chifrejaneiro.value)+
@@ -56,7 +56,7 @@ function  Total_CV_JANEIRO(){
         parseInt(OUTROS_2_janeiro.value)+
         parseInt(OUTROS_3_janeiro.value)+
         parseInt(OUTROS_4_janeiro.value)+
-        parseInt(OUTROS_5_janeiro.value);
+        parseInt(OUTROS_5_janeiro.value)).tofixed(2);
 }
           Total_CV_JANEIRO();
 

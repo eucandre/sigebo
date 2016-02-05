@@ -8,7 +8,7 @@ var capacidade_suporte = document.getElementById("id_cap_suporte");
 
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
-  area_piquete_machos_hectare.innerHTML = ((parseInt(peso_machos_kg.value)*parseInt(numero_machos.value))/450)/parseInt(capacidade_suporte.value);
+  area_piquete_machos_hectare.innerHTML = (((parseInt(peso_machos_kg.value)*parseInt(numero_machos.value))/450)/parseInt(capacidade_suporte.value)).tofixed(2);
 
 }
 

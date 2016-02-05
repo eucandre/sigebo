@@ -14,7 +14,7 @@ var tot_val_iniEdi  = document.getElementById("id_edificacoes_valor_inicial");
 var tot_val_iniPAS  = document.getElementById("id_pastagem_valor_inicial");
 function TOTAL_valor_Ini(){
         tot_val_ini.innerHTML =
-            parseInt(tot_val_iniMaq.value)+
+            (parseInt(tot_val_iniMaq.value)+
             parseInt(tot_val_iniTrt.value)+
             parseInt(tot_val_iniVei.value)+
             parseInt(tot_val_iniEqM.value)+
@@ -26,7 +26,7 @@ function TOTAL_valor_Ini(){
             parseInt(tot_val_iniBef.value)+
             parseInt(tot_val_iniCer.value)+
             parseInt(tot_val_iniEdi.value)+
-            parseInt(tot_val_iniPAS.value);
+            parseInt(tot_val_iniPAS.value)).tofixed(2);
 }
 TOTAL_valor_Ini()
 tot_val_iniMaq.addEventListener("keyup",TOTAL_valor_Ini);

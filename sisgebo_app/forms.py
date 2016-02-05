@@ -1367,6 +1367,32 @@ class FormEvolucaoRebanho(forms.ModelForm):
     area_util_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     area_util_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
+    media_martriz    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_peso_matriz    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_novilhos14    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_peso_novilhos14    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_novilhos12_14    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_peso_novilhos12_14    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_novilhos_12    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_peso_novilhos_12    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_novilhas_12    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_peso_novilhas_12    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_bezerros    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_pesos_bezerros    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_bezerras    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_pesos_bezerras    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_outros    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_pesos_outros    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_equideos    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_pesos_equideos    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_totalKbca    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_pesos_totalKbca    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_estoque    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_areautil    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_densidade    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    media_taxaLotacao    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+
     class Meta:
         model = evolucao_rebanho
 

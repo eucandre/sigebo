@@ -9,13 +9,13 @@ var RECEITA_EMPRÉSTIMO_janeiro              = document.getElementById("");
 
 function fluxo_CAIXA_JANEIRO(){
     fluxo_janeiro.innerHTML =
-        parseInt(CUSTO_FIXO_janeiro.value)+
+        (parseInt(CUSTO_FIXO_janeiro.value)+
         parseInt(CUSTO_VARIAVEL_janeiro.value)+
         parseInt(DESP_ADMINISTRATIVAS_janeiro.value)+
         parseInt(PAGAMENTO_EMPRESTIMO_janeiro.value)+
         parseInt(INVESTIMENTOS_janeiro.value)-
         parseInt(RECEITAS_FAZENDA_janeiro.value)+
-        parseInt(RECEITA_EMPRÉSTIMO_janeiro.value);
+        parseInt(RECEITA_EMPRÉSTIMO_janeiro.value)).tofixed(2);
 }
 fluxo_CAIXA_JANEIRO();
 CUSTO_FIXO_janeiro.addEventListener("keyup",fluxo_CAIXA_JANEIRO);

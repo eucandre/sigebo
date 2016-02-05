@@ -6,7 +6,7 @@ var DESP_ADMINISTRATIVAS_janeiro = document.getElementById("");
 var PAGAMENTO_EMPRESTIMO_janeiro = document.getElementById("");
 var INVESTIMENTOS_janeiro           = document.getElementById("");
 function total_SAIDAS_JANEIRO(){
-    total_saidas_janeiro.innerHTML = parseInt(CUSTO_FIXO.value)+parseInt(CUSTO_VARIAVEL.value)+parseInt(DESP_ADMINISTRATIVAS.value)+parseInt(PAGAMENTO_EMPRESTIMO.value)+parseInt(INVESTIMENTOS.value);
+    total_saidas_janeiro.innerHTML = (parseInt(CUSTO_FIXO.value)+parseInt(CUSTO_VARIAVEL.value)+parseInt(DESP_ADMINISTRATIVAS.value)+parseInt(PAGAMENTO_EMPRESTIMO.value)+parseInt(INVESTIMENTOS.value)).tofixed(2);
 }
 
 

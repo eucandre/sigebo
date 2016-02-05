@@ -3,8 +3,8 @@
     var BEMFEITORIAS_depreciacao_FINAL= document.getElementById("id_benfeitorias_valor_final_ou_sucata");
     function benfeitorias_dep(){
          BEMFEITORIAS_depreciacao.innerHTML =
-             (parseInt(BEMFEITORIAS_depreciacao_INICIAL.value)-
-             parseInt(BEMFEITORIAS_depreciacao_FINAL.value))/2;
+             ((parseInt(BEMFEITORIAS_depreciacao_INICIAL.value)-
+             parseInt(BEMFEITORIAS_depreciacao_FINAL.value))/2).tofixed(2);
 
 
     }

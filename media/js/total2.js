@@ -18,9 +18,9 @@
 
 function efetuaCalculo() {
     //Cálculo simples de potência só pra ilustrar
-    total2.innerHTML = parseInt(vacas_paridas2.value) + parseInt(vacas_solteiras2.value) + parseInt(id_Novilhas_34_Compr2.value)+
+    total2.innerHTML = (parseInt(vacas_paridas2.value) + parseInt(vacas_solteiras2.value) + parseInt(id_Novilhas_34_Compr2.value)+
     parseInt(Novilhas_32_2.value)+parseInt(id_Novilhas_12_Compr2.value)+parseInt(Bezerra_02_2.value)+parseInt(Bezerro_02_2.value)+
-    parseInt(macho12_2.value)+parseInt(macho23_2.value)+parseInt(macho34_2.value)+parseInt(machos_4mais__2.value);
+    parseInt(macho12_2.value)+parseInt(macho23_2.value)+parseInt(macho34_2.value)+parseInt(machos_4mais__2.value)).fixed(2);
 }
 vacas_paridas2.addEventListener("keyup", efetuaCalculo);
 vacas_solteiras2.addEventListener("keyup", efetuaCalculo);

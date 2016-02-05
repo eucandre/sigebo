@@ -19,7 +19,7 @@ var custo_custoFIXKB            =  document.getElementById("id_calculo_custo_fix
 function  totalFIXO_JAN(){
     total_custoFIXOJAN.innerHTML =
 
-        parseInt(custo_mac_jan.value)+
+        (parseInt(custo_mac_jan.value)+
         parseInt(custo_trat.value)+
         parseInt(custo_veiculo.value)+
         parseInt(custo_equ.value)+
@@ -35,7 +35,7 @@ function  totalFIXO_JAN(){
         parseInt(custo_assis.value)+
         parseInt(custo_despes.value)+
         parseInt(custo_custoFIX.value)+
-        parseInt(custo_custoFIXKB.value);
+        parseInt(custo_custoFIXKB.value)).tofixed(2);
 }
 custo_mac_jan.addEventListener("keyup",totalFIXO_JAN);
 custo_trat.addEventListener("keyup",totalFIXO_JAN);

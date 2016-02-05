@@ -14,7 +14,7 @@ var total_FIX_dez=document.getElementById("");
 function FIXO_OPE_JAN(){
 
     total_FIXO.innerHTML =
-        parseInt(total_FIX_jan.value)+
+        (parseInt(total_FIX_jan.value)+
         parseInt(total_FIX_fev.value)+
         parseInt(total_FIX_mar.value)+
         parseInt(total_FIX_abr.value)+
@@ -25,7 +25,7 @@ function FIXO_OPE_JAN(){
         parseInt(total_FIX_set.value)+
         parseInt(total_FIX_out.value)+
         parseInt(total_FIX_nov.value)+
-        parseInt(total_FIX_dez.value);
+        parseInt(total_FIX_dez.value)).tofixed(2);
 }
 FIXO_OPE_JAN();
 total_FIX_jan.addEventListener("keyup",FIXO_OPE_JAN);

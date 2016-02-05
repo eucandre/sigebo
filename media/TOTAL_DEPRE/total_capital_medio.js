@@ -14,7 +14,7 @@ var tot_cap_medioEdi  = document.getElementById("id_edificacoes_capital_medio");
 var tot_cap_medioPAS  = document.getElementById("id_pastagem_capital_medio");
 function TOTAL_cap_me(){
             tot_cap_medio.innerHTML =
-            parseInt(tot_cap_medioMaq.value)+
+            (parseInt(tot_cap_medioMaq.value)+
             parseInt(tot_cap_medioTrt.value)+
             parseInt(tot_cap_medioVei.value)+
             parseInt(tot_cap_medioEqM.value)+
@@ -26,7 +26,7 @@ function TOTAL_cap_me(){
             parseInt(tot_cap_medioBef.value)+
             parseInt(tot_cap_medioCer.value)+
             parseInt(tot_cap_medioEdi.value)+
-            parseInt(tot_cap_medioPAS.value);
+            parseInt(tot_cap_medioPAS.value)).tofixed(2);
 }
 TOTAL_cap_me()
 tot_cap_medioMaq.addEventListener("keyup",TOTAL_cap_me);

@@ -8,7 +8,7 @@ var matrizes8 = document.getElementById("id_matrizes8");
 //(matrizes-descarte)+comprafemearepro
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
-  matrizes8.innerHTML = parseInt(vacas.value)-(parseInt(vacas.value)-(parseInt(vacas.value)*parseInt(fertilidade.value)/100))+(parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100)));
+  matrizes8.innerHTML = (parseInt(vacas.value)-(parseInt(vacas.value)-(parseInt(vacas.value)*parseInt(fertilidade.value)/100))+(parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100)))).fixed(2);
 //  matrizes.innerHTML = parseInt(vacas.value);
 }
 

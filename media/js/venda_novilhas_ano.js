@@ -9,9 +9,9 @@ var mortalidade01anos = document.getElementById("id_mortalidade01");
 var reposicao = document.getElementById("id_reposicao");
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
-  venda_novilhoas_ano.innerHTML = ((parseInt(vacas.value)-(parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100))))
+  venda_novilhoas_ano.innerHTML = (((parseInt(vacas.value)-(parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100))))
       -((parseInt(vacas.value)-(parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100))))*parseInt(mortalidade01anos.value)))-
-      ((parseInt(reposicao.value)/100)*parseInt(vacas.value));
+      ((parseInt(reposicao.value)/100)*parseInt(vacas.value))).fixed(2);
     if (venda_novilhoas_ano.innerHTML < 0){
         venda_novilhoas_ano.innerHTML = 0;
     }

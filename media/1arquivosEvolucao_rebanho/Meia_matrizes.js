@@ -13,9 +13,9 @@ var media_Nr_Matrizes_nov = document.getElementById("id_");
 var media_Nr_Matrizes_dez = document.getElementById("id_");
 
 function ME_Nr_Matrizes(){
-    media_Nr_Matrizes.innerHTML = parseInt(media_Nr_Matrizes_jan.value)+parseInt(media_Nr_Matrizes_fev.value)+parseInt(media_Nr_Matrizes_mar.value)+
+    media_Nr_Matrizes.innerHTML = (parseInt(media_Nr_Matrizes_jan.value)+parseInt(media_Nr_Matrizes_fev.value)+parseInt(media_Nr_Matrizes_mar.value)+
         parseInt(media_Nr_Matrizes_abri.value)+parseInt(media_Nr_Matrizes_mai.value)+parseInt(media_Nr_Matrizes_jun.value)+parseInt(media_Nr_Matrizes_jul.value)+parseInt(media_Nr_Matrizes_ago.value)
-        +parseInt(media_Nr_Matrizes_set.value)+parseInt(media_Nr_Matrizes_out.value)+parseInt(media_Nr_Matrizes_nov.value)+parseInt(media_Nr_Matrizes_dez.value);
+        +parseInt(media_Nr_Matrizes_set.value)+parseInt(media_Nr_Matrizes_out.value)+parseInt(media_Nr_Matrizes_nov.value)+parseInt(media_Nr_Matrizes_dez.value)).tofixed(2);
 }
 
 ME_Nr_Matrizes();

@@ -28,6 +28,13 @@
     <script>
         NProgress.start();
     </script>
+<script type="text/javascript">
+    function redirecionar()
+    { alert("Você será redirecionado");
+        window.location="http://www.devmedia.com.br/"; }
+</script>
+
+
     
     <!--[if lt IE 9]>
         <script src="../assets/js/ie8-responsive-file-warning.js"></script>
@@ -148,9 +155,9 @@
                                         </div>
 
 
-                                        <div class="form-group" style="width: 20%; top:-54px; left: 55%;position: relative;">
+                                        <div class="form-group" style="width: 20%; top:-45px; left: 55%;position: relative;">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-3">CEP</label>
-                                            <div class="col-md-9 col-sm-9 col-xs-9">
+                                            <div class="col-md-9 col-sm-9 col-xs-9" >
                                                 {{ form.cep }}
                                                 <!--<input  id="id_cep" type="text" class="form-control" data-inputmask ="'mask': '99999-999'">-->
                                                 <span class="fa fa-user form-control-feedback right" aria-hidden="true"></span>
@@ -159,13 +166,13 @@
                                         <div style="top:-54px;position: relative;">
                                         <div class="form-group" >
                                             <label for="id_rua" class="control-label col-md-3 col-sm-3 col-xs-12"> Rua <span class="required">*  </span></label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <div class="col-md-6 col-sm-6 col-xs-12" style="top:13%;left:25%; position: absolute;">
                                                 {{ form.rua }}
                                                 <!--<input id="id_rua"  style="width: 60%;" class="form-control col-md-7 col-xs-12" type="text" name="middle-name" required="required" type="text">-->
                                             </div>
                                         </div>
 
-                                        <div class="form-group"  style="top:-45px; left: 43%;position: relative;">
+                                        <div class="form-group"  style="top:-30px; left: 43%;position: relative;">
                                             <label for="id_numero" class="control-label col-md-3 col-sm-3 col-xs-12"> Número <span class="required">*  </span></label>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
                                                 {{ form.numero }}
@@ -197,7 +204,8 @@
                                         <div class="form-group">
                                             <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
                                                 <button type="submit" class="btn btn-primary">Cancelar</button>
-                                                <button type="submit" class="btn btn-success" value="/">Salvar</button>
+                                                <button type="submit" class="btn btn-success" onclick="redirecionar(); value="/">Salvar</button>
+
                                             </div>
                                         </div>
 

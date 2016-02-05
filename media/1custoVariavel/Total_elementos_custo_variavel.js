@@ -30,7 +30,7 @@ var OUTROS_5_janeiro                =document.getElementById("id_");
 
 function  TOTAL_SUPLE(){
     total_elementos.innerHTML=
-        parseInt(Suplementaçãojaneiro.value)+
+        (parseInt(Suplementaçãojaneiro.value)+
         parseInt(Linha_Branca_Sal_mineral_janeiro.value)+
         parseInt(Carrapaticidasjaneiro.value)+
         parseInt(Mosca_do_chifrejaneiro.value)+
@@ -57,7 +57,7 @@ function  TOTAL_SUPLE(){
         parseInt(OUTROS_2_janeiro.value)+
         parseInt(OUTROS_3_janeiro.value)+
         parseInt(OUTROS_4_janeiro.value)+
-        parseInt(OUTROS_5_janeiro.value);
+        parseInt(OUTROS_5_janeiro.value)).tofixed(2);
 }
 TOTAL_SUPLE();
 Suplementaçãojaneiro.addEventListener("keyup",TOTAL_SUPLE);

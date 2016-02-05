@@ -13,7 +13,7 @@ var total_investimento_nov = document.getElementById("");
 var total_investimento_dez = document.getElementById("");
 function INV_TOTAL(){
     total_investimento_HERB.innerHTML =
-        parseInt(total_investimento_jan.value)+
+        (parseInt(total_investimento_jan.value)+
         parseInt(total_investimento_fev.value)+
         parseInt(total_investimento_mar.value)+
         parseInt(total_investimento_abr.value)+
@@ -24,7 +24,7 @@ function INV_TOTAL(){
         parseInt(total_investimento_set.value)+
         parseInt(total_investimento_out.value)+
         parseInt(total_investimento_nov.value)+
-        parseInt(total_investimento_dez.value);
+        parseInt(total_investimento_dez.value)).tofixed(2);
            }
 INV_TOTAL();
 total_investimento_jan.addEventListener("keyup",INV_TOTAL);

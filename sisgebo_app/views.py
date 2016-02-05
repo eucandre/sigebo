@@ -11,7 +11,7 @@ def inicio(request):
             item = fazenda(nome_fazenda = dados['nome_fazenda'], uf_municipio = dados['uf_municipio'], proprietario=dados['proprietario'], rua = dados['rua'],
                            numero = dados['numero'], cep=dados['cep'], telelfone=dados['telelfone'], email=dados['email'])
             item.save()
-            return render_to_response("salvo.html", {})
+            #return render_to_response("salvo.html", {})
     else:
         form = FormFazenda()
     return render_to_response("cadastro_fazenda.html", {"form":form}, context_instance = RequestContext(request))

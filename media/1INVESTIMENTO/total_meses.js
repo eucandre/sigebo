@@ -17,7 +17,7 @@ var total_mes_OUTROS_4_janeiro = document.getElementById("");
 var total_mes_OUTROS_5_janeiro = document.getElementById("");
 function tot_inv_JAN(){
     total_mes_Invest.innerHTML =
-        parseInt(total_mes_Herbicida_janeiro.value)+
+        (parseInt(total_mes_Herbicida_janeiro.value)+
         parseInt(total_mes_Equip_Aplicação_Herbicidas_janeiro.value)+
         parseInt(total_mes_Mão_de_obra_para_roçagem_janeiro.value)+
         parseInt(total_mes_Equip_Roçagem_janeiro.value)+
@@ -32,7 +32,7 @@ function tot_inv_JAN(){
         parseInt(total_mes_OUTROS_2_janeiro.value)+
         parseInt(total_mes_OUTROS_3_janeiro.value)+
         parseInt(total_mes_OUTROS_4_janeiro.value)+
-        parseInt(total_mes_OUTROS_5_janeiro.value);
+        parseInt(total_mes_OUTROS_5_janeiro.value)).tofixed(2);
 
 }
 tot_inv_JAN();

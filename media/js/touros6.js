@@ -10,7 +10,7 @@ var touros6 = document.getElementById("id_touros6");//definicao inicial
 
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
-  touros6.innerHTML = parseInt(vacas.value)/parseInt(numero_vacas_touro.value);
+  touros6.innerHTML = (parseInt(vacas.value)/parseInt(numero_vacas_touro.value)).fixed(2);
 //  matrizes.innerHTML = parseInt(vacas.value);
 }
 

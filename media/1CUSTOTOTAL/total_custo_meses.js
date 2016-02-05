@@ -5,9 +5,9 @@ var total_D_ADMINISTRATIVAS_jan = document.getElementById("");
 
 function total_CUSTO_JAN(){
     total_Custo.innerHTML =
-        parseInt(total_FIXO_jan.value)+
+        (parseInt(total_FIXO_jan.value)+
         parseInt(total_VARIÁVEL_jan.value)+
-        parseInt(total_D_ADMINISTRATIVAS_jan.value);
+        parseInt(total_D_ADMINISTRATIVAS_jan.value)).tofixed(2);
 }
 
 total_CUSTO_JAN();

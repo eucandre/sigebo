@@ -12,7 +12,7 @@ var tempo_descanso= document.getElementById("id_tempo_descanso");
 
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
-  razao_animais_6_12.innerHTML = ((parseInt(animais_6_12.value)*(parseInt(peso_animais_6_12.value)))/450)/1.5/(parseInt(parseInt(tempo_descanso.value)/parseInt(tempo_pastejo.value))+1).value;
+  razao_animais_6_12.innerHTML = (((parseInt(animais_6_12.value)*(parseInt(peso_animais_6_12.value)))/450)/1.5/(parseInt(parseInt(tempo_descanso.value)/parseInt(tempo_pastejo.value))+1).value).fixed(2);
 }
 
 animais_6_12.addEventListener("keyup", efetuaCalculo);
