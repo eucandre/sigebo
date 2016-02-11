@@ -8,7 +8,7 @@ var de12anos8 = document.getElementById("id_de12anos8");
 function efetuaCalculo() {
     de12anos8.innerHTML = (parseInt(vacas.value) - (parseInt(vacas.value) - (parseInt(vacas.value) * (parseInt(fertilidade.value) / 100))) -
         (parseInt(vacas.value) - (parseInt(vacas.value) - (parseInt(vacas.value) * (parseInt(fertilidade.value) / 100)))
-            * parseInt(mortalidade01anos.value))).tofixed(2);
+            * parseInt(mortalidade01anos.value))).toFixed(2);
 }
 vacas.addEventListener("keyup", efetuaCalculo);
 fertilidade.addEventListener("keyup", efetuaCalculo);

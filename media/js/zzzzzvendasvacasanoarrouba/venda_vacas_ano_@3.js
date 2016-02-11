@@ -7,7 +7,7 @@ var venda_vacas_ano_arrouba3 = document.getElementById("id_vendas_vacas_ano_arro
 var peso_medio_vacas_arrouba = document.getElementById("id_peso_medio_arrouba_vacas");
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
-  venda_vacas_ano_arrouba3.innerHTML = (parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100)))*parseInt(peso_medio_vacas_arrouba.value);
+  venda_vacas_ano_arrouba3.innerHTML = ((parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100)))*parseInt(peso_medio_vacas_arrouba.value)).toFixed(2);
 //  matrizes.innerHTML = parseInt(vacas.value);
 }
 

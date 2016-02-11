@@ -7,7 +7,7 @@ var fertilidade = document.getElementById("id_fertilidade");
 var compra_f_reproduc = document.getElementById("id_compra_femeas_reproducao");
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
-  compra_f_reproduc.innerHTML = parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100));
+  compra_f_reproduc.innerHTML = (parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100))).toFixed(2);
 //  matrizes.innerHTML = parseInt(vacas.value);
 }
 

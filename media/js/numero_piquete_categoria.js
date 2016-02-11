@@ -8,7 +8,7 @@ var tempo_descanso= document.getElementById("id_tempo_descanso");
 
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
-  n_piquetes_categoria.innerHTML = ((parseInt(tempo_descanso.value)/parseInt(tempo_pastejo.value))+1).fixed(2);
+  n_piquetes_categoria.innerHTML = ((parseInt(tempo_descanso.value)/parseInt(tempo_pastejo.value))+1).toFixed(2);
 
 }
 

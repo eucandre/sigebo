@@ -12,9 +12,9 @@ var peso_medio_arrouba = document.getElementById("id_peso_medio_arrouba_novilho"
 
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
-  venda_novilhoas_ano_arrouba5.innerHTML = ((parseInt(vacas.value)-(parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100))))
+  venda_novilhoas_ano_arrouba5.innerHTML = (((parseInt(vacas.value)-(parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100))))
       -((parseInt(vacas.value)-(parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100))))*parseInt(mortalidade01anos.value)))-
-      ((parseInt(reposicao.value)/100)*parseInt(vacas.value)) * parseInt(peso_medio_arrouba.value);
+      ((parseInt(reposicao.value)/100)*parseInt(vacas.value)) * parseInt(peso_medio_arrouba.value)).toFixed(2);
     if (venda_novilhoas_ano_arrouba.innerHTML < 0){
         venda_novilhoas_ano_arrouba.innerHTML = 0;
     }

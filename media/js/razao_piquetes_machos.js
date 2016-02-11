@@ -15,7 +15,7 @@ var tempo_descanso= document.getElementById("id_tempo_descanso");
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
   razao_area_piquete_categoria_piquete_machos.innerHTML = ((((parseInt(peso_machos_kg.value)*parseInt(numero_machos.value))/450)/parseInt(capacidade_suporte.value))/
-      (parseInt(parseInt(tempo_descanso.value)/parseInt(tempo_pastejo.value))+1).value).fixed(2);
+      (parseInt(parseInt(tempo_descanso.value)/parseInt(tempo_pastejo.value))+1).value).toFixed(2);
 
 }
 

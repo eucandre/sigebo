@@ -8,7 +8,7 @@ var animais23reposicao8 = document.getElementById("id_animais_23_reposicao8");
 
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
-  animais23reposicao8.innerHTML = ((parseInt(reposicao.value)/100)*parseInt(vacas.value)).tofixed(2);
+  animais23reposicao8.innerHTML = ((parseInt(reposicao.value)/100)*parseInt(vacas.value)).toFixed(2);
 //  matrizes.innerHTML = parseInt(vacas.value);
 }
 

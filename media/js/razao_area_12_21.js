@@ -12,7 +12,7 @@ var tempo_descanso= document.getElementById("id_tempo_descanso");
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
   razao_area_animais_12_21.innerHTML = (((parseInt(animais_12_21.value)*(parseInt(peso_animais_12_21.value)))/450)/1.5/
-  (parseInt(parseInt(tempo_descanso.value)/parseInt(tempo_pastejo.value))+1).value).fixed(2);
+  (parseInt(parseInt(tempo_descanso.value)/parseInt(tempo_pastejo.value))+1).value).toFixed(2);
 }
 
 animais_12_21.addEventListener("keyup", efetuaCalculo);

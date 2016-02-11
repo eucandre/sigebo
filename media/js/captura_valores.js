@@ -21,10 +21,13 @@ var tourosR = document.getElementById("id_tourosR");//definicao inicial
 
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
-  total.innerHTML = (parseInt(vacas.value)+parseInt(novilas34.value)+parseInt(novilha23.value)+
-      parseInt(novilhas12.value)+parseInt(bezerros01.value)+parseInt(bezerras01.value)+parseInt(machos12.value)+
-  parseInt(machos23.value)+parseInt(machos34.value)+parseInt(machos_maior_que_4.value)+parseInt(touros.value)+parseInt(tourunos.value)
-  parseInt(vacas_descarte.value)).fixed(2);
+  /*total.innerHTML =+
+
+  ).tofixed(2);*/
+    total.innerHTML = parseInt(vacas.value)+parseInt(novilas34.value)+parseInt(novilha23.value)+parseInt(novilhas12.value)+parseInt(bezerros01.value)
+    +parseInt(bezerras01.value)+parseInt(machos12.value)+parseInt(machos23.value)+parseInt(machos34.value)+parseInt(machos_maior_que_4.value)
+    +parseInt(touros.value)+parseInt(tourunos.value)+
+  parseInt(vacas_descarte.value);
 }
 
 

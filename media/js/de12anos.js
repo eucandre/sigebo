@@ -9,7 +9,7 @@ var mortalidade01anos = document.getElementById("id_mortalidade01");
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
   deUmADoisAnos.innerHTML = ((parseInt(vacas.value)-(parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100))))
-      -((parseInt(vacas.value)-(parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100))))*parseInt(mortalidade01anos.value))).fixed(2);
+      -((parseInt(vacas.value)-(parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100))))*parseInt(mortalidade01anos.value))).toFixed(2);
 
 }
 

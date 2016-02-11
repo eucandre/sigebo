@@ -8,7 +8,7 @@ var de01ano2 = document.getElementById("id_de01ano2");
 
 function efetuaCalculo(){
   //Cálculo simples de potência só pra ilustrar
-  de01ano2.innerHTML = (parseInt(vacas.value)-(parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100)))).fixed(2);
+  de01ano2.innerHTML = (parseInt(vacas.value)-(parseInt(vacas.value)-(parseInt(vacas.value)*(parseInt(fertilidade.value)/100)))).toFixed(2);
 //  matrizes.innerHTML = parseInt(vacas.value);
 }
 
