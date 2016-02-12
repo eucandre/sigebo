@@ -177,17 +177,33 @@
                     <script>
                         var maquina_porcen_custo_fixo = document.getElementById("id_maquina_implemento_porcetagem_custo_fixo");
 
-                        var maquina_ini = document.getElementById("id_maquina_implemento_valor_inicial");
-                        var maquina_fin = document.getElementById("id_maquina_implemento_valor_final_ou_sucata");
-                        var maquina_cap_medio = document.getElementById("id_maquina_implemento_capital_medio");
+                        var maquina_ini_1 = document.getElementById("id_maquina_implemento_valor_inicial");
+                        var maquina_fin_1 = document.getElementById("id_maquina_implemento_valor_final_ou_sucata");
+                        var maquina_cap_medio_1 = document.getElementById("id_maquina_implemento_capital_medio");
+
+                        var maquina_custo_fixo = document.getElementById("id_maquina_implemento_custo_fixo");
+                        var tra_custo_fixo = document.getElementById("id_tratores_custo_fixo");
+                        var vei_custofx = document.getElementById("id_veiculos_custo_fixo");
+                        var equ_cf = document.getElementById("id_equipamentos_manuais_custo_fixo");
+                        var rep_mac_CFX  = document.getElementById("id_reprodutores_machos_custo_fixo");
+                        var femeaCUSTOF = document.getElementById("id_reprodutores_femeas_custo_fixo");
+                        var A_ENGORD_CFX= document.getElementById("id_animais_gordo_custo_fixo");
+                        var A_TRAB_CFX= document.getElementById("id_animais_trabalho_custo_fixo");
+                        var CANA_VOLU_CFX= document.getElementById("id_canavial_ou_volumoso_custo_fixo");
+                        var BEMFEITORIAS_CFX            = document.getElementById("id_benfeitorias_custo_fixo");
+                        var cercas_fx = document.getElementById("id_cercas_custo_fixo");
+                        var EDIF_CFX= document.getElementById("id_edificacoes_custo_fixo");
+                        var PASTAGEM_CFX= document.getElementById("id_pastagem_custo_fixo");
+
                         function maquina_porcentagem_fixo(){
-                            maquina_porcen_custo_fixo.innerHTML =(parseInt(maquina_ini.value))-parseInt(maquina_fin.value));
+                            maquina_porcen_custo_fixo.innerHTML =((((parseInt(maquina_ini_1.value)-parseInt(maquina_fin_1.value))/10)+parseInt(maquina_cap_medio_1.value)*10)/(((((parseInt(maquina_ini_1.value)-parseInt(maquina_fin_1.value))/10)+parseInt(maquina_cap_medio_1.value)*10))*17)).toFixed(2);
+
                         }
 
                         maquina_porcentagem_fixo();
-                        maquina_cap_medio.addEventListener("keyup",calcula_custo_fixo);
-                        maquina_ini.addEventListener("keyup",calcula_custo_fixo);
-                        maquina_fin.addEventListener("keyup",calcula_custo_fixo);
+                        maquina_cap_medio_1.addEventListener("keyup",maquina_porcentagem_fixo);
+                        maquina_ini_1.addEventListener("keyup",maquina_porcentagem_fixo);
+                        maquina_fin_1.addEventListener("keyup",maquina_porcentagem_fixo);
                     </script>
 
 
@@ -238,7 +254,7 @@
                         trat_cap_medio.addEventListener("keyup",tra_cal_cus_fix);
                     </script>
 
-                        <div style="top: 44%;left: 104%;position: absolute;">aqui</div>
+                        <div style="top: 44%;left: 104%;position: absolute;"><span id=""></span>aqui</div>
 
 
                     <span style="top: 50%;position: absolute;">Veículos</span>
@@ -402,8 +418,8 @@
 
                     <span style="top: 68%;position: absolute;">Reprodutores femeas</span>
                         <div style="top: 68%;left: 32%;position: absolute;">{{form.reprodutores_femeas_valor_inicial}}</div>
-                        <div style="top: 68%;left: 44%;position: absolute;">{{form.reprodutores_femeas_capital_medio}}</div>
-                        <div style="top: 68%;left: 56%;position: absolute;">{{form.reprodutores_femeas_valor_final_ou_sucata}}</div>
+                        <div style="top: 67%;left: 44%;position: absolute;">{{form.reprodutores_femeas_capital_medio}}</div>
+                        <div style="top: 67%;left: 56%;position: absolute;">{{form.reprodutores_femeas_valor_final_ou_sucata}}</div>
 
 
 
@@ -454,7 +470,7 @@
                         <div style="top: 68%;left: 104%;position: absolute;">aqui</div>
 
                     <span style="top: 75%;position: absolute;">Animais de engorda</span>
-                        <div style="top: 75%;left: 32%;position: absolute;">{{form.animais_gordo_valor_inicial}}</div>
+                        <div style="top: 73%;left: 32%;position: absolute;">{{form.animais_gordo_valor_inicial}}</div>
                         <div style="top: 72%;left: 44%;position: absolute;">{{form.animais_gordo_capital_medio}}</div>
                         <div style="top: 72%;left: 56%;position: absolute;">{{form.animais_gordo_valor_final_ou_sucata}}</div>
                         <div style="top: 72%;left: 68%;position: absolute;"><span id="id_animais_gordo_depreciacao_anual"></span>
@@ -684,11 +700,124 @@
                         <div style="top: 126%;left: 68%;position: absolute;"><span id="id_total_depreciacao_anual"></span></div>
                         <script src="/media/TOTAL_DEPRE/TOTAL_Depre_anual.js"></script>
                         <div style="top: 126%;left: 80%;position: absolute;">{{form.total_remuneracao_capital}}</div>
-                        <div style="top: 126%;left: 92%;position: absolute;">aqui</div>
+                        <div style="top: 126%;left: 92%;position: absolute;"><span id="id_total_custo_fixo"></span></div>
+                    <script >
+                        var tFX = document.getElementById("id_total_custo_fixo");
+                        //var maquina_custo_fixo = document.getElementById("id_maquina_implemento_custo_fixo");
+                        var maquina_ini = document.getElementById("id_maquina_implemento_valor_inicial");
+                        var maquina_fin = document.getElementById("id_maquina_implemento_valor_final_ou_sucata");
+                        var maquina_cap_medio = document.getElementById("id_maquina_implemento_capital_medio");
+                        var trato_ini      = document.getElementById("id_tratores_valor_inicial");
+                        var trato_fin       = document.getElementById("id_tratores_valor_final_ou_sucata");
+                        var trat_cap_medio = document.getElementById("id_tratores_capital_medio");
+                        var vaiculos_ini = document.getElementById("id_veiculos_valor_inicial");
+                        var vaiculos_fin = document.getElementById("id_veiculos_valor_final_ou_sucata");
+                        var vei_cap_medio = document.getElementById("id_veiculos_capital_medio");
+                        var equ_cap_medio = document.getElementById("id_equipamentos_manuais_capital_medio");
+                        var equip_ini     = document.getElementById("id_equipamentos_manuais_valor_inicial");
+                        var equip_fin     = document.getElementById("id_equipamentos_manuais_valor_final_ou_sucata");
+
+                        var rep_mac_medi = document.getElementById("id_reprodutores_machos_capital_medio");
+                        var rep_mac_ini  =document.getElementById("id_reprodutores_machos_valor_inicial");
+                        var rep_mac_fin  =document.getElementById("id_reprodutores_machos_valor_final_ou_sucata");
+
+                        var femea_medio = document.getElementById("id_reprodutores_femeas_capital_medio");
+                        var rep_feme_ini = document.getElementById("id_reprodutores_femeas_valor_inicial");
+                        var rep_feme_fin = document.getElementById("id_reprodutores_femeas_valor_final_ou_sucata");
+
+                        var A_ENGORD_CFX_MEDIO   = document.getElementById("id_animais_gordo_capital_medio");
+                        var A_ENGORD_CFX_INICIAL = document.getElementById("id_animais_gordo_valor_inicial");
+                        var A_ENGORD_CFX_FINAL   = document.getElementById("id_animais_gordo_valor_final_ou_sucata");
+
+                        var A_TRAB_CFX_INICIAL  = document.getElementById("id_animais_trabalho_valor_inicial");
+                        var A_TRAB_CFX_FINAL    = document.getElementById("id_animais_trabalho_valor_final_ou_sucata");
+                        var A_TRAB_CFX_MEDIO    = document.getElementById("id_animais_trabalho_capital_medio");
+
+                        var CANA_VOLU_CFX_INICIAL = document.getElementById("id_canavial_ou_volumoso_valor_inicial");
+                        var CANA_VOLU_CFX_FINAL    =   document.getElementById("id_canavial_ou_volumoso_valor_final_ou_sucata");
+                        var CANA_VOLU_CFX_MEDIO    =   document.getElementById("id_canavial_ou_volumoso_capital_medio");
+
+                        var BEMFEITORIAS_CFX_INICIAL    = document.getElementById("id_benfeitorias_valor_inicial");
+                        var BEMFEITORIAS_CFX_FINAL      = document.getElementById("id_benfeitorias_valor_final_ou_sucata");
+                        var BEMFEITORIAS_CFX_MEDIO      = document.getElementById("id_benfeitorias_capital_medio");
+
+                        var cercasInicial                = document.getElementById("id_cercas_valor_inicial");
+                        var cercasFinal                  = document.getElementById("id_cercas_valor_final_ou_sucata");
+                        var cercasMedio                    = document.getElementById("id_cercas_capital_medio");
+
+                        var EDIF_CFX_INICIAL                = document.getElementById("id_edificacoes_valor_inicial");
+                        var EDIF_CFX_FINAL                  = document.getElementById("id_edificacoes_valor_final_ou_sucata");
+                        var EDIF_CFX_MEDIO                  = document.getElementById("id_edificacoes_capital_medio");
+
+
+                        var PASTAGEM_CFX_INICIAL    = document.getElementById("id_pastagem_valor_inicial");
+                        var PASTAGEM_CFX_FINAL      = document.getElementById("id_pastagem_valor_final_ou_sucata");
+                        var PASTAGEM_CFX_MEDIO      = document.getElementById("id_pastagem_capital_medio");
+
+                        function somaT(){
+                            tFX.innerHTML = (((((parseInt(maquina_ini.value)-parseInt(maquina_fin.value))/10)+parseInt(maquina_cap_medio.value)*10))+
+                            ((((parseInt(trato_ini.value)-parseInt(trato_fin.value))/5)+parseInt(trat_cap_medio.value)*10))+
+                            ((((parseInt(vaiculos_ini.value)-parseInt(vaiculos_fin.value))/20)+parseInt(vei_cap_medio.value)*10))+
+                                    (((parseInt(equip_ini.value)-parseInt(equip_fin.value))/10)+parseInt(equ_cap_medio.value)*10)+
+                                    (((parseInt(rep_mac_ini.value)-parseInt(rep_mac_fin.value))/25)+parseInt(rep_mac_medi.value)*10)+
+                                    (((parseInt(rep_feme_ini.value)-parseInt(rep_feme_fin.value))/10)+parseInt(femea_medio.value)*10)+
+                                    (((parseInt(A_ENGORD_CFX_INICIAL.value)-parseInt(A_ENGORD_CFX_FINAL.value))/10)+parseInt(A_ENGORD_CFX_MEDIO.value)*10)+
+                                    (((parseInt(A_TRAB_CFX_FINAL.value)-parseInt(A_TRAB_CFX_FINAL.value))/12)+parseInt(A_TRAB_CFX_MEDIO.value)*10)+
+                                    (((parseInt(CANA_VOLU_CFX_INICIAL.value)-parseInt(CANA_VOLU_CFX_FINAL.value))/25)+parseInt(CANA_VOLU_CFX_MEDIO.value)*10)+
+                                    (((parseInt(BEMFEITORIAS_CFX_INICIAL.value)-parseInt(BEMFEITORIAS_CFX_FINAL.value))/2)+parseInt(BEMFEITORIAS_CFX_MEDIO.value)*10)+
+                                    (((parseInt(cercasInicial.value)-parseInt(cercasFinal.value))/3)+parseInt(cercasMedio.value)*10)+
+                                    (((parseInt(EDIF_CFX_INICIAL.value)-parseInt(EDIF_CFX_FINAL.value))/3)+parseInt(EDIF_CFX_MEDIO.value)*10)+
+                                    (((parseInt(PASTAGEM_CFX_INICIAL.value)-parseInt(PASTAGEM_CFX_FINAL.value))/3)+parseInt(PASTAGEM_CFX_MEDIO.value)*10)).toFixed(2);
+
+                        }
+                        somaT();
+                        maquina_ini.addEventListener("keyup",somaT);
+                        maquina_fin.addEventListener("keyup",somaT);
+                        maquina_cap_medio.addEventListener("keyup",somaT);
+                        trato_ini.addEventListener("keyup",somaT);
+                        trato_fin.addEventListener("keyup",somaT);
+                        trat_cap_medio.addEventListener("keyup",somaT);
+                        vaiculos_ini.addEventListener("keyup",somaT);
+                        vaiculos_fin.addEventListener("keyup",somaT);
+                        vei_cap_medio.addEventListener("keyup",somaT);
+                        equ_cap_medio.addEventListener("keyup",somaT);
+                        equip_ini.addEventListener("keyup",somaT);
+                        equip_fin.addEventListener("keyup",somaT);
+                        rep_mac_medi.addEventListener("keyup",somaT);
+                        rep_mac_ini.addEventListener("keyup",somaT);
+                        rep_mac_fin.addEventListener("keyup",somaT);
+                        A_ENGORD_CFX_MEDIO.addEventListener("keyup",somaT);
+                        A_ENGORD_CFX_INICIAL.addEventListener("keyup",somaT);
+                        A_ENGORD_CFX_FINAL.addEventListener("keyup",somaT);
+                        A_TRAB_CFX_INICIAL.addEventListener("keyup",somaT);
+                        A_TRAB_CFX_FINAL.addEventListener("keyup",somaT);
+                        A_TRAB_CFX_MEDIO.addEventListener("keyup",somaT);
+                        CANA_VOLU_CFX_INICIAL.addEventListener("keyup",somaT);
+                        CANA_VOLU_CFX_FINAL.addEventListener("keyup",somaT);
+                        CANA_VOLU_CFX_MEDIO.addEventListener("keyup",somaT);
+
+                        BEMFEITORIAS_CFX_INICIAL.addEventListener("keyup",somaT);
+                        BEMFEITORIAS_CFX_FINAL.addEventListener("keyup",somaT);
+                        BEMFEITORIAS_CFX_MEDIO.addEventListener("keyup",somaT);
+                        cercasInicial.addEventListener("keyup",somaT);
+                        cercasFinal.addEventListener("keyup",somaT);
+                        cercasMedio.addEventListener("keyup",somaT);
+                        EDIF_CFX_INICIAL.addEventListener("keyup",somaT);
+                        EDIF_CFX_FINAL.addEventListener("keyup",somaT);
+                        EDIF_CFX_MEDIO.addEventListener("keyup",somaT);
+                        PASTAGEM_CFX_INICIAL.addEventListener("keyup",somaT);
+                        PASTAGEM_CFX_FINAL.addEventListener("keyup",somaT);
+                        PASTAGEM_CFX_MEDIO.addEventListener("keyup",somaT);
+
+
+
+
+
+                    </script>
                         <div style="top: 126%;left: 104%;position: absolute;">aqui</div>
                         
                 </div>
-
+<div style="top:-50%;position: absolute;left: 70%;width:45%;height:80%;">
             <h5 style="top: 116%;position: absolute;">Depreciação Mensal(R$)</h5>
             <span style="top: 117%;position: absolute;left:40%;">{{ form.Depreciacao_mensal }}</span>
 
@@ -735,7 +864,7 @@
                     <div style="top: 185%;position: absolute;left:40%;">{{ form.pastagem_dep }}</div>
                 <div style="top: 185%;position: absolute;left:60%;">70</div>
 
-
+</div>
 
                 <div class="row">
 

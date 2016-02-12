@@ -1099,6 +1099,8 @@ class FormEvolucaoRebanho(forms.ModelForm):
     nr_novilhos_maior14Arrouba_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     nr_novilhos_maior14Arrouba_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     nr_novilhos_maior14Arrouba_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_media                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior14Arrouba_peso_medio_media     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
     #Novilhos12-14
     nr_novilhos_maior12_14Arrouba_janeiro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
@@ -1125,6 +1127,8 @@ class FormEvolucaoRebanho(forms.ModelForm):
     nr_novilhos_maior12_14Arrouba_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     nr_novilhos_maior12_14Arrouba_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     nr_novilhos_maior12_14Arrouba_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_media                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior12_14Arrouba_peso_medio_media     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
     #Novilhos ate12
     nr_novilhos_maior_ate12Arrouba_janeiro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
@@ -1151,6 +1155,10 @@ class FormEvolucaoRebanho(forms.ModelForm):
     nr_novilhos_maior_ate12Arrouba_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     nr_novilhos_maior_ate12Arrouba_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     nr_novilhos_maior_ate12Arrouba_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_media                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhos_maior_ate12Arrouba_peso_medio_media     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+
+
 
     #novilhas ate 12 arroubas
     nr_novilhas_ate12Arrouba_janeiro                 = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
@@ -1177,6 +1185,8 @@ class FormEvolucaoRebanho(forms.ModelForm):
     nr_novilhas_ate12Arrouba_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     nr_novilhas_ate12Arrouba_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     nr_novilhas_ate12Arrouba_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_media                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_novilhas_ate12Arrouba_peso_medio_media     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
     #numero de bezerros
 
@@ -1204,6 +1214,8 @@ class FormEvolucaoRebanho(forms.ModelForm):
     nr_bezerros_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     nr_bezerros_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     nr_bezerros_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_media                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerros_peso_medio_media     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
     #numero de bezerras
 
@@ -1231,6 +1243,8 @@ class FormEvolucaoRebanho(forms.ModelForm):
     nr_bezerras_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     nr_bezerras_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     nr_bezerras_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_media                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_bezerras_peso_medio_media     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
     #numero de outros
 
@@ -1258,6 +1272,8 @@ class FormEvolucaoRebanho(forms.ModelForm):
     nr_outros_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     nr_outros_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     nr_outros_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_media                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_outros_peso_medio_media     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
     #numero de equideos
 
@@ -1285,6 +1301,8 @@ class FormEvolucaoRebanho(forms.ModelForm):
     nr_equideos_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     nr_equideos_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     nr_equideos_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_media                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    nr_equideos_peso_medio_media     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
     #total cabecas
 
@@ -1312,6 +1330,8 @@ class FormEvolucaoRebanho(forms.ModelForm):
     total_cabecas_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     total_cabecas_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     total_cabecas_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_media                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    total_cabecas_peso_medio_media     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
     #Estoque em arroubas
 
@@ -1339,6 +1359,8 @@ class FormEvolucaoRebanho(forms.ModelForm):
     estoque_em_arroubas_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     estoque_em_arroubas_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     estoque_em_arroubas_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_media                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    estoque_em_arroubas_peso_medio_media     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
     #area util ha
 
@@ -1366,6 +1388,8 @@ class FormEvolucaoRebanho(forms.ModelForm):
     area_util_peso_medio_novembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     area_util_dezembro                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     area_util_peso_medio_dezembro     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_media                = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
+    area_util_peso_medio_media     = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
 
     media_martriz    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))
     media_peso_matriz    = forms.FloatField(widget=forms.TextInput(attrs={"style":"width:20%;"}))

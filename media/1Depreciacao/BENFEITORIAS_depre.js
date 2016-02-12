@@ -4,7 +4,7 @@
     function benfeitorias_dep(){
          BEMFEITORIAS_depreciacao.innerHTML =
              ((parseInt(BEMFEITORIAS_depreciacao_INICIAL.value)-
-             parseInt(BEMFEITORIAS_depreciacao_FINAL.value))/2).tofixed(2);
+             parseInt(BEMFEITORIAS_depreciacao_FINAL.value))/2).toFixed(2);
 
 
     }
